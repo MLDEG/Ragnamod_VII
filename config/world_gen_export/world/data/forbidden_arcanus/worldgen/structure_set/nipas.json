@@ -1,0 +1,18 @@
+{
+	"placement": {
+		"salt": 710359251,
+		"separation": 8,
+		"spacing": 35,
+		"type": "minecraft:random_spread"
+	},
+	"structures": [
+		{
+			"structure": "forbidden_arcanus:nipa",
+			"weight": 1
+		},
+		{
+			"structure": "forbidden_arcanus:nipa_always_floating",
+			"weight": 1
+		}
+	]
+}

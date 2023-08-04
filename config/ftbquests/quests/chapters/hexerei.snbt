@@ -1,0 +1,226 @@
+{
+	id: "5BFC3BEE30EAEBFE"
+	group: ""
+	order_index: 18
+	filename: "hexerei"
+	title: "Hexerei"
+	icon: {
+		id: "hexerei:book_of_shadows"
+		Count: 1b
+		tag: {
+			bookmarks: { }
+			chapter: 0
+			opened: 0b
+			page: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "0A5E91F6FDAEE9EF"
+			tasks: [{
+				id: "6A5F0BDF72E6D6AF"
+				type: "item"
+				item: "hexerei:candle_dipper"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "1A69D43B206242FB"
+			tasks: [{
+				id: "24413348E4D17909"
+				type: "item"
+				item: "hexerei:dowsing_rod"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "68DB6565A81015C2"
+			tasks: [{
+				id: "467A9C0E50DCB221"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "4FFB53CB5468C75A"
+			tasks: [{
+				id: "09021EBA87672D2C"
+				type: "item"
+				item: "hexerei:book_of_shadows_altar"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "5EE8C827D067ED06"
+			tasks: [{
+				id: "131A2CC2B2BB9B83"
+				type: "item"
+				item: {
+					id: "hexerei:mahogany_broom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "7C0951CA1B3F214F"
+			tasks: [{
+				id: "7CAEB2BFDF91034E"
+				type: "item"
+				item: {
+					id: "hexerei:willow_broom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "5D02F4028B66F7E7"
+			tasks: [
+				{
+					id: "192DC247974626A1"
+					type: "item"
+					item: {
+						id: "hexerei:witch_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AE3628E38CE860D"
+					type: "item"
+					item: {
+						id: "hexerei:witch_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BB8F5910387B402"
+					type: "item"
+					item: {
+						id: "hexerei:witch_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "2CE01A1BB21AD817"
+			tasks: [{
+				id: "6A1E7A586BD8B527"
+				type: "item"
+				item: "hexerei:pestle_and_mortar"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "327E14E8EA88152B"
+			tasks: [{
+				id: "60FB083984C21C57"
+				type: "item"
+				item: "hexerei:seed_mixture"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "4F651994273D3B6A"
+			tasks: [
+				{
+					id: "0C6A630F89AC81A6"
+					type: "item"
+					item: "hexerei:herb_drying_rack"
+				}
+				{
+					id: "1FEEAADEE71B60FF"
+					type: "item"
+					item: "hexerei:herb_drying_rack_full"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "0CF42CD001F7B9E6"
+			tasks: [{
+				id: "223EEAFE03836ADE"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "592AB2506CBCBAC7"
+			tasks: [{
+				id: "110A87F24EDB51D2"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "7AF425FB03F28C21"
+			tasks: [{
+				id: "317A841FFD3AAF60"
+				type: "item"
+				item: "hexerei:blood_sigil"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "57AA2DEC43481852"
+			tasks: [{
+				id: "03E17A9596E17393"
+				type: "item"
+				item: "hexerei:blood_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "17C55C73B8D8106D"
+			tasks: [{
+				id: "4B6C5CE5B50C1802"
+				type: "item"
+				item: "hexerei:infused_fabric"
+				count: 17L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,8 @@
+{
+	"feature": "quark:deferred_feature_raw_generation",
+	"placement": [
+		{
+			"type": "quark:chunk_corner"
+		}
+	]
+}

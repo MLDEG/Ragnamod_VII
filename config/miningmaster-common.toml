@@ -1,0 +1,36 @@
+#Determines if Fire Ruby will generate.
+fireRubyEnabled = true
+#Determines if Ice Sapphire will generate.
+iceSapphireEnabled = true
+#Determines if Spirit Garnet will generate.
+spiritGarnetEnabled = true
+#Determines if Haste Peridot will generate.
+hastePeridotEnabled = true
+#Determines if Lucky Citrine will generate.
+luckyCitrineEnabled = true
+#Determines if Dive Aquamarine will generate.
+diveAquamarineEnabled = true
+#Determines if Heart Rhodonite will generate.
+heartRhodoniteEnabled = true
+#Determines if Power Pyrite will generate.
+powerPyriteEnabled = true
+#Determines if Kinetic Opal will generate.
+kineticOpalEnabled = true
+#Determines if Air Malachite will generate.
+airMalachiteEnabled = true
+#Determines how many times common gems will attempt to spawn per chunk in their native biomes. REQUIRES RESTART.
+#Range: 0 ~ 100
+commonGemsPerChunk = 6
+#Determines how many times rare gems will attempt to spawn per chunk in their native biomes. REQUIRES RESTART.
+#Range: 0 ~ 100
+rareGemsPerChunk = 3
+#Determines how many times a random gem ore will attempt to spawn per chunk. REQUIRES RESTART.
+#Range: 0 ~ 100
+randomGemsPerChunk = 3
+#Determines if Divine Beryl will generate.
+divineBerylEnabled = true
+#Determines if Spider Kunzite will generate.
+spiderKunziteEnabled = true
+#Determines if Unbreaking Iolite will generate.
+unbreakingIoliteEnabled = true
+

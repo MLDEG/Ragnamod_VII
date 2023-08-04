@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "DSD",
+    "PPP"
+  ],
+  "key": {
+    "S": {
+      "item": "beyond_earth:compressed_desh"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "compactcrafting:base",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"adapt_noise": true,
+	"biomes": "#beyond_earth:has_structure/pygro_village_biomes",
+	"config": {
+		"size": 25,
+		"start_pool": "beyond_earth:crimson_village/crimson_start"
+	},
+	"spawn_overrides": { },
+	"type": "beyond_earth:pygro_village"
+}

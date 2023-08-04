@@ -1,0 +1,80 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"input_predicate": {
+						"block": "blue_skies:coarse_lunar_dirt",
+						"predicate_type": "minecraft:block_match"
+					},
+					"location_predicate": {
+						"block": "minecraft:water",
+						"predicate_type": "minecraft:block_match"
+					},
+					"output_state": {
+						"Name": "blue_skies:maple_planks"
+					}
+				},
+				{
+					"input_predicate": {
+						"block": "blue_skies:coarse_lunar_dirt",
+						"predicate_type": "minecraft:block_match"
+					},
+					"location_predicate": {
+						"block": "blue_skies:crystal_sand",
+						"predicate_type": "minecraft:block_match"
+					},
+					"output_state": {
+						"Name": "blue_skies:crystal_sandstone"
+					}
+				},
+				{
+					"input_predicate": {
+						"block": "blue_skies:coarse_lunar_dirt",
+						"predicate_type": "minecraft:random_block_match",
+						"probability": 0.2
+					},
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"output_state": {
+						"Name": "blue_skies:lunar_grass_block",
+						"Properties": {
+							"snowy": "false"
+						}
+					}
+				},
+				{
+					"input_predicate": {
+						"block": "blue_skies:lunar_grass_block",
+						"predicate_type": "minecraft:block_match"
+					},
+					"location_predicate": {
+						"block": "minecraft:water",
+						"predicate_type": "minecraft:block_match"
+					},
+					"output_state": {
+						"Name": "minecraft:water",
+						"Properties": {
+							"level": "0"
+						}
+					}
+				},
+				{
+					"input_predicate": {
+						"block": "blue_skies:lunar_dirt",
+						"predicate_type": "minecraft:block_match"
+					},
+					"location_predicate": {
+						"block": "minecraft:water",
+						"predicate_type": "minecraft:block_match"
+					},
+					"output_state": {
+						"Name": "blue_skies:maple_planks"
+					}
+				}
+			]
+		}
+	]
+}

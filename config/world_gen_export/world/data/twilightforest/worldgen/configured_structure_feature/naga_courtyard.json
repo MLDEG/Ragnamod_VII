@@ -1,0 +1,7 @@
+{
+	"adapt_noise": true,
+	"biomes": "#twilightforest:valid_naga_courtyard_biomes",
+	"config": { },
+	"spawn_overrides": { },
+	"type": "twilightforest:naga_courtyard"
+}

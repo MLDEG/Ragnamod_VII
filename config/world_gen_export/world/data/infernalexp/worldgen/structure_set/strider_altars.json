@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"salt": 80837592,
+		"separation": 4,
+		"spacing": 8,
+		"type": "minecraft:random_spread"
+	},
+	"structures": [
+		{
+			"structure": "infernalexp:strider_altar",
+			"weight": 1
+		}
+	]
+}

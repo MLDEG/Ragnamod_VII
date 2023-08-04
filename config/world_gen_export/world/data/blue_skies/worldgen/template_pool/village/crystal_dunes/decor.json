@@ -1,0 +1,39 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/crystal_dunes/decor/lamp",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 5
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/crystal_dunes/decor/campfire",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "minecraft:empty",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 15
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "blue_skies:village/crystal_dunes/decor"
+}

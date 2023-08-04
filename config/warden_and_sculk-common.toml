@@ -1,0 +1,49 @@
+
+#Warden Values
+[Warden]
+	#This is the value of the health of Warden. Default: 500
+	#Range: > 1
+	"Warden Health" = 500
+	#Value for the speed of Warden. Default: 0.2125
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	"Warden Speed" = 0.2125
+	#Value for the range of Warden. Default: 22
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	"Warden Range" = 22.0
+	#Value for attack value of Warden. Default: 30 (In normal)
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	"Warden Attack" = 30.0
+	#Uncheck to disable Warden generation. Default: true
+	"Warden Generation" = true
+
+#Sculk Generation Values
+[SculkGen]
+	#Enable Sculk Catalyst. Default: true
+	"Sculk Propagation" = true
+	#Enable Sculk Biome. Default: true
+	"Sculk Biome" = true
+	#This is the min random value to generate Ancient Cities. Default: -58
+	#Range: -63 ~ 230
+	"Min Ancient City Generation" = -58
+	#This is the max random value to generate Ancient Cities. Default: -45
+	#Range: -40 ~ 256
+	"Max Ancient City Generation" = -40
+	#Enable Ancient Cities. Default: true
+	"Ancient City Generation" = true
+	#If you don't want to generate Sculk Biome as biome change this to true and disable the option Sculk Biome. Default: false
+	"Sculk Blobs" = false
+	#Where the sculk blobs can generate (Enable first sculk blobs). Default:minecraft:plains, minecraft:taiga, minecraft:savanna
+	"Sculk Blobs Biomes" = ["minecraft:plains", "minecraft:taiga", "minecraft:savanna"]
+
+#Effects like darkness...
+[Effects]
+	#This sets the max range of Darkness effect. Default: 2.8
+	#Range: 0.1 ~ 10.0
+	"Darkness Range" = 2.8
+	#This sets the speed of Darkness effect (Related to range). Default: 1
+	#Range: 0.0 ~ 6.0
+	"Darkness Speed" = 1.0
+	#You can increase the charge sculk can contain. Default: 35
+	#Range: 1 ~ 100
+	"Sculk Charge" = 35
+

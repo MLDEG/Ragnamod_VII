@@ -1,0 +1,16 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "tag": "forge:ores/gold"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/cuttingfluid"
+  },
+  "output": {
+    "item": "thermal:gold_dust",
+    "count": 3
+  },
+  "consumeingredient": false,
+  "mainoutputchance": 0.0
+}

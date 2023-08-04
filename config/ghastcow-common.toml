@@ -1,0 +1,6 @@
+
+#Summon settings
+[summon]
+	#When enabled requires the cow to be renamed to "ghast" before getting killed by a ghast
+	showPercentage = false
+

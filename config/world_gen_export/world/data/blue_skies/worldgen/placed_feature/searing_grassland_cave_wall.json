@@ -1,0 +1,27 @@
+{
+	"feature": "blue_skies:searing_grassland_cave_wall",
+	"placement": [
+		{
+			"count": 7,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 29
+				},
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

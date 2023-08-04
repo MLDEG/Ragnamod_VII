@@ -1,0 +1,42 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 3,
+  "layers": [
+    {
+      "type": "compactcrafting:filled",
+      "component": "A"
+    },
+    {
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["A", "A", "A"],
+        ["A", "B", "A"],
+        ["A", "A", "A"]
+      ]
+    },
+    {
+      "type": "compactcrafting:filled",
+      "component": "A"
+    }
+  ],
+  "catalyst": {
+    "id": "thermal:redstone_servo",
+    "Count": 1
+  },
+  "components": {
+    "A": {
+      "type": "compactcrafting:block",
+      "block": "mekanismadditions:black_plastic"
+    },
+    "B": {
+      "type": "compactcrafting:block",
+      "block": "mekanism:steel_casing"
+    }
+  },
+  "outputs": [
+    {
+      "id": "hostilenetworks:machine_frame",
+      "Count": 1
+    }
+  ]
+}

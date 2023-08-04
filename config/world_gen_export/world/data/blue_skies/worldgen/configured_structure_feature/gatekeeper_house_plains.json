@@ -1,0 +1,33 @@
+{
+	"adapt_noise": true,
+	"biomes": [
+		"minecraft:plains",
+		"minecraft:sunflower_plains",
+		"minecraft:meadow",
+		"byg:allium_fields",
+		"byg:amaranth_fields",
+		"byg:prairie",
+		"mythicbotany:alfheim_plains",
+		"mythicbotany:alfheim_hills",
+		"mythicbotany:golden_fields",
+		"byg:temperate_grove",
+		"byg:coconino_meadow",
+		"byg:rose_fields",
+		"byg:sierra_badlands",
+		"minecraft:savanna",
+		"minecraft:savanna_plateau",
+		"byg:baobab_savanna",
+		"byg:araucaria_savanna"
+	],
+	"config": {
+		"size": 7,
+		"start_pool": "blue_skies:gatekeeper/plains/main"
+	},
+	"spawn_overrides": {
+		"monster": {
+			"bounding_box": "piece",
+			"spawns": []
+		}
+	},
+	"type": "blue_skies:gatekeeper_house"
+}

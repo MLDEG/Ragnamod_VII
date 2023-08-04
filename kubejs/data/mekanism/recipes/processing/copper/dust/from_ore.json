@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ores/copper"
+        }
+    },
+    "output": {
+        "item": "thermal:copper_dust",
+        "count": 2
+    }
+}

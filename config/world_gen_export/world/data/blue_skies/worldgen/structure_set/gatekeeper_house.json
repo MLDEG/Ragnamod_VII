@@ -1,0 +1,24 @@
+{
+	"placement": {
+		"allowed_near_spawn": false,
+		"offset": 16,
+		"probability": 0.75,
+		"seed": 708855294,
+		"spacing": 33,
+		"type": "structure_gel:gel_placement"
+	},
+	"structures": [
+		{
+			"structure": "blue_skies:gatekeeper_house_mountain",
+			"weight": 1
+		},
+		{
+			"structure": "blue_skies:gatekeeper_house_plains",
+			"weight": 1
+		},
+		{
+			"structure": "blue_skies:gatekeeper_house_snowy",
+			"weight": 1
+		}
+	]
+}

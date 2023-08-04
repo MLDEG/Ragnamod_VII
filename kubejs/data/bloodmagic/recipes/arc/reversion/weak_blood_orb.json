@@ -1,0 +1,15 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "item": "bloodmagic:weakbloodorb"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/reverter"
+  },
+  "output": {
+    "item": "evilcraft:blood_orb_filled"
+  },
+  "consumeingredient": true,
+  "mainoutputchance": 0.0
+}

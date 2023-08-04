@@ -1,0 +1,61 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/decor/small_mushroom",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/decor/mushroom_basket",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/decor/lamp",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/decor/oven",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "minecraft:empty",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "blue_skies:village/slushlands/decor"
+}

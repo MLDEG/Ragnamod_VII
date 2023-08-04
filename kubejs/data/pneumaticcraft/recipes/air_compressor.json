@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "I T", "IFI"],
+  "key": {
+    "I": {
+      "tag": "pneumaticcraft:reinforced_stone_bricks"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "F": {
+      "item": "immersiveengineering:generator"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:air_compressor"
+  }
+}

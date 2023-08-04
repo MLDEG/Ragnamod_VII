@@ -1,0 +1,26 @@
+{
+	"config": {
+		"discard_chance_on_air_exposure": 0.0,
+		"targets": [
+			{
+				"state": {
+					"Name": "miningmaster:ice_sapphire_ore"
+				},
+				"target": {
+					"predicate_type": "minecraft:tag_match",
+					"tag": "minecraft:stone_ore_replaceables"
+				}
+			},
+			{
+				"state": {
+					"Name": "miningmaster:deepslate_ice_sapphire_ore"
+				},
+				"target": {
+					"predicate_type": "minecraft:tag_match",
+					"tag": "minecraft:deepslate_ore_replaceables"
+				}
+			}
+		]
+	},
+	"type": "miningmaster:native_gem_ore_feature"
+}

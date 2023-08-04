@@ -1,0 +1,12 @@
+{
+	"feature": "blue_skies:blaze_bud_rpc_c",
+	"placement": [
+		{
+			"predicate": {
+				"blocks": "minecraft:air",
+				"type": "minecraft:matching_blocks"
+			},
+			"type": "minecraft:block_predicate_filter"
+		}
+	]
+}

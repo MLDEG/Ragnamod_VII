@@ -1,0 +1,300 @@
+
+#Configure advancements
+[advancements]
+	#Enable/Disable the Thank You 6M advancement
+	enableThankYou6M = true
+
+#Configure Items
+[items]
+
+	#coal equipment Configuration
+	[items.coal]
+		#coal armor: enable/disable full set effects
+		enableArmorEffects = true
+		#coal weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#lapis equipment Configuration
+	[items.lapis]
+		#lapis armor: enable/disable full set effects
+		enableArmorEffects = true
+		#lapis weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#redstone equipment Configuration
+	[items.redstone]
+		#redstone armor: enable/disable full set effects
+		enableArmorEffects = true
+		#redstone weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#chicken equipment Configuration
+	[items.chicken]
+		#chicken armor: enable/disable full set effects
+		enableArmorEffects = true
+		#chicken weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#slime equipment Configuration
+	[items.slime]
+		#slime armor: enable/disable full set effects
+		enableArmorEffects = true
+		#slime weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#emerald equipment Configuration
+	[items.emerald]
+		#emerald armor: enable/disable full set effects
+		enableArmorEffects = true
+		#emerald weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#obsidian equipment Configuration
+	[items.obsidian]
+		#obsidian armor: enable/disable full set effects
+		enableArmorEffects = true
+		#obsidian weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#infused_lava equipment Configuration
+	[items.infused_lava]
+		#infused_lava armor: enable/disable full set effects
+		enableArmorEffects = true
+		#infused_lava weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+		#Infused Lava Extra 
+		[items.infused_lava.extra]
+			#Infused Lava Tools: Smelting Recipe Input (Blocks)
+			smeltingInput = ["minecraft:iron_ore", "minecraft:gold_ore", "minecraft:sand", "minecraft:sandstone", "minecraft:wet_sponge", "minecraft:clay", "minecraft:stone_bricks", "minecraft:cobblestone", "minecraft:stone", "minecraft:acacia_log", "minecraft:birch_log", "minecraft:dark_oak_log", "minecraft:jungle_log", "minecraft:oak_log", "minecraft:spruce_log", "minecraft:netherrack", "minecraft:ancient_debris", "minecraft:stone_bricks", "armorplus:ore_lava_crystal", "armorplus:ore_frost_crystal"]
+			#Infused Lava Tools: Smelting Recipe Output (Items)
+			smeltingOutput = ["minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:glass", "minecraft:smooth_sandstone", "minecraft:sponge", "minecraft:terracotta", "minecraft:cracked_stone_bricks", "minecraft:stone", "minecraft:stone", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:nether_brick", "minecraft:netherite_scrap", "minecraft:cracked_stone_bricks", "armorplus:infused_lava_crystal", "armorplus:infused_frost_crystal"]
+
+	#frost equipment Configuration
+	[items.frost]
+		#frost armor: enable/disable full set effects
+		enableArmorEffects = true
+		#frost weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#frost_lava equipment Configuration
+	[items.frost_lava]
+		#frost_lava armor: enable/disable full set effects
+		enableArmorEffects = true
+		#frost_lava weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#guardian equipment Configuration
+	[items.guardian]
+		#guardian armor: enable/disable full set effects
+		enableArmorEffects = true
+		#guardian weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#super_star equipment Configuration
+	[items.super_star]
+		#super_star armor: enable/disable full set effects
+		enableArmorEffects = true
+		#super_star weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#ender_dragon equipment Configuration
+	[items.ender_dragon]
+		#ender_dragon armor: enable/disable full set effects
+		enableArmorEffects = true
+		#ender_dragon weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#slayer equipment Configuration
+	[items.slayer]
+		#slayer armor: enable/disable full set effects
+		enableArmorEffects = true
+		#slayer weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+	#enhanced equipment Configuration
+	[items.enhanced]
+		#enhanced armor: enable/disable full set effects
+		enableArmorEffects = true
+		#enhanced weapons: enable/disable on hit effects
+		enableWeaponEffects = true
+
+[world_gen]
+
+	#Customize the world generation of ore
+	[world_gen.lava_crystal_stone]
+		#enable/disable their world generation
+		enable = false
+		#Set the vein size
+		#Range: 0 ~ 254
+		vein_size = 5
+		#Set the air exposure %, Example: 
+		#0.0% will have no air exposed ores generated, 1.0 will make all ores be air exposed
+		#Range: 0.0 ~ 1.0
+		exposure = 0.5
+		#Set the min Y, Example: 
+		#minY: -30 - Sets the minimum Y height to -30.
+		#Range: -63 ~ 318
+		minY = 0
+		#Set the max Y, Example: 
+		#maxY: 280 - Sets the maximum Y height to 200.
+		#Range: -63 ~ 318
+		maxY = 200
+
+	#Customize the world generation of ore
+	[world_gen.lava_crystal_obsidian]
+		#enable/disable their world generation
+		enable = true
+		#Set the vein size
+		#Range: 0 ~ 254
+		vein_size = 4
+		#Set the air exposure %, Example: 
+		#0.0% will have no air exposed ores generated, 1.0 will make all ores be air exposed
+		#Range: 0.0 ~ 1.0
+		exposure = 0.3
+		#Set the min Y, Example: 
+		#minY: -30 - Sets the minimum Y height to -30.
+		#Range: -63 ~ 318
+		minY = -30
+		#Set the max Y, Example: 
+		#maxY: 280 - Sets the maximum Y height to 200.
+		#Range: -63 ~ 318
+		maxY = 0
+
+	#Customize the world generation of ore
+	[world_gen.lava_crystal_compressed]
+		#enable/disable their world generation
+		enable = false
+		#Set the vein size
+		#Range: 0 ~ 254
+		vein_size = 3
+		#Set the air exposure %, Example: 
+		#0.0% will have no air exposed ores generated, 1.0 will make all ores be air exposed
+		#Range: 0.0 ~ 1.0
+		exposure = 0.1
+		#Set the min Y, Example: 
+		#minY: -30 - Sets the minimum Y height to -30.
+		#Range: -63 ~ 318
+		minY = -60
+		#Set the max Y, Example: 
+		#maxY: 280 - Sets the maximum Y height to 200.
+		#Range: -63 ~ 318
+		maxY = -30
+
+	#Customize the world generation of ore
+	[world_gen.frost_crystal_stone]
+		#enable/disable their world generation
+		enable = false
+		#Set the vein size
+		#Range: 0 ~ 254
+		vein_size = 5
+		#Set the air exposure %, Example: 
+		#0.0% will have no air exposed ores generated, 1.0 will make all ores be air exposed
+		#Range: 0.0 ~ 1.0
+		exposure = 0.5
+		#Set the min Y, Example: 
+		#minY: -30 - Sets the minimum Y height to -30.
+		#Range: -63 ~ 318
+		minY = 50
+		#Set the max Y, Example: 
+		#maxY: 280 - Sets the maximum Y height to 200.
+		#Range: -63 ~ 318
+		maxY = 200
+
+	#Customize the world generation of ore
+	[world_gen.frost_crystal_obsidian]
+		#enable/disable their world generation
+		enable = true
+		#Set the vein size
+		#Range: 0 ~ 254
+		vein_size = 4
+		#Set the air exposure %, Example: 
+		#0.0% will have no air exposed ores generated, 1.0 will make all ores be air exposed
+		#Range: 0.0 ~ 1.0
+		exposure = 0.3
+		#Set the min Y, Example: 
+		#minY: -30 - Sets the minimum Y height to -30.
+		#Range: -63 ~ 318
+		minY = -30
+		#Set the max Y, Example: 
+		#maxY: 280 - Sets the maximum Y height to 200.
+		#Range: -63 ~ 318
+		maxY = 0
+
+	#Customize the world generation of ore
+	[world_gen.frost_crystal_compressed]
+		#enable/disable their world generation
+		enable = false
+		#Set the vein size
+		#Range: 0 ~ 254
+		vein_size = 3
+		#Set the air exposure %, Example: 
+		#0.0% will have no air exposed ores generated, 1.0 will make all ores be air exposed
+		#Range: 0.0 ~ 1.0
+		exposure = 0.1
+		#Set the min Y, Example: 
+		#minY: -30 - Sets the minimum Y height to -30.
+		#Range: -63 ~ 318
+		minY = -60
+		#Set the max Y, Example: 
+		#maxY: 280 - Sets the maximum Y height to 200.
+		#Range: -63 ~ 318
+		maxY = -30
+
+#Enchantment Configuration
+[enchantments]
+	#is a list of registry names that will not work with the enchantment "Soul Harden"
+	disallowWithSoulHardenList = ["minecraft:mending", "minecraft:unbreaking", "minecraft:vanishing_curse"]
+
+#Mob Drops Configuration
+[drops]
+
+	#wither_boss drop configuration
+	[drops.wither_boss]
+		#ArmorPlus's wither_boss regular drops (the default mob drops): enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's wither_boss soul drops (acquired via the use of Soul Stealer): enable/disable
+		enableSoulDrops = true
+
+	#ender_dragon drop configuration
+	[drops.ender_dragon]
+		#ArmorPlus's ender_dragon regular drops (the default mob drops): enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's ender_dragon soul drops (acquired via the use of Soul Stealer): enable/disable
+		enableSoulDrops = true
+
+	#elder_guardian drop configuration
+	[drops.elder_guardian]
+		#ArmorPlus's elder_guardian regular drops (the default mob drops): enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's elder_guardian soul drops (acquired via the use of Soul Stealer): enable/disable
+		enableSoulDrops = true
+
+	#wither_skeleton drop configuration
+	[drops.wither_skeleton]
+		#ArmorPlus's wither_skeleton regular drops (the default mob drops): enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's wither_skeleton soul drops (acquired via the use of Soul Stealer): enable/disable
+		enableSoulDrops = true
+
+	#guardian drop configuration
+	[drops.guardian]
+		#ArmorPlus's guardian regular drops (the default mob drops): enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's guardian soul drops (acquired via the use of Soul Stealer): enable/disable
+		enableSoulDrops = true
+
+	#enderman drop configuration
+	[drops.enderman]
+		#ArmorPlus's enderman regular drops (the default mob drops): enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's enderman soul drops (acquired via the use of Soul Stealer): enable/disable
+		enableSoulDrops = true
+
+	#blaze drop configuration
+	[drops.blaze]
+		#ArmorPlus's blaze regular drops (the default mob drops): enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's blaze soul drops (acquired via the use of Soul Stealer): enable/disable
+		enableSoulDrops = true
+

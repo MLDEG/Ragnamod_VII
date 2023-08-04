@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"salt": 1224466880,
+		"separation": 11,
+		"spacing": 16,
+		"type": "minecraft:random_spread"
+	},
+	"structures": [
+		{
+			"structure": "beyond_earth:oil_well",
+			"weight": 1
+		}
+	]
+}

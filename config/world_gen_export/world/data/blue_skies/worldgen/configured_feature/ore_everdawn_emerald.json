@@ -1,0 +1,18 @@
+{
+	"config": {
+		"targets": [
+			{
+				"state": {
+					"Name": "blue_skies:everdawn_emerald_ore"
+				},
+				"target": {
+					"block_state": {
+						"Name": "blue_skies:lunar_stone"
+					},
+					"predicate_type": "minecraft:blockstate_match"
+				}
+			}
+		]
+	},
+	"type": "minecraft:replace_single_block"
+}

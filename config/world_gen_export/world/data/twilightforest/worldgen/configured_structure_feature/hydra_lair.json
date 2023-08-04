@@ -1,0 +1,6 @@
+{
+	"biomes": "#twilightforest:valid_hydra_lair_biomes",
+	"config": { },
+	"spawn_overrides": { },
+	"type": "twilightforest:hydra_lair"
+}

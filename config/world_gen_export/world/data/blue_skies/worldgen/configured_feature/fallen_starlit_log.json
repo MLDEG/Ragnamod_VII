@@ -1,0 +1,11 @@
+{
+	"config": {
+		"state": {
+			"Name": "blue_skies:starlit_log",
+			"Properties": {
+				"axis": "y"
+			}
+		}
+	},
+	"type": "blue_skies:fallen_log"
+}

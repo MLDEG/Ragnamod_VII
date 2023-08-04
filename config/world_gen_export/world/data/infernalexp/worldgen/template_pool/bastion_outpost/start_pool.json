@@ -1,0 +1,51 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/desolate_bastion_outpost_1",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/desolate_bastion_outpost_2",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/desolate_bastion_outpost_3",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/desolate_bastion_outpost_4",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/desolate_bastion_outpost_5",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "infernalexp:bastion_outpost/start_pool"
+}

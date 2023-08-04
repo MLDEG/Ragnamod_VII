@@ -1,0 +1,10 @@
+{
+	"adapt_noise": true,
+	"biomes": "blue_skies:shaded_woodlands",
+	"config": {
+		"size": 6,
+		"start_pool": "blue_skies:village/shaded_woodlands/town_centers"
+	},
+	"spawn_overrides": { },
+	"type": "blue_skies:village"
+}

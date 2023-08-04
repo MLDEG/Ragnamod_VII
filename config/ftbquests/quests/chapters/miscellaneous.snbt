@@ -1,0 +1,2159 @@
+{
+	id: "2F831E3421874107"
+	group: ""
+	order_index: 3
+	filename: "miscellaneous"
+	title: " Miscellaneous"
+	icon: "ftbquests:book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "25F4AED371611E14"
+			tasks: [
+				{
+					id: "3280233C60FD2051"
+					type: "item"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "79A42AEFB038FB46"
+					type: "item"
+					item: "pipez:fluid_pipe"
+				}
+				{
+					id: "057677EFD4DB13CF"
+					type: "item"
+					item: "pipez:energy_pipe"
+				}
+				{
+					id: "2BCBEE947755D6F3"
+					type: "item"
+					item: "pipez:wrench"
+				}
+				{
+					id: "5C3340F790A246BF"
+					type: "item"
+					item: "pipez:basic_upgrade"
+				}
+				{
+					id: "3CB949091FC4500A"
+					type: "item"
+					item: "pipez:filter_destination_tool"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "64D55CA17E773A10"
+			tasks: [
+				{
+					id: "500F12FD8FEEFDA5"
+					type: "item"
+					item: {
+						id: "justhammers:stone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "121611765A0E3682"
+					type: "item"
+					item: {
+						id: "justhammers:stone_reinforced_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "66CC292233105671"
+			tasks: [{
+				id: "5F975C422630CB58"
+				type: "item"
+				item: "botanypots:terracotta_hopper_botany_pot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "050A2CD317C300A8"
+			tasks: [{
+				id: "69AF1172472D89FC"
+				type: "item"
+				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "02D769726E83C8E8"
+			tasks: [{
+				id: "7A8D1FDE850EDC44"
+				type: "item"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "3E72D0D5D73F385A"
+			tasks: [{
+				id: "29C926FFBB865FC0"
+				type: "item"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "59BAC70CFBA8811F"
+			tasks: [{
+				id: "36FF4966A119B3E8"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "2317EF6D7592EDC6"
+			tasks: [{
+				id: "31430EED1123CBF8"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "7B1B4BB8E83181B0"
+			tasks: [{
+				id: "1154381A316BABC9"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "210B3504443B45BA"
+			tasks: [{
+				id: "623B7908101A95C2"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			id: "3E885DC660C9F10B"
+			tasks: [{
+				id: "4F8B96B0602FD0E3"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			id: "2D12BB615977C500"
+			tasks: [{
+				id: "5437A7DA1D988676"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			id: "6C58F245F608D715"
+			tasks: [{
+				id: "674271BEFF4A6F9E"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "178FE177270B3065"
+			tasks: [{
+				id: "7D4E5A3D905716F0"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "269D21923CB857A7"
+			tasks: [{
+				id: "0FCF442D9B0E3FD4"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+						contentsUuid: [I;
+							-2113989065
+							-1985982540
+							-1876073160
+							1798292829
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "5378CA948429B7B3"
+			tasks: [{
+				id: "1138047A7103B267"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:iron_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 54
+						upgradeSlots: 2
+						contentsUuid: [I;
+							275470343
+							940199122
+							-1252331636
+							-1386843488
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "71FDCBC2A8D9BD0E"
+			tasks: [{
+				id: "48CBDAFCD1C6176C"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:gold_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 81
+						upgradeSlots: 3
+						contentsUuid: [I;
+							-1993537003
+							1939358802
+							-1933970948
+							978014091
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			id: "65E3040EFE9F7C72"
+			tasks: [{
+				id: "5A94BF7066954988"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:diamond_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 108
+						upgradeSlots: 5
+						contentsUuid: [I;
+							1731069471
+							300630149
+							-1713974947
+							907167281
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			id: "083C4D3950305289"
+			tasks: [{
+				id: "564ED070DA385A29"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:netherite_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 120
+						upgradeSlots: 7
+						contentsUuid: [I;
+							2098762345
+							1837910193
+							-1854126874
+							-458116241
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "4089614E2DF3FC07"
+			tasks: [{
+				id: "291599CF2574EB58"
+				type: "item"
+				item: "tempad:tempad"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "62444318505D0ECF"
+			tasks: [{
+				id: "5B3508CF56B6B9A0"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			id: "3354A2490DC664E7"
+			tasks: [{
+				id: "2F96BAEF6BB6387A"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "0BFEA039B42AF17A"
+			tasks: [{
+				id: "5E1082C9C3DC337B"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			id: "61F78EE2BCF65B54"
+			tasks: [{
+				id: "5BAFDAB5F133BEF7"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			id: "1794B0912FC32133"
+			tasks: [{
+				id: "4EE53FD344D1DF8A"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			id: "38F21B6D8A3F4500"
+			tasks: [{
+				id: "0F2926D6D6E69CF8"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			id: "4879AC817FF297B3"
+			tasks: [{
+				id: "03AC5E2B8B839265"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			id: "09A85D028D01FE97"
+			tasks: [{
+				id: "67FDEB9FA5AF6BBC"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			id: "5BF2042F87D0C6BD"
+			tasks: [{
+				id: "62FC46007643C2EC"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			id: "5A0B2E850F12BCB8"
+			tasks: [{
+				id: "1EE85CF6F0F01D0A"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			id: "3F41EAF341742964"
+			tasks: [
+				{
+					id: "2EF503C639DB1EC5"
+					type: "item"
+					item: {
+						id: "ironfurnaces:million_furnace"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"i\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"b\"},{\"color\":\"red\",\"text\":\"o\"},{\"color\":\"red\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"red\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"green\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"green\",\"text\":\"e\"}],\"text\":\"\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "29C8BEFCBAFF143E"
+					type: "item"
+					item: "ironfurnaces:item_linker"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			id: "6DABD2C542566176"
+			tasks: [
+				{
+					id: "75D0F0A9A7CB980F"
+					type: "item"
+					item: "ironfurnaces:item_heater"
+				}
+				{
+					id: "1DD72104E18E3794"
+					type: "item"
+					item: "ironfurnaces:heater"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "1C896A52A86D60C9"
+			tasks: [{
+				id: "28618524126A5926"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "3CA7C6E4B90E7E2F"
+			tasks: [{
+				id: "34243CF6B3D2CE48"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "008A107C0932CD2A"
+			tasks: [{
+				id: "5B09A5128EA27847"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:gold_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "04DCA1D5DF2CC988"
+			tasks: [{
+				id: "05B8684D3E806BD7"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "59FC629EB4799552"
+			tasks: [{
+				id: "6D6D377959049F05"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:netherite_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "75308F9FEE61E017"
+			tasks: [
+				{
+					id: "0478A9A86830A59B"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:limited_barrel_1"
+						Count: 1b
+						tag: {
+							woodType: "oak"
+						}
+					}
+				}
+				{
+					id: "7632C527F2325B23"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:limited_barrel_2"
+						Count: 1b
+						tag: {
+							woodType: "oak"
+						}
+					}
+				}
+				{
+					id: "5E3A36A35201C7E8"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:limited_barrel_3"
+						Count: 1b
+						tag: {
+							woodType: "oak"
+						}
+					}
+				}
+				{
+					id: "5E30B132C88173F3"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:limited_barrel_4"
+						Count: 1b
+						tag: {
+							woodType: "oak"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "1BA882F4CA682BAB"
+			tasks: [{
+				id: "1B72BA0B2A6D975D"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			id: "30C701AF99006157"
+			tasks: [{
+				id: "695D2BAD3AB9B7A6"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "4D369390E12BA60B"
+			tasks: [{
+				id: "1882AB65D44C4312"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:gold_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			id: "7ED79876EE4D0011"
+			tasks: [{
+				id: "64D24C51DAFC55D8"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			id: "672189D3F78BFD00"
+			tasks: [{
+				id: "4A4202166CC1EDA3"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:netherite_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			id: "118BC2A083BED6DE"
+			tasks: [{
+				id: "655D1EAB4B87A244"
+				type: "item"
+				item: "sophisticatedstorage:shulker_box"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			id: "14233AF80B6A7FE4"
+			tasks: [{
+				id: "0BCD84E415ABA3AF"
+				type: "item"
+				item: "sophisticatedstorage:iron_shulker_box"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			id: "279F0BD79453ED79"
+			tasks: [{
+				id: "135154F10BF9EB22"
+				type: "item"
+				item: "sophisticatedstorage:gold_shulker_box"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			id: "14CEE4611690CC5B"
+			tasks: [{
+				id: "428CFF8ADE4C4168"
+				type: "item"
+				item: "sophisticatedstorage:diamond_shulker_box"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			id: "45A412519D59BA1A"
+			tasks: [{
+				id: "28AE51DEE6941640"
+				type: "item"
+				item: "sophisticatedstorage:netherite_shulker_box"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			id: "2463484B9B0A7144"
+			tasks: [
+				{
+					id: "55BB4C0E7F00F505"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:packing_tape"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23841DE7FE9BD458"
+					type: "item"
+					item: "sophisticatedstorage:storage_tool"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			id: "2786D4CA2DDAE3A3"
+			tasks: [{
+				id: "0926F7EBB7D71E55"
+				type: "item"
+				item: "summoningrituals:altar"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "482C6BDC5486106D"
+			tasks: [
+				{
+					id: "66CF9077601F21FD"
+					type: "item"
+					item: "scannable:scanner"
+				}
+				{
+					id: "2E508CE5A430BD7A"
+					type: "item"
+					item: "scannable:blank_module"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			id: "0ECA623E8B187988"
+			tasks: [
+				{
+					id: "66F8F2B108E21015"
+					type: "item"
+					item: "travel_anchors:travel_staff"
+				}
+				{
+					id: "68CA7CDD841BA566"
+					type: "item"
+					item: "travel_anchors:travel_anchor"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			id: "394ECC129D2E7EB1"
+			tasks: [{
+				id: "367FFC8151CA8D14"
+				type: "item"
+				item: "autosmithingtable:auto_smithing_table"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			id: "42F0E44E80041BEF"
+			tasks: [
+				{
+					id: "0A6E9D22B2862410"
+					type: "item"
+					item: "akashictome:tome"
+				}
+				{
+					id: "4EAF9A77151751DB"
+					type: "item"
+					item: "morphtool:tool"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			id: "28973DC14A04294D"
+			tasks: [
+				{
+					id: "084FE65A066898BC"
+					type: "item"
+					item: "nomowanderer:no_soliciting_sign"
+				}
+				{
+					id: "7A997620EF80D035"
+					type: "item"
+					item: {
+						id: "nomowanderer:no_mo_wanderer_totem"
+						Count: 1b
+						tag: {
+							Enabled: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			id: "5119A3133254B659"
+			tasks: [{
+				id: "168F46872C207AE7"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "6BC71A14F136161A"
+			tasks: [
+				{
+					id: "08A228FE12174E35"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "30549EF735A021EF"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "0EAC51FBD7998D90"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_log"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "60084A07702ED036"
+			tasks: [
+				{
+					id: "5CF3E1BBAB6F8A1D"
+					type: "item"
+					item: {
+						id: "simplemagnets:basicmagnet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1FBA0C21E6DCEA2C"
+					type: "item"
+					item: "simplemagnets:basic_demagnetization_coil"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "3C5AFD231EBB2CE1"
+			tasks: [
+				{
+					id: "06D7C288F37B8AF0"
+					type: "item"
+					item: {
+						id: "simplemagnets:advancedmagnet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4419D6B9CC728124"
+					type: "item"
+					item: "simplemagnets:advanced_demagnetization_coil"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "3CD652D2C0B66D84"
+			tasks: [{
+				id: "0F274B86B8E387F2"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "2F8E7AD3E6652C2E"
+			tasks: [
+				{
+					id: "438447D00ACB44D0"
+					type: "item"
+					item: "supercircuitmaker:circuit"
+				}
+				{
+					id: "11FA08649FF88D8B"
+					type: "item"
+					item: "supercircuitmaker:tiny_redstone"
+				}
+				{
+					id: "218DD9F12220F1D5"
+					type: "item"
+					item: "supercircuitmaker:redstone_stick"
+				}
+				{
+					id: "299B777A86D0DCE6"
+					type: "item"
+					item: "supercircuitmaker:platform"
+				}
+				{
+					id: "62688FB4E4647451"
+					type: "item"
+					item: "supercircuitmaker:screwdriver"
+				}
+				{
+					id: "73D022343BA3439F"
+					type: "item"
+					item: "minecraft:lever"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			id: "5E7690D081B65E83"
+			tasks: [
+				{
+					id: "71B2D4ADAC45FE3C"
+					type: "item"
+					item: "supercircuitmaker:button"
+				}
+				{
+					id: "1431F044C03C89BD"
+					type: "item"
+					item: "supercircuitmaker:pulsar"
+				}
+				{
+					id: "70DD8982299BEBF8"
+					type: "item"
+					item: "supercircuitmaker:note"
+				}
+				{
+					id: "13CDA6F21619640D"
+					type: "item"
+					item: "supercircuitmaker:lamp"
+				}
+				{
+					id: "2528AFC46F70EA5D"
+					type: "item"
+					item: "supercircuitmaker:delay"
+				}
+				{
+					id: "0D45ACF1168D5E12"
+					type: "item"
+					item: "supercircuitmaker:randomizer"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			id: "59A524556708186E"
+			tasks: [{
+				id: "2240D0FC123A1B6D"
+				type: "item"
+				item: "snad:snad"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			id: "1A43259950E5D127"
+			tasks: [{
+				id: "2C79F3A3B76AD719"
+				type: "item"
+				item: "modularrouters:modular_router"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			id: "6597083F5B64A768"
+			tasks: [
+				{
+					id: "57E16ECE8C2BFD89"
+					type: "item"
+					item: "modularrouters:speed_upgrade"
+					count: 9L
+				}
+				{
+					id: "730BDC3C80BF67BD"
+					type: "item"
+					item: "modularrouters:stack_upgrade"
+					count: 6L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			id: "1EBADA59296E8911"
+			tasks: [
+				{
+					id: "295001E7702A1CC2"
+					type: "item"
+					item: {
+						id: "modularrouters:puller_module_1"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+								Direction: "NONE"
+							}
+						}
+					}
+				}
+				{
+					id: "017E612AEB3A45A9"
+					type: "item"
+					item: {
+						id: "modularrouters:sender_module_1"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+								Direction: "NONE"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			id: "1DBF9F91AF0417B3"
+			tasks: [
+				{
+					id: "5724302E1B0A348F"
+					type: "item"
+					item: "wormhole:portal_frame"
+					count: 64L
+				}
+				{
+					id: "2CC4D983F99A7344"
+					type: "item"
+					item: {
+						id: "wormhole:portal_stabilizer"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+				}
+				{
+					id: "1F22AFC9DD30F733"
+					type: "item"
+					item: {
+						id: "wormhole:advanced_energy_cell"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+				}
+				{
+					id: "4A055DD6FD731280"
+					type: "item"
+					item: "wormhole:advanced_target_cell"
+					count: 2L
+				}
+				{
+					id: "68D6021ACAC68306"
+					type: "item"
+					item: {
+						id: "wormhole:advanced_target_device"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			id: "0373AE490607B5A3"
+			tasks: [
+				{
+					id: "073D9BD00540E554"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "21F716E1AA465F81"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			id: "49DF699C7ABC10F2"
+			tasks: [
+				{
+					id: "17076CDD808F94D8"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "16667397E5FC771C"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "3DFCE9FD4D3716D6"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			id: "4179C8CAEEB6A8A6"
+			tasks: [
+				{
+					id: "0DBB881219FBCF8C"
+					type: "item"
+					item: {
+						id: "tconstruct:smeltery_controller"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:seared_stone"
+						}
+					}
+				}
+				{
+					id: "7A0C599C1C8E43CB"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "0A1B3F105D6F1092"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 64L
+				}
+				{
+					id: "21B03907289268C2"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_drain"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:seared_stone"
+						}
+					}
+				}
+				{
+					id: "5F6476A74892B6DE"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_chute"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:seared_stone"
+						}
+					}
+				}
+				{
+					id: "79F704DDB996EF87"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_duct"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:seared_stone"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			id: "31B55C822A5D3380"
+			tasks: [
+				{
+					id: "74BDD02B65DFB2FD"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "4CDE8DAF0C602C3D"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_exchanging"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "102BFE8063D44455"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_copy_paste"
+						Count: 1b
+						tag: {
+							mode: 0b
+							template_id: [I;
+								-939244301
+								2034910866
+								-1909928398
+								1169361817
+							]
+						}
+					}
+				}
+				{
+					id: "0F98051B0B5C84ED"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			id: "1C0DA2E7D8CF16E9"
+			tasks: [
+				{
+					id: "2E09608A7656B45D"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55E9F2C50CE7A3A6"
+					type: "item"
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			id: "67C83AA0299F6088"
+			tasks: [
+				{
+					id: "4BD94CE773BE77F1"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+				{
+					id: "411218FB7A534EE8"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "50D998ABB35288D0"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "4B624659D1322D33"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "4E2A762919E09344"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "7B3FE3A17215EE30"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "782ABFD25307C9DA"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			id: "7CFE5A69DC49F07A"
+			tasks: [
+				{
+					id: "58018435CA2A547E"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3DF8244B185A2F8A"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			id: "251E2D6E2DD967A8"
+			tasks: [
+				{
+					id: "7F75F9DA9C3093B5"
+					type: "item"
+					item: "enderstorage:ender_chest"
+				}
+				{
+					id: "026C98C768BA759D"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+				{
+					id: "7C59FCC1590BEDAF"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			id: "24586D32E67CCBC2"
+			tasks: [{
+				id: "5D6352DCADF23B00"
+				type: "item"
+				item: "chickenchunks:chunk_loader"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			id: "265785758A05403E"
+			tasks: [
+				{
+					id: "3DBC5176EB34A9BD"
+					type: "item"
+					item: "itemcollectors:basic_collector"
+				}
+				{
+					id: "757920E30AC558A0"
+					type: "item"
+					item: "itemcollectors:advanced_collector"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			id: "3A7AD0151E762858"
+			tasks: [
+				{
+					id: "25A7C5A701E6DAE7"
+					type: "item"
+					item: "waystones:waystone"
+				}
+				{
+					id: "5D150DD81CE04B6F"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1FEBAC30013F5F11"
+					type: "item"
+					item: "waystones:warp_plate"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			id: "1064B7D347E37746"
+			tasks: [{
+				id: "34220334B20D1A0F"
+				type: "item"
+				item: "apotheosis:library"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "543F99BE7476FD64"
+			tasks: [{
+				id: "17A03C70EC5776BB"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			id: "57EE4803D9721AC1"
+			tasks: [{
+				id: "448E4187182E66F9"
+				type: "item"
+				item: "apotheosis:salvaging_table"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			id: "22A147F2DF690A3B"
+			tasks: [{
+				id: "7F3869D7FBB4BA03"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			id: "4E4794804D496646"
+			tasks: [
+				{
+					id: "42F61115630C2657"
+					type: "item"
+					item: "framedblocks:framed_cube"
+					count: 4L
+				}
+				{
+					id: "3E1C49DD99E1522D"
+					type: "item"
+					item: "framedblocks:framed_slope"
+				}
+				{
+					id: "3AE6273917A2F4DC"
+					type: "item"
+					item: "framedblocks:framed_hammer"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			id: "77A2BA09F9342029"
+			tasks: [{
+				id: "6C30B37E7743A1AA"
+				type: "item"
+				item: "bhc:heart_amulet"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			id: "269CAFF56F143159"
+			tasks: [{
+				id: "20E406837A5FE3EA"
+				type: "item"
+				item: "bhc:red_heart_canister"
+				count: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			id: "2DDCECF0F7CFA5BC"
+			tasks: [{
+				id: "7F64F3359C0AB5B3"
+				type: "item"
+				item: "bhc:yellow_heart_canister"
+				count: 10L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "626D604E31FD5FCC"
+			tasks: [{
+				id: "14A36CFE458DB059"
+				type: "item"
+				item: "bhc:green_heart_canister"
+				count: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			id: "3FD5AA7FBAE18876"
+			tasks: [{
+				id: "03AB67373389ABBE"
+				type: "item"
+				item: "bhc:blue_heart_canister"
+				count: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "4DA1A6B7845B1F49"
+			tasks: [
+				{
+					id: "10DCDB4E954861FB"
+					type: "item"
+					item: {
+						id: "camera:camera"
+						Count: 1b
+						tag: {
+							active: 0b
+						}
+					}
+				}
+				{
+					id: "5BD995528E1151DE"
+					type: "item"
+					item: "camera:image_frame"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			id: "06013B4C80F9419B"
+			tasks: [
+				{
+					id: "5496BFBD57FEBDB2"
+					type: "item"
+					item: "compactcrafting:field_projector"
+				}
+				{
+					id: "1A488AE37D620C43"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "467D9A00FCA89933"
+			tasks: [{
+				id: "4F523E64CFF0036E"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "5D82993EB509E820"
+			tasks: [{
+				id: "11543B43E60D01CF"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "5B0F26FC2CEA0CB4"
+			tasks: [{
+				id: "09D4A311C166422F"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "7891DB25222C0D71"
+			tasks: [{
+				id: "435EB4979ECEBC83"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "3864916135A1E193"
+			tasks: [{
+				id: "60EC5008CFD25A29"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			id: "6EF4A108C56230E1"
+			tasks: [{
+				id: "3F62DCB91EB57D4F"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "61A71AE390BF136D"
+			tasks: [
+				{
+					id: "6EF7C0A49717497B"
+					type: "item"
+					item: "engineersdecor:small_mineral_smelter"
+				}
+				{
+					id: "35F42B00C2181A4D"
+					type: "item"
+					item: "engineersdecor:small_freezer"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "65B1E5BD3D88DBE5"
+			tasks: [
+				{
+					id: "774146422A187D92"
+					type: "item"
+					item: "comforts:sleeping_bag_white"
+				}
+				{
+					id: "16A875628A3F969A"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "5BF49C41DB9CA77F"
+			tasks: [
+				{
+					id: "511A96F5433C5AD9"
+					type: "item"
+					item: "functionalstorage:storage_controller"
+				}
+				{
+					id: "221A8F2C451F8907"
+					type: "item"
+					item: "functionalstorage:fluid_1"
+				}
+				{
+					id: "48370B98B9C17933"
+					type: "item"
+					item: "functionalstorage:oak_1"
+				}
+				{
+					id: "37D4A47F241C221D"
+					type: "item"
+					item: {
+						id: "functionalstorage:linking_tool"
+						Count: 1b
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+				}
+				{
+					id: "6B2EBF5425878C98"
+					type: "item"
+					item: {
+						id: "functionalstorage:configuration_tool"
+						Count: 1b
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+				}
+				{
+					id: "5BE4E46EFDC88641"
+					type: "item"
+					item: "functionalstorage:ender_drawer"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "099259F59E31A4B0"
+			tasks: [{
+				id: "3BA34347E6A66536"
+				type: "item"
+				item: "clickmachine:auto_clicker"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "343BB0DE82A5F912"
+			tasks: [
+				{
+					id: "7B9A73A49187A703"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+				{
+					id: "390C87062D23694E"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "65F4E75E871DC1D4"
+					type: "item"
+					item: "fluxnetworks:flux_controller"
+				}
+				{
+					id: "4FE47BDE0A8C0DF3"
+					type: "item"
+					item: "fluxnetworks:basic_flux_storage"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			id: "2C8B1F0DE7322D32"
+			tasks: [
+				{
+					id: "436B8B8124594596"
+					type: "item"
+					item: "laserio:card_item"
+				}
+				{
+					id: "5DF71230D6E9AB8C"
+					type: "item"
+					item: "laserio:card_fluid"
+				}
+				{
+					id: "5B2521A582C9D0FD"
+					type: "item"
+					item: "laserio:card_energy"
+				}
+				{
+					id: "1B3CB54705FBBC74"
+					type: "item"
+					item: "laserio:card_redstone"
+				}
+			]
+			rewards: [{
+				id: "715A733E123652F6"
+				type: "item"
+				item: {
+					id: "laserio:card_holder"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			id: "06B022181A43AF7A"
+			tasks: [{
+				id: "6F440D4B5D37E992"
+				type: "item"
+				item: "laserio:laser_wrench"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			id: "13D80F7212A60AA6"
+			tasks: [
+				{
+					id: "5CE88A072B7DDFBB"
+					type: "item"
+					item: "laserio:laser_node"
+				}
+				{
+					id: "3AA4EDBCD25C6AF0"
+					type: "item"
+					item: "laserio:laser_connector"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			id: "2F2E0A3803ABA25C"
+			tasks: [
+				{
+					id: "44D9A24BD3EA8DAC"
+					type: "item"
+					item: "laserio:overclocker_node"
+				}
+				{
+					id: "5F17FDAABAA15D5A"
+					type: "item"
+					item: "laserio:overclocker_card"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			id: "177C695B8960EB77"
+			tasks: [{
+				id: "1BED3C32CB39B5AD"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			id: "483B83B5CDF55541"
+			tasks: [{
+				id: "1AAE2838B38EB135"
+				type: "item"
+				item: "miniutilities:angel_ring"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			id: "2BAB39B9C800849F"
+			tasks: [{
+				id: "55FC5ABA2DE55C4D"
+				type: "item"
+				item: "miniutilities:iron_drum"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			id: "215F85255D964EE5"
+			tasks: [{
+				id: "09404F9EA9D44A10"
+				type: "item"
+				item: "miniutilities:reinforced_large_drum"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			id: "03E2D45D274F9372"
+			tasks: [{
+				id: "44C1A22BC64933AC"
+				type: "item"
+				item: "miniutilities:netherite_reinforced_drum"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			id: "3F090233207036EA"
+			tasks: [{
+				id: "348909436297B3B3"
+				type: "item"
+				item: "miniutilities:unstable_drum"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			id: "4B313B5013C29B4A"
+			tasks: [
+				{
+					id: "3D9CC8C29F834DBC"
+					type: "item"
+					item: "mob_grinding_utils:saw"
+				}
+				{
+					id: "00053BED610E0C51"
+					type: "item"
+					item: "mob_grinding_utils:absorption_hopper"
+				}
+				{
+					id: "50A7614352CC453F"
+					type: "item"
+					item: "mob_grinding_utils:ender_inhibitor_on"
+				}
+				{
+					id: "790A9E19C247E215"
+					type: "item"
+					item: "mob_grinding_utils:xpsolidifier"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			id: "3C2AE7EE2F33B310"
+			tasks: [
+				{
+					id: "5629A67F9E76E33B"
+					type: "item"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				}
+				{
+					id: "0871D53BB60344A0"
+					type: "item"
+					item: "mob_grinding_utils:rotten_egg"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			id: "2606F2388676FA55"
+			tasks: [
+				{
+					id: "3B2FFE4CE8C58213"
+					type: "item"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+				}
+				{
+					id: "29B5C337090B6D74"
+					type: "item"
+					item: "mob_grinding_utils:golden_egg"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			id: "47D8E8B55FF99B6D"
+			tasks: [{
+				id: "3D69AE4AAD710AE4"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			id: "0129563AD98630DF"
+			tasks: [
+				{
+					id: "127ABB1F84B05F8F"
+					type: "item"
+					item: "cataclysm:monstrous_horn"
+				}
+				{
+					id: "073590A544E42FED"
+					type: "item"
+					item: {
+						id: "cataclysm:infernal_forge"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			id: "798D0AE8EBF9261A"
+			tasks: [{
+				id: "0F0F63B169C9BFA4"
+				type: "kill"
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			id: "5626BD70366E11F4"
+			tasks: [{
+				id: "51865F94196290A0"
+				type: "item"
+				item: "cataclysm:burning_ashes"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			id: "174474928CDADF9D"
+			tasks: [{
+				id: "5708FBED5A0E6331"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			id: "71E0554F5655BF9D"
+			tasks: [{
+				id: "66E11D4E5889623D"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			id: "2C5F566350C9FCAD"
+			tasks: [{
+				id: "698F871F1787D75D"
+				type: "item"
+				item: "cataclysm:void_core"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			id: "7D8021B85F81245F"
+			tasks: [{
+				id: "7464E740BCBE9AB8"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.0d
+			id: "0C06FD6FDBB829A9"
+			tasks: [{
+				id: "6E386095DD95C2B4"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.0d
+			id: "72D8DA800637B9A0"
+			tasks: [{
+				id: "2012F3762AF3AD3A"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

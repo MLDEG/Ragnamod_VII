@@ -1,0 +1,50 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "forbidden_arcanus:arcane_crystal_ore"
+            }
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "forbidden_arcanus:xpetrified_ore"
+            }
+        },
+        {
+            "chance": 0.08,
+            "output": {
+                "item": "forbidden_arcanus:runic_stone"
+            }
+        },
+        {
+            "chance": 0.02,
+            "output": {
+                "item": "minecraft:emerald_ore"
+            }
+        }
+    ],
+    "spoils": [
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "minecraft:gravel"
+            }
+        },
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:cobblestone"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 1,
+    "fail_chance": 0.15
+}

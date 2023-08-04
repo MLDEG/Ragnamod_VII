@@ -1,0 +1,49 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.70,
+            "output": {
+                "item": "minecraft:nether_gold_ore"
+            }
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "byg:brimstone_nether_gold_ore"
+            }
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "byg:blue_nether_gold_ore"
+            }
+        }
+    ],
+    "spoils": [
+        {
+            "chance": 0.70,
+            "output": {
+                "item": "minecraft:netherrack"
+            }
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "byg:brimstone"
+            }
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "byg:blue_netherrack"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:the_nether"
+    ],
+    "weight": 1,
+    "fail_chance": 0.15,
+    "sample_background": "minecraft:netherrack"
+}

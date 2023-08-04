@@ -1,0 +1,17 @@
+{
+	"feature": "ars_nouveau:flourishing_feature",
+	"placement": [
+		{
+			"predicate": {
+				"state": {
+					"Name": "ars_nouveau:green_archwood_sapling",
+					"Properties": {
+						"stage": "0"
+					}
+				},
+				"type": "minecraft:would_survive"
+			},
+			"type": "minecraft:block_predicate_filter"
+		}
+	]
+}

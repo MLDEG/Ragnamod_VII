@@ -1,0 +1,11 @@
+{
+	"adapt_noise": true,
+	"biomes": "#infernalexp:has_structure/bastion_outpost",
+	"config": {
+		"size": 1,
+		"size_to_check": 8,
+		"start_pool": "infernalexp:bastion_outpost/start_pool"
+	},
+	"spawn_overrides": { },
+	"type": "infernalexp:simple_nether_structure"
+}

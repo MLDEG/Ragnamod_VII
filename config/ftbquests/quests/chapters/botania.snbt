@@ -1,0 +1,2002 @@
+{
+	id: "2045D567B9FCBCF3"
+	group: ""
+	order_index: 6
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:mana_pylon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Runes of seasons"
+			x: 11.0d
+			y: -1.0d
+			description: ["Craft all the Runes of Seasons."]
+			dependencies: ["00000000000003F7"]
+			id: "000000000000037C"
+			tasks: [
+				{
+					id: "000000000000037D"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+				{
+					id: "2A30C3E8DA526676"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+				{
+					id: "555D46B3277DC518"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+				{
+					id: "7C275C683FD97C97"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+			]
+			rewards: [{
+				id: "702C4A6456E43254"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+		}
+		{
+			title: "Runes of Sins"
+			x: 11.0d
+			y: 1.0d
+			description: ["Craft all the Runes of Sins."]
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000388"
+			tasks: [
+				{
+					id: "0000000000000389"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "501048AA650BB8EF"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "060B00064AAE4FFD"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "2DD691AAA99F6B30"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "7877B5E8469528E8"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+				{
+					id: "1B3EBF81C5D4EA65"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "1D9CF38B0A9E22BF"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+			]
+			rewards: [{
+				id: "474D303D38D90673"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+		}
+		{
+			title: "Runes of Yggdrasil"
+			x: 10.0d
+			y: 1.5d
+			description: ["Craft all the Runes of Yggdrasil."]
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000394"
+			tasks: [
+				{
+					id: "0000000000000395"
+					type: "item"
+					item: "mythicbotany:midgard_rune"
+				}
+				{
+					id: "0BA79AE0B09F3F0E"
+					type: "item"
+					item: "mythicbotany:asgard_rune"
+				}
+				{
+					id: "554A02555B240859"
+					type: "item"
+					item: "mythicbotany:vanaheim_rune"
+				}
+				{
+					id: "29085AD58D0933E0"
+					type: "item"
+					item: "mythicbotany:alfheim_rune"
+				}
+				{
+					id: "5770E58622BC0C5C"
+					type: "item"
+					item: "mythicbotany:joetunheim_rune"
+				}
+				{
+					id: "04BEE93DBF8CD79F"
+					type: "item"
+					item: "mythicbotany:muspelheim_rune"
+				}
+				{
+					id: "7F2C89FFA91548FB"
+					type: "item"
+					item: "mythicbotany:niflheim_rune"
+				}
+				{
+					id: "7E7ED99CA6425C78"
+					type: "item"
+					item: "mythicbotany:nidavellir_rune"
+				}
+				{
+					id: "04527CEB8BB22A79"
+					type: "item"
+					item: "mythicbotany:helheim_rune"
+				}
+			]
+			rewards: [{
+				id: "55936AE9F4994376"
+				type: "item"
+				item: "mythicbotany:midgard_rune"
+			}]
+		}
+		{
+			title: "Basic Runes"
+			x: 10.0d
+			y: -1.5d
+			description: ["Craft all the basic Runes."]
+			dependencies: ["00000000000003F7"]
+			id: "00000000000003A2"
+			tasks: [
+				{
+					id: "00000000000003A3"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "20BBF26689A2F152"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "28ABFC44933FF6D9"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "1191C9C9939572EF"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "58245BA9CF6838B2"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [{
+				id: "54C8AA615C69794D"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+		}
+		{
+			title: "Spark Augment"
+			x: 15.0d
+			y: -2.0d
+			description: [
+				"Isolated have the ability to not interact with Dominant and Recessive."
+				""
+				"Recessive have the ability to empty his pool to another pool around it."
+				""
+				"Dominant have the ability to catch all the mana around him and fill up the mana pool below it."
+				""
+				"Dispersive have the ability to fill up the Player Mana item."
+			]
+			dependencies: ["00000000000003EF"]
+			id: "00000000000003A4"
+			tasks: [
+				{
+					id: "00000000000003A5"
+					type: "item"
+					item: "botania:spark_upgrade_isolated"
+				}
+				{
+					id: "00000000000003A6"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "00000000000003A7"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+				{
+					id: "00000000000003A8"
+					type: "item"
+					item: "botania:spark_upgrade_dispersive"
+				}
+			]
+			rewards: [{
+				id: "3B32038783EC36DF"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 8
+			}]
+		}
+		{
+			title: "Gaia Boss Battle"
+			icon: "botania:gaia_pylon"
+			x: 18.0d
+			y: 1.5d
+			description: [
+				"To fight the Gaia you need to put together an arena using the stuff on this quest, check the Lexica Botania to see how to build the arena."
+				""
+				"To start the fight, just right-click with a Terrasteel."
+			]
+			dependencies: ["7E165C3D21F39879"]
+			id: "00000000000003A9"
+			tasks: [
+				{
+					id: "00000000000003AA"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "3961DECF99B9DDFA"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "0AA0E77B5C57A056"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "60515429D9975E18"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "goblintraders:powerful_strength"
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Alfheim Portal"
+			icon: "botania:natura_pylon"
+			x: 14.0d
+			y: 0.0d
+			description: [
+				"The use of the Alfheim portal is mainly used for trading Mana Stuff for Alfheim Stuff."
+				"Check the Lexica Botania to see the structure you need to make."
+				"The portal don't use Mana all the time but use mana on the opening and on trades."
+				""
+				"Later, with Mystic Botany, you will be able to enter the dimension of Alfheim, follow the Quests."
+			]
+			dependencies: ["00000000000003EB"]
+			size: 2.0d
+			id: "00000000000003AB"
+			tasks: [
+				{
+					id: "00000000000003AC"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "38BA82E297C1B533"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "507E860BFFE00F9F"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "08B9364BBD14F9FF"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "30AA7F0C14687CF0"
+				type: "item"
+				item: "botania:starfield"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["00000000000003CF"]
+			id: "00000000000003AD"
+			tasks: [{
+				id: "00000000000003AE"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+			rewards: [{
+				id: "2006A066BF0FBEE2"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			description: ["You can upgrade your Lexica Botania by throwing your existing Lexica Botania in the Aflheim Portal (works with the Akashic Tome)"]
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003AF"
+			tasks: [{
+				id: "00000000000003B0"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			description: ["The Wand of the forest is the tool you need to manipulate Mana."]
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003B1"
+			tasks: [{
+				id: "00000000000003B2"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1048817CA847D176"
+				type: "item"
+				item: "botania:livingwood"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["The floral Fertilizer is used to spawn mystical flower by right-clicking grass block with it."]
+			size: 2.0d
+			id: "00000000000003B3"
+			tasks: [{
+				id: "00000000000003B4"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "14A0D9EE780635AC"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["The Petal Apothecary is used to craft functional and generating flowers."]
+			dependencies: ["00000000000003B3"]
+			size: 2.0d
+			id: "00000000000003B5"
+			tasks: [{
+				id: "00000000000003B6"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "609058DB2E1BD713"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 21.0d
+			y: 2.5d
+			description: ["The Gaia Mana Spreader can burst more mana and mush fast that the previous one."]
+			dependencies: ["00000000000003E9"]
+			id: "00000000000003B7"
+			tasks: [{
+				id: "00000000000003B8"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [{
+				id: "0304AC4B7F0651F1"
+				type: "item"
+				item: "botania:gaia_spreader"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			description: ["With the rod of the Bifrost you can have a Temporary Rainbow road construction in the direction you right click."]
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003B9"
+			tasks: [{
+				id: "00000000000003BA"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "1B5C113217954080"
+				type: "item"
+				item: "botania:bifrost_perm"
+				count: 12
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["With the rod of the Seas you have an Ocean in your hand, if you have Mana on you off course!"]
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003BB"
+			tasks: [{
+				id: "00000000000003BC"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "301DDFDB19211602"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			description: [
+				"With the rod of the Shifting Crust you can, if you have Mana on you, switch block."
+				"Shift right-click on a block you want to exchange to store the information in your wand, and now you're ready to switch block."
+			]
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003BD"
+			tasks: [{
+				id: "00000000000003BE"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2D38CE387557E66C"
+				type: "item"
+				item: "thermal:earth_tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			description: ["The Mana Tablet is used to have mana on you, toss your tablet in a Mana Pool to fill it."]
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003C7"
+			tasks: [{
+				id: "00000000000003C8"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "595B476B529176BF"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: [
+				"Get a Mana Quartz tossing a Rose Quartz in a Mana Pool."
+				"A Powdered Obsidian to get a Mana Powder."
+				"A String Cheese to get a Mana Infused String."
+			]
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003CB"
+			tasks: [
+				{
+					id: "00000000000003CC"
+					type: "item"
+					item: "botania:quartz_mana"
+				}
+				{
+					id: "39AEDBA85D5F796C"
+					type: "item"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "444180FD972487DA"
+					type: "item"
+					item: "botania:mana_string"
+				}
+			]
+			rewards: [{
+				id: "41345E9BFBF7C395"
+				type: "item"
+				item: "botania:quartz_mana"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			description: ["Get a Mana Diamond tossing a Psigem in a Mana Pool."]
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003CF"
+			tasks: [{
+				id: "00000000000003D0"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "7B2E9D11C3CEB0CF"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: ["Get a Mana Pearl tossing a Chorus Pearl in a Mana Pool."]
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003D1"
+			tasks: [{
+				id: "00000000000003D2"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "6A805D664ADB1AF3"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: ["Get a Manasteel Ingot by tossing a Steel Ingot in a Mana Pool."]
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003D3"
+			tasks: [{
+				id: "00000000000003D4"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "6A226391443603C9"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			description: ["The Assembly Halo is a portable Crafting Table with the ability to register crafts."]
+			dependencies: ["00000000000003D1"]
+			id: "00000000000003D5"
+			tasks: [{
+				id: "00000000000003D6"
+				type: "item"
+				item: {
+					id: "botania:crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "56907D9F9EFBAD52"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			description: ["Blacker Lotus give enormous amount of Mana in a Mana Pool."]
+			dependencies: ["00000000000003E5"]
+			id: "00000000000003D7"
+			tasks: [{
+				id: "00000000000003D8"
+				type: "item"
+				item: "botania:blacker_lotus"
+			}]
+			rewards: [{
+				id: "0E3A618BE58CF8D2"
+				type: "item"
+				item: "botania:black_lotus"
+				count: 4
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			description: ["The Elven Mana Spreader can burst more mana and mush fast that the previous one."]
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003DB"
+			tasks: [{
+				id: "00000000000003DC"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "67FAD6678232C056"
+				type: "item"
+				item: "botania:elven_spreader"
+				count: 2
+			}]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			description: ["Use your Gaia Spirit to craft a Gaia Spirit Ingot and use it to fight the Gaia once again, but this time, it's more powerful."]
+			dependencies: ["00000000000003E9"]
+			size: 2.0d
+			id: "00000000000003DD"
+			tasks: [{
+				id: "00000000000003DE"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "36ACE24E75575740"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.5d
+			description: ["Craft an Alfsteel Ingot using the Mana-Infuser."]
+			dependencies: ["0000000000000418"]
+			id: "00000000000003DF"
+			tasks: [{
+				id: "00000000000003E0"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+			rewards: [{
+				id: "6BFB76E07F4A5E7B"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["The Mana Mirror is used to link a mana pool to have mana on you, like a Mana Tablet."]
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003E3"
+			tasks: [{
+				id: "00000000000003E4"
+				type: "item"
+				item: {
+					id: "botania:mana_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "654C9B976EA936BA"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: ["In this pack you can craft Black Lotus, it's used to increase a little of Mana in a Manapool with a little mana in it."]
+			id: "00000000000003E5"
+			tasks: [{
+				id: "00000000000003E6"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+			rewards: [{
+				id: "4E21189582BEAA27"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: [
+				"With the Mana Spreader you can transfer mana collected from flower anywhere you want."
+				"Just use a Wand of the Forest to link the Mana Spreader where you want."
+			]
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003E7"
+			tasks: [{
+				id: "00000000000003E8"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "1690C7063EB3D16A"
+				type: "item"
+				item: "botania:mana_spreader"
+				count: 2
+			}]
+		}
+		{
+			x: 20.0d
+			y: 1.5d
+			description: ["Get a Gaia Spirit fighting the Gaia Boss."]
+			dependencies: ["00000000000003A9"]
+			id: "00000000000003E9"
+			tasks: [{
+				id: "00000000000003EA"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "291E6E4F5613C16A"
+				type: "item"
+				item: "botania:record_gaia_1"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			description: ["Craft a Terrasteel using the Terrestrial Agglomeration Plate."]
+			dependencies: ["0000000000000416"]
+			id: "00000000000003EB"
+			tasks: [{
+				id: "00000000000003EC"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "35EDD0934EC5F626"
+				type: "item"
+				item: "botania:thorn_chakram"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			description: ["The get a Dragonstone, throw a Mana Diamond in the Alfheim Portal."]
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003ED"
+			tasks: [{
+				id: "00000000000003EE"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [{
+				id: "23218B1AE56D8E8E"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			description: ["The get a Pixie Dust, throw a Mana Pearl in the Alfheim Portal."]
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003EF"
+			tasks: [{
+				id: "00000000000003F0"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "28E7F1710FF3EAC6"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			description: ["The get Elementium Ingot, throw two Manasteel Ingots in the Alfheim Portal."]
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003F1"
+			tasks: [{
+				id: "00000000000003F2"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "0BA2D32EFF0E6061"
+				type: "item"
+				item: "mythicbotany:raw_elementium_block"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			description: ["The Factory Halo is an Assembly Halo, but it can automatically craft items you've register."]
+			dependencies: ["00000000000003D5"]
+			id: "00000000000003F3"
+			tasks: [{
+				id: "00000000000003F4"
+				type: "item"
+				item: {
+					id: "botania:auto_crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C23F44BC157F474"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			description: [
+				"With a Mana Spliter you can fill up 4 Mana Pool at once."
+				"Just turn your Mana Spreader into the Spliter and place 4 mana pool next to the Spliter."
+			]
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003F5"
+			tasks: [{
+				id: "00000000000003F6"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "0B6499BC1161C232"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"The Runic Altar is used to craft Runes."
+				"To make it work, you have to give us Mana Burst using Mana Spreader."
+			]
+			dependencies: ["00000000000003D2"]
+			size: 2.0d
+			id: "00000000000003F7"
+			tasks: [{
+				id: "00000000000003F8"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "077D8643E7010B12"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["With the Mana Pool you can store mana!"]
+			dependencies: ["4E8017A427B96DC5"]
+			size: 2.0d
+			id: "00000000000003F9"
+			tasks: [{
+				id: "00000000000003FA"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "38F55633A5344A8D"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 2.5d
+			description: ["The Flügel Tiara give you flight if you have mana on you."]
+			dependencies: ["00000000000003E9"]
+			id: "00000000000003FB"
+			tasks: [{
+				id: "00000000000003FC"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BAEC5D402D7E1F0"
+				type: "item"
+				item: "botania:ender_air_bottle"
+				count: 32
+			}]
+		}
+		{
+			title: "Elementium Armor"
+			x: 14.0d
+			y: 2.5d
+			description: ["Craft an Elementium Armor."]
+			dependencies: ["00000000000003F1"]
+			id: "00000000000003FD"
+			tasks: [
+				{
+					id: "00000000000003FE"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000003FF"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000400"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000401"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0A28925ACC029419"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 9
+			}]
+		}
+		{
+			title: "Manasteel Armor"
+			x: 8.0d
+			y: 2.5d
+			description: ["Craft a Manasteel Armor."]
+			dependencies: ["00000000000003D3"]
+			id: "0000000000000402"
+			tasks: [
+				{
+					id: "0000000000000403"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000404"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000405"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000406"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "469A6A90E1BE9BD9"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Terrasteel Armor"
+			x: 12.0d
+			y: 2.5d
+			description: ["Craft a Terrasteel Armor."]
+			dependencies: ["00000000000003EB"]
+			id: "0000000000000407"
+			tasks: [
+				{
+					id: "0000000000000408"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000409"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040A"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040B"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "79C7B370B3EFB547"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 6
+			}]
+		}
+		{
+			title: "Alfsteel Armor"
+			x: 16.0d
+			y: 2.5d
+			description: ["Craft an Alfsteel Armor."]
+			dependencies: ["00000000000003DF"]
+			id: "000000000000040C"
+			tasks: [
+				{
+					id: "000000000000040D"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040E"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040F"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000410"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E57A0A13F0CFB01"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "5576A1C1D9D2A984"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: [
+				"The Alchemy Catalyst give you some transformations like Gunpowder into Flint or Quartz into Prismarine Shard."
+				""
+				"The Conjuration Catalyst give you the possibility to duplicate certain items, check JEI for more info."
+			]
+			dependencies: ["4E8017A427B96DC5"]
+			id: "0000000000000411"
+			tasks: [
+				{
+					id: "0000000000000412"
+					type: "item"
+					item: "botania:alchemy_catalyst"
+				}
+				{
+					id: "0A1AD78C837D5109"
+					type: "item"
+					item: "botania:conjuration_catalyst"
+				}
+			]
+			rewards: [{
+				id: "3BB3EED9E49C2E05"
+				type: "item"
+				item: "minecraft:lily_pad"
+				count: 16
+			}]
+		}
+		{
+			icon: "botania:terra_plate"
+			x: 12.0d
+			y: 0.0d
+			description: [
+				"The Terrestrial Agglomeration Plate is used to craft Terrasteel."
+				" You need to make a little structure to make it work (check the Lexica Botania to see the structure)."
+			]
+			dependencies: ["00000000000003A3"]
+			size: 2.0d
+			id: "0000000000000416"
+			tasks: [
+				{
+					id: "0000000000000417"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "2460BB5780EA5082"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "05B63B6D67728EDC"
+				type: "item"
+				item: "minecraft:lapis_block"
+				count: 4
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			description: ["The Mana-Infuser is an upgraded version of the Terrestrial Agglomeration Plate, but it needs a Dominant Spark on top of it."]
+			dependencies: ["00000000000003F2"]
+			size: 2.0d
+			id: "0000000000000418"
+			tasks: [
+				{
+					id: "0000000000000419"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "52005E9110F1E8F6"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+				{
+					id: "0E984CBF7FCF3EFA"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7B9DBFAFD04F8F64"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			description: ["The Sparks are used to connect Mana Pools to each other but also to move Mana to the agglomeration plate."]
+			dependencies: ["0000000000000416"]
+			id: "000000000000041A"
+			tasks: [{
+				id: "000000000000041B"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "4874337100DFB7C5"
+				type: "item"
+				item: "botania:spark"
+			}]
+		}
+		{
+			title: "Basic Rings"
+			x: 8.0d
+			y: -1.5d
+			description: [
+				"The Band of Aura collect Mana in the air slowly."
+				"The Band of Mana is a ring that store Mana."
+				"The Ring of Magnetization is basically a magnet."
+			]
+			dependencies: ["00000000000003F9"]
+			id: "0000000000000422"
+			tasks: [
+				{
+					id: "0000000000000423"
+					type: "item"
+					item: "botania:aura_ring"
+				}
+				{
+					id: "570F0C1E65D61CBD"
+					type: "item"
+					item: {
+						id: "botania:mana_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "08EF77FD0CB69359"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "05B8F538EEE85732"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+			}]
+		}
+		{
+			title: "Greater Rings"
+			x: 7.0d
+			y: -2.0d
+			description: ["Greater Rings is an upgrade of the Basic Rings."]
+			dependencies: ["0000000000000422"]
+			id: "0000000000000424"
+			tasks: [
+				{
+					id: "0000000000000425"
+					type: "item"
+					item: "botania:aura_ring_greater"
+				}
+				{
+					id: "47C963FAA1CE49DC"
+					type: "item"
+					item: {
+						id: "botania:mana_ring_greater"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "02A8A09FAEB10925"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring_greater"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "342168A6538F524C"
+				type: "item"
+				item: "botania:rune_mana"
+				count: 2
+			}]
+		}
+		{
+			title: "Greatest Rings"
+			x: 7.0d
+			y: -3.0d
+			description: ["Greatest Rings is an upgrade of the Greater Rings."]
+			dependencies: ["0000000000000424"]
+			id: "0000000000000426"
+			tasks: [
+				{
+					id: "0000000000000427"
+					type: "item"
+					item: "mythicbotany:aura_ring_greatest"
+				}
+				{
+					id: "33F6976B985B3166"
+					type: "item"
+					item: {
+						id: "mythicbotany:mana_ring_greatest"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "646C840235721C94"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["The Pure Daisy is used to transform blocks or fluids into other blocks or fluids."]
+			dependencies: ["00000000000003B6"]
+			size: 2.0d
+			id: "000000000000042C"
+			tasks: [{
+				id: "000000000000042D"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "796D354320511CC3"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["The Endoflame is a Generating flower who create mana thought burning any combustible."]
+			dependencies: ["00000000000003B5"]
+			id: "000000000000042E"
+			tasks: [{
+				id: "000000000000042F"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "15AF57344877D9F2"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["The Thermalily is a Generating flower who create mana when absorbing lava sources."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000430"
+			tasks: [{
+				id: "0000000000000431"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "446E1E04EA059688"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["The Rosa Arcana is a Generating flower who create mana when absorbing XP."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000432"
+			tasks: [{
+				id: "0000000000000433"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "6BD54B9D46E3381A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 64
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["The Exoflame is a Functional Flower who use Mana to speed furnaces."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000434"
+			tasks: [{
+				id: "0000000000000435"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "11D6CB0176C2024D"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 32
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["The Entropinnyum is a Generating flower who create mana when the TNT explodes next to them."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000436"
+			tasks: [{
+				id: "0000000000000437"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "5CA92607F8E56F02"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["The Kekimurus is a Generating flower who create mana when eating Cake."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000438"
+			tasks: [{
+				id: "0000000000000439"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "25F2649CDA83C28B"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["The Narslimmus is a Generating flower who create mana when he's destroyed some Slime."]
+			dependencies: ["00000000000003B5"]
+			id: "000000000000043A"
+			tasks: [{
+				id: "000000000000043B"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "5AA3AE0E797F81D6"
+				type: "item"
+				item: {
+					id: "minecraft:slime_spawn_egg"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							Size: 31
+							id: "minecraft:slime"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"King Slime\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["The Orechid is a Functional flower who transform stone into ore with mana !"]
+			dependencies: ["00000000000003B5"]
+			id: "000000000000043C"
+			tasks: [{
+				id: "000000000000043D"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "0E15149EA888ADF7"
+				type: "item"
+				item: "minecraft:diamond_ore"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["The Orechid Ingem is a Functional flower who transform netherrack into ore with mana, only work in the Nether."]
+			dependencies: ["00000000000003B5"]
+			id: "000000000000043E"
+			tasks: [{
+				id: "000000000000043F"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "03ABAC6F8A6C2D73"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["The Marimorphosis is a Functional flower who transform stone into metamorphic stonen his range is 17x17 area."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000440"
+			tasks: [{
+				id: "0000000000000441"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [{
+				id: "66439CC9BC2D91B2"
+				type: "item"
+				item: "botania:redstone_root"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["The Solegnolia is a Functional Flower who prevent your Ring of Magnetization to catch items around this flower."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000442"
+			tasks: [{
+				id: "0000000000000443"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+			rewards: [{
+				id: "4C57AEE158BBD754"
+				type: "item"
+				item: "botania:floating_solegnolia"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: ["Collect some Metamorphic Stone using the Marimorphosis."]
+			dependencies: ["0000000000000440"]
+			id: "0000000000000444"
+			tasks: [
+				{
+					id: "0000000000000445"
+					type: "item"
+					item: "botania:metamorphic_forest_stone"
+				}
+				{
+					id: "0000000000000446"
+					type: "item"
+					item: "botania:metamorphic_plains_stone"
+				}
+				{
+					id: "0000000000000447"
+					type: "item"
+					item: "botania:metamorphic_mountain_stone"
+				}
+				{
+					id: "0000000000000448"
+					type: "item"
+					item: "botania:metamorphic_fungal_stone"
+				}
+				{
+					id: "0000000000000449"
+					type: "item"
+					item: "botania:metamorphic_swamp_stone"
+				}
+				{
+					id: "000000000000044A"
+					type: "item"
+					item: "botania:metamorphic_desert_stone"
+				}
+				{
+					id: "000000000000044B"
+					type: "item"
+					item: "botania:metamorphic_taiga_stone"
+				}
+				{
+					id: "000000000000044C"
+					type: "item"
+					item: "botania:metamorphic_mesa_stone"
+				}
+			]
+			rewards: [{
+				id: "2FBB875C7D78E70D"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			title: "Living Material"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"To Get Livingrock you have to transform some Depthrock (find in the Undergarden), using a Pure Daisy."
+				"For the Livingwood, transform some Infused Wood."
+			]
+			dependencies: ["000000000000042C"]
+			size: 2.0d
+			id: "4E8017A427B96DC5"
+			tasks: [
+				{
+					id: "1E075F013A326011"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16L
+				}
+				{
+					id: "065CA81DA38942DD"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "25FD296BADCDE1AC"
+					type: "item"
+					item: "botania:livingrock"
+					count: 8
+				}
+				{
+					id: "79707CA07BDAFEB5"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			description: ["Alfsteel pylon is just a step for making the Gaia Pylon"]
+			dependencies: ["00000000000003DF"]
+			size: 2.0d
+			id: "7E165C3D21F39879"
+			tasks: [{
+				id: "2B33A4299C13D905"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+			rewards: [{
+				id: "4519D61889F3D558"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 4
+			}]
+		}
+		{
+			x: 21.5d
+			y: -2.5d
+			description: ["The Branch of Yggdrasil is used to fill your Gjallarhorn, you must send Mana to the branch for it."]
+			dependencies: ["00000000000003EC"]
+			id: "3C5F7AE3FA712ED6"
+			tasks: [{
+				id: "2D9AAD5C54CB3848"
+				type: "item"
+				item: "mythicbotany:yggdrasil_branch"
+			}]
+			rewards: [{
+				id: "01CE12A0F8B2FCB9"
+				type: "item"
+				item: "botania:terrasteel_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: 20.5d
+			y: -2.5d
+			description: [
+				""
+				"Craft the Gjallarhorn to use it on the Branch of Yggdrasil."
+			]
+			dependencies: ["3C5F7AE3FA712ED6"]
+			id: "3B3690A73AE1221B"
+			tasks: [{
+				id: "6EFA460A87066C63"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_empty"
+			}]
+			rewards: [{
+				id: "2D499E5C65712084"
+				type: "item"
+				item: "botania:avatar"
+				count: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: -2.5d
+			description: [
+				"Get the Water from the Well of Mimir by putting the Gjallarhorn on the Branch of Yggdrasil."
+				"When you have it, drink it to get some knowledge to make rituals."
+			]
+			dependencies: ["3B3690A73AE1221B"]
+			id: "17F4F882FBC93A4B"
+			tasks: [{
+				id: "2F06D18D19919CC9"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+			rewards: [
+				{
+					id: "6C6C4F52734BEF51"
+					type: "item"
+					item: "botania:livingwood"
+					count: 64
+				}
+				{
+					id: "75F03964A284933C"
+					type: "item"
+					item: "botania:livingrock"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 20.0d
+			y: -1.5d
+			description: ["Get the Rune Tablet of Fimbultyr by defeating the Gaia Boss Lvl 2"]
+			dependencies: [
+				"00000000000003DD"
+				"17F4F882FBC93A4B"
+			]
+			id: "1F196D2F8EC9C7D3"
+			tasks: [{
+				id: "452D57CB44E5DAA9"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+			rewards: [{
+				id: "392703B0A9F57A4F"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+		}
+		{
+			title: "Rune Holders"
+			x: 21.0d
+			y: -1.5d
+			description: ["You need those to perform rituals."]
+			dependencies: ["1F196D2F8EC9C7D3"]
+			id: "0A092542A77AFA9D"
+			tasks: [
+				{
+					id: "7CA8324CF35CA549"
+					type: "item"
+					item: "mythicbotany:central_rune_holder"
+				}
+				{
+					id: "0609329FCC3206AC"
+					type: "item"
+					item: "mythicbotany:rune_holder"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "0C4E1699DE229801"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 9
+			}]
+		}
+		{
+			x: 22.0d
+			y: -1.5d
+			description: [
+				"Craft the Blood of Kvasir by performing the ritual in the image below."
+				"{image:ftbquests:textures/bloodofkvasir.png width:150 height:100 align:1}"
+				"You don't need to kill the Wandering trader, the ritual do it for you, although you need Mana on you to perform the ritual."
+			]
+			dependencies: ["0A092542A77AFA9D"]
+			id: "5EBB91A231A640CE"
+			tasks: [{
+				id: "1A4BA3F82FB67E2B"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+			rewards: [{
+				id: "7A8C3E14D7E9427A"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			x: 23.0d
+			y: -1.5d
+			description: ["Drink the Mead of Kvasir to get the ability to go in the Alfheim dimension."]
+			dependencies: ["5EBB91A231A640CE"]
+			id: "09F4E13303AF49A3"
+			tasks: [{
+				id: "4A458D0651A84CD9"
+				type: "item"
+				item: "mythicbotany:kvasir_mead"
+			}]
+			rewards: [{
+				id: "7F2EE87B2F38FF59"
+				type: "item"
+				item: "create_confectionery:honey_candy"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 0.0d
+			description: ["The Mjöllnir is Thor's hammer, you must have Absorption Hearts to carry and use it."]
+			dependencies: ["0A092542A77AFA9D"]
+			size: 2.0d
+			id: "6702BC20FA6C1003"
+			tasks: [{
+				id: "42C45CF1B5EF5DD5"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "36CBCB5B79628927"
+				type: "item"
+				item: "thermal:lightning_grenade"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			id: "4475A45570C9CBB9"
+			tasks: [{
+				id: "76247FBD67F99F56"
+				type: "item"
+				item: "botania:teru_teru_bozu"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			id: "170161AEFCAA46C1"
+			tasks: [{
+				id: "16B41BBC66E8009F"
+				type: "item"
+				item: "botania:hourglass"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			id: "2D6C55A1C912D232"
+			tasks: [{
+				id: "7E56A6D07F69CBAD"
+				type: "item"
+				item: "botania:spawner_claw"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			id: "1500FA008C576712"
+			tasks: [{
+				id: "1F78DA87569C4751"
+				type: "item"
+				item: "botania:cocoon"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

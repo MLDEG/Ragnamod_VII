@@ -1,0 +1,9 @@
+{
+	"biomes": "#beyond_earth:has_structure/oil_well_biomes",
+	"config": {
+		"size": 1,
+		"start_pool": "beyond_earth:oil_well/oil_well"
+	},
+	"spawn_overrides": { },
+	"type": "beyond_earth:oil_well"
+}

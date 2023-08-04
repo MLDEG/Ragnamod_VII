@@ -1,0 +1,16 @@
+{
+	"placement": {
+		"allowed_near_spawn": false,
+		"offset": 31,
+		"probability": 0.75,
+		"seed": 2087872881,
+		"spacing": 45,
+		"type": "structure_gel:gel_placement"
+	},
+	"structures": [
+		{
+			"structure": "blue_skies:everbright_blinding_dungeon",
+			"weight": 1
+		}
+	]
+}

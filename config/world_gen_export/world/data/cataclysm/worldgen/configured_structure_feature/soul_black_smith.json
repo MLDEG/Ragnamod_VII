@@ -1,0 +1,6 @@
+{
+	"biomes": "#cataclysm:has_structure/soul_black_smith_biomes",
+	"config": { },
+	"spawn_overrides": { },
+	"type": "cataclysm:soul_black_smith"
+}

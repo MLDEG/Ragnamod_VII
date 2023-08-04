@@ -1,0 +1,22 @@
+{
+	"config": {
+		"hole_count": 1,
+		"requires_block_below": true,
+		"rock_count": 4,
+		"state": {
+			"Name": "minecraft:water",
+			"Properties": {
+				"falling": "true"
+			}
+		},
+		"valid_blocks": [
+			"blue_skies:turquoise_stone",
+			"blue_skies:lunar_stone",
+			"blue_skies:cinderstone",
+			"blue_skies:taratite",
+			"blue_skies:rimestone",
+			"blue_skies:umber"
+		]
+	},
+	"type": "minecraft:spring_feature"
+}

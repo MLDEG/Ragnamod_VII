@@ -1,0 +1,24 @@
+{
+	"config": {
+		"default": "ars_nouveau:placed_cascade",
+		"features": [
+			{
+				"chance": 0.25,
+				"feature": "ars_nouveau:placed_cascade"
+			},
+			{
+				"chance": 0.25,
+				"feature": "ars_nouveau:placed_blazing"
+			},
+			{
+				"chance": 0.25,
+				"feature": "ars_nouveau:placed_vexing"
+			},
+			{
+				"chance": 0.25,
+				"feature": "ars_nouveau:placed_flourishing"
+			}
+		]
+	},
+	"type": "minecraft:random_selector"
+}

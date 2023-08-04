@@ -1,0 +1,24 @@
+{
+	"feature": "minecraft:blazing_quartz",
+	"placement": [
+		{
+			"count": 16,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"below_top": 8
+				},
+				"min_inclusive": {
+					"above_bottom": 8
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		}
+	]
+}

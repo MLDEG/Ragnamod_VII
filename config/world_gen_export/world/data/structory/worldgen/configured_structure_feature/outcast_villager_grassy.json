@@ -1,0 +1,10 @@
+{
+	"adapt_noise": true,
+	"biomes": "#structory:has_structure/outcast_villager_grassy",
+	"config": {
+		"size": 3,
+		"start_pool": "structory:outcast_villager/grassy"
+	},
+	"spawn_overrides": { },
+	"type": "minecraft:village"
+}

@@ -1,0 +1,18 @@
+{
+	"config": {
+		"discard_chance_on_air_exposure": 0.0,
+		"size": 6,
+		"targets": [
+			{
+				"state": {
+					"Name": "blue_skies:falsite_ore"
+				},
+				"target": {
+					"block": "blue_skies:turquoise_stone",
+					"predicate_type": "minecraft:block_match"
+				}
+			}
+		]
+	},
+	"type": "blue_skies:ore"
+}

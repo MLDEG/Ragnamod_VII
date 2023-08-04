@@ -1,0 +1,864 @@
+{
+	id: "6E7D92AE133EA961"
+	group: ""
+	order_index: 10
+	filename: "blue_skies"
+	title: "Blue Skies"
+	icon: "blue_skies:soul_fragment"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "5D41E955B2B0A532"
+			tasks: [{
+				id: "4739A7E89CB17AE7"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "0D389CCBC585A560"
+			tasks: [{
+				id: "079FF7286ECA64B2"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			id: "5427F6F0E83189CE"
+			tasks: [{
+				id: "1118126ADF2FD396"
+				type: "item"
+				item: "blue_skies:blinding_key"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "7B3715CF8D754765"
+			tasks: [{
+				id: "4AE1CFB89067D058"
+				type: "item"
+				item: "blue_skies:nature_key"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			id: "29A50EFD07FFC0CB"
+			tasks: [{
+				id: "2AC878DFBFFF9950"
+				type: "item"
+				item: "blue_skies:poison_key"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			id: "464528B160DE150C"
+			tasks: [
+				{
+					id: "3B4398DA9067C592"
+					type: "kill"
+					entity: "blue_skies:starlit_crusher"
+					value: 1L
+				}
+				{
+					id: "6E3F8CE370192C47"
+					type: "item"
+					item: {
+						id: "blue_skies:starlit_crusher_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "gold"
+							}
+						}
+					}
+				}
+				{
+					id: "6FD0CFCAE130C585"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_starlit_crusher"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/starlit_crusher/rare"
+							Rarity: 2
+						}
+					}
+					match_nbt: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			id: "66D6AF0995355087"
+			tasks: [
+				{
+					id: "070F7D5D9A4FF93E"
+					type: "kill"
+					entity: "blue_skies:summoner"
+					value: 1L
+				}
+				{
+					id: "17159EE122B67691"
+					type: "item"
+					item: {
+						id: "blue_skies:summoner_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "gold"
+							}
+						}
+					}
+				}
+				{
+					id: "118B711F3427F404"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_summoner"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/summoner/uncommon"
+							Rarity: 1
+						}
+					}
+					match_nbt: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			id: "64B294A73A4BF758"
+			tasks: [
+				{
+					id: "4641FB1BF634AC09"
+					type: "kill"
+					entity: "blue_skies:alchemist"
+					value: 1L
+				}
+				{
+					id: "4816754432CD7AFA"
+					type: "item"
+					item: {
+						id: "blue_skies:alchemist_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "gold"
+							}
+						}
+					}
+				}
+				{
+					id: "0B384BA8465DB631"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_alchemist"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/alchemist/common"
+							Rarity: 0
+						}
+					}
+					match_nbt: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			id: "3642FEFA14E5B577"
+			tasks: [
+				{
+					id: "6E25786167A3D0E2"
+					type: "kill"
+					entity: "blue_skies:arachnarch"
+					value: 1L
+				}
+				{
+					id: "2AD7D38B596FF888"
+					type: "item"
+					item: {
+						id: "blue_skies:arachnarch_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "gold"
+							}
+						}
+					}
+				}
+				{
+					id: "63844D51CEB9045E"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_arachnarch"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/arachnarch/common"
+							Rarity: 0
+						}
+					}
+					match_nbt: false
+				}
+			]
+		}
+		{
+			icon: "blue_skies:everbright_portal"
+			x: 3.0d
+			y: 1.5d
+			id: "25C16DAF79CEB2AC"
+			tasks: [{
+				id: "32FAAB37F070EB63"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+		}
+		{
+			icon: "blue_skies:everdawn_portal"
+			x: 4.0d
+			y: 1.5d
+			id: "12AB66D0233C13DD"
+			tasks: [{
+				id: "2AC402E52323CCEC"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			id: "0F3871DA957D1676"
+			tasks: [{
+				id: "79C0B77D476512FD"
+				type: "item"
+				item: "blue_skies:raw_horizonite"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			id: "5087D7633FD14915"
+			tasks: [{
+				id: "6C89DCC6F99FA697"
+				type: "item"
+				item: "blue_skies:raw_ventium"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			id: "5E6F7485DE77D2BF"
+			tasks: [{
+				id: "5D2305AC2AA2E761"
+				type: "item"
+				item: "blue_skies:raw_falsite"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "6EF85A594ED56AF6"
+			tasks: [{
+				id: "06101496ED8707AE"
+				type: "item"
+				item: "blue_skies:warding_pearl"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "7E6B4F17B0F46590"
+			tasks: [{
+				id: "103C28E8DF562DDA"
+				type: "item"
+				item: "blue_skies:raw_aquite"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "0DA2467A22F6D309"
+			tasks: [{
+				id: "5595CFDE90F1B2D2"
+				type: "item"
+				item: "blue_skies:raw_charoite"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "47F04F195DE192F9"
+			tasks: [
+				{
+					id: "08F6B3A67B2C1024"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "569CE7B00595F8B7"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B1A05DA05070339"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5EC74ACA00051E7E"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			id: "1019A0B35E3CCF27"
+			tasks: [
+				{
+					id: "541DE6AABE0F54A8"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AB7E4DBE3040B69"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "698D3C1F237A929A"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "450D7D494ED10388"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			id: "5812E71E54C1398A"
+			tasks: [
+				{
+					id: "340657277A06C166"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D12DD4143698D4E"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B4623BA57F863D8"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47F3027EF915A047"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			id: "6080D26507C6D50B"
+			tasks: [
+				{
+					id: "4FA89CF97FB4E4AB"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "321A6B62B2BD5B4E"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3121796B3F1BE9AD"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40300201BB1682A6"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			id: "2BBF8DBC515DA045"
+			tasks: [
+				{
+					id: "3E05AC9D95397B9F"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21D598BEDEE1C77D"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61E764D0EDDCB3F0"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C9E5CB976EB6EAC"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			id: "26C9072836B7441D"
+			tasks: [
+				{
+					id: "06F181DF98371916"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "421CDD30249BD7A7"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "491F0AA4D08CD7BF"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1263E44256F00711"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			id: "7D75138C480894E3"
+			tasks: [
+				{
+					id: "7ED7632CBA13EFB6"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D263245ECCE3B70"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E43635AE06E2021"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35373067726D37B3"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			id: "2CAD18360359759B"
+			tasks: [
+				{
+					id: "16C341CC2B650E1B"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03122738C66540FC"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "793CEB194A77F4C3"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "552E705FBAF2C71A"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			id: "5DC36D2A420ACD46"
+			tasks: [{
+				id: "6E2E3B04236DC939"
+				type: "item"
+				item: "blue_skies:food_prep_table"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			id: "54AE1856FCFF9641"
+			tasks: [{
+				id: "2D8B58DC54BE7242"
+				type: "item"
+				item: "blue_skies:alchemy_table"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			id: "534F929E63557D43"
+			tasks: [{
+				id: "3EE9B513579D9448"
+				type: "item"
+				item: "blue_skies:tool_box"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			id: "3B89725E5E56A8CF"
+			tasks: [
+				{
+					id: "3B0C10A4319934A5"
+					type: "item"
+					item: "blue_skies:star_emitter"
+				}
+				{
+					id: "3E344CB4DE277B45"
+					type: "item"
+					item: "blue_skies:astrolabe"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			id: "1CE0851610DB9220"
+			tasks: [
+				{
+					id: "6FEC3B08DFF89237"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49A824FDD28A8917"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C5A208CEA1D50F5"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75007A20878340C6"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			id: "701C945DBA3DF5CD"
+			tasks: [
+				{
+					id: "08600D9C01694C33"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FD68674EF55DE16"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E32F8B5033C24AD"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C99D980E8C67282"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

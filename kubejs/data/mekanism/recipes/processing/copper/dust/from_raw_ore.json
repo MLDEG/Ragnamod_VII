@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "amount": 3,
+        "ingredient": {
+            "tag": "forge:raw_materials/copper"
+        }
+    },
+    "output": {
+        "item": "thermal:copper_dust",
+        "count": 4
+    }
+}

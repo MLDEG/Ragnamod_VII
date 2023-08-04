@@ -1,0 +1,357 @@
+{
+	id: "346297BE5BDEC10F"
+	group: ""
+	order_index: 9
+	filename: "evilcraft"
+	title: "EvilCraft"
+	icon: "evilcraft:condensed_blood"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "1577635AA4E66A66"
+			tasks: [{
+				id: "43074C8E71841251"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "1D654C0A3871B157"
+			tasks: [{
+				id: "2EDC157D50D5005E"
+				type: "item"
+				item: "evilcraft:darkened_apple"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "47708A85225B918A"
+			tasks: [{
+				id: "47C2AABB81F9239B"
+				type: "item"
+				item: "evilcraft:origins_of_darkness"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "4F8B08C502230A0F"
+			tasks: [{
+				id: "1E2AB1E95ED99DD4"
+				type: "item"
+				item: "evilcraft:vengeance_ring"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "44167CB3A1DDA560"
+			tasks: [{
+				id: "68B826431CD3909C"
+				type: "item"
+				item: "evilcraft:vengeance_focus"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "5BDC7CBB07E7230D"
+			tasks: [{
+				id: "496A95B2737A90E2"
+				type: "item"
+				item: "evilcraft:piercing_vengeance_focus"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "7DA9A918079760B1"
+			tasks: [{
+				id: "55592CC1CF207782"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 10000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "3DD4AC2306FA9462"
+			tasks: [{
+				id: "0921E16731DF7B53"
+				type: "item"
+				item: "evilcraft:sanguinary_environmental_accumulator"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "249D4E899B6A93B0"
+			tasks: [{
+				id: "7E88F28F0CFFA014"
+				type: "item"
+				item: "evilcraft:environmental_accumulation_core"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "2498E11E6FA06B0F"
+			tasks: [{
+				id: "7A2AB4CD3F31453A"
+				type: "item"
+				item: "evilcraft:sceptre_of_thunder"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "1505DA74A50CCFF1"
+			tasks: [{
+				id: "634E7380B33E63C3"
+				type: "item"
+				item: "evilcraft:vengeance_essence_materialized"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "7DB61268194A5D7E"
+			tasks: [{
+				id: "530D309B1EB93E48"
+				type: "item"
+				item: "evilcraft:vengeance_essence"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "4512C2B58AD1076D"
+			tasks: [{
+				id: "3E8069A26A7BACBC"
+				type: "item"
+				item: "evilcraft:box_of_eternal_closure"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "585B9B16C8FB0996"
+			tasks: [{
+				id: "5DAEB41479E57B89"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_0"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 10000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "397F81BC0FACA32C"
+			tasks: [{
+				id: "0727B28271C2DE27"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_1"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 10000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "2F27D1C519E3D2FC"
+			tasks: [{
+				id: "3C084BD9C515E72E"
+				type: "item"
+				item: "evilcraft:spiked_plate"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "2805CB885775263A"
+			tasks: [{
+				id: "2B8CB33E0DF144E6"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 5000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 5000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "296E48F13F86BBB7"
+			tasks: [{
+				id: "108092E56DA73F22"
+				type: "item"
+				item: {
+					id: "evilcraft:weather_container"
+					Count: 1b
+					tag: {
+						weather: "EMPTY"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "3C6BFF8D837001FE"
+			tasks: [{
+				id: "0B693901BAC43FFE"
+				type: "item"
+				item: "evilcraft:promise_speed_0"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "27163873EBE27E61"
+			tasks: [{
+				id: "350D127CEF5942A1"
+				type: "item"
+				item: "evilcraft:promise_efficiency_0"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "7D728D0DB7EBC47A"
+			tasks: [{
+				id: "620F4A6AD1D82305"
+				type: "item"
+				item: "evilcraft:promise_tier_1"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "2B1CF4ACF28CA9DE"
+			tasks: [{
+				id: "123B9AB0879E6179"
+				type: "item"
+				item: "evilcraft:promise_tier_2"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			id: "4CBA5CFBD7EF0EA3"
+			tasks: [{
+				id: "55C42BECE0C8AED3"
+				type: "item"
+				item: "evilcraft:promise_tier_3"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "384747F22752688B"
+			tasks: [{
+				id: "3A41C53B6FA34445"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "1C8DB2E8717C6AAF"
+			tasks: [{
+				id: "70BFE71264971E74"
+				type: "item"
+				item: "evilcraft:hardened_blood"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			id: "443E2A8B9754F1B8"
+			tasks: [{
+				id: "21BD4D7D4A534B50"
+				type: "item"
+				item: "evilcraft:garmonbozia"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			id: "511DF6A8A14D0B68"
+			tasks: [{
+				id: "639A4C78BBC09D23"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,9 @@
+{
+	"biomes": "blue_skies:slushlands",
+	"config": {
+		"size": 7,
+		"start_pool": "blue_skies:bunker/entrance"
+	},
+	"spawn_overrides": { },
+	"type": "blue_skies:frozen_bunker"
+}

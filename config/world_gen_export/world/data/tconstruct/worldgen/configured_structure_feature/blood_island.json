@@ -1,0 +1,18 @@
+{
+	"biomes": "#tconstruct:islands/blood",
+	"config": { },
+	"spawn_overrides": {
+		"monster": {
+			"bounding_box": "full",
+			"spawns": [
+				{
+					"maxCount": 6,
+					"minCount": 4,
+					"type": "minecraft:magma_cube",
+					"weight": 1
+				}
+			]
+		}
+	},
+	"type": "tconstruct:blood_island"
+}

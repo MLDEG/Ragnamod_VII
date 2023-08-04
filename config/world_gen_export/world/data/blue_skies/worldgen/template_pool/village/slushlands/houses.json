@@ -1,0 +1,303 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_0",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_7",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_6",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_5",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_4",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_3",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_2",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/small_1",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/medium_1",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/medium_0",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/large_0",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/fisher",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/temple",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/tannery",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/stargazer",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/weaponsmith",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/butcher",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/mason",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/cartographer",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/nightwatcher",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/armorer",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/wrangler",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/library",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/fletcher",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/farm",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/toolsmith",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/slushlands/houses/shepherd",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "blue_skies:village/slushlands/terminators",
+	"name": "blue_skies:village/slushlands/houses"
+}

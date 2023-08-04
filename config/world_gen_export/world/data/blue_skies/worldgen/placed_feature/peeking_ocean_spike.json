@@ -1,0 +1,19 @@
+{
+	"feature": "blue_skies:ocean_spike",
+	"placement": [
+		{
+			"count": 3,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"heightmap": "OCEAN_FLOOR",
+			"type": "minecraft:heightmap"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

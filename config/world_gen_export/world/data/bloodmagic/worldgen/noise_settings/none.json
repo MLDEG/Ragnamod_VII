@@ -1,0 +1,66 @@
+{
+	"aquifers_enabled": false,
+	"default_block": {
+		"Name": "minecraft:air"
+	},
+	"default_fluid": {
+		"Name": "minecraft:water",
+		"Properties": {
+			"level": "0"
+		}
+	},
+	"disable_mob_generation": true,
+	"legacy_random_source": false,
+	"noise": {
+		"bottom_slide": {
+			"offset": 0,
+			"size": 0,
+			"target": -30.0
+		},
+		"height": 256,
+		"min_y": -64,
+		"sampling": {
+			"xz_factor": 80.0,
+			"xz_scale": 1.0,
+			"y_factor": 160.0,
+			"y_scale": 1.0
+		},
+		"size_horizontal": 1,
+		"size_vertical": 2,
+		"terrain_shaper": {
+			"factor": 0.0,
+			"jaggedness": 0.0,
+			"offset": 0.0
+		},
+		"top_slide": {
+			"offset": 0,
+			"size": 3,
+			"target": -10.0
+		}
+	},
+	"noise_router": {
+		"barrier": 0.0,
+		"continents": 0.0,
+		"depth": 0.0,
+		"erosion": 0.0,
+		"final_density": 0.0,
+		"fluid_level_floodedness": 0.0,
+		"fluid_level_spread": 0.0,
+		"initial_density_without_jaggedness": 0.0,
+		"lava": 0.0,
+		"ridges": 0.0,
+		"temperature": 0.0,
+		"vegetation": 0.0,
+		"vein_gap": 0.0,
+		"vein_ridged": 0.0,
+		"vein_toggle": 0.0
+	},
+	"ore_veins_enabled": false,
+	"sea_level": -64,
+	"surface_rule": {
+		"result_state": {
+			"Name": "minecraft:air"
+		},
+		"type": "minecraft:block"
+	}
+}

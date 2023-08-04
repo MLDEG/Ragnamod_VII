@@ -1,0 +1,12 @@
+{
+	"config": {
+		"state": {
+			"Name": "miningmaster:power_pyrite_ore"
+		},
+		"target": {
+			"block": "minecraft:netherrack",
+			"predicate_type": "minecraft:block_match"
+		}
+	},
+	"type": "miningmaster:native_nether_gem_ore_feature"
+}

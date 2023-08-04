@@ -1,0 +1,10 @@
+{
+	"adapt_noise": true,
+	"biomes": "blue_skies:snow_covered_pines",
+	"config": {
+		"size": 6,
+		"start_pool": "blue_skies:village/brightlands/town_centers"
+	},
+	"spawn_overrides": { },
+	"type": "blue_skies:village"
+}

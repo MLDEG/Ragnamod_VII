@@ -1,0 +1,27 @@
+{
+	"feature": "tconstruct:sky_geode",
+	"placement": [
+		{
+			"chance": 64,
+			"type": "minecraft:rarity_filter"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 54
+				},
+				"min_inclusive": {
+					"absolute": 16
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

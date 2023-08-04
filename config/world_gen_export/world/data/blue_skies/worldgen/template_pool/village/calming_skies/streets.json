@@ -1,0 +1,171 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/straight_0",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/straight_5",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/straight_3",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/straight_4",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/straight_1",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/straight_2",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/corner_2",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 8
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/corner_1",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 8
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/corner_0",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 8
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/intersection_1",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/intersection_0",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/intersection_5",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/intersection_4",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/intersection_3",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/calming_skies/streets/intersection_2",
+				"maintainWater": true,
+				"processors": "blue_skies:calming_skies_street",
+				"projection": "terrain_matching"
+			},
+			"weight": 2
+		}
+	],
+	"fallback": "blue_skies:village/calming_skies/terminators",
+	"name": "blue_skies:village/calming_skies/streets"
+}

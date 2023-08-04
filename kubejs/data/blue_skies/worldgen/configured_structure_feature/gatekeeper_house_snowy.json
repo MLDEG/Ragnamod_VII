@@ -1,0 +1,38 @@
+{
+	"adapt_noise": true,
+	"biomes": [
+		"minecraft:frozen_river",
+		"minecraft:snowy_beach",
+		"byg:canadian_shield",
+		"byg:cardinal_tundra",
+		"byg:frosted_taiga",
+		"byg:frosted_coniferous_forest",
+		"minecraft:snowy_taiga",
+		"minecraft:grove",
+		"byg:frosted_taiga",
+		"byg:frosted_coniferous_forest",
+		"minecraft:snowy_plains",
+		"minecraft:snowy_slopes",
+		"minecraft:frozen_peaks",
+		"minecraft:grove",
+		"byg:canadian_shield",
+		"minecraft:snowy_taiga",
+		"minecraft:grove",
+		"byg:frosted_taiga",
+		"byg:frosted_coniferous_forest",
+		"minecraft:taiga",
+		"byg:black_forest",
+		"byg:autumnal_taiga"
+	],
+	"config": {
+		"size": 7,
+		"start_pool": "blue_skies:gatekeeper/snowy/main"
+	},
+	"spawn_overrides": {
+		"monster": {
+			"bounding_box": "piece",
+			"spawns": []
+		}
+	},
+	"type": "blue_skies:gatekeeper_house"
+}

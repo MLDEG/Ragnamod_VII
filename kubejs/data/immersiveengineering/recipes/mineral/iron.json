@@ -1,0 +1,44 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.7,
+            "output": {
+                "item": "minecraft:iron_ore"
+            }
+        },
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "thermal:nickel_ore"
+            }
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "minecraft:raw_iron_block"
+            }
+        }
+    ],
+    "spoils": [
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "minecraft:gravel"
+            }
+        },
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:cobblestone"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 1,
+    "fail_chance": 0.15
+}

@@ -1,0 +1,7 @@
+#The multiplier for the chance of growth
+#Range: 1 ~ 20
+"Growth Speed" = 2
+#The multiplier for movement speed on Suol Snad
+#Range: 1.0 ~ 2.0
+"Movement Speed" = 1.4
+

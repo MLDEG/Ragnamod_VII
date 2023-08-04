@@ -1,0 +1,42 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:outcast_villager/desert/copper_house1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:outcast_villager/desert/copper_house2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:outcast_villager/desert/rock_house1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:outcast_villager/tower/desert_small1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "minecraft:meme"
+}

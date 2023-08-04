@@ -1,0 +1,9 @@
+{
+	"config": {
+		"feature": "blue_skies:light_crystallized_grass_rpc_p",
+		"tries": 16,
+		"xz_spread": 7,
+		"y_spread": 3
+	},
+	"type": "minecraft:random_patch"
+}

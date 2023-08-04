@@ -1,0 +1,549 @@
+{
+	id: "35D0DC4AC8BE5302"
+	group: ""
+	order_index: 2
+	filename: "get_back_to_earth"
+	title: " Get Back To Earth"
+	icon: "beyond_earth:earth_globe"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Introduction"
+			x: 1.0d
+			y: -2.0d
+			subtitle: "Your goal is to leave the Twilight with a rocket to return to earth and truly begin your adventure!"
+			description: ["You'll have to follow the classic progression of the Twilight Forest to recover stuff to make you the portal activator which will give you access to the undergarden."]
+			id: "7DCDDC6CA278A7C5"
+			tasks: [{
+				id: "608B0D64957C2EC8"
+				type: "checkmark"
+				title: "Introduction"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: [
+				"The Nasa Workbench combines all the technology you have created!"
+				"Use the Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
+			]
+			dependencies: [
+				"366106157FB5459C"
+				"3C884020904C1B6C"
+				"6013E9708A7B59E9"
+			]
+			id: "2FE44372B1A4621B"
+			tasks: [{
+				id: "2B0FC2ADEF8C5A73"
+				type: "item"
+				item: "beyond_earth:nasa_workbench"
+			}]
+		}
+		{
+			title: "Naga Fight"
+			icon: "twilightforest:naga_trophy"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "You need to beat the Naga to get some Naga Scales."
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "5CFDD2C9BF21A177"
+			tasks: [
+				{
+					id: "5EC9CCB7901BFE35"
+					type: "item"
+					item: "twilightforest:naga_trophy"
+				}
+				{
+					id: "56F520CEDDB00B10"
+					type: "item"
+					item: "twilightforest:naga_scale"
+				}
+			]
+			rewards: [{
+				id: "290D04A786CC5269"
+				type: "item"
+				item: {
+					id: "tinker_rapier:rapier_tic"
+					Count: 1b
+					tag: {
+						tic_stats: {
+							"tconstruct:attack_speed": 2.75f
+							"tconstruct:mining_speed": 9.75f
+							"tconstruct:attack_damage": 3.5f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:durability": 461.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "twilightforest:twilit"
+								level: 2s
+							}
+							{
+								name: "twilightforest:precipitate"
+								level: 2s
+							}
+							{
+								name: "tconstruct:cultivated"
+								level: 2s
+							}
+							{
+								name: "tconstruct:silky_shears"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"twilightforest:nagascale"
+							"twilightforest:nagascale"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["The Mixing Cauldron is simply a cauldron from Hexerei, light a fire below and you can craft in it!"]
+			dependencies: ["608B0D64957C2EC8"]
+			id: "3D70617228B5BE1A"
+			tasks: [{
+				id: "30BEAED1C0B3D177"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [{
+				id: "4B3FE0AB11C117B6"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			icon: "immersiveengineering:blast_furnace"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "The steel road"
+			description: ["To get Steel, you're going to need to make a Blast Furnace.In this pack, you can use a Hexerei Cauldron to get one in the Twilight Forest."]
+			dependencies: ["3D70617228B5BE1A"]
+			id: "1EF95835215D60E0"
+			tasks: [{
+				id: "67D43460FF6C2547"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "6AF1E067B8EF1C5D"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 64
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			description: ["Right now your mechanical arm you'll use it in the craft of the Nasa Workbench, but this one can be useful in automation of Create devices!"]
+			dependencies: ["5836EBA421A25364"]
+			id: "6013E9708A7B59E9"
+			tasks: [{
+				id: "478CE551CDB598E1"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "217EC9A55E00D994"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: [
+				"The Utherium Crystal is used to craft the Nasa Workbench."
+				"You can find it in the form of ore or get shard by killing rotten mobs"
+			]
+			dependencies: ["769AFAB1B0F353E0"]
+			id: "366106157FB5459C"
+			tasks: [{
+				id: "7C86DD3FAFEA242D"
+				type: "item"
+				item: "undergarden:utherium_crystal"
+			}]
+			rewards: [{
+				id: "534EE72D049560AF"
+				type: "item"
+				item: "undergarden:shard_torch"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["The Portal Activator is needed to open a Twilight portal.Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
+			dependencies: [
+				"5CFDD2C9BF21A177"
+				"22556496826ED6BF"
+				"572A921A6E34907B"
+				"731DC23E85B1A666"
+				"7750BE582D815E25"
+				"15459E52419C1267"
+				"03912F8EED303C9E"
+				"29582A190DD0E266"
+				"3D70617228B5BE1A"
+			]
+			id: "0A1BC75F350F8C54"
+			tasks: [{
+				id: "39E7E8F2DCB9F5EB"
+				type: "item"
+				item: "kubejs:portal_activator"
+			}]
+			rewards: [{
+				id: "0F251640BA15EF7E"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"An old activator portal\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "The Undergarden"
+			x: 3.0d
+			y: 2.0d
+			description: ["Simply visit the undergarden."]
+			dependencies: ["0A1BC75F350F8C54"]
+			id: "769AFAB1B0F353E0"
+			tasks: [{
+				id: "73ED122E36E42D7D"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "You can use it to make a map to guide you through the Twilight Forest."
+			description: ["You'll have to kill a crow to get its feathers.Once obtained, you must combine it with glowstone (obtainable in large hollow hills) and torcheberries (obtainable by killing a Skeleton Druid or finding them in caves)"]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "572A921A6E34907B"
+			tasks: [{
+				id: "7270D4E775853181"
+				type: "item"
+				item: "twilightforest:magic_map_focus"
+			}]
+			rewards: [{
+				id: "36480523B0B55FFE"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Borer Essence can be find in the Ur-Ghast tower."
+			description: ["You can either collect some from the top of the tower or kill a Towerwood Borers who are themselves hidden in infested towerwoods, like silverfish."]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "22556496826ED6BF"
+			tasks: [{
+				id: "5483417CE5FB5317"
+				type: "item"
+				item: "twilightforest:borer_essence"
+			}]
+			rewards: [{
+				id: "5ECE23B1890F4170"
+				type: "item"
+				item: "twilightforest:borer_essence"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["To get your Bottled Substance you need to right-click in the air with a Bottle and Cork"]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "731DC23E85B1A666"
+			tasks: [{
+				id: "5C0A1D10C9375810"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:other"
+					}
+				}
+			}]
+			rewards: [{
+				id: "232CD3789B7F9936"
+				type: "item"
+				item: "croptopia:milk_bottle"
+			}]
+		}
+		{
+			title: "Raw Insect"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Chop Chop !"
+			description: ["You just have to cut some insects with a cutting board and a knife."]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "7750BE582D815E25"
+			tasks: [{
+				id: "63E2B2082AE32BAD"
+				type: "item"
+				item: "twilightdelight:raw_insect"
+				count: 2L
+			}]
+			rewards: [{
+				id: "61AFBD924C99A798"
+				type: "item"
+				item: "twilightdelight:fried_insect"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Great for keeping you warm."
+			description: ["To get Arctic Furs, you need to go to the Snowy Forest and kill a Yeti or a Winter Wolf."]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "15459E52419C1267"
+			tasks: [{
+				id: "36783FA28795DC7D"
+				type: "item"
+				item: "twilightforest:arctic_fur"
+			}]
+			rewards: [{
+				id: "19DC611C405AEB0A"
+				type: "item"
+				item: {
+					id: "twilightforest:arctic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "A shiny magic crystal."
+			description: ["You can find them in caves."]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "03912F8EED303C9E"
+			tasks: [{
+				id: "2FA8CB62E927395D"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+			}]
+			rewards: [{
+				id: "47EFDB022CA016F6"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Great for an early armor and tools set."
+			description: ["You can amalgamate raw iron, gold nuggets and Liveroot to obtain a ball of Raw Ironwood."]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "29582A190DD0E266"
+			tasks: [{
+				id: "006D82236FD066D5"
+				type: "item"
+				item: "twilightforest:raw_ironwood"
+			}]
+			rewards: [{
+				id: "32661F6DD4C3D978"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 1s
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: ["In the Blast Furnace you need to put Ironwood to obtain Steel."]
+			dependencies: ["1EF95835215D60E0"]
+			id: "3C884020904C1B6C"
+			tasks: [{
+				id: "01469A72E9B27D2B"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+			}]
+			rewards: [{
+				id: "18700D2FD3E51451"
+				type: "item"
+				item: "twilightforest:ironwood_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			subtitle: "Liftoff"
+			description: [
+				"With your Nasa Workbench, you can now make your first rocket."
+				"This will allow you to go to the overworld and therefore have access to the Nether and to the end!"
+			]
+			dependencies: ["2FE44372B1A4621B"]
+			id: "6F5B1AE2E73664A7"
+			tasks: [{
+				id: "133486B7D579DD33"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7ABC86292AFEC53D"
+				type: "item"
+				item: "beyond_earth:earth_globe"
+			}]
+		}
+		{
+			title: "Overworld"
+			x: 6.0d
+			y: 4.0d
+			shape: "octagon"
+			subtitle: "The adventure begin !"
+			description: ["Land safely on Earth."]
+			dependencies: ["6F5B1AE2E73664A7"]
+			size: 2.0d
+			id: "4543AD330BD0A901"
+			tasks: [{
+				id: "4CFAB8DD6282CDBF"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Precision"
+			description: [
+				"The Precision Mechanism is mainly used to make Mechanical Arms or Rotation Speed Controller."
+				""
+				"Be careful though because the craft has a 20% chance of missing and giving you a junk item"
+			]
+			dependencies: ["6234A8C99DAEDBF1"]
+			id: "5836EBA421A25364"
+			tasks: [{
+				id: "1A21FB994515127B"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "2240DD7A50FB0623"
+				type: "item"
+				item: "create_sa:brass_cube"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			subtitle: "autoclicker"
+			description: ["The deployer will be useful for making assembly crafts."]
+			dependencies: [
+				"4C6AA93A91E04FBB"
+				"5CA38B103AB4469B"
+			]
+			id: "6234A8C99DAEDBF1"
+			tasks: [{
+				id: "2AF8E0DF89B6C9C8"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "763A1822C74D46CD"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: [
+				"In this pack to make Rose Quartz you will need Fluorite and Redstone."
+				"There will be a way to make Rose Quartz with Quartz later."
+			]
+			dependencies: ["608B0D64957C2EC8"]
+			id: "4C6AA93A91E04FBB"
+			tasks: [{
+				id: "4B40F178460395FD"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "27E7CAA68021E444"
+				type: "item"
+				item: {
+					id: "create:red_sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "The age of Brass"
+			description: ["With your alloy kiln, made Brass ingots to enter the age of brass with Create!"]
+			dependencies: ["5B7594939BB7C888"]
+			id: "27709AD99F715F2C"
+			tasks: [{
+				id: "5CA38B103AB4469B"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			title: "Alloy Kiln"
+			icon: "immersiveengineering:alloy_smelter"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "a primitive alloy smelter"
+			description: ["The alloy kiln is a simple way to make your first alloy!"]
+			dependencies: ["608B0D64957C2EC8"]
+			id: "5B7594939BB7C888"
+			tasks: [{
+				id: "187782A76A7FD770"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4A87AA178181DC1D"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

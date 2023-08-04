@@ -1,0 +1,16 @@
+{
+  "type": "createaddition:rolling",
+  "input": {
+    "tag": "forge:ingots/aluminum"
+  },
+  "result": {
+    "item": "ftbic:aluminum_rod",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

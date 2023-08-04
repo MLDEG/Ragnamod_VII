@@ -1,0 +1,4 @@
+{
+"criteria": { "subathon:first_connection": { "trigger": "minecraft:tick" } },
+"rewards": { "function": "subathon:first_connection" }
+}

@@ -1,0 +1,9 @@
+{
+	"config": {
+		"target": {
+			"predicate_type": "minecraft:tag_match",
+			"tag": "minecraft:stone_ore_replaceables"
+		}
+	},
+	"type": "miningmaster:random_gem_ore_feature"
+}

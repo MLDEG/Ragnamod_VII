@@ -1,0 +1,11 @@
+{
+	"config": {
+		"accent_block": {
+			"Name": "blue_skies:umber"
+		},
+		"main_block": {
+			"Name": "blue_skies:lunar_stone"
+		}
+	},
+	"type": "blue_skies:cave_wall"
+}

@@ -1,0 +1,705 @@
+{
+	id: "4C310F9E6915E56F"
+	group: ""
+	order_index: 17
+	filename: "forbidden_and_arcanus"
+	title: "Forbidden and Arcanus"
+	icon: "forbidden_arcanus:hephaestus_forge"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tyr Armor"
+			x: 5.0d
+			y: 2.0d
+			description: ["Craft the Tyr Armor"]
+			dependencies: ["06741AEC28F07033"]
+			id: "00000000000005DF"
+			tasks: [
+				{
+					id: "00000000000005E0"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005E1"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005E2"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005E3"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5FB838F864B9FD67"
+				type: "item"
+				item: "forbidden_arcanus:golden_dragon_scale"
+			}]
+		}
+		{
+			title: "Draco Arcanus Armor"
+			x: 6.0d
+			y: 2.0d
+			description: ["Craft the Dragon Arcanus Armor"]
+			dependencies: ["06741AEC28F07033"]
+			id: "00000000000005E4"
+			tasks: [
+				{
+					id: "00000000000005E5"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000005E6"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005E7"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005E8"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "70C63C704C10C0CF"
+				type: "item"
+				item: "forbidden_arcanus:dragon_scale"
+			}]
+		}
+		{
+			title: "Mortem Armor"
+			x: 8.0d
+			y: 1.0d
+			description: ["Craft the Mortem Armor."]
+			dependencies: ["480EB40B0567EE82"]
+			id: "00000000000005E9"
+			tasks: [
+				{
+					id: "00000000000005EA"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005EB"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005EC"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000005ED"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "372BD55E49B5CA70"
+				type: "item"
+				item: "forbidden_arcanus:stellarite_block"
+			}]
+		}
+		{
+			title: "Edelwood Planks"
+			x: 1.5d
+			y: -1.0d
+			description: ["Edelwood Planks come from the Edelwood Log, who you can find some in Roofed Forest or craft it."]
+			dependencies: ["000000000000060C"]
+			id: "00000000000005EE"
+			tasks: [{
+				id: "00000000000005EF"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_planks"
+				count: 64L
+			}]
+			rewards: [{
+				id: "15B24093009F5D91"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_log"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["The Draco Arcanus Scepter can launch thunder at mobs."]
+			dependencies: ["06B3F7979853F6BE"]
+			id: "00000000000005F4"
+			tasks: [{
+				id: "00000000000005F5"
+				type: "item"
+				item: "forbidden_arcanus:draco_arcanus_scepter"
+			}]
+			rewards: [{
+				id: "550846B60583D9B6"
+				type: "item"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: [
+				"With your Dark Soul, craft a Corrupted Pixie."
+				"You can right-click it on a Utrem Jar."
+			]
+			dependencies: ["00000000000005F8"]
+			id: "00000000000005F6"
+			tasks: [{
+				id: "00000000000005F7"
+				type: "item"
+				item: "forbidden_arcanus:corrupted_pixie"
+			}]
+			rewards: [{
+				id: "01ACF3E1455F2600"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:pixie"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			description: ["Turn the Soul into a Dark Soul."]
+			dependencies: ["00000000000005FA"]
+			id: "00000000000005F8"
+			tasks: [{
+				id: "00000000000005F9"
+				type: "item"
+				item: "forbidden_arcanus:dark_soul"
+			}]
+			rewards: [{
+				id: "0E4C099FC1682F70"
+				type: "item"
+				item: "forbidden_arcanus:dark_soul"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: ["Collect a Soul from a soul sand using the Soul Extractor."]
+			dependencies: ["00000000000005FC"]
+			id: "00000000000005FA"
+			tasks: [{
+				id: "00000000000005FB"
+				type: "item"
+				item: "forbidden_arcanus:soul"
+			}]
+			rewards: [{
+				id: "1533AD755348DBE7"
+				type: "item"
+				item: "quark:soul_bead"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["The Soul Extractor is used to extract souls from soul sand."]
+			dependencies: ["06B3F7979853F6BE"]
+			id: "00000000000005FC"
+			tasks: [{
+				id: "00000000000005FD"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:soul_extractor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "07C41332D728B9E9"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 64
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: ["The Quantum Catcher can catch mobs."]
+			id: "00000000000005FE"
+			tasks: [{
+				id: "00000000000005FF"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+			rewards: [{
+				id: "212CC0ABCD318989"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: ["The Slimec Pickexe has Silk Touch when you craft it."]
+			dependencies: ["09FB1CFAC203AC1F"]
+			id: "0000000000000602"
+			tasks: [{
+				id: "0000000000000603"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:slimec_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "78CDDD920C0B6940"
+				type: "item"
+				item: "forbidden_arcanus:golden_feather"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["You can find, rarely, Runestone between Y 15 and 5."]
+			id: "0000000000000604"
+			tasks: [{
+				id: "0000000000000605"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+			}]
+			rewards: [{
+				id: "52A311F0D676ED5C"
+				type: "item"
+				item: "forbidden_arcanus:rune_bag"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["The Arcane Dragon Egg is useless, but it's a pretty cool trophy"]
+			dependencies: [
+				"06741AEC28F07033"
+				"09FB1CFAC203AC1F"
+			]
+			id: "0000000000000606"
+			tasks: [{
+				id: "0000000000000607"
+				type: "item"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+			}]
+			rewards: [{
+				id: "0D50F2DA380431ED"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["The Arcane Crystal is used in a lot a recipe in Forbidden and Arcanus."]
+			size: 2.0d
+			id: "000000000000060A"
+			tasks: [{
+				id: "000000000000060B"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+			}]
+			rewards: [{
+				id: "0BDBE36B5495E561"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Just smelt some Arcane Crystal to get the Dust of it."]
+			dependencies: ["000000000000060A"]
+			id: "000000000000060C"
+			tasks: [{
+				id: "000000000000060D"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+			rewards: [{
+				id: "53EA20A6F6F67B91"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["The Eternal Stella can make your gear Indestructible."]
+			id: "0000000000000610"
+			tasks: [{
+				id: "0000000000000611"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6420BEE66D7F097D"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["The Mundabitur Dust is used to make the Magical Farmland."]
+			dependencies: ["000000000000060C"]
+			id: "0000000000000612"
+			tasks: [{
+				id: "0000000000000613"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+			rewards: [{
+				id: "3EED10DDCC87AA98"
+				type: "item"
+				item: "minecraft:phantom_membrane"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["The Dark Matter is used to craft the Runis Tenebris Frame, the Mystical Dagger and the Void Portal."]
+			dependencies: ["000000000000060C"]
+			id: "0000000000000614"
+			tasks: [{
+				id: "0000000000000615"
+				type: "item"
+				item: "forbidden_arcanus:dark_matter"
+			}]
+			rewards: [{
+				id: "6C1B0E4602BDDAFE"
+				type: "item"
+				item: "forbidden_arcanus:dark_matter"
+				count: 6
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["The Obsidian Skull protect you from fire damage for 30 seconds."]
+			dependencies: ["7DEB614236ACD216"]
+			id: "0000000000000616"
+			tasks: [{
+				id: "0000000000000617"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_skull"
+			}]
+			rewards: [{
+				id: "5C3D119630B1D12D"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_skull"
+			}]
+		}
+		{
+			title: "Obsidian Ingot"
+			x: 6.5d
+			y: 0.0d
+			description: ["Obsidian Ingot is made with Iron and Obsidian."]
+			id: "7DEB614236ACD216"
+			tasks: [{
+				id: "392D473A3E9DA194"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "603E8C42FAEBEF4E"
+				type: "item"
+				item: "kubejs:obsidian_ingot_block"
+				count: 10
+			}]
+		}
+		{
+			title: "Arcane Gold Ingot"
+			x: 2.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: [
+				"0000000000000612"
+				"000000000000060C"
+			]
+			id: "09FB1CFAC203AC1F"
+			tasks: [{
+				id: "3DB4F7A0A43ED897"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+				count: 32L
+			}]
+			rewards: [{
+				id: "528A8FE2359ADCF3"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_block"
+				count: 4
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["You can either get a Dark Rune by using the Runic Tenebris Core or mine it on the bottom of the world."]
+			dependencies: [
+				"0000000000000604"
+				"06B3F7979853F6BE"
+			]
+			id: "6243F43E5363E196"
+			tasks: [{
+				id: "6B21026163FA5BD9"
+				type: "item"
+				item: "forbidden_arcanus:dark_rune"
+			}]
+			rewards: [{
+				id: "638484923886C4B9"
+				type: "item"
+				item: "forbidden_arcanus:dark_rune_bag"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["The Dark Nether Star is used to activate the Runic Tenebris Frame."]
+			dependencies: ["7DEB614236ACD216"]
+			id: "06B3F7979853F6BE"
+			tasks: [{
+				id: "1943B61D87FACB51"
+				type: "item"
+				item: "forbidden_arcanus:dark_nether_star"
+			}]
+			rewards: [{
+				id: "11F6D3D5FA45A05E"
+				type: "item"
+				item: "forbidden_arcanus:dark_nether_star"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["The Mystical Dagger is used to cut off Dragon Head to obtain Dragon Scale."]
+			dependencies: ["6243F43E5363E196"]
+			id: "19B9455CD4C64D92"
+			tasks: [{
+				id: "51350121F78D1BDD"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mystical_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A68C8B8DE20A647"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["Get some Dragon Scale."]
+			dependencies: ["19B9455CD4C64D92"]
+			id: "06741AEC28F07033"
+			tasks: [{
+				id: "098D839DD981AAAB"
+				type: "item"
+				item: "forbidden_arcanus:dragon_scale"
+			}]
+			rewards: [{
+				id: "0E4F5796438B6BB2"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			title: "Cloth"
+			x: 7.0d
+			y: 1.0d
+			description: ["Craft Cloth with string and wool"]
+			id: "480EB40B0567EE82"
+			tasks: [{
+				id: "01BC42D8F6255F32"
+				type: "item"
+				item: "forbidden_arcanus:cloth"
+				count: 14L
+			}]
+			rewards: [{
+				id: "39E4C0000A2B69E3"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 64
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "08AFEB39635D7EA8"
+			tasks: [
+				{
+					id: "2C63187E925C5A7D"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:wooden_blacksmith_gavel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4885337D925542C6"
+					type: "item"
+					item: "forbidden_arcanus:hephaestus_forge"
+				}
+				{
+					id: "4FDEA3D719E62438"
+					type: "item"
+					item: "forbidden_arcanus:darkstone_pedestal"
+					count: 8L
+				}
+				{
+					id: "7D0A35F2303F2135"
+					type: "item"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					count: 9L
+				}
+				{
+					id: "06E13704C261A341"
+					type: "item"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					count: 4L
+				}
+				{
+					id: "10FEE1F3EFA3516E"
+					type: "item"
+					item: "forbidden_arcanus:polished_darkstone"
+					count: 48L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "71F9CD3BF1C02CD8"
+			tasks: [{
+				id: "7C80DA2157F8872D"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

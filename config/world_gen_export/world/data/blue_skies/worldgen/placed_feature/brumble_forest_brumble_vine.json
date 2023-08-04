@@ -1,0 +1,25 @@
+{
+	"feature": "blue_skies:brumble_vine_patch",
+	"placement": [
+		{
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 10,
+					"min_inclusive": 8
+				}
+			},
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"heightmap": "MOTION_BLOCKING",
+			"type": "minecraft:heightmap"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

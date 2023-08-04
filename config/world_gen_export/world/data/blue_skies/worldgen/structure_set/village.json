@@ -1,0 +1,36 @@
+{
+	"placement": {
+		"allowed_near_spawn": false,
+		"offset": 28,
+		"probability": 0.75,
+		"seed": 1306458484,
+		"spacing": 28,
+		"type": "structure_gel:gel_placement"
+	},
+	"structures": [
+		{
+			"structure": "blue_skies:village_calming_skies",
+			"weight": 1
+		},
+		{
+			"structure": "blue_skies:village_crystal_dunes",
+			"weight": 1
+		},
+		{
+			"structure": "blue_skies:village_brightlands",
+			"weight": 1
+		},
+		{
+			"structure": "blue_skies:village_shaded_woodlands",
+			"weight": 1
+		},
+		{
+			"structure": "blue_skies:village_sunset_maple_forest",
+			"weight": 1
+		},
+		{
+			"structure": "blue_skies:village_slushlands",
+			"weight": 1
+		}
+	]
+}

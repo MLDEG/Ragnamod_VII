@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "evilcraft:blood_orb_filled"
+  },
+  "output": {
+    "item": "bloodmagic:weakbloodorb"
+  },
+  "upgradeLevel": 0,
+  "altarSyphon": 2000,
+  "consumptionRate": 5,
+  "drainRate": 1
+}

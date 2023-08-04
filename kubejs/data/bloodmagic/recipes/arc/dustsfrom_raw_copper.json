@@ -1,0 +1,24 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "tag": "forge:raw_materials/copper"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/cuttingfluid"
+  },
+  "addedoutput": [
+    {
+      "mainchance": 0.33,
+      "chance": 0.17,
+      "type": {
+        "item": "thermal:copper_dust"
+      }
+    }
+  ],
+  "output": {
+    "item": "thermal:copper_dust"
+  },
+  "consumeingredient": false,
+  "mainoutputchance": 0.0
+}

@@ -1,0 +1,17 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "structure_gel:gel_single_pool_element",
+				"ignoreEntities": false,
+				"location": "blue_skies:village/sunset_maple_forest/town_centers/well_bottom",
+				"maintainWater": true,
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "blue_skies:village/sunset_maple_forest/town_centers/well_bottom"
+}

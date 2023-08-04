@@ -1,0 +1,20 @@
+
+["Configs for TechResources Base"]
+	#This list can be use to remove drop to random ore. Example : "minecraft:ancient_debris"
+	blacklistedRandomOreDrops = []
+	#This int can be use to change the maxiumum count of minerals can be drops. Min Value: 1 ,Max Value: 64, Default : 4
+	#Range: 1 ~ 64
+	maxRandomOreDropCount = 4
+	#This boolean can be use to disable the cobblestone drop from the random ore
+	randomOreEnableCobblestone = true
+	#This boolean can be use to disable the minerals drop from the random ore (All items with tag forge:ores)
+	randomOreEnableMinerals = true
+	#This list can be use to add custom drop to random ore. Example : "minecraft:oak_log"
+	customRandomOreDrops = []
+	#This int can be use to change the percentage of the random ore drop cobblestone. Min Value: 1 ,Max Value: 100, Default: 10
+	#Range: 1 ~ 100
+	percentDropCobble = 10
+	#This int can be use to change the amount of the random ore drop cobblestone. Min Value: 1 ,Max Value: 64, Default: 2
+	#Range: 1 ~ 64
+	countDropCobble = 2
+

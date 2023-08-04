@@ -1,0 +1,27 @@
+{
+	"feature": "forbidden_arcanus:ore_stella_arcanum",
+	"placement": [
+		{
+			"count": 2,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 42
+				},
+				"min_inclusive": {
+					"absolute": -44
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

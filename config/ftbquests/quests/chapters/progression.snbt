@@ -1,0 +1,682 @@
+{
+	id: "24DC7B219A3613F3"
+	group: ""
+	order_index: 1
+	filename: "progression"
+	title: " Progression"
+	icon: "ftbquests:book"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 12.5d
+			y: 2.5d
+			width: 7.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/flowchartquests.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.5d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/legendflowchart.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "ftbquests:book"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			id: "577D6202E19B2599"
+			tasks: [{
+				id: "615FD1FA032837B9"
+				type: "checkmark"
+				title: "Miscellaneous Quests"
+			}]
+		}
+		{
+			icon: "ae2:controller"
+			x: 1.0d
+			y: 0.0d
+			id: "0B1D5E77E82B17AB"
+			tasks: [{
+				id: "46C1CBA682D028E3"
+				type: "checkmark"
+				title: "AE2 Quests"
+			}]
+		}
+		{
+			icon: "create:wrench"
+			x: 2.0d
+			y: 0.0d
+			id: "298A3F9171009D45"
+			tasks: [{
+				id: "3BDE64E2434E3BB0"
+				type: "checkmark"
+				title: "Create Quests"
+			}]
+		}
+		{
+			icon: "botania:mana_pylon"
+			x: 6.0d
+			y: 0.0d
+			id: "113D3F44F9F6C45C"
+			tasks: [{
+				id: "2D992EAEBD3BBAE4"
+				type: "checkmark"
+				title: "Botania Quests"
+			}]
+		}
+		{
+			icon: "chickens:catcher"
+			x: 1.0d
+			y: 2.0d
+			id: "4C886CE89FF0AF52"
+			tasks: [{
+				id: "19E1A2245AF1D2D4"
+				type: "checkmark"
+				title: "Chickens Quests"
+			}]
+		}
+		{
+			icon: "evilcraft:condensed_blood"
+			x: 2.0d
+			y: 2.0d
+			id: "48D9C1D7730F18CD"
+			tasks: [{
+				id: "6B5E0170D6AB9B1B"
+				type: "checkmark"
+				title: "EvilCraft Quests"
+			}]
+		}
+		{
+			icon: "blue_skies:soul_fragment"
+			x: 3.0d
+			y: 0.0d
+			id: "7AD83BC20D2742C4"
+			tasks: [{
+				id: "05F9E556CBCDF9E3"
+				type: "checkmark"
+				title: "Blue Skies quests"
+			}]
+		}
+		{
+			icon: "bloodmagic:altar"
+			x: 3.0d
+			y: 2.0d
+			id: "1BEEC705CE150D00"
+			tasks: [{
+				id: "77A8BC8468F48613"
+				type: "checkmark"
+				title: "Blood Magic Quests"
+			}]
+		}
+		{
+			icon: "beyond_earth:nasa_workbench"
+			x: 4.0d
+			y: 0.0d
+			id: "480EEAEC65D24F9E"
+			tasks: [{
+				id: "0A6364AF5E4AE035"
+				type: "checkmark"
+				title: "Beyond Earth Quests"
+			}]
+		}
+		{
+			icon: "alchemistry:combiner"
+			x: 4.0d
+			y: 2.0d
+			id: "30B80CCC4A8FD6C7"
+			tasks: [{
+				id: "66A0B977D60B2E29"
+				type: "checkmark"
+				title: "Alchemistry Quests"
+			}]
+		}
+		{
+			icon: "ars_nouveau:novice_spell_book"
+			x: 5.0d
+			y: 0.0d
+			id: "10F31028FC893ADE"
+			tasks: [{
+				id: "13D54B02E5A6DA74"
+				type: "checkmark"
+				title: "Ars Nouveau Quests"
+			}]
+		}
+		{
+			icon: "thermal:machine_frame"
+			x: 5.0d
+			y: 2.0d
+			id: "3FC86B24AC2C57A9"
+			tasks: [{
+				id: "31D081C51FC42F1A"
+				type: "checkmark"
+				title: "Thermal Quests"
+			}]
+		}
+		{
+			icon: "spirit:crude_soul_crystal"
+			x: 0.0d
+			y: 2.0d
+			id: "13C41B348C636ACA"
+			tasks: [{
+				id: "7F787ED4B6110469"
+				type: "checkmark"
+				title: "Spirit Quests"
+			}]
+		}
+		{
+			icon: "forbidden_arcanus:hephaestus_forge"
+			x: 1.0d
+			y: 4.0d
+			id: "49566F6C3DE4A0A0"
+			tasks: [{
+				id: "251F6C9785E7F07E"
+				type: "checkmark"
+				title: "Forbidden and Arcanus Quests"
+			}]
+		}
+		{
+			icon: {
+				id: "hexerei:book_of_shadows"
+				Count: 1b
+				tag: {
+					bookmarks: { }
+					chapter: 0
+					opened: 0b
+					page: 0
+				}
+			}
+			x: 2.0d
+			y: 4.0d
+			id: "17F1675D9744D1DE"
+			tasks: [{
+				id: "0B06B1C1DA77F76E"
+				type: "checkmark"
+				title: "Hexerei Quests"
+			}]
+		}
+		{
+			icon: "hostilenetworks:sim_chamber"
+			x: 3.0d
+			y: 4.0d
+			id: "5CF931657DFA41A5"
+			tasks: [{
+				id: "0D6F1E4B854E42AF"
+				type: "checkmark"
+				title: "Hostile Neural Network Quests"
+			}]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:toolbox"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 23
+						Items: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 4.0d
+			id: "2C4EB8D4AD7073DF"
+			tasks: [{
+				id: "3AFDFB99D9226CE6"
+				type: "checkmark"
+				title: "Immersive Engineering Quests"
+			}]
+		}
+		{
+			icon: "industrialforegoing:mob_imprisonment_tool"
+			x: 5.0d
+			y: 4.0d
+			id: "594B09B9BA7FD7C3"
+			tasks: [{
+				id: "47DC3A6D83E4D094"
+				type: "checkmark"
+				title: "Industrial Foregoing Quests"
+			}]
+		}
+		{
+			icon: "mekanism:steel_casing"
+			x: 8.0d
+			y: 4.0d
+			id: "24AA4048D4600331"
+			tasks: [{
+				id: "00A31355828E5F0C"
+				type: "checkmark"
+				title: "Mekanism Quests"
+			}]
+		}
+		{
+			icon: "naturesaura:gold_leaf"
+			x: 8.0d
+			y: 2.0d
+			id: "52D6BB5F13D719A4"
+			tasks: [{
+				id: "2EF38A8E3A5ED007"
+				type: "checkmark"
+				title: "Nature's Aura Quests"
+			}]
+			rewards: [{
+				id: "10651E68DA112216"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}]
+		}
+		{
+			icon: "avaritia:infinity_catalyst"
+			x: 8.0d
+			y: 0.0d
+			id: "124C6442CC789FCA"
+			tasks: [{
+				id: "236FCCEF44A9E3A2"
+				type: "checkmark"
+				title: "Avaritia Quests"
+			}]
+		}
+		{
+			icon: "ftbic:nuclear_reactor"
+			x: 7.0d
+			y: 4.0d
+			id: "24CEA0C30026A5BD"
+			tasks: [{
+				id: "15439CE3A1083306"
+				type: "checkmark"
+				title: "FTB Industrial Contraptions Quests"
+			}]
+		}
+		{
+			icon: "rftoolsbase:machine_frame"
+			x: 6.0d
+			y: 4.0d
+			id: "6BAADB4B4E44097C"
+			tasks: [{
+				id: "09E1A4D86EC8CD58"
+				type: "checkmark"
+				title: "RFTool and Co Quests"
+			}]
+		}
+		{
+			icon: "powah:energizing_rod_nitro"
+			x: 7.0d
+			y: 2.0d
+			id: "46019F50846AAFD0"
+			tasks: [{
+				id: "687A4227F5922079"
+				type: "checkmark"
+				title: "Powah Quests"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:air_compressor"
+			x: 7.0d
+			y: 0.0d
+			id: "4ECF8A0985D2EC5D"
+			tasks: [{
+				id: "7ED184EA4AF3D72D"
+				type: "checkmark"
+				title: "Pneumaticcraft Quests"
+			}]
+		}
+		{
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 0.0d
+			y: 4.0d
+			id: "112B0AEF7EDDDE6A"
+			tasks: [{
+				id: "7CC7E8CB85106E1E"
+				type: "checkmark"
+				title: "Occultism Quests"
+			}]
+		}
+		{
+			icon: {
+				id: "draconicevolution:chaotic_staff"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						module_host: {
+							provider_id: [I;
+								265096727
+								-1066516472
+								-2123154710
+								-1732960193
+							]
+							modules: [ ]
+							properties: {
+								mining_speed: {
+									hud: 1b
+									value: 1.0d
+								}
+							}
+						}
+						energy: {
+							energy: 0
+						}
+					}
+				}
+			}
+			x: 9.0d
+			y: 4.0d
+			id: "170B797FE3905864"
+			tasks: [{
+				id: "0E67185F8B547723"
+				type: "checkmark"
+				title: "Draconic Evolution Quests"
+			}]
+		}
+		{
+			title: "End of Miscellaneous Quests"
+			icon: "thermal:lock"
+			x: 0.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["577D6202E19B2599"]
+			id: "1FA6721FE1D91AC0"
+		}
+		{
+			title: "End of Draconic Evolution Quests"
+			icon: "thermal:lock"
+			x: 9.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["170B797FE3905864"]
+			id: "714282AAC1313C4C"
+		}
+		{
+			title: "End of AE2 Quests"
+			icon: "thermal:lock"
+			x: 1.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["0B1D5E77E82B17AB"]
+			id: "00C636511238EEB8"
+		}
+		{
+			title: "End of Create Quests"
+			icon: "thermal:lock"
+			x: 2.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["298A3F9171009D45"]
+			id: "3B3A799F1B75AE8D"
+		}
+		{
+			title: "End of Botania Quests"
+			icon: "thermal:lock"
+			x: 6.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["113D3F44F9F6C45C"]
+			id: "0F52D023446A5774"
+		}
+		{
+			title: "End of Chickens Quests"
+			icon: "thermal:lock"
+			x: 1.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "5FD678D3209DCC4B"
+		}
+		{
+			title: "End of EvilCraft Quests"
+			icon: "thermal:lock"
+			x: 2.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["48D9C1D7730F18CD"]
+			id: "1D3E40D087710248"
+		}
+		{
+			title: "End of Blue Skies Quests"
+			icon: "thermal:lock"
+			x: 3.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["7AD83BC20D2742C4"]
+			id: "61533A3766658ACA"
+		}
+		{
+			title: "End of Blood Magic Quests"
+			icon: "thermal:lock"
+			x: 3.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["1BEEC705CE150D00"]
+			id: "300626B04E2E1A0F"
+		}
+		{
+			title: "End of Beyond Earth Quests"
+			icon: "thermal:lock"
+			x: 4.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["480EEAEC65D24F9E"]
+			id: "4426E6FD93B6633E"
+		}
+		{
+			title: "End of Alchemistry Quests"
+			icon: "thermal:lock"
+			x: 4.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["30B80CCC4A8FD6C7"]
+			id: "4570DDAED84143FE"
+		}
+		{
+			title: "End of Ars Nouveau Quests"
+			icon: "thermal:lock"
+			x: 5.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["10F31028FC893ADE"]
+			id: "3A5EF4E424C3FCD2"
+		}
+		{
+			title: "End of Thermal Quests"
+			icon: "thermal:lock"
+			x: 5.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["3FC86B24AC2C57A9"]
+			id: "553749A87395453B"
+		}
+		{
+			title: "End of Spirit Quests"
+			icon: "thermal:lock"
+			x: 0.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["13C41B348C636ACA"]
+			id: "273F753DD5046AC1"
+		}
+		{
+			title: "End of Forbidden and Arcanus Quests"
+			icon: "thermal:lock"
+			x: 1.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["49566F6C3DE4A0A0"]
+			id: "5AE38E6B372BFD65"
+		}
+		{
+			title: "End of Hexerei Quests"
+			icon: "thermal:lock"
+			x: 2.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["17F1675D9744D1DE"]
+			id: "035F22543F085D4C"
+		}
+		{
+			title: "End of Hostile Neural Network Quests"
+			icon: "thermal:lock"
+			x: 3.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["5CF931657DFA41A5"]
+			id: "79B059567011CA3E"
+		}
+		{
+			title: "End of Immersive Engineering Quests"
+			icon: "thermal:lock"
+			x: 4.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["2C4EB8D4AD7073DF"]
+			id: "60812A72691AE76E"
+		}
+		{
+			title: "End of Industrial Foregoing Quests"
+			icon: "thermal:lock"
+			x: 5.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["594B09B9BA7FD7C3"]
+			id: "485D5ECED2F6996A"
+		}
+		{
+			title: "End of Mekanism Quests"
+			icon: "thermal:lock"
+			x: 8.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["24AA4048D4600331"]
+			id: "12C5FFD5AAE65BBD"
+		}
+		{
+			title: "End of Narute's Aura Quests"
+			icon: "thermal:lock"
+			x: 8.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["52D6BB5F13D719A4"]
+			id: "2E158F57698EB663"
+		}
+		{
+			title: "End of Avaritia Quests"
+			icon: "thermal:lock"
+			x: 8.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["124C6442CC789FCA"]
+			id: "0EBF3455DC47F112"
+		}
+		{
+			title: "End of FTB Industrial Contraptions Quests"
+			icon: "thermal:lock"
+			x: 7.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["24CEA0C30026A5BD"]
+			id: "5DC6CDB2146D749A"
+		}
+		{
+			title: "End of RFTool and Co Quests"
+			icon: "thermal:lock"
+			x: 6.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["6BAADB4B4E44097C"]
+			id: "66473AFD28BA9C16"
+		}
+		{
+			title: "End of Powah Quests"
+			icon: "thermal:lock"
+			x: 7.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["46019F50846AAFD0"]
+			id: "0BD32B73FB445994"
+		}
+		{
+			title: "End of Pneumaticcraft Quests"
+			icon: "thermal:lock"
+			x: 7.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["4ECF8A0985D2EC5D"]
+			id: "1ACD5D1757C62A7F"
+		}
+		{
+			title: "End of Occultism Quests"
+			icon: "thermal:lock"
+			x: 0.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["112B0AEF7EDDDE6A"]
+			id: "790FA14F1CFBE005"
+		}
+		{
+			icon: {
+				id: "psi:cad"
+				Count: 1b
+				tag: {
+					componentCORE: {
+						id: "psi:cad_core_hyperclocked"
+						Count: 1b
+					}
+					componentASSEMBLY: {
+						id: "psi:cad_assembly_ebony_psimetal"
+						Count: 1b
+					}
+					componentSOCKET: {
+						id: "psi:cad_socket_transmissive"
+						Count: 1b
+					}
+					componentBATTERY: {
+						id: "psi:cad_battery_ultradense"
+						Count: 1b
+					}
+				}
+				ForgeCaps: {
+					Parent: {
+						Memory: [ ]
+						Battery: 400
+						Time: 2345
+					}
+				}
+			}
+			x: 6.0d
+			y: 2.0d
+			id: "6C08FEEEC41D0620"
+			tasks: [{
+				id: "747CB20BEF4C4988"
+				type: "checkmark"
+				title: "PSI Quests"
+			}]
+		}
+		{
+			title: "End of PSI Quests"
+			icon: "thermal:lock"
+			x: 6.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["6C08FEEEC41D0620"]
+			id: "7F8D203B2DBDE286"
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,24 @@
+{
+	"feature": "twilightforest:legacy_redstone_ore",
+	"placement": [
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 15
+				},
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"count": 8,
+			"type": "minecraft:count"
+		}
+	]
+}

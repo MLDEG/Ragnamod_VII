@@ -1,0 +1,18 @@
+{
+	"config": {
+		"decor_state": {
+			"Name": "infernalexp:luminous_wart_block"
+		},
+		"hat_state": {
+			"Name": "infernalexp:luminous_wart_block"
+		},
+		"planted": true,
+		"stem_state": {
+			"Name": "infernalexp:dullthorns_block"
+		},
+		"valid_base_block": {
+			"Name": "infernalexp:glowdust_sand"
+		}
+	},
+	"type": "minecraft:huge_fungus"
+}

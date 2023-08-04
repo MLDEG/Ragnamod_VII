@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:pig",
+    "subtypes": [
+        "twilightforest:boar"
+    ],
+    "name": "entity.minecraft.pig",
+    "name_color": "0xfcabab",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+        "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.pig",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:porkchop",
+            "count": 8
+        },
+        {
+            "item": "hexerei:animal_fat",
+            "count": 2
+        }
+    ]
+}

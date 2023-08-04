@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:hoglin",
+    "name": "entity.minecraft.hoglin",
+    "name_color": "0xe28166",
+    "gui_scale": 0.85,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 160,
+    "input": {
+        "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.hoglin",
+    "fabricator_drops": [
+        {
+            "item": "nethersdelight:hoglin_loin",
+            "count": 32
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 16
+        },
+        {
+            "item": "infernalexp:raw_hogchop",
+            "count": 2
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:obsidian"
+        }
+    },
+    "output": {
+        "item": "create:powdered_obsidian",
+        "count": 4
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ingots/netherite"
+        }
+    },
+    "output": {
+        "item": "thermal:netherite_dust"
+    }
+}

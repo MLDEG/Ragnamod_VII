@@ -1,0 +1,27 @@
+{
+	"feature": "thermal:nickel_ore",
+	"placement": [
+		{
+			"count": 4,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 120
+				},
+				"min_inclusive": {
+					"absolute": -40
+				},
+				"type": "minecraft:trapezoid"
+			},
+			"type": "minecraft:height_range"
+		}
+	]
+}

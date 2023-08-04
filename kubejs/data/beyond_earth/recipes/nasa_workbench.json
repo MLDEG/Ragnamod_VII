@@ -1,0 +1,42 @@
+{
+  "group": "beyond_earth",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/utherium"
+    },
+    "1": {
+      "item": "minecraft:crafting_table"
+    },
+    "2": {
+      "tag": "forge:ingots/utherium"
+    },
+    "3": {
+      "item": "create:mechanical_arm"
+    },
+    "4": {
+      "tag": "forge:ingots/steel"
+    },
+    "5": {
+      "item": "create:mechanical_arm"
+    },
+    "6": {
+      "tag": "forge:ingots/utherium"
+    },
+    "7": {
+      "item": "minecraft:redstone_torch"
+    },
+    "8": {
+      "tag": "forge:ingots/utherium"
+    }
+  },
+  "result": {
+    "item": "beyond_earth:nasa_workbench",
+    "count": 1
+  }
+}

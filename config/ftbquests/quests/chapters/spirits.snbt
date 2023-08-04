@@ -1,0 +1,111 @@
+{
+	id: "6935A012EE5813BE"
+	group: ""
+	order_index: 16
+	filename: "spirits"
+	title: "Spirit"
+	icon: "spirit:crude_soul_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["2C386FCB4D66DD1F"]
+			id: "6C3F4C8301FB6B2C"
+			tasks: [{
+				id: "16ABBBF45A216B2D"
+				type: "item"
+				item: "spirit:soul_crystal_shard"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: [
+				"33BFE515CC2C6B7B"
+				"6142628451058BC0"
+			]
+			id: "43E3D8B99061212D"
+			tasks: [{
+				id: "25875D7B7C3C36BE"
+				type: "item"
+				item: "spirit:soul_crystal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: [
+				"2740BEE716A25BEE"
+				"6C3F4C8301FB6B2C"
+			]
+			id: "6142628451058BC0"
+			tasks: [{
+				id: "7520F6D95D831486"
+				type: "item"
+				item: "spirit:crude_soul_crystal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "2C386FCB4D66DD1F"
+			tasks: [{
+				id: "4C1542B47C7606A5"
+				type: "item"
+				item: "spirit:soul_powder"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "2346B197A80C7552"
+			tasks: [{
+				id: "6BDD0214E2D42381"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "33BFE515CC2C6B7B"
+			tasks: [{
+				id: "4090479CA6361CB8"
+				type: "item"
+				item: "spirit:soul_glass"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["2346B197A80C7552"]
+			id: "7D9ACDADBB4CBD8C"
+			tasks: [
+				{
+					id: "17FF88CD57F34504"
+					type: "item"
+					item: "spirit:soul_pedestal"
+				}
+				{
+					id: "2BB29EB2C5D03F6E"
+					type: "item"
+					item: "spirit:crystal_pedestal"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "2740BEE716A25BEE"
+			tasks: [{
+				id: "4357A29B640C8D04"
+				type: "item"
+				item: "spirit:soul_slate"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,27 @@
+{
+	"feature": "miningmaster:ore_dive_aquamarine_native",
+	"placement": [
+		{
+			"count": 6,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 192
+				},
+				"min_inclusive": {
+					"absolute": -64
+				},
+				"type": "minecraft:trapezoid"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

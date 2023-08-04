@@ -1,0 +1,39 @@
+{
+	"feature": "mekanism:ore_tin_small_retrogen",
+	"placement": [
+		{
+			"oreVeinType": {
+				"index": 0,
+				"type": "tin"
+			},
+			"retroGen": true,
+			"type": "mekanism:disableable"
+		},
+		{
+			"count": {
+				"oreVeinType": {
+					"index": 0,
+					"type": "tin"
+				},
+				"type": "mekanism:configurable_constant"
+			},
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"oreVeinType": {
+					"index": 0,
+					"type": "tin"
+				},
+				"type": "mekanism:configurable"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

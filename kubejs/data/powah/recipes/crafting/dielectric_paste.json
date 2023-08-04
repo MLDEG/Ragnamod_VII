@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+	  "item": "occultism:burnt_otherstone"
+	},
+	{
+	  "item": "occultism:burnt_otherstone"
+	},
+	{
+	  "item": "occultism:burnt_otherstone"
+	},
+	{
+	  "item": "minecraft:clay_ball"
+	},
+	{
+	  "item": "minecraft:clay_ball"
+	},
+	{
+	  "item": "minecraft:lava_bucket"
+	}
+  ],
+  "result": {
+	"item": "powah:dielectric_paste",
+	"count": 24
+  }
+}

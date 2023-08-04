@@ -1,0 +1,12 @@
+{
+	"feature": "blue_skies:moonlit_bloom_nightcress_lucentroot_mix_rpc_c",
+	"placement": [
+		{
+			"predicate": {
+				"blocks": "minecraft:air",
+				"type": "minecraft:matching_blocks"
+			},
+			"type": "minecraft:block_predicate_filter"
+		}
+	]
+}

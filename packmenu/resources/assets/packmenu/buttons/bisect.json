@@ -1,0 +1,21 @@
+{
+	"x": 2,
+	"y": 48,
+	"width": 98,
+	"height": 20,
+	"langKey": "packmenu.bisect_button",
+	"action": "OPEN_URL",
+	"data": "https://bisecthosting.com/ragnamod",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 98,
+	"texHeight": 40,
+	"texture": "ragnamod:textures/button2.png",
+	"fontColor": 16777215,
+	"hoverFontColor": 16729154,
+	"dropShadow": true,
+	"textXOffset": 0,
+	"textYOffset": -5
+}

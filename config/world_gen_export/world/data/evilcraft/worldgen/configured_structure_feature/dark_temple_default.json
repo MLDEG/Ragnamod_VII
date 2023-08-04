@@ -1,0 +1,6 @@
+{
+	"biomes": "#evilcraft:has_structure/dark_temple",
+	"config": { },
+	"spawn_overrides": { },
+	"type": "evilcraft:dark_temple"
+}

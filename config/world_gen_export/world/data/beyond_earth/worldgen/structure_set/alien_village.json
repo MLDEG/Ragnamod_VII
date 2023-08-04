@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"salt": 1224466880,
+		"separation": 9,
+		"spacing": 29,
+		"type": "minecraft:random_spread"
+	},
+	"structures": [
+		{
+			"structure": "beyond_earth:alien_village",
+			"weight": 1
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"config": {
+		"decor_state": {
+			"Name": "tconstruct:ichor_congealed_slime"
+		},
+		"hat_state": {
+			"Name": "tconstruct:blood_slime_leaves"
+		},
+		"planted": false,
+		"stem_state": {
+			"Name": "tconstruct:bloodshroom_log",
+			"Properties": {
+				"axis": "y"
+			}
+		},
+		"valid_base": "tconstruct:slimy_nylium"
+	},
+	"type": "tconstruct:slime_fungus"
+}

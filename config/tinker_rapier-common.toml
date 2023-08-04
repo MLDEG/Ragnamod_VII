@@ -1,0 +1,7 @@
+
+#General settings
+[general]
+	#the sting attack multiplier of Rapiers
+	#Range: 0.01 ~ 10.0
+	rapier_attack_bouns = 1.0
+

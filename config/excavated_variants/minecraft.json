@@ -1,0 +1,195 @@
+{
+  "mod_id": "minecraft",
+  "provided_stones": [
+    {
+      "block_id": "minecraft:stone",
+      "types": [
+        "stone"
+      ],
+      "id": "stone",
+      "en_name": "Stone"
+    },
+    {
+      "block_id": "minecraft:deepslate",
+      "types": [
+        "stone"
+      ],
+      "id": "deepslate",
+      "en_name": "Deepslate"
+    },
+    {
+      "block_id": "minecraft:netherrack",
+      "types": [
+        "nether"
+      ],
+      "id": "netherrack",
+      "en_name": "Netherrack"
+    },
+    {
+      "block_id": "minecraft:end_stone",
+      "types": [
+        "end"
+      ],
+      "id": "end_stone",
+      "en_name": "End Stone"
+    }
+  ],
+  "provided_ores": [
+    {
+      "block_id": [
+        "minecraft:coal_ore",
+        "minecraft:deepslate_coal_ore"
+      ],
+      "en_name": "Coal Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "coal_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:iron_ore",
+        "minecraft:deepslate_iron_ore"
+      ],
+      "en_name": "Iron Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "iron_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:gold_ore",
+        "minecraft:deepslate_gold_ore"
+      ],
+      "en_name": "Gold Ore",
+      "types": [
+        "stone"
+      ],
+      "id": "gold_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:nether_gold_ore"
+      ],
+      "en_name": "Nether Gold Ore",
+      "types": [
+        "nether"
+      ],
+      "id": "nether_gold_ore",
+      "orename": [
+        "gold_ore"
+      ],
+      "stone": [
+        "netherrack"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore"
+      ],
+      "en_name": "Copper Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "copper_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore"
+      ],
+      "en_name": "Emerald Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "emerald_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:lapis_ore",
+        "minecraft:deepslate_lapis_ore"
+      ],
+      "en_name": "Lapis Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "lapis_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:diamond_ore",
+        "minecraft:deepslate_diamond_ore"
+      ],
+      "en_name": "Diamond Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "diamond_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:nether_quartz_ore"
+      ],
+      "en_name": "Quartz Ore",
+      "types": [
+        "nether"
+      ],
+      "id": "quartz_ore",
+      "stone": [
+        "netherrack"
+      ]
+    },
+    {
+      "block_id": [
+        "minecraft:redstone_ore",
+        "minecraft:deepslate_redstone_ore"
+      ],
+      "en_name": "Redstone Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "redstone_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"processors": [
+		{
+			"chance": 0.2,
+			"change_to": {
+				"Name": "blue_skies:stripped_frostbright_wood",
+				"Properties": {
+					"axis": "y"
+				}
+			},
+			"condition": "blue_skies:frostbright_planks",
+			"processor_type": "structure_gel:replace_block"
+		}
+	]
+}

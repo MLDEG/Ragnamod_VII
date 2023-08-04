@@ -1,0 +1,28 @@
+{
+	"generator": {
+		"biome_source": {
+			"biomes": [
+				"blue_skies:calming_skies",
+				"blue_skies:brightlands",
+				"blue_skies:slushlands",
+				"blue_skies:frostbitten_forest",
+				"blue_skies:peeking_ocean",
+				"blue_skies:midday_shore",
+				"blue_skies:snow_covered_pines",
+				"blue_skies:deep_peeking_ocean",
+				"blue_skies:brisk_meadow",
+				"blue_skies:polar_highland",
+				"blue_skies:frostbitten_forest_clearing",
+				"blue_skies:brumble_forest"
+			],
+			"height": 384,
+			"min_y": 0,
+			"seed": 7170367922773292645,
+			"type": "minecraft:everbright"
+		},
+		"seed": 7170367922773292645,
+		"settings": "blue_skies:everbright",
+		"type": "blue_skies:skies_chunk_generator"
+	},
+	"type": "blue_skies:everbright"
+}

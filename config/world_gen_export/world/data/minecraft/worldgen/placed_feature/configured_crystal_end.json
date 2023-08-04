@@ -1,0 +1,17 @@
+{
+	"feature": {
+		"config": {
+			"efficiency": 1.0,
+			"power": 1.0,
+			"purity": 1.0,
+			"strength": 1.0
+		},
+		"type": "deepresonance:resonant_crystal"
+	},
+	"placement": [
+		{
+			"count": 1,
+			"type": "minecraft:count"
+		}
+	]
+}

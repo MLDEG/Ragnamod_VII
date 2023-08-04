@@ -1,0 +1,17 @@
+{
+	"generator": {
+		"settings": {
+			"biome": "compactmachines:machine",
+			"features": false,
+			"lakes": false,
+			"layers": [
+				{
+					"block": "compactmachines:machine_void_air",
+					"height": 256
+				}
+			]
+		},
+		"type": "minecraft:flat"
+	},
+	"type": "compactmachines:compact_world"
+}

@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"salt": 9258432,
+		"separation": 11,
+		"spacing": 20,
+		"type": "minecraft:random_spread"
+	},
+	"structures": [
+		{
+			"structure": "quark:mega_dungeon",
+			"weight": 1
+		}
+	]
+}

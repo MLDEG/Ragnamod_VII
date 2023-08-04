@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "beyond_earth:steel_block"
+  },
+  "output": {
+    "item": "botania:manasteel_block"
+  },
+  "mana": 27000
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ili",
+    "gDg",
+    "ili"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "l": {
+      "tag": "forge:dyes/blue"
+    },
+    "D": {
+      "item": "beyond_earth:desh_plate"
+    }
+  },
+  "result": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}

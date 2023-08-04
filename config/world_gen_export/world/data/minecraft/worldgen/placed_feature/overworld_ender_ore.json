@@ -1,0 +1,41 @@
+{
+	"feature": {
+		"config": {
+			"discard_chance_on_air_exposure": 0.0,
+			"size": 12,
+			"targets": [
+				{
+					"state": {
+						"Name": "miniutilities:ender_ore"
+					},
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "minecraft:stone_ore_replaceables"
+					}
+				}
+			]
+		},
+		"type": "minecraft:ore"
+	},
+	"placement": [
+		{
+			"count": 12,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 32
+				},
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		}
+	]
+}

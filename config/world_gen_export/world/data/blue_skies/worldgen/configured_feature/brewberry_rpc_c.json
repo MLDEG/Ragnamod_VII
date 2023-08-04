@@ -1,0 +1,15 @@
+{
+	"config": {
+		"to_place": {
+			"state": {
+				"Name": "blue_skies:brewberry_bush",
+				"Properties": {
+					"mature": "true",
+					"type": "red"
+				}
+			},
+			"type": "minecraft:simple_state_provider"
+		}
+	},
+	"type": "minecraft:simple_block"
+}

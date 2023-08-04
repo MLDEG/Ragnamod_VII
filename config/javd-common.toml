@@ -1,0 +1,5 @@
+#The range of how many blocks out to build the platform
+#Range: 1 ~ 10
+platformRange = 1
+#Main world id
+main_world = "minecraft:overworld"

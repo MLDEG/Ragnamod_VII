@@ -1,0 +1,21 @@
+{
+	"x": -100,
+	"y": 0,
+	"width": 200,
+	"height": 20,
+	"langKey": "menu.singleplayer",
+	"action": "OPEN_GUI",
+	"data": "SINGLEPLAYER",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 200,
+	"texHeight": 40,
+	"texture": "ragnamod:textures/button1.png",
+	"fontColor": 16777215,
+	"hoverFontColor": 16729154,
+	"dropShadow": true,
+	"textXOffset": 0,
+	"textYOffset": -5
+}

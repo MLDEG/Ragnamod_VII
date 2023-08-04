@@ -1,0 +1,8 @@
+{
+	"feature": "quark:deferred_feature_top_layer_modification",
+	"placement": [
+		{
+			"type": "quark:chunk_corner"
+		}
+	]
+}

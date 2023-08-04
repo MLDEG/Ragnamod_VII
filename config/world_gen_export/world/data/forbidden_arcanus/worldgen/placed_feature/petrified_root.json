@@ -1,0 +1,51 @@
+{
+	"feature": "forbidden_arcanus:petrified_root",
+	"placement": [
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 50
+				},
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 256,
+					"min_inclusive": 173
+				}
+			},
+			"type": "minecraft:count"
+		},
+		{
+			"allowed_search_condition": {
+				"blocks": "minecraft:air",
+				"type": "minecraft:matching_blocks"
+			},
+			"direction_of_search": "up",
+			"max_steps": 12,
+			"target_condition": {
+				"tag": "minecraft:base_stone_overworld",
+				"type": "minecraft:matching_block_tag"
+			},
+			"type": "minecraft:environment_scan"
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 0,
+			"y_spread": -1
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

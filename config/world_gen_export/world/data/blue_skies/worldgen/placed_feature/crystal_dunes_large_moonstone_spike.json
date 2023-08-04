@@ -1,0 +1,25 @@
+{
+	"feature": "blue_skies:crystal_dunes_large_moonstone_spike",
+	"placement": [
+		{
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 3,
+					"min_inclusive": 2
+				}
+			},
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"heightmap": "OCEAN_FLOOR",
+			"type": "minecraft:heightmap"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

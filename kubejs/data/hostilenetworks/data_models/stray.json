@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:stray",
+    "name": "entity.minecraft.stray",
+    "name_color": "0x799b9d",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+        "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.stray",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:arrow",
+            "count": 32
+        },
+        {
+            "item": "minecraft:bone",
+            "count": 24
+        },
+        {
+            "item": "minecraft:tipped_arrow",
+            "nbt": "{'Potion': 'minecraft:slowness'}",
+            "count": 24
+        },
+        {
+            "item": "minecraft:skeleton_skull",
+            "count": 4
+        },
+        {
+            "item": "reliquary:rib_bone",
+            "count": 2
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	"feature": "darkerdepths:amber_placement",
+	"placement": [
+		{
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 180,
+					"min_inclusive": 120
+				}
+			},
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 256
+				},
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

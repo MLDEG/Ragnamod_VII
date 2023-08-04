@@ -1,0 +1,10 @@
+#A list of 'modid:entity_name' entries.
+#These entities will be blocked from spawning if within the radius of a No Soliciting Sign.
+#If the entity is not blocked, its spawn will be moved to a Trader Rug if in the radius of one.
+entityWatchList = ["minecraft:wandering_trader", "rats:plague_doctor", "supplementaries:red_merchant"]
+#Entity spawn watch radius (in chunks)
+#Range: 1 ~ 12
+radius = 6
+#Disable all spawns of entities in entityWatchList? Ignores radius.
+disableSpawns = false
+

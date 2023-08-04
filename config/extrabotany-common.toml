@@ -1,0 +1,10 @@
+
+[common]
+	#Whether to disable the Ego's disarm. Default is false(Not Recommend).
+	disableDisarm = false
+	#Whether Relic projectiles break blocks. Default is false.
+	doProjectileBreakBlock = false
+	#How many times damage will EGO(Gaia III) do when it use weapons.
+	#Range: 0.0 ~ 10.0
+	gaiaDamageTimes = 2.0
+

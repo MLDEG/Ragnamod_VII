@@ -1,0 +1,31 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.70,
+            "output": {
+                "item": "byg:cryptic_redstone_ore"
+            }
+        },
+        {
+            "chance": 0.30,
+            "output": {
+                "item": "rftoolsbase:dimensionalshard_end"
+            }
+        }
+    ],
+    "spoils": [
+        {
+            "chance": 1.0,
+            "output": {
+                "item": "byg:cryptic_stone"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:the_end"
+    ],
+    "weight": 1,
+    "fail_chance": 0.15,
+    "sample_background": "byg:cryptic_stone"
+}

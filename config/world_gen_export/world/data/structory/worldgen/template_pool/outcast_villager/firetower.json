@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:outcast_villager/firetower",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 3
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "minecraft:meme"
+}

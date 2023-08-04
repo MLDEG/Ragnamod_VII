@@ -1,0 +1,261 @@
+{
+	id: "4A4847E98CD1AF15"
+	group: ""
+	order_index: 12
+	filename: "add_astra"
+	title: "Beyond Earth"
+	icon: "beyond_earth:nasa_workbench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "16F9C6AA7CFD1730"
+			tasks: [{
+				id: "07872206E448CD00"
+				type: "item"
+				item: "beyond_earth:nasa_workbench"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "48064C635531A631"
+			tasks: [{
+				id: "3833BFF53CF03014"
+				type: "item"
+				item: "beyond_earth:rocket_launch_pad"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "592C371D279F7305"
+			tasks: [{
+				id: "642FE43E1FDE3EFD"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "750E35A4164FD632"
+			tasks: [{
+				id: "2F3ED0BFD0D42A5F"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "56F322FA5F1624FF"
+			tasks: [{
+				id: "013E6AD9F46615EC"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "18A1D97836E02C11"
+			tasks: [{
+				id: "10E37CC3F46D393F"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "041A331D89F49672"
+			tasks: [
+				{
+					id: "5DB37AB6B02CF9A0"
+					type: "item"
+					item: {
+						id: "beyond_earth:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3148EE606A28D15D"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B25B44AB786F829"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A43658616357A2D"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "78B8CD9BEE64E6D2"
+			tasks: [
+				{
+					id: "0E52C1255C936EB0"
+					type: "item"
+					item: {
+						id: "beyond_earth:netherite_oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0510DC7F1F4E9FA9"
+					type: "item"
+					item: {
+						id: "beyond_earth:netherite_space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60D1DF4C5D459D8E"
+					type: "item"
+					item: {
+						id: "beyond_earth:netherite_space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "689425A27745052C"
+					type: "item"
+					item: {
+						id: "beyond_earth:netherite_space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "74FF38D124915175"
+			tasks: [{
+				id: "623407F092FA13DA"
+				type: "item"
+				item: "beyond_earth:compressor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "588578911ADB8C19"
+			tasks: [{
+				id: "314EBA3AFF7FF907"
+				type: "item"
+				item: "beyond_earth:oxygen_loader"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "0FFAABB442DDAB23"
+			tasks: [{
+				id: "073CBF1537D242EF"
+				type: "item"
+				item: "beyond_earth:oxygen_bubble_distributor"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "75EBB234AA4AE868"
+			tasks: [{
+				id: "0918CD020CC681F2"
+				type: "item"
+				item: "beyond_earth:fuel_refinery"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "03F04C5F7BAED6A3"
+			tasks: [{
+				id: "310DA73C98452C52"
+				type: "item"
+				item: "beyond_earth:raw_desh"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "3A4863E1B2ED2E36"
+			tasks: [{
+				id: "0225F7DAD335823F"
+				type: "item"
+				item: "beyond_earth:raw_ostrum"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "2149E5AE3CDE8DBE"
+			tasks: [{
+				id: "7AEC1D48096EDC10"
+				type: "item"
+				item: "beyond_earth:raw_calorite"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

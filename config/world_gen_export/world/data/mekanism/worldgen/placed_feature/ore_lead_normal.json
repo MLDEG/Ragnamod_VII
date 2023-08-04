@@ -1,0 +1,39 @@
+{
+	"feature": "mekanism:ore_lead_normal",
+	"placement": [
+		{
+			"oreVeinType": {
+				"index": 0,
+				"type": "lead"
+			},
+			"retroGen": false,
+			"type": "mekanism:disableable"
+		},
+		{
+			"count": {
+				"oreVeinType": {
+					"index": 0,
+					"type": "lead"
+				},
+				"type": "mekanism:configurable_constant"
+			},
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"oreVeinType": {
+					"index": 0,
+					"type": "lead"
+				},
+				"type": "mekanism:configurable"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

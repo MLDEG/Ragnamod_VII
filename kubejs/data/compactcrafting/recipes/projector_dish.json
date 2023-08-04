@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GI ", "GEI", "GI "],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "I": {
+      "tag": "forge:ingots/gausum"
+    }
+  },
+  "result": {
+    "item": "compactcrafting:projector_dish",
+    "count": 4
+  }
+}

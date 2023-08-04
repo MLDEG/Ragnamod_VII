@@ -1,0 +1,31 @@
+{
+  "inputs": [
+    {
+      "item": "hostilenetworks:overworld_prediction",
+      "slot": 0
+    },
+    {
+      "item": "hostilenetworks:nether_prediction",
+      "slot": 1
+    },
+    {
+      "item": "hostilenetworks:end_prediction",
+      "slot": 2
+    },
+    {
+      "item": "hostilenetworks:twilight_prediction",
+      "slot": 3
+    }
+  ],
+  "hephaestus_forge_item": "hostilenetworks:machine_frame",
+  "essences": {
+    "aureal": 200,
+    "experience": 200,
+    "blood": 5000,
+    "souls": 1
+  },
+  "result": {
+    "item": "alchemistry:machine_frame",
+    "count": 1
+  }
+}

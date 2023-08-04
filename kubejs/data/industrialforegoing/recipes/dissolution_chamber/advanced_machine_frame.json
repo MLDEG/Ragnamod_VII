@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "item": "thermal_extra:dragonsteel_plate"
+    },
+    {
+      "item": "thermal_extra:dragonsteel_plate"
+    },
+    {
+      "tag": "forge:ingots/twinite"
+    },
+    {
+      "tag": "forge:gears/shellite"
+    },
+    {
+      "tag": "forge:ingots/twinite"
+    }
+  ],
+  "inputFluid": "{FluidName:\"thermal_extra:refined_sunflower_oil\",Amount:250}",
+  "processingTime": 300,
+  "output": {
+    "item": "industrialforegoing:machine_frame_advanced",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

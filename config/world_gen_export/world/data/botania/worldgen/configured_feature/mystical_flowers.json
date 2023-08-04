@@ -1,0 +1,10 @@
+{
+	"config": {
+		"patch_chance": 16,
+		"patch_count": 2,
+		"patch_density": 2,
+		"patch_radius": 6,
+		"tall_chance": 0.05
+	},
+	"type": "botania:mystical_flowers"
+}

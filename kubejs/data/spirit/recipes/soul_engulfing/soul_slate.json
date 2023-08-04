@@ -1,0 +1,11 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "occultism:otherstone"
+    }
+  },
+  "duration": 10,
+  "destroysStructure": false,
+  "outputItem": "spirit:soul_slate"
+}

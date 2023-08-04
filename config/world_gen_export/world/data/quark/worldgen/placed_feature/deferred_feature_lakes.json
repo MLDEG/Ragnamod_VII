@@ -1,0 +1,8 @@
+{
+	"feature": "quark:deferred_feature_lakes",
+	"placement": [
+		{
+			"type": "quark:chunk_corner"
+		}
+	]
+}

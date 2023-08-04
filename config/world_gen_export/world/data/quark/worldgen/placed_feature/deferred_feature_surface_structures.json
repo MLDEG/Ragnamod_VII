@@ -1,0 +1,8 @@
+{
+	"feature": "quark:deferred_feature_surface_structures",
+	"placement": [
+		{
+			"type": "quark:chunk_corner"
+		}
+	]
+}

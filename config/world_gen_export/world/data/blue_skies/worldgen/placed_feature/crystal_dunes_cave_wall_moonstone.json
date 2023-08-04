@@ -1,0 +1,27 @@
+{
+	"feature": "blue_skies:crystal_dunes_cave_wall_moonstone",
+	"placement": [
+		{
+			"count": 20,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 59
+				},
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

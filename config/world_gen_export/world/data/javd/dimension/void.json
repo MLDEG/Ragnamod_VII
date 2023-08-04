@@ -1,0 +1,12 @@
+{
+	"generator": {
+		"settings": {
+			"biome": "javd:void",
+			"features": false,
+			"lakes": false,
+			"layers": []
+		},
+		"type": "minecraft:flat"
+	},
+	"type": "javd:void"
+}

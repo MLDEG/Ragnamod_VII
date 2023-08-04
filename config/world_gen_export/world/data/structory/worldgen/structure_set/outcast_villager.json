@@ -1,0 +1,30 @@
+{
+	"placement": {
+		"salt": 420,
+		"separation": 14,
+		"spacing": 44,
+		"type": "minecraft:random_spread"
+	},
+	"structures": [
+		{
+			"structure": "structory:outcast_villager_grassy",
+			"weight": 2
+		},
+		{
+			"structure": "structory:ruin_grassy",
+			"weight": 2
+		},
+		{
+			"structure": "structory:firetower",
+			"weight": 1
+		},
+		{
+			"structure": "structory:outcast_villager_desert",
+			"weight": 1
+		},
+		{
+			"structure": "structory:boat",
+			"weight": 1
+		}
+	]
+}

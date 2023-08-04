@@ -1,0 +1,20 @@
+{
+	"feature": "minecraft:runewood_tree",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"heightmap": "MOTION_BLOCKING",
+			"type": "minecraft:heightmap"
+		},
+		{
+			"chance": 0.01,
+			"type": "lodestone:chance"
+		},
+		{
+			"count": 3,
+			"type": "minecraft:count"
+		}
+	]
+}

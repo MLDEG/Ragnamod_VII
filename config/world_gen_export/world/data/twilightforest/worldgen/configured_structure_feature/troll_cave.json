@@ -1,0 +1,7 @@
+{
+	"adapt_noise": true,
+	"biomes": "#twilightforest:valid_troll_cave_biomes",
+	"config": { },
+	"spawn_overrides": { },
+	"type": "twilightforest:troll_cave"
+}

@@ -1,0 +1,56 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.65,
+            "output": {
+                "item": "minecraft:copper_ore"
+            }
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "minecraft:gold_ore"
+            }
+        },
+        {
+            "chance": 0.10,
+            "output": {
+                "item": "create:zinc_ore"
+            }
+        },
+        {
+            "chance": 0.07,
+            "output": {
+                "item": "tinkers_reforged:aluminum_ore"
+            }
+        },
+        {
+            "chance": 0.03,
+            "output": {
+                "item": "minecraft:raw_copper_block"
+            }
+        }
+    ],
+    "spoils": [
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "minecraft:gravel"
+            }
+        },
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:cobblestone"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 1,
+    "fail_chance": 0.15
+}

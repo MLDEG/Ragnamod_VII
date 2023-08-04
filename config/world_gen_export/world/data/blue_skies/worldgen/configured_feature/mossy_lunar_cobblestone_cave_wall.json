@@ -1,0 +1,11 @@
+{
+	"config": {
+		"accent_block": {
+			"Name": "blue_skies:mossy_lunar_cobblestone"
+		},
+		"main_block": {
+			"Name": "blue_skies:lunar_cobblestone"
+		}
+	},
+	"type": "blue_skies:cave_wall"
+}

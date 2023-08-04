@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"salt": 0,
+		"separation": 0,
+		"spacing": 1,
+		"type": "minecraft:random_spread"
+	},
+	"structures": [
+		{
+			"structure": "twilightforest:medium_hollow_hill",
+			"weight": 1
+		}
+	]
+}

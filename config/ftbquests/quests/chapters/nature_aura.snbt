@@ -1,0 +1,429 @@
+{
+	id: "7C5D25D8C536BCF5"
+	group: ""
+	order_index: 5
+	filename: "nature_aura"
+	title: "Nature's Aura"
+	icon: "naturesaura:gold_leaf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6C96FE0695C6B11E"
+			tasks: [{
+				id: "0B3E4459E640F9BA"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "21BC6CA6EEB95BC6"
+			tasks: [
+				{
+					id: "6F1CB7AEC9CBA88C"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+				{
+					id: "201805E86364312D"
+					type: "item"
+					item: "naturesaura:gold_powder"
+				}
+			]
+		}
+		{
+			icon: "naturesaura:nature_altar"
+			x: 2.0d
+			y: 0.0d
+			id: "27A25E88696A2CE0"
+			tasks: [
+				{
+					id: "3D67BA403E35419C"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "71B2C5AC1AFBC6F4"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "2825BE93BFE410B3"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+				{
+					id: "6B95C9139E5E235A"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+				{
+					id: "0C64B69DD7C0672B"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "4E0AAB85DBF67FDC"
+			tasks: [
+				{
+					id: "5AAEE8837468E76B"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+				}
+				{
+					id: "002D217F11EFE19E"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+				}
+				{
+					id: "0DD11FE87609AF27"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+				{
+					id: "538AC2631D7AB7D5"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:other"
+						}
+					}
+				}
+				{
+					id: "69AFEFA75827AF84"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "29BEFD73AFC63136"
+			tasks: [{
+				id: "6A412B9CB37C2230"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "691F0E989EEE474C"
+			tasks: [{
+				id: "30EDBB2A75B3BA3B"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "27DA3EEF9DF78B7A"
+			tasks: [{
+				id: "3750E76B1F664FAF"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			id: "25EF9CEF662A2F45"
+			tasks: [{
+				id: "7F1050D2BEAD9870"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "0FA9880BDFC97633"
+			tasks: [{
+				id: "3CA627F5CAB1F6C6"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			id: "68383BED1EA06D9F"
+			tasks: [{
+				id: "6D0DCE436BA87093"
+				type: "item"
+				item: "naturesaura:token_joy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "7118A69FCEF7E54D"
+			tasks: [
+				{
+					id: "4995D96F6BD97170"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45C31C289B4CD869"
+					type: "item"
+					item: "naturesaura:moss_generator"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "6D3F6DB72B2FBEB1"
+			tasks: [{
+				id: "7B82ECF64ED9FB64"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "237C80E9ED2EF157"
+			tasks: [{
+				id: "58761C4103F05CCE"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "7504ADD9756D5D39"
+			tasks: [{
+				id: "6F3ADDF4EA4312E6"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "761F1776ADC5E9F1"
+			tasks: [
+				{
+					id: "0E78075816690A75"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:animal"
+						}
+					}
+				}
+				{
+					id: "7BAEFD0E19FB1DFC"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "0BE8AC98FA9A5F89"
+			tasks: [
+				{
+					id: "4663425731E979D9"
+					type: "item"
+					item: "naturesaura:crushing_catalyst"
+				}
+				{
+					id: "70C1719854FBC75A"
+					type: "item"
+					item: "naturesaura:conversion_catalyst"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			id: "41426E66714F1FD8"
+			tasks: [{
+				id: "5EDCD196B66E146C"
+				type: "item"
+				item: "naturesaura:birth_spirit"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			id: "322FC9ECB2ECC680"
+			tasks: [
+				{
+					id: "524C3EC43D4DF1B5"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "122DBABEB6A0C755"
+					type: "item"
+					item: "naturesaura:infused_brick"
+					count: 16L
+				}
+				{
+					id: "24291386C1F4E4AB"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16L
+				}
+				{
+					id: "5E8C40ED08338C62"
+					type: "item"
+					item: "naturesaura:ancient_planks"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			id: "0BDC79CB920BA817"
+			tasks: [
+				{
+					id: "21FED1A419B0E6F8"
+					type: "item"
+					item: "naturesaura:infused_stone"
+				}
+				{
+					id: "0C1FD2246BA22504"
+					type: "item"
+					item: "naturesaura:infused_brick"
+				}
+			]
+		}
+		{
+			title: "Crimson Altar"
+			icon: "naturesaura:nature_altar"
+			x: 2.0d
+			y: -1.0d
+			id: "7C8755271F338DCB"
+			tasks: [
+				{
+					id: "735B42C3A80D24FB"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "7CB1B99F2CA6CEAE"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 4L
+				}
+				{
+					id: "7890B05DE1EF64A1"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8L
+				}
+				{
+					id: "7556146B0716C8C1"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 16L
+				}
+				{
+					id: "4EAA7BEDB3E01F10"
+					type: "item"
+					item: "minecraft:crimson_planks"
+					count: 20L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "118CF1B7418B3CC4"
+			tasks: [
+				{
+					id: "5A8E9A309577F5A2"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "50194993139C2049"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16L
+				}
+				{
+					id: "6F9062683F83D95E"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "72BB33D21B770DCE"
+			tasks: [
+				{
+					id: "76C78C0FAC07B3C6"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "7A9F7633D443220D"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 36L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

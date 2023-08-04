@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:storage_blocks/raw_iron"
+        }
+    },
+    "output": {
+        "item": "thermal:iron_dust",
+        "count": 12
+    }
+}

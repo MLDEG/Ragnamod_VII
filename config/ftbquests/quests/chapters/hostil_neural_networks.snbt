@@ -1,0 +1,185 @@
+{
+	id: "0252CFF73D2F4C90"
+	group: ""
+	order_index: 19
+	filename: "hostil_neural_networks"
+	title: "Hostil Neural Networks"
+	icon: "hostilenetworks:sim_chamber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "53281223F73C2C0A"
+			tasks: [{
+				id: "559E58622DF71343"
+				type: "item"
+				item: "hostilenetworks:machine_frame"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "055A2F4251CEB8F4"
+			tasks: [{
+				id: "27ED03A76820069C"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "26EC567B8ED51040"
+			tasks: [{
+				id: "347CB8332DCB8391"
+				type: "item"
+				item: "hostilenetworks:loot_fabricator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "219FE5C2C142EC17"
+			tasks: [{
+				id: "5639718242E03C86"
+				type: "item"
+				item: "hostilenetworks:deep_learner"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "0C53882CCAF972DC"
+			tasks: [{
+				id: "3D6F63D16601DF20"
+				type: "item"
+				item: "hostilenetworks:blank_data_model"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			id: "565CE6AE6D70881D"
+			tasks: [{
+				id: "6473B035A1C7A823"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "0521FCCDCB3DB274"
+			tasks: [{
+				id: "2046BF23EDA6D287"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "68FB65525251C786"
+			tasks: [{
+				id: "5C30BFCC74F17359"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombified_piglin"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "1D013C288CC715C8"
+			tasks: [{
+				id: "71569791E84BBFF9"
+				type: "item"
+				item: "hostilenetworks:overworld_prediction"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "5B092740CBDC0A6B"
+			tasks: [{
+				id: "0D64DC5C26E87BD4"
+				type: "item"
+				item: "hostilenetworks:nether_prediction"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			id: "1317D404CB9A9735"
+			tasks: [{
+				id: "2591D75F97CB8689"
+				type: "item"
+				item: "hostilenetworks:end_prediction"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			id: "7F963FC1D741B554"
+			tasks: [{
+				id: "0CD99446CBD7F0B0"
+				type: "item"
+				item: "hostilenetworks:twilight_prediction"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			id: "42247B4F56A6393F"
+			tasks: [{
+				id: "7A47DE47C1E73B04"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:enderman"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			id: "44150A1347863EF6"
+			tasks: [{
+				id: "3A066925EC66EFE6"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/skeleton_druid"
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

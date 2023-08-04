@@ -1,0 +1,8 @@
+{
+	"config": {
+		"chance_to_generate": 1,
+		"max_radius": 24,
+		"min_radius": 15
+	},
+	"type": "miningmaster:malachite_meteorite_feature"
+}

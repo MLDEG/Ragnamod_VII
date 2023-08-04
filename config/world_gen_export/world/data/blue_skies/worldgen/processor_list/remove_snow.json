@@ -1,0 +1,7 @@
+{
+	"processors": [
+		{
+			"processor_type": "blue_skies:remove_snow"
+		}
+	]
+}

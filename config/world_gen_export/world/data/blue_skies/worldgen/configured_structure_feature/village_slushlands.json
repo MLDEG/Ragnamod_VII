@@ -1,0 +1,10 @@
+{
+	"adapt_noise": true,
+	"biomes": "blue_skies:slushlands",
+	"config": {
+		"size": 6,
+		"start_pool": "blue_skies:village/slushlands/town_centers"
+	},
+	"spawn_overrides": { },
+	"type": "blue_skies:village"
+}

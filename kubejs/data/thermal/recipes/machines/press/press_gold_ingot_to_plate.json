@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "tag": "forge:ingots/gold"
+  },
+  "result": [
+    {
+      "item": "ftbic:gold_plate"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+
+#gem set tools leveling config
+["tool leveling"]
+#sets whether gem set tools gain perks from levels
+isToolLevelingEnabled = true
+
+["tool leveling"."leveling config"]
+swordKillsPerLevel = 10
+pickaxeOresPerLevel = 10
+pickaxeBlocksPerLevel = 20
+axeKillsPerLevel = 10
+axeLogsPerLevel = 10
+axeBlocksPerLevel = 20
+shovelBlocksPerLevel = 50
+hoeHoesPerLevel = 50
+hoeCropsPerLevel = 20
+
+#whether mod loot spawns in chests
+["loot spawning"]
+isLootSpawnEnabled = false
+
+#whether minor gems spawn in unique biomes
+["gem unique biome generation"]
+#sets whether minor gems spawn uniquely in specific biomes.Disable to make enabled gems generate in every overworld biome
+isUniqueBiomeGenerationEnabled = false
+
+#overworld world generation config
+["overworld generation"]
+#sets whether mod diamond ore generation is enabled
+pale_diamond_OreGenEnabled = false
+#sets whether mod emerald ore generation is enabled
+emerald_OreGenEnabled = false
+ruby_OreGenEnabled = false
+sapphire_OreGenEnabled = false
+amethyst_OreGenEnabled = false
+opal_OreGenEnabled = false
+garnet_OreGenEnabled = false
+topaz_OreGenEnabled = false
+peridot_OreGenEnabled = false
+aquamarine_OreGenEnabled = false
+zircon_OreGenEnabled = false
+alexandrite_OreGenEnabled = false
+tanzanite_OreGenEnabled = false
+tourmaline_OreGenEnabled = false
+spinel_OreGenEnabled = false
+blackOpal_OreGenEnabled = false
+citrine_OreGenEnabled = false
+morganite_OreGenEnabled = false
+ametrine_OreGenEnabled = false
+iolite_OreGenEnabled = false
+kunzite_OreGenEnabled = false
+silver_OreGenEnabled = false
+
+["overworld generation"."emerald spawn values"]
+emerald_OreSpawnRate = 16
+emerald_OreVeinSize = 3
+emerald_OreBottomAnchor = -100
+emerald_OreTopAnchor = 100
+
+["overworld generation"."ruby spawn values"]
+ruby_OreSpawnRate = 16
+ruby_OreVeinSize = 3
+ruby_OreBottomAnchor = -100
+ruby_OreTopAnchor = 100
+
+["overworld generation"."sapphire spawn values"]
+sapphire_OreSpawnRate = 16
+sapphire_OreVeinSize = 3
+sapphire_OreBottomAnchor = -100
+sapphire_OreTopAnchor = 100
+
+["overworld generation"."amethyst spawn values"]
+amethyst_OreSpawnRate = 2
+amethyst_OreVeinSize = 8
+amethyst_OreBottomAnchor = -100
+amethyst_OreTopAnchor = 100
+
+["overworld generation"."opal spawn values"]
+opal_OreSpawnRate = 2
+opal_OreVeinSize = 8
+opal_OreBottomAnchor = -100
+opal_OreTopAnchor = 100
+
+["overworld generation"."garnet spawn values"]
+garnet_OreSpawnRate = 2
+garnet_OreVeinSize = 8
+garnet_OreBottomAnchor = -100
+garnet_OreTopAnchor = 100
+
+["overworld generation"."topaz spawn values"]
+topaz_OreSpawnRate = 2
+topaz_OreVeinSize = 8
+topaz_OreBottomAnchor = -100
+topaz_OreTopAnchor = 100
+
+["overworld generation"."peridot spawn values"]
+peridot_OreSpawnRate = 2
+peridot_OreVeinSize = 8
+peridot_OreBottomAnchor = -100
+peridot_OreTopAnchor = 100
+
+["overworld generation"."aquamarine spawn values"]
+aquamarine_OreSpawnRate = 2
+aquamarine_OreVeinSize = 8
+aquamarine_OreBottomAnchor = -100
+aquamarine_OreTopAnchor = 100
+
+["overworld generation"."zircon spawn values"]
+zircon_OreSpawnRate = 2
+zircon_OreVeinSize = 8
+zircon_OreBottomAnchor = -100
+zircon_OreTopAnchor = 100
+
+["overworld generation"."alexandrite spawn values"]
+alexandrite_OreSpawnRate = 2
+alexandrite_OreVeinSize = 8
+alexandrite_OreBottomAnchor = -100
+alexandrite_OreTopAnchor = 100
+
+["overworld generation"."tanzanite spawn values"]
+tanzanite_OreSpawnRate = 2
+tanzanite_OreVeinSize = 8
+tanzanite_OreBottomAnchor = -100
+tanzanite_OreTopAnchor = 100
+
+["overworld generation"."tourmaline spawn values"]
+tourmaline_OreSpawnRate = 2
+tourmaline_OreVeinSize = 8
+tourmaline_OreBottomAnchor = -100
+tourmaline_OreTopAnchor = 100
+
+["overworld generation"."spinel spawn values"]
+spinel_OreSpawnRate = 2
+spinel_OreVeinSize = 8
+spinel_OreBottomAnchor = -100
+spinel_OreTopAnchor = 100
+
+["overworld generation"."black_opal spawn values"]
+black_opal_OreSpawnRate = 2
+black_opal_OreVeinSize = 8
+black_opal_OreBottomAnchor = -100
+black_opal_OreTopAnchor = 100
+
+["overworld generation"."citrine spawn values"]
+citrine_OreSpawnRate = 2
+citrine_OreVeinSize = 8
+citrine_OreBottomAnchor = -100
+citrine_OreTopAnchor = 100
+
+["overworld generation"."morganite spawn values"]
+morganite_OreSpawnRate = 2
+morganite_OreVeinSize = 8
+morganite_OreBottomAnchor = -100
+morganite_OreTopAnchor = 100
+
+["overworld generation"."ametrine spawn values"]
+ametrine_OreSpawnRate = 2
+ametrine_OreVeinSize = 8
+ametrine_OreBottomAnchor = -100
+ametrine_OreTopAnchor = 100
+
+["overworld generation"."iolite spawn values"]
+iolite_OreSpawnRate = 2
+iolite_OreVeinSize = 8
+iolite_OreBottomAnchor = -100
+iolite_OreTopAnchor = 100
+
+["overworld generation"."kunzite spawn values"]
+kunzite_OreSpawnRate = 2
+kunzite_OreVeinSize = 8
+kunzite_OreBottomAnchor = -100
+kunzite_OreTopAnchor = 100
+
+["nether generation"]
+diamond_NetherOreGenEnabled = false
+#sets whether vanilla emerald ore nether generation is enabled
+v_emerald_NetherOreGenEnabled = false
+#sets whether mod emerald ore nether generation is enabled
+emerald_NetherOreGenEnabled = false
+ruby_NetherOreGenEnabled = false
+sapphire_NetherOreGenEnabled = false
+amethyst_NetherOreGenEnabled = false
+opal_NetherOreGenEnabled = false
+garnet_NetherOreGenEnabled = false
+topaz_NetherOreGenEnabled = false
+peridot_NetherOreGenEnabled = false
+aquamarine_NetherOreGenEnabled = false
+zircon_NetherOreGenEnabled = false
+alexandrite_NetherOreGenEnabled = false
+tanzanite_NetherOreGenEnabled = false
+tourmaline_NetherOreGenEnabled = false
+spinel_NetherOreGenEnabled = false
+blackOpal_NetherOreGenEnabled = false
+citrine_NetherOreGenEnabled = false
+morganite_NetherOreGenEnabled = false
+ametrine_NetherOreGenEnabled = false
+iolite_NetherOreGenEnabled = false
+kunzite_NetherOreGenEnabled = false

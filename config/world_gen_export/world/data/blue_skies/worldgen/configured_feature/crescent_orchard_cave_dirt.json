@@ -1,0 +1,14 @@
+{
+	"config": {
+		"dirt": {
+			"Name": "blue_skies:coarse_lunar_dirt"
+		},
+		"grass": {
+			"Name": "blue_skies:muckweed"
+		},
+		"grass_block": {
+			"Name": "blue_skies:coarse_lunar_dirt"
+		}
+	},
+	"type": "blue_skies:cave_grass"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:stick_treated"
+        },
+        { "type": "minecraft:item", "name": "ftbic:iron_rod" },
+        { "type": "minecraft:item", "name": "immersiveengineering:stick_steel" }
+      ]
+    }
+  ]
+}

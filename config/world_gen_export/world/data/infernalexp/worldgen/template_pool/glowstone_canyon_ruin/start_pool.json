@@ -1,0 +1,231 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/half_arch_ruin",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/cross_altar_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/cross_altar_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/cross_altar_3",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/shrine_altar",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/portal_ruin",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/grand_heaven_portal_1",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/grand_heaven_portal_2",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/grand_heaven_portal_3",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/grand_heaven_portal_4",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/grand_heaven_portal_5",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_1",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_2",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_3",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_4",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_5",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_6",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_7",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_8",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_9",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_10",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_11",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/heaven_12",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/mosquito_altar",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "infernalexp:glowstone_canyon/platform_altar",
+				"processors": "infernalexp:loot_chest",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "infernalexp:glowstone_canyon_ruin/start_pool"
+}

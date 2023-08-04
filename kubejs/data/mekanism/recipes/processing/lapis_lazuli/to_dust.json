@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:gems/lapis"
+        }
+    },
+    "output": {
+        "item": "thermal:lapis_dust"
+    }
+}

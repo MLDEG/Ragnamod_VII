@@ -1,0 +1,24 @@
+{
+	"feature": "undergarden:grongle_bush",
+	"placement": [
+		{
+			"count": 8,
+			"type": "minecraft:count_on_every_layer"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"predicate": {
+				"state": {
+					"Name": "minecraft:oak_sapling",
+					"Properties": {
+						"stage": "0"
+					}
+				},
+				"type": "minecraft:would_survive"
+			},
+			"type": "minecraft:block_predicate_filter"
+		}
+	]
+}

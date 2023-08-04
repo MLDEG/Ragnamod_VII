@@ -1,0 +1,2243 @@
+{
+	id: "12A72D5A79F3E4F7"
+	group: ""
+	order_index: 20
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	icon: "immersiveengineering:toolbox"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: -1.5d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/arc_furnace.png"
+			hover: ["Arc Furnace"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/assembler.png"
+			hover: ["Assembler"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/automated_workbench.png"
+			hover: ["Automated Workbench"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/bottling_machine.png"
+			hover: ["Bottling Machine"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/crusher.png"
+			hover: ["Crusher"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/diesel_generator.png"
+			hover: ["Diesel Generator"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/distillation_tower.png"
+			hover: ["Distillation Tower"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/excavator.png"
+			hover: ["Excavator"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/fermenter.png"
+			hover: ["Fermenter"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/lightning_rod.png"
+			hover: ["Lightning Rod"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/metal_press.png"
+			hover: ["Metal Press"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/mixer.png"
+			hover: ["Mixer"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/pumpjack.png"
+			hover: ["Pumpjack"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/refinery.png"
+			hover: ["Refinery"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/sawmill.png"
+			hover: ["Sawmill"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/squeezer.png"
+			hover: ["Squeezer"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/coker.png"
+			hover: ["Coker"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 7.5d
+			y: -3.0d
+			description: ["The Kinetic Dynamo passively generates RF with Water Wheels of Windmill."]
+			dependencies: ["00000000000006A8"]
+			id: "0000000000000696"
+			tasks: [{
+				id: "0000000000000697"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "3BC2D181C57C58DF"
+				type: "item"
+				item: "createaddition:copper_wire"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			description: [
+				"The Wooden Post is four blocks tall."
+				"It's used to put your wire in high place."
+			]
+			dependencies: ["00000000000006E7"]
+			id: "0000000000000698"
+			tasks: [{
+				id: "0000000000000699"
+				type: "item"
+				item: "immersiveengineering:treated_post"
+			}]
+			rewards: [{
+				id: "43C5D48556FF2C66"
+				type: "item"
+				item: "immersiveengineering:treated_post"
+				count: 3
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			description: ["The Engineer's Workbench is used to craft items from blueprint and materials."]
+			dependencies: ["00000000000006ED"]
+			id: "000000000000069A"
+			tasks: [{
+				id: "000000000000069B"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "77DC20E3553313B8"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 32
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			description: [
+				"The Windmill is used to generate RF with a Kinetic Dynamo and wind."
+				"Can produce 35 RF/t."
+			]
+			dependencies: [
+				"0000000000000696"
+				"00000000000006E7"
+			]
+			id: "000000000000069C"
+			tasks: [
+				{
+					id: "000000000000069D"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+				{
+					id: "34EE9584CCC1C3CC"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "5C57F914E8BF4B87"
+				type: "item"
+				item: "immersiveengineering:seed"
+				count: 8
+			}]
+		}
+		{
+			title: "Water Wheels"
+			x: 8.5d
+			y: -3.5d
+			description: [
+				"Water Wheels are used to generate RF with a Kinetic Dynamo and Water."
+				"This is the perfect setup :"
+				"{image:kubejs:textures/ftbquests/begin/waterwheel.png width:150 height:100 align:1}"
+				"Can produce 82RF/t."
+			]
+			dependencies: [
+				"0000000000000696"
+				"00000000000006E7"
+			]
+			id: "000000000000069E"
+			tasks: [{
+				id: "000000000000069F"
+				type: "item"
+				item: "immersiveengineering:watermill"
+				count: 3L
+			}]
+			rewards: [{
+				id: "4B136678F0B5B2B1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Alloy Kiln"
+			icon: "immersiveengineering:alloy_smelter"
+			x: 6.0d
+			y: -7.25d
+			description: [
+				"The Alloy Kiln is a 2x2x2 multiblock."
+				"It is mainly used to make alloy."
+			]
+			dependencies: ["00000000000006A8"]
+			id: "00000000000006A0"
+			tasks: [{
+				id: "00000000000006A1"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6DA598EC1C9796A3"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 16
+			}]
+		}
+		{
+			title: "Coke Oven"
+			icon: "immersiveengineering:coke_oven"
+			x: 7.5d
+			y: -4.5d
+			description: ["The Coke Oven is a 3x3x3 multiblock that produce Coal Coke and Creosote Oil with Coal."]
+			dependencies: ["00000000000006A8"]
+			size: 1.5d
+			id: "00000000000006A2"
+			tasks: [{
+				id: "00000000000006A3"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "54F4A56FD283C0C5"
+				type: "item"
+				item: "minecraft:coal"
+				count: 32
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			icon: "immersiveengineering:blast_furnace"
+			x: 4.5d
+			y: -4.5d
+			description: ["The Blast Furnace is a 3x3x3 multiblock that alloys Iron with Coal Cokes to produce Steel."]
+			dependencies: ["00000000000006A8"]
+			size: 1.5d
+			id: "00000000000006A4"
+			tasks: [{
+				id: "00000000000006A5"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "167C8AD6243F51EF"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 32
+			}]
+		}
+		{
+			title: "Improved Blast Furnace"
+			icon: "immersiveengineering:advanced_blast_furnace"
+			x: 2.5d
+			y: -4.5d
+			description: ["he Improved Blast Furnace is the upgraded tier of the Crude Blast Furnace, capable of automation and also of greater speeds once Blast Furnace Preheaters are added."]
+			dependencies: ["00AA3E0C1621E643"]
+			id: "00000000000006A6"
+			tasks: [{
+				id: "00000000000006A7"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
+				count: 27L
+			}]
+			rewards: [{
+				id: "6B7A58F5557EDDEA"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 64
+			}]
+		}
+		{
+			title: "Immersive Tools"
+			icon: {
+				id: "immersiveengineering:toolbox"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 23
+						Items: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: -5.0d
+			description: [
+				"Note: To avoid the completion of all machine quests, completion marks have been put before each of them."
+				"You must check these first quests to be able to complete the corresponding machine quest."
+			]
+			size: 2.0d
+			id: "00000000000006A8"
+			tasks: [
+				{
+					id: "00000000000006A9"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C7476CA202F5916"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7D1791E27E54CA24"
+				type: "item"
+				item: {
+					id: "immersiveengineering:toolbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 23
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "LV Set"
+			x: 4.5d
+			y: -7.0d
+			description: [
+				"Wire Connectors attach directly to machines, usually to a visible power plug."
+				"Using a Wire Coil on a Connector links the first end of the cable. Using the Coil on another Connector or on a Wire Relay completes the connection."
+				""
+				"The LV Wire can transfer 2048 RF/t through 16 blocks distance."
+			]
+			dependencies: ["00000000000006A8"]
+			id: "00000000000006AA"
+			tasks: [
+				{
+					id: "00000000000006AB"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "00000000000006AC"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "00000000000006AD"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
+			rewards: [{
+				id: "2180A43683007655"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+				count: 2
+			}]
+		}
+		{
+			title: "MV Set"
+			x: 3.5d
+			y: -7.0d
+			description: ["The MV Wire can transfer 8192 RF/t through 16 blocks distance."]
+			dependencies: ["00000000000006AA"]
+			id: "00000000000006AE"
+			tasks: [
+				{
+					id: "00000000000006B0"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "00000000000006B2"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+				{
+					id: "00000000000006B3"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+			]
+			rewards: [{
+				id: "7EB98D51AA0A434D"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+				count: 2
+			}]
+		}
+		{
+			title: "HV Set"
+			x: 2.5d
+			y: -6.5d
+			description: ["The HV Wire can transfer 32 768 RF/t through 32 blocks distance."]
+			dependencies: ["00000000000006AE"]
+			id: "00000000000006B4"
+			tasks: [
+				{
+					id: "00000000000006B5"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+				{
+					id: "00000000000006B6"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+				{
+					id: "00000000000006B7"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+			]
+			rewards: [{
+				id: "1861A2925FD8B66F"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+				count: 3
+			}]
+		}
+		{
+			title: "Insulated Set"
+			x: 4.5d
+			y: -8.0d
+			description: ["The insulated wire can no longer hurt you."]
+			dependencies: ["00000000000006AA"]
+			id: "00000000000006B8"
+			tasks: [
+				{
+					id: "00000000000006B9"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+				}
+				{
+					id: "00000000000006BA"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+				}
+			]
+			rewards: [
+				{
+					id: "1C022CF1F399844A"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+				}
+				{
+					id: "32B155C7B20B78A3"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -5.5d
+			subtitle: "Crafting Components"
+			description: ["The Engineer's Blueprint is used in the Engineer's Workbench to be able to craft certain items."]
+			dependencies: ["000000000000069A"]
+			id: "00000000000006BB"
+			tasks: [{
+				id: "25D33AFB147CE140"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "components"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B1509DE590398CE"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "bullet"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			description: ["The LV Capacitor can store 100k RF and can transfer I/O 256 RF/t"]
+			dependencies: ["00000000000006A8"]
+			id: "00000000000006BF"
+			tasks: [{
+				id: "00000000000006C0"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [{
+				id: "1528D78C2B93678E"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			description: ["The MV Capacitor can store 1M RF and can transfer I/O 1024 RF/t"]
+			dependencies: ["00000000000006BF"]
+			id: "00000000000006C1"
+			tasks: [{
+				id: "00000000000006C2"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [{
+				id: "33E53F9A0CC861A6"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			description: ["The HV Capacitor can store 4M RF and can transfer I/O 4096 RF/t"]
+			dependencies: ["00000000000006C1"]
+			id: "00000000000006C3"
+			tasks: [{
+				id: "00000000000006C4"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [{
+				id: "4EB66A80384F90BF"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 32
+			}]
+		}
+		{
+			title: "Mold Set"
+			x: 9.5d
+			y: -6.5d
+			description: ["The Molds is used in the Metal Press."]
+			dependencies: ["00000000000006BB"]
+			id: "00000000000006C5"
+			tasks: [
+				{
+					id: "00000000000006C6"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "00000000000006C7"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "00000000000006C8"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "00000000000006C9"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+			rewards: [
+				{
+					id: "4A509E4C5820ECD0"
+					type: "item"
+					item: "ftbic:iron_plate"
+					count: 4
+				}
+				{
+					id: "498A6A752447F748"
+					type: "item"
+					item: "thermal:iron_gear"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: ["To make a HOP Graphite ingot, you need to smelt a HOP Graphite dust, who it's make in a squeezer with petcoke dust."]
+			dependencies: ["000000000000071E"]
+			id: "00000000000006CA"
+			tasks: [{
+				id: "00000000000006CB"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+			rewards: [{
+				id: "431C7E897214A5F0"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+				count: 4
+			}]
+		}
+		{
+			title: "Graphite Electrode"
+			x: 4.0d
+			y: -2.5d
+			description: ["The Graphite Electrode is needed to properly function the Arc Furnace."]
+			dependencies: ["00000000000006CA"]
+			id: "00000000000006CC"
+			tasks: [{
+				id: "00000000000006CD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+						Damage: 0
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "2D90792214AC5465"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			description: [
+				"The Garden Cloche is used to grow crops placed in it."
+				"In this pack, it is very powerful ! It can grow crops every 50 ticks."
+			]
+			dependencies: ["00000000000006A8"]
+			id: "00000000000006CE"
+			tasks: [{
+				id: "00000000000006CF"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "6C5E2EC971469602"
+				type: "item"
+				item: "minecraft:farmland"
+				count: 64
+			}]
+		}
+		{
+			title: "Faraday Suit"
+			x: 6.5d
+			y: -6.5d
+			description: [
+				"The Faraday Armor protects against the Tesla Coil in low-power mode."
+				"In high-power mode however, it increases the damage dealt to the user."
+			]
+			dependencies: ["00000000000006A8"]
+			id: "00000000000006D0"
+			tasks: [
+				{
+					id: "00000000000006D1"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000006D2"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000006D3"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000006D4"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2D267C75220E7C3E"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			description: ["The Core Sample Drill is used to detect and analyze Mineral and Fluid Deposits that can be extracted by an Excavator."]
+			dependencies: ["00AA3E0C1621E643"]
+			id: "00000000000006D7"
+			tasks: [{
+				id: "00000000000006D8"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [
+				{
+					id: "1DF0B7D14BEA22F1"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 8
+				}
+				{
+					id: "6154165F875CC2AB"
+					type: "item"
+					item: "minecraft:copper_ore"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			description: ["The Charging Station is used to charge RF."]
+			dependencies: ["00000000000006A8"]
+			id: "00000000000006D9"
+			tasks: [{
+				id: "00000000000006DA"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+			rewards: [{
+				id: "00EC1673B2A74E56"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			description: ["The Floodlight creates a 32 block-long \"light cone\" in the direction it faces."]
+			dependencies: ["00000000000006A8"]
+			id: "00000000000006DB"
+			tasks: [{
+				id: "00000000000006DC"
+				type: "item"
+				item: "immersiveengineering:floodlight"
+			}]
+			rewards: [{
+				id: "779DD76B4BE15B3B"
+				type: "item"
+				item: "minecraft:torch"
+				count: 64
+			}]
+		}
+		{
+			title: "Crude Oil"
+			x: 1.0d
+			y: -3.0d
+			description: ["Collect a bucket of Crude Oil."]
+			dependencies: ["0000000000000754"]
+			id: "00000000000006DF"
+			tasks: [{
+				id: "00000000000006E0"
+				type: "item"
+				item: "immersivepetroleum:crudeoil_bucket"
+			}]
+			rewards: [{
+				id: "72906927CAA59E3D"
+				type: "item"
+				item: "immersivepetroleum:crudeoil_bucket"
+			}]
+		}
+		{
+			title: "Distillation Tower results"
+			x: 1.0d
+			y: 0.5d
+			description: ["Collect those three bucket using the distillation tower."]
+			dependencies: ["00000000000006E5"]
+			id: "00000000000006E1"
+			tasks: [
+				{
+					id: "16CEF2304A0A3F2F"
+					type: "item"
+					item: "immersivepetroleum:lubricant_bucket"
+				}
+				{
+					id: "6DA9851750E38342"
+					type: "item"
+					item: "immersivepetroleum:gasoline_bucket"
+				}
+				{
+					id: "1F4C7E460C6D7024"
+					type: "item"
+					item: "immersivepetroleum:diesel_sulfur_bucket"
+				}
+			]
+			rewards: [{
+				id: "618525B3C95CFA18"
+				type: "item"
+				item: "immersivepetroleum:lubricant_bucket"
+			}]
+		}
+		{
+			title: "Bitumen"
+			x: 1.0d
+			y: -0.5d
+			description: ["Collect a stack of Bitumen."]
+			dependencies: ["000000000000075D"]
+			id: "00000000000006E5"
+			tasks: [{
+				id: "73760A40D6B1910D"
+				type: "item"
+				item: "thermal:bitumen"
+				count: 64L
+			}]
+			rewards: [{
+				id: "7A19315BB8C178E9"
+				type: "item"
+				item: "thermal:bitumen"
+				count: 64
+			}]
+		}
+		{
+			title: "Treated Woods"
+			x: 8.5d
+			y: -4.5d
+			description: ["To get treated woods use planks and Creosote Oil."]
+			dependencies: ["00000000000006A2"]
+			id: "00000000000006E7"
+			tasks: [{
+				id: "00000000000006E8"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2C551A1659DC9B7C"
+				type: "item"
+				item: "engineersdecor:treated_wood_ladder"
+				count: 64
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			description: ["The Engineer's Crafting Table is basically a crafting table with an internal inventory."]
+			dependencies: ["00000000000006E7"]
+			id: "00000000000006ED"
+			tasks: [{
+				id: "00000000000006EE"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+			rewards: [{
+				id: "5D04094BDF019F8B"
+				type: "item"
+				item: "immersiveengineering:reinforced_crate"
+			}]
+		}
+		{
+			title: "Diesel Generator"
+			icon: "immersiveengineering:diesel_generator"
+			x: 5.5d
+			y: 3.0d
+			description: ["The Diesel Generator is a 3×5×3 multiblock used to generates RF by burning Biodiesel."]
+			dependencies: ["000000000000077E"]
+			id: "00000000000006EF"
+			tasks: [
+				{
+					id: "00000000000006F0"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "00000000000006F1"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "00000000000006F2"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "00000000000006F3"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "00000000000006F4"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "00000000000006F5"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+		}
+		{
+			title: "Lightning Rod"
+			icon: "immersiveengineering:lightning_rod"
+			x: 3.5d
+			y: 1.5d
+			description: [
+				"The Lightning Rod is a 3x3x3 multiblock who can generate 16M RF per lightning strike."
+				""
+				"To get a lightning strike more easily on to your Lightning Rod, you need to put some Steel fence in the middle of this structure, the more you put, the better the chance you can get your strike."
+			]
+			dependencies: ["0000000000000786"]
+			id: "00000000000006F6"
+			tasks: [
+				{
+					id: "00000000000006F7"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 4L
+				}
+				{
+					id: "00000000000006F8"
+					type: "item"
+					item: "immersiveengineering:coil_hv"
+					count: 3L
+				}
+				{
+					id: "00000000000006F9"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+				{
+					id: "00000000000006FA"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "00000000000006FB"
+					type: "item"
+					item: "immersiveengineering:coil_lv"
+					count: 8L
+				}
+				{
+					id: "00000000000006FC"
+					type: "item"
+					item: "immersiveengineering:capacitor_hv"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Metal Press"
+			icon: "immersiveengineering:metal_press"
+			x: 10.5d
+			y: -1.5d
+			description: ["The Metal Press is a 3×1×3 multiblock used to press ingots into plates, wires or gears."]
+			dependencies: ["0000000000000788"]
+			id: "00000000000006FD"
+			tasks: [
+				{
+					id: "00000000000006FE"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "00000000000006FF"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "0000000000000700"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000701"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "0000000000000702"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Crusher"
+			icon: "immersiveengineering:crusher"
+			x: 0.5d
+			y: 1.5d
+			description: ["The Crusher is a 3×5×3 multiblock used for crushing ores into dust."]
+			dependencies: ["000000000000077C"]
+			id: "0000000000000703"
+			tasks: [
+				{
+					id: "0000000000000704"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "0000000000000705"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "0000000000000706"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000707"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "0000000000000708"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+		}
+		{
+			title: "Sawmill"
+			icon: "immersiveengineering:sawmill"
+			x: 11.5d
+			y: -1.5d
+			description: ["The Sawmill is a 3×5×3 multiblock used to process woods."]
+			dependencies: ["0000000000000792"]
+			id: "0000000000000709"
+			tasks: [
+				{
+					id: "000000000000070A"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "000000000000070B"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 6L
+				}
+				{
+					id: "000000000000070C"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "000000000000070D"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000070E"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000070F"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "0000000000000764"
+					type: "item"
+					item: {
+						id: "immersiveengineering:sawblade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Assembler"
+			icon: "immersiveengineering:assembler"
+			x: 10.5d
+			y: 1.5d
+			description: ["The Assembler is a 3x3x3 multiblock used to automatically craft items."]
+			dependencies: ["0000000000000776"]
+			id: "0000000000000710"
+			tasks: [
+				{
+					id: "0000000000000711"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "0000000000000712"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000000713"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000000714"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 9L
+				}
+				{
+					id: "0000000000000715"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					count: 6L
+				}
+				{
+					id: "0000000000000716"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Fermenter"
+			icon: "immersiveengineering:fermenter"
+			x: 8.5d
+			y: -1.5d
+			description: ["The Fermenter is a 3x3x3 multiblock used to make Ethanol."]
+			dependencies: ["0000000000000784"]
+			id: "0000000000000717"
+			tasks: [
+				{
+					id: "0000000000000718"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "0000000000000719"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000071A"
+					type: "item"
+					item: "minecraft:cauldron"
+					count: 4L
+				}
+				{
+					id: "000000000000071B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000071C"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "000000000000071D"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Squeezer"
+			icon: "immersiveengineering:squeezer"
+			x: 3.5d
+			y: -1.5d
+			description: ["The Squeezer is a 3x3x3 multiblock used to make Plant Oil or HOP Graphite Dust."]
+			dependencies: ["0000000000000790"]
+			id: "000000000000071E"
+			tasks: [
+				{
+					id: "000000000000071F"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "0000000000000720"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "0000000000000721"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000000722"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000723"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "0000000000000724"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "0000000000000725"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Refinery"
+			icon: "immersiveengineering:refinery"
+			x: 5.5d
+			y: 0.0d
+			description: ["The Refinery is a 3x5x3 multi-block used to make Biodiesel."]
+			dependencies: ["000000000000078E"]
+			id: "0000000000000726"
+			tasks: [
+				{
+					id: "0000000000000727"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "0000000000000728"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000000729"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000072A"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "000000000000072B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000072C"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+		}
+		{
+			title: "Mixer"
+			icon: "immersiveengineering:mixer"
+			x: 1.5d
+			y: 1.5d
+			description: ["The Mixer is a 3x3x3 multiblock is used to mixed items and fluid to get another fluids, like potion or concrete."]
+			dependencies: ["000000000000078A"]
+			id: "000000000000072D"
+			tasks: [
+				{
+					id: "000000000000072E"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "000000000000072F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "0000000000000730"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "0000000000000731"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000732"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					id: "0000000000000733"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 3L
+				}
+			]
+		}
+		{
+			title: "Bottling Machine"
+			icon: "immersiveengineering:bottling_machine"
+			x: 11.5d
+			y: 1.5d
+			description: ["The Bottling Machine is a 3x2x3 multiblock used to fill liquid containers."]
+			dependencies: ["000000000000077A"]
+			id: "0000000000000734"
+			tasks: [
+				{
+					id: "0000000000000735"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 2L
+				}
+				{
+					id: "0000000000000736"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 3L
+				}
+				{
+					id: "0000000000000737"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000738"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000000739"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 3L
+				}
+				{
+					id: "000000000000073A"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+			]
+		}
+		{
+			title: "Automated Workbench"
+			icon: "immersiveengineering:auto_workbench"
+			x: 11.5d
+			y: -4.5d
+			description: ["The Automated Workbench is a 3x2x3 multiblock used to automate items from the Engineer's Workbench."]
+			dependencies: [
+				"0000000000000778"
+				"000000000000069A"
+			]
+			id: "000000000000073B"
+			tasks: [
+				{
+					id: "000000000000073C"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "000000000000073D"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "000000000000073E"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000073F"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000000740"
+					type: "item"
+					item: "immersiveengineering:slab_treated_wood_horizontal"
+					count: 2L
+				}
+				{
+					id: "0000000000000741"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Arc Furnace"
+			icon: "immersiveengineering:arc_furnace"
+			x: 5.5d
+			y: -3.0d
+			description: ["The Arc Furnace is a 5×5×5 multiblock used for smelting ores and dust into ingots and creating alloys."]
+			dependencies: ["0000000000000765"]
+			id: "0000000000000742"
+			tasks: [
+				{
+					id: "0000000000000743"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "0000000000000744"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "0000000000000745"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "0000000000000746"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "0000000000000747"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "0000000000000748"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "0000000000000749"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000074A"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "000000000000074B"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+		}
+		{
+			title: "Excavator"
+			icon: "immersiveengineering:excavator"
+			x: 8.5d
+			y: 1.5d
+			description: ["The Excavator is a 8×3×7 multiblock that mines into Mineral Deposits below bedrock."]
+			dependencies: ["0000000000000782"]
+			id: "000000000000074C"
+			tasks: [
+				{
+					id: "000000000000074D"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 26L
+				}
+				{
+					id: "000000000000074E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "000000000000074F"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 9L
+				}
+				{
+					id: "0000000000000750"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "0000000000000751"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "0000000000000752"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000753"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Pumpjack"
+			icon: "immersivepetroleum:pumpjack"
+			x: 0.5d
+			y: -4.5d
+			description: [
+				"The Pumpjack is a 6×4×3 multiblock, It extracts fluids like Crude Oil from reservoirs that are below bedrock."
+				""
+				"This works in a Void world."
+			]
+			dependencies: [
+				"000000000000078C"
+				"00000000000006D7"
+			]
+			id: "0000000000000754"
+			tasks: [
+				{
+					id: "0000000000000755"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "0000000000000756"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000000757"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6L
+				}
+				{
+					id: "0000000000000758"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000759"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000075A"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 2L
+				}
+				{
+					id: "000000000000075B"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4L
+				}
+				{
+					id: "000000000000075C"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Distillation Tower"
+			icon: "immersivepetroleum:distillation_tower"
+			x: 0.5d
+			y: -1.5d
+			description: [
+				"The Distillation Tower is a large 4x16x4 multiblock used to process fluids into other fluids."
+				"It is primarily used to convert Crude Oil into usable Diesel and Gasoline fuels and Lubricant, creating Bitumen as a byproduct."
+			]
+			dependencies: [
+				"0000000000000780"
+				"00000000000006DF"
+			]
+			id: "000000000000075D"
+			tasks: [
+				{
+					id: "000000000000075E"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 25L
+				}
+				{
+					id: "000000000000075F"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "0000000000000760"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000761"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 60L
+				}
+				{
+					id: "0000000000000762"
+					type: "item"
+					item: { id: "immersiveengineering:slab_steel_scaffolding_grate_top", Count: 30b }
+					count: 30L
+				}
+				{
+					id: "0000000000000763"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 17L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			id: "0000000000000765"
+			tasks: [{
+				id: "0000000000000767"
+				type: "checkmark"
+				title: "Arc Furnace Quest"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			description: [
+				"The Thermoelectric Generator can generate RF based on the temperature difference of the blocks surrounding it."
+				"The high-temperature and low-temperature blocks need to be across from each other."
+			]
+			dependencies: ["00000000000006A8"]
+			id: "0000000000000768"
+			tasks: [{
+				id: "0000000000000769"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "03A9E3BFA3732C9B"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 64
+			}]
+		}
+		{
+			title: "Assembler Quest"
+			x: 9.5d
+			y: 1.5d
+			id: "0000000000000776"
+			tasks: [{
+				id: "0000000000000777"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Automated Workbench Quest"
+			x: 12.5d
+			y: -4.5d
+			id: "0000000000000778"
+			tasks: [{
+				id: "0000000000000779"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Bottling Machine Quest"
+			x: 12.5d
+			y: 1.5d
+			id: "000000000000077A"
+			tasks: [{
+				id: "000000000000077B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Crusher Quest"
+			x: -0.5d
+			y: 1.5d
+			id: "000000000000077C"
+			tasks: [{
+				id: "000000000000077D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Diesel Generator Quest"
+			x: 6.5d
+			y: 3.0d
+			id: "000000000000077E"
+			tasks: [{
+				id: "000000000000077F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Distillation Tower Quest"
+			x: -0.5d
+			y: -1.5d
+			id: "0000000000000780"
+			tasks: [{
+				id: "0000000000000781"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Excavator Quest"
+			x: 7.5d
+			y: 1.5d
+			id: "0000000000000782"
+			tasks: [{
+				id: "0000000000000783"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Fermenter Quest"
+			x: 7.5d
+			y: -1.5d
+			id: "0000000000000784"
+			tasks: [{
+				id: "0000000000000785"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Lightning Rod Quest"
+			x: 4.5d
+			y: 1.5d
+			id: "0000000000000786"
+			tasks: [{
+				id: "0000000000000787"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Metal Press Quest"
+			x: 9.5d
+			y: -1.5d
+			id: "0000000000000788"
+			tasks: [{
+				id: "0000000000000789"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Mixer Quest"
+			x: 2.5d
+			y: 1.5d
+			id: "000000000000078A"
+			tasks: [{
+				id: "000000000000078B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pumpjack Quest"
+			x: -0.5d
+			y: -4.5d
+			id: "000000000000078C"
+			tasks: [{
+				id: "000000000000078D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Refinery Quest"
+			x: 6.5d
+			y: 0.0d
+			id: "000000000000078E"
+			tasks: [{
+				id: "000000000000078F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Squeezer Quest"
+			x: 4.5d
+			y: -1.5d
+			id: "0000000000000790"
+			tasks: [{
+				id: "0000000000000791"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sawmill Quest"
+			x: 12.5d
+			y: -1.5d
+			id: "0000000000000792"
+			tasks: [{
+				id: "0000000000000793"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Coker"
+			x: 2.5d
+			y: -1.5d
+			id: "1BC1B5880FB8E66F"
+			tasks: [{
+				id: "596A0DEB2CE74CA1"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Coker"
+			icon: "immersivepetroleum:coker_unit"
+			x: 1.5d
+			y: -1.5d
+			description: ["The Coker is a large 5x23x9 multiblock used to process Bitumen into Petcoke."]
+			dependencies: [
+				"1BC1B5880FB8E66F"
+				"00000000000006E5"
+			]
+			id: "3A09BC46905622C0"
+			tasks: [
+				{
+					id: "3D705582E6BB10A0"
+					type: "item"
+					item: "immersiveengineering:concrete"
+					count: 12L
+				}
+				{
+					id: "63F610B39599240E"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 98L
+				}
+				{
+					id: "25FA79AE5DA825C6"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "65C6295435B3EEAD"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+				}
+				{
+					id: "021BDDF530EFD92F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 5L
+				}
+				{
+					id: "66BEC09B60CC965C"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "2C563DCD71B05A74"
+					type: "item"
+					item: "immersiveengineering:concrete_tile"
+					count: 45L
+				}
+				{
+					id: "71A3B5A969072FFA"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 88L
+				}
+				{
+					id: "08EF4DF2B025E31F"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 162L
+				}
+				{
+					id: "45B4CA8C955E1E66"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					count: 46L
+				}
+				{
+					id: "650FFFD3DB0EA298"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 47L
+				}
+				{
+					id: "6659039C09D09C77"
+					type: "item"
+					item: "immersiveengineering:steel_slope"
+					count: 3L
+				}
+			]
+		}
+		{
+			title: "Steel"
+			x: 3.5d
+			y: -4.5d
+			description: ["Collect a stack of Steel Ingot."]
+			dependencies: ["00000000000006A4"]
+			id: "00AA3E0C1621E643"
+			tasks: [{
+				id: "193DE2FC5FC443C1"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 64L
+			}]
+			rewards: [{
+				id: "24A2D270B6BD7BC8"
+				type: "item"
+				item: "mekanism:block_steel"
+			}]
+		}
+		{
+			title: "Petcoke"
+			x: 2.0d
+			y: -2.5d
+			description: ["Collect 16 Petcoke using the Coker."]
+			dependencies: ["3A09BC46905622C0"]
+			id: "503CE99C8A9515EA"
+			tasks: [{
+				id: "392220BDD77E5683"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7C18C7278B03AABF"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+				count: 8
+			}]
+		}
+		{
+			x: 15.5d
+			y: -4.5d
+			id: "26CC3D1E6FECD54A"
+			tasks: [{
+				id: "3F99E6884DED6D94"
+				type: "checkmark"
+				title: "Derrick"
+			}]
+		}
+		{
+			title: "Derrick"
+			icon: "immersivepetroleum:derrick"
+			x: 14.5d
+			y: -4.5d
+			dependencies: ["26CC3D1E6FECD54A"]
+			id: "7A3DFA518103EC84"
+			tasks: [
+				{
+					id: "613224AEE61665FB"
+					type: "item"
+					item: "immersiveengineering:concrete_tile"
+					count: 27L
+				}
+				{
+					id: "31060ED4A8366C60"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "3E16796FF0BD3B1A"
+					type: "item"
+					item: "immersiveengineering:concrete"
+					count: 18L
+				}
+				{
+					id: "40C9FA2B4D5D2AD5"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					count: 82L
+				}
+				{
+					id: "2A87247781DF955D"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 193L
+				}
+				{
+					id: "36160FFF6F7BFD04"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 29L
+				}
+				{
+					id: "080B7F35109D1F81"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 51L
+				}
+				{
+					id: "6632A8D1E91DB1A9"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "2952A063BFBAC58E"
+					type: "item"
+					item: "immersiveengineering:slab_storage_steel"
+					count: 16L
+				}
+				{
+					id: "2C66BC6B096E26E4"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+				}
+				{
+					id: "43D1FE74DB7E6D3C"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+				}
+				{
+					id: "26A54B2E6FC9C21A"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 182L
+				}
+				{
+					id: "75B048F67C014D1A"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 7L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

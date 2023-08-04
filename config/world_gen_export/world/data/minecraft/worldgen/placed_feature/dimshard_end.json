@@ -1,0 +1,44 @@
+{
+	"feature": {
+		"config": {
+			"discard_chance_on_air_exposure": 0.0,
+			"size": 1,
+			"targets": [
+				{
+					"state": {
+						"Name": "rftoolsbase:dimensionalshard_end"
+					},
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "forge:end_stones"
+					}
+				}
+			]
+		},
+		"type": "minecraft:ore"
+	},
+	"placement": [
+		{
+			"count": 0,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 0
+				},
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		}
+	]
+}

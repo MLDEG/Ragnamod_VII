@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:snow_golem",
+    "name": "entity.minecraft.snow_golem",
+    "name_color": "0xe5f5f5",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+        "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.snow_golem",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:snowball",
+            "count": 32
+        },
+        {
+            "item": "reliquary:frozen_core",
+            "count": 2
+        }
+    ]
+}

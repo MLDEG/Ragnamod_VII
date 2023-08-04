@@ -1,0 +1,12 @@
+{
+	"processors": [
+		{
+			"chance": 1.0,
+			"change_to": {
+				"Name": "blue_skies:turquoise_stonebrick"
+			},
+			"condition": "blue_skies:lunar_stonebrick",
+			"processor_type": "structure_gel:replace_block"
+		}
+	]
+}

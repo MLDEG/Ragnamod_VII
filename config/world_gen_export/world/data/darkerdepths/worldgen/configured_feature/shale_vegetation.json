@@ -1,0 +1,16 @@
+{
+	"config": {
+		"to_place": {
+			"entries": [
+				{
+					"data": {
+						"Name": "minecraft:air"
+					},
+					"weight": 60
+				}
+			],
+			"type": "minecraft:weighted_state_provider"
+		}
+	},
+	"type": "minecraft:simple_block"
+}

@@ -1,0 +1,27 @@
+{
+	"feature": "tinkers_reforged:red_beryl_ore",
+	"placement": [
+		{
+			"count": 40,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 60
+				},
+				"min_inclusive": {
+					"absolute": -40
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		}
+	]
+}

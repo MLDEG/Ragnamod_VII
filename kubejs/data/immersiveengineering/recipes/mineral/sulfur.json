@@ -1,0 +1,38 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.70,
+            "output": {
+                "item": "thermal:sulfur_ore"
+            }
+        },
+        {
+            "chance": 0.30,
+            "output": {
+                "item": "thermal:niter_ore"
+            }
+        }
+    ],
+    "spoils": [
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "minecraft:gravel"
+            }
+        },
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:cobblestone"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 1,
+    "fail_chance": 0.15
+}

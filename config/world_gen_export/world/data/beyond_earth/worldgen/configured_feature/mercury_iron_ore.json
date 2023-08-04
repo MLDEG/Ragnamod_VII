@@ -1,0 +1,18 @@
+{
+	"config": {
+		"discard_chance_on_air_exposure": 0.0,
+		"size": 8,
+		"targets": [
+			{
+				"state": {
+					"Name": "beyond_earth:mercury_iron_ore"
+				},
+				"target": {
+					"predicate_type": "minecraft:tag_match",
+					"tag": "beyond_earth:mercury_ore_replaceables"
+				}
+			}
+		]
+	},
+	"type": "minecraft:ore"
+}

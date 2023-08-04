@@ -1,0 +1,11 @@
+{
+	"config": {
+		"accent_block": {
+			"Name": "blue_skies:rimestone"
+		},
+		"main_block": {
+			"Name": "blue_skies:turquoise_stone"
+		}
+	},
+	"type": "blue_skies:cave_wall"
+}

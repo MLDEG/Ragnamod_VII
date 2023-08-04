@@ -1,0 +1,62 @@
+{
+	"config": {
+		"decorators": [],
+		"dirt_provider": {
+			"state": {
+				"Name": "minecraft:dirt"
+			},
+			"type": "minecraft:simple_state_provider"
+		},
+		"foliage_placer": {
+			"offset": {
+				"type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 0,
+					"min_inclusive": 0
+				}
+			},
+			"radius": {
+				"type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 2,
+					"min_inclusive": 2
+				}
+			},
+			"type": "mythicbotany:random_foliage"
+		},
+		"foliage_provider": {
+			"state": {
+				"Name": "mythicbotany:dreamwood_leaves",
+				"Properties": {
+					"distance": "7",
+					"persistent": "true"
+				}
+			},
+			"type": "minecraft:simple_state_provider"
+		},
+		"force_dirt": false,
+		"ignore_vines": true,
+		"minimum_size": {
+			"limit": 1,
+			"lower_size": 0,
+			"type": "minecraft:two_layers_feature_size",
+			"upper_size": 1
+		},
+		"trunk_placer": {
+			"base_height": 7,
+			"height_rand_a": 4,
+			"height_rand_b": 0,
+			"type": "mythicbotany:shattered_trunk"
+		},
+		"trunk_provider": {
+			"state": {
+				"Name": "botania:dreamwood",
+				"Properties": {
+					"axis": "y"
+				}
+			},
+			"type": "minecraft:simple_state_provider"
+		}
+	},
+	"type": "minecraft:tree"
+}

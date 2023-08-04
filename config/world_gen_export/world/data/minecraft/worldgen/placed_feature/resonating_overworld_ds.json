@@ -1,0 +1,44 @@
+{
+	"feature": {
+		"config": {
+			"discard_chance_on_air_exposure": 0.0,
+			"size": 4,
+			"targets": [
+				{
+					"state": {
+						"Name": "deepresonance:resonating_ore_deepslate"
+					},
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "minecraft:deepslate_ore_replaceables"
+					}
+				}
+			]
+		},
+		"type": "minecraft:ore"
+	},
+	"placement": [
+		{
+			"count": 7,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 32
+				},
+				"min_inclusive": {
+					"absolute": -60
+				},
+				"type": "minecraft:uniform"
+			},
+			"type": "minecraft:height_range"
+		}
+	]
+}

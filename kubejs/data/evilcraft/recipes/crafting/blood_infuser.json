@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CIC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "beyond_earth:moon_stone"
+    },
+    "I": {
+      "item": "evilcraft:blood_infusion_core"
+    }
+  },
+  "result": {
+    "item": "evilcraft:blood_infuser"
+  }
+}

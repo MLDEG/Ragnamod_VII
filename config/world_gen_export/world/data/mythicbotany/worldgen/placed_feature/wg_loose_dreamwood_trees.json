@@ -1,0 +1,44 @@
+{
+	"feature": "mythicbotany:wg_dreamwood_trees",
+	"placement": [
+		{
+			"chance": 10,
+			"type": "minecraft:rarity_filter"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"max_water_depth": 0,
+			"type": "minecraft:surface_water_depth_filter"
+		},
+		{
+			"heightmap": "OCEAN_FLOOR",
+			"type": "minecraft:heightmap"
+		},
+		{
+			"predicate": {
+				"predicates": [
+					{
+						"state": {
+							"Name": "minecraft:oak_sapling",
+							"Properties": {
+								"stage": "0"
+							}
+						},
+						"type": "minecraft:would_survive"
+					},
+					{
+						"fluids": "minecraft:empty",
+						"type": "minecraft:matching_fluids"
+					}
+				],
+				"type": "minecraft:all_of"
+			},
+			"type": "minecraft:block_predicate_filter"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

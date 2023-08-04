@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "avaritia:item/singularity_layer_0",
+    "layer1": "avaritia:item/singularity_layer_1",
+    "halo": "avaritia:item/halo"
+  },
+  "loader": "avaritia:halo",
+  "halo": {
+    "texture": "#halo",
+    "color": -16777216,
+    "size": 4,
+    "pulse": false
+  },
+  "layerColors": [
+    14164031,
+    15493183
+  ]
+}

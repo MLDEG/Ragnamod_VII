@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:turtle",
+    "name": "entity.minecraft.turtle",
+    "name_color": "0x46bd49",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+        "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.turtle",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:seagrass",
+            "count": 32
+        },
+        {
+            "item": "minecraft:turtle_egg",
+            "count": 2
+        },
+        {
+            "item": "minecraft:scute",
+            "count": 1
+        }
+    ]
+}

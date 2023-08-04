@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:diamond_dust"
+    }
+  ],
+  "processingTime": 300,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/diamond",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

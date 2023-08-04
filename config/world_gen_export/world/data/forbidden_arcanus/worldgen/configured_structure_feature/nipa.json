@@ -1,0 +1,8 @@
+{
+	"biomes": "#forbidden_arcanus:has_structure/nipa",
+	"config": {
+		"floating_probability": 0.3
+	},
+	"spawn_overrides": { },
+	"type": "forbidden_arcanus:nipa"
+}

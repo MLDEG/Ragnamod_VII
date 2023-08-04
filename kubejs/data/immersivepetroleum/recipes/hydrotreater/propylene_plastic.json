@@ -1,0 +1,23 @@
+{
+  "type": "immersivepetroleum:hydrotreater",
+  "time": 60,
+  "energy": 61440,
+  "result": {
+    "fluid": "pneumaticcraft:plastic",
+    "amount": 2000
+  },
+  "conditions": [
+    {
+      "modid": "pneumaticcraft",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "tag": "forge:propylene",
+    "amount": 100
+  },
+  "secondary_result": {
+    "item": "thermal:bitumen",
+    "chance": "0.1"
+  }
+}

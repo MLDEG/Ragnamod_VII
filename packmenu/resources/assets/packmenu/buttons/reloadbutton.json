@@ -1,0 +1,15 @@
+{
+	"x": 104,
+	"y": 84,
+	"width": 20,
+	"height": 20,
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 20,
+	"texHeight": 40,
+	"langKey": "packmenu.reload_button",
+	"texture": "ragnamod:textures/gui/reload.png",
+	"action": "RELOAD"
+}

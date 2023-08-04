@@ -1,0 +1,22 @@
+{
+	"adapt_noise": true,
+	"biomes": "#structory:has_structure/jungle_well",
+	"config": {
+		"size": 3,
+		"start_pool": "structory:decoration/jungle_well"
+	},
+	"spawn_overrides": {
+		"monster": {
+			"bounding_box": "piece",
+			"spawns": [
+				{
+					"maxCount": 4,
+					"minCount": 4,
+					"type": "minecraft:creeper",
+					"weight": 10
+				}
+			]
+		}
+	},
+	"type": "minecraft:village"
+}

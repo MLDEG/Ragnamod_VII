@@ -1,0 +1,18 @@
+{
+	"config": {
+		"default": {
+			"feature": "blue_skies:starlit_tree",
+			"placement": []
+		},
+		"features": [
+			{
+				"chance": 0.2,
+				"feature": {
+					"feature": "blue_skies:small_starlit_tree",
+					"placement": []
+				}
+			}
+		]
+	},
+	"type": "minecraft:random_selector"
+}

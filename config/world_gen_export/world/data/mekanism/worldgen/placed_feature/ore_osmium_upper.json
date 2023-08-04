@@ -1,0 +1,39 @@
+{
+	"feature": "mekanism:ore_osmium_upper",
+	"placement": [
+		{
+			"oreVeinType": {
+				"index": 0,
+				"type": "osmium"
+			},
+			"retroGen": false,
+			"type": "mekanism:disableable"
+		},
+		{
+			"count": {
+				"oreVeinType": {
+					"index": 0,
+					"type": "osmium"
+				},
+				"type": "mekanism:configurable_constant"
+			},
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"oreVeinType": {
+					"index": 0,
+					"type": "osmium"
+				},
+				"type": "mekanism:configurable"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

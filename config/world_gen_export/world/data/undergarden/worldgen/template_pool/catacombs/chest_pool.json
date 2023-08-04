@@ -1,0 +1,69 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:empty",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "undergarden:catacombs/chest",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "undergarden:catacombs/chest_nargoyle",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "undergarden:catacombs/chest_rotling",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "undergarden:catacombs/chest_rotwalker",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "undergarden:catacombs/rotling",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "undergarden:catacombs/rotwalker",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "undergarden:catacombs/chest_pool"
+}

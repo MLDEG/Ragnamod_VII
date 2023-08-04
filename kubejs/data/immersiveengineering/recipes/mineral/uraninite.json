@@ -1,0 +1,56 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "mekanism:uranium_ore"
+            }
+        },
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "thermal:lead_ore"
+            }
+        },
+        {
+            "chance": 0.1,
+            "output": {
+                "item": "powah:uraninite_ore_dense"
+            }
+        },
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "powah:uraninite_ore"
+            }
+        },
+        {
+            "chance": 0.3,
+            "output": {
+                "item": "powah:uraninite_ore_poor"
+            }
+        }
+    ],
+    "spoils": [
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "minecraft:gravel"
+            }
+        },
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:cobblestone"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 1,
+    "fail_chance": 0.15
+}

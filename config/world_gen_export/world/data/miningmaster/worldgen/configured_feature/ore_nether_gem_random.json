@@ -1,0 +1,9 @@
+{
+	"config": {
+		"target": {
+			"block": "minecraft:netherrack",
+			"predicate_type": "minecraft:block_match"
+		}
+	},
+	"type": "miningmaster:random_nether_gem_ore_feature"
+}

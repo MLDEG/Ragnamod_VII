@@ -1,0 +1,174 @@
+
+[processor]
+
+	###################################################################################
+	# This section lets you configure the various values of the mod processors.       #
+	# If there is an option mentioning 'upgrades', AE2 Acceleration Cards are meant.  #
+	###################################################################################
+	[processor.aggregator]
+		# The maximum number of upgrades the aggregator can hold.
+		# By default, upgrades will speed up the processor and increase the energy buffer at the cost of a higher energy consumption.
+		#Range: 0 ~ 64
+		upgrade_slots = 8
+		# The amount of energy the aggregator can hold.
+		# The energy buffer is used to store energy before it is used.
+		#Range: > 0
+		energy_buffer_base = 100000
+		# The additional amount of energy the aggregator can hold per upgrade.
+		# Each upgrade increases the energy buffer by this amount.
+		# Setting this to 0 will disable the energy buffer upgrade.
+		# Calculation: energyBuffer = baseEnergyBuffer + (installedUpgrades * energyBufferAdd)
+		#Range: > 0
+		energy_buffer_add = 50000
+		# The base amount of energy the aggregator uses per tick.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify an energy usage.
+		# All recipes from the mod itself have an own energy usage value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		energy_usage_base = 300
+		# The energy usage multiplier the aggregator uses per tick per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will decrease the energy consumption, higher values will increase it.
+		energy_usage_multi = [1.1, 1.25, 1.5, 2.0, 3.1, 4.5, 6.1, 8.0]
+		# The base processing time the aggregator needs for a recipe.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify a processing time.
+		# All recipes from the mod itself have an own processing time value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		process_time_base = 200
+		# The processing time multiplier the aggregator uses per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will increase the processing speed, higher values will decrease it.
+		process_time_multi = [0.94, 0.8, 0.64, 0.5, 0.33, 0.16, 0.09, 0.05]
+
+	[processor.grinder]
+		# The maximum number of upgrades the grinder can hold.
+		# By default, upgrades will speed up the processor and increase the energy buffer at the cost of a higher energy consumption.
+		#Range: 0 ~ 64
+		upgrade_slots = 8
+		# The amount of energy the grinder can hold.
+		# The energy buffer is used to store energy before it is used.
+		#Range: > 0
+		energy_buffer_base = 100000
+		# The additional amount of energy the grinder can hold per upgrade.
+		# Each upgrade increases the energy buffer by this amount.
+		# Setting this to 0 will disable the energy buffer upgrade.
+		# Calculation: energyBuffer = baseEnergyBuffer + (installedUpgrades * energyBufferAdd)
+		#Range: > 0
+		energy_buffer_add = 50000
+		# The base amount of energy the grinder uses per tick.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify an energy usage.
+		# All recipes from the mod itself have an own energy usage value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		energy_usage_base = 300
+		# The energy usage multiplier the grinder uses per tick per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will decrease the energy consumption, higher values will increase it.
+		energy_usage_multi = [1.1, 1.25, 1.5, 2.0, 3.1, 4.5, 6.1, 8.0]
+		# The base processing time the grinder needs for a recipe.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify a processing time.
+		# All recipes from the mod itself have an own processing time value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		process_time_base = 200
+		# The processing time multiplier the grinder uses per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will increase the processing speed, higher values will decrease it.
+		process_time_multi = [0.94, 0.8, 0.64, 0.5, 0.33, 0.16, 0.09, 0.05]
+
+	[processor.infuser]
+		# The maximum number of upgrades the infuser can hold.
+		# By default, upgrades will speed up the processor and increase the energy buffer at the cost of a higher energy consumption.
+		#Range: 0 ~ 64
+		upgrade_slots = 8
+		# The amount of energy the infuser can hold.
+		# The energy buffer is used to store energy before it is used.
+		#Range: > 0
+		energy_buffer_base = 100000
+		# The additional amount of energy the infuser can hold per upgrade.
+		# Each upgrade increases the energy buffer by this amount.
+		# Setting this to 0 will disable the energy buffer upgrade.
+		# Calculation: energyBuffer = baseEnergyBuffer + (installedUpgrades * energyBufferAdd)
+		#Range: > 0
+		energy_buffer_add = 50000
+		# The base amount of energy the infuser uses per tick.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify an energy usage.
+		# All recipes from the mod itself have an own energy usage value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		energy_usage_base = 300
+		# The energy usage multiplier the infuser uses per tick per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will decrease the energy consumption, higher values will increase it.
+		energy_usage_multi = [1.1, 1.25, 1.5, 2.0, 3.1, 4.5, 6.1, 8.0]
+		# The base processing time the infuser needs for a recipe.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify a processing time.
+		# All recipes from the mod itself have an own processing time value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		process_time_base = 200
+		# The processing time multiplier the infuser uses per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will increase the processing speed, higher values will decrease it.
+		process_time_multi = [0.94, 0.8, 0.64, 0.5, 0.33, 0.16, 0.09, 0.05]
+
+	[processor.etcher]
+		# The maximum number of upgrades the etcher can hold.
+		# By default, upgrades will speed up the processor and increase the energy buffer at the cost of a higher energy consumption.
+		#Range: 0 ~ 64
+		upgrade_slots = 8
+		# The amount of energy the etcher can hold.
+		# The energy buffer is used to store energy before it is used.
+		#Range: > 0
+		energy_buffer_base = 100000
+		# The additional amount of energy the etcher can hold per upgrade.
+		# Each upgrade increases the energy buffer by this amount.
+		# Setting this to 0 will disable the energy buffer upgrade.
+		# Calculation: energyBuffer = baseEnergyBuffer + (installedUpgrades * energyBufferAdd)
+		#Range: > 0
+		energy_buffer_add = 50000
+		# The base amount of energy the etcher uses per tick.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify an energy usage.
+		# All recipes from the mod itself have an own energy usage value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		energy_usage_base = 300
+		# The energy usage multiplier the etcher uses per tick per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will decrease the energy consumption, higher values will increase it.
+		energy_usage_multi = [1.1, 1.25, 1.5, 2.0, 3.1, 4.5, 6.1, 8.0]
+		# The base processing time the etcher needs for a recipe.
+		# Each recipe can overwrite this value. This is just a fallback value if a recipe does not specify a processing time.
+		# All recipes from the mod itself have an own processing time value and this setting won't have any effect on them.
+		# This is only useful for custom recipes e.g. for modpack makers.
+		#Range: > 0
+		process_time_base = 200
+		# The processing time multiplier the etcher uses per upgrade.
+		# The list index corresponds to the amount of upgrades installed.
+		# The amount of elements in this list has to be equal to the maximum amount of upgrades.
+		# Lower values than 1 will increase the processing speed, higher values will decrease it.
+		process_time_multi = [0.94, 0.8, 0.64, 0.5, 0.33, 0.16, 0.09, 0.05]
+
+[requester]
+	# The energy the requester drains from the ME network when idle.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	idle_energy = 5.0
+	# Whether the requester requires an ME network channel to function.
+	require_channel = true
+
+[misc]
+	# Whether the Resonating Dust should be craft-able in the world.
+	inworld_resonating = false
+	# Whether the Universal Press should have a custom JEI info panel which explains that it's only craftable and can't be found in meteorites.
+	press_desc = true
+	# Whether the Singularity should have a custom JEI info panel which explains that it's easily obtainable by pumping water into a Matter Condenser.
+	singularity_desc = true
+

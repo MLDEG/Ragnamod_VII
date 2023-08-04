@@ -1,0 +1,30 @@
+{
+	"config": {
+		"half_height": 1,
+		"radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"max_inclusive": 8,
+				"min_inclusive": 4
+			}
+		},
+		"state": {
+			"Name": "twilightforest:uberous_soil"
+		},
+		"targets": [
+			{
+				"Name": "minecraft:podzol",
+				"Properties": {
+					"snowy": "false"
+				}
+			},
+			{
+				"Name": "minecraft:coarse_dirt"
+			},
+			{
+				"Name": "minecraft:dirt"
+			}
+		]
+	},
+	"type": "twilightforest:mycelium_blob"
+}

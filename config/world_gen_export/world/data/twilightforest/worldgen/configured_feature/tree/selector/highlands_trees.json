@@ -1,0 +1,25 @@
+{
+	"config": {
+		"default": {
+			"feature": "twilightforest:tree/mega_spruce_tree",
+			"placement": []
+		},
+		"features": [
+			{
+				"chance": 0.25,
+				"feature": {
+					"feature": "minecraft:spruce",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.1,
+				"feature": {
+					"feature": "minecraft:pine",
+					"placement": []
+				}
+			}
+		]
+	},
+	"type": "minecraft:random_selector"
+}

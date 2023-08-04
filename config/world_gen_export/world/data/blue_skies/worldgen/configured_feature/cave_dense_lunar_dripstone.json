@@ -1,0 +1,7 @@
+{
+	"config": {
+		"dripstone": "blue_skies:lunar_dripstone",
+		"maxLength": 10
+	},
+	"type": "blue_skies:dripstone"
+}

@@ -1,0 +1,9 @@
+{
+	"feature": "create:zinc_ore",
+	"placement": [
+		{
+			"entry": "create:zinc_ore",
+			"type": "create:config_driven"
+		}
+	]
+}

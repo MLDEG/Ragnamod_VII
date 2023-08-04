@@ -1,0 +1,54 @@
+{
+  "mod_id": "mekanism",
+  "provided_stones": [],
+  "provided_ores": [
+    {
+      "block_id": [
+        "mekanism:fluorite_ore",
+        "mekanism:deepslate_fluorite_ore"
+      ],
+      "en_name": "Fluorite Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "fluorite_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "mekanism:osmium_ore",
+        "mekanism:deepslate_osmium_ore"
+      ],
+      "en_name": "Osmium Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "osmium_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    },
+    {
+      "block_id": [
+        "mekanism:uranium_ore",
+        "mekanism:deepslate_uranium_ore"
+      ],
+      "en_name": "Uranium Ore",
+      "types": [
+        "nether",
+        "end"
+      ],
+      "id": "uranium_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    }
+  ]
+}

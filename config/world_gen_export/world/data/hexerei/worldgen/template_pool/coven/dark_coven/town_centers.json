@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "hexerei:coven/dark_coven/town_centers/meeting_point_1",
+				"processors": "hexerei:coven/dark_coven/dark_coven_legs",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "hexerei:coven/dark_coven/town_centers"
+}

@@ -1,0 +1,8 @@
+{
+	"feature": "quark:deferred_feature_fluid_springs",
+	"placement": [
+		{
+			"type": "quark:chunk_corner"
+		}
+	]
+}

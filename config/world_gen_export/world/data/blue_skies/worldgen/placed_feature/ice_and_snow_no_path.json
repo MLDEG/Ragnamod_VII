@@ -1,0 +1,8 @@
+{
+	"feature": "blue_skies:ice_and_snow_no_path",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

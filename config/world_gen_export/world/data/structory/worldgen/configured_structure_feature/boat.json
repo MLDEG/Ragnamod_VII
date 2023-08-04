@@ -1,0 +1,9 @@
+{
+	"biomes": "#structory:has_structure/boat",
+	"config": {
+		"size": 3,
+		"start_pool": "structory:outcast_villager/boat/boats"
+	},
+	"spawn_overrides": { },
+	"type": "minecraft:village"
+}

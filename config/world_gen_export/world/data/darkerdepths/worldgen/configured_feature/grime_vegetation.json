@@ -1,0 +1,92 @@
+{
+	"config": {
+		"to_place": {
+			"entries": [
+				{
+					"data": {
+						"Name": "darkerdepths:glowshroom",
+						"Properties": {
+							"clusters": "1",
+							"waterlogged": "false"
+						}
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"Name": "darkerdepths:glowshroom",
+						"Properties": {
+							"clusters": "2",
+							"waterlogged": "false"
+						}
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"Name": "darkerdepths:glowshroom",
+						"Properties": {
+							"clusters": "3",
+							"waterlogged": "false"
+						}
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"Name": "darkerdepths:glowspurs",
+						"Properties": {
+							"facing": "north",
+							"powered": "false"
+						}
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"Name": "darkerdepths:glowspurs",
+						"Properties": {
+							"facing": "east",
+							"powered": "false"
+						}
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"Name": "darkerdepths:glowspurs",
+						"Properties": {
+							"facing": "south",
+							"powered": "false"
+						}
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"Name": "darkerdepths:glowspurs",
+						"Properties": {
+							"facing": "west",
+							"powered": "false"
+						}
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"Name": "darkerdepths:mossy_sprouts"
+					},
+					"weight": 30
+				},
+				{
+					"data": {
+						"Name": "minecraft:air"
+					},
+					"weight": 100
+				}
+			],
+			"type": "minecraft:weighted_state_provider"
+		}
+	},
+	"type": "minecraft:simple_block"
+}

@@ -1,0 +1,24 @@
+{
+	id: "375F4C25F6B07F8C"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: " Welcome"
+	icon: "ragnamod_seven:sphere"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -3.5d
+		width: 10.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "ragnamod:textures/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [ ]
+	quest_links: [ ]
+}

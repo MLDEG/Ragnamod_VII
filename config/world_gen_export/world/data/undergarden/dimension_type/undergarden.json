@@ -1,0 +1,18 @@
+{
+	"ambient_light": 0.1,
+	"bed_works": true,
+	"coordinate_scale": 4.0,
+	"effects": "undergarden:undergarden",
+	"fixed_time": 18000,
+	"has_ceiling": true,
+	"has_raids": false,
+	"has_skylight": false,
+	"height": 256,
+	"infiniburn": "#minecraft:infiniburn_overworld",
+	"logical_height": 256,
+	"min_y": 0,
+	"natural": true,
+	"piglin_safe": true,
+	"respawn_anchor_works": false,
+	"ultrawarm": false
+}

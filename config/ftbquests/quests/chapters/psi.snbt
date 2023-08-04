@@ -1,0 +1,809 @@
+{
+	id: "67B9CFBCE02F42D2"
+	group: ""
+	order_index: 21
+	filename: "psi"
+	title: "PSI"
+	icon: {
+		id: "psi:cad"
+		Count: 1b
+		tag: {
+			componentCORE: {
+				id: "psi:cad_core_hyperclocked"
+				Count: 1b
+			}
+			componentASSEMBLY: {
+				id: "psi:cad_assembly_ebony_psimetal"
+				Count: 1b
+			}
+			componentSOCKET: {
+				id: "psi:cad_socket_transmissive"
+				Count: 1b
+			}
+			componentBATTERY: {
+				id: "psi:cad_battery_ultradense"
+				Count: 1b
+			}
+		}
+		ForgeCaps: {
+			Parent: {
+				Memory: [ ]
+				Battery: 400
+				Time: 182
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "CAD Assembly"
+			x: 1.5d
+			y: -1.0d
+			description: ["The Iron and Gold CAD Assembly are used to craft Psidusts and Psimetal Ingots."]
+			dependencies: ["0000000000000AAB"]
+			id: "0000000000000A7E"
+			tasks: [
+				{
+					id: "33070FCCC44DC62A"
+					type: "item"
+					item: "psi:cad_assembly_iron"
+				}
+				{
+					id: "7B032C702E1E06E3"
+					type: "item"
+					item: "psi:cad_assembly_gold"
+				}
+			]
+			rewards: [{
+				id: "09F3312E8664EE04"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["The Psimetal CAD Assembly is used to craft Psigems."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000A82"
+			tasks: [{
+				id: "0000000000000A83"
+				type: "item"
+				item: "psi:cad_assembly_psimetal"
+			}]
+			rewards: [{
+				id: "5FA2492B23F83D43"
+				type: "item"
+				item: "psi:psimetal_block"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: ["Craft an Invory Psimetal CAD Assembly using Ivory Psimetal Ingots."]
+			dependencies: ["0000000000000A8E"]
+			id: "0000000000000A84"
+			tasks: [{
+				id: "0000000000000A85"
+				type: "item"
+				item: "psi:cad_assembly_ivory_psimetal"
+			}]
+			rewards: [{
+				id: "67BB0302B6472979"
+				type: "item"
+				item: "psi:ivory_psimetal_block"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["Craft an Ebony Psimetal CAD Assembly using Ebony Psimetal Ingots."]
+			dependencies: ["0000000000000A90"]
+			id: "0000000000000A86"
+			tasks: [{
+				id: "0000000000000A87"
+				type: "item"
+				item: "psi:cad_assembly_ebony_psimetal"
+			}]
+			rewards: [{
+				id: "77CBE542449AEDDB"
+				type: "item"
+				item: "psi:ebony_psimetal_block"
+			}]
+		}
+		{
+			title: "Psidust"
+			x: 1.5d
+			y: 1.0d
+			description: ["To get Psidust you have to shoot Redstone Dust with your Casting Assistant Device, and to get your Casting Assistant Device simply put your Iron CAD Assembly in the CAD Assembler."]
+			dependencies: ["0000000000000A7E"]
+			id: "0000000000000A88"
+			tasks: [{
+				id: "0000000000000A89"
+				type: "item"
+				item: "psi:psidust"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6F047E2240AFD0AC"
+				type: "item"
+				item: "psi:psidust_block"
+				count: 8
+			}]
+		}
+		{
+			title: "Psimetal"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"To get Psimetal Ingots you need to put  the Trick:Infusion on a bullet and insert them in your Casting Assistant Device."
+				"For that, go to your Spell Programmer, select any square and search Trick:Infusion. Now simply right-click the Spell Programmer with a bullet and put this in your CAD Assembler."
+				"{image:kubejs:textures/ftbquests/begin/psi.png width:150 height:100 align:1}"
+			]
+			dependencies: ["0000000000000A7E"]
+			id: "0000000000000A8A"
+			tasks: [{
+				id: "0000000000000A8B"
+				type: "item"
+				item: "psi:psimetal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "264656C02BFA93E4"
+				type: "item"
+				item: "psi:psimetal_block"
+				count: 8
+			}]
+		}
+		{
+			title: "Psigem"
+			x: 3.5d
+			y: -1.0d
+			description: ["To get your Psigem, same deal than the Psimetal Ingots, but you're going to need another spell, The Greater Infusion. But be careful, this time you need another Casting Assistant Device, make one with your Psimetal Ingots."]
+			dependencies: ["0000000000000A82"]
+			id: "0000000000000A8C"
+			tasks: [{
+				id: "0000000000000A8D"
+				type: "item"
+				item: "psi:psigem"
+				count: 64L
+			}]
+			rewards: [{
+				id: "49A25E9A1EEB5EF1"
+				type: "item"
+				item: "psi:psigem_block"
+				count: 8
+			}]
+		}
+		{
+			title: "Ivory Psimetal Ingot"
+			x: 1.5d
+			y: -3.0d
+			description: ["The Ivory Psimetal Ingot is made with Ivory substance, those are made with another spell, Trick: Ebony and Ivory, performed in the End dimension."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000A8E"
+			tasks: [{
+				id: "0000000000000A8F"
+				type: "item"
+				item: "psi:ivory_psimetal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4DFBA5D99544741E"
+				type: "item"
+				item: "psi:ivory_psimetal_block"
+				count: 8
+			}]
+		}
+		{
+			title: "Ebony Psimetal Ingot"
+			x: 1.5d
+			y: -2.0d
+			description: ["The Ebony Psimetal Ingot is made with Ebony substance, those are made with another spell, Trick: Ebony and Ivory, performed in the End dimension."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000A90"
+			tasks: [{
+				id: "0000000000000A91"
+				type: "item"
+				item: "psi:ebony_psimetal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "23F94D9B245DDE16"
+				type: "item"
+				item: "psi:ebony_psimetal_block"
+				count: 8
+			}]
+		}
+		{
+			title: "Psimetal Exosuit"
+			x: 3.0d
+			y: 0.0d
+			description: ["Craft a Psimetal Exosuit."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000A92"
+			tasks: [
+				{
+					id: "0000000000000A93"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000A94"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "0000000000000A95"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000A96"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "222E13636B96BB24"
+					type: "item"
+					item: "psi:lit_black_psimetal_plate"
+					count: 32
+				}
+				{
+					id: "44627CDCCCFFCA41"
+					type: "item"
+					item: "psi:lit_white_psimetal_plate"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["The Basic CAD Socket can hold up to four Spell Bullets at a time, and can transfer Spells up to 5x5 in size."]
+			dependencies: ["0000000000000A88"]
+			id: "0000000000000A97"
+			tasks: [{
+				id: "0000000000000A98"
+				type: "item"
+				item: "psi:cad_socket_basic"
+			}]
+			rewards: [{
+				id: "4D8750F20339C5BC"
+				type: "item"
+				item: "psi:cad_socket_basic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["The Signaling CAD Socket can hold up to six Spell Bullets at a time, and can transfer Spells up to 7x7 in size."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000A99"
+			tasks: [{
+				id: "0000000000000A9A"
+				type: "item"
+				item: "psi:cad_socket_signaling"
+			}]
+			rewards: [{
+				id: "079F74CEE4AEB28D"
+				type: "item"
+				item: "psi:cad_socket_signaling"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["The Large CAD Socket can hold up to eight Spell Bullets at a time, and can transfer Spells up to 6x6 in size."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000A9B"
+			tasks: [{
+				id: "0000000000000A9C"
+				type: "item"
+				item: "psi:cad_socket_large"
+			}]
+			rewards: [{
+				id: "426E5ECD7F97C80A"
+				type: "item"
+				item: "psi:cad_socket_large"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["The Transmissive CAD Socket can hold up to ten Spells Bullets at a time, and can transfer Spells up to 9x9 in size."]
+			dependencies: ["0000000000000A8C"]
+			id: "0000000000000A9D"
+			tasks: [{
+				id: "0000000000000A9E"
+				type: "item"
+				item: "psi:cad_socket_transmissive"
+			}]
+			rewards: [{
+				id: "595FEF5F1ACA0244"
+				type: "item"
+				item: "psi:cad_socket_transmissive"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["The Huge CAD Socket can hold up to twelve Spells Bullets at a time, and can transfer Spells up to 8x8 in size."]
+			dependencies: ["0000000000000A8C"]
+			id: "0000000000000A9F"
+			tasks: [{
+				id: "0000000000000AA0"
+				type: "item"
+				item: "psi:cad_socket_huge"
+			}]
+			rewards: [{
+				id: "3F2A08EE0D35A31F"
+				type: "item"
+				item: "psi:cad_socket_huge"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: [
+				"The Basic CAD Core is often the first CAD Core a mage crafts."
+				""
+				"It's not fantastic, but it's quite sufficient for a beginner's needs."
+			]
+			dependencies: ["0000000000000A88"]
+			id: "0000000000000AA1"
+			tasks: [{
+				id: "0000000000000AA2"
+				type: "item"
+				item: "psi:cad_core_basic"
+			}]
+			rewards: [{
+				id: "5E276D4F8EDA94B7"
+				type: "item"
+				item: "psi:cad_core_basic"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["The Overclocked CAD Core has twice the complexity of its Basic predecessor, and thrice the projection."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000AA3"
+			tasks: [{
+				id: "0000000000000AA4"
+				type: "item"
+				item: "psi:cad_core_overclocked"
+			}]
+			rewards: [{
+				id: "7B3DE9DF538E08F1"
+				type: "item"
+				item: "psi:cad_core_overclocked"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["The Conductive CAD Core has less complexity than the Overclocked once but can handle four tricks at once."]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000AA5"
+			tasks: [{
+				id: "0000000000000AA6"
+				type: "item"
+				item: "psi:cad_core_conductive"
+			}]
+			rewards: [{
+				id: "6288591B618EAF2F"
+				type: "item"
+				item: "psi:cad_core_conductive"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: ["The Hyperclocked CAD Core has double the complexity of a Conductive Core and double the projection of an Overclocked one."]
+			dependencies: ["0000000000000A8C"]
+			id: "0000000000000AA7"
+			tasks: [{
+				id: "0000000000000AA8"
+				type: "item"
+				item: "psi:cad_core_hyperclocked"
+			}]
+			rewards: [{
+				id: "0C7EAAD07B366296"
+				type: "item"
+				item: "psi:cad_core_hyperclocked"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["The Radiative CAD Core has lesse projection than the Hyperclocked one, but has the capability to execute a staggering seven tricks per cast."]
+			dependencies: ["0000000000000A8C"]
+			id: "0000000000000AA9"
+			tasks: [{
+				id: "0000000000000AAA"
+				type: "item"
+				item: "psi:cad_core_radiative"
+			}]
+			rewards: [{
+				id: "02E6C87B6FB49A96"
+				type: "item"
+				item: "psi:cad_core_radiative"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["The CAD Assembler is used to assembles a CAD from its component parts, and it loads non-empty Spell Bullets into CADs."]
+			size: 2.0d
+			id: "0000000000000AAB"
+			tasks: [{
+				id: "0000000000000AAC"
+				type: "item"
+				item: "psi:cad_assembler"
+			}]
+			rewards: [{
+				id: "3E2C1EF2A1BAA281"
+				type: "item"
+				item: "kubejs:tungsten_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["The Spell Programmer is used to write and compile spells, and copied into Spell Bullets to be cast."]
+			size: 2.0d
+			id: "0000000000000AAD"
+			tasks: [{
+				id: "0000000000000AAE"
+				type: "item"
+				item: "psi:programmer"
+			}]
+			rewards: [{
+				id: "6316DE5EBCEA8216"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_2000"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			description: ["The Spell Drive can store a single Spell for later use."]
+			dependencies: ["0000000000000A8C"]
+			id: "0000000000000AAF"
+			tasks: [{
+				id: "0000000000000AB0"
+				type: "item"
+				item: {
+					id: "psi:spell_drive"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0E90FB8DBD7BB0A9"
+				type: "item"
+				item: {
+					id: "psi:spell_drive"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			description: [
+				"A CAD Battery is an optional attachment to a CAD, allowing it to indefinitely store a small amount of its user's Psi energy."
+				""
+				"A Battery discharges after its user's main supply of PSI energy runs out, but before the CAD taps into its user's health."
+				""
+				"The Basic CAD Battery has an overflow of 100."
+			]
+			dependencies: ["0000000000000A88"]
+			id: "0000000000000AB1"
+			tasks: [{
+				id: "0000000000000AB2"
+				type: "item"
+				item: "psi:cad_battery_basic"
+			}]
+			rewards: [{
+				id: "75BEF5EDBD9FD530"
+				type: "item"
+				item: "psi:cad_battery_basic"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			description: [
+				"A CAD Battery is an optional attachment to a CAD, allowing it to indefinitely store a small amount of its user's Psi energy."
+				""
+				"A Battery discharges after its user's main supply of PSI energy runs out, but before the CAD taps into its user's health."
+				""
+				"The Extended CAD Battery has an overflow of 200."
+			]
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000AB3"
+			tasks: [{
+				id: "0000000000000AB4"
+				type: "item"
+				item: "psi:cad_battery_extended"
+			}]
+			rewards: [{
+				id: "6830BC4116586EFF"
+				type: "item"
+				item: "psi:cad_battery_extended"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			description: [
+				"A CAD Battery is an optional attachment to a CAD, allowing it to indefinitely store a small amount of its user's Psi energy."
+				""
+				"A Battery discharges after its user's main supply of PSI energy runs out, but before the CAD taps into its user's health."
+				""
+				"The Ultradense CAD Battery has an overflow of 400."
+			]
+			dependencies: ["0000000000000A8C"]
+			id: "0000000000000AB5"
+			tasks: [{
+				id: "0000000000000AB6"
+				type: "item"
+				item: "psi:cad_battery_ultradense"
+			}]
+			rewards: [{
+				id: "1E6C0C4B2B2ECF0A"
+				type: "item"
+				item: "psi:cad_battery_ultradense"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: [
+				"The simplest type of Spell Bullet."
+				""
+				"When a Spell stored in it is cast, it executes right away."
+				"The Focal Point for this type of Bullet is just the caster."
+				"Its cost of casting is exactly what the Spell Programmer says it is."
+			]
+			dependencies: ["0000000000000AAD"]
+			id: "0000000000000AB7"
+			tasks: [{
+				id: "0000000000000AB8"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "06F3A6BB8BB198C8"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: [
+				"A Spell cast from a Projectile Spell Bullet doesn't execute immediately."
+				""
+				"Instead, a fast-moving Spell Projectile containing it's fired out the end of the CAD from which it's cast."
+				""
+				"This projectile acts as the Focal Point for its Spell, executing it when the projectile collides with something."
+			]
+			dependencies: ["0000000000000AAD"]
+			id: "0000000000000AB9"
+			tasks: [{
+				id: "0000000000000ABA"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_projectile"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4B0D9B00023ED81A"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_projectile"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			description: [
+				"A Spell cast from a Loopcast Spell Bullet is executed as if from a plain Spell Bullet."
+				""
+				"Repeatedly."
+				""
+				"A Spell cast from one of these Bullets is executed over and over nonstop, four times a second, until the CAD it was cast from stops being held in the same hand, or a different Spell is selected."
+			]
+			dependencies: ["0000000000000AAD"]
+			id: "0000000000000ABB"
+			tasks: [{
+				id: "0000000000000ABC"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_loop"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3AA397D0B9F987E0"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_loop"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			description: [
+				"A Spell cast from a Circle Spell Bullet is executed consecutively exactly twenty times."
+				""
+				"When the Spell is first cast, a Spell Circle is conjured at the point the caster is looking at, which acts as the Focal Point for the Spell."
+				"This circle executes the Spell four times a second until it runs out of Psi energy, five seconds later."
+			]
+			dependencies: ["0000000000000AAD"]
+			id: "0000000000000ABD"
+			tasks: [{
+				id: "0000000000000ABE"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_circle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4A2AF47C0060C1FA"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_circle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: [
+				"A Spell cast from a Grenade Spell Bullet, instead of executing immediately, is fired out the end of the CAD it was cast in a Spell Grenade."
+				""
+				"Unlike a Spell Projectile, though, a grenade is affected by gravity."
+				""
+				"It executes its contained Spell after exactly three seconds, no sooner and no later."
+			]
+			dependencies: ["0000000000000AAD"]
+			id: "0000000000000ABF"
+			tasks: [{
+				id: "0000000000000AC0"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_grenade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6075A337DF7302C3"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_grenade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			description: [
+				"A Spell cast from a Mine Spell Bullet is fired out of the CAS it was cast in a Spell Mine."
+				""
+				"A Spell Min obeys gravity and has a five-minute lifespan, and only executes its stored Spell once stepped on by someone (or something)."
+			]
+			dependencies: ["0000000000000AAD"]
+			id: "0000000000000AC1"
+			tasks: [{
+				id: "0000000000000AC2"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_mine"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "67CE4EE28CD00BD7"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_mine"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: [
+				"A Spell cast from a Charge Spell Bullet, rather than executing immediately, is fired out the end of the CAD it's cast from in a Spell Charge, which obeys gravity just like a Spell Grenade."
+				""
+				"However, unlike a Spell Grenade, a Spell Charge can last up to five minutes, and only executes its Spell when specially told to do so by a Spell Detonator."
+			]
+			dependencies: ["0000000000000AAD"]
+			id: "0000000000000AC3"
+			tasks: [{
+				id: "0000000000000AC4"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_charge"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "293B36B822D5ED6A"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_charge"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

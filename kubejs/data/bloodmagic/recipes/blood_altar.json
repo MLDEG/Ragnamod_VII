@@ -1,0 +1,14 @@
+{
+  "type": "evilcraft:blood_infuser",
+  "item": "botania:runic_altar",
+  "fluid": {
+    "fluid": "evilcraft:blood",
+    "amount": 100000
+  },
+  "result": {
+    "item": "bloodmagic:altar"
+  },
+  "duration": 500,
+  "xp": 0.3,
+  "tier": 2
+}

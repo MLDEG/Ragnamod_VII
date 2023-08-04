@@ -1,0 +1,84 @@
+{
+    "oreConfig": [
+        {
+            "ore": "ftbic:aluminum_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ftbic:lead_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ftbic:tin_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ftbic:uranium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ftbic:deepslate_uranium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ftbic:deepslate_tin_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ftbic:deepslate_lead_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ftbic:deepslate_aluminum_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        }
+    ]
+}

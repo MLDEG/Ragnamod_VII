@@ -1,0 +1,39 @@
+{
+  "inputs": [
+    {
+      "item": "reliquary:phoenix_down",
+      "slot": 0
+    },
+    {
+      "item": "twilightforest:borer_essence",
+      "slot": 1
+    },
+    {
+      "item": "create_sa:heap_of_experience",
+      "slot": 2
+    },
+    {
+      "item": "gemsnjewels:spinel",
+      "slot": 3
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence",
+      "slot": 4
+    },
+    {
+      "item": "botania:spark",
+      "slot": 5
+    }
+  ],
+  "hephaestus_forge_item": "chickens:chicken_skin",
+  "essences": {
+    "aureal": 200,
+    "experience": 200,
+    "blood": 0,
+    "souls": 1
+  },
+  "result": {
+    "item": "chickens:chicken_shell",
+    "count": 1
+  }
+}

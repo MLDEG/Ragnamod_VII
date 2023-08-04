@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "tag",
+    "tag": "blue_skies:stone"
+  },
+  "output": {
+    "name": "botania:livingrock"
+  }
+}

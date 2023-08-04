@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": { "item": "mekanism:metallurgic_infuser" },
+  "pattern": ["I#I", "ROR", "I#I"],
+  "key": {
+    "I": { "tag": "forge:ingots/iron" },
+    "O": { "item": "mekanism:steel_casing" },
+    "R": { "tag": "forge:dusts/redstone" },
+    "#": { "item": "minecraft:furnace" }
+  }
+}

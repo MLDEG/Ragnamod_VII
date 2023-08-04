@@ -1,0 +1,27 @@
+{
+	"feature": "minecraft:silver_ore_deepslate",
+	"placement": [
+		{
+			"count": 3,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 200
+				},
+				"min_inclusive": {
+					"absolute": -64
+				},
+				"type": "minecraft:trapezoid"
+			},
+			"type": "minecraft:height_range"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

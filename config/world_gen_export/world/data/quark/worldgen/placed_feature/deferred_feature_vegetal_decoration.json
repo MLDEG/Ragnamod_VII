@@ -1,0 +1,8 @@
+{
+	"feature": "quark:deferred_feature_vegetal_decoration",
+	"placement": [
+		{
+			"type": "quark:chunk_corner"
+		}
+	]
+}

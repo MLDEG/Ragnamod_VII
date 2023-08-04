@@ -1,0 +1,8 @@
+{
+	"biomes": "#minecraft:has_structure/ruined_portal_nether",
+	"config": {
+		"portal_type": "nether"
+	},
+	"spawn_overrides": { },
+	"type": "minecraft:ruined_portal"
+}

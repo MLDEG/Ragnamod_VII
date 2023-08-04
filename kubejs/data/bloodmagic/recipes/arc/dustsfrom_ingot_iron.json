@@ -1,0 +1,15 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "tag": "forge:ingots/iron"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/explosive"
+  },
+  "output": {
+    "item": "thermal:iron_dust"
+  },
+  "consumeingredient": false,
+  "mainoutputchance": 0.0
+}

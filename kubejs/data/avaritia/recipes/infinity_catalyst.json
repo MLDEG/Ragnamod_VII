@@ -1,0 +1,43 @@
+{
+  "type": "avaritia:extreme_shaped",
+  "result": {
+    "item": "avaritia:infinity_catalyst"
+  },
+  "pattern": [
+    "         ",
+    " a  b  c ",
+    "  d e f  ",
+    "   ghi   ",
+    " jklmlno ",
+    "   pqr   ",
+    "  s t u  ",
+    " v  w  x ",
+    "         "
+  ],
+  "key": {
+    "a": { "item": "ragnamod_seven:blood_magic" },
+    "b": { "item": "ragnamod_seven:create" },
+    "c": { "item": "ragnamod_seven:ftbic" },
+    "d": { "item": "ragnamod_seven:blue_skies" },
+    "e": { "item": "ragnamod_seven:evil_craft" },
+    "f": { "item": "ragnamod_seven:industrial" },
+    "g": { "item": "ragnamod_seven:botania" },
+    "h": { "item": "ragnamod_seven:forbidden" },
+    "i": { "item": "ragnamod_seven:magic" },
+    "j": { "item": "ragnamod_seven:mobs" },
+    "k": { "item": "ragnamod_seven:meka" },
+    "l": { "item": "avaritia:infinity_ingot" },
+    "m": { "item": "avaritia:infinity_block" },
+    "n": { "item": "ragnamod_seven:pneumaticcraft" },
+    "o": { "item": "ragnamod_seven:powah" },
+    "p": { "item": "ragnamod_seven:psi" },
+    "q": { "item": "ragnamod_seven:special_bricks" },
+    "r": { "item": "ragnamod_seven:twilight" },
+    "s": { "item": "ragnamod_seven:raw_materials" },
+    "t": { "item": "ragnamod_seven:tech" },
+    "u": { "item": "ragnamod_seven:undergarden" },
+    "v": { "item": "ragnamod_seven:space" },
+    "w": { "item": "ragnamod_seven:thermal" },
+    "x": { "item": "ragnamod_seven:vanilla" }
+  }
+}

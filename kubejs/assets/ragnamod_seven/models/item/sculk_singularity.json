@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ragnamod_seven:item/singucustom/sculk/singularity_layer_0",
+    "layer1": "ragnamod_seven:item/singucustom/sculk/singularity_layer_1",
+    "halo": "avaritia:item/halo"
+  },
+  "loader": "avaritia:halo",
+  "halo": {
+    "texture": "#halo",
+    "color": -16777216,
+    "size": 4,
+    "pulse": false
+  }
+}

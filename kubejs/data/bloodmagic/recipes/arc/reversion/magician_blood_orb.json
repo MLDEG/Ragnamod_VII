@@ -1,0 +1,15 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "item": "bloodmagic:magicianbloodorb"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/reverter"
+  },
+  "output": {
+    "item": "naturesaura:sky_ingot"
+  },
+  "consumeingredient": true,
+  "mainoutputchance": 0.0
+}

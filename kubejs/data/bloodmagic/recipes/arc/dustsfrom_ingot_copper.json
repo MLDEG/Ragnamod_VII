@@ -1,0 +1,15 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "tag": "forge:ingots/copper"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/explosive"
+  },
+  "output": {
+    "item": "thermal:copper_dust"
+  },
+  "consumeingredient": false,
+  "mainoutputchance": 0.0
+}

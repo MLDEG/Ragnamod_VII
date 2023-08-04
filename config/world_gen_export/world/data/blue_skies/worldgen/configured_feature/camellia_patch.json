@@ -1,0 +1,9 @@
+{
+	"config": {
+		"feature": "blue_skies:camellia_rpc_p",
+		"tries": 64,
+		"xz_spread": 7,
+		"y_spread": 3
+	},
+	"type": "minecraft:flower"
+}

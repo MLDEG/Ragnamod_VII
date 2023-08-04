@@ -1,0 +1,29 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "powah:charged_snowball"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "output": {
+    "item": "avaritia:crystal_matrix_ingot"
+  },
+  "syphon": 10000,
+  "ticks": 200,
+  "upgradeLevel": 5
+}

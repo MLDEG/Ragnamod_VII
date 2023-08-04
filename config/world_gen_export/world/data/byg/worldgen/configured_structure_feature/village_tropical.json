@@ -1,0 +1,10 @@
+{
+	"adapt_noise": true,
+	"biomes": "#byg:has_structure/village_tropical",
+	"config": {
+		"size": 6,
+		"start_pool": "byg:village/tropical/town_centers"
+	},
+	"spawn_overrides": { },
+	"type": "minecraft:village"
+}

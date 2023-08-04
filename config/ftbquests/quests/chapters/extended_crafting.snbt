@@ -1,0 +1,1700 @@
+{
+	id: "72541E35A3B494D6"
+	group: ""
+	order_index: 30
+	filename: "extended_crafting"
+	title: " Avaritia"
+	icon: "avaritia:infinity_catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "1ACEEE78E66C87E1"
+			tasks: [{
+				id: "3B9730ADC1B828BF"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "4BB16AAE2B3D988C"
+			tasks: [{
+				id: "1106BF8C1C2F76F8"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "60FD4D8FA17A53D7"
+			tasks: [{
+				id: "43E33A028784C1A8"
+				type: "item"
+				item: "avaritia:neutronium_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "44FA34508B9165D3"
+			tasks: [{
+				id: "23B27C9C700ED3DC"
+				type: "item"
+				item: "avaritia:ultimate_stew"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "29BC70C23160F467"
+			tasks: [{
+				id: "5DD2C1BBF691F461"
+				type: "item"
+				item: "avaritia:neutron_collector"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "7C4CE07814F3CD94"
+			tasks: [{
+				id: "0833A728A69FE364"
+				type: "item"
+				item: "avaritia:compressor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "7AC685304D600112"
+			tasks: [{
+				id: "1DEA305A4ADD6D4B"
+				type: "item"
+				item: "avaritia:crystal_matrix_ingot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			id: "0C4F359B153DD1A0"
+			tasks: [{
+				id: "0A35BF9F20D829C4"
+				type: "item"
+				item: "avaritia:extreme_crafting_table"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "62DC11B5E2D8D158"
+			tasks: [{
+				id: "318384ABAEFA1C50"
+				type: "item"
+				item: "avaritia:endest_pearl"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "7B1E28049CF2BB91"
+			tasks: [{
+				id: "55DE00D19650992E"
+				type: "item"
+				item: "avaritia:infinity_sword"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "0BC50A2F30D2979D"
+			tasks: [{
+				id: "79241B3DACB809C6"
+				type: "item"
+				item: "avaritia:infinity_axe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "0D410CE5633E3C8B"
+			tasks: [{
+				id: "18AF819E49A411EC"
+				type: "item"
+				item: "avaritia:infinity_hoe"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "1CD8FCD368167EC0"
+			tasks: [{
+				id: "6ED22CB6BE9D81D0"
+				type: "item"
+				item: "avaritia:infinity_pickaxe"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "673E7BBEA85FAE5B"
+			tasks: [{
+				id: "506F729B86B972DF"
+				type: "item"
+				item: "avaritia:infinity_shovel"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "33C6F163371F26D1"
+			tasks: [{
+				id: "6D3B174124199283"
+				type: "item"
+				item: "avaritia:infinity_bow"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "618E3E54728B3C47"
+			tasks: [
+				{
+					id: "5303E054D7018D5B"
+					type: "item"
+					item: "avaritia:infinity_helmet"
+				}
+				{
+					id: "2DB29ABE24C21F6A"
+					type: "item"
+					item: "avaritia:infinity_chestplate"
+				}
+				{
+					id: "7C61357761D51C5B"
+					type: "item"
+					item: "avaritia:infinity_legs"
+				}
+				{
+					id: "5B58AD31652234CC"
+					type: "item"
+					item: "avaritia:infinity_boots"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "2B256F142C9D22A5"
+			tasks: [{
+				id: "4AFB01E4E862C634"
+				type: "item"
+				item: "avaritia:neutron_burger"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "245BD7555BC7326F"
+			tasks: [{
+				id: "799AD6D225CC9A8F"
+				type: "item"
+				item: "avaritia:neutron_doughnut"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "3784FEC753B0C435"
+			tasks: [{
+				id: "1E00C1BE458B2FE1"
+				type: "item"
+				item: "avaritia:neutron_taco"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "6DD57BC56945AA92"
+			tasks: [{
+				id: "180F6A9E1C0D3EC0"
+				type: "item"
+				item: "avaritia:neutron_sushi"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "6162ACD7FDAA4431"
+			tasks: [{
+				id: "0FA058EA9A705031"
+				type: "item"
+				item: "avaritia:neutron_pecan_pie"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			id: "251E6A1B45026493"
+			tasks: [{
+				id: "5243AC310E12FF2E"
+				type: "item"
+				item: "ragnamod_seven:calorite_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			id: "4B56C7B377545899"
+			tasks: [{
+				id: "7ED68DA44208EE21"
+				type: "item"
+				item: "ragnamod_seven:sourcegem_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			id: "2713F06E8F8AF835"
+			tasks: [{
+				id: "0CDB303501FDA4A6"
+				type: "item"
+				item: "ragnamod_seven:wardstone_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			id: "6E444598963DA21C"
+			tasks: [{
+				id: "25DB9D5707A87F6D"
+				type: "item"
+				item: "ragnamod_seven:sunmetal_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			id: "6DE27A12BDC6CCFB"
+			tasks: [{
+				id: "563BD0E37A07388B"
+				type: "item"
+				item: "ragnamod_seven:oraclejelly_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			id: "5E60E3F6A8C20064"
+			tasks: [{
+				id: "1AB2DEE22BA3F33B"
+				type: "item"
+				item: "ragnamod_seven:netherbrass_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			id: "1749B3AF2FD75C51"
+			tasks: [{
+				id: "0EDB1FE21C57625C"
+				type: "item"
+				item: "ragnamod_seven:cerebral_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			id: "789C31E07EF91E8F"
+			tasks: [{
+				id: "2FBC16DD13B3C996"
+				type: "item"
+				item: "ragnamod_seven:algal_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			id: "59E1B3EAC3180117"
+			tasks: [{
+				id: "1B69758DD7E8702B"
+				type: "item"
+				item: "ragnamod_seven:fluix_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			id: "4DFEE7117FA2478C"
+			tasks: [{
+				id: "243E791F55EC101C"
+				type: "item"
+				item: "ragnamod_seven:hydraulicengine_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			id: "408DF0125CC4AB09"
+			tasks: [{
+				id: "0005E45C7E898C6C"
+				type: "item"
+				item: "ragnamod_seven:heatengine_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.0d
+			id: "74A3EF40E083F056"
+			tasks: [{
+				id: "586AA91BEB565A87"
+				type: "item"
+				item: "ragnamod_seven:sturdysheet_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.0d
+			id: "1535CFB3912088D7"
+			tasks: [{
+				id: "3326E46D4A911A4B"
+				type: "item"
+				item: "ragnamod_seven:zinc_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			id: "4B91CE7668FEAE30"
+			tasks: [{
+				id: "5BF64A5B7CF9B456"
+				type: "item"
+				item: "ragnamod_seven:precisionmechanism_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			id: "0B70CEDC56448D5A"
+			tasks: [{
+				id: "311054231C14993F"
+				type: "item"
+				item: "ragnamod_seven:electrontube_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.0d
+			id: "29772D0B95C39C2F"
+			tasks: [{
+				id: "71204535B4DE834C"
+				type: "item"
+				item: "ragnamod_seven:compactmachinewall_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			id: "4A04FDF9760A248F"
+			tasks: [{
+				id: "10DC210475F70CCB"
+				type: "item"
+				item: "ragnamod_seven:pendorite_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 1.0d
+			id: "55D4EB5C5C99CDC4"
+			tasks: [{
+				id: "12FABE54427C5A3E"
+				type: "item"
+				item: "ragnamod_seven:constructionpaste_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			id: "0AD430735024B6E1"
+			tasks: [{
+				id: "16D93F508A1E1925"
+				type: "item"
+				item: "ragnamod_seven:pixie_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			id: "2436EC8D54F4E3DA"
+			tasks: [{
+				id: "51D799749F4B0DCD"
+				type: "item"
+				item: "ragnamod_seven:manadiamond_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			id: "29895C7F5B8CAC2A"
+			tasks: [{
+				id: "452E70A83A278D72"
+				type: "item"
+				item: "ragnamod_seven:livingwood_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.0d
+			id: "11A2CC2E71F0F784"
+			tasks: [{
+				id: "6A1551785F6D491B"
+				type: "item"
+				item: "ragnamod_seven:livingrock_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.0d
+			id: "3AE25FC89DA6D458"
+			tasks: [{
+				id: "4BD9312766A1B6DC"
+				type: "item"
+				item: "ragnamod_seven:ventium_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.0d
+			id: "0FCA4B369B8794DB"
+			tasks: [{
+				id: "359822BCA5AE82C9"
+				type: "item"
+				item: "ragnamod_seven:horizonite_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			id: "7C68E956E31DA57F"
+			tasks: [{
+				id: "46C8FDF400057C64"
+				type: "item"
+				item: "ragnamod_seven:falsite_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 2.0d
+			id: "5A50C366408F47EA"
+			tasks: [{
+				id: "3BA5ADC87CF115E0"
+				type: "item"
+				item: "ragnamod_seven:charoite_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 2.0d
+			id: "1D2E7BB67858314A"
+			tasks: [{
+				id: "0F1B8D8DA97DA9E9"
+				type: "item"
+				item: "ragnamod_seven:aquite_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			id: "0161A4F9616334B4"
+			tasks: [{
+				id: "09E939AAF5720DDA"
+				type: "item"
+				item: "ragnamod_seven:pyrope_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			id: "29AA4CC1C4D0079F"
+			tasks: [{
+				id: "56EC121ECC3467E8"
+				type: "item"
+				item: "ragnamod_seven:diopside_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			id: "4D1E682B88492490"
+			tasks: [{
+				id: "33E62E61FA26AE80"
+				type: "item"
+				item: "ragnamod_seven:vengefulwill_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			id: "57BD06CFF2AC1201"
+			tasks: [{
+				id: "35CC358B433C1CF2"
+				type: "item"
+				item: "ragnamod_seven:steadfaswill_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.0d
+			id: "5AD86BB162BA9DB7"
+			tasks: [{
+				id: "1179257895F23973"
+				type: "item"
+				item: "ragnamod_seven:destructivewill_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			id: "01B72F4CDD6D178D"
+			tasks: [{
+				id: "6F80FC11E4CD1431"
+				type: "item"
+				item: "ragnamod_seven:demonwill_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 3.0d
+			id: "0BF496992EEC702D"
+			tasks: [{
+				id: "021DFA3AC67076A7"
+				type: "item"
+				item: "ragnamod_seven:corrosivewill_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 3.0d
+			id: "18DBA8924B949C76"
+			tasks: [{
+				id: "7D35487514BFF631"
+				type: "item"
+				item: "ragnamod_seven:ostrum_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 3.0d
+			id: "44349A99105AFD28"
+			tasks: [{
+				id: "3BEC2A864CFB48E2"
+				type: "item"
+				item: "ragnamod_seven:desh_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			id: "6E04994156C28E24"
+			tasks: [{
+				id: "4615B6A96A756C6B"
+				type: "item"
+				item: "ragnamod_seven:antimatter_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.0d
+			id: "46F30243449B2734"
+			tasks: [{
+				id: "16A3C8E15706FABE"
+				type: "item"
+				item: "ragnamod_seven:mundabitur_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.0d
+			id: "2656F8578D8F9452"
+			tasks: [{
+				id: "4A5791C12EAD5392"
+				type: "item"
+				item: "ragnamod_seven:darknetherstar_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.0d
+			id: "28C56D2A0BFB5B8D"
+			tasks: [{
+				id: "067467734AD4ECB4"
+				type: "item"
+				item: "ragnamod_seven:arcanecrystal_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.0d
+			id: "266832DCE491FD9E"
+			tasks: [{
+				id: "3A85C19E90EFF271"
+				type: "item"
+				item: "ragnamod_seven:darkpower_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			id: "2E80AC6915DEB4A8"
+			tasks: [{
+				id: "32957A0C84B9527D"
+				type: "item"
+				item: "ragnamod_seven:bloodpotash_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 4.0d
+			id: "35A99AAB73518707"
+			tasks: [{
+				id: "37E5BE4085079010"
+				type: "item"
+				item: "ragnamod_seven:industrialiron_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 4.0d
+			id: "38F3EF1C8F69ECAA"
+			tasks: [{
+				id: "20031ADEBF07ED4B"
+				type: "item"
+				item: "ragnamod_seven:castiron_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 4.0d
+			id: "0DABD0C008C25433"
+			tasks: [{
+				id: "5B198525557FF19E"
+				type: "item"
+				item: "ragnamod_seven:steamengine_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			id: "28D3011A0113E011"
+			tasks: [{
+				id: "2C1EA705079B58C7"
+				type: "item"
+				item: "ragnamod_seven:quartz_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			id: "1312E20AFD8592B6"
+			tasks: [{
+				id: "5EB4AEFAD1FD4016"
+				type: "item"
+				item: "ragnamod_seven:copper_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			id: "41578C6A39AD5F85"
+			tasks: [{
+				id: "2E38A6B1D1D8B5F3"
+				type: "item"
+				item: "ragnamod_seven:iron_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.0d
+			id: "43230420E37AE1A5"
+			tasks: [{
+				id: "08C4E93AE7546644"
+				type: "item"
+				item: "ragnamod_seven:redstone_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.0d
+			id: "1176742CF2F2EC52"
+			tasks: [{
+				id: "13C1A446876087CD"
+				type: "item"
+				item: "ragnamod_seven:jellybaby_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 5.0d
+			id: "6CB08321856228EF"
+			tasks: [{
+				id: "578EB35D40A4809D"
+				type: "item"
+				item: "ragnamod_seven:netheritescrap_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 5.0d
+			id: "4FF15EB458E5D19E"
+			tasks: [{
+				id: "0B6A467A393C5145"
+				type: "item"
+				item: "ragnamod_seven:lapislazuli_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 5.0d
+			id: "6706AE0D7D6F644D"
+			tasks: [{
+				id: "24ED10CEDDF815CA"
+				type: "item"
+				item: "ragnamod_seven:glowstone_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 5.0d
+			id: "3D049D87660F2DCA"
+			tasks: [{
+				id: "1CFD95AA38966B86"
+				type: "item"
+				item: "ragnamod_seven:enderpearl_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			id: "73F951AFBDA8C471"
+			tasks: [{
+				id: "6D28BB2422C7371C"
+				type: "item"
+				item: "ragnamod_seven:emerald_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.0d
+			id: "1EA4F5C586A4113A"
+			tasks: [{
+				id: "5E14453EB8D08299"
+				type: "item"
+				item: "ragnamod_seven:diamond_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.0d
+			id: "2E53598EC55D2500"
+			tasks: [{
+				id: "53CC1293410A346D"
+				type: "item"
+				item: "ragnamod_seven:coal_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			id: "6C78396355D8B098"
+			tasks: [{
+				id: "0937EC0EFFEDB704"
+				type: "item"
+				item: "ragnamod_seven:fertilizer_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			id: "4AB7CA8C7DEDB6C5"
+			tasks: [{
+				id: "6E6894AC83654741"
+				type: "item"
+				item: "ragnamod_seven:pinkslime_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 6.0d
+			id: "0C82B3ECB472A177"
+			tasks: [{
+				id: "54FE6442E618CBA6"
+				type: "item"
+				item: "ragnamod_seven:plastic_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 6.0d
+			id: "19AD9A114B96B42E"
+			tasks: [{
+				id: "1C58D2E12DCC4CF9"
+				type: "item"
+				item: "ragnamod_seven:glowcoke_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 6.0d
+			id: "62258E132AB71313"
+			tasks: [{
+				id: "3369EE19B4A154C0"
+				type: "item"
+				item: "ragnamod_seven:logicdirector_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 6.0d
+			id: "4BBB4E4DBE78CA37"
+			tasks: [{
+				id: "69A55D2F1CAE9698"
+				type: "item"
+				item: "ragnamod_seven:variablecard_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			id: "69F42B5F95A4027A"
+			tasks: [{
+				id: "43974921CADA140D"
+				type: "item"
+				item: "ragnamod_seven:electrolytic_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			id: "4E7796B4E0D73019"
+			tasks: [{
+				id: "20FFD341CA8C6DBB"
+				type: "item"
+				item: "ragnamod_seven:mekasuitmodule_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 7.0d
+			id: "52C8729064F15DFE"
+			tasks: [{
+				id: "79DF77EDDB33E38C"
+				type: "item"
+				item: "ragnamod_seven:osmium_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 7.0d
+			id: "77276EB31CEB0E2E"
+			tasks: [{
+				id: "35378DA85580BD5E"
+				type: "item"
+				item: "ragnamod_seven:uranium_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.0d
+			id: "6BAF2DCA4960D912"
+			tasks: [{
+				id: "0F81DC33546C7103"
+				type: "item"
+				item: "ragnamod_seven:scrap_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 7.0d
+			id: "1B3D5C53950D5796"
+			tasks: [{
+				id: "2165C98BB8B78F6C"
+				type: "item"
+				item: "ragnamod_seven:amethyst_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 7.0d
+			id: "04F36C203898D280"
+			tasks: [{
+				id: "1B253CA5993175FD"
+				type: "item"
+				item: "ragnamod_seven:reprocessedfissilefragment_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 7.0d
+			id: "7619F461E6D406A0"
+			tasks: [{
+				id: "21E60469E8AE305D"
+				type: "item"
+				item: "ragnamod_seven:ftbroteinbar_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 7.0d
+			id: "20F138A5251E47C7"
+			tasks: [{
+				id: "7A355C61D257FFB7"
+				type: "item"
+				item: "ragnamod_seven:compressedcoalball_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			id: "4DA4C8DC392E5A99"
+			tasks: [{
+				id: "2EAF164AA954C1BE"
+				type: "item"
+				item: "ragnamod_seven:glycerol_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			id: "07FF2975596D6998"
+			tasks: [{
+				id: "2D76E3B37716DC9C"
+				type: "item"
+				item: "ragnamod_seven:transistor_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			id: "7C4B96E4CBD1CA93"
+			tasks: [{
+				id: "1086DA19EFA6589E"
+				type: "item"
+				item: "ragnamod_seven:blazingcrystal_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			id: "1E2619AA4A231C5B"
+			tasks: [{
+				id: "305D8DBF571B7E09"
+				type: "item"
+				item: "ragnamod_seven:nioticcrystal_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			id: "3F95A9734789F444"
+			tasks: [{
+				id: "300BF18E0E1D5D13"
+				type: "item"
+				item: "ragnamod_seven:nitrocrystal_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			id: "33089F28776AF3AB"
+			tasks: [{
+				id: "7AA060E3357A8756"
+				type: "item"
+				item: "ragnamod_seven:spiritedcrystal_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			id: "01FD06A6CCB9CCBB"
+			tasks: [{
+				id: "72BD672EC26A40AB"
+				type: "item"
+				item: "ragnamod_seven:energizedsteel_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.0d
+			id: "7DE3812E29B6E02A"
+			tasks: [{
+				id: "19E7CD06DFEBAEFF"
+				type: "item"
+				item: "ragnamod_seven:uraninite_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.0d
+			id: "5ED7BEB66A4B0FD8"
+			tasks: [{
+				id: "3FF6B52566AD988D"
+				type: "item"
+				item: "ragnamod_seven:ebony_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			id: "6127F6ED98FA2FA2"
+			tasks: [{
+				id: "1A8D2DDB3040B7DC"
+				type: "item"
+				item: "ragnamod_seven:niter_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			id: "608FE050A4A7970F"
+			tasks: [{
+				id: "47C55C6B2F90DC4C"
+				type: "item"
+				item: "ragnamod_seven:cinnabar_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.0d
+			id: "0E8179AAF84D9986"
+			tasks: [{
+				id: "30D74664A4926B19"
+				type: "item"
+				item: "ragnamod_seven:blizz_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.0d
+			id: "4ED24E24DA70048E"
+			tasks: [{
+				id: "5DFFCC9E6DF9BA11"
+				type: "item"
+				item: "ragnamod_seven:blitz_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -2.0d
+			id: "0CA24C72E1CD886B"
+			tasks: [{
+				id: "66EA5A6C101CB91E"
+				type: "item"
+				item: "ragnamod_seven:bitumen_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.0d
+			id: "699A3CCB6FB11AC4"
+			tasks: [{
+				id: "4125D356AD4BAEC6"
+				type: "item"
+				item: "ragnamod_seven:basalz_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.0d
+			id: "5E71B153078D6032"
+			tasks: [{
+				id: "3ECF8D19966F5F4E"
+				type: "item"
+				item: "ragnamod_seven:lead_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -2.0d
+			id: "7EF995486F54306E"
+			tasks: [{
+				id: "148A5AB7B090B9BF"
+				type: "item"
+				item: "ragnamod_seven:nickel_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -2.0d
+			id: "52764CCFD348DB89"
+			tasks: [{
+				id: "571D91935297309D"
+				type: "item"
+				item: "ragnamod_seven:silver_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			id: "29FE413DA74F004D"
+			tasks: [{
+				id: "6830DA3D422B733B"
+				type: "item"
+				item: "ragnamod_seven:tin_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			id: "34D9796D28D39969"
+			tasks: [{
+				id: "213ED4986671C500"
+				type: "item"
+				item: "ragnamod_seven:rosin_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			id: "014BD323EFE70ECE"
+			tasks: [{
+				id: "61E89E3326C23081"
+				type: "item"
+				item: "ragnamod_seven:slag_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			id: "1BCE74D74D232568"
+			tasks: [{
+				id: "0A4A0DB08098C83B"
+				type: "item"
+				item: "ragnamod_seven:cobalt_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.0d
+			id: "1DFA50EAB687089F"
+			tasks: [{
+				id: "4F6D1A5F9E28ACF3"
+				type: "item"
+				item: "ragnamod_seven:soulpowder_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			id: "1EFEFCFFC1A290D9"
+			tasks: [{
+				id: "09D732A2FBF0220B"
+				type: "item"
+				item: "ragnamod_seven:zombieheart_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.0d
+			id: "742C9E1F6B164F13"
+			tasks: [{
+				id: "728AF82CCD660AF2"
+				type: "item"
+				item: "ragnamod_seven:ribbone_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.0d
+			id: "3F98B2679DC5D3F4"
+			tasks: [{
+				id: "7BBC5DE1DFA11D45"
+				type: "item"
+				item: "ragnamod_seven:nebulousheart_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -3.0d
+			id: "7B8173F63F7606F4"
+			tasks: [{
+				id: "77E90164BAF36ADF"
+				type: "item"
+				item: "ragnamod_seven:moltencore_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			id: "1435312BA63D7FD9"
+			tasks: [{
+				id: "747CF4D267EE5444"
+				type: "item"
+				item: "ragnamod_seven:frozencore_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			id: "175A82D9DC2F5AA5"
+			tasks: [{
+				id: "7D6CC5C5B8B33679"
+				type: "item"
+				item: "ragnamod_seven:chelicerae_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.0d
+			id: "12630ACDE5D39D4A"
+			tasks: [{
+				id: "185778334F91CAF6"
+				type: "item"
+				item: "ragnamod_seven:catalyzinggland_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			id: "06ED39CC5960DD3B"
+			tasks: [{
+				id: "046059DA962B32BC"
+				type: "item"
+				item: "ragnamod_seven:gold_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.0d
+			id: "2A18E291D184701D"
+			tasks: [{
+				id: "65AB0855B0582361"
+				type: "item"
+				item: "ragnamod_seven:psigem_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -4.0d
+			id: "1C637914E1B073BE"
+			tasks: [{
+				id: "0F93DB4C6BB812B8"
+				type: "item"
+				item: "ragnamod_seven:ivory_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -4.0d
+			id: "298D7DEEF1D21EBB"
+			tasks: [{
+				id: "7BBA05D0B358A83F"
+				type: "item"
+				item: "ragnamod_seven:infusedrock_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -4.0d
+			id: "0896F6C073601FAB"
+			tasks: [{
+				id: "67CAB4954E007388"
+				type: "item"
+				item: "ragnamod_seven:spiritattunedgem_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -4.0d
+			id: "763CA0E80C8AC96A"
+			tasks: [{
+				id: "3D98DB0A346A097F"
+				type: "item"
+				item: "ragnamod_seven:capacitor_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			id: "0824B31B72419973"
+			tasks: [{
+				id: "291041324049D1EE"
+				type: "item"
+				item: "ragnamod_seven:alphayeti_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			id: "7784DEC5D14A4C9C"
+			tasks: [{
+				id: "3B4AA01156D4BAAE"
+				type: "item"
+				item: "ragnamod_seven:carminite_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			id: "613582C6666D4506"
+			tasks: [{
+				id: "3F26875CE7BEAA80"
+				type: "item"
+				item: "ragnamod_seven:castlebrick_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			id: "17CA5C2A71516EC3"
+			tasks: [{
+				id: "7F5345CA9B08B790"
+				type: "item"
+				item: "ragnamod_seven:magicbeans_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			id: "7A408773F40CBA18"
+			tasks: [{
+				id: "3B29981C064B75AA"
+				type: "item"
+				item: "ragnamod_seven:ironwood_singularity"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -5.0d
+			id: "7112819DE6BE8DB6"
+			tasks: [{
+				id: "0A05206784654FF0"
+				type: "item"
+				item: "ragnamod_seven:steeleaf_singularity"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -5.0d
+			id: "35FEF41BC04FCCE5"
+			tasks: [{
+				id: "5119F356563A8A1F"
+				type: "item"
+				item: "ragnamod_seven:depthrock_singularity"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -5.0d
+			id: "691BF4905A1C0E70"
+			tasks: [{
+				id: "6FDB17385BC30147"
+				type: "item"
+				item: "ragnamod_seven:cloggrum_singularity"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -5.0d
+			id: "2A4FFF1775E7FCBD"
+			tasks: [{
+				id: "75AFDF3C37B89A9D"
+				type: "item"
+				item: "ragnamod_seven:froststeel_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.0d
+			id: "30DFE7E284C06FDE"
+			tasks: [{
+				id: "483EE3BC60425107"
+				type: "item"
+				item: "ragnamod_seven:sculk_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			id: "6014DDA5E15CF345"
+			tasks: [{
+				id: "40BB683EA26C1C24"
+				type: "item"
+				item: "ragnamod_seven:sulfur_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.0d
+			id: "0897CA9210BA71F3"
+			tasks: [{
+				id: "29F1FC4F035FF2E8"
+				type: "item"
+				item: "ragnamod_seven:bauxite_singularity"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			id: "70D86E82ACD431C9"
+			tasks: [{
+				id: "685F9414A42C37E1"
+				type: "item"
+				item: "ragnamod_seven:kepu_singularity"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -6.0d
+			id: "1DB7B08393D10B7C"
+			tasks: [{
+				id: "337D7F9B13059DDF"
+				type: "item"
+				item: "ragnamod_seven:pneumaticcraft"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -5.0d
+			id: "2CE74A8D9A22DB10"
+			tasks: [{
+				id: "00E3550BF2BFD9F5"
+				type: "item"
+				item: "ragnamod_seven:industrial"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -4.0d
+			id: "6B4326DC03D14760"
+			tasks: [{
+				id: "22865A7F807F52A9"
+				type: "item"
+				item: "ragnamod_seven:forbidden"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -3.0d
+			id: "7B4E1863A6829764"
+			tasks: [{
+				id: "073DD86BFD1EB5DC"
+				type: "item"
+				item: "ragnamod_seven:ftbic"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -2.0d
+			id: "118C3F30EC324573"
+			tasks: [{
+				id: "75B6A21E03ADD8EE"
+				type: "item"
+				item: "ragnamod_seven:tech"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -1.0d
+			id: "295770286B7B7BC6"
+			tasks: [{
+				id: "3EB1EAAC47D949D0"
+				type: "item"
+				item: "ragnamod_seven:magic"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 0.0d
+			id: "3E9045FFB4F6EB29"
+			tasks: [{
+				id: "0447F79ACE0D550E"
+				type: "item"
+				item: "ragnamod_seven:undergarden"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 1.0d
+			id: "5F9F416DA3ED2712"
+			tasks: [{
+				id: "35A8B29754397707"
+				type: "item"
+				item: "ragnamod_seven:raw_materials"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 2.0d
+			id: "33CB17AE737667DB"
+			tasks: [{
+				id: "285806F978C43316"
+				type: "item"
+				item: "ragnamod_seven:vanilla"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 3.0d
+			id: "10AD9BE310D61DF5"
+			tasks: [{
+				id: "30991EE9B86472A8"
+				type: "item"
+				item: "ragnamod_seven:create"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 4.0d
+			id: "24BFBF3453E7C1BF"
+			tasks: [{
+				id: "0C0B796913B40FC3"
+				type: "item"
+				item: "ragnamod_seven:blood_magic"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 4.0d
+			id: "3F4716778C9BF8C5"
+			tasks: [{
+				id: "271403CBC225D065"
+				type: "item"
+				item: "ragnamod_seven:mobs"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 3.0d
+			id: "7AFE4C373A837581"
+			tasks: [{
+				id: "172859534E266B97"
+				type: "item"
+				item: "ragnamod_seven:psi"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -6.0d
+			id: "2DDFBBA9F971DFEC"
+			tasks: [{
+				id: "49A5133DAA7B859E"
+				type: "item"
+				item: "ragnamod_seven:thermal"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -5.0d
+			id: "243EFA0FBD1D5457"
+			tasks: [{
+				id: "4E72F0D264CBDBAA"
+				type: "item"
+				item: "ragnamod_seven:evil_craft"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -4.0d
+			id: "29FB7478BBE669AB"
+			tasks: [{
+				id: "28596887C2DAF044"
+				type: "item"
+				item: "ragnamod_seven:twilight"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -3.0d
+			id: "74E07AFCCB353F57"
+			tasks: [{
+				id: "4709CD7EC1547C16"
+				type: "item"
+				item: "ragnamod_seven:special_bricks"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -2.0d
+			id: "2F1B5DEE8DE3B4AC"
+			tasks: [{
+				id: "28BCCA9479296E79"
+				type: "item"
+				item: "ragnamod_seven:powah"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -1.0d
+			id: "023755D07BB12753"
+			tasks: [{
+				id: "062D45CF3B616B44"
+				type: "item"
+				item: "ragnamod_seven:botania"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 0.0d
+			id: "3696FD0DCA07ABF8"
+			tasks: [{
+				id: "37CC02A6B39BED60"
+				type: "item"
+				item: "ragnamod_seven:space"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 1.0d
+			id: "040AB18602FA6F79"
+			tasks: [{
+				id: "2A58529BC07129D2"
+				type: "item"
+				item: "ragnamod_seven:blue_skies"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 2.0d
+			id: "157D94D792BA9C34"
+			tasks: [{
+				id: "6BEF594386247EC8"
+				type: "item"
+				item: "ragnamod_seven:meka"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "30B075913444B5FA"
+			tasks: [{
+				id: "0BB63268C216CDBB"
+				type: "item"
+				item: "ragnamod_seven:infinity_gem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "5345E8BF19D99F83"
+			tasks: [{
+				id: "11FC3D78F09598A9"
+				type: "item"
+				item: "ragnamod_seven:sphere"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "256B6EFD48EF1175"
+			tasks: [{
+				id: "3ECED6063EA318A5"
+				type: "item"
+				item: "ragnamod_seven:neutronium_nutritious_compound"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

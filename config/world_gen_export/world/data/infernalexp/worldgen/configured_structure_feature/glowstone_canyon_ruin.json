@@ -1,0 +1,11 @@
+{
+	"adapt_noise": true,
+	"biomes": "#infernalexp:has_structure/glowstone_canyon_ruin",
+	"config": {
+		"size": 1,
+		"size_to_check": 5,
+		"start_pool": "infernalexp:glowstone_canyon_ruin/start_pool"
+	},
+	"spawn_overrides": { },
+	"type": "infernalexp:simple_nether_structure"
+}

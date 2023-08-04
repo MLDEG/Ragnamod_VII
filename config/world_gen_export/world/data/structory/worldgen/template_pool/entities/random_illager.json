@@ -1,0 +1,42 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:entities/evoker",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:entities/vindicator",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:entities/witch",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "structory:entities/pillager",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 3
+		}
+	],
+	"fallback": "minecraft:empty",
+	"name": "minecraft:meme"
+}

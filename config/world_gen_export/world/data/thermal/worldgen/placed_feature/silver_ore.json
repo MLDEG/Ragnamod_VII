@@ -1,0 +1,27 @@
+{
+	"feature": "thermal:silver_ore",
+	"placement": [
+		{
+			"count": 4,
+			"type": "minecraft:count"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"height": {
+				"max_inclusive": {
+					"absolute": 40
+				},
+				"min_inclusive": {
+					"absolute": -60
+				},
+				"type": "minecraft:trapezoid"
+			},
+			"type": "minecraft:height_range"
+		}
+	]
+}

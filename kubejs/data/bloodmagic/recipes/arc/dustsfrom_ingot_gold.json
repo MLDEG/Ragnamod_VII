@@ -1,0 +1,15 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "tag": "forge:ingots/gold"
+  },
+  "inputsize": 1,
+  "tool": {
+    "tag": "bloodmagic:arc/explosive"
+  },
+  "output": {
+    "item": "thermal:gold_dust"
+  },
+  "consumeingredient": false,
+  "mainoutputchance": 0.0
+}

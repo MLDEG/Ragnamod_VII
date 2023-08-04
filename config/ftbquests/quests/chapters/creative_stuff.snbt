@@ -1,0 +1,12 @@
+{
+	id: "1EA05D0EFA9E94FB"
+	group: ""
+	order_index: 31
+	filename: "creative_stuff"
+	title: "Creative Stuff"
+	icon: "functionalstorage:creative_vending_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

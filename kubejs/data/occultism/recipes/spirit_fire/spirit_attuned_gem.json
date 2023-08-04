@@ -1,0 +1,11 @@
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": [
+    {
+      "tag": "forge:gems/charoite"
+    }
+  ],
+  "result": {
+    "item": "occultism:spirit_attuned_gem"
+  }
+}

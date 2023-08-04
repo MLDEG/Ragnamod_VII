@@ -1,0 +1,390 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_tool_smith_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "immersiveengineering:village/houses/snowy_electrician",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_medium_house_3",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_fisher_cottage",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_library_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_animal_pen_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_farm_1",
+				"processors": "minecraft:farm_snowy",
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_masons_house_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_weapon_smith_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_farm_2",
+				"processors": "minecraft:farm_snowy",
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_temple_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_8",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_7",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_fletcher_house_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_butchers_shop_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_6",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_animal_pen_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 6
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_shepherds_house_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_4",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_3",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "immersiveengineering:village/houses/snowy_engineer",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_5",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_medium_house_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_cartographer_house_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "immersiveengineering:village/houses/snowy_machinist",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_medium_house_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_small_house_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_tannery_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_armorer_house_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_butchers_shop_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_armorer_house_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "minecraft:village/snowy/houses/snowy_masons_house_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 2
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "immersiveengineering:village/houses/snowy_gunsmith",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "immersiveengineering:village/houses/snowy_outfitter",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "morevillagers:village/snowy/snowy_woodworker",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "morevillagers:village/snowy/snowy_oceanographer",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "morevillagers:village/snowy/snowy_florist",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "morevillagers:village/snowy/snowy_hunter",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "morevillagers:village/snowy/snowy_engineer",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 10
+		},
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "farmersdelight:village/houses/snowy_compost_pile",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "waystones:village/common/waystone",
+				"processors": "minecraft:empty",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:village/snowy/houses",
+	"name": "minecraft:village/snowy/houses"
+}

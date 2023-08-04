@@ -1,0 +1,17 @@
+{
+	"config": {
+		"dirt": {
+			"Name": "blue_skies:turquoise_dirt"
+		},
+		"grass": {
+			"Name": "blue_skies:turquoise_grass"
+		},
+		"grass_block": {
+			"Name": "blue_skies:turquoise_grass_block",
+			"Properties": {
+				"snowy": "false"
+			}
+		}
+	},
+	"type": "blue_skies:cave_grass"
+}
