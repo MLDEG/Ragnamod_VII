@@ -119,6 +119,16 @@ onEvent('recipes', function (e) {
     ['#forge:wires/gold', 'createaddition:gold_wire'].forEach(I => { replaceIO(I, 'ftbic:gold_wire') });
     ['#forge:wires/copper', 'createaddition:copper_wire', 'immersiveengineering:wire_copper'].forEach(I => { replaceIO(I, 'ftbic:copper_wire') });
     ['#forge:wires/aluminum', 'immersiveengineering:wire_aluminum'].forEach(I => { replaceIO(I, 'ftbic:aluminum_wire') });
+    //CRAFTS
+    extrudingFTB('ftbic:lead_rod', 1, 'immersiveengineering:wire_lead', 2);
+    extrudingFTB('immersiveengineering:stick_steel', 1, 'immersiveengineering:wire_steel', 2);
+    extrudingFTB('immersiveposts:stick_electrum', 1, 'immersiveengineering:wire_electrum', 2);
+    extrudingFTB('ftbic:iron_rod', 1, 'createaddition:iron_wire', 2);
+    rollingCreate('ftbic:enderium_plate', 'ftbic:enderium_wire', 2);
+    metalPress('immersiveengineering:mold_wire', 'thermal:enderium_ingot', 'ftbic:enderium_wire', 2);
+    castingTable('multi_use/wire', false, 'tconstruct:molten_enderium', 45, 'ftbic:enderium_wire', 40);
+    castingTable('single_use/wire', true, 'tconstruct:molten_enderium', 45, 'ftbic:enderium_wire', 40);
+
     /**********************Gears*************************/
     ['#forge:gears/bronze', 'ftbic:bronze_gear'].forEach(I => { replaceIO(I, 'thermal:bronze_gear') });
     ['#forge:gears/copper',  'ftbic:copper_gear'].forEach(I => { replaceIO(I, 'thermal:copper_gear') });
