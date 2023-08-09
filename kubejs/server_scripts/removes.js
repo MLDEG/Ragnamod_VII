@@ -278,6 +278,8 @@ onEvent('recipes', e => {
         'immersiveengineering:crafting/coal_coke_to_coke',
         'hostilenetworks:living_matter/extraterrestrial/nether_star',
         'avaritia:cosmic_meatballs',
+        'beyond_earth:iron_plate',
+        'beyond_earth:desh_plate',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',
