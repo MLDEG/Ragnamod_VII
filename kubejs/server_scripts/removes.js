@@ -311,6 +311,7 @@ onEvent('recipes', e => {
         'ftbic:shaped/enderium_wire',
         'ftbic:shaped/copper_wire',
         'ftbic:shaped/aluminum_wire',
+        'minecraft:glass_bottle',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',
