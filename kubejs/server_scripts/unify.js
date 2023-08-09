@@ -5,6 +5,14 @@ onEvent('recipes', function (e) {
         e.replaceInput({}, input, output)
         e.replaceOutput({}, input, output)
     }
+    //Extruding
+    function extrudingFTB(input, countIn, output, countOut){e.custom({"type": "ftbic:extruding","inputItems": [{"ingredient": {"item": input},"count": countIn}],"outputItems": [{"item": output,"count": countOut}]})}
+    //Metal Press
+    function metalPress(mold, input, output, count){e.custom({"type":"immersiveengineering:metal_press","mold":mold,"result":{"count":count,"base_ingredient":{"item":output}},"input":{"item":input},"energy":2400})}
+    //Casting Table
+    function castingTable(cast, consumed, fluid, amount, output, cool){e.custom({"type": "tconstruct:casting_table","cast": {"tag": "tconstruct:casts/"+cast},"cast_consumed": consumed,"fluid": {"name": fluid,"amount": amount},"result": {"item": output},"cooling_time": cool})}
+    //Rolling Mill
+    function rollingCreate(input, output, count){e.custom({"type":"createaddition:rolling","input": {"item": input},"result": {"item": output,"count": count}})}
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
@@ -86,6 +94,27 @@ onEvent('recipes', function (e) {
     ['#forge:rods/aluminum', 'immersiveengineering:stick_aluminum'].forEach(I => { replaceIO(I, 'ftbic:aluminum_rod') });
     ['#forge:rods/uranium', 'immersiveposts:stick_uranium'].forEach(I => { replaceIO(I, 'ftbic:uranium_rod') });
     ['#forge:rods/lead', 'immersiveposts:stick_lead'].forEach(I => { replaceIO(I, 'ftbic:lead_rod') });
+    //CRAFTS
+    metalPress('immersiveengineering:mold_rod', 'thermal:enderium_ingot', 'ftbic:enderium_rod', 2);
+    metalPress('immersiveengineering:mold_rod', 'ftbic:iridium_ingot', 'ftbic:iridium_rod', 2);
+    extrudingFTB('create:brass_ingot', 1, 'createaddition:brass_rod', 2);
+    extrudingFTB('beyond_earth:steel_ingot', 1, 'immersiveengineering:stick_steel', 2);
+    extrudingFTB('thermal:silver_ingot', 1, 'immersiveposts:stick_silver', 2);
+    extrudingFTB('thermal:nickel_ingot', 1, 'immersiveposts:stick_nickel', 2);
+    extrudingFTB('thermal:constantan_ingot', 1, 'immersiveposts:stick_constantan', 2);
+    extrudingFTB('thermal:electrum_ingot', 1, 'immersiveposts:stick_electrum', 2);
+    rollingCreate('thermal:enderium_ingot', 'ftbic:enderium_rod', 2);
+    rollingCreate('thermal:bronze_ingot', 'ftbic:bronze_rod', 2);
+    rollingCreate('ftbic:iridium_ingot', 'ftbic:iridium_rod', 2);
+    rollingCreate('mekanism:ingot_uranium', 'ftbic:uranium_rod', 2);
+    rollingCreate('thermal:constantan_ingot', 'immersiveposts:stick_constantan', 2);
+    rollingCreate('thermal:electrum_ingot', 'immersiveposts:stick_electrum', 2);
+    rollingCreate('thermal:tin_ingot', 'ftbic:tin_rod', 2);
+    rollingCreate('thermal:lead_ingot', 'ftbic:lead_rod', 2);
+    rollingCreate('thermal:silver_ingot', 'immersiveposts:stick_silver', 2);
+    rollingCreate('thermal:nickel_ingot', 'immersiveposts:stick_nickel', 2);
+    castingTable('multi_use/rod', false, 'tconstruct:molten_iron', 45, 'ftbic:iron_rod', 40);
+    castingTable('single_use/rod', true, 'tconstruct:molten_iron', 45, 'ftbic:iron_rod', 40);
     /**********************Wires*************************/
     ['#forge:wires/gold', 'createaddition:gold_wire'].forEach(I => { replaceIO(I, 'ftbic:gold_wire') });
     ['#forge:wires/copper', 'createaddition:copper_wire', 'immersiveengineering:wire_copper'].forEach(I => { replaceIO(I, 'ftbic:copper_wire') });
