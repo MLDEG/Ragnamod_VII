@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "thermal_extra:item/shellite_plate_0"
+  }
+}
