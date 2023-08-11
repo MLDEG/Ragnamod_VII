@@ -344,7 +344,7 @@ onEvent('recipes', e => {
         'thermal:parts/lapis_gear',
         'thermal:parts/netherite_gear',
         'thermal:parts/lumium_gear',
-        'pneumaticcraft:compressed_iton_gear',
+        'pneumaticcraft:compressed_iron_gear',
         'thermal_extra:parts/dragonsteel_gear',
         'thermal_extra:parts/shellite_gear',
         'thermal_extra:parts/twinite_gear',
