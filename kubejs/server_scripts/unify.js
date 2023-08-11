@@ -8,11 +8,13 @@ onEvent('recipes', function (e) {
     //Extruding
     function extrudingFTB(input, countIn, output, countOut){e.custom({"type": "ftbic:extruding","inputItems": [{"ingredient": {"item": input},"count": countIn}],"outputItems": [{"item": output,"count": countOut}]})}
     //Metal Press
-    function metalPress(mold, input, output, count){e.custom({"type":"immersiveengineering:metal_press","mold":mold,"result":{"count":count,"base_ingredient":{"item":output}},"input":{"item":input},"energy":2400})}
+    function metalPress(mold, input, countIn, output, countOut){e.custom({"type":"immersiveengineering:metal_press","mold":mold,"result":{"count":countOut,"base_ingredient":{"item":output}},"input":{"count":countIn,"base_ingredient":{"item":input}},"energy":2400})}
     //Casting Table
     function castingTable(cast, consumed, fluid, amount, output, cool){e.custom({"type": "tconstruct:casting_table","cast": {"tag": "tconstruct:casts/"+cast},"cast_consumed": consumed,"fluid": {"name": fluid,"amount": amount},"result": {"item": output},"cooling_time": cool})}
     //Rolling Mill
     function rollingCreate(input, output, count){e.custom({"type":"createaddition:rolling","input": {"item": input},"result": {"item": output,"count": count}})}
+    //Multiservo Press
+    function multiPress(input, count, press, output){e.custom({"type": "thermal:press","ingredients": [{"item": input,"count": count},{"item": press}],"result": [{"item": output}]})}
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
@@ -95,8 +97,8 @@ onEvent('recipes', function (e) {
     ['#forge:rods/uranium', 'immersiveposts:stick_uranium'].forEach(I => { replaceIO(I, 'ftbic:uranium_rod') });
     ['#forge:rods/lead', 'immersiveposts:stick_lead'].forEach(I => { replaceIO(I, 'ftbic:lead_rod') });
     //CRAFTS
-    metalPress('immersiveengineering:mold_rod', 'thermal:enderium_ingot', 'ftbic:enderium_rod', 2);
-    metalPress('immersiveengineering:mold_rod', 'ftbic:iridium_ingot', 'ftbic:iridium_rod', 2);
+    metalPress('immersiveengineering:mold_rod', 'thermal:enderium_ingot', 1, 'ftbic:enderium_rod', 2);
+    metalPress('immersiveengineering:mold_rod', 'ftbic:iridium_ingot', 1, 'ftbic:iridium_rod', 2);
     extrudingFTB('create:brass_ingot', 1, 'createaddition:brass_rod', 2);
     extrudingFTB('beyond_earth:steel_ingot', 1, 'immersiveengineering:stick_steel', 2);
     extrudingFTB('thermal:silver_ingot', 1, 'immersiveposts:stick_silver', 2);
@@ -125,10 +127,9 @@ onEvent('recipes', function (e) {
     extrudingFTB('immersiveposts:stick_electrum', 1, 'immersiveengineering:wire_electrum', 2);
     extrudingFTB('ftbic:iron_rod', 1, 'createaddition:iron_wire', 2);
     rollingCreate('ftbic:enderium_plate', 'ftbic:enderium_wire', 2);
-    metalPress('immersiveengineering:mold_wire', 'thermal:enderium_ingot', 'ftbic:enderium_wire', 2);
+    metalPress('immersiveengineering:mold_wire', 'thermal:enderium_ingot', 1, 'ftbic:enderium_wire', 2);
     castingTable('multi_use/wire', false, 'tconstruct:molten_enderium', 45, 'ftbic:enderium_wire', 40);
     castingTable('single_use/wire', true, 'tconstruct:molten_enderium', 45, 'ftbic:enderium_wire', 40);
-
     /**********************Gears*************************/
     ['#forge:gears/bronze', 'ftbic:bronze_gear'].forEach(I => { replaceIO(I, 'thermal:bronze_gear') });
     ['#forge:gears/copper',  'ftbic:copper_gear'].forEach(I => { replaceIO(I, 'thermal:copper_gear') });
@@ -138,6 +139,62 @@ onEvent('recipes', function (e) {
     ['#forge:gears/diamond',  'industrialforegoing:diamond_gear'].forEach(I => { replaceIO(I, 'thermal:diamond_gear') });
     ['#forge:gears/iron',  'ftbic:iron_gear', 'industrialforegoing:iron_gear'].forEach(I => { replaceIO(I, 'thermal:iron_gear') });
     ['#forge:gears/gold',  'ftbic:gold_gear', 'industrialforegoing:gold_gear'].forEach(I => { replaceIO(I, 'thermal:gold_gear') });
+    //CRAFTS
+    multiPress('tinkers_reforged:aluminum_ingot', 4, 'thermal:press_gear_die', 'ftbic:aluminum_gear');
+    multiPress('ftbic:iridium_ingot', 4, 'thermal:press_gear_die', 'ftbic:iridium_gear');
+    multiPress('mekanism:ingot_uranium', 4, 'thermal:press_gear_die', 'ftbic:uranium_gear');
+    multiPress('minecraft:diamond', 4, 'thermal:press_gear_die', 'thermal:diamond_gear');
+    multiPress('redstone_arsenal:flux_ingot', 4, 'thermal:press_gear_die', 'redstone_arsenal:flux_gear');
+    multiPress('pneumaticcraft:ingot_iron_compressed', 4, 'thermal:press_gear_die', 'pneumaticcraft:compressed_iron_gear');
+    multiPress('minecraft:emerald', 4, 'thermal:press_gear_die', 'thermal:emerald_gear');
+    multiPress('minecraft:quartz', 4, 'thermal:press_gear_die', 'thermal:quartz_gear');
+    multiPress('minecraft:lapis_lazuli', 4, 'thermal:press_gear_die', 'thermal:lapis_gear');
+    extrudingFTB('minecraft:diamond', 4, 'thermal:diamond_gear', 1);
+    extrudingFTB('pneumaticcraft:ingot_iron_compressed', 4, 'pneumaticcraft:compressed_iron_gear', 1);
+    extrudingFTB('thermal:signalum_plate', 4, 'thermal:signalum_gear', 1);
+    extrudingFTB('thermal:constantan_plate', 4, 'thermal:constantan_gear', 1);
+    extrudingFTB('thermal:lumium_plate', 4, 'thermal:lumium_gear', 1);
+    extrudingFTB('thermal_extra:soul_infused_plate', 4, 'thermal_extra:soul_infused_gear', 1);
+    extrudingFTB('thermal_extra:twinite_plate', 4, 'thermal_extra:twinite_gear', 1);
+    extrudingFTB('thermal_extra:shellite_plate', 4, 'thermal_extra:shellite_gear', 1);
+    extrudingFTB('minecraft:emerald', 4, 'thermal:emerald_gear', 1);
+    extrudingFTB('minecraft:quartz', 4, 'thermal:quartz_gear', 1);
+    extrudingFTB('minecraft:lapis_lazuli', 4, 'thermal:lapis_gear', 1);
+    extrudingFTB('thermal:netherite_plate', 4, 'thermal:netherite_gear', 1);
+    extrudingFTB('thermal:invar_plate', 4, 'thermal:invar_gear', 1);
+    extrudingFTB('thermal:electrum_plate', 4, 'thermal:electrum_gear', 1);
+    extrudingFTB('thermal:nickel_plate', 4, 'thermal:nickel_gear', 1);
+    extrudingFTB('thermal:silver_plate', 4, 'thermal:silver_gear', 1);
+    extrudingFTB('redstone_arsenal:flux_ingot', 4, 'redstone_arsenal:flux_gear', 1);
+    extrudingFTB('thermal_extra:dragonsteel_plate', 4, 'thermal_extra:dragonsteel_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'thermal:enderium_ingot', 4, 'thermal:enderium_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'ftbic:iridium_ingot', 4, 'ftbic:iridium_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'minecraft:diamond', 4, 'thermal:diamond_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'pneumaticcraft:ingot_iron_compressed', 4, 'pneumaticcraft:compressed_iron_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'thermal_extra:twinite_ingot', 4, 'thermal_extra:twinite_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'thermal_extra:soul_infused_ingot', 4, 'thermal_extra:soul_infused_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'thermal_extra:dragonsteel_ingot', 4, 'thermal_extra:dragonsteel_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'minecraft:netherite_ingot', 4, 'thermal:netherite_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'thermal:lumium_ingot', 4, 'thermal:lumium_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'redstone_arsenal:flux_ingot', 4, 'redstone_arsenal:flux_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'thermal_extra:shellite_ingot', 4, 'thermal_extra:shellite_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'thermal:signalum_ingot', 4, 'thermal:signalum_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'minecraft:emerald', 4, 'thermal:emerald_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'minecraft:quartz', 4, 'thermal:quartz_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'minecraft:lapis_lazuli', 4, 'thermal:lapis_gear', 1);
+    castingTable('multi_use/gear', false, "tconstruct:molten_diamond", 360, 'thermal:diamond_gear', 140);
+    castingTable('single_use/gear', true, "tconstruct:molten_diamond", 360, 'thermal:diamond_gear', 140);
+    castingTable('multi_use/gear', false, "tconstruct:molten_emerald", 360, 'thermal:emerald_gear', 140);
+    castingTable('single_use/gear', true, "tconstruct:molten_emerald", 360, 'thermal:emerald_gear', 140);
+    castingTable('multi_use/gear', false, "tconstruct:molten_quartz", 360, 'thermal:quartz_gear', 40);
+    castingTable('single_use/gear', true, "tconstruct:molten_quartz", 360, 'thermal:quartz_gear', 40);
+    castingTable('multi_use/gear', false, "tinkers_reforged:molten_lapis", 360, 'thermal:lapis_gear', 40);
+    castingTable('single_use/gear', true, "tinkers_reforged:molten_lapis", 360, 'thermal:lapis_gear', 40);
+    castingTable('multi_use/gear', false, "thermal_extra:shellite", 360, 'thermal_extra:shellite_gear', 140);
+    castingTable('single_use/gear', true, "thermal_extra:shellite", 360, 'thermal_extra:shellite_gear', 140);
+    castingTable('multi_use/gear', false, "thermal_extra:twinite", 360, 'thermal_extra:twinite_gear', 60);
+    castingTable('single_use/gear', true, "thermal_extra:twinite", 360, 'thermal_extra:twinite_gear', 60);
+
     /**********************Plates*************************/
     ['#forge:plates/iron', 'chemlib:iron_plate', 'beyond_earth:iron_plate', 'create:iron_sheet', 'thermal:iron_plate', 'immersiveengineering:plate_iron'].forEach(I => { replaceIO(I, 'ftbic:iron_plate') });
     ['#forge:plates/gold', 'chemlib:gold_plate', 'thermal:gold_plate', 'immersiveengineering:plate_gold', 'create:golden_sheet'].forEach(I => { replaceIO(I, 'ftbic:gold_plate') });
