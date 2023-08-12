@@ -15,6 +15,12 @@ onEvent('recipes', function (e) {
     function rollingCreate(input, output, count){e.custom({"type":"createaddition:rolling","input": {"item": input},"result": {"item": output,"count": count}})}
     //Multiservo Press
     function multiPress(input, count, press, output){e.custom({"type": "thermal:press","ingredients": [{"item": input,"count": count},{"item": press}],"result": [{"item": output}]})}
+    //Multiservo Press Plate
+    function multiPressPlate(input, count, output){e.custom({"type": "thermal:press","ingredients": {"item": input,"count": count},"result": [{"item": output}]})}
+    //Pressing Create
+    function createPress(input, output){e.custom({"type": "create:pressing","ingredients": [{"item": input}],"results": [{"item": output}]})}
+    //Rolling FTB
+    function rollingFTB(input, count, output){e.custom({"type": "ftbic:rolling","inputItems": [{"ingredient": {"item": input},"count": count}],"outputItems": [{"item": output}]})}
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
@@ -211,6 +217,57 @@ onEvent('recipes', function (e) {
     ['#forge:plates/silver', 'chemlib:silver_plate', 'immersiveengineering:plate_silver'].forEach(I => { replaceIO(I, 'thermal:silver_plate') });
     ['#forge:plates/iridium', 'chemlib:iridium_plate'].forEach(I => { replaceIO(I, 'ftbic:iridium_plate') });
     ['#forge:plates/zinc', 'chemlib:zinc_plate'].forEach(I => { replaceIO(I, 'createaddition:zinc_sheet') });
+    //CRAFTS
+    createPress('thermal:signalum_ingot', 'thermal:signalum_plate');
+    createPress('thermal:lumium_ingot', 'thermal:lumium_plate');
+    createPress('thermal:invar_ingot', 'thermal:invar_plate');
+    createPress('minecraft:netherite_ingot', 'thermal:netherite_plate');
+    createPress('thermal_extra:dragonsteel_ingot', 'thermal_extra:dragonsteel_plate');
+    createPress('thermal:tin_ingot', 'ftbic:tin_plate');
+    createPress('thermal_extra:twinite_ingot', 'thermal_extra:twinite_plate');
+    createPress('thermal_extra:soul_infused_ingot', 'thermal_extra:soul_infused_plate');
+    createPress('thermal_extra:shellite_ingot', 'thermal_extra:shellite_plate');
+    createPress('beyond_earth:desh_ingot', 'beyond_earth:desh_plate');
+    createPress('thermal:bronze_ingot', 'ftbic:bronze_plate');
+    createPress('thermal:enderium_ingot', 'ftbic:enderium_plate');
+    createPress('ftbic:iridium_ingot', 'ftbic:iridium_plate');
+    metalPress('immersiveengineering:mold_plate', 'thermal:signalum_ingot', 1, 'thermal:signalum_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'thermal:lumium_ingot', 1, 'thermal:lumium_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'minecraft:netherite_ingot', 1, 'thermal:netherite_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'beyond_earth:desh_ingot', 1, 'beyond_earth:desh_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'thermal_extra:shellite_ingot', 1, 'thermal_extra:shellite_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'thermal_extra:dragonsteel_ingot', 1, 'thermal_extra:dragonsteel_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'thermal:enderium_ingot', 1, 'ftbic:enderium_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'ftbic:iridium_ingot', 1, 'ftbic:iridium_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'thermal_extra:twinite_ingot', 1, 'thermal_extra:twinite_plate', 1);
+    metalPress('immersiveengineering:mold_plate', 'thermal_extra:soul_infused_ingot', 1, 'thermal_extra:soul_infused_plate', 1);
+    multiPressPlate('beyond_earth:steel_ingot', 1, 'immersiveengineering:plate_steel');
+    multiPressPlate('create:brass_ingot', 1, 'create:brass_sheet');
+    multiPressPlate('create:zinc_ingot', 1, 'createaddition:zinc_sheet');
+    multiPressPlate('beyond_earth:desh_ingot', 1, 'beyond_earth:desh_plate');
+    multiPressPlate('mekanism:ingot_uranium', 1, 'ftbic:uranium_plate');
+    multiPressPlate('tinkers_reforged:aluminum_ingot', 1, 'ftbic:aluminum_plate');
+    multiPressPlate('ftbic:iridium_ingot', 1, 'ftbic:iridium_plate');
+    rollingFTB('thermal:constantan_ingot', 1, 'thermal:constantan_plate');
+    rollingFTB('thermal:signalum_ingot', 1, 'thermal:signalum_plate');
+    rollingFTB('thermal:lumium_ingot', 1, 'thermal:lumium_plate');
+    rollingFTB('thermal:invar_ingot', 1, 'thermal:invar_plate');
+    rollingFTB('thermal_extra:twinite_ingot', 1, 'thermal_extra:twinite_plate');
+    rollingFTB('thermal_extra:soul_infused_ingot', 1, 'thermal_extra:soul_infused_plate');
+    rollingFTB('thermal_extra:shellite_ingot', 1, 'thermal_extra:shellite_plate');
+    rollingFTB('thermal_extra:dragonsteel_ingot', 1, 'thermal_extra:dragonsteel_plate');
+    rollingFTB('create:brass_ingot', 1, 'create:brass_sheet');
+    rollingFTB('create:zinc_ingot', 1, 'createaddition:zinc_sheet');
+    rollingFTB('beyond_earth:desh_ingot', 1, 'beyond_earth:desh_plate');
+    rollingFTB('thermal:nickel_ingot', 1, 'thermal:nickel_plate');
+    rollingFTB('thermal:electrum_ingot', 1, 'thermal:electrum_plate');
+    rollingFTB('thermal:silver_ingot', 1, 'thermal:silver_plate');
+    rollingFTB('minecraft:netherite_ingot', 1, 'thermal:netherite_plate');
+    rollingFTB('beyond_earth:steel_ingot', 1, 'immersiveengineering:plate_steel');
+    castingTable('multi_use/plate', false, "thermal_extra:shellite", 90, 'thermal_extra:shellite_plate', 140);
+    castingTable('single_use/plate', true, "thermal_extra:shellite", 90, 'thermal_extra:shellite_plate', 140);
+    castingTable('multi_use/plate', false, "thermal_extra:twinite", 90, 'thermal_extra:twinite_plate', 60);
+    castingTable('single_use/plate', true, "thermal_extra:twinite", 90, 'thermal_extra:twinite_plate', 60);
     /**********************Raw Materials*************************/
     ['#forge:raw_materials/silver', 'darkerdepths:raw_silver', 'occultism:raw_silver', 'immersiveengineering:raw_silver'].forEach(I => { replaceIO(I, 'thermal:raw_silver') });
     ['#forge:raw_materials/nickel', 'immersiveengineering:raw_nickel'].forEach(I => { replaceIO(I, 'thermal:raw_nickel') });
