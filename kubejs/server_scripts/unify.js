@@ -286,6 +286,7 @@ onEvent('recipes', function (e) {
     ['#forge:bitumen', 'immersivepetroleum:bitumen'].forEach(I => { replaceIO(I, 'thermal:bitumen') });
     ['#forge:slag', 'immersiveengineering:slag'].forEach(I => { replaceIO(I, 'thermal:slag') });
     ['#forge:coal_coke', 'immersiveengineering:coal_coke'].forEach(I => { replaceIO(I, 'thermal:coal_coke') });
+    ['reliquary:bat_wing'].forEach(I => { replaceIO(I, 'forbidden_arcanus:bat_wing') });
 
 
 })

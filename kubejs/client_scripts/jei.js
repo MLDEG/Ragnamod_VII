@@ -275,6 +275,7 @@ onEvent('jei.hide.items', event => {
 		'immersiveengineering:coal_coke',
 		'avaritia:cosmic_meatballs',
 		'tempad:he_who_remains_tempad',
+		'reliquary:bat_wing',
 
 	])
 })

@@ -1,27 +1,23 @@
 {
-    "type": "minecraft:bat",
-    "name": "entity.minecraft.bat",
-    "name_color": "0x594b30",
-    "gui_scale": 2,
-    "gui_x_offset": 0,
-    "gui_y_offset": -0.4,
-    "gui_z_offset": 0,
-    "sim_cost": 80,
-    "input": {
-        "item": "hostilenetworks:empty_prediction"
-    },
-    "base_drop": {
-        "item": "hostilenetworks:overworld_prediction"
-    },
-    "trivia": "hostilenetworks.trivia.bat",
-    "fabricator_drops": [
-        {
-            "item": "forbidden_arcanus:bat_wing",
-            "count": 16
-        },
-        {
-            "item": "reliquary:bat_wing",
-            "count": 2
-        }
-    ]
+  "type": "minecraft:bat",
+  "name": "entity.minecraft.bat",
+  "name_color": "0x594b30",
+  "gui_scale": 2,
+  "gui_x_offset": 0,
+  "gui_y_offset": -0.4,
+  "gui_z_offset": 0,
+  "sim_cost": 80,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.bat",
+  "fabricator_drops": [
+    {
+      "item": "forbidden_arcanus:bat_wing",
+      "count": 16
+    }
+  ]
 }
