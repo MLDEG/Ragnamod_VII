@@ -350,6 +350,8 @@ onEvent('recipes', e => {
         'thermal_extra:parts/twinite_gear',
         'thermal_extra:parts/soul_infused_gear',
         'redstone_arsenal:materials/flux_gear',
+        'forbidden_arcanus:enchanted_golden_apple',
+        'bhc:god_apple',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',

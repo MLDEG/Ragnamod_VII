@@ -200,7 +200,6 @@ onEvent('recipes', function (e) {
     castingTable('single_use/gear', true, "thermal_extra:shellite", 360, 'thermal_extra:shellite_gear', 140);
     castingTable('multi_use/gear', false, "thermal_extra:twinite", 360, 'thermal_extra:twinite_gear', 60);
     castingTable('single_use/gear', true, "thermal_extra:twinite", 360, 'thermal_extra:twinite_gear', 60);
-
     /**********************Plates*************************/
     ['#forge:plates/iron', 'chemlib:iron_plate', 'beyond_earth:iron_plate', 'create:iron_sheet', 'thermal:iron_plate', 'immersiveengineering:plate_iron'].forEach(I => { replaceIO(I, 'ftbic:iron_plate') });
     ['#forge:plates/gold', 'chemlib:gold_plate', 'thermal:gold_plate', 'immersiveengineering:plate_gold', 'create:golden_sheet'].forEach(I => { replaceIO(I, 'ftbic:gold_plate') });
