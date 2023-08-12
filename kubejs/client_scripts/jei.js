@@ -274,7 +274,8 @@ onEvent('jei.hide.items', event => {
 		'immersiveengineering:slag',
 		'immersiveengineering:coal_coke',
 		'avaritia:cosmic_meatballs',
-		'tempad:he_who_remains_tempad'
+		'tempad:he_who_remains_tempad',
+
 	])
 })
 
@@ -309,15 +310,17 @@ onEvent('jei.add.items', event => {
 	])
 })
 
-onEvent('jei.remove.categories', event => {
+onEvent('jei.remove.categories', e => {
 	// console.log(e.getCategoryIds())	
-	event.remove('twilightforest:uncrafting')
+	e.remove('twilightforest:uncrafting')
 })
 
-onEvent('jei.information', event => {
-	event.add('chemlib:draconium_compound', 
-	['This chemical\'s is only used to create draconium dust.']
-	)
+onEvent('jei.information', e => {
+	e.add('chemlib:draconium_compound', ['This chemical\'s is only used to create draconium dust.'])
+	e.add('bhc:red_heart', ['Drop from passive mobs'])
+	e.add('bhc:yellow_heart', ['Drop from bosses'])
+	e.add('bhc:green_heart', ['Drop from Piglin Bathering'])
+	e.add('bhc:blue_heart', ['Drop from Pixies from Alfeim'])
   })
 
 //Tooltips ChemLib
