@@ -16,7 +16,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	   This layer appears in the y range of: "dimension min Y to layer size".
 	*/
   bottomLayer: {
-    biomeSize: 4,
+    biomeSize: 2,
     /* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -45,7 +45,11 @@ If your settings in this file seem to have to no effect on the generation of the
         weight: 2,
       },
       {
-        data: "byg:weeping_mire",
+        data: "byg:brimstone_caverns",
+        weight: 2,
+      },
+      {
+        data: "byg:subzero_hypogeal",
         weight: 2,
       },
       {
@@ -53,27 +57,23 @@ If your settings in this file seem to have to no effect on the generation of the
         weight: 2,
       },
       {
-        data: "byg:brimstone_caverns",
+        data: "byg:weeping_mire",
         weight: 2,
       },
       {
-        data: "byg:subzero_hypogeal",
-        weight: 0,
-      },
-      {
         data: "byg:warped_desert",
-        weight: 0,
-      },
-      {
-        data: "byg:magma_wastes",
         weight: 2,
       },
       {
         data: "byg:quartz_desert",
-        weight: 0,
+        weight: 2,
       },
       {
         data: "byg:crimson_gardens",
+        weight: 2,
+      },
+      {
+        data: "byg:magma_wastes",
         weight: 2,
       },
       {
@@ -112,7 +112,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	   ie. y40 to y80 if layer size is 40 or y60 to y120 if layer size is 60.
 	*/
   middleLayer: {
-    biomeSize: 4,
+    biomeSize: 2,
     /* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -195,7 +195,7 @@ If your settings in this file seem to have to no effect on the generation of the
     ],
   },
   upperLayer: {
-    biomeSize: 4,
+    biomeSize: 2,
     biomeWeights: [
       {
         data: "minecraft:crimson_forest",
@@ -218,11 +218,7 @@ If your settings in this file seem to have to no effect on the generation of the
         weight: 2,
       },
       {
-        data: "byg:brimstone_caverns",
-        weight: 2,
-      },
-      {
-        data: "byg:subzero_hypogeal",
+        data: "byg:weeping_mire",
         weight: 2,
       },
       {
@@ -230,23 +226,27 @@ If your settings in this file seem to have to no effect on the generation of the
         weight: 2,
       },
       {
-        data: "byg:weeping_mire",
+        data: "byg:brimstone_caverns",
         weight: 2,
       },
       {
+        data: "byg:subzero_hypogeal",
+        weight: 0,
+      },
+      {
         data: "byg:warped_desert",
+        weight: 0,
+      },
+      {
+        data: "byg:magma_wastes",
         weight: 2,
       },
       {
         data: "byg:quartz_desert",
-        weight: 2,
+        weight: 0,
       },
       {
         data: "byg:crimson_gardens",
-        weight: 2,
-      },
-      {
-        data: "byg:magma_wastes",
         weight: 2,
       },
       {
