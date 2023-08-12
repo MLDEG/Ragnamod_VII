@@ -46,6 +46,9 @@
       "twilightforest:deer": 0.05,
       "twilightforest:boar": 0.05
     },
+    "green": {
+      "minecraft:ender_dragon": 0.0
+    },
     "blue": {
       "mythicbotany:alf_pixie": 0.1
     },
