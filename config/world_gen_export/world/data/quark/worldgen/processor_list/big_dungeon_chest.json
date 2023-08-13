@@ -1,7 +1,0 @@
-{
-	"processors": [
-		{
-			"processor_type": "quark:big_dungeon_chest"
-		}
-	]
-}

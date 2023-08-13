@@ -1,7 +1,0 @@
-{
-	"adapt_noise": true,
-	"biomes": "#twilightforest:valid_quest_grove_biomes",
-	"config": { },
-	"spawn_overrides": { },
-	"type": "twilightforest:quest_grove"
-}

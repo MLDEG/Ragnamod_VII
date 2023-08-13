@@ -1,9 +1,0 @@
-{
-	"config": {
-		"feature": "blue_skies:brisk_meadow_flower_rpc_p",
-		"tries": 80,
-		"xz_spread": 7,
-		"y_spread": 3
-	},
-	"type": "minecraft:random_patch"
-}

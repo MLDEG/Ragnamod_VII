@@ -1,7 +1,0 @@
-{
-	"adapt_noise": true,
-	"biomes": "#twilightforest:valid_final_castle_biomes",
-	"config": { },
-	"spawn_overrides": { },
-	"type": "twilightforest:final_castle"
-}

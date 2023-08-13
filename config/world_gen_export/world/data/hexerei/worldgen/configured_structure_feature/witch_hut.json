@@ -1,9 +1,0 @@
-{
-	"biomes": "minecraft:swamp",
-	"config": {
-		"size": 2,
-		"start_pool": "hexerei:witch_hut/start_pool"
-	},
-	"spawn_overrides": { },
-	"type": "hexerei:witch_hut"
-}

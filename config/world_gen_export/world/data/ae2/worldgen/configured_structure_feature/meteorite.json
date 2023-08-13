@@ -1,6 +1,0 @@
-{
-	"biomes": "#ae2:has_meteorites",
-	"config": { },
-	"spawn_overrides": { },
-	"type": "ae2:meteorite"
-}

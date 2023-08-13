@@ -1,9 +1,0 @@
-{
-	"biomes": "#minecraft:has_structure/mineshaft",
-	"config": {
-		"size": 1,
-		"start_pool": "quark:big_dungeon/starts"
-	},
-	"spawn_overrides": { },
-	"type": "quark:mega_dungeon"
-}

@@ -1,8 +1,0 @@
-{
-	"feature": "quark:deferred_feature_local_modifications",
-	"placement": [
-		{
-			"type": "quark:chunk_corner"
-		}
-	]
-}

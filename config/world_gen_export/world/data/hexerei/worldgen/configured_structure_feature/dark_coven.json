@@ -1,9 +1,0 @@
-{
-	"biomes": "minecraft:swamp",
-	"config": {
-		"size": 7,
-		"start_pool": "hexerei:coven/dark_coven/town_centers"
-	},
-	"spawn_overrides": { },
-	"type": "hexerei:dark_coven"
-}

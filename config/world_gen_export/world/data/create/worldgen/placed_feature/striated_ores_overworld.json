@@ -1,9 +1,0 @@
-{
-	"feature": "create:striated_ores_overworld",
-	"placement": [
-		{
-			"entry": "create:striated_ores_overworld",
-			"type": "create:config_driven"
-		}
-	]
-}

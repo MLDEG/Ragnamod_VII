@@ -1,9 +1,0 @@
-{
-	"config": {
-		"max_height": 10,
-		"max_radius": 1,
-		"min_height": 7,
-		"min_radius": 1
-	},
-	"type": "blue_skies:moonstone_spike"
-}

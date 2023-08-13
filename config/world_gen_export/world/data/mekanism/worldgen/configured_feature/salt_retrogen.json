@@ -1,8 +1,0 @@
-{
-	"config": {
-		"state": {
-			"Name": "mekanism:block_salt"
-		}
-	},
-	"type": "mekanism:disk"
-}

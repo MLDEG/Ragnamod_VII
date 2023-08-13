@@ -1,9 +1,0 @@
-{
-	"config": {
-		"target": {
-			"predicate_type": "minecraft:tag_match",
-			"tag": "minecraft:deepslate_ore_replaceables"
-		}
-	},
-	"type": "miningmaster:random_gem_ore_deepslate_feature"
-}

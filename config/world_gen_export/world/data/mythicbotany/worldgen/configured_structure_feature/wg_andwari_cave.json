@@ -1,9 +1,0 @@
-{
-	"biomes": "#mythicbotany:andwari_cave",
-	"config": {
-		"size": 0,
-		"start_pool": "minecraft:village/plains/town_centers"
-	},
-	"spawn_overrides": { },
-	"type": "mythicbotany:andwari_cave"
-}

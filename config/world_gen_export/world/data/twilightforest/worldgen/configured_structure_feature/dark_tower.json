@@ -1,7 +1,0 @@
-{
-	"adapt_noise": true,
-	"biomes": "#twilightforest:valid_dark_tower_biomes",
-	"config": { },
-	"spawn_overrides": { },
-	"type": "twilightforest:dark_tower"
-}
