@@ -74,3 +74,4 @@ refresh_value = 24000
 check_world_border = false
 #list of structures in which loot chests should automatically refresh (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
 refresh_structures = []
+
