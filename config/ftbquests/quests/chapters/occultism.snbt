@@ -231,7 +231,7 @@
 			y: 6.0d
 			dependencies: [
 				"514C05D403F385B6"
-				"5A4EE2944C1151AF"
+				"331FC88010907455"
 			]
 			id: "40DC6014B8542DF8"
 			tasks: [
@@ -369,7 +369,6 @@
 			dependencies: [
 				"4712F25FE9D3F49D"
 				"10B492869E896F19"
-				"1558BE6E860A8770"
 			]
 			id: "652C41159F78F6A6"
 			tasks: [{
@@ -3257,7 +3256,7 @@
 			tasks: [{
 				id: "3A3B289A2BCC375F"
 				type: "item"
-				item: "occultism:raw_iesnium"
+				item: "occultism:iesnium_ore"
 			}]
 		}
 		{

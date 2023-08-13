@@ -195,7 +195,7 @@
 			title: "Edelwood Planks"
 			x: 1.5d
 			y: -1.0d
-			description: ["Edelwood Planks come from the Edelwood Log, who you can find some in Roofed Forest or craft it."]
+			description: ["Edelwood Planks come from the Edelwood Log, who you can find some in Dark Forest or craft it."]
 			dependencies: ["000000000000060C"]
 			id: "00000000000005EE"
 			tasks: [{

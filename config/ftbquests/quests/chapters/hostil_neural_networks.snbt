@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 19
 	filename: "hostil_neural_networks"
-	title: "Hostil Neural Networks"
+	title: "Hostile Neural Networks"
 	icon: "hostilenetworks:sim_chamber"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

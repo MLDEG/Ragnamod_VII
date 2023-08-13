@@ -2114,13 +2114,13 @@
 			tasks: [{
 				id: "193DE2FC5FC443C1"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "beyond_earth:steel_ingot"
 				count: 64L
 			}]
 			rewards: [{
 				id: "24A2D270B6BD7BC8"
 				type: "item"
-				item: "mekanism:block_steel"
+				item: "beyond_earth:steel_block"
 			}]
 		}
 		{
