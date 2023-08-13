@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "wsw",
+    "hhh"
+  ],
+  "key": {
+    "w": [
+      {
+        "item": "blue_skies:cherry_planks"
+      }
+    ],
+    "s": [
+      {
+        "item": "minecraft:wheat_seeds"
+      }
+    ],
+    "h": [
+      {
+        "item": "minecraft:hay_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "chickens:breeder"
+  }
+}

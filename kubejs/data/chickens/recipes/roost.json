@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "w w",
+    "hhh"
+  ],
+  "key": {
+    "w": [
+      {
+        "item": "blue_skies:frostbright_planks"
+      }
+    ],
+    "h": [
+      {
+        "item": "minecraft:hay_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "chickens:roost"
+  }
+}
