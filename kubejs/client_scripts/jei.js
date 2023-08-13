@@ -276,6 +276,8 @@ onEvent('jei.hide.items', event => {
 		'avaritia:cosmic_meatballs',
 		'tempad:he_who_remains_tempad',
 		'reliquary:bat_wing',
+		'architects_palette:withered_bone',
+		'tconstruct:necrotic_bone',
 
 	])
 })

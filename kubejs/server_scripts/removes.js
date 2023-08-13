@@ -352,6 +352,7 @@ onEvent('recipes', e => {
         'redstone_arsenal:materials/flux_gear',
         'forbidden_arcanus:enchanted_golden_apple',
         'bhc:god_apple',
+        'architects_palette:bone_meal',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',

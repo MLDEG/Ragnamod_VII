@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "bhc:wither_bone"
+    },
+    {
+      "item": "tconstruct:blood_congealed_slime"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee_or_unarmed"
+    },
+    {
+      "tag": "tconstruct:modifiable/ranged/bows"
+    }
+  ],
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:necrotic",
+    "level": 1
+  },
+  "max_level": 5
+}
