@@ -544,6 +544,25 @@
 				item: "minecraft:coal_block"
 			}]
 		}
+		{
+			title: "How to return in the Undergarden and Twilight Forest."
+			x: 7.5d
+			y: 4.0d
+			shape: "circle"
+			description: ["With this catalyst, you can return, from the overworld, to the Undergarden and therefore by definition return to the Twilight Forest by making a portal and using this same catalyst to open a new portal."]
+			dependencies: ["4543AD330BD0A901"]
+			id: "13B3A667FA99741C"
+			tasks: [{
+				id: "774111107EC390B8"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+			rewards: [{
+				id: "2D4FA487219B7095"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

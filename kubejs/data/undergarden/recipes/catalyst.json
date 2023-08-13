@@ -1,0 +1,12 @@
+{
+  "type": "naturesaura:offering",
+  "input": {
+    "item": "beyond_earth:raw_desh"
+  },
+  "start_item": {
+    "item": "naturesaura:calling_spirit"
+  },
+  "output": {
+    "item": "undergarden:catalyst"
+  }
+}

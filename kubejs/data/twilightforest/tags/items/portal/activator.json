@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
-    "kubejs:portal_activator"
+    "kubejs:portal_activator",
+    "undergarden:catalyst"
   ]
 }

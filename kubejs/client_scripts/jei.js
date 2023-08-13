@@ -197,7 +197,6 @@ onEvent('jei.hide.items', event => {
 		'immersiveengineering:raw_aluminum',
 		'compactmachines:solid_wall',
 		'compactmachines:chunkloader_upgrade',
-		'undergarden:catalyst',
 		'thermal:tin_plate',
 		'immersiveengineering:plate_nickel',
 		'immersiveengineering:plate_copper',
