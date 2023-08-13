@@ -65,7 +65,7 @@ maximum = 128
 #Underground Grove Settings
 [worldgen.underground_grove]
 #True to generate underground groves. Should not be changed in most scenarios.
-generateUndergroundGroves = true
+generateUndergroundGroves = false
 #The chance for a grove to spawn in a chunk (generates 1/groveSpawnChance chunks on average).
 #Range: > 0
 groveSpawnChance = 400
