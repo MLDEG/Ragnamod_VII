@@ -155,7 +155,7 @@ onEvent('tags.items', e => {
     //Adding Tags
     
     e.add('botania:metamorphic_stone', ['botania:metamorphic_desert_stone', 'botania:metamorphic_forest_stone', 'botania:metamorphic_fungal_stone', 'botania:metamorphic_mesa_stone', 'botania:metamorphic_mountain_stone', 'botania:metamorphic_plains_stone', 'botania:metamorphic_swamp_stone', 'botania:metamorphic_taiga_stone'])
-    e.add('itemfilters:check_nbt', ['chickens:chicken_item', 'chickens:colored_egg'])
+    e.add('itemfilters:check_nbt', ['chickens:chicken_item', 'chickens:colored_egg', 'naturesaura:aura_bottle'])
     e.add('forge:storage_blocks/hop_graphite', 'immersiveengineering:storage_hop_graphite')
     e.add('forge:ores/iron', 'infernalexp:basalt_iron_ore')
     e.add('forge:ores/silver', ['darkerdepths:aridrock_silver_ore', 'darkerdepths:limestone_silver_ore'])

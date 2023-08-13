@@ -517,12 +517,6 @@
 				item: "forbidden_arcanus:obsidian_ingot"
 				count: 64L
 			}]
-			rewards: [{
-				id: "603E8C42FAEBEF4E"
-				type: "item"
-				item: "kubejs:obsidian_ingot_block"
-				count: 10
-			}]
 		}
 		{
 			title: "Arcane Gold Ingot"

@@ -475,11 +475,6 @@
 				type: "item"
 				item: "psi:cad_assembler"
 			}]
-			rewards: [{
-				id: "3E2C1EF2A1BAA281"
-				type: "item"
-				item: "kubejs:tungsten_block"
-			}]
 		}
 		{
 			x: 0.0d
@@ -491,11 +486,6 @@
 				id: "0000000000000AAE"
 				type: "item"
 				item: "psi:programmer"
-			}]
-			rewards: [{
-				id: "6316DE5EBCEA8216"
-				type: "item"
-				item: "rftoolscontrol:cpu_core_2000"
 			}]
 		}
 		{

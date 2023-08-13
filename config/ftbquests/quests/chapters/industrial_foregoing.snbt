@@ -336,12 +336,6 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_culinary"
 			}]
-			rewards: [{
-				id: "720A4D514600C622"
-				type: "item"
-				item: "pamhc2foodextended:cornedbeefbreakfastitem"
-				count: 8
-			}]
 		}
 		{
 			x: 6.5d
