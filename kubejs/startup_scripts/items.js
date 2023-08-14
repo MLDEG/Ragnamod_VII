@@ -154,7 +154,6 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:space').displayName('§bSpace Singularity')
     e.create('ragnamod_seven:infinity_gem').displayName('§cInfinity Gem')
     e.create('ragnamod_seven:sphere').displayName('Sphere Of All Things')
-    e.create('ragnamod_seven:neutronium_nutritious_compound').displayName('Nutritious Compound of Neutronium')
     e.create('gateways:catalyst_small_pearl_gate').displayName('Small Gate Catalyst')
     e.create('gateways:catalyst_medium_pearl_gate').displayName('Medium Gate Catalyst')
     e.create('gateways:catalyst_large_pearl_gate').displayName('Large Gate Catalyst')
