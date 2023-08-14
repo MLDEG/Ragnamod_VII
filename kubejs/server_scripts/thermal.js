@@ -35,7 +35,6 @@ onEvent('recipes', e => {
     igneousExtruder('minecraft:water', 'quark:polished_myalite', 'quark:myalite')
     igneousExtruder('minecraft:water', 'twilightforest:thick_castle_brick', 'twilightforest:castle_brick')
     igneousExtruder('minecraft:water', 'quark:dusky_myalite', 'quark:dusky_myalite')
-
     igneousExtruder('minecraft:water', 'forbidden_arcanus:polished_darkstone', 'forbidden_arcanus:darkstone')
     igneousExtruder('minecraft:water', 'create:polished_cut_calcite', 'minecraft:calcite')
     igneousExtruder('minecraft:water', 'darkerdepths:polished_aridrock', 'darkerdepths:aridrock')
@@ -54,7 +53,6 @@ onEvent('recipes', e => {
     igneousExtruder('minecraft:water', 'beyond_earth:mars_stone_bricks', 'beyond_earth:mars_stone')
     igneousExtruder('minecraft:water', 'beyond_earth:moon_stone_bricks', 'beyond_earth:moon_stone')
     igneousExtruder('minecraft:water', 'beyond_earth:glacio_stone_bricks', 'beyond_earth:glacio_stone')
-
     igneousExtruder('minecraft:water', 'blue_skies:turquoise_stonebrick', 'blue_skies:turquoise_stone')
     igneousExtruder('minecraft:water', 'blue_skies:polished_taratite', 'blue_skies:taratite')
     igneousExtruder('minecraft:water', 'blue_skies:midnight_sandstone', 'blue_skies:midnight_sand')
