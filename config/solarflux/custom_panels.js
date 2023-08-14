@@ -33,86 +33,83 @@
 
 define english "en_us"
 
-var ourMaterial = false;
-
 /** This function is called when mod is being constructed */
 function init()
 {
-	// Example: (textures are extracted in /textures/ by default), uncomment to try it out! (Requires game restart)
+    panel()
+    .name("psi")
+    .height(6 / 16.0)
+    .generation("65536")
+    .capacity("256000000")
+    .transfer("524288")
+    .buildAndRegister()
+    .langBuilder()
+        .put(english, "PSI Solar Panel")
+        .build()
 
-    /* Comment Start
+    panel()
+    .name("alfsteel")
+    .height(6 / 16.0)
+    .generation("131072")
+    .capacity("512000000")
+    .transfer("1048576")
+    .buildAndRegister()
+    .langBuilder()
+        .put(english, "Alfsteel Solar Panel")
+        .build()
 
-    // You might need to use CraftTweaker or something else to make the material obtainable!
-	ourMaterial = newMaterial("example")
-	    .langBuilder()
-            .put(english, "Example Material")
-        .build();
+    panel()
+    .name("wyvern")
+    .height(6 / 16.0)
+    .generation("262144")
+    .capacity("1024000000")
+    .transfer("2097152")
+    .buildAndRegister()
+    .langBuilder()
+        .put(english, "Wyvern Solar Panel")
+        .build()
 
-	panel()
-		.name("example")
-		.height(8 / 16.0)
-		.generation("8388608")
-		.capacity("3355443200")
-		.transfer("50331648")
-	.buildAndRegister()
-		.langBuilder()
-			    .put(english, "Example Solar Panel")
-			.build()
-		.recipeBuilder()
-			.shape("ppp", "8c8", "8h8")
-			.bind('p', item("solarflux", "photovoltaic_cell_6"))
-			.bind('8', item("solarflux:sp_8"))
-			.bind('c', tag("forge", "storage_blocks/emerald"))
-			.bind('h', ourMaterial) // Here we use the newly added material in the recipe!
-		.build(2);
+    panel()
+    .name("draconic")
+    .height(6 / 16.0)
+    .generation("524288")
+    .capacity("2048000000")
+    .transfer("4194304")
+    .buildAndRegister()
+    .langBuilder()
+        .put(english, "Draconic Solar Panel")
+        .build()
 
-    Comment end*/
-}
+    panel()
+    .name("chaotic")
+    .height(6 / 16.0)
+    .generation("1048576")
+    .capacity("4096000000")
+    .transfer("8388608")
+    .buildAndRegister()
+    .langBuilder()
+        .put(english, "Chaotic Solar Panel")
+        .build()
 
-/*
-* This method is used to register additional recipes
-* Below listed all vanilla options for adding recipes.
-*/
+    panel()
+    .name("neutronium")
+    .height(6 / 16.0)
+    .generation("2097152")
+    .capacity("8192000000")
+    .transfer("16777216")
+    .buildAndRegister()
+    .langBuilder()
+        .put(english, "Neutronium Solar Panel")
+        .build()
 
-function registerRecipes($)
-{
-    // IF you have a mod with custom recipe type, register them with the following:
-    // $.add(IRecipe<?>)
-    // Just don't forget to import the recipe class.
-    // To pass an ingredient to a recipe wrap your item()/tag() call in a ingredient().
-    // Basically this will create Minecraft Ingredient: ingredient(tag("forge", "storage_blocks/emerald"))
-
-    if(ourMaterial)
-    {
-        $.shaped() // Shaped recipe example
-            .result(ourMaterial, 2)
-            .shape("###", "#$#", "###")
-            .map('$', item("solarflux", "ender_glass"))
-            .map('#', tag("forge", "rods/blaze"))
-            .register();
-
-        $.shapeless() // Shapeless recipe example
-            .result(ourMaterial, 1)
-            .add(item("solarflux", "ender_glass"))
-            .add(tag("forge", "rods/blaze"))
-            .add(tag("forge", "rods/blaze"))
-            .add(tag("forge", "rods/blaze"))
-            .register();
-
-        $.stoneCutting() // Stone cutting recipe example
-            .result(ourMaterial, 1)
-            .input(item("solarflux", "ender_glass"))
-            .register();
-
-        // $.blasting() can be replaced with the following: (they have exactly same construction options)
-        //     $.smelting()
-        //     $.campfire()
-        //     $.smoking()
-        $.blasting() // Blasting cutting recipe example
-            .result(ourMaterial, 1)
-            .input(item("solarflux", "ender_glass"))
-            .cookTime(400) // 20 seconds
-            .xp(10.0)
-            .register();
+    panel()
+    .name("ultimate")
+    .height(6 / 16.0)
+    .generation("41974304")
+    .capacity("16384000000")
+    .transfer("33554432")
+    .buildAndRegister()
+    .langBuilder()
+        .put(english, "Ultimate Solar Panel")
+        .build()
     }
-}
