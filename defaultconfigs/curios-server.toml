@@ -1,0 +1,34 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+identifier = "terminal"
+icon = "curios:slot/empty_terminal"
+size = 1
+
+[[curiosSettings]]
+identifier = "curio"
+size = 4
+
+[[curiosSettings]]
+identifier = "head"
+size = 2
+
+[[curiosSettings]]
+identifier = "necklace"
+size = 2
+
+[[curiosSettings]]
+identifier = "hands"
+size = 2
+
+[[curiosSettings]]
+identifier = "ring"
+size = 10
+
+[[curiosSettings]]
+identifier = "belt"
+size = 4
+
+[[curiosSettings]]
+identifier = "charm"
+size = 8

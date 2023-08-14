@@ -151,6 +151,7 @@ onEvent('tags.items', e => {
     e.remove('forge:slag', 'immersiveengineering:slag')
     e.remove('forge:coal_coke', 'immersiveengineering:coal_coke')
     e.remove('minecraft:coals', 'immersiveengineering:coal_coke')
+    e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal'])
 
     //Adding Tags
     
