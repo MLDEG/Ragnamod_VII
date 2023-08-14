@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "miniutilities:diamond_opinium_core"
+    },
+    "B": {
+      "item": "ars_nouveau:glyph_extend_time"
+    },
+    "C": {
+      "item": "apotheosis:epic_material"
+    },
+    "D": {
+      "item": "ars_nouveau:potion_flask_extend_time"
+    },
+    "E": {
+      "item": "redstone_arsenal:flux_ingot"
+    },
+    "F": {
+      "item": "warden_and_sculk:echo_shard"
+    }
+  },
+  "result": {
+    "item": "tiab:time_in_a_bottle"
+  }
+}
