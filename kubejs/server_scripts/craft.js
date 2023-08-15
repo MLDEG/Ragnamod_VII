@@ -1,5 +1,35 @@
 onEvent('recipes', e => {
 
+    //Corundum Block
+    //RED
+    e.shapeless('quark:red_corundum', '4x quark:red_corundum_cluster')
+    e.shapeless('4x quark:red_corundum_cluster', 'quark:red_corundum')
+    //ORANGE
+    e.shapeless('quark:orange_corundum', '4x quark:orange_corundum_cluster')
+    e.shapeless('4x quark:orange_corundum_cluster', 'quark:orange_corundum')
+    //YELLOW
+    e.shapeless('quark:yellow_corundum', '4x quark:yellow_corundum_cluster')
+    e.shapeless('4x quark:yellow_corundum_cluster', 'quark:yellow_corundum')
+    //GREEN
+    e.shapeless('quark:green_corundum', '4x quark:green_corundum_cluster')
+    e.shapeless('4x quark:green_corundum_cluster', 'quark:green_corundum')
+    //BLUE
+    e.shapeless('quark:blue_corundum', '4x quark:blue_corundum_cluster')
+    e.shapeless('4x quark:blue_corundum_cluster', 'quark:blue_corundum')
+    //INDIGO
+    e.shapeless('quark:indigo_corundum', '4x quark:indigo_corundum_cluster')
+    e.shapeless('4x quark:indigo_corundum_cluster', 'quark:indigo_corundum')
+    //VIOLET
+    e.shapeless('quark:violet_corundum', '4x quark:violet_corundum_cluster')
+    e.shapeless('4x quark:violet_corundum_cluster', 'quark:violet_corundum')
+    //WHITE
+    e.shapeless('quark:white_corundum', '4x quark:white_corundum_cluster')
+    e.shapeless('4x quark:white_corundum_cluster', 'quark:white_corundum')
+    //BLACK
+    e.shapeless('quark:black_corundum', '4x quark:black_corundum_cluster')
+    e.shapeless('4x quark:black_corundum_cluster', 'quark:black_corundum')
+
+
     //Nether Star Shard
     e.shapeless('minecraft:nether_star', '9x chickens:nether_star_shard')
     e.shapeless('9x chickens:nether_star_shard', 'minecraft:nether_star')
