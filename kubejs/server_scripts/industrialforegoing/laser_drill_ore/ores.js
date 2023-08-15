@@ -59,10 +59,8 @@ onEvent('recipes', e => {
     oreNether('byg:pendorite_ore', 0, 64, 1, 10)
     oreNether('byg:emeraldite_ore', 0, 64, 1, 13)
     oreNether('tconstruct:cobalt_ore', 0, 64, 3, 11)
-
     oreEnd('tinkers_reforged:kepu_ore', 30, 64, 3, 11)
     oreEnd('rftoolsbase:dimensionalshard_end', 0, 30, 1, 0)
-
     oreOverworld('ftbic:iridium_ore', -30, 0, 3, 0)
     oreOverworld('thermal:nickel_ore', -30, 30, 4, 4)
     oreOverworld('tinkers_reforged:aluminum_ore', 68, 84, 5, 12)
@@ -77,6 +75,7 @@ onEvent('recipes', e => {
     oreOverworld('thermal:sulfur_ore', -10, 10, 6, 4)
     oreOverworld('mekanism:osmium_ore', -10, 35, 8, 8)
     oreOverworld('thermal:lead_ore', 10, 40, 6, 10)
+    oreOverworld('tinkers_reforged:red_beryl_ore', 10, 40, 6, 10)
     oreOverworld('thermal:tin_ore', 64, 96, 8, 8)
     oreOverworld('thermal:silver_ore', 10, 40, 5, 7)
     oreOverworld('minecraft:gold_ore', -40, -20, 16, 4)
@@ -85,6 +84,7 @@ onEvent('recipes', e => {
     oreOverworld('thermal:apatite_ore', 100, 200, 25, 3)
     oreOverworld('thermal:cinnabar_ore', -30, 20, 6, 14)
     oreOverworld('create:zinc_ore', -40, 10, 4, 4)
+    oreOverworld('tinkers_reforged:deepslate_epidote_ore', -40, 10, 4, 4)
     oreOverworld('evilcraft:dark_ore', 0, 10, 2, 10)
     oreOverworld('forbidden_arcanus:arcane_crystal_ore', 0, 25, 5, 0)
     oreOverworld('deepresonance:resonating_ore_stone', -10, 40, 5, 14)
