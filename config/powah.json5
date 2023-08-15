@@ -19,16 +19,26 @@
     // List of fluids used in the Magmator.
     magmatic_fluids: {
       "minecraft:lava": 10000,
+      "tconstruct:blazing_blood": 100000,
     },
     // List of coolant fluids used in the Reactor and the Thermo Generator.
     coolant_fluids: {
       "minecraft:water": 1,
+      "tconstruct:venom": -1,
+      "create:chocolate": -2,
+      "industrialforegoing:ether_gas": -3,
     },
     // List of heat source blocks used under Thermo Generator.
     heat_blocks: {
       "minecraft:lava": 1000,
       "minecraft:magma_block": 800,
-      "powah:blazing_crystal_block": 2800,
+      "powah:blazing_crystal_block": 2500,
+      "tconstruct:magma": 1500,
+      "botania:blaze_block": 1250,
+      "tconstruct:blazing_blood": 2750,
+      "undergarden:virulent_mix_source": 3000,
+      "mekanism:superheating_element": 1750,
+      "avaritia:infinity_block": 10000,
     },
     // Energy produced per fuel tick in the Furnator.
     energy_per_fuel_tick: 30,
