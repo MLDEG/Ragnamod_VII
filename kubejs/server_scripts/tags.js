@@ -6,7 +6,7 @@ onEvent('tags.items', e => {
     e.remove('forge:ingots/enderium', 'ftbic:enderium_ingot')
     e.remove('forge:ingots/iridium', 'chemlib:iridium_ingot')
     e.remove('forge:ingots/zinc', 'chemlib:zinc_ingot')
-    e.remove('forge:ingots/electrum', 'immersiveengineering:ingot_electrum')
+    e.remove('forge:ingots/electrum', ['immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot'])
     e.remove('forge:ingots/constantan', 'immersiveengineering:ingot_constantan')
     e.remove('forge:ingots/bronze', ['ftbic:bronze_ingot', 'mekanism:ingot_bronze'])
     e.remove('forge:ingots/nickel', ['chemlib:nickel_ingot', 'immersiveengineering:ingot_nickel'])
@@ -41,10 +41,12 @@ onEvent('tags.items', e => {
     e.remove('forge:rods/aluminum', 'immersiveengineering:stick_aluminum')
     e.remove('forge:rods/uranium', 'immersiveposts:stick_uranium')
     e.remove('forge:rods/lead', 'immersiveposts:stick_lead')
+    e.remove('forge:rods/electrum', 'createaddition:electrum_rod')
 
     // //Remove Wires
     e.remove('forge:wires/aluminum', 'immersiveengineering:wire_aluminum')
     e.remove('forge:wires/gold', 'createaddition:gold_wire')
+    e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
     e.remove('forge:wires/copper', ['createaddition:copper_wire', 'immersiveengineering:wire_copper'])
 
     // //Remove Gears
@@ -106,6 +108,7 @@ onEvent('tags.items', e => {
     e.remove('forge:dusts/electrum', 'immersiveengineering:dust_electrum')
     e.remove('forge:dyes', 'mekanism:dust_sulfur')
     e.remove('forge:dyes/yellow', 'mekanism:dust_sulfur')
+    e.remove('forge:dusts/lithium', 'chemlib:lithium_dust')
 
     //Remove Raw Materials
     e.remove('forge:raw_materials/silver', ['darkerdepths:raw_silver', 'occultism:raw_silver', 'immersiveengineering:raw_silver'])

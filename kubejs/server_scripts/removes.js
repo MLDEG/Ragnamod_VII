@@ -6,6 +6,7 @@ onEvent('recipes', e => {
 
     var removeId = [
         /occultism:miner/,
+        /thermal:earth_charge/,
         'industrialforegoing:laser_drill_ore/raw_materials/iridium',
         'industrialforegoing:laser_drill_ore/raw_materials/nickel',
         'industrialforegoing:laser_drill_ore/raw_materials/aluminum',
@@ -358,6 +359,10 @@ onEvent('recipes', e => {
         'farmersdelight:cake_from_milk_bottle',
         'blue_skies:cake_compat',
         'create:crafting/curiosities/cake',
+        'createaddition:mixing/electrum',
+        'createaddition:crafting/electrum_ingot',
+        'createaddition:rolling/electrum_ingot',
+        'createaddition:rolling/electrum_plate',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',
