@@ -30,7 +30,7 @@
 			}
 			x: 0.0d
 			y: -1.0d
-			description: ["To get demon seeds, you need to go in EverDawn dimension and break some Lunar grass."]
+			description: ["To get Demon's Dream Seeds, you need to go in EverDawn dimension and break some Lunar grass."]
 			hide_dependency_lines: true
 			id: "624FB2D445541958"
 			tasks: [

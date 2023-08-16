@@ -277,6 +277,12 @@ onEvent('jei.hide.items', event => {
 		'reliquary:bat_wing',
 		'architects_palette:withered_bone',
 		'tconstruct:necrotic_bone',
+		'chemlib:lithium_dust',
+		'createaddition:electrum_wire',
+		'createaddition:electrum_rod',
+		'createaddition:electrum_ingot',
+		'createaddition:electrum_sheet',
+		'createaddition:electrum_nugget'
 
 	])
 })
@@ -349,6 +355,7 @@ onEvent('item.tooltip', tooltip => {
 	chemLib('gold', 'Au (79)', 'Transition Metals')
 	chemLib('copper', 'Cu (29)', 'Transition Metals')
 	chemLib('sulfur', 'S (16)', 'Reactive Non-Metals')
+	chemLib('lithium', 'Li (3)', 'Alkali Metals')
 
 	tooltip.addAdvanced('chickens:chicken_item', (item, advanced, text) => {
 		if (!item.nbt?.ChickenType?.id.match(/chickens:(red|orange|yellow|lime|green|blue|light_blue|cyan|pink|magenta|purple|brown|black|white|light_gray|gray)_chicken/)) {
