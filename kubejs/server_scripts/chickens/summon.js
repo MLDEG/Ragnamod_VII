@@ -79,7 +79,7 @@ onEvent('recipes', e => {
     summonChicken('blue_skies:ventium_ingot', 'blue_skies:ventium_block', 'ventium')
     summonChicken('twilightforest:steeleaf_ingot', 'twilightforest:steeleaf_block', 'steeleaf')
     summonChicken('thermal:constantan_ingot', 'thermal:constantan_block', 'constantan')
-    summonChicken('minecraft:nether_star', 'extendedcrafting:nether_star_block', 'nether_star')
+    summonChicken('minecraft:nether_star', 'miniutilities:nether_star_opinium_core', 'nether_star')
     summonChicken('minecraft:blaze_rod', 'botania:blaze_block', 'blaze')
     summonChicken('minecraft:amethyst_shard', 'minecraft:amethyst_block', 'amethyst_shard')
     summonChicken('undergarden:froststeel_ingot', 'undergarden:froststeel_block', 'froststeel')
