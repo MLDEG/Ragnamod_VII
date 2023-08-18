@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "# #", "###"],
+  "key": {
+    "#": {
+      "tag": "twilightforest:twilight_oak_logs"
+    }
+  },
+  "result": {
+    "item": "twilightforest:twilight_oak_chest",
+    "count": 4
+  }
+}

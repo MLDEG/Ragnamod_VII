@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "# #", "###"],
+  "key": {
+    "#": {
+      "tag": "twilightforest:transwood_logs"
+    }
+  },
+  "result": {
+    "item": "twilightforest:transformation_chest",
+    "count": 4
+  }
+}

@@ -363,6 +363,7 @@ onEvent('recipes', e => {
         'createaddition:crafting/electrum_ingot',
         'createaddition:rolling/electrum_ingot',
         'createaddition:rolling/electrum_plate',
+        'ars_nouveau:archwood_to_chest',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',

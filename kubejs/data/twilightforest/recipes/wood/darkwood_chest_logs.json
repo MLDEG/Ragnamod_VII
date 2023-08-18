@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "# #", "###"],
+  "key": {
+    "#": {
+      "tag": "twilightforest:darkwood_logs"
+    }
+  },
+  "result": {
+    "item": "twilightforest:darkwood_chest",
+    "count": 4
+  }
+}
