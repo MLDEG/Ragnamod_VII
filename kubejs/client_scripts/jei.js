@@ -340,8 +340,6 @@ onEvent('item.tooltip', tooltip => {
 			text.add(2, Text.of('§7' + text2))
 		})
 	}
-
-	chemLib('platinum', 'Pt (78)', 'Transition Metals')
 	chemLib('zinc', 'Zn (30)', 'Transition Metals')
 	chemLib('silver', 'Ag (47)', 'Transition Metals')
 	chemLib('iridium', 'Ir (77)', 'Transition Metals')
@@ -355,7 +353,6 @@ onEvent('item.tooltip', tooltip => {
 	chemLib('gold', 'Au (79)', 'Transition Metals')
 	chemLib('copper', 'Cu (29)', 'Transition Metals')
 	chemLib('sulfur', 'S (16)', 'Reactive Non-Metals')
-	chemLib('lithium', 'Li (3)', 'Alkali Metals')
 
 	tooltip.addAdvanced('chickens:chicken_item', (item, advanced, text) => {
 		if (!item.nbt?.ChickenType?.id.match(/chickens:(red|orange|yellow|lime|green|blue|light_blue|cyan|pink|magenta|purple|brown|black|white|light_gray|gray)_chicken/)) {
@@ -371,6 +368,11 @@ onEvent('item.tooltip', tooltip => {
 	
 	tooltip.addAdvanced('chemlib:draconium_compound', (item, advanced, text) => {
 			text.add(1, Text.of('§3Rn₂₄Xe₈Og₁₆Lu₃₂'))
+	})
+
+	tooltip.addAdvanced('mekanism:dust_lithium', (item, advanced, text) => {
+			text.add(1, Text.of('§3Li (3)'))
+			text.add(2, Text.of('§7Alkali Metals'))
 	})
 
 })
