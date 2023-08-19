@@ -2,6 +2,7 @@
 
 onEvent('recipes', e => {
 
+    //Dead Chicken
     e.custom({
         "type": "create:compacting",
         "ingredients": [
