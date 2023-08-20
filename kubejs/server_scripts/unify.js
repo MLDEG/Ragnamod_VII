@@ -34,11 +34,17 @@ onEvent('recipes', function (e) {
     //Pulverizer Thermal Tag
     function crusherThermalTag(input, output, amount){e.custom({"type": "thermal:pulverizer","ingredient": {"tag": input},"result": [{"item": output,"chance": amount}]})}
     //Macerating FTB
-    function crusherFTB(input, output){e.custom({"type": "ftbic:macerating","inputItems": [{"ingredient": {"item": input},"count": 1}],"outputItems": [{"item": output}]})}
+    function crusherFTB(input, countIn, output, countOut){e.custom({"type": "ftbic:macerating","inputItems": [{"ingredient": {"item": input},"count": countIn}],"outputItems": [{"item": output,"count": countOut}]})}
+    //Macerating FTB Tag
+    function crusherFTBTag(input, countIn, output, countOut){e.custom({"type": "ftbic:macerating","inputItems": [{"ingredient": {"tag": input},"count": countIn}],"outputItems": [{"item": output,"count": countOut}]})}
     //Crusher Create
-    function crusherCreate(input, output){e.custom({"type": "create:crushing","ingredients": [{"item": input}],"results": [{"item": output}],"processingTime": 100})}
+    function crusherCreate(input, output){e.custom({"type": "create:milling","ingredients": [{"item": input}],"results": [{"item": output}],"processingTime": 100})}
+    //Crusher Create Tag
+    function crusherCreateTag(input, output){e.custom({"type": "create:milling","ingredients": [{"tag": input}],"results": [{"item": output}],"processingTime": 100})}
     //Crusher Immersive
     function crusherIE(input, output){e.custom({"type":"immersiveengineering:crusher","secondaries":[],"result":{"item":output},"input":{"item":input},"energy":3000})}
+    //Crusher Immersive
+    function crusherIETag(input, output){e.custom({"type":"immersiveengineering:crusher","secondaries":[],"result":{"item":output},"input":{"tag":input},"energy":3000})}
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
@@ -150,6 +156,7 @@ onEvent('recipes', function (e) {
     crusherMeka('thermal:coal_coke', 'immersiveengineering:dust_coke', 1);
     crusherMeka('immersiveengineering:ingot_hop_graphite', 'immersiveengineering:dust_hop_graphite', 1);
     crusherMeka('chemlib:lithium_ingot', 'mekanism:dust_lithium', 1);
+    crusherMeka('thermal:niter', 'thermal:niter_dust', 1);
     crusherMekaTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1);
     crusherOccu('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust', 1, true);
     crusherOccu('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust', 1, true);
@@ -170,10 +177,7 @@ onEvent('recipes', function (e) {
     crusherOccu('tinkers_reforged:qivium_ingot', 'tinkers_reforged:qivium_dust', 1, true);
     crusherOccu('tinkers_reforged:chorus_metal_ingot', 'tinkers_reforged:chorus_metal_dust', 1, true);
     crusherOccu('tinkers_reforged:durasteel_ingot', 'tinkers_reforged:durasteel_dust', 1, true);
-    crusherOccu('tinkers_reforged:aluminum_ingot', 'tinkers_reforged:aluminum_dust', 1, true);
     crusherOccu('minecraft:lapis_lazuli', 'thermal:lapis_dust', 1, true);
-    crusherOccu('minecraft:diamond', 'thermal:diamond_dust', 1, true);
-    crusherOccu('minecraft:emerald', 'thermal:emerald_dust', 1, true);
     crusherOccu('minecraft:charcoal', 'ftbic:charcoal_dust', 1, true);
     crusherOccu('thermal_extra:shellite_ingot', 'thermal_extra:shellite_dust', 1, true);
     crusherOccu('thermal_extra:soul_infused_ingot', 'thermal_extra:soul_infused_dust', 1, true);
@@ -191,9 +195,12 @@ onEvent('recipes', function (e) {
     crusherOccu('thermal:coal_coke', 'immersiveengineering:dust_coke', 1, true);
     crusherOccu('immersivepetroleum:petcoke', 'immersivepetroleum:petcoke_dust', 1, true);
     crusherOccu('mekanism:fluorite_gem', 'mekanism:dust_fluorite', 1, true);
+    crusherOccu('thermal:niter', 'thermal:niter_dust', 1, true);
     crusherOccu('miniutilities:ender_ore', 'ae2:ender_dust', 2, false);
     crusherOccuTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1, true);
     crusherOccuTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1, true);
+    crusherOccuTag('forge:gems/diamond', 'thermal:diamond_dust', 1, true);
+    crusherOccuTag('forge:gems/emerald', 'thermal:emerald_dust', 1, true);
     crusherThermal('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust', 1);
     crusherThermal('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust', 1);
     crusherThermal('tinkers_reforged:wavy_ingot', 'tinkers_reforged:wavy_dust', 1);
@@ -231,11 +238,148 @@ onEvent('recipes', function (e) {
     crusherThermal('create:zinc_ingot', 'chemlib:zinc_dust', 1);
     crusherThermal('mekanism:ingot_uranium', 'mekanism:dust_uranium', 1);
     crusherThermalTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1);
+    crusherFTB('tinkers_reforged:crusteel_ingot', 1, 'tinkers_reforged:crusteel_dust', 1);
+    crusherFTB('tinkers_reforged:yokel_ingot', 1, 'tinkers_reforged:yokel_dust', 1);
+    crusherFTB('tinkers_reforged:wavy_ingot', 1, 'tinkers_reforged:wavy_dust', 1);
+    crusherFTB('tinkers_reforged:baolian_ingot', 1, 'tinkers_reforged:baolian_dust', 1);
+    crusherFTB('tinkers_reforged:duralumin_ingot', 1, 'tinkers_reforged:duralumin_dust', 1);
+    crusherFTB('tinkers_reforged:piroot_ingot', 1, 'tinkers_reforged:piroot_dust', 1);
+    crusherFTB('tinkers_reforged:gelot_ingot', 1, 'tinkers_reforged:gelot_dust', 1);
+    crusherFTB('tinkers_reforged:kepu_ingot', 1, 'tinkers_reforged:kepu_dust', 1);
+    crusherFTB('tinkers_reforged:gausum_ingot', 1, 'tinkers_reforged:gausum_dust', 1);
+    crusherFTB('tinkers_reforged:felsteel_ingot', 1, 'tinkers_reforged:felsteel_dust', 1);
+    crusherFTB('tinkers_reforged:electrical_copper_ingot', 1, 'tinkers_reforged:electrical_copper_dust', 1);
+    crusherFTB('tinkers_reforged:galu_ingot', 1, 'tinkers_reforged:galu_dust', 1);
+    crusherFTB('tinkers_reforged:blazing_copper_ingot', 1, 'tinkers_reforged:blazing_copper_dust', 1);
+    crusherFTB('tinkers_reforged:magma_steel_ingot', 1, 'tinkers_reforged:magma_steel_dust', 1);
+    crusherFTB('tinkers_reforged:cyber_steel_ingot', 1, 'tinkers_reforged:cyber_steel_dust', 1);
+    crusherFTB('tinkers_reforged:lavium_ingot', 1, 'tinkers_reforged:lavium_dust', 1);
+    crusherFTB('tinkers_reforged:qivium_ingot', 1, 'tinkers_reforged:qivium_dust', 1);
+    crusherFTB('tinkers_reforged:chorus_metal_ingot', 1, 'tinkers_reforged:chorus_metal_dust', 1);
+    crusherFTB('tinkers_reforged:durasteel_ingot', 1, 'tinkers_reforged:durasteel_dust', 1);
+    crusherFTB('minecraft:lapis_lazuli', 1, 'thermal:lapis_dust', 1);
+    crusherFTB('minecraft:quartz', 1, 'thermal:quartz_dust', 1);
+    crusherFTB('thermal:sulfur', 1, 'thermal:sulfur_dust', 1);
+    crusherFTB('chemlib:platinum_ingot', 1, 'chemlib:platinum_dust', 1);
+    crusherFTB('ae2:fluix_crystal', 1, 'ae2:fluix_dust', 1);
+    crusherFTB('redstone_arsenal:flux_ingot', 1, 'redstone_arsenal:flux_dust', 1);
+    crusherFTB('thermal_extra:dragonsteel_ingot', 1, 'thermal_extra:dragonsteel_dust', 1);
+    crusherFTB('thermal_extra:twinite_ingot', 1, 'thermal_extra:twinite_dust', 1);
+    crusherFTB('mekanism:ingot_osmium', 1, 'mekanism:dust_osmium', 1);
+    crusherFTB('create:zinc_ingot', 1, 'chemlib:zinc_dust', 1);
+    crusherFTB('thermal:electrum_ingot', 1, 'thermal:electrum_dust', 1);
+    crusherFTB('thermal:silver_ingot', 1, 'thermal:silver_dust', 1);
+    crusherFTB('beyond_earth:steel_ingot', 1, 'mekanism:dust_steel', 1);
+    crusherFTB('thermal:constantan_ingot', 1, 'thermal:constantan_dust', 1);
+    crusherFTB('minecraft:netherite_ingot', 1, 'thermal:netherite_dust', 1);
+    crusherFTB('thermal:nickel_ingot', 1, 'thermal:nickel_dust', 1);
+    crusherFTB('thermal_extra:shellite_ingot', 1, 'thermal_extra:shellite_dust', 1);
+    crusherFTB('thermal_extra:soul_infused_ingot', 1, 'thermal_extra:soul_infused_dust', 1);
+    crusherFTB('minecraft:soul_sand', 1, 'thermal_extra:soul_sand_dust', 1);
+    crusherFTB('mekanism:fluorite_gem', 1, 'mekanism:dust_fluorite', 1);
+    crusherFTB('immersivepetroleum:petcoke', 1, 'immersivepetroleum:petcoke_dust', 1);
+    crusherFTB('thermal:coal_coke', 1, 'immersiveengineering:dust_coke', 1);
+    crusherFTB('immersiveengineering:ingot_hop_graphite', 1, 'immersiveengineering:dust_hop_graphite', 1);
+    crusherFTB('chemlib:lithium_ingot', 1, 'mekanism:dust_lithium', 1);
+    crusherFTB('thermal:niter', 1, 'thermal:niter_dust', 1);
+    crusherFTBTag('forge:gems/emerald', 1, 'thermal:emerald_dust', 1);
+    crusherFTBTag('forge:gems/certus_quartz', 1, 'ae2:certus_quartz_dust', 1);
+    crusherFTBTag('forge:gems/amethyst', 1, 'thermal_extra:amethyst_dust', 1);
+    crusherCreate('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust');
+    crusherCreate('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust');
+    crusherCreate('tinkers_reforged:wavy_ingot', 'tinkers_reforged:wavy_dust');
+    crusherCreate('tinkers_reforged:baolian_ingot', 'tinkers_reforged:baolian_dust');
+    crusherCreate('tinkers_reforged:duralumin_ingot', 'tinkers_reforged:duralumin_dust');
+    crusherCreate('tinkers_reforged:piroot_ingot', 'tinkers_reforged:piroot_dust');
+    crusherCreate('tinkers_reforged:gelot_ingot', 'tinkers_reforged:gelot_dust');
+    crusherCreate('tinkers_reforged:kepu_ingot', 'tinkers_reforged:kepu_dust');
+    crusherCreate('tinkers_reforged:gausum_ingot', 'tinkers_reforged:gausum_dust');
+    crusherCreate('tinkers_reforged:felsteel_ingot', 'tinkers_reforged:felsteel_dust');
+    crusherCreate('tinkers_reforged:electrical_copper_ingot', 'tinkers_reforged:electrical_copper_dust');
+    crusherCreate('tinkers_reforged:galu_ingot', 'tinkers_reforged:galu_dust');
+    crusherCreate('tinkers_reforged:blazing_copper_ingot', 'tinkers_reforged:blazing_copper_dust');
+    crusherCreate('tinkers_reforged:magma_steel_ingot', 'tinkers_reforged:magma_steel_dust');
+    crusherCreate('tinkers_reforged:cyber_steel_ingot', 'tinkers_reforged:cyber_steel_dust');
+    crusherCreate('tinkers_reforged:lavium_ingot', 'tinkers_reforged:lavium_dust');
+    crusherCreate('tinkers_reforged:qivium_ingot', 'tinkers_reforged:qivium_dust');
+    crusherCreate('tinkers_reforged:chorus_metal_ingot', 'tinkers_reforged:chorus_metal_dust');
+    crusherCreate('tinkers_reforged:durasteel_ingot', 'tinkers_reforged:durasteel_dust');
+    crusherCreate('tinkers_reforged:aluminum_ingot', 'tinkers_reforged:aluminum_dust');
+    crusherCreate('thermal:sulfur', 'thermal:sulfur_dust');
+    crusherCreate('thermal:niter', 'thermal:niter_dust');
+    crusherCreate('chemlib:platinum_ingot', 'chemlib:platinum_dust');
+    crusherCreate('thermal:bronze_ingot', 'thermal:bronze_dust');
+    crusherCreate('create:zinc_ingot', 'chemlib:zinc_dust');
+    crusherCreate('mekanism:ingot_uranium', 'mekanism:dust_uranium');
+    crusherCreate('tinkers_reforged:aluminum_ingot', 'tinkers_reforged:aluminum_dust');
+    crusherCreate('ftbic:iridium_ingot', 'ftbic:iridium_dust');
+    crusherCreate('thermal:nickel_ingot', 'thermal:nickel_dust');
+    crusherCreate('mekanism:ingot_osmium', 'mekanism:dust_osmium');
+    crusherCreate('thermal:enderium_ingot', 'thermal:enderium_dust');
+    crusherCreate('thermal:lead_ingot', 'thermal:lead_dust');
+    crusherCreate('thermal:tin_ingot', 'thermal:tin_dust');
+    crusherCreate('thermal:constantan_ingot', 'thermal:constantan_dust');
+    crusherCreate('minecraft:gold_ingot', 'thermal:gold_dust');
+    crusherCreate('minecraft:netherite_ingot', 'thermal:netherite_dust');
+    crusherCreate('thermal:electrum_ingot', 'thermal:electrum_dust');
+    crusherCreate('thermal:silver_ingot', 'thermal:silver_dust');
+    crusherCreate('minecraft:copper_ingot', 'thermal:copper_dust');
+    crusherCreate('minecraft:iron_ingot', 'thermal:iron_dust');
+    crusherCreate('thermal_extra:dragonsteel_ingot', 'thermal_extra:dragonsteel_dust');
+    crusherCreate('redstone_arsenal:flux_ingot', 'redstone_arsenal:flux_dust');
+    crusherCreate('minecraft:soul_sand', 'thermal_extra:soul_sand_dust');
+    crusherCreate('thermal_extra:soul_infused_ingot', 'thermal_extra:soul_infused_dust');
+    crusherCreate('thermal_extra:shellite_ingot', 'thermal_extra:shellite_dust');
+    crusherCreate('thermal_extra:twinite_ingot', 'thermal_extra:twinite_dust');
+    crusherCreate('chemlib:lithium_ingot', 'mekanism:dust_lithium');
+    crusherCreate('immersiveengineering:ingot_hop_graphite', 'immersiveengineering:dust_hop_graphite');
+    crusherCreate('immersivepetroleum:petcoke', 'immersivepetroleum:petcoke_dust');
+    crusherCreate('mekanism:fluorite_gem', 'mekanism:dust_fluorite');
+    crusherCreateTag('forge:gems/emerald', 'thermal:emerald_dust');
+    crusherCreateTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
+    crusherIE('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust');
+    crusherIE('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust');
+    crusherIE('tinkers_reforged:wavy_ingot', 'tinkers_reforged:wavy_dust');
+    crusherIE('tinkers_reforged:baolian_ingot', 'tinkers_reforged:baolian_dust');
+    crusherIE('tinkers_reforged:duralumin_ingot', 'tinkers_reforged:duralumin_dust');
+    crusherIE('tinkers_reforged:piroot_ingot', 'tinkers_reforged:piroot_dust');
+    crusherIE('tinkers_reforged:gelot_ingot', 'tinkers_reforged:gelot_dust');
+    crusherIE('tinkers_reforged:kepu_ingot', 'tinkers_reforged:kepu_dust');
+    crusherIE('tinkers_reforged:gausum_ingot', 'tinkers_reforged:gausum_dust');
+    crusherIE('tinkers_reforged:felsteel_ingot', 'tinkers_reforged:felsteel_dust');
+    crusherIE('tinkers_reforged:electrical_copper_ingot', 'tinkers_reforged:electrical_copper_dust');
+    crusherIE('tinkers_reforged:galu_ingot', 'tinkers_reforged:galu_dust');
+    crusherIE('tinkers_reforged:blazing_copper_ingot', 'tinkers_reforged:blazing_copper_dust');
+    crusherIE('tinkers_reforged:magma_steel_ingot', 'tinkers_reforged:magma_steel_dust');
+    crusherIE('tinkers_reforged:cyber_steel_ingot', 'tinkers_reforged:cyber_steel_dust');
+    crusherIE('tinkers_reforged:lavium_ingot', 'tinkers_reforged:lavium_dust');
+    crusherIE('tinkers_reforged:qivium_ingot', 'tinkers_reforged:qivium_dust');
+    crusherIE('tinkers_reforged:chorus_metal_ingot', 'tinkers_reforged:chorus_metal_dust');
+    crusherIE('tinkers_reforged:durasteel_ingot', 'tinkers_reforged:durasteel_dust');
+    crusherIE('redstone_arsenal:flux_ingot', 'redstone_arsenal:flux_dust');
+    crusherIE('thermal_extra:dragonsteel_ingot', 'thermal_extra:dragonsteel_dust');
+    crusherIE('thermal_extra:twinite_ingot', 'thermal_extra:twinite_dust');
+    crusherIE('thermal_extra:shellite_ingot', 'thermal_extra:shellite_dust');
+    crusherIE('minecraft:netherite_ingot', 'thermal:netherite_dust');
+    crusherIE('thermal:sulfur', 'thermal:sulfur_dust');
+    crusherIE('minecraft:obsidian', 'create:powdered_obsidian');
+    crusherIE('minecraft:quartz', 'thermal:quartz_dust');
+    crusherIE('chemlib:lithium_ingot', 'mekanism:dust_lithium');
+    crusherIE('ae2:fluix_crystal', 'ae2:fluix_dust');
+    crusherIE('ftbic:iridium_ingot', 'ftbic:iridium_dust');
+    crusherIE('thermal:enderium_ingot', 'thermal:enderium_dust');
+    crusherIE('thermal_extra:soul_infused_ingot', 'thermal_extra:soul_infused_dust');
+    crusherIE('minecraft:soul_sand', 'thermal_extra:soul_sand_dust');
+    crusherIE('mekanism:fluorite_gem', 'mekanism:dust_fluorite');
+    crusherIE('immersiveengineering:ingot_hop_graphite', 'immersiveengineering:dust_hop_graphite');
+    crusherIE('minecraft:ender_pearl', 'ae2:ender_dust');
+    crusherIE('minecraft:charcoal', 'ftbic:charcoal_dust');
+    crusherIE('minecraft:lapis_lazuli', 'thermal:lapis_dust');
+    crusherIETag('forge:gems/diamond', 'thermal:diamond_dust');
+    crusherIETag('forge:gems/emerald', 'thermal:emerald_dust');
+    crusherIETag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust');
+    crusherIETag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
 
-    // crusherThermal(input, output, amount)
-    // crusherFTB(input, output)
-    // crusherCreate(input, output)
-    // crusherIE(input, output)
     // crusherIdynamics(input, output)
     /**********************Rodes*************************/
     ['#forge:rods/gold', 'immersiveposts:stick_gold', 'createaddition:gold_rod'].forEach(I => { replaceIO(I, 'ftbic:gold_rod') });

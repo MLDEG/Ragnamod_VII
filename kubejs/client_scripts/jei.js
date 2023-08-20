@@ -340,7 +340,6 @@ onEvent('item.tooltip', tooltip => {
 			text.add(2, Text.of('§7' + text2))
 		})
 	}
-	chemLib('zinc', 'Zn (30)', 'Transition Metals')
 	chemLib('silver', 'Ag (47)', 'Transition Metals')
 	chemLib('iridium', 'Ir (77)', 'Transition Metals')
 	chemLib('nickel', 'Ni (28)', 'Transition Metals')
@@ -373,6 +372,11 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.addAdvanced('mekanism:dust_lithium', (item, advanced, text) => {
 			text.add(1, Text.of('§3Li (3)'))
 			text.add(2, Text.of('§7Alkali Metals'))
+	})
+	
+	tooltip.addAdvanced(['create:zinc_ingot', 'create:zinc_nugget', 'createaddition:zinc_sheet'], (item, advanced, text) => {
+		text.add(1, Text.of('§3Zn (30)'))
+		text.add(2, Text.of('§7Transition Metals'))
 	})
 
 })

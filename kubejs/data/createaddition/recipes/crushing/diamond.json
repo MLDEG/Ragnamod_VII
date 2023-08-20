@@ -1,5 +1,5 @@
 {
-  "type": "create:crushing",
+  "type": "create:milling",
   "ingredients": [
     {
       "tag": "forge:gems/diamond"
