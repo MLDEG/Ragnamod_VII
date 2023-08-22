@@ -1,17 +1,13 @@
 {
   "type": "gateways:gate_recipe",
   "group": "gateways",
-  "pattern": [
-    "###",
-    "#A#",
-    "###"
-  ],
+  "pattern": ["###", "#A#", "###"],
   "key": {
     "#": {
       "item": "minecraft:slime_ball"
     },
-	"A": {
-      "item": "minecraft:ender_eye"
+    "A": {
+      "item": "gateways:catalyst_medium_pearl_gate"
     }
   },
   "result": {

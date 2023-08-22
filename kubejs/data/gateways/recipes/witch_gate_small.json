@@ -1,23 +1,19 @@
 {
   "type": "gateways:gate_recipe",
   "group": "gateways",
-  "pattern": [
-    " G ",
-    "RAR",
-    " B "
-  ],
+  "pattern": [" G ", "RAR", " B "],
   "key": {
     "G": {
       "item": "minecraft:glowstone_dust"
     },
-	"R": {
+    "R": {
       "item": "minecraft:redstone"
     },
-	"B": {
+    "B": {
       "item": "minecraft:glass_bottle"
     },
-	"A": {
-      "item": "minecraft:ender_pearl"
+    "A": {
+      "item": "gateways:catalyst_small_pearl_gate"
     }
   },
   "result": {

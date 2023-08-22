@@ -1,17 +1,13 @@
 {
   "type": "gateways:gate_recipe",
   "group": "gateways",
-  "pattern": [
-    " # ",
-    "#A#",
-    " # "
-  ],
+  "pattern": [" # ", "#A#", " # "],
   "key": {
     "#": {
       "item": "minecraft:ghast_tear"
     },
-	"A": {
-      "item": "minecraft:ender_pearl"
+    "A": {
+      "item": "gateways:catalyst_small_pearl_gate"
     }
   },
   "result": {
