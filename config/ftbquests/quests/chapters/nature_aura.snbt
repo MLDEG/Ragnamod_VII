@@ -10,7 +10,14 @@
 	quests: [
 		{
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
+			description: [
+				"Brilliant Fiber is used on sheets."
+				"Then wait a few minutes until you get completely golden leaves."
+				"{image:ftbquests:textures/quests/natureaura_golden_leaves.png width:150 height:100 align:1}"
+				"You can identify them when your foliage emits small particles."
+			]
+			dependencies: ["03F04C5F7BAED6A3"]
 			id: "6C96FE0695C6B11E"
 			tasks: [{
 				id: "0B3E4459E640F9BA"
@@ -19,8 +26,11 @@
 			}]
 		}
 		{
-			x: 1.0d
+			icon: "naturesaura:gold_leaf"
+			x: 0.0d
 			y: 0.0d
+			description: ["When you break the golden leaves you get gold leaf which you can then turn into powder."]
+			dependencies: ["6C96FE0695C6B11E"]
 			id: "21BC6CA6EEB95BC6"
 			tasks: [
 				{
@@ -37,8 +47,14 @@
 		}
 		{
 			icon: "naturesaura:nature_altar"
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"You can use the guide book to see the multiblock with ghost blocks, or you can reproduce the multiblock via the following image."
+				"{image:ftbquests:textures/quests/natureaura_natural_altar.png width:150 height:100 align:1}"
+				"The Altar works by absorbing aura from the atmosphere to transfer it to your craft."
+			]
+			dependencies: ["68383BED1EA06D9F"]
 			id: "27A25E88696A2CE0"
 			tasks: [
 				{
@@ -73,7 +89,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 1.0d
 			y: 0.0d
 			id: "4E0AAB85DBF67FDC"
 			tasks: [
@@ -129,8 +145,9 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["27A25E88696A2CE0"]
 			id: "29BEFD73AFC63136"
 			tasks: [{
 				id: "6A412B9CB37C2230"
@@ -139,8 +156,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["7C8755271F338DCB"]
 			id: "691F0E989EEE474C"
 			tasks: [{
 				id: "30EDBB2A75B3BA3B"
@@ -149,8 +167,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["72BB33D21B770DCE"]
 			id: "27DA3EEF9DF78B7A"
 			tasks: [{
 				id: "3750E76B1F664FAF"
@@ -159,8 +178,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["118CF1B7418B3CC4"]
 			id: "25EF9CEF662A2F45"
 			tasks: [{
 				id: "7F1050D2BEAD9870"
@@ -169,8 +189,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: -1.0d
 			y: 0.0d
+			dependencies: ["25EF9CEF662A2F45"]
 			id: "0FA9880BDFC97633"
 			tasks: [{
 				id: "3CA627F5CAB1F6C6"
@@ -179,8 +200,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["118CF1B7418B3CC4"]
 			id: "68383BED1EA06D9F"
 			tasks: [{
 				id: "6D0DCE436BA87093"
@@ -189,8 +211,13 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 1.0d
+			y: 2.0d
+			dependencies: [
+				"29BEFD73AFC63136"
+				"6D3F6DB72B2FBEB1"
+				"68383BED1EA06D9F"
+			]
 			id: "7118A69FCEF7E54D"
 			tasks: [
 				{
@@ -214,6 +241,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
+			dependencies: ["118CF1B7418B3CC4"]
 			id: "6D3F6DB72B2FBEB1"
 			tasks: [{
 				id: "7B82ECF64ED9FB64"
@@ -223,7 +251,12 @@
 		}
 		{
 			x: 2.0d
-			y: 1.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"29BEFD73AFC63136"
+				"0BDC79CB920BA817"
+			]
 			id: "237C80E9ED2EF157"
 			tasks: [{
 				id: "58761C4103F05CCE"
@@ -232,8 +265,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["237C80E9ED2EF157"]
 			id: "7504ADD9756D5D39"
 			tasks: [{
 				id: "6F3ADDF4EA4312E6"
@@ -242,8 +276,10 @@
 			}]
 		}
 		{
-			x: 4.0d
+			title: "Powders from the skies"
+			x: -2.0d
 			y: 1.0d
+			dependencies: ["27DA3EEF9DF78B7A"]
 			id: "761F1776ADC5E9F1"
 			tasks: [
 				{
@@ -271,8 +307,11 @@
 			]
 		}
 		{
-			x: 5.0d
+			title: "Catalysts"
+			x: 2.0d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["27A25E88696A2CE0"]
 			id: "0BE8AC98FA9A5F89"
 			tasks: [
 				{
@@ -288,8 +327,13 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: -1.0d
+			y: 2.0d
+			description: [
+				"To get some Spirit of Birthing you need to breed animals in a chunk with an excess of Aura !"
+				"You have a chance to get Spirit of Birthing that way."
+			]
+			dependencies: ["25EF9CEF662A2F45"]
 			id: "41426E66714F1FD8"
 			tasks: [{
 				id: "5EDCD196B66E146C"
@@ -298,8 +342,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["41426E66714F1FD8"]
 			id: "322FC9ECB2ECC680"
 			tasks: [
 				{
@@ -328,8 +373,9 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["27A25E88696A2CE0"]
 			id: "0BDC79CB920BA817"
 			tasks: [
 				{
@@ -347,8 +393,14 @@
 		{
 			title: "Crimson Altar"
 			icon: "naturesaura:nature_altar"
-			x: 2.0d
-			y: -1.0d
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"You can use the guide book to see the multiblock with ghost blocks, or you can reproduce the multiblock via the following image."
+				"{image:ftbquests:textures/quests/natureaura_crimson_altar.png width:150 height:100 align:1}"
+				"The Altar works by absorbing aura from the atmosphere to transfer it to your craft."
+			]
+			dependencies: ["68383BED1EA06D9F"]
 			id: "7C8755271F338DCB"
 			tasks: [
 				{
@@ -383,8 +435,11 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			title: "Ritual of the Forest"
+			icon: "naturesaura:wood_stand"
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["21BC6CA6EEB95BC6"]
 			id: "118CF1B7418B3CC4"
 			tasks: [
 				{
@@ -407,8 +462,12 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			title: "Offering of the Gods"
+			icon: "naturesaura:offering_table"
+			x: -2.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["29BEFD73AFC63136"]
 			id: "72BB33D21B770DCE"
 			tasks: [
 				{
