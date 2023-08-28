@@ -91,6 +91,14 @@
 		{
 			x: 1.0d
 			y: 0.0d
+			description: [
+				"Bottle and Cork is used to get different bottle."
+				""
+				"Darkness is obtainable in the end."
+				"The Ghosts is obtainable in the Nether."
+				"The sunlight is obtainable in the Overworld."
+				"The Substance is obtainable in other dimensions."
+			]
 			id: "4E0AAB85DBF67FDC"
 			tasks: [
 				{
@@ -147,6 +155,10 @@
 		{
 			x: 1.0d
 			y: 3.0d
+			description: [
+				"To get an Infused Iron, use an Iron Ingot in the Natural Altar."
+				"This ingot is used to make tools, aura cache and other stuff."
+			]
 			dependencies: ["27A25E88696A2CE0"]
 			id: "29BEFD73AFC63136"
 			tasks: [{
@@ -158,6 +170,7 @@
 		{
 			x: 1.0d
 			y: 4.0d
+			description: ["Transform a Gold Ingot in a Crimson Altar to obtain the Tainted Gold Ingot."]
 			dependencies: ["7C8755271F338DCB"]
 			id: "691F0E989EEE474C"
 			tasks: [{
@@ -169,6 +182,7 @@
 		{
 			x: -2.0d
 			y: 2.0d
+			description: ["Use the offering table to get this ingot."]
 			dependencies: ["72BB33D21B770DCE"]
 			id: "27DA3EEF9DF78B7A"
 			tasks: [{
@@ -180,6 +194,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
+			description: ["The Environmental Eye allows you to see the amount of aura in the chunk where you are."]
 			dependencies: ["118CF1B7418B3CC4"]
 			id: "25EF9CEF662A2F45"
 			tasks: [{
@@ -191,6 +206,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
+			description: ["This upgrade allows you to see more than the aura in the chunk, it allows you to see the positive and negative effects as well."]
 			dependencies: ["25EF9CEF662A2F45"]
 			id: "0FA9880BDFC97633"
 			tasks: [{
@@ -202,6 +218,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
+			description: ["Utilisez le rituel de la forêt pour obtenir le token of joy."]
 			dependencies: ["118CF1B7418B3CC4"]
 			id: "68383BED1EA06D9F"
 			tasks: [{
@@ -213,6 +230,11 @@
 		{
 			x: 1.0d
 			y: 2.0d
+			description: [
+				"Swamp Homi absorbs moss from blocks (like mossy cobblestone) to turn it into aura in the chunk."
+				""
+				"Combined with the Botanist's Pickaxe, you can turn the cobblestone into mossy cobblestone for durability!"
+			]
 			dependencies: [
 				"29BEFD73AFC63136"
 				"6D3F6DB72B2FBEB1"
@@ -241,6 +263,11 @@
 		{
 			x: 1.0d
 			y: 1.0d
+			description: [
+				"The Ancient Sapling is used to generate aura in the chunk."
+				""
+				"The less aura there is in the chunk, the more leaves disappear until you have to grow a sapling again!"
+			]
 			dependencies: ["118CF1B7418B3CC4"]
 			id: "6D3F6DB72B2FBEB1"
 			tasks: [{
@@ -252,6 +279,12 @@
 		{
 			x: 2.0d
 			y: 3.0d
+			description: [
+				"Aura Cache is used to store Aura on you."
+				"Simply place your Aura Cache on the Ritual Altar to charge it."
+				""
+				"Having Aura on you allows you to avoid negative effects in chunks with negative aura."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"29BEFD73AFC63136"
@@ -267,6 +300,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
+			description: ["The Aura Trove is just a bigger version of the Aura Cache."]
 			dependencies: ["237C80E9ED2EF157"]
 			id: "7504ADD9756D5D39"
 			tasks: [{
@@ -279,6 +313,11 @@
 			title: "Powders from the skies"
 			x: -2.0d
 			y: 1.0d
+			description: [
+				"Use the ritual of the forest with the ingots of the skies to get its powders."
+				""
+				"These powders are used for Botania on this modpack."
+			]
 			dependencies: ["27DA3EEF9DF78B7A"]
 			id: "761F1776ADC5E9F1"
 			tasks: [
@@ -310,6 +349,7 @@
 			title: "Catalysts"
 			x: 2.0d
 			y: 1.0d
+			description: ["Catalysts are used to craft different items on the narutal or the crimson altar!"]
 			hide_dependency_lines: true
 			dependencies: ["27A25E88696A2CE0"]
 			id: "0BE8AC98FA9A5F89"
@@ -344,6 +384,10 @@
 		{
 			x: -1.0d
 			y: 3.0d
+			description: [
+				"This altar allows you to summon mobs, using the spirit of birthing, a raw beef and a leather for example, you can summon a Cow, with a little bit of aura around."
+				"{image:ftbquests:textures/quests/natureaura_altar_of_birthing.png width:150 height:100 align:1}"
+			]
 			dependencies: ["41426E66714F1FD8"]
 			id: "322FC9ECB2ECC680"
 			tasks: [
@@ -375,6 +419,7 @@
 		{
 			x: -1.0d
 			y: 4.0d
+			description: ["You can transform a stone block into infused rock using the Natural Altar."]
 			dependencies: ["27A25E88696A2CE0"]
 			id: "0BDC79CB920BA817"
 			tasks: [
@@ -439,6 +484,13 @@
 			icon: "naturesaura:wood_stand"
 			x: 0.0d
 			y: 1.0d
+			description: [
+				"It allows you to perform rituals by absorbing the power of a growing tree!"
+				"{image:ftbquests:textures/quests/natureaura_ritual_of_the_forest.png width:150 height:100 align:1}"
+				"First place all your items on the wooden stands, then place your gold powder and then grow your sapling to trigger the craft."
+				""
+				"Wait a few seconds and it's ready!"
+			]
 			dependencies: ["21BC6CA6EEB95BC6"]
 			id: "118CF1B7418B3CC4"
 			tasks: [
@@ -466,6 +518,10 @@
 			icon: "naturesaura:offering_table"
 			x: -2.0d
 			y: 3.0d
+			description: [
+				"The offering table allows you to appeal to the gods, with a spirit of calling, to obtain new powerful items!"
+				"{image:ftbquests:textures/quests/natureaura_offering_table.png width:150 height:100 align:1}"
+			]
 			hide_dependency_lines: true
 			dependencies: ["29BEFD73AFC63136"]
 			id: "72BB33D21B770DCE"
