@@ -19,6 +19,102 @@
 		dev: false
 		corner: false
 	}]
-	quests: [ ]
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"Welcome to Ragnamod VII."
+				""
+				"This modpack invites you to discover several mods with a follow-up on the Quest book."
+				"This is not mandatory to take advantage of the modpack but gives you several objectives to accomplish."
+				""
+				"Several craft have been modified to bring a little more difficulty and a good mix between the mods, it remains nevertheless a modpack accessible to all with an acceleration of the difficulty for the creative items."
+			]
+			size: 2.0d
+			id: "2C8AB1F55FB366FF"
+			tasks: [{
+				id: "5C8377F4E34EADEC"
+				type: "checkmark"
+				title: "Welcome"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: [
+				"To share your quests with your friends, you need to create a team."
+				""
+				"To do this, type the command:"
+				"/ftbteams party create."
+				""
+				"Now go to your inventory menu and click on the button at the top left \"My Team\"."
+				"You can, from there, click on Settings to configure your team (name, color, description, etc ...)"
+				""
+				"You just have to invite your friends with the command:"
+				"/ftbteams party invite NAME"
+				""
+				"Your friends just have to accept, and you are now in a team."
+				""
+				"If you want to join an already existing team you just have to type the command:"
+				"/ftbteams party join TEAM NAME"
+			]
+			id: "56716F5436571867"
+			tasks: [{
+				id: "1092D040F7A11D5A"
+				type: "checkmark"
+				title: "FTB TEAM"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"Like I said, this modpack doesn't force you to play around with the quests."
+				""
+				"It's your choice to follow them or not."
+				""
+				"Be aware, however, that some quests give you explanations."
+			]
+			id: "7FCC8E5807B336D5"
+			tasks: [{
+				id: "44CD1AE4C463D342"
+				type: "checkmark"
+				title: "Quests"
+			}]
+			rewards: [{
+				id: "2FD22A2667507DDD"
+				type: "item"
+				item: "ftbquests:book"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
+			id: "47900538A09CE4F2"
+			tasks: [{
+				id: "43845AD1FF4F31E7"
+				type: "checkmark"
+				title: "Creative Quests"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"Thanks to my beta tester."
+				""
+				"Without them, this modpack would not be what it is today."
+			]
+			id: "57765685D5C57FA7"
+			tasks: [{
+				id: "002A236FDD31BC2B"
+				type: "checkmark"
+				title: "Thanks"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

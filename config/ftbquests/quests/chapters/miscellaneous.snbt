@@ -7,10 +7,60 @@
 	icon: "ftbquests:book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.0d
+			y: -1.0d
+			width: 8.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/cool_stuff.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			width: 8.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/more_stuff.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			width: 8.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/storages.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			width: 14.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/other_stuff.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -2.5d
+			y: 0.5d
 			id: "25F4AED371611E14"
 			tasks: [
 				{
@@ -46,8 +96,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: -2.5d
+			y: -2.5d
 			id: "64D55CA17E773A10"
 			tasks: [
 				{
@@ -75,8 +125,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: -6.0d
+			y: 4.5d
 			id: "66CC292233105671"
 			tasks: [{
 				id: "5F975C422630CB58"
@@ -85,8 +135,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: -5.0d
+			y: 5.0d
+			dependencies: ["66CC292233105671"]
 			id: "050A2CD317C300A8"
 			tasks: [{
 				id: "69AF1172472D89FC"
@@ -95,8 +146,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: -6.0d
+			y: 5.5d
+			dependencies: ["050A2CD317C300A8"]
 			id: "02D769726E83C8E8"
 			tasks: [{
 				id: "7A8D1FDE850EDC44"
@@ -105,8 +157,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: -6.0d
+			y: 6.5d
+			dependencies: ["02D769726E83C8E8"]
 			id: "3E72D0D5D73F385A"
 			tasks: [{
 				id: "29C926FFBB865FC0"
@@ -115,8 +168,14 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: -6.0d
+			y: -3.5d
+			description: [
+				"You can use a dank like a bagpack to store, pickup stuff, and you can also use it to place block.Simply use the key bind to \"Construction Mode\" in your control (default \"i\")"
+				""
+				"The dank 1 can store up to 256 item and have 9 slots."
+			]
+			dependencies: ["178FE177270B3065"]
 			id: "59BAC70CFBA8811F"
 			tasks: [{
 				id: "36FF4966A119B3E8"
@@ -125,8 +184,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: -5.75d
+			y: -2.5d
+			description: ["The dank 2 can store up to 1024 item and have 18 slots."]
+			dependencies: ["59BAC70CFBA8811F"]
 			id: "2317EF6D7592EDC6"
 			tasks: [{
 				id: "31430EED1123CBF8"
@@ -135,8 +196,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			x: -6.0d
+			y: -1.5d
+			description: ["The dank 3 can store up to 4096 item and have 27 slots."]
+			dependencies: ["2317EF6D7592EDC6"]
 			id: "7B1B4BB8E83181B0"
 			tasks: [{
 				id: "1154381A316BABC9"
@@ -145,8 +208,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: -5.75d
+			y: -0.5d
+			description: ["The dank 4 can store up to 16384 item and have 36 slots."]
+			dependencies: ["7B1B4BB8E83181B0"]
 			id: "210B3504443B45BA"
 			tasks: [{
 				id: "623B7908101A95C2"
@@ -155,8 +220,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: -6.0d
+			y: 0.5d
+			description: ["The dank 5 can store up to 65536 item and have 45 slots."]
+			dependencies: ["210B3504443B45BA"]
 			id: "3E885DC660C9F10B"
 			tasks: [{
 				id: "4F8B96B0602FD0E3"
@@ -165,8 +232,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 5.0d
+			x: -5.75d
+			y: 1.5d
+			description: ["The dank 6 can store up to 262144 item and have 54 slots."]
+			dependencies: ["3E885DC660C9F10B"]
 			id: "2D12BB615977C500"
 			tasks: [{
 				id: "5437A7DA1D988676"
@@ -175,8 +244,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: -6.0d
+			y: 2.5d
+			description: ["The dank 7 can store up to near infinite item and have 81 slots."]
+			dependencies: ["2D12BB615977C500"]
 			id: "6C58F245F608D715"
 			tasks: [{
 				id: "674271BEFF4A6F9E"
@@ -185,8 +256,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: -5.75d
+			y: -4.5d
+			description: ["You can place the dock in world to interact with it, for example, with an external storage."]
 			id: "178FE177270B3065"
 			tasks: [{
 				id: "7D4E5A3D905716F0"
@@ -195,8 +267,13 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: -3.0d
+			y: 6.5d
+			description: [
+				"This basic backpack have 27 slots to store things and have 1 upgrade slot."
+				"You can dye your backpack the same way you can dye a leather armor."
+				"You can also put your backpack on the ground by shift clicking on the ground with your backpack in your hand."
+			]
 			id: "269D21923CB857A7"
 			tasks: [{
 				id: "0FCF442D9B0E3FD4"
@@ -218,8 +295,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: -2.0d
+			y: 6.5d
+			description: ["The Iron Backpack have 54 slots to put things and have 2 upgrade slots."]
+			dependencies: ["269D21923CB857A7"]
 			id: "5378CA948429B7B3"
 			tasks: [{
 				id: "1138047A7103B267"
@@ -241,8 +320,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: -1.0d
+			y: 6.5d
+			description: ["The Gold Backpack have 81 slots to put things and have 3 upgrade slots."]
+			dependencies: ["5378CA948429B7B3"]
 			id: "71FDCBC2A8D9BD0E"
 			tasks: [{
 				id: "48CBDAFCD1C6176C"
@@ -264,8 +345,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 0.0d
+			y: 6.5d
+			description: ["The Diamond Backpack have 108 slots to put things and have 5 upgrade slots."]
+			dependencies: ["71FDCBC2A8D9BD0E"]
 			id: "65E3040EFE9F7C72"
 			tasks: [{
 				id: "5A94BF7066954988"
@@ -287,8 +370,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: 1.0d
+			y: 6.5d
+			description: ["The Netherite Backpack have 120 slots to put things and have 7 upgrade slots."]
+			dependencies: ["65E3040EFE9F7C72"]
 			id: "083C4D3950305289"
 			tasks: [{
 				id: "564ED070DA385A29"
@@ -310,8 +395,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 1.5d
+			y: -2.5d
 			id: "4089614E2DF3FC07"
 			tasks: [{
 				id: "291599CF2574EB58"
@@ -320,8 +405,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: -1.0d
+			y: -0.5d
 			id: "62444318505D0ECF"
 			tasks: [{
 				id: "5B3508CF56B6B9A0"
@@ -330,8 +415,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 0.0d
+			x: -6.0d
+			y: 8.5d
+			description: ["The Iron Furnace use 160 ticks to smelt something."]
 			id: "3354A2490DC664E7"
 			tasks: [{
 				id: "2F96BAEF6BB6387A"
@@ -340,8 +426,9 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 0.0d
+			x: -5.0d
+			y: 8.5d
+			description: ["The Silver Furnace use 140 ticks to smelt something."]
 			id: "0BFEA039B42AF17A"
 			tasks: [{
 				id: "5E1082C9C3DC337B"
@@ -350,8 +437,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.0d
+			x: -4.0d
+			y: 8.5d
+			description: ["The Copper Furnace use 180 ticks to smelt something."]
 			id: "61F78EE2BCF65B54"
 			tasks: [{
 				id: "5BAFDAB5F133BEF7"
@@ -360,8 +448,9 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 1.0d
+			x: -3.0d
+			y: 8.5d
+			description: ["The Gold Furnace use 120 ticks to smelt something."]
 			id: "1794B0912FC32133"
 			tasks: [{
 				id: "4EE53FD344D1DF8A"
@@ -370,8 +459,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.0d
+			x: -2.0d
+			y: 8.5d
+			description: ["The Diamond Furnace use 80 ticks to smelt something."]
 			id: "38F21B6D8A3F4500"
 			tasks: [{
 				id: "0F2926D6D6E69CF8"
@@ -380,8 +470,9 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 2.0d
+			x: -1.0d
+			y: 8.5d
+			description: ["The Emerald Furnace use 40 ticks to smelt something."]
 			id: "4879AC817FF297B3"
 			tasks: [{
 				id: "03AC5E2B8B839265"
@@ -390,8 +481,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 3.0d
+			x: 0.0d
+			y: 8.5d
+			description: ["The Obsidian Furnace use 20 ticks to smelt something."]
 			id: "09A85D028D01FE97"
 			tasks: [{
 				id: "67FDEB9FA5AF6BBC"
@@ -400,8 +492,9 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.0d
+			x: 1.0d
+			y: 8.5d
+			description: ["The Crystal Furnace use 40 ticks to smelt something."]
 			id: "5BF2042F87D0C6BD"
 			tasks: [{
 				id: "62FC46007643C2EC"
@@ -410,8 +503,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 4.0d
+			x: 2.0d
+			y: 8.5d
+			description: ["The Netherite Furnace use 5 ticks to smelt something."]
 			id: "5A0B2E850F12BCB8"
 			tasks: [{
 				id: "1EE85CF6F0F01D0A"
@@ -420,8 +514,9 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: 3.0d
+			y: 8.5d
+			description: ["The Rainbow Furnace use 20 ticks to smelt something, but smelt an entire stack."]
 			id: "3F41EAF341742964"
 			tasks: [
 				{
@@ -445,8 +540,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: 5.0d
+			x: 4.0d
+			y: 8.5d
 			id: "6DABD2C542566176"
 			tasks: [
 				{
@@ -462,8 +557,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: -11.0d
+			y: -4.5d
 			id: "1C896A52A86D60C9"
 			tasks: [{
 				id: "28618524126A5926"
@@ -478,8 +573,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: -11.0d
+			y: -3.5d
+			dependencies: ["1C896A52A86D60C9"]
 			id: "3CA7C6E4B90E7E2F"
 			tasks: [{
 				id: "34243CF6B3D2CE48"
@@ -494,8 +590,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: -11.0d
+			y: -2.5d
+			dependencies: ["3CA7C6E4B90E7E2F"]
 			id: "008A107C0932CD2A"
 			tasks: [{
 				id: "5B09A5128EA27847"
@@ -510,8 +607,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: -11.0d
+			y: -1.5d
+			dependencies: ["008A107C0932CD2A"]
 			id: "04DCA1D5DF2CC988"
 			tasks: [{
 				id: "05B8684D3E806BD7"
@@ -526,8 +624,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 4.0d
+			x: -11.0d
+			y: -0.5d
+			dependencies: ["04DCA1D5DF2CC988"]
 			id: "59FC629EB4799552"
 			tasks: [{
 				id: "6D6D377959049F05"
@@ -542,8 +641,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -1.0d
+			x: -11.0d
+			y: 1.0d
 			id: "75308F9FEE61E017"
 			tasks: [
 				{
@@ -593,8 +692,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: -10.0d
+			y: -3.0d
 			id: "1BA882F4CA682BAB"
 			tasks: [{
 				id: "1B72BA0B2A6D975D"
@@ -609,8 +708,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: -10.0d
+			y: -2.0d
+			dependencies: ["1BA882F4CA682BAB"]
 			id: "30C701AF99006157"
 			tasks: [{
 				id: "695D2BAD3AB9B7A6"
@@ -625,8 +725,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: -10.0d
+			y: -1.0d
+			dependencies: ["30C701AF99006157"]
 			id: "4D369390E12BA60B"
 			tasks: [{
 				id: "1882AB65D44C4312"
@@ -641,8 +742,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.0d
+			x: -10.0d
+			y: 0.0d
+			dependencies: ["4D369390E12BA60B"]
 			id: "7ED79876EE4D0011"
 			tasks: [{
 				id: "64D24C51DAFC55D8"
@@ -657,8 +759,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 4.0d
+			x: -10.0d
+			y: 1.0d
+			dependencies: ["7ED79876EE4D0011"]
 			id: "672189D3F78BFD00"
 			tasks: [{
 				id: "4A4202166CC1EDA3"
@@ -673,8 +776,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.0d
+			x: -9.0d
+			y: -3.5d
 			id: "118BC2A083BED6DE"
 			tasks: [{
 				id: "655D1EAB4B87A244"
@@ -683,8 +786,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			x: -9.0d
+			y: -2.5d
+			dependencies: ["118BC2A083BED6DE"]
 			id: "14233AF80B6A7FE4"
 			tasks: [{
 				id: "0BCD84E415ABA3AF"
@@ -693,8 +797,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 2.0d
+			x: -9.0d
+			y: -1.5d
+			dependencies: ["14233AF80B6A7FE4"]
 			id: "279F0BD79453ED79"
 			tasks: [{
 				id: "135154F10BF9EB22"
@@ -703,8 +808,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: -9.0d
+			y: -0.5d
+			dependencies: ["279F0BD79453ED79"]
 			id: "14CEE4611690CC5B"
 			tasks: [{
 				id: "428CFF8ADE4C4168"
@@ -713,8 +819,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 4.0d
+			x: -9.0d
+			y: 0.5d
+			dependencies: ["14CEE4611690CC5B"]
 			id: "45A412519D59BA1A"
 			tasks: [{
 				id: "28AE51DEE6941640"
@@ -723,8 +830,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.0d
+			x: -11.0d
+			y: 2.0d
 			id: "2463484B9B0A7144"
 			tasks: [
 				{
@@ -746,8 +853,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -1.0d
+			x: -1.0d
+			y: -3.5d
 			id: "2786D4CA2DDAE3A3"
 			tasks: [{
 				id: "0926F7EBB7D71E55"
@@ -756,8 +863,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			icon: "scannable:scanner"
+			x: -1.0d
+			y: 1.5d
+			description: ["The Scanner provides a scanner item that can survey the nearby area for points of interest. Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."]
 			id: "482C6BDC5486106D"
 			tasks: [
 				{
@@ -773,8 +882,14 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 5.0d
+			icon: "travel_anchors:travel_staff"
+			x: -3.5d
+			y: 2.5d
+			description: [
+				"The Travel Staff allows you to teleport you by using Shift Right-Click and aiming at the desired location."
+				""
+				"Aim the staff at the travel anchor to teleport onto it."
+			]
 			id: "0ECA623E8B187988"
 			tasks: [
 				{
@@ -790,8 +905,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 5.0d
+			x: 1.5d
+			y: -0.5d
 			id: "394ECC129D2E7EB1"
 			tasks: [{
 				id: "367FFC8151CA8D14"
@@ -800,8 +915,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 5.0d
+			x: -1.0d
+			y: -2.5d
 			id: "42F0E44E80041BEF"
 			tasks: [
 				{
@@ -817,8 +932,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 5.0d
+			x: 0.5d
+			y: -3.5d
 			id: "28973DC14A04294D"
 			tasks: [
 				{
@@ -840,8 +955,9 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 6.0d
+			x: 0.5d
+			y: -0.5d
+			description: ["The Nature's Compass can help you find a specific biome you want."]
 			id: "5119A3133254B659"
 			tasks: [{
 				id: "168F46872C207AE7"
@@ -854,8 +970,15 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
+			x: -2.5d
+			y: 7.5d
+			description: [
+				"The Tinker Station is your first station who you can build your basic weapons and tools."
+				""
+				"The part builder is the table where you can create your parts to build your tools and weapons."
+				""
+				"A Crafting Station is basically a Crafting Table but when you put an item in it, you can leave and your item is store in the Station."
+			]
 			id: "6BC71A14F136161A"
 			tasks: [
 				{
@@ -894,8 +1017,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 0.5d
+			y: -1.5d
 			id: "60084A07702ED036"
 			tasks: [
 				{
@@ -915,8 +1038,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: 1.5d
+			y: -1.5d
 			id: "3C5AFD231EBB2CE1"
 			tasks: [
 				{
@@ -936,8 +1059,12 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 2.5d
+			y: 7.0d
+			description: [
+				"This item allows you to accelerate the rate at which blocks tick."
+				"It passively collects time while in your inventory which you can consume by right clicking a block with it."
+			]
 			id: "3CD652D2C0B66D84"
 			tasks: [{
 				id: "0F274B86B8E387F2"
@@ -950,8 +1077,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: -3.5d
+			y: -1.5d
 			id: "2F8E7AD3E6652C2E"
 			tasks: [
 				{
@@ -987,8 +1114,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: -2.5d
+			y: -1.5d
 			id: "5E7690D081B65E83"
 			tasks: [
 				{
@@ -1024,8 +1151,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 4.0d
+			x: -1.0d
+			y: 0.5d
 			id: "59A524556708186E"
 			tasks: [{
 				id: "2240D0FC123A1B6D"
@@ -1034,8 +1161,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.0d
+			x: -3.5d
+			y: 1.5d
+			description: ["Modular Router is very useful to transfer items, fluids, energy wirelessly with upgrade and modules."]
 			id: "1A43259950E5D127"
 			tasks: [{
 				id: "2C79F3A3B76AD719"
@@ -1044,8 +1172,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: -3.5d
+			y: 0.5d
+			description: ["The name of the upgrade speak for themselves."]
+			dependencies: ["1A43259950E5D127"]
 			id: "6597083F5B64A768"
 			tasks: [
 				{
@@ -1063,8 +1193,15 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 6.0d
+			x: -3.5d
+			y: -0.5d
+			description: [
+				"Puller Module is used to pull anything from point A to point B."
+				"Simply Shift right-click a chest, tank or battery to register your puller point."
+				""
+				"Sender Module is used exactly the same has the Puller, but it can Send."
+			]
+			dependencies: ["6597083F5B64A768"]
 			id: "1EBADA59296E8911"
 			tasks: [
 				{
@@ -1098,8 +1235,21 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			title: "Through Space"
+			x: 1.5d
+			y: -3.5d
+			description: [
+				"Wormhole is a really cool mod. It gives you the possibility to shape your portal has you want, flat or straight."
+				"{image:ftbquests:textures/quests/wormhole.png width:150 height:100 align:1}"
+				"The target Definition Device can store coordinate to inject into your portal."
+				"To store a coordinate, right-click with your device to named it and stored it."
+				""
+				"To make sure your portal is properly shape, you need to right-click on the portal Stabilizer. If he turns blue, you have a stabilized portal."
+				""
+				"Now to put your coordinate into your portal, you need to right-click with your device on the stabilizer."
+				""
+				"The portals work cross-dimension, and you can change the color of it with a simple dye."
+			]
 			id: "1DBF9F91AF0417B3"
 			tasks: [
 				{
@@ -1146,8 +1296,12 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: -1.5d
+			y: 7.5d
+			description: [
+				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocs."
+				"Just put your Melter on top of your Heater."
+			]
 			id: "0373AE490607B5A3"
 			tasks: [
 				{
@@ -1163,8 +1317,9 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 2.0d
+			x: -0.5d
+			y: 7.5d
+			description: ["To extract the melted stuff you have made in your tiny smeltery, you need a faucet and at least a Casting Basin."]
 			id: "49DF699C7ABC10F2"
 			tasks: [
 				{
@@ -1186,8 +1341,15 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 3.0d
+			x: 0.5d
+			y: 7.5d
+			description: [
+				"It's time to make a bigger smelter, right ? With your tiny smelter, pour some molten copper in a casting basin with a Seared Heater in it to get a Smeltery Controller."
+				"A Seared Drain is what you need to put in and out your melted stuff."
+				"With a Seared Chute you can put in and out items from your smeltery."
+				"With a Seared Duct you can filter what you want to extract."
+				"You can make any size you want for your smeltery. From a 1x1 to max 14x14."
+			]
 			id: "4179C8CAEEB6A8A6"
 			tasks: [
 				{
@@ -1248,8 +1410,17 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 4.0d
+			x: 7.5d
+			y: -0.5d
+			description: [
+				"The Building Gadget allows you to build structures using a set of different Building Modes."
+				""
+				"The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
+				""
+				"The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
+				""
+				"The Destruction Gadget allows you to void a large area."
+			]
 			id: "31B55C822A5D3380"
 			tasks: [
 				{
@@ -1318,8 +1489,12 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 5.0d
+			x: 6.5d
+			y: -0.5d
+			description: [
+				"A classic builder's wand."
+				"To undo your placement, you need to shift+ctrl+right-click. You can undo three time."
+			]
 			id: "1C0DA2E7D8CF16E9"
 			tasks: [
 				{
@@ -1348,8 +1523,12 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 6.0d
+			x: 4.5d
+			y: -0.5d
+			description: [
+				"Chipped Bench is a great mod for builders."
+				"They function like a stonecutter."
+			]
 			id: "67C83AA0299F6088"
 			tasks: [
 				{
@@ -1390,8 +1569,17 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 6.0d
+			icon: {
+				id: "entangled:block"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.5d
+			y: 2.5d
+			description: [
+				"With an entangled block you can bind almost any block."
+				"For example you can bind a chest to an entangled block and from it you can import and export items."
+			]
 			id: "7CFE5A69DC49F07A"
 			tasks: [
 				{
@@ -1415,8 +1603,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 6.0d
+			x: -7.5d
+			y: -3.5d
 			id: "251E2D6E2DD967A8"
 			tasks: [
 				{
@@ -1437,8 +1625,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 6.0d
+			x: -2.5d
+			y: -3.5d
 			id: "24586D32E67CCBC2"
 			tasks: [{
 				id: "5D6352DCADF23B00"
@@ -1447,8 +1635,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -1.0d
+			x: -1.0d
+			y: -1.5d
 			id: "265785758A05403E"
 			tasks: [
 				{
@@ -1464,8 +1652,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -1.0d
+			x: 0.5d
+			y: -2.5d
 			id: "3A7AD0151E762858"
 			tasks: [
 				{
@@ -1493,8 +1681,13 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 0.0d
+			x: -2.5d
+			y: 2.5d
+			description: [
+				"You can store all your enchanted book in this Enchantment Library."
+				""
+				"With a maximum capacity of level XVI."
+			]
 			id: "1064B7D347E37746"
 			tasks: [{
 				id: "34220334B20D1A0F"
@@ -1503,8 +1696,13 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.0d
+			x: -1.5d
+			y: 2.5d
+			description: [
+				"You can store all your enchanted book in this Enchantment Library."
+				""
+				"With a maximum capacity of level XXXI."
+			]
 			id: "543F99BE7476FD64"
 			tasks: [{
 				id: "17A03C70EC5776BB"
@@ -1513,8 +1711,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 2.0d
+			x: -0.5d
+			y: 2.5d
 			id: "57EE4803D9721AC1"
 			tasks: [{
 				id: "448E4187182E66F9"
@@ -1523,8 +1721,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 3.0d
+			x: 0.5d
+			y: 2.5d
 			id: "22A147F2DF690A3B"
 			tasks: [{
 				id: "7F3869D7FBB4BA03"
@@ -1533,8 +1731,15 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 5.0d
+			title: "Framed Blocks"
+			x: 5.5d
+			y: -0.5d
+			description: [
+				"Framed Blocks give you the possibility to create stair, slab, slope, doors and all kind a stuff."
+				"Right-click with a block on it to turn the framed block into the chosen block."
+				""
+				"You can, also, right-click with a glowstone to emit light with your framed block."
+			]
 			id: "4E4794804D496646"
 			tasks: [
 				{
@@ -1556,8 +1761,9 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: -1.0d
+			x: -1.0d
+			y: 5.5d
+			description: ["The Heart Amulet is an amulet who you can store 10 heart canisters of each color to get more health."]
 			id: "77A2BA09F9342029"
 			tasks: [{
 				id: "6C30B37E7743A1AA"
@@ -1566,8 +1772,10 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -1.0d
+			title: "Red Heart Canister"
+			x: -3.0d
+			y: 5.5d
+			description: ["The red heart is dropped by passive mobs."]
 			id: "269CAFF56F143159"
 			tasks: [{
 				id: "20E406837A5FE3EA"
@@ -1577,8 +1785,11 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -1.0d
+			title: "Yellow Heart Canister"
+			x: -2.0d
+			y: 5.5d
+			description: ["The yellow heart is dropped by any boss."]
+			dependencies: ["269CAFF56F143159"]
 			id: "2DDCECF0F7CFA5BC"
 			tasks: [{
 				id: "7F64F3359C0AB5B3"
@@ -1588,8 +1799,11 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -2.0d
+			title: "Green Heart Canister"
+			x: 0.0d
+			y: 5.5d
+			description: ["The green heart is dropped by trading with Piglins."]
+			dependencies: ["2DDCECF0F7CFA5BC"]
 			id: "626D604E31FD5FCC"
 			tasks: [{
 				id: "14A36CFE458DB059"
@@ -1599,8 +1813,11 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -2.0d
+			title: "Blue Heart Canister"
+			x: 1.0d
+			y: 5.5d
+			description: ["The blue heart is dropped by pixies from Alfheim."]
+			dependencies: ["626D604E31FD5FCC"]
 			id: "3FD5AA7FBAE18876"
 			tasks: [{
 				id: "03AB67373389ABBE"
@@ -1610,8 +1827,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 8.5d
+			y: -0.5d
 			id: "4DA1A6B7845B1F49"
 			tasks: [
 				{
@@ -1633,8 +1850,14 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: 6.5d
+			y: -3.75d
+			description: [
+				"The Personal Shrinking Device allows you to enter and exit your compact machine."
+				"{image:ftbquests:textures/quests/compact_crafting.png width:150 height:100 align:1}"
+				"Field Projectors are used to miniaturize your compact machines and other craft."
+				"You don't have to make the biggest size, just a 5x5 is sufficient for all crafts."
+			]
 			id: "06013B4C80F9419B"
 			tasks: [
 				{
@@ -1650,8 +1873,10 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
+			description: ["The Tiny Compact Machine is a 3x3x3 space."]
+			dependencies: ["06013B4C80F9419B"]
 			id: "467D9A00FCA89933"
 			tasks: [{
 				id: "4F523E64CFF0036E"
@@ -1660,8 +1885,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
+			x: 4.5d
+			y: -3.0d
+			description: ["The Small Compact Machine is a 5x5x5 space."]
+			dependencies: ["06013B4C80F9419B"]
 			id: "5D82993EB509E820"
 			tasks: [{
 				id: "11543B43E60D01CF"
@@ -1670,8 +1897,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.0d
+			x: 5.5d
+			y: -3.5d
+			description: ["The Normal Compact Machine is a 7x7x7 space."]
+			dependencies: ["06013B4C80F9419B"]
 			id: "5B0F26FC2CEA0CB4"
 			tasks: [{
 				id: "09D4A311C166422F"
@@ -1680,8 +1909,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
+			x: 7.5d
+			y: -3.5d
+			description: ["The Large Compact Machine is a 9x9x9 space."]
+			dependencies: ["06013B4C80F9419B"]
 			id: "7891DB25222C0D71"
 			tasks: [{
 				id: "435EB4979ECEBC83"
@@ -1690,8 +1921,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 3.0d
+			x: 8.5d
+			y: -3.0d
+			description: ["The Giant Compact Machine is a 11x11x11 space."]
+			dependencies: ["06013B4C80F9419B"]
 			id: "3864916135A1E193"
 			tasks: [{
 				id: "60EC5008CFD25A29"
@@ -1700,8 +1933,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 4.0d
+			x: 9.0d
+			y: -2.0d
+			description: ["The Maximum Compact Machine is a 13x13x13 space."]
+			dependencies: ["06013B4C80F9419B"]
 			id: "6EF4A108C56230E1"
 			tasks: [{
 				id: "3F62DCB91EB57D4F"
@@ -1710,8 +1945,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: -3.5d
+			y: -3.5d
 			id: "61A71AE390BF136D"
 			tasks: [
 				{
@@ -1727,8 +1962,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
+			x: -2.5d
+			y: 1.5d
 			id: "65B1E5BD3D88DBE5"
 			tasks: [
 				{
@@ -1744,8 +1979,9 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
+			title: "Functional Storage"
+			x: -7.5d
+			y: -2.0d
 			id: "5BF49C41DB9CA77F"
 			tasks: [
 				{
@@ -1764,29 +2000,6 @@
 					item: "functionalstorage:oak_1"
 				}
 				{
-					id: "37D4A47F241C221D"
-					type: "item"
-					item: {
-						id: "functionalstorage:linking_tool"
-						Count: 1b
-						tag: {
-							Action: "ADD"
-							Mode: "SINGLE"
-						}
-					}
-				}
-				{
-					id: "6B2EBF5425878C98"
-					type: "item"
-					item: {
-						id: "functionalstorage:configuration_tool"
-						Count: 1b
-						tag: {
-							Mode: "LOCKING"
-						}
-					}
-				}
-				{
 					id: "5BE4E46EFDC88641"
 					type: "item"
 					item: "functionalstorage:ender_drawer"
@@ -1794,8 +2007,9 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
+			x: -2.5d
+			y: -0.5d
+			description: ["The Click Machine is simply a Click machine, it can left and right click with or not an item."]
 			id: "099259F59E31A4B0"
 			tasks: [{
 				id: "3BA34347E6A66536"
@@ -1804,8 +2018,17 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -3.5d
+			y: -2.5d
+			description: [
+				"The Flux Plug receives energy from adjacent blocks passively, adding energy to your Flux Network."
+				""
+				"The Flux Point provides energy to adjacent blocks actively, removing energy from your Flux Network."
+				""
+				"The Flux Controller is used to enable wireless charging on your Flux Network."
+				""
+				"The Basic Flux Storage can store up to 2M RF in your Flux Network."
+			]
 			id: "343BB0DE82A5F912"
 			tasks: [
 				{
@@ -1831,8 +2054,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 4.0d
+			y: 5.5d
 			id: "2C8B1F0DE7322D32"
 			tasks: [
 				{
@@ -1872,8 +2095,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 0.0d
+			x: 3.0d
+			y: 5.0d
 			id: "06B022181A43AF7A"
 			tasks: [{
 				id: "6F440D4B5D37E992"
@@ -1882,8 +2105,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 1.0d
+			x: 4.0d
+			y: 4.5d
 			id: "13D80F7212A60AA6"
 			tasks: [
 				{
@@ -1899,8 +2122,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 2.0d
+			x: 4.0d
+			y: 6.5d
 			id: "2F2E0A3803ABA25C"
 			tasks: [
 				{
@@ -1916,8 +2139,10 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 3.0d
+			x: 6.5d
+			y: -2.5d
+			description: ["Eternal day in the void."]
+			dependencies: ["06013B4C80F9419B"]
 			id: "177C695B8960EB77"
 			tasks: [{
 				id: "1BED3C32CB39B5AD"
@@ -1926,8 +2151,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 4.0d
+			x: -4.5d
+			y: 7.0d
 			id: "483B83B5CDF55541"
 			tasks: [{
 				id: "1AAE2838B38EB135"
@@ -1936,8 +2161,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -1.0d
+			x: -10.0d
+			y: 2.5d
 			id: "2BAB39B9C800849F"
 			tasks: [{
 				id: "55FC5ABA2DE55C4D"
@@ -1946,8 +2171,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 0.0d
+			x: -9.0d
+			y: 2.5d
+			dependencies: ["2BAB39B9C800849F"]
 			id: "215F85255D964EE5"
 			tasks: [{
 				id: "09404F9EA9D44A10"
@@ -1956,8 +2182,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 1.0d
+			x: -8.0d
+			y: 2.5d
+			dependencies: ["215F85255D964EE5"]
 			id: "03E2D45D274F9372"
 			tasks: [{
 				id: "44C1A22BC64933AC"
@@ -1966,8 +2193,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 2.0d
+			x: -7.0d
+			y: 2.5d
+			dependencies: ["03E2D45D274F9372"]
 			id: "3F090233207036EA"
 			tasks: [{
 				id: "348909436297B3B3"
@@ -1976,8 +2204,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -1.0d
+			x: 0.5d
+			y: 0.5d
 			id: "4B313B5013C29B4A"
 			tasks: [
 				{
@@ -2003,8 +2231,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 0.0d
+			x: 1.5d
+			y: 0.5d
 			id: "3C2AE7EE2F33B310"
 			tasks: [
 				{
@@ -2020,8 +2248,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 			id: "2606F2388676FA55"
 			tasks: [
 				{
@@ -2037,8 +2265,8 @@
 			]
 		}
 		{
-			x: 13.5d
-			y: -1.0d
+			x: 4.0d
+			y: 2.5d
 			id: "47D8E8B55FF99B6D"
 			tasks: [{
 				id: "3D69AE4AAD710AE4"
@@ -2048,8 +2276,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -1.0d
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["47D8E8B55FF99B6D"]
 			id: "0129563AD98630DF"
 			tasks: [
 				{
@@ -2071,8 +2300,8 @@
 			]
 		}
 		{
-			x: 13.5d
-			y: 0.0d
+			x: 5.0d
+			y: 1.5d
 			id: "798D0AE8EBF9261A"
 			tasks: [{
 				id: "0F0F63B169C9BFA4"
@@ -2082,8 +2311,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 0.0d
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["798D0AE8EBF9261A"]
 			id: "5626BD70366E11F4"
 			tasks: [{
 				id: "51865F94196290A0"
@@ -2092,8 +2322,9 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 0.0d
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["71E0554F5655BF9D"]
 			id: "174474928CDADF9D"
 			tasks: [{
 				id: "5708FBED5A0E6331"
@@ -2102,8 +2333,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 0.0d
+			x: 6.5d
+			y: 2.5d
+			dependencies: ["5626BD70366E11F4"]
 			id: "71E0554F5655BF9D"
 			tasks: [{
 				id: "66E11D4E5889623D"
@@ -2113,8 +2345,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 1.0d
+			x: 7.5d
+			y: 2.5d
+			dependencies: ["7D8021B85F81245F"]
 			id: "2C5F566350C9FCAD"
 			tasks: [{
 				id: "698F871F1787D75D"
@@ -2123,8 +2356,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 1.0d
+			x: 8.0d
+			y: 1.5d
 			id: "7D8021B85F81245F"
 			tasks: [{
 				id: "7464E740BCBE9AB8"
@@ -2134,8 +2367,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 2.0d
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["72D8DA800637B9A0"]
 			id: "0C06FD6FDBB829A9"
 			tasks: [{
 				id: "6E386095DD95C2B4"
@@ -2144,8 +2378,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 2.0d
+			x: 9.0d
+			y: 2.5d
 			id: "72D8DA800637B9A0"
 			tasks: [{
 				id: "2012F3762AF3AD3A"
@@ -2153,6 +2387,106 @@
 				entity: "cataclysm:ender_guardian"
 				value: 1L
 			}]
+		}
+		{
+			title: "Functional Control"
+			x: -7.5d
+			y: -1.0d
+			id: "487BF8A37F14EE63"
+			tasks: [
+				{
+					id: "08821A5F2312815F"
+					type: "item"
+					item: {
+						id: "functionalstorage:linking_tool"
+						Count: 1b
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+				}
+				{
+					id: "6D38991D3EEA56FD"
+					type: "item"
+					item: {
+						id: "functionalstorage:configuration_tool"
+						Count: 1b
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Special upgrades"
+			x: -7.5d
+			y: 1.0d
+			id: "0F6B724E6702C391"
+			tasks: [
+				{
+					id: "1960A72DAE93C090"
+					type: "item"
+					item: {
+						id: "functionalstorage:collector_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "down"
+						}
+					}
+				}
+				{
+					id: "2376C2553610A326"
+					type: "item"
+					item: {
+						id: "functionalstorage:puller_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "down"
+						}
+					}
+				}
+				{
+					id: "2F03CE935EEAC32C"
+					type: "item"
+					item: {
+						id: "functionalstorage:pusher_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "down"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Framed Drawer"
+			x: -7.5d
+			y: 0.0d
+			id: "47FAC14EE3D916E5"
+			tasks: [{
+				id: "6082692AA5023F30"
+				type: "item"
+				item: "functionalstorage:framed_1"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "7A6133A3EAAC56E9"
+			tasks: [
+				{
+					id: "34628D7815ABFEAD"
+					type: "item"
+					item: "torchmaster:megatorch"
+				}
+				{
+					id: "03A5DCA4A492EC3B"
+					type: "item"
+					item: "torchmaster:dreadlamp"
+				}
+			]
 		}
 	]
 	quest_links: [ ]
