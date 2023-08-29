@@ -390,6 +390,7 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["The floral Fertilizer is used to spawn mystical flower by right-clicking grass block with it."]
+			dependencies: ["761F1776ADC5E9F1"]
 			size: 2.0d
 			id: "00000000000003B3"
 			tasks: [{
@@ -526,9 +527,9 @@
 			x: 9.0d
 			y: 1.0d
 			description: [
-				"Get a Mana Quartz tossing a Rose Quartz in a Mana Pool."
-				"A Powdered Obsidian to get a Mana Powder."
-				"A String Cheese to get a Mana Infused String."
+				"Get a Mana Quartz tossing a Nether Quartz in a Mana Pool."
+				"A dust (Redstone, Gunpowder, Glowstone) to get a Mana Powder."
+				"A Simple String to get a Mana Infused String."
 			]
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003CB"
@@ -559,7 +560,7 @@
 		{
 			x: 7.0d
 			y: 1.0d
-			description: ["Get a Mana Diamond tossing a Psigem in a Mana Pool."]
+			description: ["Get a Mana Diamond tossing a Diamond in a Mana Pool."]
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003CF"
 			tasks: [{
@@ -576,7 +577,7 @@
 		{
 			x: 9.0d
 			y: -1.0d
-			description: ["Get a Mana Pearl tossing a Chorus Pearl in a Mana Pool."]
+			description: ["Get a Mana Pearl tossing an Ender Pearl in a Mana Pool."]
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003D1"
 			tasks: [{
@@ -1287,6 +1288,7 @@
 			}]
 		}
 		{
+			icon: "mythicbotany:mana_infuser"
 			x: 16.0d
 			y: 0.0d
 			description: ["The Mana-Infuser is an upgraded version of the Terrestrial Agglomeration Plate, but it needs a Dominant Spark on top of it."]
@@ -1731,8 +1733,8 @@
 			x: 6.0d
 			y: 0.0d
 			description: [
-				"To Get Livingrock you have to transform some Depthrock (find in the Undergarden), using a Pure Daisy."
-				"For the Livingwood, transform some Infused Wood."
+				"To Get Livingrock you have to transform any type of stone from Blue Skies, using a Pure Daisy."
+				"For the Livingwood, transform any kind of wood from Blue Skies."
 			]
 			dependencies: ["000000000000042C"]
 			size: 2.0d
@@ -1747,7 +1749,7 @@
 				{
 					id: "065CA81DA38942DD"
 					type: "item"
-					item: "botania:livingwood"
+					item: "botania:livingwood_log"
 					count: 16L
 				}
 			]
@@ -1761,7 +1763,7 @@
 				{
 					id: "79707CA07BDAFEB5"
 					type: "item"
-					item: "botania:livingwood"
+					item: "botania:livingwood_log"
 					count: 8
 				}
 			]
@@ -1958,18 +1960,41 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 5.5d
+			x: 8.0d
+			y: 3.5d
+			description: [
+				"The Teru Teru Bozu becomes sad when it rains and smiles again if you give it a sun flower."
+				"When he is happy the sunlight is back !"
+				""
+				"If you give her enough Blue Orchid, he can make it rain and become sad again."
+			]
+			dependencies: ["00000000000003F9"]
 			id: "4475A45570C9CBB9"
 			tasks: [{
 				id: "76247FBD67F99F56"
 				type: "item"
 				item: "botania:teru_teru_bozu"
 			}]
+			rewards: [{
+				id: "39431529D51761E1"
+				type: "item"
+				item: "minecraft:sunflower"
+				count: 16
+			}]
 		}
 		{
-			x: 7.0d
-			y: 5.5d
+			x: 4.5d
+			y: 2.0d
+			description: [
+				"The Hourglass hovering is a clock that can be modified using sand!"
+				"It emits a redstone signal when it turns to reset its timer."
+				""
+				"One sand gives 1 second."
+				"One Red Sand gives 10 seconds."
+				"Soul Sand gives 1 minute."
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000003D3"]
 			id: "170161AEFCAA46C1"
 			tasks: [{
 				id: "16B41BBC66E8009F"
@@ -1978,18 +2003,32 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 5.5d
+			x: 15.0d
+			y: 2.0d
+			description: ["The Life Imbuer is used to force mobs to spawn on a mob spawner using mana with a spreader."]
+			dependencies: ["00000000000003F1"]
 			id: "2D6C55A1C912D232"
 			tasks: [{
 				id: "7E56A6D07F69CBAD"
 				type: "item"
 				item: "botania:spawner_claw"
 			}]
+			rewards: [{
+				id: "1C7805E37D1C3071"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
 		}
 		{
-			x: 9.0d
-			y: 5.5d
+			x: 4.5d
+			y: -2.0d
+			description: [
+				"The Cocoon of Caprice will turn into a baby animal after waiting a moment."
+				"You can get a special mob with it, like a Shulker (using 20 Chorus Fruit) or a Villager (using 20 Emeralds)."
+				"Each item used increase the chance by 5%, so 20 items = 100%."
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000003EF"]
 			id: "1500FA008C576712"
 			tasks: [{
 				id: "1F78DA87569C4751"

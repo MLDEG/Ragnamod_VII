@@ -377,34 +377,12 @@
 			}]
 		}
 		{
-			title: "Blast Furnace"
-			icon: "immersiveengineering:blast_furnace"
-			x: 4.5d
-			y: -4.5d
-			description: ["The Blast Furnace is a 3x3x3 multiblock that alloys Iron with Coal Cokes to produce Steel."]
-			dependencies: ["00000000000006A8"]
-			size: 1.5d
-			id: "00000000000006A4"
-			tasks: [{
-				id: "00000000000006A5"
-				type: "item"
-				item: "immersiveengineering:blastbrick"
-				count: 27L
-			}]
-			rewards: [{
-				id: "167C8AD6243F51EF"
-				type: "item"
-				item: "minecraft:charcoal"
-				count: 32
-			}]
-		}
-		{
 			title: "Improved Blast Furnace"
 			icon: "immersiveengineering:advanced_blast_furnace"
 			x: 2.5d
 			y: -4.5d
 			description: ["he Improved Blast Furnace is the upgraded tier of the Crude Blast Furnace, capable of automation and also of greater speeds once Blast Furnace Preheaters are added."]
-			dependencies: ["00AA3E0C1621E643"]
+			dependencies: ["5EA80D9C3C190DA2"]
 			id: "00000000000006A6"
 			tasks: [{
 				id: "00000000000006A7"
@@ -874,7 +852,7 @@
 			x: 1.5d
 			y: -4.5d
 			description: ["The Core Sample Drill is used to detect and analyze Mineral and Fluid Deposits that can be extracted by an Excavator."]
-			dependencies: ["00AA3E0C1621E643"]
+			dependencies: ["5EA80D9C3C190DA2"]
 			id: "00000000000006D7"
 			tasks: [{
 				id: "00000000000006D8"
@@ -2105,25 +2083,6 @@
 			]
 		}
 		{
-			title: "Steel"
-			x: 3.5d
-			y: -4.5d
-			description: ["Collect a stack of Steel Ingot."]
-			dependencies: ["00000000000006A4"]
-			id: "00AA3E0C1621E643"
-			tasks: [{
-				id: "193DE2FC5FC443C1"
-				type: "item"
-				item: "beyond_earth:steel_ingot"
-				count: 64L
-			}]
-			rewards: [{
-				id: "24A2D270B6BD7BC8"
-				type: "item"
-				item: "beyond_earth:steel_block"
-			}]
-		}
-		{
 			title: "Petcoke"
 			x: 2.0d
 			y: -2.5d
@@ -2237,6 +2196,52 @@
 					count: 7L
 				}
 			]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: ["In the Blast Furnace you need to put Ironwood to obtain Steel."]
+			dependencies: ["1EF95835215D60E0"]
+			id: "5EA80D9C3C190DA2"
+			tasks: [{
+				id: "3138D42D4145CAB2"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+			}]
+			rewards: [{
+				id: "58C80CC8746B7B02"
+				type: "item"
+				item: "twilightforest:ironwood_block"
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			icon: "immersiveengineering:blast_furnace"
+			x: 4.5d
+			y: -4.5d
+			subtitle: "The steel road"
+			description: [
+				"To get Steel, you're going to need to make a Blast Furnace."
+				""
+				"It's a 3x3x3 multiblock that alloys Ironwood (in this pack) with CharCoal, Coal Cokes or Pet Cokes to produce Steel."
+				""
+				"You can use a Hexerei Cauldron to get one in the Twilight Forest."
+			]
+			dependencies: ["3D70617228B5BE1A"]
+			size: 1.5d
+			id: "1A2E68C15E54E1E2"
+			tasks: [{
+				id: "6F6B7BEF30479605"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "67F2A192F503E2F1"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 64
+			}]
 		}
 	]
 	quest_links: [ ]

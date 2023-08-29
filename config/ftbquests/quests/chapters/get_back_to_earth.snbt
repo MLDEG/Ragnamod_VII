@@ -131,7 +131,13 @@
 			x: 1.0d
 			y: 4.0d
 			subtitle: "The steel road"
-			description: ["To get Steel, you're going to need to make a Blast Furnace.In this pack, you can use a Hexerei Cauldron to get one in the Twilight Forest."]
+			description: [
+				"To get Steel, you're going to need to make a Blast Furnace."
+				""
+				"It's a 3x3x3 multiblock that alloys Ironwood (in this pack) with CharCoal, Coal Cokes or Pet Cokes to produce Steel."
+				""
+				"You can use a Hexerei Cauldron to get one in the Twilight Forest."
+			]
 			dependencies: ["3D70617228B5BE1A"]
 			id: "1EF95835215D60E0"
 			tasks: [{
@@ -427,6 +433,7 @@
 		}
 		{
 			title: "Overworld"
+			icon: "beyond_earth:earth_globe"
 			x: 6.0d
 			y: 4.0d
 			shape: "octagon"

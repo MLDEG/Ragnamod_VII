@@ -9,18 +9,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			id: "16F9C6AA7CFD1730"
-			tasks: [{
-				id: "07872206E448CD00"
-				type: "item"
-				item: "beyond_earth:nasa_workbench"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 0.0d
+			x: 2.0d
+			y: -0.5d
+			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
+			dependencies: ["3C884020904C1B6C"]
 			id: "48064C635531A631"
 			tasks: [{
 				id: "3833BFF53CF03014"
@@ -29,22 +21,10 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 0.5d
 			y: 0.0d
-			id: "592C371D279F7305"
-			tasks: [{
-				id: "642FE43E1FDE3EFD"
-				type: "item"
-				item: {
-					id: "beyond_earth:rocket_t1"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: 0.0d
+			description: ["With some Desh you can craft the Tier 2 Rocket and go on Mars !"]
+			dependencies: ["2FE44372B1A4621B"]
 			id: "750E35A4164FD632"
 			tasks: [{
 				id: "2F3ED0BFD0D42A5F"
@@ -57,8 +37,10 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
+			description: ["With some Ostrum you can craft the Tier 3 Rocket and go on Venus !"]
+			dependencies: ["2FE44372B1A4621B"]
 			id: "56F322FA5F1624FF"
 			tasks: [{
 				id: "013E6AD9F46615EC"
@@ -71,8 +53,13 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 3.5d
+			y: 1.5d
+			description: [
+				"With some Calorite you can craft the Tier 4 Rocket and go to Glacio."
+				"A planet on a other Galaxy !"
+			]
+			dependencies: ["2FE44372B1A4621B"]
 			id: "18A1D97836E02C11"
 			tasks: [{
 				id: "10E37CC3F46D393F"
@@ -85,8 +72,21 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			title: "Space Suit"
+			icon: {
+				id: "beyond_earth:oxygen_mask"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 2.5d
+			description: [
+				"To infinity and beyond !"
+				"Before going in space, don't forget to craft your space suit !"
+			]
+			dependencies: ["3C884020904C1B6C"]
 			id: "041A331D89F49672"
 			tasks: [
 				{
@@ -136,8 +136,18 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			title: "Netherite Space Suit"
+			icon: {
+				id: "beyond_earth:netherite_oxygen_mask"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 2.5d
+			description: ["Upgraded version of your space suit to have more defense against enemies on those hostile planets."]
+			dependencies: ["041A331D89F49672"]
 			id: "78B8CD9BEE64E6D2"
 			tasks: [
 				{
@@ -187,8 +197,13 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"Compressor can be used to make compressed form of Beyond Earth materials."
+				"Those compressed materials can be used to craft rockets"
+			]
+			dependencies: ["3C884020904C1B6C"]
 			id: "74FF38D124915175"
 			tasks: [{
 				id: "623407F092FA13DA"
@@ -198,7 +213,9 @@
 		}
 		{
 			x: 3.0d
-			y: 1.0d
+			y: -2.5d
+			description: ["The Oxygen Loader can produce oxygen to fill your space chestplate using water and RF."]
+			dependencies: ["3C884020904C1B6C"]
 			id: "588578911ADB8C19"
 			tasks: [{
 				id: "314EBA3AFF7FF907"
@@ -207,8 +224,11 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 1.0d
+			y: -2.5d
+			description: ["The Oxygen Bubble Distributor can provide air on other planet to get a safe environment."]
+			hide_dependency_lines: true
+			dependencies: ["588578911ADB8C19"]
 			id: "0FFAABB442DDAB23"
 			tasks: [{
 				id: "073CBF1537D242EF"
@@ -217,8 +237,13 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: 2.5d
+			y: -1.5d
+			description: [
+				"Fuel Refinery can convert Oil into Fuel"
+				"With Shift + Right Click on your rocket you can fill it with your recently obtain fuel"
+			]
+			dependencies: ["3C884020904C1B6C"]
 			id: "75EBB234AA4AE868"
 			tasks: [{
 				id: "0918CD020CC681F2"
@@ -227,33 +252,124 @@
 			}]
 		}
 		{
-			x: 0.0d
+			icon: "beyond_earth:moon_globe"
+			x: -0.5d
 			y: 2.0d
+			description: ["Desh Ore can be found on the depth of the Moon."]
+			dependencies: ["3B6C6DD31C4A522B"]
 			id: "03F04C5F7BAED6A3"
-			tasks: [{
-				id: "310DA73C98452C52"
-				type: "item"
-				item: "beyond_earth:raw_desh"
-			}]
+			tasks: [
+				{
+					id: "6C1376D1B88F58FB"
+					type: "dimension"
+					title: "Moon"
+					dimension: "beyond_earth:moon"
+				}
+				{
+					id: "7B83F39A4381DA06"
+					type: "item"
+					item: "beyond_earth:raw_desh"
+				}
+			]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			icon: "beyond_earth:mars_globe"
+			x: -0.5d
+			y: -0.5d
+			description: ["Ostrum Ore can be found on the depth of Mars"]
+			dependencies: ["750E35A4164FD632"]
 			id: "3A4863E1B2ED2E36"
+			tasks: [
+				{
+					id: "7846168EA5649BE7"
+					type: "dimension"
+					title: "Mars"
+					dimension: "beyond_earth:mars"
+				}
+				{
+					id: "3A77C308782123CF"
+					type: "item"
+					item: "beyond_earth:raw_ostrum"
+				}
+			]
+		}
+		{
+			icon: "beyond_earth:venus_globe"
+			x: 4.5d
+			y: -0.5d
+			description: ["Calorite Ore can be found on the depth of Venus"]
+			dependencies: ["56F322FA5F1624FF"]
+			id: "2149E5AE3CDE8DBE"
+			tasks: [
+				{
+					id: "063B32BC358ED680"
+					type: "dimension"
+					title: "Venus"
+					dimension: "beyond_earth:venus"
+				}
+				{
+					id: "6C285596FDB09029"
+					type: "item"
+					item: "beyond_earth:raw_calorite"
+				}
+			]
+		}
+		{
+			icon: "beyond_earth:glacio_globe"
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["18A1D97836E02C11"]
+			id: "6C436170FB69A8C1"
 			tasks: [{
-				id: "0225F7DAD335823F"
-				type: "item"
-				item: "beyond_earth:raw_ostrum"
+				id: "000792A9852916D6"
+				type: "dimension"
+				title: "Glacio"
+				dimension: "beyond_earth:glacio"
 			}]
 		}
 		{
 			x: 2.0d
-			y: 2.0d
-			id: "2149E5AE3CDE8DBE"
+			y: 1.0d
+			description: [
+				"The Nasa Workbench combines all the technology you have created!"
+				"Use the Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
+			]
+			dependencies: [
+				"366106157FB5459C"
+				"3C884020904C1B6C"
+				"6013E9708A7B59E9"
+			]
+			size: 2.0d
+			id: "239CC623DE2460E8"
 			tasks: [{
-				id: "7AEC1D48096EDC10"
+				id: "5ED9FAC8F2E5880E"
 				type: "item"
-				item: "beyond_earth:raw_calorite"
+				item: "beyond_earth:nasa_workbench"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			subtitle: "Liftoff"
+			description: [
+				"With your Nasa Workbench, you can now make your first rocket."
+				"This will allow you to go to the overworld and therefore have access to the Nether and to the end!"
+			]
+			dependencies: ["2FE44372B1A4621B"]
+			id: "3B6C6DD31C4A522B"
+			tasks: [{
+				id: "461C8C520B42EC34"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2EEC338A38599831"
+				type: "item"
+				item: "beyond_earth:earth_globe"
 			}]
 		}
 	]
