@@ -4,7 +4,31 @@
 	order_index: 1
 	filename: "progression"
 	title: " Progression"
-	icon: "ftbquests:book"
+	icon: {
+		id: "miningmaster:ultima_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+			Enchantments: [
+				{
+					lvl: 3s
+					id: "minecraft:fire_aspect"
+				}
+				{
+					lvl: 3s
+					id: "miningmaster:freezing"
+				}
+				{
+					lvl: 3s
+					id: "minecraft:looting"
+				}
+				{
+					lvl: 1s
+					id: "miningmaster:leeching"
+				}
+			]
+		}
+	}
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	images: [
@@ -39,6 +63,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
+			description: ["Unlock the page for Miscellaneous."]
 			id: "577D6202E19B2599"
 			tasks: [{
 				id: "615FD1FA032837B9"

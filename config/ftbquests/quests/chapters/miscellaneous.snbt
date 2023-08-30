@@ -59,6 +59,7 @@
 	]
 	quests: [
 		{
+			icon: "pipez:wrench"
 			x: -2.5d
 			y: 0.5d
 			id: "25F4AED371611E14"
@@ -96,6 +97,13 @@
 			]
 		}
 		{
+			icon: {
+				id: "justhammers:stone_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -2.5d
 			y: -2.5d
 			id: "64D55CA17E773A10"
@@ -127,6 +135,8 @@
 		{
 			x: -6.0d
 			y: 4.5d
+			description: ["Botany pot can grow all kind of crops and saplings."]
+			dependencies: ["577D6202E19B2599"]
 			id: "66CC292233105671"
 			tasks: [{
 				id: "5F975C422630CB58"
@@ -137,6 +147,7 @@
 		{
 			x: -5.0d
 			y: 5.0d
+			description: ["The Elite Version grow yours seeds and saplings faster with more output."]
 			dependencies: ["66CC292233105671"]
 			id: "050A2CD317C300A8"
 			tasks: [{
@@ -148,6 +159,7 @@
 		{
 			x: -6.0d
 			y: 5.5d
+			description: ["The Ultra Version grow yours seeds and saplings even faster with more output."]
 			dependencies: ["050A2CD317C300A8"]
 			id: "02D769726E83C8E8"
 			tasks: [{
@@ -159,6 +171,7 @@
 		{
 			x: -6.0d
 			y: 6.5d
+			description: ["The Creative Version grow yours seeds and saplings very very fast with a lot of output !"]
 			dependencies: ["02D769726E83C8E8"]
 			id: "3E72D0D5D73F385A"
 			tasks: [{
@@ -259,6 +272,7 @@
 			x: -5.75d
 			y: -4.5d
 			description: ["You can place the dock in world to interact with it, for example, with an external storage."]
+			dependencies: ["577D6202E19B2599"]
 			id: "178FE177270B3065"
 			tasks: [{
 				id: "7D4E5A3D905716F0"
@@ -274,6 +288,7 @@
 				"You can dye your backpack the same way you can dye a leather armor."
 				"You can also put your backpack on the ground by shift clicking on the ground with your backpack in your hand."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "269D21923CB857A7"
 			tasks: [{
 				id: "0FCF442D9B0E3FD4"
@@ -415,9 +430,10 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.0d
 			y: 8.5d
 			description: ["The Iron Furnace use 160 ticks to smelt something."]
+			dependencies: ["61F78EE2BCF65B54"]
 			id: "3354A2490DC664E7"
 			tasks: [{
 				id: "2F96BAEF6BB6387A"
@@ -426,9 +442,10 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -4.0d
 			y: 8.5d
 			description: ["The Silver Furnace use 140 ticks to smelt something."]
+			dependencies: ["3354A2490DC664E7"]
 			id: "0BFEA039B42AF17A"
 			tasks: [{
 				id: "5E1082C9C3DC337B"
@@ -437,9 +454,10 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -6.0d
 			y: 8.5d
 			description: ["The Copper Furnace use 180 ticks to smelt something."]
+			dependencies: ["577D6202E19B2599"]
 			id: "61F78EE2BCF65B54"
 			tasks: [{
 				id: "5BAFDAB5F133BEF7"
@@ -451,6 +469,7 @@
 			x: -3.0d
 			y: 8.5d
 			description: ["The Gold Furnace use 120 ticks to smelt something."]
+			dependencies: ["0BFEA039B42AF17A"]
 			id: "1794B0912FC32133"
 			tasks: [{
 				id: "4EE53FD344D1DF8A"
@@ -462,6 +481,7 @@
 			x: -2.0d
 			y: 8.5d
 			description: ["The Diamond Furnace use 80 ticks to smelt something."]
+			dependencies: ["1794B0912FC32133"]
 			id: "38F21B6D8A3F4500"
 			tasks: [{
 				id: "0F2926D6D6E69CF8"
@@ -470,9 +490,10 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 0.0d
 			y: 8.5d
 			description: ["The Emerald Furnace use 40 ticks to smelt something."]
+			dependencies: ["38F21B6D8A3F4500"]
 			id: "4879AC817FF297B3"
 			tasks: [{
 				id: "03AC5E2B8B839265"
@@ -481,9 +502,14 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 1.0d
 			y: 8.5d
 			description: ["The Obsidian Furnace use 20 ticks to smelt something."]
+			dependencies: [
+				"5BF2042F87D0C6BD"
+				"4879AC817FF297B3"
+			]
+			dependency_requirement: "one_completed"
 			id: "09A85D028D01FE97"
 			tasks: [{
 				id: "67FDEB9FA5AF6BBC"
@@ -492,9 +518,10 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -1.0d
 			y: 8.5d
 			description: ["The Crystal Furnace use 40 ticks to smelt something."]
+			dependencies: ["38F21B6D8A3F4500"]
 			id: "5BF2042F87D0C6BD"
 			tasks: [{
 				id: "62FC46007643C2EC"
@@ -506,6 +533,7 @@
 			x: 2.0d
 			y: 8.5d
 			description: ["The Netherite Furnace use 5 ticks to smelt something."]
+			dependencies: ["09A85D028D01FE97"]
 			id: "5A0B2E850F12BCB8"
 			tasks: [{
 				id: "1EE85CF6F0F01D0A"
@@ -517,6 +545,16 @@
 			x: 3.0d
 			y: 8.5d
 			description: ["The Rainbow Furnace use 20 ticks to smelt something, but smelt an entire stack."]
+			dependencies: [
+				"61F78EE2BCF65B54"
+				"5BF2042F87D0C6BD"
+				"38F21B6D8A3F4500"
+				"4879AC817FF297B3"
+				"1794B0912FC32133"
+				"3354A2490DC664E7"
+				"5A0B2E850F12BCB8"
+				"09A85D028D01FE97"
+			]
 			id: "3F41EAF341742964"
 			tasks: [
 				{
@@ -540,8 +578,11 @@
 			]
 		}
 		{
+			title: "Wireless Heat"
 			x: 4.0d
 			y: 8.5d
+			description: ["You can smelt with RF using a Heat Transmitter and Receiver."]
+			dependencies: ["61F78EE2BCF65B54"]
 			id: "6DABD2C542566176"
 			tasks: [
 				{
@@ -559,9 +600,11 @@
 		{
 			x: -11.0d
 			y: -4.5d
+			description: ["The Wooden Barrel works the same way as a barrel, you have the place of a classic barrel with an upgrade slot."]
+			dependencies: ["577D6202E19B2599"]
 			id: "1C896A52A86D60C9"
 			tasks: [{
-				id: "28618524126A5926"
+				id: "7C99687BCB5E8DBA"
 				type: "item"
 				item: {
 					id: "sophisticatedstorage:barrel"
@@ -575,6 +618,7 @@
 		{
 			x: -11.0d
 			y: -3.5d
+			description: ["The Iron Barrel have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["1C896A52A86D60C9"]
 			id: "3CA7C6E4B90E7E2F"
 			tasks: [{
@@ -592,6 +636,7 @@
 		{
 			x: -11.0d
 			y: -2.5d
+			description: ["The Gold Barrel have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["3CA7C6E4B90E7E2F"]
 			id: "008A107C0932CD2A"
 			tasks: [{
@@ -609,6 +654,7 @@
 		{
 			x: -11.0d
 			y: -1.5d
+			description: ["The Diamond Barrel have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["008A107C0932CD2A"]
 			id: "04DCA1D5DF2CC988"
 			tasks: [{
@@ -626,6 +672,7 @@
 		{
 			x: -11.0d
 			y: -0.5d
+			description: ["The Netherite Barrel have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["04DCA1D5DF2CC988"]
 			id: "59FC629EB4799552"
 			tasks: [{
@@ -641,8 +688,11 @@
 			}]
 		}
 		{
+			title: "Limited Barrel"
 			x: -11.0d
-			y: 1.0d
+			y: 0.5d
+			description: ["The Limited Barrels work exactly the same as a Drawer, you can store one type of item in a single Limited Barrel, two in a Limited Barrel II etc..."]
+			dependencies: ["577D6202E19B2599"]
 			id: "75308F9FEE61E017"
 			tasks: [
 				{
@@ -694,6 +744,8 @@
 		{
 			x: -10.0d
 			y: -3.0d
+			description: ["The Wooden Chest works the same way as a chest, you have the place of a classic barrel with an upgrade slot."]
+			dependencies: ["577D6202E19B2599"]
 			id: "1BA882F4CA682BAB"
 			tasks: [{
 				id: "1B72BA0B2A6D975D"
@@ -710,6 +762,7 @@
 		{
 			x: -10.0d
 			y: -2.0d
+			description: ["The Iron chest have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["1BA882F4CA682BAB"]
 			id: "30C701AF99006157"
 			tasks: [{
@@ -727,6 +780,7 @@
 		{
 			x: -10.0d
 			y: -1.0d
+			description: ["The Gold Chest have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["30C701AF99006157"]
 			id: "4D369390E12BA60B"
 			tasks: [{
@@ -744,6 +798,7 @@
 		{
 			x: -10.0d
 			y: 0.0d
+			description: ["The Diamond Chest have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["4D369390E12BA60B"]
 			id: "7ED79876EE4D0011"
 			tasks: [{
@@ -761,6 +816,7 @@
 		{
 			x: -10.0d
 			y: 1.0d
+			description: ["The Netherite Chest have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["7ED79876EE4D0011"]
 			id: "672189D3F78BFD00"
 			tasks: [{
@@ -778,6 +834,8 @@
 		{
 			x: -9.0d
 			y: -3.5d
+			description: ["The Shulker Box works the same way as a backpack, you have the place of a classic barrel with an upgrade slot."]
+			dependencies: ["577D6202E19B2599"]
 			id: "118BC2A083BED6DE"
 			tasks: [{
 				id: "655D1EAB4B87A244"
@@ -788,6 +846,7 @@
 		{
 			x: -9.0d
 			y: -2.5d
+			description: ["The Iron Shulker have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["118BC2A083BED6DE"]
 			id: "14233AF80B6A7FE4"
 			tasks: [{
@@ -799,6 +858,7 @@
 		{
 			x: -9.0d
 			y: -1.5d
+			description: ["The Gold Shulker have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["14233AF80B6A7FE4"]
 			id: "279F0BD79453ED79"
 			tasks: [{
@@ -810,6 +870,7 @@
 		{
 			x: -9.0d
 			y: -0.5d
+			description: ["The Diamond Shulker have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["279F0BD79453ED79"]
 			id: "14CEE4611690CC5B"
 			tasks: [{
@@ -821,6 +882,7 @@
 		{
 			x: -9.0d
 			y: 0.5d
+			description: ["The Netherite Shulker have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["14CEE4611690CC5B"]
 			id: "45A412519D59BA1A"
 			tasks: [{
@@ -831,26 +893,21 @@
 		}
 		{
 			x: -11.0d
-			y: 2.0d
+			y: 1.5d
+			description: ["The Packing tape allows you to tape your chests, barrels from Sophisticated Storage, to keep items inside your storage when you want to take it."]
+			dependencies: ["577D6202E19B2599"]
 			id: "2463484B9B0A7144"
-			tasks: [
-				{
-					id: "55BB4C0E7F00F505"
-					type: "item"
-					item: {
-						id: "sophisticatedstorage:packing_tape"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "55BB4C0E7F00F505"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:packing_tape"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-				{
-					id: "23841DE7FE9BD458"
-					type: "item"
-					item: "sophisticatedstorage:storage_tool"
-				}
-			]
+			}]
 		}
 		{
 			x: -1.0d
@@ -867,6 +924,7 @@
 			x: -1.0d
 			y: 1.5d
 			description: ["The Scanner provides a scanner item that can survey the nearby area for points of interest. Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."]
+			dependencies: ["577D6202E19B2599"]
 			id: "482C6BDC5486106D"
 			tasks: [
 				{
@@ -890,6 +948,7 @@
 				""
 				"Aim the staff at the travel anchor to teleport onto it."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "0ECA623E8B187988"
 			tasks: [
 				{
@@ -915,6 +974,7 @@
 			}]
 		}
 		{
+			icon: "akashictome:tome"
 			x: -1.0d
 			y: -2.5d
 			id: "42F0E44E80041BEF"
@@ -932,6 +992,7 @@
 			]
 		}
 		{
+			icon: "nomowanderer:no_soliciting_sign"
 			x: 0.5d
 			y: -3.5d
 			id: "28973DC14A04294D"
@@ -958,6 +1019,7 @@
 			x: 0.5d
 			y: -0.5d
 			description: ["The Nature's Compass can help you find a specific biome you want."]
+			dependencies: ["577D6202E19B2599"]
 			id: "5119A3133254B659"
 			tasks: [{
 				id: "168F46872C207AE7"
@@ -979,6 +1041,7 @@
 				""
 				"A Crafting Station is basically a Crafting Table but when you put an item in it, you can leave and your item is store in the Station."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "6BC71A14F136161A"
 			tasks: [
 				{
@@ -1017,6 +1080,11 @@
 			]
 		}
 		{
+			icon: {
+				id: "simplemagnets:basicmagnet"
+				Count: 1b
+				tag: { }
+			}
 			x: 0.5d
 			y: -1.5d
 			id: "60084A07702ED036"
@@ -1038,6 +1106,11 @@
 			]
 		}
 		{
+			icon: {
+				id: "simplemagnets:advancedmagnet"
+				Count: 1b
+				tag: { }
+			}
 			x: 1.5d
 			y: -1.5d
 			id: "3C5AFD231EBB2CE1"
@@ -1065,6 +1138,7 @@
 				"This item allows you to accelerate the rate at which blocks tick."
 				"It passively collects time while in your inventory which you can consume by right clicking a block with it."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "3CD652D2C0B66D84"
 			tasks: [{
 				id: "0F274B86B8E387F2"
@@ -1077,6 +1151,7 @@
 			}]
 		}
 		{
+			icon: "supercircuitmaker:screwdriver"
 			x: -3.5d
 			y: -1.5d
 			id: "2F8E7AD3E6652C2E"
@@ -1153,6 +1228,8 @@
 		{
 			x: -1.0d
 			y: 0.5d
+			description: ["Snad can increase the growth rate for sugarcane, cacti and any other plantable crop."]
+			dependencies: ["577D6202E19B2599"]
 			id: "59A524556708186E"
 			tasks: [{
 				id: "2240D0FC123A1B6D"
@@ -1164,6 +1241,7 @@
 			x: -3.5d
 			y: 1.5d
 			description: ["Modular Router is very useful to transfer items, fluids, energy wirelessly with upgrade and modules."]
+			dependencies: ["577D6202E19B2599"]
 			id: "1A43259950E5D127"
 			tasks: [{
 				id: "2C79F3A3B76AD719"
@@ -1236,6 +1314,11 @@
 		}
 		{
 			title: "Through Space"
+			icon: {
+				id: "wormhole:advanced_target_device"
+				Count: 1b
+				tag: { }
+			}
 			x: 1.5d
 			y: -3.5d
 			description: [
@@ -1250,6 +1333,7 @@
 				""
 				"The portals work cross-dimension, and you can change the color of it with a simple dye."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "1DBF9F91AF0417B3"
 			tasks: [
 				{
@@ -1302,6 +1386,7 @@
 				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocs."
 				"Just put your Melter on top of your Heater."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "0373AE490607B5A3"
 			tasks: [
 				{
@@ -1320,6 +1405,7 @@
 			x: -0.5d
 			y: 7.5d
 			description: ["To extract the melted stuff you have made in your tiny smeltery, you need a faucet and at least a Casting Basin."]
+			dependencies: ["577D6202E19B2599"]
 			id: "49DF699C7ABC10F2"
 			tasks: [
 				{
@@ -1350,6 +1436,7 @@
 				"With a Seared Duct you can filter what you want to extract."
 				"You can make any size you want for your smeltery. From a 1x1 to max 14x14."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "4179C8CAEEB6A8A6"
 			tasks: [
 				{
@@ -1421,6 +1508,7 @@
 				""
 				"The Destruction Gadget allows you to void a large area."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "31B55C822A5D3380"
 			tasks: [
 				{
@@ -1495,6 +1583,7 @@
 				"A classic builder's wand."
 				"To undo your placement, you need to shift+ctrl+right-click. You can undo three time."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "1C0DA2E7D8CF16E9"
 			tasks: [
 				{
@@ -1529,6 +1618,7 @@
 				"Chipped Bench is a great mod for builders."
 				"They function like a stonecutter."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "67C83AA0299F6088"
 			tasks: [
 				{
@@ -1580,6 +1670,7 @@
 				"With an entangled block you can bind almost any block."
 				"For example you can bind a chest to an entangled block and from it you can import and export items."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "7CFE5A69DC49F07A"
 			tasks: [
 				{
@@ -1603,8 +1694,16 @@
 			]
 		}
 		{
+			icon: "enderstorage:ender_chest"
 			x: -7.5d
 			y: -3.5d
+			description: [
+				"These chests and tank link together based on matching color patterns. All chests and tank with the same color buttons share an inventory."
+				"Ender bags can be color coded to access ender chests."
+				""
+				"If you play on server, you can privatize your chests and tanks by using a diamond on it."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "251E2D6E2DD967A8"
 			tasks: [
 				{
@@ -1637,6 +1736,8 @@
 		{
 			x: -1.0d
 			y: -1.5d
+			description: ["Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!"]
+			dependencies: ["577D6202E19B2599"]
 			id: "265785758A05403E"
 			tasks: [
 				{
@@ -1652,8 +1753,15 @@
 			]
 		}
 		{
+			icon: "waystones:waystone"
 			x: 0.5d
 			y: -2.5d
+			description: [
+				"Waystones are pillar who can teleport you to other waystones you have activated."
+				"Warp Stone is a teleportation device who can teleport you to other waystones."
+				"The Warp plate is used to teleport entities between two plate."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "3A7AD0151E762858"
 			tasks: [
 				{
@@ -1688,6 +1796,7 @@
 				""
 				"With a maximum capacity of level XVI."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "1064B7D347E37746"
 			tasks: [{
 				id: "34220334B20D1A0F"
@@ -1703,6 +1812,8 @@
 				""
 				"With a maximum capacity of level XXXI."
 			]
+			dependencies: ["577D6202E19B2599"]
+			dependency_requirement: "one_completed"
 			id: "543F99BE7476FD64"
 			tasks: [{
 				id: "17A03C70EC5776BB"
@@ -1740,6 +1851,7 @@
 				""
 				"You can, also, right-click with a glowstone to emit light with your framed block."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "4E4794804D496646"
 			tasks: [
 				{
@@ -1764,6 +1876,7 @@
 			x: -1.0d
 			y: 5.5d
 			description: ["The Heart Amulet is an amulet who you can store 10 heart canisters of each color to get more health."]
+			dependencies: ["577D6202E19B2599"]
 			id: "77A2BA09F9342029"
 			tasks: [{
 				id: "6C30B37E7743A1AA"
@@ -1776,6 +1889,7 @@
 			x: -3.0d
 			y: 5.5d
 			description: ["The red heart is dropped by passive mobs."]
+			dependencies: ["577D6202E19B2599"]
 			id: "269CAFF56F143159"
 			tasks: [{
 				id: "20E406837A5FE3EA"
@@ -1829,6 +1943,8 @@
 		{
 			x: 8.5d
 			y: -0.5d
+			description: ["The Camera is very cool to take a screenshot in game and place it on a wall with an Image Frame."]
+			dependencies: ["577D6202E19B2599"]
 			id: "4DA1A6B7845B1F49"
 			tasks: [
 				{
@@ -1850,6 +1966,7 @@
 			]
 		}
 		{
+			icon: "compactmachines:personal_shrinking_device"
 			x: 6.5d
 			y: -3.75d
 			description: [
@@ -1858,6 +1975,7 @@
 				"Field Projectors are used to miniaturize your compact machines and other craft."
 				"You don't have to make the biggest size, just a 5x5 is sufficient for all crafts."
 			]
+			dependencies: ["03F04C5F7BAED6A3"]
 			id: "06013B4C80F9419B"
 			tasks: [
 				{
@@ -1982,6 +2100,14 @@
 			title: "Functional Storage"
 			x: -7.5d
 			y: -2.0d
+			description: [
+				"Function Storage works like Storage Drawer, but it's more powerful, in my opinion."
+				""
+				"The Storage Controller is your controller who you can connect all your drawer (item or fluid) on it !"
+				""
+				"The Ender Drawer is very useful if you need to connect a resource you farm far away from your Functional Network."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "5BF49C41DB9CA77F"
 			tasks: [
 				{
@@ -2010,6 +2136,7 @@
 			x: -2.5d
 			y: -0.5d
 			description: ["The Click Machine is simply a Click machine, it can left and right click with or not an item."]
+			dependencies: ["577D6202E19B2599"]
 			id: "099259F59E31A4B0"
 			tasks: [{
 				id: "3BA34347E6A66536"
@@ -2018,6 +2145,7 @@
 			}]
 		}
 		{
+			icon: "fluxnetworks:flux_point"
 			x: -3.5d
 			y: -2.5d
 			description: [
@@ -2029,6 +2157,7 @@
 				""
 				"The Basic Flux Storage can store up to 2M RF in your Flux Network."
 			]
+			dependencies: ["577D6202E19B2599"]
 			id: "343BB0DE82A5F912"
 			tasks: [
 				{
@@ -2153,6 +2282,8 @@
 		{
 			x: -4.5d
 			y: 7.0d
+			description: ["Classic angel ring, you can fly like creative !"]
+			dependencies: ["577D6202E19B2599"]
 			id: "483B83B5CDF55541"
 			tasks: [{
 				id: "1AAE2838B38EB135"
@@ -2163,6 +2294,8 @@
 		{
 			x: -10.0d
 			y: 2.5d
+			description: ["You can store 256000mb in the Iron Drum."]
+			dependencies: ["577D6202E19B2599"]
 			id: "2BAB39B9C800849F"
 			tasks: [{
 				id: "55FC5ABA2DE55C4D"
@@ -2173,6 +2306,7 @@
 		{
 			x: -9.0d
 			y: 2.5d
+			description: ["You can store 4096000mb in the Reinforced Drum."]
 			dependencies: ["2BAB39B9C800849F"]
 			id: "215F85255D964EE5"
 			tasks: [{
@@ -2184,6 +2318,7 @@
 		{
 			x: -8.0d
 			y: 2.5d
+			description: ["You can store 65536000mb in the Netherite Drum."]
 			dependencies: ["215F85255D964EE5"]
 			id: "03E2D45D274F9372"
 			tasks: [{
@@ -2195,6 +2330,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
+			description: ["You can store an incredible amount of millibuckets in an Unstable Drum."]
 			dependencies: ["03E2D45D274F9372"]
 			id: "3F090233207036EA"
 			tasks: [{
@@ -2204,6 +2340,7 @@
 			}]
 		}
 		{
+			icon: "mob_grinding_utils:saw"
 			x: 0.5d
 			y: 0.5d
 			id: "4B313B5013C29B4A"
@@ -2231,6 +2368,7 @@
 			]
 		}
 		{
+			icon: "mob_grinding_utils:rotten_egg"
 			x: 1.5d
 			y: 0.5d
 			id: "3C2AE7EE2F33B310"
@@ -2248,6 +2386,7 @@
 			]
 		}
 		{
+			icon: "mob_grinding_utils:golden_egg"
 			x: 1.5d
 			y: 1.5d
 			id: "2606F2388676FA55"
@@ -2267,6 +2406,11 @@
 		{
 			x: 4.0d
 			y: 2.5d
+			description: [
+				"You need to find the Soul Blacksmith structure to fight the Netherite Monstrosity."
+				"{image:ftbquests:textures/quests/cataclysm_netherite_monstrosity.png width:150 height:100 align:1}"
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "47D8E8B55FF99B6D"
 			tasks: [{
 				id: "3D69AE4AAD710AE4"
@@ -2278,6 +2422,7 @@
 		{
 			x: 4.0d
 			y: 1.5d
+			description: ["Here is the loot from the Netherite Monstrosity."]
 			dependencies: ["47D8E8B55FF99B6D"]
 			id: "0129563AD98630DF"
 			tasks: [
@@ -2302,6 +2447,11 @@
 		{
 			x: 5.0d
 			y: 1.5d
+			description: [
+				"The Ignited Revenant is find in the Burning Arena, It's in this place you can fight also the Ignis."
+				"{image:ftbquests:textures/quests/cataclysm_ignited.png width:150 height:100 align:1}"
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "798D0AE8EBF9261A"
 			tasks: [{
 				id: "0F0F63B169C9BFA4"
@@ -2313,6 +2463,7 @@
 		{
 			x: 5.5d
 			y: 2.5d
+			description: ["The Ignited Revenant drop Burning Ashes."]
 			dependencies: ["798D0AE8EBF9261A"]
 			id: "5626BD70366E11F4"
 			tasks: [{
@@ -2324,6 +2475,7 @@
 		{
 			x: 6.5d
 			y: 1.5d
+			description: ["Ignitium ingot is drop from the Ignis."]
 			dependencies: ["71E0554F5655BF9D"]
 			id: "174474928CDADF9D"
 			tasks: [{
@@ -2335,6 +2487,10 @@
 		{
 			x: 6.5d
 			y: 2.5d
+			description: [
+				"To summon the Ignis you need to use a Burning Ashes on the Altar Of Fire."
+				"{image:ftbquests:textures/quests/cataclysm_ignis.png width:150 height:100 align:1}"
+			]
 			dependencies: ["5626BD70366E11F4"]
 			id: "71E0554F5655BF9D"
 			tasks: [{
@@ -2347,6 +2503,7 @@
 		{
 			x: 7.5d
 			y: 2.5d
+			description: ["The Void Core is a drop from the Ender Golem."]
 			dependencies: ["7D8021B85F81245F"]
 			id: "2C5F566350C9FCAD"
 			tasks: [{
@@ -2358,6 +2515,11 @@
 		{
 			x: 8.0d
 			y: 1.5d
+			description: [
+				"The Ender Golem is found in the Ruined Citadel, in the End."
+				"{image:ftbquests:textures/quests/cataclysm_ender_golem.png width:150 height:100 align:1}"
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "7D8021B85F81245F"
 			tasks: [{
 				id: "7464E740BCBE9AB8"
@@ -2369,6 +2531,7 @@
 		{
 			x: 9.0d
 			y: 1.5d
+			description: ["The Gauntlet Of Guard is drop from the Ender Guardian."]
 			dependencies: ["72D8DA800637B9A0"]
 			id: "0C06FD6FDBB829A9"
 			tasks: [{
@@ -2380,6 +2543,11 @@
 		{
 			x: 9.0d
 			y: 2.5d
+			description: [
+				"The Ender Guardian is found in the Ruined Citadel, in the End."
+				"{image:ftbquests:textures/quests/cataclysm_ender_guardian.png width:150 height:100 align:1}"
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "72D8DA800637B9A0"
 			tasks: [{
 				id: "2012F3762AF3AD3A"
@@ -2392,6 +2560,12 @@
 			title: "Functional Control"
 			x: -7.5d
 			y: -1.0d
+			description: [
+				"The Linking Tool is THE tool you need to properly connect all your drawer on your Controller, you can also, with it, set up your Ender Drawer."
+				""
+				"With the Configuration Tool you can lock your drawers, show or hide the content, upgrades and amount shown by default."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "487BF8A37F14EE63"
 			tasks: [
 				{
@@ -2423,6 +2597,14 @@
 			title: "Special upgrades"
 			x: -7.5d
 			y: 1.0d
+			description: [
+				"Functional Storage as some upgrade for upgrading your content and voiding them, but that not it !"
+				""
+				"The Collector Upgrade can suck up an item into your drawer."
+				"The Puller Upgrade can pull the content in any direction you choose."
+				"The Pusher Upgrade do the same has the puller, but he push instead."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "0F6B724E6702C391"
 			tasks: [
 				{
@@ -2464,6 +2646,11 @@
 			title: "Framed Drawer"
 			x: -7.5d
 			y: 0.0d
+			description: [
+				"The Frame Drawer is pretty fun to use, because you can custom your drawer like you want."
+				"{image:ftbquests:textures/quests/functional_drawer.png width:150 height:100 align:1}"
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "47FAC14EE3D916E5"
 			tasks: [{
 				id: "6082692AA5023F30"
@@ -2472,6 +2659,7 @@
 			}]
 		}
 		{
+			icon: "torchmaster:megatorch"
 			x: 0.5d
 			y: 1.5d
 			id: "7A6133A3EAAC56E9"
@@ -2485,6 +2673,48 @@
 					id: "03A5DCA4A492EC3B"
 					type: "item"
 					item: "torchmaster:dreadlamp"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "sophisticatedstorage:storage_tool"
+				Count: 1b
+				tag: {
+					controllerPos: -314185447321536L
+				}
+			}
+			x: -11.0d
+			y: 2.5d
+			description: [
+				"The Storage Controller is, like his name said, a Controller.You can connect multiple inventory (chests, barrels, backpacks, etc...) with a Storage Link and a Storage Tool."
+				""
+				"Simply right-click your controller, then your Storage Link, adjacent to an inventory, to connect this inventory with the Controller."
+				"Really useful to combine with a storage bus from AE2 for example."
+			]
+			dependencies: ["577D6202E19B2599"]
+			id: "788E3A3D65C23754"
+			tasks: [
+				{
+					id: "2552FB473BE5C55B"
+					type: "item"
+					item: "sophisticatedstorage:controller"
+				}
+				{
+					id: "533DCC5BEAABA514"
+					type: "item"
+					item: "sophisticatedstorage:storage_link"
+				}
+				{
+					id: "2E9157B04E8E762F"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:storage_tool"
+						Count: 1b
+						tag: {
+							controllerPos: -314185447321536L
+						}
+					}
 				}
 			]
 		}

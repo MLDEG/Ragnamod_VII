@@ -99,6 +99,7 @@
 				"The sunlight is obtainable in the Overworld."
 				"The Substance is obtainable in other dimensions."
 			]
+			dependencies: ["52D6BB5F13D719A4"]
 			id: "4E0AAB85DBF67FDC"
 			tasks: [
 				{

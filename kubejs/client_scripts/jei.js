@@ -282,7 +282,21 @@ onEvent('jei.hide.items', event => {
 		'createaddition:electrum_rod',
 		'createaddition:electrum_ingot',
 		'createaddition:electrum_sheet',
-		'createaddition:electrum_nugget'
+		'createaddition:electrum_nugget',
+		'sophisticatedstorage:debug_tool',
+		'ironfurnaces:upgrade_silver',
+		'ironfurnaces:upgrade_copper',
+		'ironfurnaces:upgrade_netherite',
+		'ironfurnaces:upgrade_crystal', 
+		'ironfurnaces:upgrade_obsidian',
+		'ironfurnaces:upgrade_emerald',
+		'ironfurnaces:upgrade_diamond',
+		'ironfurnaces:upgrade_gold',
+		'ironfurnaces:upgrade_iron',
+		'ironfurnaces:upgrade_gold2',
+		'ironfurnaces:upgrade_silver2',
+		'ironfurnaces:upgrade_iron2',
+		'ironfurnaces:upgrade_obsidian2'
 
 	])
 })

@@ -7,6 +7,7 @@ onEvent('recipes', e => {
     var removeId = [
         /occultism:miner/,
         /thermal:earth_charge/,
+        /ironfurnaces:upgrades/,
         'industrialforegoing:laser_drill_ore/raw_materials/iridium',
         'industrialforegoing:laser_drill_ore/raw_materials/nickel',
         'industrialforegoing:laser_drill_ore/raw_materials/aluminum',
@@ -364,6 +365,9 @@ onEvent('recipes', e => {
         'createaddition:rolling/electrum_ingot',
         'createaddition:rolling/electrum_plate',
         'ars_nouveau:archwood_to_chest',
+        'ironfurnaces:furnaces/iron_furnace',
+        'ironfurnaces:furnaces/gold_furnace',
+        'ironfurnaces:furnaces/silver_furnace2',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',

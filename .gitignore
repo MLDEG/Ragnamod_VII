@@ -5,6 +5,8 @@
 /config/tempad_client.json
 /config/worldstripper/
 /config/world_gen_export/
+/config/libraryferret_1.properties
+/config/bettervillage_1.properties
 /crash-reports/
 /downloads/
 /ESM/
@@ -39,5 +41,3 @@
 /quests_structures
 /kubejs/exported/
 /kubejs/README.txt
-/libraryferret_1.properties
-/bettervillage_1.properties
