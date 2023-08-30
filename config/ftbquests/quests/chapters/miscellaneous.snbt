@@ -59,9 +59,12 @@
 	]
 	quests: [
 		{
+			title: "Pipez"
 			icon: "pipez:wrench"
 			x: -2.5d
 			y: 0.5d
+			description: ["Pipez is a simple and powerful tool to transfer items, fluids, RF and even Gases."]
+			dependencies: ["577D6202E19B2599"]
 			id: "25F4AED371611E14"
 			tasks: [
 				{
@@ -412,6 +415,8 @@
 		{
 			x: 1.5d
 			y: -2.5d
+			description: ["The Tempad is a device who can save locations and teleport to them from anywhere !"]
+			dependencies: ["577D6202E19B2599"]
 			id: "4089614E2DF3FC07"
 			tasks: [{
 				id: "291599CF2574EB58"
@@ -422,6 +427,8 @@
 		{
 			x: -1.0d
 			y: -0.5d
+			description: ["The Target Dummy can calculate your DPS (damage per second), useful to prepare a difficult fight or just for fun !"]
+			dependencies: ["577D6202E19B2599"]
 			id: "62444318505D0ECF"
 			tasks: [{
 				id: "5B3508CF56B6B9A0"
@@ -912,6 +919,7 @@
 		{
 			x: -1.0d
 			y: -3.5d
+			description: ["The Summoning Altar allows you to summon mobs/boss."]
 			id: "2786D4CA2DDAE3A3"
 			tasks: [{
 				id: "0926F7EBB7D71E55"
@@ -992,9 +1000,12 @@
 			]
 		}
 		{
+			title: "No More WANDERER"
 			icon: "nomowanderer:no_soliciting_sign"
 			x: 0.5d
 			y: -3.5d
+			description: ["The Sign of the Talisman prevent the spawn of Wandering Trader within 6 chunks."]
+			dependencies: ["577D6202E19B2599"]
 			id: "28973DC14A04294D"
 			tasks: [
 				{
@@ -1726,6 +1737,8 @@
 		{
 			x: -2.5d
 			y: -3.5d
+			description: ["Like his name said, it's a Chunk Loader."]
+			dependencies: ["577D6202E19B2599"]
 			id: "24586D32E67CCBC2"
 			tasks: [{
 				id: "5D6352DCADF23B00"
@@ -2080,19 +2093,48 @@
 			]
 		}
 		{
+			title: "Sleeping Anywhere, Anytime !"
+			icon: "comforts:sleeping_bag_white"
 			x: -2.5d
 			y: 1.5d
+			description: [
+				"The Sleeping Bag allows you to sleep anywhere without reset your spawn point (set with a bed)."
+				"The Hammock Cloth allows you to sleep in daytime until night."
+				"{image:ftbquests:textures/quests/hammock.png width:150 height:100 align:1}"
+				"But you need three blocks space to attach your Hammock with two Rope and Nail."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "65B1E5BD3D88DBE5"
 			tasks: [
 				{
 					id: "774146422A187D92"
 					type: "item"
-					item: "comforts:sleeping_bag_white"
+					title: "Any #comforts:sleeping_bags"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
 				}
 				{
 					id: "16A875628A3F969A"
 					type: "item"
-					item: "comforts:hammock_white"
+					title: "Any #comforts:hammocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+				}
+				{
+					id: "69B62A4F5264E657"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
 				}
 			]
 		}
@@ -2371,6 +2413,12 @@
 			icon: "mob_grinding_utils:rotten_egg"
 			x: 1.5d
 			y: 0.5d
+			description: [
+				"If you give cursed food to a chicken, it explodes, dropping feathers and a Rotten Egg."
+				"{image:ftbquests:textures/quests/dreadful.png width:150 height:100 align:1}"
+				"This egg can be placed on dirt to generate Dreadful Dirt, this dirt is used to spawn hostile mobs (even with a mega torche)"
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "3C2AE7EE2F33B310"
 			tasks: [
 				{
@@ -2389,6 +2437,13 @@
 			icon: "mob_grinding_utils:golden_egg"
 			x: 1.5d
 			y: 1.5d
+			description: [
+				"If you give Nutrious food to a chicken, it explodes, dropping feathers and a Golden Egg."
+				"{image:ftbquests:textures/quests/delightful.png width:150 height:100 align:1}"
+				"This egg can be placed on dirt to generate Delightful Dirt, this dirt is used to spawn passive mobs (even with a dread lamp)"
+				"Be aware that this earth spawn grass and flower."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "2606F2388676FA55"
 			tasks: [
 				{
@@ -2662,6 +2717,11 @@
 			icon: "torchmaster:megatorch"
 			x: 0.5d
 			y: 1.5d
+			description: [
+				"The Mega Torch block the hostile spawn in a radius (cube) of 128 blocks."
+				"The Dread Lamp does the same but for passive mobs."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "7A6133A3EAAC56E9"
 			tasks: [
 				{
