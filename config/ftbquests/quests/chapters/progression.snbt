@@ -417,7 +417,10 @@
 			x: 0.0d
 			y: 1.0d
 			shape: "diamond"
-			dependencies: ["577D6202E19B2599"]
+			dependencies: [
+				"577D6202E19B2599"
+				"2F831E3421874107"
+			]
 			id: "1FA6721FE1D91AC0"
 		}
 		{
@@ -534,7 +537,10 @@
 			x: 0.0d
 			y: 3.0d
 			shape: "diamond"
-			dependencies: ["13C41B348C636ACA"]
+			dependencies: [
+				"13C41B348C636ACA"
+				"6935A012EE5813BE"
+			]
 			id: "273F753DD5046AC1"
 		}
 		{

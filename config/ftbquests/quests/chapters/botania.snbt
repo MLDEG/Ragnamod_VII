@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 6
 	filename: "botania"
-	title: "Botania"
+	title: " Botania"
 	icon: "botania:mana_pylon"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

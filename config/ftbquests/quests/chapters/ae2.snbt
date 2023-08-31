@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 4
 	filename: "ae2"
-	title: "AE2"
+	title: " AE2"
 	icon: "ae2:controller"
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false

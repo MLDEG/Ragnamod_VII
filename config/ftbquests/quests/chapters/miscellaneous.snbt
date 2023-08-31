@@ -100,6 +100,7 @@
 			]
 		}
 		{
+			title: "Hammer"
 			icon: {
 				id: "justhammers:stone_hammer"
 				Count: 1b
@@ -109,31 +110,25 @@
 			}
 			x: -2.5d
 			y: -2.5d
-			id: "64D55CA17E773A10"
-			tasks: [
-				{
-					id: "500F12FD8FEEFDA5"
-					type: "item"
-					item: {
-						id: "justhammers:stone_hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "121611765A0E3682"
-					type: "item"
-					item: {
-						id: "justhammers:stone_reinforced_hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
+			description: [
+				"The Hammer can break a 3x3x1 block in one swing !"
+				""
+				"Useful before Tinkers Construct."
 			]
+			dependencies: ["577D6202E19B2599"]
+			id: "64D55CA17E773A10"
+			tasks: [{
+				id: "500F12FD8FEEFDA5"
+				type: "item"
+				title: "Any #justhammers:hammer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "justhammers:hammer"
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
@@ -425,8 +420,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -0.5d
+			x: 0.5d
+			y: 1.5d
 			description: ["The Target Dummy can calculate your DPS (damage per second), useful to prepare a difficult fight or just for fun !"]
 			dependencies: ["577D6202E19B2599"]
 			id: "62444318505D0ECF"
@@ -929,8 +924,8 @@
 		}
 		{
 			icon: "scannable:scanner"
-			x: -1.0d
-			y: 1.5d
+			x: 0.5d
+			y: 0.5d
 			description: ["The Scanner provides a scanner item that can survey the nearby area for points of interest. Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."]
 			dependencies: ["577D6202E19B2599"]
 			id: "482C6BDC5486106D"
@@ -974,6 +969,8 @@
 		{
 			x: 1.5d
 			y: -0.5d
+			description: ["The Smithing Table (auto) is simply an auto Smithing Table."]
+			dependencies: ["577D6202E19B2599"]
 			id: "394ECC129D2E7EB1"
 			tasks: [{
 				id: "367FFC8151CA8D14"
@@ -982,9 +979,16 @@
 			}]
 		}
 		{
+			title: "Useful tools"
 			icon: "akashictome:tome"
 			x: -1.0d
 			y: -2.5d
+			description: [
+				"Akashic tome allows you to store all kinds of books in a single book."
+				""
+				"The Morphing Tool allows you to mainly store wrenches from different mods in a single tool."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "42F0E44E80041BEF"
 			tasks: [
 				{
@@ -1098,6 +1102,11 @@
 			}
 			x: 0.5d
 			y: -1.5d
+			description: [
+				"This magnet can attract items and xp within 5 blocks."
+				"The Demagnetization Coil prevents items up to 3 blocks away from being attracted by magnets."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "60084A07702ED036"
 			tasks: [
 				{
@@ -1124,6 +1133,11 @@
 			}
 			x: 1.5d
 			y: -1.5d
+			description: [
+				"This magnet can attract items and xp within 11 blocks and can be filtered."
+				"The Demagnetization Coil prevents items up to 5 blocks away from being attracted by magnets and can be filtered."
+			]
+			dependencies: ["60084A07702ED036"]
 			id: "3C5AFD231EBB2CE1"
 			tasks: [
 				{
@@ -1162,9 +1176,25 @@
 			}]
 		}
 		{
+			title: "Super Circuit Maker"
 			icon: "supercircuitmaker:screwdriver"
 			x: -3.5d
 			y: -1.5d
+			description: [
+				"The Circuit is your blank pattern to create your miniature redstone device."
+				""
+				"The Tiny Pile of Redsonte, well, it's your redstone."
+				""
+				"The Redstone-Coated Stick allows you to get your redstone up."
+				""
+				"The Support Platform is use on a circuit to form a new platform."
+				""
+				"The Screwdriver allows you to connect and disconnect a redstone line in your circuit."
+				""
+				"The Palette and Brush is pretty useful if you want to change redstone line color."
+				"Use (by default) Left Alt to select your color, then simply right-click on your redstone line."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "2F8E7AD3E6652C2E"
 			tasks: [
 				{
@@ -1197,11 +1227,38 @@
 					type: "item"
 					item: "minecraft:lever"
 				}
+				{
+					id: "603C464BC106A2E1"
+					type: "item"
+					item: {
+						id: "supercircuitmaker:palette"
+						Count: 1b
+						tag: {
+							color: 0
+						}
+					}
+					match_nbt: false
+				}
 			]
 		}
 		{
+			title: "Miniature Redstone Devices"
 			x: -2.5d
 			y: -1.5d
+			description: [
+				"Miniature Button is just a button."
+				""
+				"Ender Pulsar is a pulser and can be configured."
+				""
+				"Booper is just a note bloc."
+				""
+				"Miniature Lamp is a lamp."
+				""
+				"Quartz Resonator can be configured, and it's used to delay your redstone line."
+				""
+				"Glowstone Exciter is just a randomizer block."
+			]
+			dependencies: ["2F8E7AD3E6652C2E"]
 			id: "5E7690D081B65E83"
 			tasks: [
 				{
@@ -1237,8 +1294,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 0.5d
+			x: 1.5d
+			y: 1.5d
 			description: ["Snad can increase the growth rate for sugarcane, cacti and any other plantable crop."]
 			dependencies: ["577D6202E19B2599"]
 			id: "59A524556708186E"
@@ -1747,8 +1804,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.5d
 			description: ["Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!"]
 			dependencies: ["577D6202E19B2599"]
 			id: "265785758A05403E"
@@ -1837,6 +1894,8 @@
 		{
 			x: -0.5d
 			y: 2.5d
+			description: ["The Salvaging Table break down Affix items into Rarity Materials."]
+			dependencies: ["577D6202E19B2599"]
 			id: "57EE4803D9721AC1"
 			tasks: [{
 				id: "448E4187182E66F9"
@@ -1847,6 +1906,8 @@
 		{
 			x: 0.5d
 			y: 2.5d
+			description: ["The Reforging Table use Gem Dust and Rarity Materials to reroll affixes."]
+			dependencies: ["577D6202E19B2599"]
 			id: "22A147F2DF690A3B"
 			tasks: [{
 				id: "7F3869D7FBB4BA03"
@@ -2076,8 +2137,15 @@
 			}]
 		}
 		{
+			title: "Small Prod of Ice and Lava"
 			x: -3.5d
 			y: -3.5d
+			description: [
+				"The Small Mineral Melting Furnace can smelt cobblestone with RF to create Lava."
+				""
+				"The Small Water Freezer can freeze Water with RF to get Ice, Packed ice and Blue Ice."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "61A71AE390BF136D"
 			tasks: [
 				{
@@ -2227,6 +2295,8 @@
 		{
 			x: 4.0d
 			y: 5.5d
+			description: ["Here are some Cards to play with your Laser Nodes."]
+			dependencies: ["13D80F7212A60AA6"]
 			id: "2C8B1F0DE7322D32"
 			tasks: [
 				{
@@ -2268,6 +2338,8 @@
 		{
 			x: 3.0d
 			y: 5.0d
+			description: ["Laser Wrench can connect Laser Node to each other to form a network of Nodes."]
+			dependencies: ["577D6202E19B2599"]
 			id: "06B022181A43AF7A"
 			tasks: [{
 				id: "6F440D4B5D37E992"
@@ -2276,8 +2348,14 @@
 			}]
 		}
 		{
+			icon: "laserio:laser_node"
 			x: 4.0d
 			y: 4.5d
+			description: [
+				"A Laser Node can connect to another Laser Node from 8 blocks."
+				"The Laser Connector can increase the range of your network."
+			]
+			dependencies: ["06B022181A43AF7A"]
 			id: "13D80F7212A60AA6"
 			tasks: [
 				{
@@ -2295,6 +2373,8 @@
 		{
 			x: 4.0d
 			y: 6.5d
+			description: ["Overclockers can overclock your Laser Nodes and your cards."]
+			dependencies: ["13D80F7212A60AA6"]
 			id: "2F2E0A3803ABA25C"
 			tasks: [
 				{
@@ -2382,9 +2462,20 @@
 			}]
 		}
 		{
+			title: "Mob Farms"
 			icon: "mob_grinding_utils:saw"
-			x: 0.5d
-			y: 0.5d
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"The Mob Masher works with a redstone signal and can be upgrade."
+				""
+				"The Absorption Hopper can collect item and xp even through walls."
+				""
+				"The Ender Inhibitor can cancel the teleportation of mobs, like Enderman."
+				""
+				"XP Solidifier can solidify xp into jelly baby."
+			]
+			dependencies: ["577D6202E19B2599"]
 			id: "4B313B5013C29B4A"
 			tasks: [
 				{
@@ -2411,7 +2502,7 @@
 		}
 		{
 			icon: "mob_grinding_utils:rotten_egg"
-			x: 1.5d
+			x: -1.0d
 			y: 0.5d
 			description: [
 				"If you give cursed food to a chicken, it explodes, dropping feathers and a Rotten Egg."
@@ -2435,8 +2526,8 @@
 		}
 		{
 			icon: "mob_grinding_utils:golden_egg"
-			x: 1.5d
-			y: 1.5d
+			x: -1.0d
+			y: -0.5d
 			description: [
 				"If you give Nutrious food to a chicken, it explodes, dropping feathers and a Golden Egg."
 				"{image:ftbquests:textures/quests/delightful.png width:150 height:100 align:1}"
@@ -2715,8 +2806,8 @@
 		}
 		{
 			icon: "torchmaster:megatorch"
-			x: 0.5d
-			y: 1.5d
+			x: -1.0d
+			y: -1.5d
 			description: [
 				"The Mega Torch block the hostile spawn in a radius (cube) of 128 blocks."
 				"The Dread Lamp does the same but for passive mobs."
@@ -2775,6 +2866,36 @@
 							controllerPos: -314185447321536L
 						}
 					}
+				}
+			]
+		}
+		{
+			title: "Upgrades"
+			x: -0.5d
+			y: 1.5d
+			description: ["There are more upgrades but here is the most usefull in my opinion."]
+			dependencies: ["3D9CC8C29F834DBC"]
+			id: "64C4EF83CA2A48A2"
+			tasks: [
+				{
+					id: "116E7DDC82100F6F"
+					type: "item"
+					item: "mob_grinding_utils:absorption_upgrade"
+				}
+				{
+					id: "4BDBE17054101BF5"
+					type: "item"
+					item: "mob_grinding_utils:saw_upgrade_beheading"
+				}
+				{
+					id: "4918E221732DEA03"
+					type: "item"
+					item: "mob_grinding_utils:saw_upgrade_looting"
+				}
+				{
+					id: "59EC309C795E17E5"
+					type: "item"
+					item: "mob_grinding_utils:saw_upgrade_sharpness"
 				}
 			]
 		}
