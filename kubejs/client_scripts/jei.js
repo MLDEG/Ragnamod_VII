@@ -296,7 +296,8 @@ onEvent('jei.hide.items', event => {
 		'ironfurnaces:upgrade_gold2',
 		'ironfurnaces:upgrade_silver2',
 		'ironfurnaces:upgrade_iron2',
-		'ironfurnaces:upgrade_obsidian2'
+		'ironfurnaces:upgrade_obsidian2',
+		'summoningrituals:indestructible_altar'
 
 	])
 })
