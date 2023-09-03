@@ -288,6 +288,7 @@
 		{
 			x: -3.5d
 			y: -5.0d
+			dependencies: ["0B1D5E77E82B17AB"]
 			id: "4B0024EB89A2DBC9"
 			tasks: [{
 				id: "07963628DC1434DC"
@@ -623,6 +624,7 @@
 			title: "Inscriber Press"
 			x: -3.5d
 			y: -4.0d
+			dependencies: ["0B1D5E77E82B17AB"]
 			id: "3ED4CC577351B4DA"
 			tasks: [
 				{
