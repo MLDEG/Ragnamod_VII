@@ -1,5 +1,15 @@
 onEvent('recipes', e => {
 
+    //Cataclysm
+    //Ignitium
+    e.shapeless('9x cataclysm:ignitium_ingot', 'cataclysm:ignitium_block')
+    //Ignitium
+    e.shapeless('9x cataclysm:witherite_ingot', 'cataclysm:witherite_block')
+    e.shapeless('cataclysm:witherite_block', '9x cataclysm:witherite_ingot')
+    //Ignitium
+    e.shapeless('9x cataclysm:enderite_ingot', 'cataclysm:enderite_block')
+    e.shapeless('cataclysm:enderite_block', '9x cataclysm:enderite_ingot')
+
     //Corundum Block
     //RED
     e.shapeless('quark:red_corundum', '4x quark:red_corundum_cluster')
@@ -46,6 +56,26 @@ onEvent('recipes', e => {
     ], {
       S: 'psi:cad_colorizer_purple',
       A: 'psi:ebony_substance'
+    })
+
+    //Void Stone
+    e.shaped('8x cataclysm:void_stone', [
+      'AAA',
+      'ASA',
+      'AAA'
+    ], {
+      S: 'bloodmagic:reagentvoid',
+      A: 'minecraft:redstone_block'
+    })
+
+    //Ender Stone
+    e.shaped('8x cataclysm:ender_stone', [
+      'AAA',
+      'ASA',
+      'AAA'
+    ], {
+      S: 'botania:ender_air_bottle',
+      A: 'cataclysm:void_stone'
     })
 
     //Combined Singularity

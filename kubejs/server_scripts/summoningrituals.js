@@ -1,25 +1,112 @@
 onEvent('recipes', e => {
 
+    //Ignis
     e.custom({
         "type": "summoningrituals:altar",
-        "catalyst": { "tag": "forge:ingots" },
+        "catalyst": { "item": "ragnamod_seven:ignis_soul" },
         "outputs": [
-            { "mob": "chickens:obsidian_chicken" }
+            { "mob": "cataclysm:ignis" }
         ],
         "inputs": [
-            { "ingredient": { "item": "minecraft:stone" }, "count": 64 },
-            { "ingredient": { "item": "minecraft:prismarine_shard" }, "count": 5 },
-            { "ingredient": { "item": "minecraft:amethyst_shard" }, "count": 10 },
-            { "tag": "forge:glass" }
+            { "item": "tconstruct:ichor_congealed_slime" },
+            { "item": "minecraft:gold_block" },
+            { "item": "minecraft:nether_bricks" },
+            { "item": "minecraft:netherrack" },
+            { "item": "rootsclassic:charged_runic_focus" }
         ],
         "sacrifices": {
-            "mobs": [{ "mob": "minecraft:pig", "count": 3 }, { "mob": "minecraft:sheep" }, { "mob": "minecraft:cow" }],
+            "mobs": [{ "mob": "minecraft:sheep" }],
             "region": { "x": 3, "y": 3, "z": 3 }
         },
         "recipe_time": 200,
-        "block_below": { "block": "minecraft:furnace", "properties": { "lit": "true" } },
-        "day_time": "DAY",
-        "weather": "CLEAR"
+        "block_below": { "block": "minecraft:magma_block" }
+    })
+    //Netherite Monstrosity
+    e.custom({
+        "type": "summoningrituals:altar",
+        "catalyst": { "item": "ragnamod_seven:netherite_monstrosity_soul" },
+        "outputs": [
+            { "mob": "cataclysm:netherite_monstrosity" }
+        ],
+        "inputs": [
+            { "item": "minecraft:redstone_block" },
+            { "item": "minecraft:netherite_block" },
+            { "item": "minecraft:blackstone" },
+            { "item": "minecraft:basalt" },
+            { "item": "rootsclassic:charged_runic_focus" }
+        ],
+        "sacrifices": {
+            "mobs": [{ "mob": "minecraft:sheep" }],
+            "region": { "x": 3, "y": 3, "z": 3 }
+        },
+        "recipe_time": 200,
+        "block_below": { "block": "minecraft:magma_block" }
+    })
+
+    //Ender Golem
+    e.custom({
+        "type": "summoningrituals:altar",
+        "catalyst": { "item": "ragnamod_seven:ender_golem_soul" },
+        "outputs": [
+            { "mob": "cataclysm:ender_golem" }
+        ],
+        "inputs": [
+            { "item": "cataclysm:obsidian_bricks" },
+            { "item": "cataclysm:void_stone" },
+            { "item": "cataclysm:void_stone" },
+            { "item": "cataclysm:obsidian_bricks" },
+            { "item": "rootsclassic:charged_runic_focus" }
+        ],
+        "sacrifices": {
+            "mobs": [{ "mob": "minecraft:sheep" }],
+            "region": { "x": 3, "y": 3, "z": 3 }
+        },
+        "recipe_time": 200,
+        "block_below": { "block": "architects_palette:heavy_cracked_end_stone_bricks" }
+    })
+
+    //Ender Guardian
+    e.custom({
+        "type": "summoningrituals:altar",
+        "catalyst": { "item": "ragnamod_seven:ender_guardian_soul" },
+        "outputs": [
+            { "mob": "cataclysm:ender_guardian" }
+        ],
+        "inputs": [
+            { "item": "minecraft:end_stone_bricks" },
+            { "item": "minecraft:obsidian" },
+            { "item": "minecraft:purpur_block" },
+            { "item": "cataclysm:ender_stone" },
+            { "item": "rootsclassic:charged_runic_focus" }
+        ],
+        "sacrifices": {
+            "mobs": [{ "mob": "minecraft:sheep" }],
+            "region": { "x": 3, "y": 3, "z": 3 }
+        },
+        "recipe_time": 200,
+        "block_below": { "block": "architects_palette:heavy_cracked_end_stone_bricks" }
+    })
+
+    //Ignited Revenant
+    e.custom({
+        "type": "summoningrituals:altar",
+        "catalyst": { "item": "ragnamod_seven:revenant_soul" },
+        "outputs": [
+            { "mob": "cataclysm:ignited_revenant" }
+        ],
+        "inputs": [
+            { "item": "tconstruct:scorched_stone" },
+            { "item": "minecraft:magma_block" },
+            { "item": "minecraft:magma_block" },
+            { "item": "tconstruct:scorched_stone" },
+            { "item": "rootsclassic:charged_runic_focus" }
+        ],
+        "sacrifices": {
+            "mobs": [{ "mob": "minecraft:sheep" }],
+            "region": { "x": 3, "y": 3, "z": 3 }
+        },
+        "recipe_time": 200,
+        "block_below": { "block": "minecraft:magma_block" }
     })
 
 })

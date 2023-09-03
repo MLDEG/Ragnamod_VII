@@ -329,7 +329,11 @@ onEvent('jei.add.items', event => {
 		'tconstruct:dagger',
 		'materialis:wrench',
 		'tinker_rapier:rapier_tic',
-		'tinker_rapier:estoc_tic'
+		'tinker_rapier:estoc_tic',
+		'cataclysm:witherite_ingot',
+		'cataclysm:enderite_ingot',
+		'cataclysm:witherite_block',
+		'cataclysm:enderite_block'
 	])
 })
 

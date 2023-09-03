@@ -2550,6 +2550,7 @@
 			]
 		}
 		{
+			icon: "ragnamod_seven:netherite_monstrosity_soul"
 			x: 4.0d
 			y: 2.5d
 			description: [
@@ -2558,14 +2559,23 @@
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "47D8E8B55FF99B6D"
-			tasks: [{
-				id: "3D69AE4AAD710AE4"
-				type: "kill"
-				entity: "cataclysm:netherite_monstrosity"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "3D69AE4AAD710AE4"
+					type: "kill"
+					entity: "cataclysm:netherite_monstrosity"
+					value: 1L
+				}
+				{
+					id: "174E4C19A954C938"
+					type: "item"
+					item: "ragnamod_seven:netherite_monstrosity_soul"
+				}
+			]
 		}
 		{
+			title: "Witherite"
+			icon: "cataclysm:witherite_ingot"
 			x: 4.0d
 			y: 1.5d
 			description: ["Here is the loot from the Netherite Monstrosity."]
@@ -2588,9 +2598,15 @@
 						}
 					}
 				}
+				{
+					id: "6B53CAB3AE2D7D6F"
+					type: "item"
+					item: "cataclysm:witherite_ingot"
+				}
 			]
 		}
 		{
+			icon: "ragnamod_seven:revenant_soul"
 			x: 5.0d
 			y: 1.5d
 			description: [
@@ -2599,12 +2615,19 @@
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "798D0AE8EBF9261A"
-			tasks: [{
-				id: "0F0F63B169C9BFA4"
-				type: "kill"
-				entity: "cataclysm:ignited_revenant"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "0F0F63B169C9BFA4"
+					type: "kill"
+					entity: "cataclysm:ignited_revenant"
+					value: 1L
+				}
+				{
+					id: "498FC4702CA05C8A"
+					type: "item"
+					item: "ragnamod_seven:revenant_soul"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -2631,6 +2654,7 @@
 			}]
 		}
 		{
+			icon: "ragnamod_seven:ignis_soul"
 			x: 6.5d
 			y: 2.5d
 			description: [
@@ -2639,12 +2663,19 @@
 			]
 			dependencies: ["5626BD70366E11F4"]
 			id: "71E0554F5655BF9D"
-			tasks: [{
-				id: "66E11D4E5889623D"
-				type: "kill"
-				entity: "cataclysm:ignis"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "66E11D4E5889623D"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+				{
+					id: "72E3FC64AC63656A"
+					type: "item"
+					item: "ragnamod_seven:ignis_soul"
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -2659,6 +2690,7 @@
 			}]
 		}
 		{
+			icon: "ragnamod_seven:ender_golem_soul"
 			x: 8.0d
 			y: 1.5d
 			description: [
@@ -2667,26 +2699,43 @@
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "7D8021B85F81245F"
-			tasks: [{
-				id: "7464E740BCBE9AB8"
-				type: "kill"
-				entity: "cataclysm:ender_golem"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "7464E740BCBE9AB8"
+					type: "kill"
+					entity: "cataclysm:ender_golem"
+					value: 1L
+				}
+				{
+					id: "61398C40C153EFFB"
+					type: "item"
+					item: "ragnamod_seven:ender_golem_soul"
+				}
+			]
 		}
 		{
+			title: "Enderite"
+			icon: "cataclysm:enderite_ingot"
 			x: 9.0d
 			y: 1.5d
 			description: ["The Gauntlet Of Guard is drop from the Ender Guardian."]
 			dependencies: ["72D8DA800637B9A0"]
 			id: "0C06FD6FDBB829A9"
-			tasks: [{
-				id: "6E386095DD95C2B4"
-				type: "item"
-				item: "cataclysm:gauntlet_of_guard"
-			}]
+			tasks: [
+				{
+					id: "6E386095DD95C2B4"
+					type: "item"
+					item: "cataclysm:gauntlet_of_guard"
+				}
+				{
+					id: "307FB716A828069F"
+					type: "item"
+					item: "cataclysm:enderite_ingot"
+				}
+			]
 		}
 		{
+			icon: "ragnamod_seven:ender_guardian_soul"
 			x: 9.0d
 			y: 2.5d
 			description: [
@@ -2695,12 +2744,19 @@
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "72D8DA800637B9A0"
-			tasks: [{
-				id: "2012F3762AF3AD3A"
-				type: "kill"
-				entity: "cataclysm:ender_guardian"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "2012F3762AF3AD3A"
+					type: "kill"
+					entity: "cataclysm:ender_guardian"
+					value: 1L
+				}
+				{
+					id: "000E4A605222978A"
+					type: "item"
+					item: "ragnamod_seven:ender_guardian_soul"
+				}
+			]
 		}
 		{
 			title: "Functional Control"

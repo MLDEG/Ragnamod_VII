@@ -154,6 +154,11 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:space').displayName('§bSpace Singularity')
     e.create('ragnamod_seven:infinity_gem').displayName('§cInfinity Gem')
     e.create('ragnamod_seven:sphere').displayName('Sphere Of All Things')
+    e.create('ragnamod_seven:ignis_soul').displayName('Ignis Soul')
+    e.create('ragnamod_seven:revenant_soul').displayName('Revanant Soul')
+    e.create('ragnamod_seven:netherite_monstrosity_soul').displayName('Netherite Monstrosity Soul')
+    e.create('ragnamod_seven:ender_golem_soul').displayName('Ender Golem Soul')
+    e.create('ragnamod_seven:ender_guardian_soul').displayName('Ender Guardian Soul')
     e.create('gateways:catalyst_small_pearl_gate').displayName('Small Gate Catalyst')
     e.create('gateways:catalyst_medium_pearl_gate').displayName('Medium Gate Catalyst')
     e.create('gateways:catalyst_large_pearl_gate').displayName('Large Gate Catalyst')
@@ -164,4 +169,5 @@ onEvent('item.registry', e => {
     e.create('solarflux:photovoltaic_cell_11').displayName('Photovoltaic Cell XI')
     e.create('solarflux:photovoltaic_cell_12').displayName('Photovoltaic Cell XII')
     e.create('solarflux:photovoltaic_cell_13').displayName('Photovoltaic Cell XIII')
+
 })
