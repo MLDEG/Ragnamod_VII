@@ -4,13 +4,10 @@
   "group": "boat",
   "key": {
     "#": {
-      "tag": "rm:oak_boat"
+      "tag": "rm:oak_planks"
     }
   },
-  "pattern": [
-    "# #",
-    "###"
-  ],
+  "pattern": ["# #", "###"],
   "result": {
     "item": "minecraft:oak_boat"
   },
