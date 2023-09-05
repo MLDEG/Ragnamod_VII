@@ -1,34 +1,77 @@
 
 #List of curio slot type settings
 [[curiosSettings]]
-identifier = "terminal"
-icon = "curios:slot/empty_terminal"
-size = 1
-
-[[curiosSettings]]
-identifier = "curio"
-size = 4
-
-[[curiosSettings]]
 identifier = "head"
 size = 2
+priority = 0
+
+[[curiosSettings]]
+identifier = "glasses"
+size = 1
+priority = 1
 
 [[curiosSettings]]
 identifier = "necklace"
 size = 2
+priority = 2
+
+[[curiosSettings]]
+identifier = "heartamulet"
+size = 1
+priority = 3
+
+[[curiosSettings]]
+identifier = "body"
+size = 1
+priority = 4
+
+[[curiosSettings]]
+identifier = "back"
+size = 1
+priority = 5
 
 [[curiosSettings]]
 identifier = "hands"
 size = 2
+priority = 6
 
 [[curiosSettings]]
 identifier = "ring"
 size = 10
+priority = 7
 
 [[curiosSettings]]
 identifier = "belt"
 size = 4
+priority = 8
+
+[[curiosSettings]]
+identifier = "terminal"
+icon = "curios:slot/empty_terminal"
+size = 1
+priority = 9
+
+[[curiosSettings]]
+identifier = "bundle"
+size = 1
+priority = 10
+
+[[curiosSettings]]
+identifier = "an_focus"
+size = 1
+priority = 11
+
+[[curiosSettings]]
+identifier = "curio"
+size = 4
+priority = 12
 
 [[curiosSettings]]
 identifier = "charm"
 size = 8
+priority = 13
+
+[[curiosSettings]]
+identifier = "magic_book"
+size = 1
+priority = 14
