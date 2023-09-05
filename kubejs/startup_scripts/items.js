@@ -159,6 +159,7 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:netherite_monstrosity_soul').displayName('Netherite Monstrosity Soul')
     e.create('ragnamod_seven:ender_golem_soul').displayName('Ender Golem Soul')
     e.create('ragnamod_seven:ender_guardian_soul').displayName('Ender Guardian Soul')
+    e.create('ragnamod_seven:log_egg_component').displayName('Log Egg Component')
     e.create('gateways:catalyst_small_pearl_gate').displayName('Small Gate Catalyst')
     e.create('gateways:catalyst_medium_pearl_gate').displayName('Medium Gate Catalyst')
     e.create('gateways:catalyst_large_pearl_gate').displayName('Large Gate Catalyst')

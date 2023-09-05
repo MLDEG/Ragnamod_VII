@@ -242,10 +242,10 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "minecraft:oak_log"
+      "itemID": "ragnamod_seven:log_egg_component"
     },
     "drop_item": {
-      "itemID": "minecraft:oak_log"
+      "itemID": "ragnamod_seven:log_egg_component"
     },
     "spawn_type": "NONE",
     "parent_1": "",
