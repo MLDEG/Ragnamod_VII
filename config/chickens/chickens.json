@@ -2168,5 +2168,75 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:apatite_chicken": {
+    "name": "apatite_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thermal:apatite"
+    },
+    "drop_item": {
+      "itemID": "thermal:apatite"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:cinnabar_chicken": {
+    "name": "cinnabar_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thermal:cinnabar"
+    },
+    "drop_item": {
+      "itemID": "thermal:cinnabar"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:fluorite_chicken": {
+    "name": "fluorite_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "mekanism:fluorite_gem"
+    },
+    "drop_item": {
+      "itemID": "mekanism:fluorite_gem"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:niter_chicken": {
+    "name": "niter_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thermal:niter"
+    },
+    "drop_item": {
+      "itemID": "thermal:niter"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:sulfur_chicken": {
+    "name": "sulfur_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thermal:sulfur"
+    },
+    "drop_item": {
+      "itemID": "thermal:sulfur"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }
