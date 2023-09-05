@@ -11,7 +11,7 @@ onEvent('recipes', e => {
     summonChicken('minecraft:dirt', 'minecraft:dirt', 'dirt')
     summonChicken('powah:crystal_spirited', 'powah:spirited_crystal_block', 'spirited_crystal')
     summonChicken('byg:ametrine_gems', 'byg:ametrine_block', 'ametrine')
-    summonChicken('ftbic:lead_ingot', 'thermal:lead_block', 'lead')
+    summonChicken('thermal:lead_ingot', 'thermal:lead_block', 'lead')
     summonChicken('tconstruct:slimesteel_ingot', 'tconstruct:slimesteel_block', 'slimesteel')
     summonChicken('thermal:lumium_ingot', 'thermal:lumium_block', 'lumium')
     summonChicken('byg:pendorite_ingot', 'byg:pendorite_block', 'pendorite')

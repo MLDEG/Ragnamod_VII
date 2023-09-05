@@ -368,6 +368,7 @@ onEvent('recipes', e => {
         'ironfurnaces:furnaces/iron_furnace',
         'ironfurnaces:furnaces/gold_furnace',
         'ironfurnaces:furnaces/silver_furnace2',
+        'spirit:villager',
 
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',
