@@ -9,44 +9,56 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Gatekeeper"
+			icon: {
+				id: "blue_skies:zeal_lighter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 0.0d
 			y: 0.0d
+			description: [
+				"To begin Blue Skies, you need to find on the Overworld different houses with a Gatekeeper inside (or outside the house)."
+				"You can find these houses on a Mountain, a Plains or a Snowy biome."
+				"{image:ftbquests:textures/quests/bs_gatekeeper.png width:150 height:100 align:1}"
+				"You need, next, to trade with the Gatekeeper to get a Zeal Lighter and a Blue Journal."
+				"Then, find a portal frame in the house and light it !"
+			]
+			dependencies: ["7AD83BC20D2742C4"]
+			size: 2.0d
 			id: "5D41E955B2B0A532"
-			tasks: [{
-				id: "4739A7E89CB17AE7"
-				type: "item"
-				item: {
-					id: "blue_skies:zeal_lighter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "4739A7E89CB17AE7"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "2AF0D8101FB1369D"
+					type: "item"
+					item: "blue_skies:blue_journal"
+				}
+			]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
-			id: "0D389CCBC585A560"
-			tasks: [{
-				id: "079FF7286ECA64B2"
-				type: "item"
-				item: "blue_skies:blue_journal"
-			}]
-		}
-		{
-			x: 3.5d
-			y: -2.5d
-			id: "5427F6F0E83189CE"
-			tasks: [{
-				id: "1118126ADF2FD396"
-				type: "item"
-				item: "blue_skies:blinding_key"
-			}]
-		}
-		{
-			x: 3.0d
-			y: -1.5d
+			x: -0.5d
+			y: 3.5d
+			description: [
+				"After defeating the Summoner, you must now go to the Nature Dungeon."
+				"You CANNOT miss it !"
+				"{image:ftbquests:textures/quests/bs_nature_dungeon.png width:150 height:100 align:1}"
+				"Like the blinding dungeon, you need to find four keys to unlock the boss door."
+				"Be aware that the dungeon is a huge maze."
+			]
+			dependencies: ["66D6AF0995355087"]
 			id: "7B3715CF8D754765"
 			tasks: [{
 				id: "4AE1CFB89067D058"
@@ -55,8 +67,17 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
+			x: 0.5d
+			y: 3.5d
+			description: [
+				"After defeating the Alchemist, you must now go to the Poison Dungeon."
+				"{image:ftbquests:textures/quests/bs_poison_dungeon.png width:150 height:100 align:1}"
+				"You can find it in the Sunset Maple Forest biome, and it can be found at the base of a dead tree overgrown with cobwebs."
+				""
+				"Like the blinding dungeon, you need to find four keys to unlock the boss door."
+				"Be aware that the dungeon is a huge maze."
+			]
+			dependencies: ["64B294A73A4BF758"]
 			id: "29A50EFD07FFC0CB"
 			tasks: [{
 				id: "2AC878DFBFFF9950"
@@ -65,8 +86,17 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.5d
+			title: "Starlit Crusher"
+			icon: "blue_skies:starlit_crusher_spawn_egg"
+			x: -1.0d
+			y: 4.5d
+			description: [
+				"Simply fight and kill the Starlit Crusher."
+				"It will drop a trophy and a loot bag."
+				"You can find, inside, a Nature Arc and some goodies."
+				"To kill this boss, you need to destroy its wooden wall with an axe, then throw a soulbound spear to stun it and attack it with your axe."
+			]
+			dependencies: ["7B3715CF8D754765"]
 			id: "464528B160DE150C"
 			tasks: [
 				{
@@ -104,8 +134,19 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -0.5d
+			title: "Summoner"
+			icon: "blue_skies:summoner_spawn_egg"
+			x: -1.0d
+			y: 2.5d
+			description: [
+				"Simply fight and kill the Summoner."
+				"It will drop a trophy and a loot bag."
+				"You can find, inside, an Ethereal Arc and some goodies."
+			]
+			dependencies: [
+				"5431F0C9860D36AD"
+				"25C16DAF79CEB2AC"
+			]
 			id: "66D6AF0995355087"
 			tasks: [
 				{
@@ -143,8 +184,19 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -0.5d
+			title: "Alchemist"
+			icon: "blue_skies:alchemist_spawn_egg"
+			x: 1.0d
+			y: 2.5d
+			description: [
+				"Simply fight and kill the Alchemist."
+				"It will drop a trophy and a loot bag."
+				"You can find, inside, a Dusk Arc and some goodies."
+			]
+			dependencies: [
+				"5431F0C9860D36AD"
+				"12AB66D0233C13DD"
+			]
 			id: "64B294A73A4BF758"
 			tasks: [
 				{
@@ -182,8 +234,16 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 0.5d
+			title: "Arachnarch"
+			icon: "blue_skies:arachnarch_spawn_egg"
+			x: 1.0d
+			y: 4.5d
+			description: [
+				"Simply fight and kill the Arachnarch."
+				"It will drop a trophy and a loot bag."
+				"You can find, inside, a Poisonous Arc and some goodies."
+			]
+			dependencies: ["29A50EFD07FFC0CB"]
 			id: "3642FEFA14E5B577"
 			tasks: [
 				{
@@ -221,9 +281,12 @@
 			]
 		}
 		{
+			title: "Everbright"
 			icon: "blue_skies:everbright_portal"
-			x: 3.0d
+			x: -1.5d
 			y: 1.5d
+			description: ["Find a portal frame made of Turquoise Stone Bricks, light it with your Zeal Lighter and go into the Everbright !"]
+			dependencies: ["5D41E955B2B0A532"]
 			id: "25C16DAF79CEB2AC"
 			tasks: [{
 				id: "32FAAB37F070EB63"
@@ -232,9 +295,12 @@
 			}]
 		}
 		{
+			title: "Everdawn"
 			icon: "blue_skies:everdawn_portal"
-			x: 4.0d
+			x: 1.5d
 			y: 1.5d
+			description: ["Find a portal frame made of Lunar Stone Bricks, light it with your Zeal Lighter and go into the Everdawn!"]
+			dependencies: ["5D41E955B2B0A532"]
 			id: "12AB66D0233C13DD"
 			tasks: [{
 				id: "2AC402E52323CCEC"
@@ -243,8 +309,17 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 2.0d
 			y: 2.5d
+			description: [
+				"You can find Horizonite Ore in this biomes:"
+				"Crystal Dunes"
+				"Moonlit Reservoir"
+				"Sunset Maple Forest"
+				"Searing Grassland"
+				"Generally below level 25"
+			]
+			dependencies: ["12AB66D0233C13DD"]
 			id: "0F3871DA957D1676"
 			tasks: [{
 				id: "79C0B77D476512FD"
@@ -253,8 +328,19 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -2.0d
 			y: 2.5d
+			description: [
+				"You can find Ventium Ore in this biomes:"
+				"Slushlands"
+				"Frostbitten Forest"
+				"Peeking Ocean"
+				"Midday Shore"
+				"Deep Peeking Ocean"
+				"Brisk Meadow"
+				"Brumble Forest"
+			]
+			dependencies: ["25C16DAF79CEB2AC"]
 			id: "5087D7633FD14915"
 			tasks: [{
 				id: "6C89DCC6F99FA697"
@@ -263,8 +349,19 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.5d
+			x: -2.5d
+			y: 1.5d
+			description: [
+				"You can find Falsite Ore in this biomes:"
+				"Slushlands"
+				"Frostbitten Forest"
+				"Peeking Ocean"
+				"Midday Shore"
+				"Deep Peeking Ocean"
+				"Brisk Meadow"
+				"Brumble Forest"
+			]
+			dependencies: ["25C16DAF79CEB2AC"]
 			id: "5E6F7485DE77D2BF"
 			tasks: [{
 				id: "5D2305AC2AA2E761"
@@ -273,8 +370,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.5d
+			x: 5.5d
+			y: 3.0d
 			id: "6EF85A594ED56AF6"
 			tasks: [{
 				id: "06101496ED8707AE"
@@ -283,8 +380,15 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: -2.0d
+			y: 0.5d
+			description: ["You can find Aquite Ore in everywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"12AB66D0233C13DD"
+			]
+			dependency_requirement: "one_completed"
 			id: "7E6B4F17B0F46590"
 			tasks: [{
 				id: "103C28E8DF562DDA"
@@ -293,8 +397,15 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.5d
+			description: ["You can find Charoite Ore in everywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"12AB66D0233C13DD"
+			]
+			dependency_requirement: "one_completed"
 			id: "0DA2467A22F6D309"
 			tasks: [{
 				id: "5595CFDE90F1B2D2"
@@ -303,8 +414,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
+			x: 2.0d
+			y: -0.5d
 			id: "47F04F195DE192F9"
 			tasks: [
 				{
@@ -354,8 +465,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: 2.0d
+			y: -1.5d
 			id: "1019A0B35E3CCF27"
 			tasks: [
 				{
@@ -405,8 +516,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 0.0d
+			x: 3.0d
+			y: -0.5d
 			id: "5812E71E54C1398A"
 			tasks: [
 				{
@@ -456,8 +567,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 1.0d
+			x: 3.0d
+			y: -1.5d
 			id: "6080D26507C6D50B"
 			tasks: [
 				{
@@ -507,8 +618,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 0.0d
+			x: -3.0d
+			y: -0.5d
 			id: "2BBF8DBC515DA045"
 			tasks: [
 				{
@@ -558,8 +669,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 1.0d
+			x: -3.0d
+			y: -1.5d
 			id: "26C9072836B7441D"
 			tasks: [
 				{
@@ -609,8 +720,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: 0.0d
+			x: -2.0d
+			y: -0.5d
 			id: "7D75138C480894E3"
 			tasks: [
 				{
@@ -660,8 +771,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: 1.0d
+			x: -2.0d
+			y: -1.5d
 			id: "2CAD18360359759B"
 			tasks: [
 				{
@@ -711,17 +822,7 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 3.0d
-			id: "5DC36D2A420ACD46"
-			tasks: [{
-				id: "6E2E3B04236DC939"
-				type: "item"
-				item: "blue_skies:food_prep_table"
-			}]
-		}
-		{
-			x: 8.5d
+			x: 4.5d
 			y: 3.0d
 			id: "54AE1856FCFF9641"
 			tasks: [{
@@ -731,8 +832,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 3.0d
+			x: 5.5d
+			y: 2.0d
 			id: "534F929E63557D43"
 			tasks: [{
 				id: "3EE9B513579D9448"
@@ -741,8 +842,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 			id: "3B89725E5E56A8CF"
 			tasks: [
 				{
@@ -758,8 +859,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 0.0d
+			x: 2.5d
+			y: 3.5d
 			id: "1CE0851610DB9220"
 			tasks: [
 				{
@@ -809,8 +910,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 1.0d
+			x: 2.5d
+			y: 4.5d
 			id: "701C945DBA3DF5CD"
 			tasks: [
 				{
@@ -858,6 +959,78 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Blinding Dungeons"
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"Whether you are in the Everbright or the Everdawn, you must first find the Blinding Dungeon first."
+				"{image:ftbquests:textures/quests/bs_blinding_dungeons.png width:150 height:100 align:1}"
+				"In this one, you cannot break blocks, but you can interact with your environment, your goal is to find four keys to open the boss door at the top of this tower."
+			]
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"12AB66D0233C13DD"
+			]
+			dependency_requirement: "one_completed"
+			id: "5431F0C9860D36AD"
+			tasks: [{
+				id: "31151B31911F77B5"
+				type: "item"
+				item: "blue_skies:blinding_key"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["You can find Diopside Ore in everywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"12AB66D0233C13DD"
+			]
+			dependency_requirement: "one_completed"
+			id: "3ED4894CC5603845"
+			tasks: [{
+				id: "01153D689DA0B411"
+				type: "item"
+				item: "blue_skies:diopside_gem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: ["You can find Pyrope Ore in everywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"12AB66D0233C13DD"
+			]
+			dependency_requirement: "one_completed"
+			id: "7805AD446625B4BD"
+			tasks: [{
+				id: "454960F53AFCF509"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["You can find Moonstone Ore in everywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"12AB66D0233C13DD"
+			]
+			dependency_requirement: "one_completed"
+			id: "46DDDC9A17FF9E16"
+			tasks: [{
+				id: "07D2272311EAED6F"
+				type: "item"
+				item: "blue_skies:moonstone"
+			}]
 		}
 	]
 	quest_links: [ ]
