@@ -305,5 +305,18 @@ onEvent('recipes', e => {
       A: 'ragnamod_seven:log_egg_component',
       N: 'minecraft:netherrack'
     })
+    
+    //Summoning Table
+    e.shaped('summoningrituals:altar', [
+      'ABA',
+      'CDC',
+      'DED'
+    ], {
+      A: 'minecraft:candle',
+      B: 'minecraft:wither_skeleton_skull',
+      C: 'minecraft:gold_block',
+      D: 'minecraft:red_carpet',
+      E: 'immersiveengineering:craftingtable'
+    })
 
 })
