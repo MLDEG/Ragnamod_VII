@@ -915,6 +915,7 @@
 			x: -1.0d
 			y: -3.5d
 			description: ["The Summoning Altar allows you to summon mobs/boss."]
+			dependencies: ["577D6202E19B2599"]
 			id: "2786D4CA2DDAE3A3"
 			tasks: [{
 				id: "0926F7EBB7D71E55"
@@ -2502,7 +2503,7 @@
 		}
 		{
 			icon: "mob_grinding_utils:rotten_egg"
-			x: -1.0d
+			x: -0.5d
 			y: 0.5d
 			description: [
 				"If you give cursed food to a chicken, it explodes, dropping feathers and a Rotten Egg."
@@ -2526,8 +2527,8 @@
 		}
 		{
 			icon: "mob_grinding_utils:golden_egg"
-			x: -1.0d
-			y: -0.5d
+			x: -1.5d
+			y: 0.5d
 			description: [
 				"If you give Nutrious food to a chicken, it explodes, dropping feathers and a Golden Egg."
 				"{image:ftbquests:textures/quests/delightful.png width:150 height:100 align:1}"
@@ -2863,7 +2864,7 @@
 		{
 			icon: "torchmaster:megatorch"
 			x: -1.0d
-			y: -1.5d
+			y: -0.5d
 			description: [
 				"The Mega Torch block the hostile spawn in a radius (cube) of 128 blocks."
 				"The Dread Lamp does the same but for passive mobs."
@@ -2952,6 +2953,38 @@
 					id: "59EC309C795E17E5"
 					type: "item"
 					item: "mob_grinding_utils:saw_upgrade_sharpness"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "toolbelt:belt"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"The Tool Belt allows you to store your equipment in a radial menu that you can open with a key (r by default)."
+				""
+				"The Belt Pouch allows you to increase your Belt by one slot (up to 9 slots) by combining the Tool Belt and the Belt Pouch in an anvil."
+			]
+			dependencies: ["577D6202E19B2599"]
+			id: "0CCD436B69909D90"
+			tasks: [
+				{
+					id: "457A54175BBA2342"
+					type: "item"
+					item: {
+						id: "toolbelt:belt"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "17273B2276F0D244"
+					type: "item"
+					item: "toolbelt:pouch"
 				}
 			]
 		}

@@ -199,8 +199,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -0.5d
+			x: -0.5d
+			y: -1.0d
 			description: [
 				"The Basin is a block that hold items and fluids used in Packing, Compacting, and Mixing recipes"
 				""
@@ -446,8 +446,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -8.0d
+			x: -1.0d
+			y: -5.5d
 			description: ["Smart Chutes behave similarly to Brass Funnels. They can be filtered to only allow certain items through, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."]
 			dependencies: [
 				"5B972F523E694CCB"
@@ -822,8 +822,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.5d
+			x: -5.5d
+			y: -1.0d
 			description: ["The Mechanical Bearing is used to create and rotate Contraptions. "]
 			dependencies: ["7E5C72750017BBA4"]
 			id: "74DC739681BF86AA"
@@ -865,8 +865,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 3.5d
+			x: -5.5d
+			y: 2.0d
 			description: ["The Mechanical Drill is a block used to break blocks."]
 			hide_dependency_lines: true
 			dependencies: ["39718B6A5A7BEC15"]
@@ -878,8 +878,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 3.5d
+			x: -5.5d
+			y: 3.0d
 			description: ["The Portable Storage Interface is a block that allows Item Transporters to directly interact with Contraption inventories. "]
 			hide_dependency_lines: true
 			dependencies: ["5B972F523E694CCB"]
@@ -891,8 +891,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 3.5d
+			x: -5.5d
+			y: 1.0d
 			description: [
 				"The Mechanical Harvester will harvest all mature crops it comes in contact with while moving forward."
 				"It will then either deposit the items on a inventory attach to the contraption, or, if no inventories are available, it will drop the items to the ground."
@@ -907,8 +907,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.5d
+			x: -5.5d
+			y: 0.0d
 			description: [
 				"While attached to a contraption, the Mechanical Plough will break non-collidable blocks in contact with (ex: Snow Layers)."
 				"The Mechanical Plough will also move entities and till soil blocks"
@@ -1743,7 +1743,7 @@
 			tasks: [{
 				id: "30CA26D9D3006539"
 				type: "item"
-				item: "createaddition:copper_wire"
+				item: "ftbic:copper_wire"
 			}]
 		}
 		{
@@ -1774,8 +1774,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.0d
+			x: 7.5d
+			y: -4.5d
 			description: ["The Rolling Mill is used to craft Wires and Rods"]
 			hide_dependency_lines: true
 			dependencies: ["39718B6A5A7BEC15"]
