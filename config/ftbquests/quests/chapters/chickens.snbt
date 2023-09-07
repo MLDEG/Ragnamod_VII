@@ -3,14 +3,14 @@
 	group: ""
 	order_index: 7
 	filename: "chickens"
-	title: "Chickens"
+	title: " Chickens"
 	icon: "chickens:catcher"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: 12.5d
+			y: 4.0d
 			id: "0448AF3967AB256F"
 			tasks: [{
 				id: "537F093D38A1FF8B"
@@ -19,8 +19,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: 12.5d
+			y: 3.0d
 			id: "57962C8913A8C98C"
 			tasks: [
 				{
@@ -36,8 +36,17 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:blue_chicken"
+					}
+				}
+			}
+			x: 15.0d
+			y: 5.0d
 			id: "09126814ED2E92D5"
 			tasks: [
 				{
@@ -69,7 +78,16 @@
 			]
 		}
 		{
-			x: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:white_chicken"
+					}
+				}
+			}
+			x: 12.5d
 			y: 1.0d
 			id: "1BCFA992A766EC3F"
 			tasks: [
@@ -102,8 +120,17 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:black_chicken"
+					}
+				}
+			}
+			x: 15.5d
+			y: 4.0d
 			id: "5A3251866489B50B"
 			tasks: [
 				{
@@ -135,8 +162,17 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:cyan_chicken"
+					}
+				}
+			}
+			x: 14.5d
+			y: 6.0d
 			id: "7702E42007537D59"
 			tasks: [
 				{
@@ -168,8 +204,17 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:light_blue_chicken"
+					}
+				}
+			}
+			x: 13.5d
+			y: 6.5d
 			id: "10FE13ABD448D381"
 			tasks: [
 				{
@@ -201,8 +246,17 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:yellow_chicken"
+					}
+				}
+			}
+			x: 10.0d
+			y: 5.0d
 			id: "1D9BE03B23E9F8BC"
 			tasks: [
 				{
@@ -234,8 +288,17 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:pink_chicken"
+					}
+				}
+			}
+			x: 10.5d
+			y: 6.0d
 			id: "5AB5B8C985C0DF53"
 			tasks: [
 				{
@@ -267,8 +330,17 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:green_chicken"
+					}
+				}
+			}
+			x: 10.5d
+			y: 2.0d
 			id: "1573364B4D3C18CD"
 			tasks: [
 				{
@@ -300,8 +372,17 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:lime_chicken"
+					}
+				}
+			}
+			x: 11.5d
+			y: 1.5d
 			id: "34F9284943460859"
 			tasks: [
 				{
@@ -333,8 +414,17 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:magenta_chicken"
+					}
+				}
+			}
+			x: 11.5d
+			y: 6.5d
 			id: "2A247D5167BECE2B"
 			tasks: [
 				{
@@ -366,8 +456,17 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:gray_chicken"
+					}
+				}
+			}
+			x: 14.5d
+			y: 2.0d
 			id: "05CB5C1638D38DD7"
 			tasks: [
 				{
@@ -399,8 +498,17 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:light_gray_chicken"
+					}
+				}
+			}
+			x: 13.5d
+			y: 1.5d
 			id: "21CD75CEB6D82D4A"
 			tasks: [
 				{
@@ -432,8 +540,17 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:orange_chicken"
+					}
+				}
+			}
+			x: 9.5d
+			y: 4.0d
 			id: "2559176E09A0EFED"
 			tasks: [
 				{
@@ -465,8 +582,17 @@
 			]
 		}
 		{
-			x: 13.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:brown_chicken"
+					}
+				}
+			}
+			x: 15.0d
+			y: 3.0d
 			id: "064CC87EF85D543E"
 			tasks: [
 				{
@@ -498,8 +624,17 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:red_chicken"
+					}
+				}
+			}
+			x: 10.0d
+			y: 3.0d
 			id: "5A543A94E06D9D14"
 			tasks: [
 				{
@@ -531,8 +666,17 @@
 			]
 		}
 		{
-			x: 15.0d
-			y: 1.0d
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:purple_chicken"
+					}
+				}
+			}
+			x: 12.5d
+			y: 7.0d
 			id: "6EF85A62934EBF96"
 			tasks: [
 				{
@@ -564,8 +708,10 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: 9.0d
+			y: -2.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_electrical_copper.png width:150 height:100 align:1}"]
 			id: "5A3B1D6E4C049F30"
 			tasks: [{
 				id: "4D2A6AFD3E3C21C9"
@@ -583,8 +729,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: -1.0d
+			y: 6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_obsidian.png width:150 height:100 align:1}"]
 			id: "6E44107EEBF6E3F3"
 			tasks: [{
 				id: "7EEA081A62F6888E"
@@ -602,8 +750,11 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 13.0d
+			y: -2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steel_energized.png width:150 height:100 align:1}"]
+			dependencies: ["1C0EE50619DE24B2"]
 			id: "1B2CD2429DF464F4"
 			tasks: [{
 				id: "6E32AFBDBFB0EEA5"
@@ -621,8 +772,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			x: 23.0d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_glowstone.png width:150 height:100 align:1}"]
 			id: "0CA3D6F5AB887667"
 			tasks: [{
 				id: "0B5F4F39DFD2730D"
@@ -640,8 +793,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 4.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_duralumin.png width:150 height:100 align:1}"]
 			id: "265F92A9B793AD49"
 			tasks: [{
 				id: "0ECC7079BF1A9D18"
@@ -659,8 +814,10 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 9.0d
+			y: 5.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_qivium.png width:150 height:100 align:1}"]
 			id: "23928F426687C4D4"
 			tasks: [{
 				id: "699FC1125DA05FF6"
@@ -678,8 +835,10 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: -2.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dirt.png width:150 height:100 align:1}"]
 			id: "7C1461EFDE002AA7"
 			tasks: [{
 				id: "4B737254A920061F"
@@ -697,8 +856,11 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 2.0d
+			x: 12.0d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_spirited_crystal.png width:150 height:100 align:1}"]
+			dependencies: ["3267C71EB8176867"]
 			id: "0BEF620AC06F5861"
 			tasks: [{
 				id: "3C366C8EF4AAF6EF"
@@ -716,8 +878,10 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 2.0d
+			x: 1.0d
+			y: -1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ametrine.png width:150 height:100 align:1}"]
 			id: "2E79D1B90A42B486"
 			tasks: [{
 				id: "5A9670F1637E8E13"
@@ -735,8 +899,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: 10.5d
+			y: -6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lead.png width:150 height:100 align:1}"]
 			id: "67B82FC9D174CC3E"
 			tasks: [{
 				id: "404394F81FFC8BB2"
@@ -754,8 +920,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 8.5d
+			y: 3.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_slimesteel.png width:150 height:100 align:1}"]
 			id: "471FBE5FD5B2B1CB"
 			tasks: [{
 				id: "27317273B681AA6A"
@@ -773,8 +941,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: 8.0d
+			y: -3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lumium.png width:150 height:100 align:1}"]
 			id: "67E4019C2E1E074A"
 			tasks: [{
 				id: "2A20EB9D5F1B46EA"
@@ -792,8 +962,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 2.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pendorite.png width:150 height:100 align:1}"]
 			id: "42DA79EC49AB1FDE"
 			tasks: [{
 				id: "5E538F1C474A3A5A"
@@ -811,8 +983,10 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 22.0d
 			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ghast.png width:150 height:100 align:1}"]
 			id: "67EF0F8EB7F2C278"
 			tasks: [{
 				id: "66C548078DAF27E8"
@@ -830,8 +1004,11 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 1.5d
+			y: 1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ostrum.png width:150 height:100 align:1}"]
+			dependencies: ["3A4863E1B2ED2E36"]
 			id: "0710700C379BCBE8"
 			tasks: [{
 				id: "6AF19CFE7767DCAE"
@@ -849,8 +1026,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.0d
+			x: 2.5d
+			y: 1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_calorite.png width:150 height:100 align:1}"]
+			dependencies: ["2149E5AE3CDE8DBE"]
 			id: "0B214B093048ED71"
 			tasks: [{
 				id: "21DA255CCF03F5BF"
@@ -868,8 +1048,10 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: -1.0d
+			y: 2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_glass.png width:150 height:100 align:1}"]
 			id: "7CD64900878772B0"
 			tasks: [{
 				id: "50B09713C68829FE"
@@ -887,8 +1069,10 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 3.0d
+			x: 8.5d
+			y: 4.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_felsteel.png width:150 height:100 align:1}"]
 			id: "028880CABE32B7B0"
 			tasks: [{
 				id: "19D2A871794B389C"
@@ -906,8 +1090,10 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_amethyst_bronze.png width:150 height:100 align:1}"]
 			id: "4F10F050B5D94A40"
 			tasks: [{
 				id: "1929EBED746901E1"
@@ -925,8 +1111,10 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 4.0d
+			x: 8.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gunpowder.png width:150 height:100 align:1}"]
 			id: "6D2CBA7D3C6681D9"
 			tasks: [{
 				id: "6AFC8B717B93206F"
@@ -944,8 +1132,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 4.0d
+			x: 16.0d
+			y: -2.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_arcane_gold.png width:150 height:100 align:1}"]
+			dependencies: ["09FB1CFAC203AC1F"]
 			id: "543FB1584FE49C94"
 			tasks: [{
 				id: "30903C8242E78688"
@@ -963,8 +1154,10 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 4.0d
+			x: 9.5d
+			y: 6.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_wavy.png width:150 height:100 align:1}"]
 			id: "147AF5D991FCF086"
 			tasks: [{
 				id: "2A756E227188C891"
@@ -982,8 +1175,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: 9.5d
+			y: 1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_crusteel.png width:150 height:100 align:1}"]
 			id: "20EFD6402E4B675A"
 			tasks: [{
 				id: "3226406DC835DD51"
@@ -1001,8 +1196,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: 10.0d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_snowball.png width:150 height:100 align:1}"]
 			id: "769DDF6AEE92F33F"
 			tasks: [{
 				id: "4CB09294F9D646B7"
@@ -1020,8 +1217,11 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.0d
+			x: 9.0d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_brass.png width:150 height:100 align:1}"]
+			dependencies: ["71AB34A88B76A25C"]
 			id: "078341CDB9D88E8B"
 			tasks: [{
 				id: "2B4B0390AECCA40F"
@@ -1039,8 +1239,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 4.0d
+			x: 11.5d
+			y: -6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_zinc.png width:150 height:100 align:1}"]
 			id: "4B2717F5A1595F15"
 			tasks: [{
 				id: "481ED535DC6BE6B6"
@@ -1058,8 +1260,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: -6.0d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lapis_lazuli.png width:150 height:100 align:1}"]
 			id: "2664D3068ACC1C05"
 			tasks: [{
 				id: "4772C2E6703ABEEF"
@@ -1077,8 +1281,11 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 5.0d
+			x: 6.0d
+			y: 7.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_terrasteel.png width:150 height:100 align:1}"]
+			dependencies: ["00000000000003EB"]
 			id: "324AFFFA085F942A"
 			tasks: [{
 				id: "38C0BC23ECE470CF"
@@ -1096,8 +1303,11 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			x: 16.5d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hop.png width:150 height:100 align:1}"]
+			dependencies: ["00000000000006CA"]
 			id: "6D4599187344C7C9"
 			tasks: [{
 				id: "3799C45ADA10B026"
@@ -1115,8 +1325,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 15.0d
+			y: 0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_energy_crystal.png width:150 height:100 align:1}"]
 			id: "587A7335317D5328"
 			tasks: [{
 				id: "4762C62850772CF7"
@@ -1134,8 +1346,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 5.0d
+			x: 17.5d
+			y: 1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_uranium.png width:150 height:100 align:1}"]
 			id: "1E3A3D52A9D58A27"
 			tasks: [{
 				id: "6F102FF6F6AC9D47"
@@ -1153,8 +1367,11 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 1.0d
+			x: 6.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_manasteel.png width:150 height:100 align:1}"]
+			dependencies: ["00000000000003D3"]
 			id: "5DD78BDFD06E3D39"
 			tasks: [{
 				id: "57EC36EE1DD61037"
@@ -1172,8 +1389,10 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 1.0d
+			x: 17.0d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hureaulite.png width:150 height:100 align:1}"]
 			id: "65A62B13B72EBAFE"
 			tasks: [{
 				id: "193C1BF7372A21AB"
@@ -1191,8 +1410,11 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 1.0d
+			x: 2.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_source_gem.png width:150 height:100 align:1}"]
+			dependencies: ["4A02043FCAFB4F6B"]
 			id: "5F49C76E878DA54A"
 			tasks: [{
 				id: "1DF54F852DE6CB2E"
@@ -1210,8 +1432,11 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 1.0d
+			x: 16.0d
+			y: 10.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_aquite.png width:150 height:100 align:1}"]
+			dependencies: ["7E6B4F17B0F46590"]
 			id: "3E787EF94C819C5C"
 			tasks: [{
 				id: "199BAE8274CF2C27"
@@ -1229,8 +1454,10 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 1.0d
+			x: 10.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_string.png width:150 height:100 align:1}"]
 			id: "5623806D2E814200"
 			tasks: [{
 				id: "4443E91D73E0D774"
@@ -1248,8 +1475,10 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 1.0d
+			x: 8.0d
+			y: 7.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gausum.png width:150 height:100 align:1}"]
 			id: "145F5D732CE468CF"
 			tasks: [{
 				id: "5F201D77BB8A66E9"
@@ -1267,8 +1496,10 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 1.0d
+			x: 10.0d
+			y: 0.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bronze.png width:150 height:100 align:1}"]
 			id: "6E857839BA9266C5"
 			tasks: [{
 				id: "3D464DA086614468"
@@ -1286,8 +1517,10 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: 1.0d
+			x: 10.0d
+			y: -2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_invar.png width:150 height:100 align:1}"]
 			id: "41A3520D36567575"
 			tasks: [{
 				id: "173DDFA7351EAC9B"
@@ -1305,8 +1538,10 @@
 			}]
 		}
 		{
-			x: 24.5d
-			y: 1.0d
+			x: 9.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pcrystal.png width:150 height:100 align:1}"]
 			id: "4DEE3E34023AAA80"
 			tasks: [{
 				id: "535A4E357F5FDEAB"
@@ -1324,8 +1559,11 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 2.0d
+			x: 3.5d
+			y: 6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_refined_obsidian.png width:150 height:100 align:1}"]
+			dependencies: ["022B48C17014A9F7"]
 			id: "26B40D6DB9818D74"
 			tasks: [{
 				id: "7AC3B4EAF27ABF91"
@@ -1343,8 +1581,10 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 2.0d
+			x: 1.0d
+			y: -2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_certus_quartz.png width:150 height:100 align:1}"]
 			id: "0D96031256496E5B"
 			tasks: [{
 				id: "786669F982E5FE4D"
@@ -1362,8 +1602,10 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 7.5d
 			y: 2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lavium.png width:150 height:100 align:1}"]
 			id: "0A4C7A9F56D50FE2"
 			tasks: [{
 				id: "098211388C72430F"
@@ -1381,8 +1623,10 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 2.0d
+			x: -0.5d
+			y: 7.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_log.png width:150 height:100 align:1}"]
 			id: "7ABA59FFDD2C664D"
 			tasks: [{
 				id: "4A85BD54FBAF48B1"
@@ -1400,8 +1644,10 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 2.0d
+			x: 5.0d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hepatizon.png width:150 height:100 align:1}"]
 			id: "1B4EE40FAD95D1AB"
 			tasks: [{
 				id: "111180E08C602338"
@@ -1419,8 +1665,10 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 2.0d
+			x: 6.5d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cloggrum.png width:150 height:100 align:1}"]
 			id: "6D53AF5F3E2C474B"
 			tasks: [{
 				id: "3CEB180B4B3F7A3B"
@@ -1438,8 +1686,11 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 2.0d
+			x: 12.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blazing_crystal.png width:150 height:100 align:1}"]
+			dependencies: ["1329A2E89B6FEF59"]
 			id: "09A33ACA7AD5E192"
 			tasks: [{
 				id: "02075E7D1728D74B"
@@ -1457,8 +1708,10 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: 2.0d
+			x: -2.5d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gravel.png width:150 height:100 align:1}"]
 			id: "42ED2CD848C7743D"
 			tasks: [{
 				id: "4DAA42F31E3A3DFB"
@@ -1476,8 +1729,10 @@
 			}]
 		}
 		{
-			x: 24.5d
-			y: 2.0d
+			x: 22.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nether_quartz.png width:150 height:100 align:1}"]
 			id: "513D98F671F9A504"
 			tasks: [{
 				id: "2A42FA1C5C1C620D"
@@ -1495,8 +1750,10 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 3.0d
+			x: -2.0d
+			y: 8.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fiery.png width:150 height:100 align:1}"]
 			id: "4B5D9DD602B64880"
 			tasks: [{
 				id: "3A7ADC3F640AAB2E"
@@ -1514,8 +1771,10 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 3.0d
+			x: 19.0d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_osmium.png width:150 height:100 align:1}"]
 			id: "69898C8B359B77DE"
 			tasks: [{
 				id: "41FB67BD0DE3B8B5"
@@ -1533,27 +1792,11 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 3.0d
-			id: "29086407653E3265"
-			tasks: [{
-				id: "441CCC011F362725"
-				type: "item"
-				item: {
-					id: "chickens:chicken_item"
-					Count: 1b
-					tag: {
-						ChickenType: {
-							id: "chickens:samnes_chicken"
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-		}
-		{
-			x: 19.5d
-			y: 3.0d
+			x: 6.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_utheric.png width:150 height:100 align:1}"]
+			dependencies: ["366106157FB5459C"]
 			id: "62852F371DB133CD"
 			tasks: [{
 				id: "67554B9CE509B17B"
@@ -1571,8 +1814,10 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 3.0d
+			x: -5.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_emerald.png width:150 height:100 align:1}"]
 			id: "67987BDEB6DD9DAF"
 			tasks: [{
 				id: "00C5E34D2BF76C39"
@@ -1590,8 +1835,10 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 3.0d
+			x: 5.5d
+			y: 2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_baolian.png width:150 height:100 align:1}"]
 			id: "6497B46A5529D1C8"
 			tasks: [{
 				id: "68FC9469BBBBFD02"
@@ -1609,8 +1856,10 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 3.0d
+			x: -2.5d
+			y: 7.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fairy.png width:150 height:100 align:1}"]
 			id: "38679114459AAE19"
 			tasks: [{
 				id: "517B63AFF627CE0D"
@@ -1628,27 +1877,10 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: 3.0d
-			id: "5AC6424FD730363F"
-			tasks: [{
-				id: "7F5A62A54ADE7C31"
-				type: "item"
-				item: {
-					id: "chickens:chicken_item"
-					Count: 1b
-					tag: {
-						ChickenType: {
-							id: "chickens:peonlambdaa_chicken"
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-		}
-		{
-			x: 24.5d
-			y: 3.0d
+			x: 6.0d
+			y: 0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_forgotten.png width:150 height:100 align:1}"]
 			id: "38032322C57EC9CE"
 			tasks: [{
 				id: "5890B9B86CA87C85"
@@ -1666,27 +1898,10 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 4.0d
-			id: "1348D26EC8CC2140"
-			tasks: [{
-				id: "6220A16D50BE3ADC"
-				type: "item"
-				item: {
-					id: "chickens:chicken_item"
-					Count: 1b
-					tag: {
-						ChickenType: {
-							id: "chickens:mr_bidou_chicken"
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-		}
-		{
-			x: 17.5d
-			y: 4.0d
+			x: 5.5d
+			y: 6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_rose_gold.png width:150 height:100 align:1}"]
 			id: "5C81B9C9BE08F3EF"
 			tasks: [{
 				id: "2F31436FDD7E2DD1"
@@ -1705,7 +1920,9 @@
 		}
 		{
 			x: 18.5d
-			y: 4.0d
+			y: 2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_silver.png width:150 height:100 align:1}"]
 			id: "4D86F4347469C242"
 			tasks: [{
 				id: "0CD2014ABDDACDE5"
@@ -1723,8 +1940,10 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 4.0d
+			x: -1.5d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sand.png width:150 height:100 align:1}"]
 			id: "4F65D673BF5F08EF"
 			tasks: [{
 				id: "425349DEF260C725"
@@ -1742,8 +1961,11 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 4.0d
+			x: 16.5d
+			y: -4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steel.png width:150 height:100 align:1}"]
+			dependencies: ["3C884020904C1B6C"]
 			id: "5FE99DF499F401FC"
 			tasks: [{
 				id: "77C3281B2B0FFF23"
@@ -1761,8 +1983,11 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 4.0d
+			x: 15.5d
+			y: -1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iron_compressed.png width:150 height:100 align:1}"]
+			dependencies: ["5E490F7D44E6FF57"]
 			id: "4BAEE82F99555FBC"
 			tasks: [{
 				id: "2F1EE2F3328142CC"
@@ -1780,8 +2005,11 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 4.0d
+			x: 12.0d
+			y: -2.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_uraninite.png width:150 height:100 align:1}"]
+			dependencies: ["00000000000009E8"]
 			id: "3A611B265F46B3EA"
 			tasks: [{
 				id: "588EC18D4E481866"
@@ -1799,8 +2027,10 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: 4.0d
+			x: 7.0d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_galu.png width:150 height:100 align:1}"]
 			id: "0B3F7141CA6E46ED"
 			tasks: [{
 				id: "0FA2D605A258415E"
@@ -1818,27 +2048,11 @@
 			}]
 		}
 		{
-			x: 24.5d
-			y: 4.0d
-			id: "72072784A296C450"
-			tasks: [{
-				id: "02B938214AFBCD33"
-				type: "item"
-				item: {
-					id: "chickens:chicken_item"
-					Count: 1b
-					tag: {
-						ChickenType: {
-							id: "chickens:mrchiro33_chicken"
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-		}
-		{
-			x: 0.0d
-			y: 6.5d
+			x: 13.0d
+			y: 0.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nitro_crystal.png width:150 height:100 align:1}"]
+			dependencies: ["2EFACC7A03425555"]
 			id: "118E456E9561136C"
 			tasks: [{
 				id: "786608296E94DA9B"
@@ -1857,7 +2071,10 @@
 		}
 		{
 			x: 1.0d
-			y: 6.5d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dark_gem.png width:150 height:100 align:1}"]
+			dependencies: ["1577635AA4E66A66"]
 			id: "49E78595D2B8A3A8"
 			tasks: [{
 				id: "2264C0D025CEE681"
@@ -1875,8 +2092,11 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.5d
+			x: 16.5d
+			y: 12.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_horizonite.png width:150 height:100 align:1}"]
+			dependencies: ["0F3871DA957D1676"]
 			id: "675A4751131FDDE9"
 			tasks: [{
 				id: "4D3172E7743F98C4"
@@ -1894,8 +2114,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.5d
+			x: 2.0d
+			y: 8.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_red_beryl.png width:150 height:100 align:1}"]
 			id: "4F8786E4A4E5551F"
 			tasks: [{
 				id: "4BBEDB8569834446"
@@ -1913,8 +2135,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 6.5d
+			x: 19.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_copper.png width:150 height:100 align:1}"]
 			id: "6C44F374703D84CE"
 			tasks: [{
 				id: "4F59D74436CF641D"
@@ -1932,8 +2156,10 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 6.5d
+			x: -1.5d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cobble.png width:150 height:100 align:1}"]
 			id: "2CF00D357354279E"
 			tasks: [{
 				id: "1A4CF22207826AED"
@@ -1951,8 +2177,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 6.5d
+			x: 3.0d
+			y: 8.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_arcane_crystal.png width:150 height:100 align:1}"]
+			dependencies: ["000000000000060A"]
 			id: "1CBFD5840AE0777C"
 			tasks: [{
 				id: "5A11737303A4B193"
@@ -1970,8 +2199,10 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 6.5d
+			x: 8.0d
+			y: -1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_electrum.png width:150 height:100 align:1}"]
 			id: "6610F3F03526C62B"
 			tasks: [{
 				id: "0ECA54E61AEF9C0F"
@@ -1989,8 +2220,11 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 6.5d
+			x: 6.5d
+			y: 8.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_elementium.png width:150 height:100 align:1}"]
+			dependencies: ["00000000000003F1"]
 			id: "46ED09A43CDC51FC"
 			tasks: [{
 				id: "7992E2B4BEE4BF6D"
@@ -2008,8 +2242,11 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 7.5d
+			x: 15.5d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ventium.png width:150 height:100 align:1}"]
+			dependencies: ["5087D7633FD14915"]
 			id: "43272C5BEB814DB1"
 			tasks: [{
 				id: "1F4429E927B9CFF1"
@@ -2027,8 +2264,11 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 7.5d
+			x: 13.0d
+			y: -1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_niotic_crystal.png width:150 height:100 align:1}"]
+			dependencies: ["4383AF63E5E6FC8D"]
 			id: "52CA126F58669E96"
 			tasks: [{
 				id: "5EB137E7790B5AF4"
@@ -2046,8 +2286,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 7.5d
+			x: -3.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_rubber.png width:150 height:100 align:1}"]
+			dependencies: ["33E25F3B447ED34D"]
 			id: "4A8D622F7E3711EF"
 			tasks: [{
 				id: "3E0C335E0A9CA0FE"
@@ -2065,8 +2308,10 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 7.5d
+			x: 3.0d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_emeraldite.png width:150 height:100 align:1}"]
 			id: "2D4DB8291BC80CF6"
 			tasks: [{
 				id: "0F273B2CFC650DE9"
@@ -2084,8 +2329,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 7.5d
+			x: 9.0d
+			y: 8.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ender.png width:150 height:100 align:1}"]
 			id: "00A0A5A57B8B6706"
 			tasks: [{
 				id: "42359D62C4855B60"
@@ -2103,8 +2350,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 7.5d
+			x: 21.0d
+			y: 2.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_netherwart.png width:150 height:100 align:1}"]
 			id: "6DA64AE89E3934C3"
 			tasks: [{
 				id: "04E1A4F7C38E9CCD"
@@ -2122,8 +2371,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 7.5d
+			x: -6.0d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_coal.png width:150 height:100 align:1}"]
 			id: "66894B17465E3859"
 			tasks: [{
 				id: "7CBA40D938D49A52"
@@ -2141,27 +2392,11 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 7.5d
-			id: "6EC38E4B65714DCF"
-			tasks: [{
-				id: "4A067F9C674F822F"
-				type: "item"
-				item: {
-					id: "chickens:chicken_item"
-					Count: 1b
-					tag: {
-						ChickenType: {
-							id: "chickens:thorak83_chicken"
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-		}
-		{
-			x: 0.0d
-			y: 7.5d
+			x: 16.5d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_charoite.png width:150 height:100 align:1}"]
+			dependencies: ["0DA2467A22F6D309"]
 			id: "6CC5EC184E07A7FE"
 			tasks: [{
 				id: "65D04F8E842E6DCC"
@@ -2179,8 +2414,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 8.5d
+			x: -2.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steeleaf.png width:150 height:100 align:1}"]
 			id: "572550787EA96BB2"
 			tasks: [{
 				id: "7410002F5814E2CB"
@@ -2198,8 +2435,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 8.5d
+			x: 9.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_constantan.png width:150 height:100 align:1}"]
 			id: "624DD0DD5E4F44B2"
 			tasks: [{
 				id: "059B8A95D60CF210"
@@ -2217,8 +2456,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 8.5d
+			x: 16.5d
+			y: 6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_epidote.png width:150 height:100 align:1}"]
 			id: "38017F953922DBDD"
 			tasks: [{
 				id: "2479ED3344F93019"
@@ -2236,8 +2477,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 8.5d
+			x: 23.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nether_star.png width:150 height:100 align:1}"]
 			id: "1A3E85C0D7AC17B6"
 			tasks: [{
 				id: "7216012C14B3B28A"
@@ -2255,8 +2498,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 8.5d
+			x: 23.0d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blaze.png width:150 height:100 align:1}"]
 			id: "2DB93B5D12FBBFBE"
 			tasks: [{
 				id: "049C653CF0A05156"
@@ -2274,8 +2519,11 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 8.5d
+			x: 1.5d
+			y: 7.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_refined_glowstone.png width:150 height:100 align:1}"]
+			dependencies: ["022B48C17014A9F7"]
 			id: "2527E3A64486B59E"
 			tasks: [{
 				id: "49821C0D4D05A36E"
@@ -2293,8 +2541,10 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 8.5d
+			x: 1.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_amethyst.png width:150 height:100 align:1}"]
 			id: "027273CF50EBFDB5"
 			tasks: [{
 				id: "2837909B45B82339"
@@ -2313,7 +2563,9 @@
 		}
 		{
 			x: 7.0d
-			y: 8.5d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_yokel.png width:150 height:100 align:1}"]
 			id: "06202BFEB690ED3D"
 			tasks: [{
 				id: "498620B962B14FAC"
@@ -2331,8 +2583,10 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 8.5d
+			x: 5.5d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_froststeel.png width:150 height:100 align:1}"]
 			id: "79E02DAE56156B97"
 			tasks: [{
 				id: "080F01A00ED74318"
@@ -2350,8 +2604,11 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 9.5d
+			x: 17.0d
+			y: 11.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_falsite.png width:150 height:100 align:1}"]
+			dependencies: ["5E6F7485DE77D2BF"]
 			id: "6A1624F793462413"
 			tasks: [{
 				id: "1D90542C628FC458"
@@ -2369,8 +2626,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 9.5d
+			x: 19.0d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nickel.png width:150 height:100 align:1}"]
 			id: "20E128FF1B4136D4"
 			tasks: [{
 				id: "7401501EDDBF316B"
@@ -2388,8 +2647,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 9.5d
+			x: 7.5d
+			y: 6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_durasteel.png width:150 height:100 align:1}"]
 			id: "2E385B3699ECAA6E"
 			tasks: [{
 				id: "1EE4BA751AB51604"
@@ -2407,8 +2668,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 9.5d
+			x: 21.0d
+			y: 5.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_soulsand.png width:150 height:100 align:1}"]
 			id: "22E9546BB37C7550"
 			tasks: [{
 				id: "01CC0687C1E6E314"
@@ -2426,8 +2689,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 9.5d
+			x: 5.0d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pigiron.png width:150 height:100 align:1}"]
 			id: "47DF0AA037BC3719"
 			tasks: [{
 				id: "4CCA7DD488315C99"
@@ -2445,8 +2710,11 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 9.5d
+			x: 3.5d
+			y: 2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_desh.png width:150 height:100 align:1}"]
+			dependencies: ["03F04C5F7BAED6A3"]
 			id: "79E9D68A2E3D8CAA"
 			tasks: [{
 				id: "3624D9679A1462E1"
@@ -2464,8 +2732,10 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 9.5d
+			x: 18.5d
+			y: 6.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bauxite.png width:150 height:100 align:1}"]
 			id: "62A7886E9D2A021C"
 			tasks: [{
 				id: "756297A118014EDA"
@@ -2483,8 +2753,10 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 9.5d
+			x: 10.0d
+			y: 8.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bone.png width:150 height:100 align:1}"]
 			id: "6C696A8776AB0040"
 			tasks: [{
 				id: "000DB11B2406DCF4"
@@ -2502,8 +2774,11 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 6.5d
+			x: 12.5d
+			y: 2.0d
+			description: ["To get a Smart Chicken, simply right click with a book on a chicken !"]
+			hide_dependency_lines: true
+			dependencies: ["0448AF3967AB256F"]
 			id: "341D76E57F456B16"
 			tasks: [{
 				id: "462EA1D7FA19FEC2"
@@ -2519,10 +2794,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "6B40D210B58D0084"
+				type: "item"
+				item: "minecraft:book"
+			}]
 		}
 		{
-			x: 10.5d
-			y: 6.5d
+			x: 5.5d
+			y: 8.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_alfsteel.png width:150 height:100 align:1}"]
+			dependencies: ["00000000000003DF"]
 			id: "535C8FB67AD9A088"
 			tasks: [{
 				id: "7FDE29BD52890143"
@@ -2540,8 +2823,10 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 6.5d
+			x: 16.0d
+			y: 0.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_silicon.png width:150 height:100 align:1}"]
 			id: "48E0C30C5C578D06"
 			tasks: [{
 				id: "7EC24236A3ABD766"
@@ -2559,8 +2844,10 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 6.5d
+			x: 16.5d
+			y: 2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_tin.png width:150 height:100 align:1}"]
 			id: "6B66B8061B1AC4BB"
 			tasks: [{
 				id: "55A6B09C460C147C"
@@ -2578,8 +2865,10 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 6.5d
+			x: 6.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_chorus_metal.png width:150 height:100 align:1}"]
 			id: "1266A4B0E53379A6"
 			tasks: [{
 				id: "1C0ABB7A7C635B6B"
@@ -2597,8 +2886,10 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 6.5d
+			x: 9.0d
+			y: 2.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_queens_slime.png width:150 height:100 align:1}"]
 			id: "65A39D76E8A34BA7"
 			tasks: [{
 				id: "54820240D4E25AE2"
@@ -2616,8 +2907,10 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 17.5d
 			y: 6.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iridium.png width:150 height:100 align:1}"]
 			id: "3701D0FA7E0ADE34"
 			tasks: [{
 				id: "0759328598AF862B"
@@ -2635,27 +2928,10 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 6.5d
-			id: "2191A3DD0663C52A"
-			tasks: [{
-				id: "3314F98AC69BB441"
-				type: "item"
-				item: {
-					id: "chickens:chicken_item"
-					Count: 1b
-					tag: {
-						ChickenType: {
-							id: "chickens:therealreivax_chicken"
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-		}
-		{
-			x: 17.5d
-			y: 6.5d
+			x: 8.0d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pshard.png width:150 height:100 align:1}"]
 			id: "211E5423D16CFB2F"
 			tasks: [{
 				id: "172D1A912DC9662B"
@@ -2673,8 +2949,10 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 7.5d
+			x: -6.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_redstone.png width:150 height:100 align:1}"]
 			id: "072441059AF7DE64"
 			tasks: [{
 				id: "08811AB10DAF0BF3"
@@ -2692,8 +2970,10 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 7.5d
+			x: 8.0d
+			y: 1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_manyullyn.png width:150 height:100 align:1}"]
 			id: "5884F6D14A00A0CD"
 			tasks: [{
 				id: "0F16ED6935FAF447"
@@ -2711,8 +2991,10 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 7.5d
+			x: 9.0d
+			y: 10.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_slime.png width:150 height:100 align:1}"]
 			id: "188CD6F9893F7A87"
 			tasks: [{
 				id: "13A613BA406A5641"
@@ -2730,8 +3012,10 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 7.5d
+			x: 22.0d
+			y: 5.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_netherite_scrap.png width:150 height:100 align:1}"]
 			id: "523182AB7E2FBED0"
 			tasks: [{
 				id: "380E8BD69DF49D34"
@@ -2749,8 +3033,10 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 7.5d
+			x: 8.0d
+			y: -2.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_signalum.png width:150 height:100 align:1}"]
 			id: "6D89E9AF0DE14599"
 			tasks: [{
 				id: "1F90CEA0D6601553"
@@ -2768,8 +3054,10 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 7.5d
+			x: 17.0d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cobalt.png width:150 height:100 align:1}"]
 			id: "2152D169DD3A9335"
 			tasks: [{
 				id: "43D62CFE515BC2B1"
@@ -2787,8 +3075,10 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 7.5d
+			x: -3.0d
+			y: 8.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_knightmetal.png width:150 height:100 align:1}"]
 			id: "0D4AE60CF6DA5C7E"
 			tasks: [{
 				id: "3432E2C7F4D4F248"
@@ -2806,8 +3096,11 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 7.5d
+			x: -3.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ironwood.png width:150 height:100 align:1}"]
+			dependencies: ["29582A190DD0E266"]
 			id: "5BF11814F0FE74C9"
 			tasks: [{
 				id: "2404608FEF197B7A"
@@ -2825,8 +3118,10 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 7.5d
+			x: 17.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gold.png width:150 height:100 align:1}"]
 			id: "5D99BE1774C0000F"
 			tasks: [{
 				id: "3047512002E3E6DA"
@@ -2844,8 +3139,10 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 8.5d
+			x: 5.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_kepu.png width:150 height:100 align:1}"]
 			id: "4308E5DDBE6AD710"
 			tasks: [{
 				id: "7E4F12FD04F3E9C0"
@@ -2863,8 +3160,10 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 8.5d
+			x: 20.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iron.png width:150 height:100 align:1}"]
 			id: "2C0D42B700FB2CBB"
 			tasks: [{
 				id: "32B4DA5869203723"
@@ -2882,8 +3181,10 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 8.5d
+			x: -0.5d
+			y: 1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_clay.png width:150 height:100 align:1}"]
 			id: "67DF2B53D3D270E1"
 			tasks: [{
 				id: "1F174B39BE6EAD5A"
@@ -2901,8 +3202,10 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 8.5d
+			x: 17.0d
+			y: -3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fluix.png width:150 height:100 align:1}"]
 			id: "14F67FEC1B8D8CD8"
 			tasks: [{
 				id: "1DD21DFCBED2884D"
@@ -2920,8 +3223,10 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 8.5d
+			x: -4.5d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_diamond.png width:150 height:100 align:1}"]
 			id: "3EFBCE795C2CBEBB"
 			tasks: [{
 				id: "38BD281311FEC4D3"
@@ -2939,8 +3244,11 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 8.5d
+			x: 10.0d
+			y: -1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_enderium.png width:150 height:100 align:1}"]
+			dependencies: ["2C221E8FEA2D54A2"]
 			id: "6A122B31037C346A"
 			tasks: [{
 				id: "6B8A3A56857FB7C0"
@@ -2958,8 +3266,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.0d
+			x: 11.5d
+			y: 4.0d
 			id: "1933597473E41E04"
 			tasks: [{
 				id: "71C0A6CC64D6C1B8"
@@ -2968,8 +3276,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 12.0d
+			y: 5.0d
+			dependencies: ["1933597473E41E04"]
 			id: "50E22A534AE1E388"
 			tasks: [{
 				id: "40A04047BA0CD26D"
@@ -2978,8 +3287,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 13.0d
+			y: 5.0d
+			dependencies: ["50E22A534AE1E388"]
 			id: "5C2FB9FCAF98A9F7"
 			tasks: [{
 				id: "6F1DB201FBEA6D17"
@@ -2988,8 +3298,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 13.5d
+			y: 4.0d
+			dependencies: ["5C2FB9FCAF98A9F7"]
 			id: "37410678A5532FFF"
 			tasks: [{
 				id: "5DF01FFE13AEA00B"
@@ -2998,8 +3309,11 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 6.5d
+			x: -2.0d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_neutronium.png width:150 height:100 align:1}"]
+			dependencies: ["60FD4D8FA17A53D7"]
 			id: "270A34BF8AE54368"
 			tasks: [{
 				id: "10CCF56AF4D64ADF"
@@ -3017,8 +3331,11 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 6.5d
+			x: 2.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_shellite.png width:150 height:100 align:1}"]
+			dependencies: ["18C15EFD9AC53DC5"]
 			id: "66049486F4D587A5"
 			tasks: [{
 				id: "6CB48AE023801C98"
@@ -3036,8 +3353,11 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 6.5d
+			x: 1.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_twinite.png width:150 height:100 align:1}"]
+			dependencies: ["6BCBF1F51521D038"]
 			id: "680572045FF2BEBB"
 			tasks: [{
 				id: "710EE789DA9914D3"
@@ -3055,8 +3375,11 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 7.5d
+			x: -3.0d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_chaotic.png width:150 height:100 align:1}"]
+			dependencies: ["2BAE7C748EA626B9"]
 			id: "3C19A26F8A7D0566"
 			tasks: [{
 				id: "0A190EB2A3B4B035"
@@ -3074,8 +3397,11 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 7.5d
+			x: -3.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_draconic.png width:150 height:100 align:1}"]
+			dependencies: ["7890BAD3FA9560D5"]
 			id: "12232ECD324BE62E"
 			tasks: [{
 				id: "06CFE049E1F3AECA"
@@ -3093,8 +3419,11 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 7.5d
+			x: 0.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dragonsteel.png width:150 height:100 align:1}"]
+			dependencies: ["76F6A2093D86A169"]
 			id: "68B4879A07E938DE"
 			tasks: [{
 				id: "32F4C2A28930121C"
@@ -3112,8 +3441,11 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 6.5d
+			x: -2.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_draconium.png width:150 height:100 align:1}"]
+			dependencies: ["4CB2498D41B773B8"]
 			id: "37B939290E0593CC"
 			tasks: [{
 				id: "25F9790B573E0FC4"
@@ -3131,8 +3463,11 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 6.5d
+			x: -2.5d
+			y: 0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_infinity.png width:150 height:100 align:1}"]
+			dependencies: ["1ACEEE78E66C87E1"]
 			id: "5C721ADA578A8F0E"
 			tasks: [{
 				id: "358282247C21F5D6"
@@ -3150,8 +3485,11 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 7.5d
+			x: 3.0d
+			y: 4.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_soul_infused.png width:150 height:100 align:1}"]
+			dependencies: ["069171E8B30EFA2E"]
 			id: "2B11BBB2FD87B2F5"
 			tasks: [{
 				id: "0FA9B5F594093E36"
@@ -3169,8 +3507,10 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 7.5d
+			x: 8.0d
+			y: 11.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sculk.png width:150 height:100 align:1}"]
 			id: "3154647AC0D883EE"
 			tasks: [{
 				id: "53F0656E220E2672"
@@ -3188,8 +3528,10 @@
 			}]
 		}
 		{
-			x: 24.0d
-			y: 6.5d
+			x: 16.0d
+			y: 8.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pyrope.png width:150 height:100 align:1}"]
 			id: "627FD84951F97634"
 			tasks: [{
 				id: "524512E9EFFBA757"
@@ -3207,8 +3549,10 @@
 			}]
 		}
 		{
-			x: 24.0d
+			x: 15.0d
 			y: 7.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_diopside.png width:150 height:100 align:1}"]
 			id: "24EBF2B83541D160"
 			tasks: [{
 				id: "3FE3C3FB5F8CE215"
@@ -3223,6 +3567,151 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sulfur.png width:150 height:100 align:1}"]
+			id: "0F6ADC6007FFFEE0"
+			tasks: [{
+				id: "2120586C2581579E"
+				type: "item"
+				icon: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:sulfur_chicken"
+						}
+					}
+				}
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:sulfur_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:fluorite_chicken"
+					}
+				}
+			}
+			x: 2.5d
+			y: 6.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fluorite.png width:150 height:100 align:1}"]
+			id: "1F3F4948E77B5B2C"
+			tasks: [{
+				id: "699A3FF1BAA9FE13"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:fluorite_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cinnabar.png width:150 height:100 align:1}"]
+			id: "1021DC902CC0B248"
+			tasks: [{
+				id: "48476F8E21DC9DC4"
+				type: "item"
+				icon: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cinnabar_chicken"
+						}
+					}
+				}
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cinnabar_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_apatite.png width:150 height:100 align:1}"]
+			id: "248D3F7AF2DCEE02"
+			tasks: [{
+				id: "10C7E879379CBBF4"
+				type: "item"
+				icon: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:apatite_chicken"
+						}
+					}
+				}
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:apatite_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_niter.png width:150 height:100 align:1}"]
+			id: "21679638F45160EA"
+			tasks: [{
+				id: "59DD37A9BBEED9CF"
+				type: "item"
+				icon: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:niter_chicken"
+						}
+					}
+				}
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:niter_chicken"
+						}
+					}
+				}
 			}]
 		}
 	]
