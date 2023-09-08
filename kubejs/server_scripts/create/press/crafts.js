@@ -20,7 +20,7 @@ onEvent('recipes', e => {
                 "count": 3
             },
             {
-                "item": "chickens:dead_chicken",
+                "item": "chickens:smashed_chicken",
                 "count": 1
             }
         ]

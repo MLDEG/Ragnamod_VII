@@ -6,7 +6,7 @@ onEvent('recipes', e => {
         "type": "farmersdelight:cutting",
         "ingredients": [
             {
-                "item": "chickens:dead_chicken"
+                "item": "chickens:smashed_chicken"
             }
         ],
         "tool": {
