@@ -369,7 +369,7 @@ onEvent('recipes', e => {
         'ironfurnaces:furnaces/gold_furnace',
         'ironfurnaces:furnaces/silver_furnace2',
         'spirit:villager',
-
+        'minecraft:beacon',
         'alchemistry:copper_ingot_from_smelting_copper_dust',
         'alchemistry:gold_ingot_from_smelting_gold_dust',
         'alchemistry:iron_ingot_from_smelting_iron_dust',
