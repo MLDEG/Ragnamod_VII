@@ -4,23 +4,69 @@
 	order_index: 7
 	filename: "chickens"
 	title: " Chickens"
-	icon: "chickens:catcher"
+	icon: {
+		id: "minecraft:player_head"
+		Count: 1b
+		tag: {
+			SkullOwner: {
+				Properties: {
+					textures: [{
+						Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ=="
+					}]
+				}
+				Id: [I;
+					2100988622
+					-532328774
+					-1418628645
+					-182068495
+				]
+			}
+			display: {
+				Name: "{\"text\":\"Chicken\"}"
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 12.5d
-			y: 4.0d
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Chicken Catcher is the tool to transform a chicken into their item forms."
+				""
+				"This doesn't work with vanilla chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
+			size: 2.0d
 			id: "0448AF3967AB256F"
 			tasks: [{
 				id: "537F093D38A1FF8B"
 				type: "item"
 				item: "chickens:catcher"
 			}]
+			rewards: [{
+				id: "577BE8F263CD4874"
+				type: "item"
+				item: "minecraft:egg"
+				count: 64
+			}]
 		}
 		{
-			x: 12.5d
-			y: 3.0d
+			x: 0.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"The Roost is used to collect items from chickens."
+				""
+				"The Breeder is, like his name said, use to breed chickens, with seeds, and raise your chicken in a 10/10/10 stage."
+			]
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"12AB66D0233C13DD"
+			]
+			dependency_requirement: "one_completed"
 			id: "57962C8913A8C98C"
 			tasks: [
 				{
@@ -34,6 +80,12 @@
 					item: "chickens:breeder"
 				}
 			]
+			rewards: [{
+				id: "0A42DAFED97A5366"
+				type: "item"
+				item: "minecraft:hay_block"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -45,8 +97,15 @@
 					}
 				}
 			}
-			x: 15.0d
-			y: 5.0d
+			x: 3.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"To get a blue chicken, craft a blue egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "09126814ED2E92D5"
 			tasks: [
 				{
@@ -76,6 +135,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "62FF64F6AF6A99B8"
+				type: "item"
+				item: "minecraft:blue_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -87,8 +152,15 @@
 					}
 				}
 			}
-			x: 12.5d
-			y: 1.0d
+			x: -3.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"To get a white chicken, craft a white egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "1BCFA992A766EC3F"
 			tasks: [
 				{
@@ -118,6 +190,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "4AE042928CBFB731"
+				type: "item"
+				item: "minecraft:white_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -129,8 +207,15 @@
 					}
 				}
 			}
-			x: 15.5d
-			y: 4.0d
+			x: 0.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"To get a black chicken, craft a black egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "5A3251866489B50B"
 			tasks: [
 				{
@@ -160,6 +245,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "728A85C9459A0228"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -171,8 +262,15 @@
 					}
 				}
 			}
-			x: 14.5d
-			y: 6.0d
+			x: 1.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"To get a cyan chicken, craft a cyan egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "7702E42007537D59"
 			tasks: [
 				{
@@ -202,6 +300,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "117ED5F71A7B115A"
+				type: "item"
+				item: "minecraft:cyan_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -213,8 +317,15 @@
 					}
 				}
 			}
-			x: 13.5d
-			y: 6.5d
+			x: 2.5d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"To get a light blue chicken, craft a light blue egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "10FE13ABD448D381"
 			tasks: [
 				{
@@ -244,6 +355,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "7954439E32530029"
+				type: "item"
+				item: "minecraft:light_blue_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -255,8 +372,15 @@
 					}
 				}
 			}
-			x: 10.0d
-			y: 5.0d
+			x: -2.5d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"To get a yellow chicken, craft a yellow egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "1D9BE03B23E9F8BC"
 			tasks: [
 				{
@@ -286,6 +410,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "05375DEEBE2A4DAF"
+				type: "item"
+				item: "minecraft:yellow_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -297,8 +427,15 @@
 					}
 				}
 			}
-			x: 10.5d
-			y: 6.0d
+			x: 2.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"To get a pink chicken, craft a pink egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "5AB5B8C985C0DF53"
 			tasks: [
 				{
@@ -328,6 +465,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "0DB0C3280B545EA4"
+				type: "item"
+				item: "minecraft:pink_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -339,8 +482,15 @@
 					}
 				}
 			}
-			x: 10.5d
-			y: 2.0d
+			x: 0.0d
+			y: -3.5d
+			shape: "square"
+			description: [
+				"To get a green chicken, craft a green egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "1573364B4D3C18CD"
 			tasks: [
 				{
@@ -370,6 +520,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "54A72E413DADA783"
+				type: "item"
+				item: "minecraft:green_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -381,8 +537,15 @@
 					}
 				}
 			}
-			x: 11.5d
-			y: 1.5d
+			x: -1.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"To get a lime chicken, craft a lime egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "34F9284943460859"
 			tasks: [
 				{
@@ -412,6 +575,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "15CB78307B60CBFE"
+				type: "item"
+				item: "minecraft:lime_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -423,8 +592,15 @@
 					}
 				}
 			}
-			x: 11.5d
-			y: 6.5d
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"To get a magenta chicken, craft a magenta egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "2A247D5167BECE2B"
 			tasks: [
 				{
@@ -454,6 +630,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "2778FB058CEF1F1E"
+				type: "item"
+				item: "minecraft:magenta_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -465,8 +647,15 @@
 					}
 				}
 			}
-			x: 14.5d
-			y: 2.0d
+			x: -1.5d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"To get a gray chicken, craft a gray egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "05CB5C1638D38DD7"
 			tasks: [
 				{
@@ -496,6 +685,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "437BF54C4CD761F3"
+				type: "item"
+				item: "minecraft:gray_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -507,8 +702,15 @@
 					}
 				}
 			}
-			x: 13.5d
-			y: 1.5d
+			x: -2.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"To get a light gray chicken, craft a light gray egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "21CD75CEB6D82D4A"
 			tasks: [
 				{
@@ -538,6 +740,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "1946DB64BF107532"
+				type: "item"
+				item: "minecraft:light_gray_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -549,8 +757,15 @@
 					}
 				}
 			}
-			x: 9.5d
-			y: 4.0d
+			x: -3.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"To get an orange chicken, craft an orange egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "2559176E09A0EFED"
 			tasks: [
 				{
@@ -580,6 +795,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "70FCEF37D214400D"
+				type: "item"
+				item: "minecraft:orange_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -591,8 +812,15 @@
 					}
 				}
 			}
-			x: 15.0d
+			x: 1.5d
 			y: 3.0d
+			shape: "square"
+			description: [
+				"To get a brown chicken, craft a brown egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "064CC87EF85D543E"
 			tasks: [
 				{
@@ -622,6 +850,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "391998884AC0BF4A"
+				type: "item"
+				item: "minecraft:brown_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -633,8 +867,15 @@
 					}
 				}
 			}
-			x: 10.0d
-			y: 3.0d
+			x: -3.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"To get a red chicken, craft a red egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "5A543A94E06D9D14"
 			tasks: [
 				{
@@ -664,6 +905,12 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "34CEBA2A1035F495"
+				type: "item"
+				item: "minecraft:red_dye"
+				count: 64
+			}]
 		}
 		{
 			icon: {
@@ -675,8 +922,15 @@
 					}
 				}
 			}
-			x: 12.5d
-			y: 7.0d
+			x: 3.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"To get a purple chicken, craft a purple egg and throw it on the ground."
+				""
+				"You have the same chance as a vanilla egg of having a chicken."
+			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "6EF85A62934EBF96"
 			tasks: [
 				{
@@ -706,10 +960,16 @@
 					weak_nbt_match: true
 				}
 			]
+			rewards: [{
+				id: "0EC6899DC74CF0FA"
+				type: "item"
+				item: "minecraft:purple_dye"
+				count: 64
+			}]
 		}
 		{
-			x: 9.0d
-			y: -2.5d
+			x: 18.0d
+			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_electrical_copper.png width:150 height:100 align:1}"]
 			id: "5A3B1D6E4C049F30"
@@ -729,8 +989,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 6.0d
+			x: 7.5d
+			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_obsidian.png width:150 height:100 align:1}"]
 			id: "6E44107EEBF6E3F3"
@@ -750,7 +1010,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 20.0d
 			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steel_energized.png width:150 height:100 align:1}"]
@@ -772,8 +1032,8 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 5.0d
+			x: 5.5d
+			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_glowstone.png width:150 height:100 align:1}"]
 			id: "0CA3D6F5AB887667"
@@ -793,8 +1053,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 4.0d
+			x: 11.5d
+			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_duralumin.png width:150 height:100 align:1}"]
 			id: "265F92A9B793AD49"
@@ -814,8 +1074,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 5.5d
+			x: 18.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_qivium.png width:150 height:100 align:1}"]
 			id: "23928F426687C4D4"
@@ -835,8 +1095,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 4.0d
+			x: 5.0d
+			y: 0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dirt.png width:150 height:100 align:1}"]
 			id: "7C1461EFDE002AA7"
@@ -856,8 +1116,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -0.5d
+			x: 23.0d
+			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_spirited_crystal.png width:150 height:100 align:1}"]
 			dependencies: ["3267C71EB8176867"]
@@ -878,8 +1138,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 20.5d
+			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ametrine.png width:150 height:100 align:1}"]
 			id: "2E79D1B90A42B486"
@@ -899,8 +1159,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -6.0d
+			x: 10.0d
+			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lead.png width:150 height:100 align:1}"]
 			id: "67B82FC9D174CC3E"
@@ -920,8 +1180,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 3.5d
+			x: 8.0d
+			y: -6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_slimesteel.png width:150 height:100 align:1}"]
 			id: "471FBE5FD5B2B1CB"
@@ -941,8 +1201,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.0d
+			x: 14.5d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lumium.png width:150 height:100 align:1}"]
 			id: "67E4019C2E1E074A"
@@ -962,8 +1222,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 9.5d
+			x: 22.5d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pendorite.png width:150 height:100 align:1}"]
 			id: "42DA79EC49AB1FDE"
@@ -983,8 +1243,8 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 3.0d
+			x: 3.0d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ghast.png width:150 height:100 align:1}"]
 			id: "67EF0F8EB7F2C278"
@@ -1004,8 +1264,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: 15.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ostrum.png width:150 height:100 align:1}"]
 			dependencies: ["3A4863E1B2ED2E36"]
@@ -1026,8 +1286,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 16.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_calorite.png width:150 height:100 align:1}"]
 			dependencies: ["2149E5AE3CDE8DBE"]
@@ -1048,8 +1308,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
+			x: 5.5d
+			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_glass.png width:150 height:100 align:1}"]
 			id: "7CD64900878772B0"
@@ -1069,8 +1329,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 4.5d
+			x: 12.5d
+			y: -5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_felsteel.png width:150 height:100 align:1}"]
 			id: "028880CABE32B7B0"
@@ -1090,8 +1350,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 4.0d
+			x: 18.5d
+			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_amethyst_bronze.png width:150 height:100 align:1}"]
 			id: "4F10F050B5D94A40"
@@ -1111,8 +1371,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 10.0d
+			x: 5.5d
+			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gunpowder.png width:150 height:100 align:1}"]
 			id: "6D2CBA7D3C6681D9"
@@ -1132,8 +1392,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -2.5d
+			x: 25.5d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_arcane_gold.png width:150 height:100 align:1}"]
 			dependencies: ["09FB1CFAC203AC1F"]
@@ -1154,8 +1414,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 6.5d
+			x: 17.0d
+			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_wavy.png width:150 height:100 align:1}"]
 			id: "147AF5D991FCF086"
@@ -1175,8 +1435,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 1.5d
+			x: 12.0d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_crusteel.png width:150 height:100 align:1}"]
 			id: "20EFD6402E4B675A"
@@ -1196,8 +1456,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 9.0d
+			x: 5.5d
+			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_snowball.png width:150 height:100 align:1}"]
 			id: "769DDF6AEE92F33F"
@@ -1218,7 +1478,7 @@
 		}
 		{
 			x: 9.0d
-			y: -0.5d
+			y: 7.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_brass.png width:150 height:100 align:1}"]
 			dependencies: ["71AB34A88B76A25C"]
@@ -1239,8 +1499,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -6.0d
+			x: 8.0d
+			y: 6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_zinc.png width:150 height:100 align:1}"]
 			id: "4B2717F5A1595F15"
@@ -1260,8 +1520,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.0d
+			x: 7.0d
+			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lapis_lazuli.png width:150 height:100 align:1}"]
 			id: "2664D3068ACC1C05"
@@ -1281,8 +1541,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 7.5d
+			x: 11.0d
+			y: 0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_terrasteel.png width:150 height:100 align:1}"]
 			dependencies: ["00000000000003EB"]
@@ -1303,8 +1563,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -1.5d
+			x: 14.5d
+			y: -5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hop.png width:150 height:100 align:1}"]
 			dependencies: ["00000000000006CA"]
@@ -1325,8 +1585,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 0.5d
+			x: 15.5d
+			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_energy_crystal.png width:150 height:100 align:1}"]
 			id: "587A7335317D5328"
@@ -1346,8 +1606,8 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 1.5d
+			x: 21.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_uranium.png width:150 height:100 align:1}"]
 			id: "1E3A3D52A9D58A27"
@@ -1367,8 +1627,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 9.5d
+			x: 10.0d
+			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_manasteel.png width:150 height:100 align:1}"]
 			dependencies: ["00000000000003D3"]
@@ -1390,7 +1650,7 @@
 		}
 		{
 			x: 17.0d
-			y: 5.0d
+			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hureaulite.png width:150 height:100 align:1}"]
 			id: "65A62B13B72EBAFE"
@@ -1410,8 +1670,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: 25.5d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_source_gem.png width:150 height:100 align:1}"]
 			dependencies: ["4A02043FCAFB4F6B"]
@@ -1432,8 +1692,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 10.5d
+			x: 20.0d
+			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_aquite.png width:150 height:100 align:1}"]
 			dependencies: ["7E6B4F17B0F46590"]
@@ -1454,8 +1714,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 10.0d
+			x: 6.0d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_string.png width:150 height:100 align:1}"]
 			id: "5623806D2E814200"
@@ -1475,8 +1735,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 7.0d
+			x: 17.0d
+			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gausum.png width:150 height:100 align:1}"]
 			id: "145F5D732CE468CF"
@@ -1496,8 +1756,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 0.0d
+			x: 9.5d
+			y: 6.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bronze.png width:150 height:100 align:1}"]
 			id: "6E857839BA9266C5"
@@ -1517,8 +1777,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -2.0d
+			x: 11.0d
+			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_invar.png width:150 height:100 align:1}"]
 			id: "41A3520D36567575"
@@ -1538,8 +1798,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 9.5d
+			x: 3.0d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pcrystal.png width:150 height:100 align:1}"]
 			id: "4DEE3E34023AAA80"
@@ -1559,8 +1819,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 6.0d
+			x: 23.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_refined_obsidian.png width:150 height:100 align:1}"]
 			dependencies: ["022B48C17014A9F7"]
@@ -1581,7 +1841,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 13.5d
 			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_certus_quartz.png width:150 height:100 align:1}"]
@@ -1602,8 +1862,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 2.0d
+			x: 11.0d
+			y: -5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lavium.png width:150 height:100 align:1}"]
 			id: "0A4C7A9F56D50FE2"
@@ -1623,8 +1883,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 7.0d
+			x: 4.0d
+			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_log.png width:150 height:100 align:1}"]
 			id: "7ABA59FFDD2C664D"
@@ -1644,8 +1904,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 8.5d
+			y: -5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hepatizon.png width:150 height:100 align:1}"]
 			id: "1B4EE40FAD95D1AB"
@@ -1665,8 +1925,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -0.5d
+			x: 10.0d
+			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cloggrum.png width:150 height:100 align:1}"]
 			id: "6D53AF5F3E2C474B"
@@ -1686,8 +1946,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -1.5d
+			x: 21.0d
+			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blazing_crystal.png width:150 height:100 align:1}"]
 			dependencies: ["1329A2E89B6FEF59"]
@@ -1708,8 +1968,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 5.0d
+			x: 4.5d
+			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gravel.png width:150 height:100 align:1}"]
 			id: "42ED2CD848C7743D"
@@ -1729,8 +1989,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 4.0d
+			x: 6.5d
+			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nether_quartz.png width:150 height:100 align:1}"]
 			id: "513D98F671F9A504"
@@ -1750,8 +2010,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 8.5d
+			x: 23.5d
+			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fiery.png width:150 height:100 align:1}"]
 			id: "4B5D9DD602B64880"
@@ -1771,8 +2031,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 5.0d
+			x: 20.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_osmium.png width:150 height:100 align:1}"]
 			id: "69898C8B359B77DE"
@@ -1792,8 +2052,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.5d
+			x: 12.0d
+			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_utheric.png width:150 height:100 align:1}"]
 			dependencies: ["366106157FB5459C"]
@@ -1814,8 +2074,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: 8.5d
+			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_emerald.png width:150 height:100 align:1}"]
 			id: "67987BDEB6DD9DAF"
@@ -1835,8 +2095,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
+			x: 10.5d
+			y: -6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_baolian.png width:150 height:100 align:1}"]
 			id: "6497B46A5529D1C8"
@@ -1856,8 +2116,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 7.5d
+			x: 10.0d
+			y: -5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fairy.png width:150 height:100 align:1}"]
 			id: "38679114459AAE19"
@@ -1877,8 +2137,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.5d
+			x: 13.0d
+			y: -0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_forgotten.png width:150 height:100 align:1}"]
 			id: "38032322C57EC9CE"
@@ -1898,8 +2158,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 6.0d
+			x: 9.5d
+			y: -6.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_rose_gold.png width:150 height:100 align:1}"]
 			id: "5C81B9C9BE08F3EF"
@@ -1919,8 +2179,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 2.0d
+			x: 9.0d
+			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_silver.png width:150 height:100 align:1}"]
 			id: "4D86F4347469C242"
@@ -1940,8 +2200,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.0d
+			x: 4.0d
+			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sand.png width:150 height:100 align:1}"]
 			id: "4F65D673BF5F08EF"
@@ -1961,8 +2221,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -4.0d
+			x: 15.0d
+			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steel.png width:150 height:100 align:1}"]
 			dependencies: ["3C884020904C1B6C"]
@@ -1983,8 +2243,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -1.0d
+			x: 14.5d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iron_compressed.png width:150 height:100 align:1}"]
 			dependencies: ["5E490F7D44E6FF57"]
@@ -2005,8 +2265,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -2.5d
+			x: 19.0d
+			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_uraninite.png width:150 height:100 align:1}"]
 			dependencies: ["00000000000009E8"]
@@ -2027,8 +2287,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: 11.5d
+			y: -7.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_galu.png width:150 height:100 align:1}"]
 			id: "0B3F7141CA6E46ED"
@@ -2048,8 +2308,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 0.0d
+			x: 24.0d
+			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nitro_crystal.png width:150 height:100 align:1}"]
 			dependencies: ["2EFACC7A03425555"]
@@ -2070,8 +2330,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 9.0d
+			x: 26.0d
+			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dark_gem.png width:150 height:100 align:1}"]
 			dependencies: ["1577635AA4E66A66"]
@@ -2092,8 +2352,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 12.0d
+			x: 23.5d
+			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_horizonite.png width:150 height:100 align:1}"]
 			dependencies: ["0F3871DA957D1676"]
@@ -2114,8 +2374,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 8.5d
+			x: 17.0d
+			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_red_beryl.png width:150 height:100 align:1}"]
 			id: "4F8786E4A4E5551F"
@@ -2135,8 +2395,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 4.0d
+			x: 6.0d
+			y: 1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_copper.png width:150 height:100 align:1}"]
 			id: "6C44F374703D84CE"
@@ -2156,8 +2416,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 3.0d
+			x: 4.5d
+			y: 1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cobble.png width:150 height:100 align:1}"]
 			id: "2CF00D357354279E"
@@ -2177,8 +2437,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 8.0d
+			x: 26.0d
+			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_arcane_crystal.png width:150 height:100 align:1}"]
 			dependencies: ["000000000000060A"]
@@ -2199,8 +2459,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -1.0d
+			x: 10.5d
+			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_electrum.png width:150 height:100 align:1}"]
 			id: "6610F3F03526C62B"
@@ -2220,8 +2480,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 8.5d
+			x: 12.0d
+			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_elementium.png width:150 height:100 align:1}"]
 			dependencies: ["00000000000003F1"]
@@ -2242,8 +2502,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 9.0d
+			x: 23.0d
+			y: 1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ventium.png width:150 height:100 align:1}"]
 			dependencies: ["5087D7633FD14915"]
@@ -2264,8 +2524,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -1.0d
+			x: 22.0d
+			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_niotic_crystal.png width:150 height:100 align:1}"]
 			dependencies: ["4383AF63E5E6FC8D"]
@@ -2286,8 +2546,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
+			x: 14.5d
+			y: 1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_rubber.png width:150 height:100 align:1}"]
 			dependencies: ["33E25F3B447ED34D"]
@@ -2308,8 +2568,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 9.0d
+			x: 21.5d
+			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_emeraldite.png width:150 height:100 align:1}"]
 			id: "2D4DB8291BC80CF6"
@@ -2329,8 +2589,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 8.5d
+			x: 7.5d
+			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ender.png width:150 height:100 align:1}"]
 			id: "00A0A5A57B8B6706"
@@ -2350,8 +2610,8 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 2.5d
+			x: 5.0d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_netherwart.png width:150 height:100 align:1}"]
 			id: "6DA64AE89E3934C3"
@@ -2371,8 +2631,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 5.0d
+			x: 7.5d
+			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_coal.png width:150 height:100 align:1}"]
 			id: "66894B17465E3859"
@@ -2392,8 +2652,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 9.5d
+			x: 21.0d
+			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_charoite.png width:150 height:100 align:1}"]
 			dependencies: ["0DA2467A22F6D309"]
@@ -2414,8 +2674,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 9.5d
+			x: 21.5d
+			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steeleaf.png width:150 height:100 align:1}"]
 			id: "572550787EA96BB2"
@@ -2435,8 +2695,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -1.5d
+			x: 10.0d
+			y: 5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_constantan.png width:150 height:100 align:1}"]
 			id: "624DD0DD5E4F44B2"
@@ -2456,8 +2716,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 6.0d
+			x: 18.0d
+			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_epidote.png width:150 height:100 align:1}"]
 			id: "38017F953922DBDD"
@@ -2477,8 +2737,8 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: 4.0d
+			x: 9.0d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nether_star.png width:150 height:100 align:1}"]
 			id: "1A3E85C0D7AC17B6"
@@ -2498,8 +2758,8 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blaze.png width:150 height:100 align:1}"]
 			id: "2DB93B5D12FBBFBE"
@@ -2519,8 +2779,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 7.0d
+			x: 22.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_refined_glowstone.png width:150 height:100 align:1}"]
 			dependencies: ["022B48C17014A9F7"]
@@ -2541,8 +2801,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 10.0d
+			x: 7.5d
+			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_amethyst.png width:150 height:100 align:1}"]
 			id: "027273CF50EBFDB5"
@@ -2562,8 +2822,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 5.0d
+			x: 13.0d
+			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_yokel.png width:150 height:100 align:1}"]
 			id: "06202BFEB690ED3D"
@@ -2583,7 +2843,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 11.0d
 			y: -0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_froststeel.png width:150 height:100 align:1}"]
@@ -2604,8 +2864,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 11.0d
+			x: 24.0d
+			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_falsite.png width:150 height:100 align:1}"]
 			dependencies: ["5E6F7485DE77D2BF"]
@@ -2626,8 +2886,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 3.0d
+			x: 8.5d
+			y: 5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nickel.png width:150 height:100 align:1}"]
 			id: "20E128FF1B4136D4"
@@ -2647,8 +2907,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 6.0d
+			x: 12.0d
+			y: -6.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_durasteel.png width:150 height:100 align:1}"]
 			id: "2E385B3699ECAA6E"
@@ -2668,8 +2928,8 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 5.5d
+			x: 6.0d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_soulsand.png width:150 height:100 align:1}"]
 			id: "22E9546BB37C7550"
@@ -2689,8 +2949,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 5.0d
+			x: 9.5d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pigiron.png width:150 height:100 align:1}"]
 			id: "47DF0AA037BC3719"
@@ -2710,8 +2970,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 14.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_desh.png width:150 height:100 align:1}"]
 			dependencies: ["03F04C5F7BAED6A3"]
@@ -2732,8 +2992,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 6.0d
+			x: 11.0d
+			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bauxite.png width:150 height:100 align:1}"]
 			id: "62A7886E9D2A021C"
@@ -2753,8 +3013,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 8.0d
+			x: 6.5d
+			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bone.png width:150 height:100 align:1}"]
 			id: "6C696A8776AB0040"
@@ -2774,8 +3034,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 2.0d
+			x: -0.5d
+			y: 1.5d
+			shape: "square"
 			description: ["To get a Smart Chicken, simply right click with a book on a chicken !"]
 			hide_dependency_lines: true
 			dependencies: ["0448AF3967AB256F"]
@@ -2801,8 +3062,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 8.5d
+			x: 13.0d
+			y: 0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_alfsteel.png width:150 height:100 align:1}"]
 			dependencies: ["00000000000003DF"]
@@ -2823,8 +3084,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 0.0d
+			x: 15.5d
+			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_silicon.png width:150 height:100 align:1}"]
 			id: "48E0C30C5C578D06"
@@ -2844,8 +3105,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 2.0d
+			x: 9.5d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_tin.png width:150 height:100 align:1}"]
 			id: "6B66B8061B1AC4BB"
@@ -2865,8 +3126,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 4.0d
+			x: 18.5d
+			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_chorus_metal.png width:150 height:100 align:1}"]
 			id: "1266A4B0E53379A6"
@@ -2887,7 +3148,7 @@
 		}
 		{
 			x: 9.0d
-			y: 2.5d
+			y: -7.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_queens_slime.png width:150 height:100 align:1}"]
 			id: "65A39D76E8A34BA7"
@@ -2907,8 +3168,8 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 6.5d
+			x: 13.5d
+			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iridium.png width:150 height:100 align:1}"]
 			id: "3701D0FA7E0ADE34"
@@ -2928,8 +3189,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 9.0d
+			x: 4.0d
+			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pshard.png width:150 height:100 align:1}"]
 			id: "211E5423D16CFB2F"
@@ -2949,8 +3210,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 4.0d
+			x: 7.0d
+			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_redstone.png width:150 height:100 align:1}"]
 			id: "072441059AF7DE64"
@@ -2970,8 +3231,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: 9.0d
+			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_manyullyn.png width:150 height:100 align:1}"]
 			id: "5884F6D14A00A0CD"
@@ -2991,8 +3252,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 10.5d
+			x: 5.0d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_slime.png width:150 height:100 align:1}"]
 			id: "188CD6F9893F7A87"
@@ -3012,8 +3273,8 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 5.0d
+			x: 8.0d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_netherite_scrap.png width:150 height:100 align:1}"]
 			id: "523182AB7E2FBED0"
@@ -3033,8 +3294,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.0d
+			x: 15.0d
+			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_signalum.png width:150 height:100 align:1}"]
 			id: "6D89E9AF0DE14599"
@@ -3054,8 +3315,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 3.0d
+			x: 10.0d
+			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cobalt.png width:150 height:100 align:1}"]
 			id: "2152D169DD3A9335"
@@ -3075,8 +3336,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 8.5d
+			x: 22.5d
+			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_knightmetal.png width:150 height:100 align:1}"]
 			id: "0D4AE60CF6DA5C7E"
@@ -3096,8 +3357,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 9.5d
+			x: 20.5d
+			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ironwood.png width:150 height:100 align:1}"]
 			dependencies: ["29582A190DD0E266"]
@@ -3118,8 +3379,8 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 4.0d
+			x: 6.0d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gold.png width:150 height:100 align:1}"]
 			id: "5D99BE1774C0000F"
@@ -3139,8 +3400,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 4.0d
+			x: 10.5d
+			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_kepu.png width:150 height:100 align:1}"]
 			id: "4308E5DDBE6AD710"
@@ -3160,8 +3421,8 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 4.0d
+			x: 6.0d
+			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iron.png width:150 height:100 align:1}"]
 			id: "2C0D42B700FB2CBB"
@@ -3181,8 +3442,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: 5.0d
+			y: -0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_clay.png width:150 height:100 align:1}"]
 			id: "67DF2B53D3D270E1"
@@ -3202,8 +3463,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -3.0d
+			x: 14.5d
+			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fluix.png width:150 height:100 align:1}"]
 			id: "14F67FEC1B8D8CD8"
@@ -3223,8 +3484,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 4.0d
+			x: 8.5d
+			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_diamond.png width:150 height:100 align:1}"]
 			id: "3EFBCE795C2CBEBB"
@@ -3244,8 +3505,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 14.5d
+			y: 5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_enderium.png width:150 height:100 align:1}"]
 			dependencies: ["2C221E8FEA2D54A2"]
@@ -3266,29 +3527,46 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 4.0d
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Capture a Chicken with an Edelwood Bucket."]
+			dependencies: ["00000000000005EE"]
 			id: "1933597473E41E04"
 			tasks: [{
 				id: "71C0A6CC64D6C1B8"
 				type: "item"
 				item: "forbidden_arcanus:edelwood_chicken_bucket"
 			}]
+			rewards: [{
+				id: "45DAF0A5A00D6C6D"
+				type: "item"
+				item: "forbidden_arcanus:growing_edelwood"
+			}]
 		}
 		{
-			x: 12.0d
-			y: 5.0d
+			x: -0.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Crush your previous captured chicken in a basin with a Mechanical Press to obtain a Smashed chicken."]
 			dependencies: ["1933597473E41E04"]
 			id: "50E22A534AE1E388"
 			tasks: [{
 				id: "40A04047BA0CD26D"
 				type: "item"
-				item: "chickens:dead_chicken"
+				item: "chickens:smashed_chicken"
+			}]
+			rewards: [{
+				id: "00CB806EE435E6D8"
+				type: "item"
+				item: "evilcraft:bucket_blood"
 			}]
 		}
 		{
-			x: 13.0d
-			y: 5.0d
+			x: 0.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Butcher your Smash Chicken on a Cutting Board to obtain the Chicken Skin."]
 			dependencies: ["50E22A534AE1E388"]
 			id: "5C2FB9FCAF98A9F7"
 			tasks: [{
@@ -3296,10 +3574,17 @@
 				type: "item"
 				item: "chickens:chicken_skin"
 			}]
+			rewards: [{
+				id: "60BCCED598B6A769"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
 		}
 		{
-			x: 13.5d
-			y: 4.0d
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			description: ["With a little Magic, you can infuse your Chicken Skin into an empty shell to craft some magic chickens that can produce resources."]
 			dependencies: ["5C2FB9FCAF98A9F7"]
 			id: "37410678A5532FFF"
 			tasks: [{
@@ -3307,10 +3592,16 @@
 				type: "item"
 				item: "chickens:chicken_shell"
 			}]
+			rewards: [{
+				id: "3EA174BD0FE061C3"
+				type: "item"
+				item: "forbidden_arcanus:aureal_bottle"
+				count: 16
+			}]
 		}
 		{
-			x: -2.0d
-			y: -0.5d
+			x: 27.5d
+			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_neutronium.png width:150 height:100 align:1}"]
 			dependencies: ["60FD4D8FA17A53D7"]
@@ -3331,8 +3622,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.0d
+			x: 12.0d
+			y: 6.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_shellite.png width:150 height:100 align:1}"]
 			dependencies: ["18C15EFD9AC53DC5"]
@@ -3353,8 +3644,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 4.0d
+			x: 12.5d
+			y: 5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_twinite.png width:150 height:100 align:1}"]
 			dependencies: ["6BCBF1F51521D038"]
@@ -3375,8 +3666,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -0.5d
+			x: 27.5d
+			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_chaotic.png width:150 height:100 align:1}"]
 			dependencies: ["2BAE7C748EA626B9"]
@@ -3397,8 +3688,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: 27.0d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_draconic.png width:150 height:100 align:1}"]
 			dependencies: ["7890BAD3FA9560D5"]
@@ -3419,7 +3710,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 13.0d
 			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dragonsteel.png width:150 height:100 align:1}"]
@@ -3441,8 +3732,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
+			x: 26.0d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_draconium.png width:150 height:100 align:1}"]
 			dependencies: ["4CB2498D41B773B8"]
@@ -3463,11 +3754,12 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.5d
+			x: 29.0d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_infinity.png width:150 height:100 align:1}"]
 			dependencies: ["1ACEEE78E66C87E1"]
+			size: 2.0d
 			id: "5C721ADA578A8F0E"
 			tasks: [{
 				id: "358282247C21F5D6"
@@ -3485,8 +3777,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: 11.5d
+			y: 7.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_soul_infused.png width:150 height:100 align:1}"]
 			dependencies: ["069171E8B30EFA2E"]
@@ -3507,8 +3799,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 11.0d
+			x: 7.0d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sculk.png width:150 height:100 align:1}"]
 			id: "3154647AC0D883EE"
@@ -3528,10 +3820,11 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 8.0d
+			x: 19.0d
+			y: 1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pyrope.png width:150 height:100 align:1}"]
+			dependencies: ["7805AD446625B4BD"]
 			id: "627FD84951F97634"
 			tasks: [{
 				id: "524512E9EFFBA757"
@@ -3549,10 +3842,11 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 7.5d
+			x: 22.0d
+			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_diopside.png width:150 height:100 align:1}"]
+			dependencies: ["3ED4894CC5603845"]
 			id: "24EBF2B83541D160"
 			tasks: [{
 				id: "3FE3C3FB5F8CE215"
@@ -3570,8 +3864,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 11.0d
+			y: 5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sulfur.png width:150 height:100 align:1}"]
 			id: "0F6ADC6007FFFEE0"
@@ -3608,8 +3902,8 @@
 					}
 				}
 			}
-			x: 2.5d
-			y: 6.5d
+			x: 19.5d
+			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fluorite.png width:150 height:100 align:1}"]
 			id: "1F3F4948E77B5B2C"
@@ -3628,8 +3922,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -0.5d
+			x: 10.5d
+			y: 6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cinnabar.png width:150 height:100 align:1}"]
 			id: "1021DC902CC0B248"
@@ -3657,8 +3951,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: 11.5d
+			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_apatite.png width:150 height:100 align:1}"]
 			id: "248D3F7AF2DCEE02"
@@ -3686,8 +3980,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.0d
+			x: 12.0d
+			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_niter.png width:150 height:100 align:1}"]
 			id: "21679638F45160EA"

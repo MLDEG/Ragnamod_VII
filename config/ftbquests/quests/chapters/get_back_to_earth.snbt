@@ -13,7 +13,11 @@
 			x: 1.0d
 			y: -2.0d
 			subtitle: "Your goal is to leave the Twilight with a rocket to return to earth and truly begin your adventure!"
-			description: ["You'll have to follow the classic progression of the Twilight Forest to recover stuff to make you the portal activator which will give you access to the undergarden."]
+			description: [
+				"In this pack, the classic progression of the Twilight Forest is disabled, so you can go wherever you want."
+				""
+				"You have to craft a Portal Activator in order to go in the Undergarden, grabbing the last pieces to built your rocket."
+			]
 			id: "7DCDDC6CA278A7C5"
 			tasks: [{
 				id: "608B0D64957C2EC8"
@@ -556,7 +560,11 @@
 			x: 7.5d
 			y: 4.0d
 			shape: "circle"
-			description: ["With this catalyst, you can return, from the overworld, to the Undergarden and therefore by definition return to the Twilight Forest by making a portal and using this same catalyst to open a new portal."]
+			description: [
+				"With this catalyst, you can return, from the overworld, to the Undergarden and therefore by definition return to the Twilight Forest by making a portal and using this same catalyst to open a new portal."
+				""
+				"After that, I recommend you to craft a Tempad to easily in and out from any dimension."
+			]
 			dependencies: ["4543AD330BD0A901"]
 			id: "13B3A667FA99741C"
 			tasks: [{
