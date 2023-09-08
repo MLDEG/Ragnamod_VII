@@ -90,7 +90,7 @@ onEvent('recipes', e => {
           },
           "ingredients": [
             {
-                "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:other\"}"
+                "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:end\"}"
             },
             {
               "item": "twilightforest:naga_scale"
