@@ -36,7 +36,7 @@ onEvent('tags.items', e => {
 
     // //Remove Rodes
     e.remove('forge:rods/gold', ['immersiveposts:stick_gold', 'createaddition:gold_rod'])
-    e.remove('forge:rods/iron', ['immersiveengineering:stick_iron', 'createaddition:iron_rod'])
+    e.remove('forge:rods/iron', ['immersiveengineering:stick_iron', 'createaddition:iron_rod', 'beyond_earth:iron_stick'])
     e.remove('forge:rods/copper', ['immersiveposts:stick_copper', 'createaddition:copper_rod'])
     e.remove('forge:rods/aluminum', 'immersiveengineering:stick_aluminum')
     e.remove('forge:rods/uranium', 'immersiveposts:stick_uranium')

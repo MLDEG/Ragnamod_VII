@@ -383,7 +383,7 @@ onEvent('recipes', function (e) {
     // crusherIdynamics(input, output)
     /**********************Rodes*************************/
     ['#forge:rods/gold', 'immersiveposts:stick_gold', 'createaddition:gold_rod'].forEach(I => { replaceIO(I, 'ftbic:gold_rod') });
-    ['#forge:rods/iron', 'immersiveengineering:stick_iron', 'createaddition:iron_rod'].forEach(I => { replaceIO(I, 'ftbic:iron_rod') });
+    ['#forge:rods/iron', 'immersiveengineering:stick_iron', 'createaddition:iron_rod', 'beyond_earth:iron_stick'].forEach(I => { replaceIO(I, 'ftbic:iron_rod') });
     ['#forge:rods/copper', 'immersiveposts:stick_copper', 'createaddition:copper_rod'].forEach(I => { replaceIO(I, 'ftbic:copper_rod') });
     ['#forge:rods/aluminum', 'immersiveengineering:stick_aluminum'].forEach(I => { replaceIO(I, 'ftbic:aluminum_rod') });
     ['#forge:rods/uranium', 'immersiveposts:stick_uranium'].forEach(I => { replaceIO(I, 'ftbic:uranium_rod') });
