@@ -24,6 +24,12 @@
 				type: "item"
 				item: "naturesaura:gold_fiber"
 			}]
+			rewards: [{
+				id: "1AA243A374E2F88E"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+				random_bonus: 7
+			}]
 		}
 		{
 			icon: "naturesaura:gold_leaf"
@@ -44,6 +50,12 @@
 					item: "naturesaura:gold_powder"
 				}
 			]
+			rewards: [{
+				id: "70FB59D8C1C2D08D"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+				random_bonus: 15
+			}]
 		}
 		{
 			icon: "naturesaura:nature_altar"
@@ -87,6 +99,12 @@
 					count: 20L
 				}
 			]
+			rewards: [{
+				id: "274ACC146A256626"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 0.0d
@@ -152,6 +170,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3087EB112BA3E5FA"
+				type: "item"
+				item: "naturesaura:bottle_two_the_rebottling"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 0.0d
@@ -167,6 +191,12 @@
 				type: "item"
 				item: "naturesaura:infused_iron"
 			}]
+			rewards: [{
+				id: "0A21838D013B60C3"
+				type: "item"
+				item: "naturesaura:infused_iron"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.0d
@@ -178,6 +208,12 @@
 				id: "30EDBB2A75B3BA3B"
 				type: "item"
 				item: "naturesaura:tainted_gold"
+			}]
+			rewards: [{
+				id: "120EF926CC61E14E"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -191,6 +227,12 @@
 				type: "item"
 				item: "naturesaura:sky_ingot"
 			}]
+			rewards: [{
+				id: "5C69DBCFA97B670B"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 1.0d
@@ -202,6 +244,12 @@
 				id: "7F1050D2BEAD9870"
 				type: "item"
 				item: "naturesaura:eye"
+			}]
+			rewards: [{
+				id: "6E996A218CB61A25"
+				type: "item"
+				item: "naturesaura:gold_powder"
+				random_bonus: 63
 			}]
 		}
 		{
@@ -215,6 +263,12 @@
 				type: "item"
 				item: "naturesaura:eye_improved"
 			}]
+			rewards: [{
+				id: "4D55B376A6668E31"
+				type: "item"
+				item: "naturesaura:end_flower"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -1.0d
@@ -227,8 +281,15 @@
 				type: "item"
 				item: "naturesaura:token_joy"
 			}]
+			rewards: [{
+				id: "6459B188F5A7255E"
+				type: "item"
+				item: "naturesaura:token_joy"
+			}]
 		}
 		{
+			title: "Aura Farm"
+			icon: "naturesaura:moss_generator"
 			x: 0.0d
 			y: 2.0d
 			description: [
@@ -296,6 +357,12 @@
 				type: "item"
 				item: "naturesaura:aura_cache"
 			}]
+			rewards: [{
+				id: "454A522AAA0DD722"
+				type: "item"
+				item: "naturesaura:infused_iron"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -1.0d
@@ -307,6 +374,12 @@
 				id: "6F3ADDF4EA4312E6"
 				type: "item"
 				item: "naturesaura:aura_trove"
+			}]
+			rewards: [{
+				id: "0D36D53D598DCCD5"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -344,6 +417,18 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "008ABCE8F1BF013D"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:animal"
+					}
+				}
+				random_bonus: 15
+			}]
 		}
 		{
 			title: "Catalysts"
@@ -379,8 +464,15 @@
 				type: "item"
 				item: "naturesaura:birth_spirit"
 			}]
+			rewards: [{
+				id: "354A78CFB234CCE4"
+				type: "item"
+				item: "naturesaura:birth_spirit"
+				random_bonus: 7
+			}]
 		}
 		{
+			icon: "naturesaura:animal_spawner"
 			x: 2.0d
 			y: 1.0d
 			description: [
@@ -414,6 +506,12 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "0C3AF0BC23DFBD77"
+				type: "item"
+				item: "minecraft:cow_spawn_egg"
+				count: 2
+			}]
 		}
 		{
 			x: -2.0d
@@ -433,6 +531,12 @@
 					item: "naturesaura:infused_brick"
 				}
 			]
+			rewards: [{
+				id: "57D2A11759D880F7"
+				type: "item"
+				item: "naturesaura:infused_stone"
+				random_bonus: 15
+			}]
 		}
 		{
 			title: "Crimson Altar"
@@ -477,6 +581,12 @@
 					count: 20L
 				}
 			]
+			rewards: [{
+				id: "751899BD07C2795F"
+				type: "item"
+				item: "minecraft:red_nether_bricks"
+				random_bonus: 15
+			}]
 		}
 		{
 			title: "Ritual of the Forest"
@@ -511,6 +621,13 @@
 					item: "minecraft:oak_sapling"
 				}
 			]
+			rewards: [{
+				id: "3DDF2D10841D4303"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			title: "Offering of the Gods"
@@ -530,12 +647,25 @@
 					item: "naturesaura:offering_table"
 				}
 				{
-					id: "7A9F7633D443220D"
+					id: "42BE071D8322824C"
 					type: "item"
-					item: "minecraft:poppy"
+					title: "Any #minecraft:small_flowers"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:small_flowers"
+						}
+					}
 					count: 36L
 				}
 			]
+			rewards: [{
+				id: "5C2F06AE32070079"
+				type: "item"
+				item: "minecraft:grass_block"
+				count: 64
+			}]
 		}
 	]
 	quest_links: [ ]

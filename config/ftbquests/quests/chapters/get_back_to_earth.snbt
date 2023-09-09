@@ -10,14 +10,16 @@
 	quests: [
 		{
 			title: "Introduction"
-			x: 1.0d
-			y: -2.0d
+			x: -1.5d
+			y: 0.0d
+			shape: "octagon"
 			subtitle: "Your goal is to leave the Twilight with a rocket to return to earth and truly begin your adventure!"
 			description: [
 				"In this pack, the classic progression of the Twilight Forest is disabled, so you can go wherever you want."
 				""
 				"You have to craft a Portal Activator in order to go in the Undergarden, grabbing the last pieces to built your rocket."
 			]
+			size: 1.5d
 			id: "7DCDDC6CA278A7C5"
 			tasks: [{
 				id: "608B0D64957C2EC8"
@@ -27,7 +29,7 @@
 		}
 		{
 			x: 3.0d
-			y: 4.0d
+			y: 3.0d
 			description: [
 				"The Nasa Workbench combines all the technology you have created!"
 				"Use the Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
@@ -42,6 +44,11 @@
 				id: "2B0FC2ADEF8C5A73"
 				type: "item"
 				item: "beyond_earth:nasa_workbench"
+			}]
+			rewards: [{
+				id: "3112CFE6B2F0278A"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham"
 			}]
 		}
 		{
@@ -114,7 +121,7 @@
 		}
 		{
 			x: 1.0d
-			y: 3.0d
+			y: 2.0d
 			description: ["The Mixing Cauldron is simply a cauldron from Hexerei, light a fire below and you can craft in it!"]
 			dependencies: ["608B0D64957C2EC8"]
 			id: "3D70617228B5BE1A"
@@ -133,7 +140,7 @@
 			title: "Blast Furnace"
 			icon: "immersiveengineering:blast_furnace"
 			x: 1.0d
-			y: 4.0d
+			y: 3.0d
 			subtitle: "The steel road"
 			description: [
 				"To get Steel, you're going to need to make a Blast Furnace."
@@ -159,7 +166,7 @@
 		}
 		{
 			x: 3.0d
-			y: 5.0d
+			y: 4.0d
 			description: ["Right now your mechanical arm you'll use it in the craft of the Nasa Workbench, but this one can be useful in automation of Create devices!"]
 			dependencies: ["5836EBA421A25364"]
 			id: "6013E9708A7B59E9"
@@ -176,7 +183,7 @@
 		}
 		{
 			x: 3.0d
-			y: 3.0d
+			y: 2.0d
 			description: [
 				"The Utherium Crystal is used to craft the Nasa Workbench."
 				"You can find it in the form of ore or get shard by killing rotten mobs"
@@ -197,7 +204,7 @@
 		}
 		{
 			x: 1.0d
-			y: 2.0d
+			y: 0.0d
 			description: ["The Portal Activator is needed to open a Twilight portal.Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
 			dependencies: [
 				"5CFDD2C9BF21A177"
@@ -233,7 +240,7 @@
 		{
 			title: "The Undergarden"
 			x: 3.0d
-			y: 2.0d
+			y: 0.0d
 			description: ["Simply visit the undergarden."]
 			dependencies: ["0A1BC75F350F8C54"]
 			id: "769AFAB1B0F353E0"
@@ -241,6 +248,21 @@
 				id: "73ED122E36E42D7D"
 				type: "dimension"
 				dimension: "undergarden:undergarden"
+			}]
+			rewards: [{
+				id: "12AB01A258C7B2DE"
+				type: "item"
+				item: {
+					id: "undergarden:masticated_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:thorns"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -367,7 +389,7 @@
 		}
 		{
 			x: 1.0d
-			y: 0.0d
+			y: 1.0d
 			subtitle: "Great for an early armor and tools set."
 			description: ["You can amalgamate raw iron, gold nuggets and Liveroot to obtain a ball of Raw Ironwood."]
 			dependencies: ["7DCDDC6CA278A7C5"]
@@ -395,7 +417,7 @@
 		}
 		{
 			x: 2.0d
-			y: 4.0d
+			y: 3.0d
 			description: ["In the Blast Furnace you need to put Ironwood to obtain Steel."]
 			dependencies: ["1EF95835215D60E0"]
 			id: "3C884020904C1B6C"
@@ -412,7 +434,7 @@
 		}
 		{
 			x: 4.0d
-			y: 4.0d
+			y: 3.0d
 			subtitle: "Liftoff"
 			description: [
 				"With your Nasa Workbench, you can now make your first rocket."
@@ -439,7 +461,7 @@
 			title: "Overworld"
 			icon: "beyond_earth:earth_globe"
 			x: 6.0d
-			y: 4.0d
+			y: 3.0d
 			shape: "octagon"
 			subtitle: "The adventure begin !"
 			description: ["Land safely on Earth."]
@@ -454,7 +476,7 @@
 		}
 		{
 			x: 2.0d
-			y: 5.0d
+			y: 4.0d
 			subtitle: "Precision"
 			description: [
 				"The Precision Mechanism is mainly used to make Mechanical Arms or Rotation Speed Controller."
@@ -476,7 +498,7 @@
 		}
 		{
 			x: 1.0d
-			y: 5.0d
+			y: 4.0d
 			subtitle: "autoclicker"
 			description: ["The deployer will be useful for making assembly crafts."]
 			dependencies: [
@@ -497,7 +519,7 @@
 		}
 		{
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 			description: [
 				"In this pack to make Rose Quartz you will need Fluorite and Redstone."
 				"There will be a way to make Rose Quartz with Quartz later."
@@ -523,7 +545,7 @@
 		}
 		{
 			x: 0.0d
-			y: 4.0d
+			y: 3.0d
 			subtitle: "The age of Brass"
 			description: ["With your alloy kiln, made Brass ingots to enter the age of brass with Create!"]
 			dependencies: ["5B7594939BB7C888"]
@@ -533,12 +555,23 @@
 				type: "item"
 				item: "create:brass_ingot"
 			}]
+			rewards: [{
+				id: "047E11044BEFEF0E"
+				type: "item"
+				item: {
+					id: "create_sa:brass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "Alloy Kiln"
 			icon: "immersiveengineering:alloy_smelter"
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 			subtitle: "a primitive alloy smelter"
 			description: ["The alloy kiln is a simple way to make your first alloy!"]
 			dependencies: ["608B0D64957C2EC8"]
@@ -557,8 +590,8 @@
 		}
 		{
 			title: "How to return in the Undergarden and Twilight Forest."
-			x: 7.5d
-			y: 4.0d
+			x: 6.0d
+			y: 1.0d
 			shape: "circle"
 			description: [
 				"With this catalyst, you can return, from the overworld, to the Undergarden and therefore by definition return to the Twilight Forest by making a portal and using this same catalyst to open a new portal."

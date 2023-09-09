@@ -139,7 +139,8 @@
 				id: "62FF64F6AF6A99B8"
 				type: "item"
 				item: "minecraft:blue_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -194,7 +195,8 @@
 				id: "4AE042928CBFB731"
 				type: "item"
 				item: "minecraft:white_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -249,7 +251,8 @@
 				id: "728A85C9459A0228"
 				type: "item"
 				item: "minecraft:black_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -304,7 +307,8 @@
 				id: "117ED5F71A7B115A"
 				type: "item"
 				item: "minecraft:cyan_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -359,7 +363,8 @@
 				id: "7954439E32530029"
 				type: "item"
 				item: "minecraft:light_blue_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -414,7 +419,8 @@
 				id: "05375DEEBE2A4DAF"
 				type: "item"
 				item: "minecraft:yellow_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -469,7 +475,8 @@
 				id: "0DB0C3280B545EA4"
 				type: "item"
 				item: "minecraft:pink_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -524,7 +531,8 @@
 				id: "54A72E413DADA783"
 				type: "item"
 				item: "minecraft:green_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -579,7 +587,8 @@
 				id: "15CB78307B60CBFE"
 				type: "item"
 				item: "minecraft:lime_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -634,7 +643,8 @@
 				id: "2778FB058CEF1F1E"
 				type: "item"
 				item: "minecraft:magenta_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -689,7 +699,8 @@
 				id: "437BF54C4CD761F3"
 				type: "item"
 				item: "minecraft:gray_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -744,7 +755,8 @@
 				id: "1946DB64BF107532"
 				type: "item"
 				item: "minecraft:light_gray_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -799,7 +811,8 @@
 				id: "70FCEF37D214400D"
 				type: "item"
 				item: "minecraft:orange_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -854,7 +867,8 @@
 				id: "391998884AC0BF4A"
 				type: "item"
 				item: "minecraft:brown_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -909,7 +923,8 @@
 				id: "34CEBA2A1035F495"
 				type: "item"
 				item: "minecraft:red_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -964,7 +979,8 @@
 				id: "0EC6899DC74CF0FA"
 				type: "item"
 				item: "minecraft:purple_dye"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -972,6 +988,7 @@
 			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_electrical_copper.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "5A3B1D6E4C049F30"
 			tasks: [{
 				id: "4D2A6AFD3E3C21C9"
@@ -987,12 +1004,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "62CAF57E9FB9B7AC"
+				type: "item"
+				item: "tinkers_reforged:electrical_copper_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 7.5d
 			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_obsidian.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6E44107EEBF6E3F3"
 			tasks: [{
 				id: "7EEA081A62F6888E"
@@ -1007,6 +1031,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "71F67A8821661E63"
+				type: "item"
+				item: "compressium:obsidian_3"
 			}]
 		}
 		{
@@ -1030,12 +1059,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "07660DA5EB1CFC95"
+				type: "item"
+				item: "powah:energized_steel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 5.5d
 			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_glowstone.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "0CA3D6F5AB887667"
 			tasks: [{
 				id: "0B5F4F39DFD2730D"
@@ -1051,12 +1087,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "282D7030B8FAF610"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 64
+			}]
 		}
 		{
 			x: 11.5d
 			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_duralumin.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "265F92A9B793AD49"
 			tasks: [{
 				id: "0ECC7079BF1A9D18"
@@ -1072,12 +1115,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "1324B41B9D57E96E"
+				type: "item"
+				item: "tinkers_reforged:duralumin_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 18.5d
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_qivium.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "23928F426687C4D4"
 			tasks: [{
 				id: "699FC1125DA05FF6"
@@ -1093,12 +1143,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "42530CB3EE8BE3C2"
+				type: "item"
+				item: "tinkers_reforged:qivium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 5.0d
 			y: 0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dirt.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "7C1461EFDE002AA7"
 			tasks: [{
 				id: "4B737254A920061F"
@@ -1113,6 +1170,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "00C69ED77A28AFCF"
+				type: "item"
+				item: "compressium:dirt_3"
 			}]
 		}
 		{
@@ -1136,12 +1198,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "0BFCAD877BE944D3"
+				type: "item"
+				item: "powah:spirited_crystal_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 20.5d
 			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ametrine.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2E79D1B90A42B486"
 			tasks: [{
 				id: "5A9670F1637E8E13"
@@ -1157,12 +1226,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "393C13781FA57CCB"
+				type: "item"
+				item: "byg:ametrine_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 10.0d
 			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lead.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "67B82FC9D174CC3E"
 			tasks: [{
 				id: "404394F81FFC8BB2"
@@ -1178,12 +1254,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "1F431075F411F3A2"
+				type: "item"
+				item: "thermal:lead_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 8.0d
 			y: -6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_slimesteel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "471FBE5FD5B2B1CB"
 			tasks: [{
 				id: "27317273B681AA6A"
@@ -1199,12 +1282,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "633B36E731A51B46"
+				type: "item"
+				item: "tconstruct:slimesteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 14.5d
 			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lumium.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "67E4019C2E1E074A"
 			tasks: [{
 				id: "2A20EB9D5F1B46EA"
@@ -1220,12 +1310,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "2B25142BF53E361F"
+				type: "item"
+				item: "thermal:lumium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 22.5d
 			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pendorite.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "42DA79EC49AB1FDE"
 			tasks: [{
 				id: "5E538F1C474A3A5A"
@@ -1241,12 +1338,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "2B0F3C994C5DC1D1"
+				type: "item"
+				item: "byg:pendorite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 3.0d
 			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ghast.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "67EF0F8EB7F2C278"
 			tasks: [{
 				id: "66C548078DAF27E8"
@@ -1261,6 +1365,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "6EDB85DB3C1D2943"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				random_bonus: 31
 			}]
 		}
 		{
@@ -1284,6 +1394,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "74E220F33AC4B96D"
+				type: "item"
+				item: "beyond_earth:ostrum_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 16.5d
@@ -1306,12 +1422,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "19DDD5FFDD59D08F"
+				type: "item"
+				item: "beyond_earth:calorite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 5.5d
 			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_glass.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "7CD64900878772B0"
 			tasks: [{
 				id: "50B09713C68829FE"
@@ -1327,12 +1450,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "67A7D66C1318DFEE"
+				type: "item"
+				item: "minecraft:glass"
+				count: 64
+			}]
 		}
 		{
 			x: 12.5d
 			y: -5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_felsteel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "028880CABE32B7B0"
 			tasks: [{
 				id: "19D2A871794B389C"
@@ -1348,12 +1478,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "079DCFEC4F2B030F"
+				type: "item"
+				item: "tinkers_reforged:felsteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 18.5d
 			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_amethyst_bronze.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4F10F050B5D94A40"
 			tasks: [{
 				id: "1929EBED746901E1"
@@ -1369,12 +1506,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "201C41AFC69DFD75"
+				type: "item"
+				item: "tconstruct:amethyst_bronze_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 5.5d
 			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gunpowder.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6D2CBA7D3C6681D9"
 			tasks: [{
 				id: "6AFC8B717B93206F"
@@ -1389,6 +1533,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "7EFEDBB483B4073C"
+				type: "item"
+				item: "quark:gunpowder_sack"
+				random_bonus: 15
 			}]
 		}
 		{
@@ -1412,12 +1562,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "592D07EBA3A49704"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 17.0d
 			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_wavy.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "147AF5D991FCF086"
 			tasks: [{
 				id: "2A756E227188C891"
@@ -1433,12 +1590,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "56676B9F4224B5FC"
+				type: "item"
+				item: "tinkers_reforged:wavy_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 12.0d
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_crusteel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "20EFD6402E4B675A"
 			tasks: [{
 				id: "3226406DC835DD51"
@@ -1454,12 +1618,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "40664295565419A4"
+				type: "item"
+				item: "tinkers_reforged:crusteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 5.5d
 			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_snowball.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "769DDF6AEE92F33F"
 			tasks: [{
 				id: "4CB09294F9D646B7"
@@ -1474,6 +1645,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "2F034D7BBCA0E9F9"
+				type: "item"
+				item: "compressium:snow_3"
 			}]
 		}
 		{
@@ -1497,12 +1673,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "31A466893B784E1B"
+				type: "item"
+				item: "create:brass_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 8.0d
 			y: 6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_zinc.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4B2717F5A1595F15"
 			tasks: [{
 				id: "481ED535DC6BE6B6"
@@ -1518,12 +1701,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "775BA49BC89713A3"
+				type: "item"
+				item: "create:zinc_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 7.0d
 			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lapis_lazuli.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2664D3068ACC1C05"
 			tasks: [{
 				id: "4772C2E6703ABEEF"
@@ -1538,6 +1728,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "0E019BE8E3EE499F"
+				type: "item"
+				item: "compressium:lapis_3"
 			}]
 		}
 		{
@@ -1561,6 +1756,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "55B365A70813125A"
+				type: "item"
+				item: "botania:terrasteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 14.5d
@@ -1583,12 +1784,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "47C83A6CAA0D5364"
+				type: "item"
+				item: "immersiveengineering:storage_hop_graphite"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 15.5d
 			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_energy_crystal.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "587A7335317D5328"
 			tasks: [{
 				id: "4762C62850772CF7"
@@ -1604,12 +1812,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "1AF7040161EBA08F"
+				type: "item"
+				item: "ftbic:energy_crystal"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 21.5d
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_uranium.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "1E3A3D52A9D58A27"
 			tasks: [{
 				id: "6F102FF6F6AC9D47"
@@ -1624,6 +1839,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "6EF0B8BA467DE688"
+				type: "item"
+				item: "mekanism:block_uranium"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -1647,12 +1868,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "31E80B3DACEF2323"
+				type: "item"
+				item: "botania:manasteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 17.0d
 			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hureaulite.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "65A62B13B72EBAFE"
 			tasks: [{
 				id: "193C1BF7372A21AB"
@@ -1667,6 +1895,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "4B6C1E010D2E478C"
+				type: "item"
+				item: "tinkers_reforged:hureaulite_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -1690,6 +1924,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "70A7C5A9CDAAF6E8"
+				type: "item"
+				item: "ars_nouveau:source_gem_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 20.0d
@@ -1712,12 +1952,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7291DA9E3DE20483"
+				type: "item"
+				item: "blue_skies:aquite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 6.0d
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_string.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "5623806D2E814200"
 			tasks: [{
 				id: "4443E91D73E0D774"
@@ -1733,12 +1980,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "384607D6208CCD08"
+				type: "item"
+				item: "minecraft:cobweb"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 17.0d
 			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gausum.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "145F5D732CE468CF"
 			tasks: [{
 				id: "5F201D77BB8A66E9"
@@ -1754,12 +2008,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "35DFF1EBBC6BB62A"
+				type: "item"
+				item: "tinkers_reforged:gausum_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 9.5d
 			y: 6.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bronze.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6E857839BA9266C5"
 			tasks: [{
 				id: "3D464DA086614468"
@@ -1775,12 +2036,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "63CB932724C551B4"
+				type: "item"
+				item: "thermal:bronze_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 11.0d
 			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_invar.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "41A3520D36567575"
 			tasks: [{
 				id: "173DDFA7351EAC9B"
@@ -1796,12 +2064,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "538B031B00AB0EDC"
+				type: "item"
+				item: "thermal:invar_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 3.0d
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pcrystal.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4DEE3E34023AAA80"
 			tasks: [{
 				id: "535A4E357F5FDEAB"
@@ -1816,6 +2091,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5057DCC1019A8ECD"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+				random_bonus: 63
 			}]
 		}
 		{
@@ -1839,12 +2120,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "22A8F748533A6F61"
+				type: "item"
+				item: "mekanism:block_refined_obsidian"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 13.5d
 			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_certus_quartz.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "0D96031256496E5B"
 			tasks: [{
 				id: "786669F982E5FE4D"
@@ -1860,12 +2148,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "508F1BCC05BEC4D4"
+				type: "item"
+				item: "ae2:quartz_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 11.0d
 			y: -5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_lavium.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "0A4C7A9F56D50FE2"
 			tasks: [{
 				id: "098211388C72430F"
@@ -1881,12 +2176,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "10E960E30109AD8D"
+				type: "item"
+				item: "tinkers_reforged:lavium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 4.0d
 			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_log.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "7ABA59FFDD2C664D"
 			tasks: [{
 				id: "4A85BD54FBAF48B1"
@@ -1902,12 +2204,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "6D50918E2DD4BB2D"
+				type: "item"
+				item: "minecraft:oak_log"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 8.5d
 			y: -5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_hepatizon.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "1B4EE40FAD95D1AB"
 			tasks: [{
 				id: "111180E08C602338"
@@ -1923,12 +2232,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "73ECA8E9B9345EE6"
+				type: "item"
+				item: "tconstruct:hepatizon_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 10.0d
 			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cloggrum.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6D53AF5F3E2C474B"
 			tasks: [{
 				id: "3CEB180B4B3F7A3B"
@@ -1943,6 +2259,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "4B716C31BFE8AFD8"
+				type: "item"
+				item: "undergarden:cloggrum_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -1966,12 +2288,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "04C16ABDC9FA641E"
+				type: "item"
+				item: "powah:blazing_crystal_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 4.5d
 			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gravel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "42ED2CD848C7743D"
 			tasks: [{
 				id: "4DAA42F31E3A3DFB"
@@ -1987,12 +2316,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "2E7048C1B14B2EC9"
+				type: "item"
+				item: "compressium:gravel_3"
+			}]
 		}
 		{
 			x: 6.5d
 			y: 2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nether_quartz.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "513D98F671F9A504"
 			tasks: [{
 				id: "2A42FA1C5C1C620D"
@@ -2008,12 +2343,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "0B0C33E73C266E94"
+				type: "item"
+				item: "compressium:quartz_3"
+			}]
 		}
 		{
 			x: 23.5d
 			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fiery.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4B5D9DD602B64880"
 			tasks: [{
 				id: "3A7ADC3F640AAB2E"
@@ -2029,12 +2370,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "5695DDF43A5F2342"
+				type: "item"
+				item: "twilightforest:fiery_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 20.5d
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_osmium.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "69898C8B359B77DE"
 			tasks: [{
 				id: "41FB67BD0DE3B8B5"
@@ -2049,6 +2397,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5639583522A41DA5"
+				type: "item"
+				item: "mekanism:block_osmium"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2072,12 +2426,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "18628F6692A02A27"
+				type: "item"
+				item: "undergarden:utherium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 8.5d
 			y: -1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_emerald.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "67987BDEB6DD9DAF"
 			tasks: [{
 				id: "00C5E34D2BF76C39"
@@ -2093,12 +2454,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "26865EE05A25563C"
+				type: "item"
+				item: "compressium:emerald_3"
+			}]
 		}
 		{
 			x: 10.5d
 			y: -6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_baolian.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6497B46A5529D1C8"
 			tasks: [{
 				id: "68FC9469BBBBFD02"
@@ -2114,12 +2481,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7392A5B0B9786F90"
+				type: "item"
+				item: "tinkers_reforged:baolian_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 10.0d
 			y: -5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fairy.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "38679114459AAE19"
 			tasks: [{
 				id: "517B63AFF627CE0D"
@@ -2135,12 +2509,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "2BD311AF697FDED1"
+				type: "item"
+				item: "materialis:fairy_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 13.0d
 			y: -0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_forgotten.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "38032322C57EC9CE"
 			tasks: [{
 				id: "5890B9B86CA87C85"
@@ -2156,12 +2537,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "2D3BA6CF82318428"
+				type: "item"
+				item: "undergarden:forgotten_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 9.5d
 			y: -6.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_rose_gold.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "5C81B9C9BE08F3EF"
 			tasks: [{
 				id: "2F31436FDD7E2DD1"
@@ -2177,12 +2565,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "776B3F5134F05C5D"
+				type: "item"
+				item: "tconstruct:rose_gold_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 9.0d
 			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_silver.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4D86F4347469C242"
 			tasks: [{
 				id: "0CD2014ABDDACDE5"
@@ -2198,12 +2593,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "3FED0A15EA51149D"
+				type: "item"
+				item: "thermal:silver_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 4.0d
 			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sand.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4F65D673BF5F08EF"
 			tasks: [{
 				id: "425349DEF260C725"
@@ -2218,6 +2620,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "08392758D334B81D"
+				type: "item"
+				item: "compressium:sand_3"
 			}]
 		}
 		{
@@ -2241,6 +2648,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7DE4554BEC1A4B00"
+				type: "item"
+				item: "beyond_earth:steel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 14.5d
@@ -2262,6 +2675,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5827F43C58735504"
+				type: "item"
+				item: "pneumaticcraft:compressed_iron_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2285,12 +2704,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "129FC0DF352238D2"
+				type: "item"
+				item: "powah:uraninite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 11.5d
 			y: -7.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_galu.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "0B3F7141CA6E46ED"
 			tasks: [{
 				id: "0FA2D605A258415E"
@@ -2305,6 +2731,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "7132484617850036"
+				type: "item"
+				item: "tinkers_reforged:galu_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2328,6 +2760,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "02B2EBAAC2869C10"
+				type: "item"
+				item: "powah:nitro_crystal_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 26.0d
@@ -2349,6 +2787,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "4771748264DA5576"
+				type: "item"
+				item: "evilcraft:dark_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2372,12 +2816,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "426EA3F42FCCBA95"
+				type: "item"
+				item: "blue_skies:horizonite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 17.0d
 			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_red_beryl.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4F8786E4A4E5551F"
 			tasks: [{
 				id: "4BBEDB8569834446"
@@ -2393,12 +2844,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "432CC18DEE572522"
+				type: "item"
+				item: "tinkers_reforged:red_beryl_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 6.0d
 			y: 1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_copper.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6C44F374703D84CE"
 			tasks: [{
 				id: "4F59D74436CF641D"
@@ -2414,12 +2872,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "2CE5DB2455F95D44"
+				type: "item"
+				item: "compressium:copper_2"
+			}]
 		}
 		{
 			x: 4.5d
 			y: 1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cobble.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2CF00D357354279E"
 			tasks: [{
 				id: "1A4CF22207826AED"
@@ -2434,6 +2898,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "2EB3EA6FDE89AE90"
+				type: "item"
+				item: "compressium:cobblestone_3"
 			}]
 		}
 		{
@@ -2457,12 +2926,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "5A942E645955E742"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 10.5d
 			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_electrum.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6610F3F03526C62B"
 			tasks: [{
 				id: "0ECA54E61AEF9C0F"
@@ -2477,6 +2953,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "1F2718949787A0BB"
+				type: "item"
+				item: "thermal:electrum_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2500,6 +2982,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "42B0167EF90E1B11"
+				type: "item"
+				item: "botania:elementium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 23.0d
@@ -2521,6 +3009,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "480D83FE97D660F3"
+				type: "item"
+				item: "blue_skies:ventium_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2544,6 +3038,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7639049CED5135FE"
+				type: "item"
+				item: "powah:niotic_crystal_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 14.5d
@@ -2566,12 +3066,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "23AB8FC8D768CC53"
+				type: "item"
+				item: "ftbic:rubber"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 21.5d
 			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_emeraldite.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2D4DB8291BC80CF6"
 			tasks: [{
 				id: "0F273B2CFC650DE9"
@@ -2587,12 +3094,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "541BBE822A6E27C6"
+				type: "item"
+				item: "byg:emeraldite_shards"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 7.5d
 			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ender.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "00A0A5A57B8B6706"
 			tasks: [{
 				id: "42359D62C4855B60"
@@ -2608,12 +3122,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "3B69F9CBB33AEAFC"
+				type: "item"
+				item: "architects_palette:ender_pearl_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 5.0d
 			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_netherwart.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6DA64AE89E3934C3"
 			tasks: [{
 				id: "04E1A4F7C38E9CCD"
@@ -2629,12 +3150,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "0C618F7A4BA5551D"
+				type: "item"
+				item: "minecraft:nether_wart_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 7.5d
 			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_coal.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "66894B17465E3859"
 			tasks: [{
 				id: "7CBA40D938D49A52"
@@ -2649,6 +3177,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "30376D3B3111EBA5"
+				type: "item"
+				item: "compressium:coal_3"
 			}]
 		}
 		{
@@ -2672,12 +3205,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "10A13A63BF7AC511"
+				type: "item"
+				item: "blue_skies:charoite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 21.5d
 			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steeleaf.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "572550787EA96BB2"
 			tasks: [{
 				id: "7410002F5814E2CB"
@@ -2693,12 +3233,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7F06F71D51C26136"
+				type: "item"
+				item: "twilightforest:steeleaf_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 10.0d
 			y: 5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_constantan.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "624DD0DD5E4F44B2"
 			tasks: [{
 				id: "059B8A95D60CF210"
@@ -2714,12 +3261,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "497E37604C404178"
+				type: "item"
+				item: "thermal:constantan_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 18.0d
 			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_epidote.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "38017F953922DBDD"
 			tasks: [{
 				id: "2479ED3344F93019"
@@ -2735,12 +3289,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "47962B9D66E9DEBE"
+				type: "item"
+				item: "tinkers_reforged:epidote_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 9.0d
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nether_star.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "1A3E85C0D7AC17B6"
 			tasks: [{
 				id: "7216012C14B3B28A"
@@ -2756,12 +3317,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "201FD597B813D012"
+				type: "item"
+				item: "minecraft:nether_star"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 4.0d
 			y: 4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blaze.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2DB93B5D12FBBFBE"
 			tasks: [{
 				id: "049C653CF0A05156"
@@ -2776,6 +3344,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "14CDD2B4D7F9BC71"
+				type: "item"
+				item: "botania:blaze_block"
+				random_bonus: 15
 			}]
 		}
 		{
@@ -2799,12 +3373,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "035CA4B21EDF243E"
+				type: "item"
+				item: "mekanism:block_refined_glowstone"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 7.5d
 			y: 3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_amethyst.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "027273CF50EBFDB5"
 			tasks: [{
 				id: "2837909B45B82339"
@@ -2820,12 +3401,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "062F9D4AC4C4748C"
+				type: "item"
+				item: "minecraft:amethyst_block"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 13.0d
 			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_yokel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "06202BFEB690ED3D"
 			tasks: [{
 				id: "498620B962B14FAC"
@@ -2841,12 +3429,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "045453612A1502B7"
+				type: "item"
+				item: "tinkers_reforged:yokel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 11.0d
 			y: -0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_froststeel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "79E02DAE56156B97"
 			tasks: [{
 				id: "080F01A00ED74318"
@@ -2861,6 +3456,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "57A432A913EA29B5"
+				type: "item"
+				item: "undergarden:froststeel_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2884,12 +3485,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7A404B9E43AAA7EE"
+				type: "item"
+				item: "blue_skies:falsite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 8.5d
 			y: 5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_nickel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "20E128FF1B4136D4"
 			tasks: [{
 				id: "7401501EDDBF316B"
@@ -2905,12 +3513,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "6C57BEB6DB60AF30"
+				type: "item"
+				item: "thermal:nickel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 12.0d
 			y: -6.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_durasteel.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2E385B3699ECAA6E"
 			tasks: [{
 				id: "1EE4BA751AB51604"
@@ -2926,12 +3541,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "69CDF10179558667"
+				type: "item"
+				item: "tinkers_reforged:durasteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 6.0d
 			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_soulsand.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "22E9546BB37C7550"
 			tasks: [{
 				id: "01CC0687C1E6E314"
@@ -2947,12 +3569,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "1D02E0F1C5064D08"
+				type: "item"
+				item: "minecraft:soul_sand"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 9.5d
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pigiron.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "47DF0AA037BC3719"
 			tasks: [{
 				id: "4CCA7DD488315C99"
@@ -2967,6 +3596,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "7863174D9C1A1BC1"
+				type: "item"
+				item: "tconstruct:pig_iron_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2990,12 +3625,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "55B835753D3178CB"
+				type: "item"
+				item: "beyond_earth:desh_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 11.0d
 			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bauxite.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "62A7886E9D2A021C"
 			tasks: [{
 				id: "756297A118014EDA"
@@ -3011,12 +3653,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "446C41EC5B49A1B5"
+				type: "item"
+				item: "tinkers_reforged:aluminum_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 6.5d
 			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_bone.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6C696A8776AB0040"
 			tasks: [{
 				id: "000DB11B2406DCF4"
@@ -3031,6 +3680,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "04AAE96C43E39C83"
+				type: "item"
+				item: "minecraft:bone_block"
+				random_bonus: 63
 			}]
 		}
 		{
@@ -3082,12 +3737,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "146FBF297D0A9454"
+				type: "item"
+				item: "mythicbotany:alfsteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 15.5d
 			y: -2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_silicon.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "48E0C30C5C578D06"
 			tasks: [{
 				id: "7EC24236A3ABD766"
@@ -3103,12 +3765,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "78680075A272275A"
+				type: "item"
+				item: "ae2:silicon"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 9.5d
 			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_tin.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6B66B8061B1AC4BB"
 			tasks: [{
 				id: "55A6B09C460C147C"
@@ -3124,12 +3793,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7F6544A1AE3B3401"
+				type: "item"
+				item: "thermal:tin_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 18.5d
 			y: -3.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_chorus_metal.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "1266A4B0E53379A6"
 			tasks: [{
 				id: "1C0ABB7A7C635B6B"
@@ -3145,12 +3821,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "4C824D30718764AF"
+				type: "item"
+				item: "tinkers_reforged:chorus_metal_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 9.0d
 			y: -7.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_queens_slime.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "65A39D76E8A34BA7"
 			tasks: [{
 				id: "54820240D4E25AE2"
@@ -3166,12 +3849,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "0FB12F7B456F756C"
+				type: "item"
+				item: "tconstruct:queens_slime_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 13.5d
 			y: 2.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iridium.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "3701D0FA7E0ADE34"
 			tasks: [{
 				id: "0759328598AF862B"
@@ -3187,12 +3877,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "65FF1BF495D8E4E7"
+				type: "item"
+				item: "ftbic:iridium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 4.0d
 			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_pshard.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "211E5423D16CFB2F"
 			tasks: [{
 				id: "172D1A912DC9662B"
@@ -3208,12 +3905,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "2107055EA293BA01"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+				count: 64
+			}]
 		}
 		{
 			x: 7.0d
 			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_redstone.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "072441059AF7DE64"
 			tasks: [{
 				id: "08811AB10DAF0BF3"
@@ -3229,12 +3933,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7A9B2192541D287A"
+				type: "item"
+				item: "compressium:redstone_3"
+			}]
 		}
 		{
 			x: 9.0d
 			y: -4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_manyullyn.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "5884F6D14A00A0CD"
 			tasks: [{
 				id: "0F16ED6935FAF447"
@@ -3250,12 +3960,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "4F7D708689E51CFD"
+				type: "item"
+				item: "tconstruct:manyullyn_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 5.0d
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_slime.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "188CD6F9893F7A87"
 			tasks: [{
 				id: "13A613BA406A5641"
@@ -3271,12 +3988,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "6AB8EDF7B3DDFA69"
+				type: "item"
+				item: "minecraft:slime_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 8.0d
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_netherite_scrap.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "523182AB7E2FBED0"
 			tasks: [{
 				id: "380E8BD69DF49D34"
@@ -3292,12 +4016,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "0990142BD8721ADF"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				random_bonus: 31
+			}]
 		}
 		{
 			x: 15.0d
 			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_signalum.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "6D89E9AF0DE14599"
 			tasks: [{
 				id: "1F90CEA0D6601553"
@@ -3313,12 +4044,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "0020427A0B322B7C"
+				type: "item"
+				item: "thermal:signalum_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 10.0d
 			y: -2.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cobalt.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2152D169DD3A9335"
 			tasks: [{
 				id: "43D62CFE515BC2B1"
@@ -3334,12 +4072,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "4BB1D98533EF56B8"
+				type: "item"
+				item: "tconstruct:cobalt_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 22.5d
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_knightmetal.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "0D4AE60CF6DA5C7E"
 			tasks: [{
 				id: "3432E2C7F4D4F248"
@@ -3354,6 +4099,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "66BB3097DC3A0957"
+				type: "item"
+				item: "twilightforest:knightmetal_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -3377,12 +4128,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "3B75FF86AA3026F0"
+				type: "item"
+				item: "twilightforest:ironwood_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 6.0d
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gold.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "5D99BE1774C0000F"
 			tasks: [{
 				id: "3047512002E3E6DA"
@@ -3398,12 +4156,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "6C645F7DC1D2EFFA"
+				type: "item"
+				item: "compressium:gold_2"
+			}]
 		}
 		{
 			x: 10.5d
 			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_kepu.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "4308E5DDBE6AD710"
 			tasks: [{
 				id: "7E4F12FD04F3E9C0"
@@ -3419,12 +4183,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "55F1F9DC2C879E11"
+				type: "item"
+				item: "tinkers_reforged:kepu_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 6.0d
 			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_iron.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "2C0D42B700FB2CBB"
 			tasks: [{
 				id: "32B4DA5869203723"
@@ -3440,12 +4211,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "10B9D547FB611989"
+				type: "item"
+				item: "compressium:iron_2"
+			}]
 		}
 		{
 			x: 5.0d
 			y: -0.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_clay.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "67DF2B53D3D270E1"
 			tasks: [{
 				id: "1F174B39BE6EAD5A"
@@ -3461,12 +4238,18 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "5CB6845A4BD25B36"
+				type: "item"
+				item: "compressium:clay_3"
+			}]
 		}
 		{
 			x: 14.5d
 			y: -1.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fluix.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "14F67FEC1B8D8CD8"
 			tasks: [{
 				id: "1DD21DFCBED2884D"
@@ -3482,12 +4265,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "23AB37BC8C66360F"
+				type: "item"
+				item: "ae2:fluix_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 8.5d
 			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_diamond.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "3EFBCE795C2CBEBB"
 			tasks: [{
 				id: "38BD281311FEC4D3"
@@ -3502,6 +4292,11 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5A61A25F8172F21D"
+				type: "item"
+				item: "compressium:diamond_3"
 			}]
 		}
 		{
@@ -3524,6 +4319,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "7E23E91B4C67460A"
+				type: "item"
+				item: "thermal:enderium_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -3620,6 +4421,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "4A57143A3C720FD2"
+				type: "item"
+				item: "avaritia:neutronium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 12.0d
@@ -3641,6 +4448,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "0595F730E05E7C3B"
+				type: "item"
+				item: "thermal_extra:shellite_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -3664,6 +4477,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "43B8B90FE5452C18"
+				type: "item"
+				item: "thermal_extra:twinite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 27.5d
@@ -3685,6 +4504,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "0B87D0C2D28B9047"
+				type: "item"
+				item: "draconicevolution:chaos_shard"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -3708,6 +4533,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "07F1A5E680CED577"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 13.0d
@@ -3730,6 +4561,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "660541DD6CA2F359"
+				type: "item"
+				item: "thermal_extra:dragonsteel_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 26.0d
@@ -3751,6 +4588,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "047B2388A92EF438"
+				type: "item"
+				item: "draconicevolution:draconium_block"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -3775,6 +4618,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "1D4CA710E8A5ADB2"
+				type: "item"
+				item: "avaritia:infinity_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 11.5d
@@ -3797,12 +4646,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "3D7D32FB7A64A09D"
+				type: "item"
+				item: "thermal_extra:soul_infused_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 7.0d
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sculk.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "3154647AC0D883EE"
 			tasks: [{
 				id: "53F0656E220E2672"
@@ -3817,6 +4673,12 @@
 					}
 				}
 				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "6A17EC7FC144B0C3"
+				type: "item"
+				item: "warden_and_sculk:sculk_block"
+				random_bonus: 63
 			}]
 		}
 		{
@@ -3840,6 +4702,12 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "1B02D88EB3806ABF"
+				type: "item"
+				item: "blue_skies:pyrope_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 22.0d
@@ -3862,12 +4730,19 @@
 				}
 				weak_nbt_match: true
 			}]
+			rewards: [{
+				id: "7907B14DAB6A6C59"
+				type: "item"
+				item: "blue_skies:diopside_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 11.0d
 			y: 5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_sulfur.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "0F6ADC6007FFFEE0"
 			tasks: [{
 				id: "2120586C2581579E"
@@ -3891,6 +4766,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "58D7DED8AF758527"
+				type: "item"
+				item: "thermal:sulfur_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			icon: {
@@ -3906,6 +4787,7 @@
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_fluorite.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "1F3F4948E77B5B2C"
 			tasks: [{
 				id: "699A3FF1BAA9FE13"
@@ -3920,12 +4802,19 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "65AE937B51964EC2"
+				type: "item"
+				item: "mekanism:block_fluorite"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 10.5d
 			y: 6.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cinnabar.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "1021DC902CC0B248"
 			tasks: [{
 				id: "48476F8E21DC9DC4"
@@ -3949,12 +4838,19 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3E3CA3707B554CC2"
+				type: "item"
+				item: "thermal:cinnabar_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 11.5d
 			y: 4.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_apatite.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "248D3F7AF2DCEE02"
 			tasks: [{
 				id: "10C7E879379CBBF4"
@@ -3978,12 +4874,19 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3F38A7ADB0B6505F"
+				type: "item"
+				item: "thermal:apatite_block"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 12.0d
 			y: 3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_niter.png width:150 height:100 align:1}"]
+			dependencies: ["7D9ACDADBB4CBD8C"]
 			id: "21679638F45160EA"
 			tasks: [{
 				id: "59DD37A9BBEED9CF"
@@ -4006,6 +4909,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "452220605D1A3BC6"
+				type: "item"
+				item: "thermal:niter_block"
+				random_bonus: 7
 			}]
 		}
 	]
