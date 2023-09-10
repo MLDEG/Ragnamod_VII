@@ -63,6 +63,7 @@
 			icon: "pipez:wrench"
 			x: -2.5d
 			y: 0.5d
+			shape: "square"
 			description: ["Pipez is a simple and powerful tool to transfer items, fluids, RF and even Gases."]
 			dependencies: ["577D6202E19B2599"]
 			id: "25F4AED371611E14"
@@ -98,6 +99,12 @@
 					item: "pipez:filter_destination_tool"
 				}
 			]
+			rewards: [{
+				id: "6D37C288B0C3BA34"
+				type: "item"
+				item: "pipez:universal_pipe"
+				random_bonus: 7
+			}]
 		}
 		{
 			title: "Hammer"
@@ -110,6 +117,7 @@
 			}
 			x: -2.5d
 			y: -2.5d
+			shape: "square"
 			description: [
 				"The Hammer can break a 3x3x1 block in one swing !"
 				""
@@ -129,10 +137,22 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "10C3A5BCC6B4057A"
+				type: "item"
+				item: {
+					id: "justhammers:netherite_impact_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
 			y: 4.5d
+			shape: "square"
 			description: ["Botany pot can grow all kind of crops and saplings."]
 			dependencies: ["577D6202E19B2599"]
 			id: "66CC292233105671"
@@ -141,10 +161,16 @@
 				type: "item"
 				item: "botanypots:terracotta_hopper_botany_pot"
 			}]
+			rewards: [{
+				id: "0F6484E1BAC44B9B"
+				type: "item"
+				item: "botanypots:magenta_glazed_terracotta_hopper_botany_pot"
+			}]
 		}
 		{
 			x: -5.0d
 			y: 5.0d
+			shape: "square"
 			description: ["The Elite Version grow yours seeds and saplings faster with more output."]
 			dependencies: ["66CC292233105671"]
 			id: "050A2CD317C300A8"
@@ -153,10 +179,16 @@
 				type: "item"
 				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
 			}]
+			rewards: [{
+				id: "4E9C789AC6C0DF49"
+				type: "item"
+				item: "botanypotstiers:elite_light_blue_glazed_terracotta_hopper_botany_pot"
+			}]
 		}
 		{
 			x: -6.0d
 			y: 5.5d
+			shape: "square"
 			description: ["The Ultra Version grow yours seeds and saplings even faster with more output."]
 			dependencies: ["050A2CD317C300A8"]
 			id: "02D769726E83C8E8"
@@ -165,10 +197,16 @@
 				type: "item"
 				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
 			}]
+			rewards: [{
+				id: "5CA92B8730B7BD56"
+				type: "item"
+				item: "botanypotstiers:ultra_red_glazed_terracotta_hopper_botany_pot"
+			}]
 		}
 		{
 			x: -6.0d
 			y: 6.5d
+			shape: "square"
 			description: ["The Creative Version grow yours seeds and saplings very very fast with a lot of output !"]
 			dependencies: ["02D769726E83C8E8"]
 			id: "3E72D0D5D73F385A"
@@ -176,6 +214,11 @@
 				id: "29C926FFBB865FC0"
 				type: "item"
 				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+			}]
+			rewards: [{
+				id: "3C26C147118DDB9E"
+				type: "item"
+				item: "botanypotstiers:creative_black_glazed_terracotta_hopper_botany_pot"
 			}]
 		}
 		{
@@ -465,6 +508,7 @@
 		{
 			x: 1.5d
 			y: -2.5d
+			shape: "square"
 			description: ["The Tempad is a device who can save locations and teleport to them from anywhere !"]
 			dependencies: ["577D6202E19B2599"]
 			id: "4089614E2DF3FC07"
@@ -473,10 +517,16 @@
 				type: "item"
 				item: "tempad:tempad"
 			}]
+			rewards: [{
+				id: "6B943F295BE25665"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: 0.5d
 			y: 1.5d
+			shape: "square"
 			description: ["The Target Dummy can calculate your DPS (damage per second), useful to prepare a difficult fight or just for fun !"]
 			dependencies: ["577D6202E19B2599"]
 			id: "62444318505D0ECF"
@@ -484,6 +534,21 @@
 				id: "5B3508CF56B6B9A0"
 				type: "item"
 				item: "dummmmmmy:target_dummy_placer"
+			}]
+			rewards: [{
+				id: "1E010C4002B2A533"
+				type: "item"
+				item: {
+					id: "miningmaster:lucky_citrine_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:looting"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -1101,6 +1166,7 @@
 		{
 			x: -1.0d
 			y: -3.5d
+			shape: "square"
 			description: ["The Summoning Altar allows you to summon mobs/boss."]
 			dependencies: ["577D6202E19B2599"]
 			id: "2786D4CA2DDAE3A3"
@@ -1109,11 +1175,17 @@
 				type: "item"
 				item: "summoningrituals:altar"
 			}]
+			rewards: [{
+				id: "12B0E5158474EAD1"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
 		}
 		{
 			icon: "scannable:scanner"
 			x: 0.5d
 			y: 0.5d
+			shape: "square"
 			description: ["The Scanner provides a scanner item that can survey the nearby area for points of interest. Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."]
 			dependencies: ["577D6202E19B2599"]
 			id: "482C6BDC5486106D"
@@ -1129,11 +1201,17 @@
 					item: "scannable:blank_module"
 				}
 			]
+			rewards: [{
+				id: "4EF10606535BAAF7"
+				type: "item"
+				item: "scannable:range_module"
+			}]
 		}
 		{
 			icon: "travel_anchors:travel_staff"
 			x: -3.5d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"The Travel Staff allows you to teleport you by using Shift Right-Click and aiming at the desired location."
 				""
@@ -1153,15 +1231,27 @@
 					item: "travel_anchors:travel_anchor"
 				}
 			]
+			rewards: [{
+				id: "2DF46B6474E11A9C"
+				type: "item"
+				item: "travel_anchors:travel_anchor"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 1.5d
 			y: -0.5d
+			shape: "square"
 			description: ["The Smithing Table (auto) is simply an auto Smithing Table."]
 			dependencies: ["577D6202E19B2599"]
 			id: "394ECC129D2E7EB1"
 			tasks: [{
 				id: "367FFC8151CA8D14"
+				type: "item"
+				item: "autosmithingtable:auto_smithing_table"
+			}]
+			rewards: [{
+				id: "5C2D6BFF00FDC5C9"
 				type: "item"
 				item: "autosmithingtable:auto_smithing_table"
 			}]
@@ -1171,6 +1261,7 @@
 			icon: "akashictome:tome"
 			x: -1.0d
 			y: -2.5d
+			shape: "square"
 			description: [
 				"Akashic tome allows you to store all kinds of books in a single book."
 				""
@@ -1190,12 +1281,18 @@
 					item: "morphtool:tool"
 				}
 			]
+			rewards: [{
+				id: "0A8473C9836A7771"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
 		}
 		{
 			title: "No More WANDERER"
 			icon: "nomowanderer:no_soliciting_sign"
 			x: 0.5d
 			y: -3.5d
+			shape: "square"
 			description: ["The Sign of the Talisman prevent the spawn of Wandering Trader within 6 chunks."]
 			dependencies: ["577D6202E19B2599"]
 			id: "28973DC14A04294D"
@@ -1217,10 +1314,16 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4865441E6AC24913"
+				type: "item"
+				item: "minecraft:wandering_trader_spawn_egg"
+			}]
 		}
 		{
 			x: 0.5d
 			y: -0.5d
+			shape: "square"
 			description: ["The Nature's Compass can help you find a specific biome you want."]
 			dependencies: ["577D6202E19B2599"]
 			id: "5119A3133254B659"
@@ -1233,6 +1336,23 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "3A668917B8D3AA64"
+					type: "item"
+					item: "quark:red_blossom_sapling"
+				}
+				{
+					id: "78D1F2CEBEB72BB9"
+					type: "item"
+					item: "quark:lavender_blossom_sapling"
+				}
+				{
+					id: "24A74316117E82A1"
+					type: "item"
+					item: "quark:pink_blossom_sapling"
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -1290,6 +1410,7 @@
 			}
 			x: 0.5d
 			y: -1.5d
+			shape: "square"
 			description: [
 				"This magnet can attract items and xp within 5 blocks."
 				"The Demagnetization Coil prevents items up to 3 blocks away from being attracted by magnets."
@@ -1312,6 +1433,12 @@
 					item: "simplemagnets:basic_demagnetization_coil"
 				}
 			]
+			rewards: [{
+				id: "377AE2D93E6D3EAF"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: {
@@ -1321,6 +1448,7 @@
 			}
 			x: 1.5d
 			y: -1.5d
+			shape: "square"
 			description: [
 				"This magnet can attract items and xp within 11 blocks and can be filtered."
 				"The Demagnetization Coil prevents items up to 5 blocks away from being attracted by magnets and can be filtered."
@@ -1343,6 +1471,12 @@
 					item: "simplemagnets:advanced_demagnetization_coil"
 				}
 			]
+			rewards: [{
+				id: "54A42B2DA3B324E0"
+				type: "item"
+				item: "minecraft:ender_eye"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 2.5d
@@ -1368,6 +1502,7 @@
 			icon: "supercircuitmaker:screwdriver"
 			x: -3.5d
 			y: -1.5d
+			shape: "square"
 			description: [
 				"The Circuit is your blank pattern to create your miniature redstone device."
 				""
@@ -1428,11 +1563,19 @@
 					match_nbt: false
 				}
 			]
+			rewards: [{
+				id: "38D5DFEA00E89374"
+				type: "item"
+				item: "supercircuitmaker:tiny_redstone"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			title: "Miniature Redstone Devices"
 			x: -2.5d
 			y: -1.5d
+			shape: "square"
 			description: [
 				"Miniature Button is just a button."
 				""
@@ -1480,10 +1623,18 @@
 					item: "supercircuitmaker:randomizer"
 				}
 			]
+			rewards: [{
+				id: "5468CCC179C46A1E"
+				type: "item"
+				item: "supercircuitmaker:tiny_rgb_redstone"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			x: 1.5d
 			y: 1.5d
+			shape: "square"
 			description: ["Snad can increase the growth rate for sugarcane, cacti and any other plantable crop."]
 			dependencies: ["577D6202E19B2599"]
 			id: "59A524556708186E"
@@ -1492,10 +1643,17 @@
 				type: "item"
 				item: "snad:snad"
 			}]
+			rewards: [{
+				id: "3F8C0B6DA50BE332"
+				type: "item"
+				item: "snad:suol_snad"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.5d
 			y: 1.5d
+			shape: "square"
 			description: ["Modular Router is very useful to transfer items, fluids, energy wirelessly with upgrade and modules."]
 			dependencies: ["577D6202E19B2599"]
 			id: "1A43259950E5D127"
@@ -1504,10 +1662,17 @@
 				type: "item"
 				item: "modularrouters:modular_router"
 			}]
+			rewards: [{
+				id: "62202C31F93212A9"
+				type: "item"
+				item: "modularrouters:modular_router"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -3.5d
 			y: 0.5d
+			shape: "square"
 			description: ["The name of the upgrade speak for themselves."]
 			dependencies: ["1A43259950E5D127"]
 			id: "6597083F5B64A768"
@@ -1525,10 +1690,25 @@
 					count: 6L
 				}
 			]
+			rewards: [
+				{
+					id: "7FA7B1ACFEA14296"
+					type: "item"
+					item: "modularrouters:speed_upgrade"
+					random_bonus: 8
+				}
+				{
+					id: "3A98BDB6C3103928"
+					type: "item"
+					item: "modularrouters:stack_upgrade"
+					random_bonus: 5
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: -0.5d
+			shape: "square"
 			description: [
 				"Puller Module is used to pull anything from point A to point B."
 				"Simply Shift right-click a chest, tank or battery to register your puller point."
@@ -1567,6 +1747,36 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "252ED1AF622E649F"
+					type: "item"
+					item: {
+						id: "modularrouters:puller_module_2"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+					random_bonus: 7
+				}
+				{
+					id: "507BFD3BC39458EB"
+					type: "item"
+					item: {
+						id: "modularrouters:sender_module_2"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+					random_bonus: 7
+				}
+			]
 		}
 		{
 			title: "Through Space"
@@ -1577,6 +1787,7 @@
 			}
 			x: 1.5d
 			y: -3.5d
+			shape: "square"
 			description: [
 				"Wormhole is a really cool mod. It gives you the possibility to shape your portal has you want, flat or straight."
 				"{image:ftbquests:textures/quests/wormhole.png width:150 height:100 align:1}"
@@ -1634,6 +1845,13 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "00EC0E3E0A73D964"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			x: -1.5d
@@ -1755,6 +1973,7 @@
 		{
 			x: 7.5d
 			y: -0.5d
+			shape: "square"
 			description: [
 				"The Building Gadget allows you to build structures using a set of different Building Modes."
 				""
@@ -1831,10 +2050,16 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4198D3A3E1E4F752"
+				type: "item"
+				item: "buildinggadgets:template_manager"
+			}]
 		}
 		{
 			x: 6.5d
 			y: -0.5d
+			shape: "square"
 			description: [
 				"A classic builder's wand."
 				"To undo your placement, you need to shift+ctrl+right-click. You can undo three time."
@@ -1866,10 +2091,23 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "74206AD8F0A3A389"
+					type: "item"
+					item: "constructionwand:core_angel"
+				}
+				{
+					id: "650F4E90A2284E69"
+					type: "item"
+					item: "constructionwand:core_destruction"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -0.5d
+			shape: "square"
 			description: [
 				"Chipped Bench is a great mod for builders."
 				"They function like a stonecutter."
@@ -1913,6 +2151,29 @@
 					item: "chipped:botanist_workbench"
 				}
 			]
+			rewards: [
+				{
+					id: "285B39DF12B3F5C0"
+					type: "item"
+					item: "chipped:shroomlight_12"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "0203390EA24A31E6"
+					type: "item"
+					item: "chipped:yellow_concrete_19"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "57123CD225E1F034"
+					type: "item"
+					item: "chipped:raw_gold_block_23"
+					count: 8
+					random_bonus: 8
+				}
+			]
 		}
 		{
 			icon: {
@@ -1922,6 +2183,7 @@
 			}
 			x: 1.5d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"With an entangled block you can bind almost any block."
 				"For example you can bind a chest to an entangled block and from it you can import and export items."
@@ -1948,6 +2210,16 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0D56A6B7C3649109"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+				random_bonus: 31
+			}]
 		}
 		{
 			icon: "enderstorage:ender_chest"
@@ -1988,6 +2260,7 @@
 		{
 			x: -2.5d
 			y: -3.5d
+			shape: "square"
 			description: ["Like his name said, it's a Chunk Loader."]
 			dependencies: ["577D6202E19B2599"]
 			id: "24586D32E67CCBC2"
@@ -1996,10 +2269,17 @@
 				type: "item"
 				item: "chickenchunks:chunk_loader"
 			}]
+			rewards: [{
+				id: "482757100ED37E29"
+				type: "item"
+				item: "chickenchunks:spot_loader"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 1.5d
 			y: 0.5d
+			shape: "square"
 			description: ["Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!"]
 			dependencies: ["577D6202E19B2599"]
 			id: "265785758A05403E"
@@ -2015,11 +2295,18 @@
 					item: "itemcollectors:advanced_collector"
 				}
 			]
+			rewards: [{
+				id: "42B934511D047E5E"
+				type: "item"
+				item: "itemcollectors:advanced_collector"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: "waystones:waystone"
 			x: 0.5d
 			y: -2.5d
+			shape: "square"
 			description: [
 				"Waystones are pillar who can teleport you to other waystones you have activated."
 				"Warp Stone is a teleportation device who can teleport you to other waystones."
@@ -2051,10 +2338,16 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "08955B1C536EB823"
+				type: "item"
+				item: "waystones:mossy_waystone"
+			}]
 		}
 		{
 			x: -2.5d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"You can store all your enchanted book in this Enchantment Library."
 				""
@@ -2067,10 +2360,25 @@
 				type: "item"
 				item: "apotheosis:library"
 			}]
+			rewards: [{
+				id: "350E27BE17DAC1BA"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 9s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"You can store all your enchanted book in this Enchantment Library."
 				""
@@ -2084,10 +2392,25 @@
 				type: "item"
 				item: "apotheosis:ender_library"
 			}]
+			rewards: [{
+				id: "51FC509E92BC646C"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 9s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
 			y: 2.5d
+			shape: "square"
 			description: ["The Salvaging Table break down Affix items into Rarity Materials."]
 			dependencies: ["577D6202E19B2599"]
 			id: "57EE4803D9721AC1"
@@ -2096,10 +2419,18 @@
 				type: "item"
 				item: "apotheosis:salvaging_table"
 			}]
+			rewards: [{
+				id: "172E170AAB4C7F4C"
+				type: "item"
+				item: "apotheosis:gem_dust"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			x: 0.5d
 			y: 2.5d
+			shape: "square"
 			description: ["The Reforging Table use Gem Dust and Rarity Materials to reroll affixes."]
 			dependencies: ["577D6202E19B2599"]
 			id: "22A147F2DF690A3B"
@@ -2108,11 +2439,19 @@
 				type: "item"
 				item: "apotheosis:reforging_table"
 			}]
+			rewards: [{
+				id: "038E2B17AC6B2B4E"
+				type: "item"
+				item: "apotheosis:gem_dust"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			title: "Framed Blocks"
 			x: 5.5d
 			y: -0.5d
+			shape: "square"
 			description: [
 				"Framed Blocks give you the possibility to create stair, slab, slope, doors and all kind a stuff."
 				"Right-click with a block on it to turn the framed block into the chosen block."
@@ -2139,10 +2478,17 @@
 					item: "framedblocks:framed_hammer"
 				}
 			]
+			rewards: [{
+				id: "2423A34B2E4DF58D"
+				type: "item"
+				item: "framedblocks:framed_cube"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: -1.0d
 			y: 5.5d
+			shape: "square"
 			description: ["The Heart Amulet is an amulet who you can store 10 heart canisters of each color to get more health."]
 			dependencies: ["577D6202E19B2599"]
 			id: "77A2BA09F9342029"
@@ -2151,11 +2497,17 @@
 				type: "item"
 				item: "bhc:heart_amulet"
 			}]
+			rewards: [{
+				id: "4889EB8A73160206"
+				type: "item"
+				item: "reliquary:fortune_coin"
+			}]
 		}
 		{
 			title: "Red Heart Canister"
 			x: -3.0d
 			y: 5.5d
+			shape: "square"
 			description: ["The red heart is dropped by passive mobs."]
 			dependencies: ["577D6202E19B2599"]
 			id: "269CAFF56F143159"
@@ -2165,11 +2517,18 @@
 				item: "bhc:red_heart_canister"
 				count: 10L
 			}]
+			rewards: [{
+				id: "682E4160F05B7D9F"
+				type: "item"
+				item: "bhc:red_heart_canister"
+				random_bonus: 4
+			}]
 		}
 		{
 			title: "Yellow Heart Canister"
 			x: -2.0d
 			y: 5.5d
+			shape: "square"
 			description: ["The yellow heart is dropped by any boss."]
 			dependencies: ["269CAFF56F143159"]
 			id: "2DDCECF0F7CFA5BC"
@@ -2179,11 +2538,18 @@
 				item: "bhc:yellow_heart_canister"
 				count: 10L
 			}]
+			rewards: [{
+				id: "1A9816A91C0A8E0C"
+				type: "item"
+				item: "bhc:yellow_heart_canister"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Green Heart Canister"
 			x: 0.0d
 			y: 5.5d
+			shape: "square"
 			description: ["The green heart is dropped by trading with Piglins."]
 			dependencies: ["2DDCECF0F7CFA5BC"]
 			id: "626D604E31FD5FCC"
@@ -2193,11 +2559,18 @@
 				item: "bhc:green_heart_canister"
 				count: 10L
 			}]
+			rewards: [{
+				id: "07D67864D4182FD0"
+				type: "item"
+				item: "bhc:green_heart_canister"
+				random_bonus: 2
+			}]
 		}
 		{
 			title: "Blue Heart Canister"
 			x: 1.0d
 			y: 5.5d
+			shape: "square"
 			description: ["The blue heart is dropped by pixies from Alfheim."]
 			dependencies: ["626D604E31FD5FCC"]
 			id: "3FD5AA7FBAE18876"
@@ -2207,10 +2580,17 @@
 				item: "bhc:blue_heart_canister"
 				count: 10L
 			}]
+			rewards: [{
+				id: "3FCAA887ECA9D295"
+				type: "item"
+				item: "quark:diamond_heart"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 8.5d
 			y: -0.5d
+			shape: "square"
 			description: ["The Camera is very cool to take a screenshot in game and place it on a wall with an Image Frame."]
 			dependencies: ["577D6202E19B2599"]
 			id: "4DA1A6B7845B1F49"
@@ -2232,11 +2612,28 @@
 					item: "camera:image_frame"
 				}
 			]
+			rewards: [{
+				id: "0C9FB3A376B3CA65"
+				type: "item"
+				item: {
+					id: "camera:image"
+					Count: 1b
+					tag: {
+						image: {
+							image_time: 1694380363466L
+							owner: "MrMLDEG"
+							image_id_least: -9028971440914443110L
+							image_id_most: -1089687803662219142L
+						}
+					}
+				}
+			}]
 		}
 		{
 			icon: "compactmachines:personal_shrinking_device"
 			x: 6.5d
 			y: -3.75d
+			shape: "square"
 			description: [
 				"The Personal Shrinking Device allows you to enter and exit your compact machine."
 				"{image:ftbquests:textures/quests/compact_crafting.png width:150 height:100 align:1}"
@@ -2257,10 +2654,16 @@
 					item: "compactmachines:personal_shrinking_device"
 				}
 			]
+			rewards: [{
+				id: "0CECE09B4DBC9ABE"
+				type: "item"
+				item: "compactcrafting:match_proxy"
+			}]
 		}
 		{
 			x: 4.0d
 			y: -2.0d
+			shape: "square"
 			description: ["The Tiny Compact Machine is a 3x3x3 space."]
 			dependencies: ["06013B4C80F9419B"]
 			id: "467D9A00FCA89933"
@@ -2269,10 +2672,16 @@
 				type: "item"
 				item: "compactmachines:machine_tiny"
 			}]
+			rewards: [{
+				id: "59DBA416A8BCA358"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
 		}
 		{
 			x: 4.5d
 			y: -3.0d
+			shape: "square"
 			description: ["The Small Compact Machine is a 5x5x5 space."]
 			dependencies: ["06013B4C80F9419B"]
 			id: "5D82993EB509E820"
@@ -2281,10 +2690,16 @@
 				type: "item"
 				item: "compactmachines:machine_small"
 			}]
+			rewards: [{
+				id: "6396672BE71B98D2"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
 		}
 		{
 			x: 5.5d
 			y: -3.5d
+			shape: "square"
 			description: ["The Normal Compact Machine is a 7x7x7 space."]
 			dependencies: ["06013B4C80F9419B"]
 			id: "5B0F26FC2CEA0CB4"
@@ -2293,10 +2708,16 @@
 				type: "item"
 				item: "compactmachines:machine_normal"
 			}]
+			rewards: [{
+				id: "1E2F98100A4CCAD3"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
 		}
 		{
 			x: 7.5d
 			y: -3.5d
+			shape: "square"
 			description: ["The Large Compact Machine is a 9x9x9 space."]
 			dependencies: ["06013B4C80F9419B"]
 			id: "7891DB25222C0D71"
@@ -2305,10 +2726,16 @@
 				type: "item"
 				item: "compactmachines:machine_large"
 			}]
+			rewards: [{
+				id: "7F712850B83909B8"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
 		}
 		{
 			x: 8.5d
 			y: -3.0d
+			shape: "square"
 			description: ["The Giant Compact Machine is a 11x11x11 space."]
 			dependencies: ["06013B4C80F9419B"]
 			id: "3864916135A1E193"
@@ -2317,10 +2744,16 @@
 				type: "item"
 				item: "compactmachines:machine_giant"
 			}]
+			rewards: [{
+				id: "7ACA4CAC033777DA"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
 		}
 		{
 			x: 9.0d
 			y: -2.0d
+			shape: "square"
 			description: ["The Maximum Compact Machine is a 13x13x13 space."]
 			dependencies: ["06013B4C80F9419B"]
 			id: "6EF4A108C56230E1"
@@ -2329,11 +2762,17 @@
 				type: "item"
 				item: "compactmachines:machine_maximum"
 			}]
+			rewards: [{
+				id: "0DA50D4FC134D786"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
 		}
 		{
 			title: "Small Prod of Ice and Lava"
 			x: -3.5d
 			y: -3.5d
+			shape: "square"
 			description: [
 				"The Small Mineral Melting Furnace can smelt cobblestone with RF to create Lava."
 				""
@@ -2353,12 +2792,26 @@
 					item: "engineersdecor:small_freezer"
 				}
 			]
+			rewards: [
+				{
+					id: "0CE679DFB6C59A7F"
+					type: "item"
+					item: "minecraft:blue_ice"
+					random_bonus: 3
+				}
+				{
+					id: "7D8B4963D1FD3976"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
 		}
 		{
 			title: "Sleeping Anywhere, Anytime !"
 			icon: "comforts:sleeping_bag_white"
 			x: -2.5d
 			y: 1.5d
+			shape: "square"
 			description: [
 				"The Sleeping Bag allows you to sleep anywhere without reset your spawn point (set with a bed)."
 				"The Hammock Cloth allows you to sleep in daytime until night."
@@ -2399,6 +2852,12 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "494C2966B46A9C16"
+				type: "item"
+				item: "minecraft:white_wool"
+				random_bonus: 63
+			}]
 		}
 		{
 			title: "Functional Storage"
@@ -2453,6 +2912,7 @@
 		{
 			x: -2.5d
 			y: -0.5d
+			shape: "square"
 			description: ["The Click Machine is simply a Click machine, it can left and right click with or not an item."]
 			dependencies: ["577D6202E19B2599"]
 			id: "099259F59E31A4B0"
@@ -2461,11 +2921,18 @@
 				type: "item"
 				item: "clickmachine:auto_clicker"
 			}]
+			rewards: [{
+				id: "1F640CD5AC8B0399"
+				type: "item"
+				item: "clickmachine:auto_clicker"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: "fluxnetworks:flux_point"
 			x: -3.5d
 			y: -2.5d
+			shape: "square"
 			description: [
 				"The Flux Plug receives energy from adjacent blocks passively, adding energy to your Flux Network."
 				""
@@ -2499,6 +2966,12 @@
 					item: "fluxnetworks:basic_flux_storage"
 				}
 			]
+			rewards: [{
+				id: "6D3AC0D08DA9C0DF"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 4.0d
@@ -2600,13 +3073,23 @@
 		{
 			x: 6.5d
 			y: -2.5d
-			description: ["Eternal day in the void."]
+			shape: "square"
+			description: [
+				"Eternal day in the void."
+				""
+				"You can build is with the Schematicannon."
+			]
 			dependencies: ["06013B4C80F9419B"]
 			id: "177C695B8960EB77"
 			tasks: [{
 				id: "1BED3C32CB39B5AD"
 				type: "item"
 				item: "javd:portal_block"
+			}]
+			rewards: [{
+				id: "35625C6624F5B971"
+				type: "item"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
 			}]
 		}
 		{
@@ -2702,6 +3185,7 @@
 			icon: "mob_grinding_utils:saw"
 			x: -1.5d
 			y: 1.5d
+			shape: "square"
 			description: [
 				"The Mob Masher works with a redstone signal and can be upgrade."
 				""
@@ -2735,11 +3219,19 @@
 					item: "mob_grinding_utils:xpsolidifier"
 				}
 			]
+			rewards: [{
+				id: "1E9F2010DF7EFDD4"
+				type: "item"
+				item: "darkutils:vector_plate_fast"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			icon: "mob_grinding_utils:rotten_egg"
 			x: -0.5d
 			y: 0.5d
+			shape: "square"
 			description: [
 				"If you give cursed food to a chicken, it explodes, dropping feathers and a Rotten Egg."
 				"{image:ftbquests:textures/quests/dreadful.png width:150 height:100 align:1}"
@@ -2759,11 +3251,17 @@
 					item: "mob_grinding_utils:rotten_egg"
 				}
 			]
+			rewards: [{
+				id: "14C40062019E40A9"
+				type: "item"
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+			}]
 		}
 		{
 			icon: "mob_grinding_utils:golden_egg"
 			x: -1.5d
 			y: 0.5d
+			shape: "square"
 			description: [
 				"If you give Nutrious food to a chicken, it explodes, dropping feathers and a Golden Egg."
 				"{image:ftbquests:textures/quests/delightful.png width:150 height:100 align:1}"
@@ -2784,11 +3282,17 @@
 					item: "mob_grinding_utils:golden_egg"
 				}
 			]
+			rewards: [{
+				id: "4F7C4E518EFA07E2"
+				type: "item"
+				item: "mob_grinding_utils:nutritious_chicken_feed"
+			}]
 		}
 		{
 			icon: "ragnamod_seven:netherite_monstrosity_soul"
 			x: 4.0d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"You need to find the Soul Blacksmith structure to fight the Netherite Monstrosity."
 				"{image:ftbquests:textures/quests/cataclysm_netherite_monstrosity.png width:150 height:100 align:1}"
@@ -2808,12 +3312,18 @@
 					item: "ragnamod_seven:netherite_monstrosity_soul"
 				}
 			]
+			rewards: [{
+				id: "6A74AB41F3E1C1E8"
+				type: "item"
+				item: "ragnamod_seven:netherite_monstrosity_soul"
+			}]
 		}
 		{
 			title: "Witherite"
 			icon: "cataclysm:witherite_ingot"
 			x: 4.0d
 			y: 1.5d
+			shape: "square"
 			description: ["Here is the loot from the Netherite Monstrosity."]
 			dependencies: ["47D8E8B55FF99B6D"]
 			id: "0129563AD98630DF"
@@ -2840,11 +3350,18 @@
 					item: "cataclysm:witherite_ingot"
 				}
 			]
+			rewards: [{
+				id: "208B9DC587420CAA"
+				type: "item"
+				item: "cataclysm:witherite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: "ragnamod_seven:revenant_soul"
 			x: 5.0d
 			y: 1.5d
+			shape: "square"
 			description: [
 				"The Ignited Revenant is find in the Burning Arena, It's in this place you can fight also the Ignis."
 				"{image:ftbquests:textures/quests/cataclysm_ignited.png width:150 height:100 align:1}"
@@ -2864,10 +3381,16 @@
 					item: "ragnamod_seven:revenant_soul"
 				}
 			]
+			rewards: [{
+				id: "0DD055A4C92A5286"
+				type: "item"
+				item: "ragnamod_seven:revenant_soul"
+			}]
 		}
 		{
 			x: 5.5d
 			y: 2.5d
+			shape: "square"
 			description: ["The Ignited Revenant drop Burning Ashes."]
 			dependencies: ["798D0AE8EBF9261A"]
 			id: "5626BD70366E11F4"
@@ -2876,10 +3399,18 @@
 				type: "item"
 				item: "cataclysm:burning_ashes"
 			}]
+			rewards: [{
+				id: "38815B2AFF6AEE73"
+				type: "item"
+				item: "darkerdepths:ash"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			x: 6.5d
 			y: 1.5d
+			shape: "square"
 			description: ["Ignitium ingot is drop from the Ignis."]
 			dependencies: ["71E0554F5655BF9D"]
 			id: "174474928CDADF9D"
@@ -2888,11 +3419,18 @@
 				type: "item"
 				item: "cataclysm:ignitium_ingot"
 			}]
+			rewards: [{
+				id: "0E0D5EA5A835E818"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: "ragnamod_seven:ignis_soul"
 			x: 6.5d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"To summon the Ignis you need to use a Burning Ashes on the Altar Of Fire."
 				"{image:ftbquests:textures/quests/cataclysm_ignis.png width:150 height:100 align:1}"
@@ -2912,10 +3450,16 @@
 					item: "ragnamod_seven:ignis_soul"
 				}
 			]
+			rewards: [{
+				id: "2A4099688E2CFED7"
+				type: "item"
+				item: "ragnamod_seven:ignis_soul"
+			}]
 		}
 		{
 			x: 7.5d
 			y: 2.5d
+			shape: "square"
 			description: ["The Void Core is a drop from the Ender Golem."]
 			dependencies: ["7D8021B85F81245F"]
 			id: "2C5F566350C9FCAD"
@@ -2924,11 +3468,19 @@
 				type: "item"
 				item: "cataclysm:void_core"
 			}]
+			rewards: [{
+				id: "002FA35AE9A5DF37"
+				type: "item"
+				item: "cataclysm:void_stone"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			icon: "ragnamod_seven:ender_golem_soul"
 			x: 8.0d
 			y: 1.5d
+			shape: "square"
 			description: [
 				"The Ender Golem is found in the Ruined Citadel, in the End."
 				"{image:ftbquests:textures/quests/cataclysm_ender_golem.png width:150 height:100 align:1}"
@@ -2948,12 +3500,18 @@
 					item: "ragnamod_seven:ender_golem_soul"
 				}
 			]
+			rewards: [{
+				id: "4C030E0978D0EF00"
+				type: "item"
+				item: "ragnamod_seven:ender_golem_soul"
+			}]
 		}
 		{
 			title: "Enderite"
 			icon: "cataclysm:enderite_ingot"
 			x: 9.0d
 			y: 1.5d
+			shape: "square"
 			description: ["The Gauntlet Of Guard is drop from the Ender Guardian."]
 			dependencies: ["72D8DA800637B9A0"]
 			id: "0C06FD6FDBB829A9"
@@ -2969,11 +3527,18 @@
 					item: "cataclysm:enderite_ingot"
 				}
 			]
+			rewards: [{
+				id: "0E854A743F2CE664"
+				type: "item"
+				item: "cataclysm:enderite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: "ragnamod_seven:ender_guardian_soul"
 			x: 9.0d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"The Ender Guardian is found in the Ruined Citadel, in the End."
 				"{image:ftbquests:textures/quests/cataclysm_ender_guardian.png width:150 height:100 align:1}"
@@ -2993,6 +3558,11 @@
 					item: "ragnamod_seven:ender_guardian_soul"
 				}
 			]
+			rewards: [{
+				id: "7FDD6AB96888F79C"
+				type: "item"
+				item: "ragnamod_seven:ender_guardian_soul"
+			}]
 		}
 		{
 			title: "Functional Control"
@@ -3193,6 +3763,7 @@
 			icon: "torchmaster:megatorch"
 			x: -1.0d
 			y: -0.5d
+			shape: "square"
 			description: [
 				"The Mega Torch block the hostile spawn in a radius (cube) of 128 blocks."
 				"The Dread Lamp does the same but for passive mobs."
@@ -3211,6 +3782,12 @@
 					item: "torchmaster:dreadlamp"
 				}
 			]
+			rewards: [{
+				id: "19680ECBAEEDBA47"
+				type: "item"
+				item: "torchmaster:megatorch"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: {
@@ -3265,6 +3842,7 @@
 			title: "Upgrades"
 			x: -0.5d
 			y: 1.5d
+			shape: "square"
 			description: ["There are more upgrades but here is the most usefull in my opinion."]
 			dependencies: ["3D9CC8C29F834DBC"]
 			id: "64C4EF83CA2A48A2"
@@ -3290,6 +3868,12 @@
 					item: "mob_grinding_utils:saw_upgrade_sharpness"
 				}
 			]
+			rewards: [{
+				id: "0EC4F255E83DEF37"
+				type: "item"
+				item: "mob_grinding_utils:absorption_upgrade"
+				random_bonus: 5
+			}]
 		}
 		{
 			icon: {
@@ -3299,6 +3883,7 @@
 			}
 			x: -1.0d
 			y: -1.5d
+			shape: "square"
 			description: [
 				"The Tool Belt allows you to store your equipment in a radial menu that you can open with a key (r by default)."
 				""
@@ -3322,6 +3907,12 @@
 					item: "toolbelt:pouch"
 				}
 			]
+			rewards: [{
+				id: "3A74F6D87970519E"
+				type: "item"
+				item: "toolbelt:pouch"
+				random_bonus: 3
+			}]
 		}
 	]
 	quest_links: [ ]
