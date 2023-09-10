@@ -2,7 +2,7 @@
 #General settings
 [general]
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
-	dimensionBlacklist = ["undergarden:undergarden", "twilightforest:twilight_forest"]
+	dimensionBlacklist = ["undergarden:undergarden", "twilightforest:twilight_forest", "beyond_earth:earth_orbit", "beyond_earth:glacio", "beyond_earth:mars", "beyond_earth:mercury", "beyond_earth:moon", "beyond_earth:venus", "beyond_earth:glacio_orbit", "beyond_earth:mars_orbit", "beyond_earth:mercury_orbit", "beyond_earth:moon_orbit", "beyond_earth:venu_orbits"]
 	#Rate of tree spawn per chunk
 	#Range: > 0
 	treeWeight = 100

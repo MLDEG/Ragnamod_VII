@@ -1,6 +1,23 @@
 [
-    {
-        "mod": "chickens",
-        "result": "deny"
-    }
+  {
+    "mod": "chickens",
+    "result": "deny"
+  },
+  {
+    "mod": "creeperoverhaul",
+    "dimension": [
+      "beyond_earth:earth_orbit",
+      "beyond_earth:glacio",
+      "beyond_earth:mars",
+      "beyond_earth:mercury",
+      "beyond_earth:moon",
+      "beyond_earth:venus",
+      "beyond_earth:glacio_orbit",
+      "beyond_earth:mars_orbit",
+      "beyond_earth:mercury_orbit",
+      "beyond_earth:moon_orbit",
+      "beyond_earth:venu_orbits"
+    ],
+    "result": "deny"
+  }
 ]
