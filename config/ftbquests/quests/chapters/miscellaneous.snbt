@@ -181,6 +181,7 @@
 		{
 			x: -6.0d
 			y: -3.5d
+			shape: "square"
 			description: [
 				"You can use a dank like a bagpack to store, pickup stuff, and you can also use it to place block.Simply use the key bind to \"Construction Mode\" in your control (default \"i\")"
 				""
@@ -193,10 +194,17 @@
 				type: "item"
 				item: "dankstorage:dank_1"
 			}]
+			rewards: [{
+				id: "4723C657CECC1B6F"
+				type: "item"
+				item: "minecraft:coal"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -5.75d
 			y: -2.5d
+			shape: "square"
 			description: ["The dank 2 can store up to 1024 item and have 18 slots."]
 			dependencies: ["59BAC70CFBA8811F"]
 			id: "2317EF6D7592EDC6"
@@ -205,10 +213,17 @@
 				type: "item"
 				item: "dankstorage:dank_2"
 			}]
+			rewards: [{
+				id: "4D138E7B1B4DCE58"
+				type: "item"
+				item: "minecraft:redstone_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -6.0d
 			y: -1.5d
+			shape: "square"
 			description: ["The dank 3 can store up to 4096 item and have 27 slots."]
 			dependencies: ["2317EF6D7592EDC6"]
 			id: "7B1B4BB8E83181B0"
@@ -217,10 +232,17 @@
 				type: "item"
 				item: "dankstorage:dank_3"
 			}]
+			rewards: [{
+				id: "3E03C351B1F6F85F"
+				type: "item"
+				item: "minecraft:gold_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -5.75d
 			y: -0.5d
+			shape: "square"
 			description: ["The dank 4 can store up to 16384 item and have 36 slots."]
 			dependencies: ["7B1B4BB8E83181B0"]
 			id: "210B3504443B45BA"
@@ -229,10 +251,17 @@
 				type: "item"
 				item: "dankstorage:dank_4"
 			}]
+			rewards: [{
+				id: "7AD7452B4525DF99"
+				type: "item"
+				item: "minecraft:emerald_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -6.0d
 			y: 0.5d
+			shape: "square"
 			description: ["The dank 5 can store up to 65536 item and have 45 slots."]
 			dependencies: ["210B3504443B45BA"]
 			id: "3E885DC660C9F10B"
@@ -241,10 +270,17 @@
 				type: "item"
 				item: "dankstorage:dank_5"
 			}]
+			rewards: [{
+				id: "17DC857E0879A942"
+				type: "item"
+				item: "minecraft:diamond_block"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -5.75d
 			y: 1.5d
+			shape: "square"
 			description: ["The dank 6 can store up to 262144 item and have 54 slots."]
 			dependencies: ["3E885DC660C9F10B"]
 			id: "2D12BB615977C500"
@@ -253,10 +289,17 @@
 				type: "item"
 				item: "dankstorage:dank_6"
 			}]
+			rewards: [{
+				id: "21F0CB615EA74722"
+				type: "item"
+				item: "minecraft:obsidian"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -6.0d
 			y: 2.5d
+			shape: "square"
 			description: ["The dank 7 can store up to near infinite item and have 81 slots."]
 			dependencies: ["2D12BB615977C500"]
 			id: "6C58F245F608D715"
@@ -265,15 +308,27 @@
 				type: "item"
 				item: "dankstorage:dank_7"
 			}]
+			rewards: [{
+				id: "1EBD05CEC085C468"
+				type: "item"
+				item: "minecraft:nether_star"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -5.75d
 			y: -4.5d
+			shape: "square"
 			description: ["You can place the dock in world to interact with it, for example, with an external storage."]
 			dependencies: ["577D6202E19B2599"]
 			id: "178FE177270B3065"
 			tasks: [{
 				id: "7D4E5A3D905716F0"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			rewards: [{
+				id: "76589226C830D2CA"
 				type: "item"
 				item: "dankstorage:dock"
 			}]
@@ -602,6 +657,7 @@
 		{
 			x: -11.0d
 			y: -4.5d
+			shape: "square"
 			description: ["The Wooden Barrel works the same way as a barrel, you have the place of a classic barrel with an upgrade slot."]
 			dependencies: ["577D6202E19B2599"]
 			id: "1C896A52A86D60C9"
@@ -616,10 +672,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0C07A10408B845B3"
+				type: "item"
+				item: "minecraft:oak_log"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -11.0d
 			y: -3.5d
+			shape: "square"
 			description: ["The Iron Barrel have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["1C896A52A86D60C9"]
 			id: "3CA7C6E4B90E7E2F"
@@ -634,10 +697,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "193F4C7D5D1C0500"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -11.0d
 			y: -2.5d
+			shape: "square"
 			description: ["The Gold Barrel have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["3CA7C6E4B90E7E2F"]
 			id: "008A107C0932CD2A"
@@ -652,10 +722,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "010297B67E47317A"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -11.0d
 			y: -1.5d
+			shape: "square"
 			description: ["The Diamond Barrel have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["008A107C0932CD2A"]
 			id: "04DCA1D5DF2CC988"
@@ -670,10 +747,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6992AC999AB4E4EB"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -11.0d
 			y: -0.5d
+			shape: "square"
 			description: ["The Netherite Barrel have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["04DCA1D5DF2CC988"]
 			id: "59FC629EB4799552"
@@ -688,11 +772,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5B023F11F7E1099E"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			title: "Limited Barrel"
 			x: -11.0d
 			y: 0.5d
+			shape: "square"
 			description: ["The Limited Barrels work exactly the same as a Drawer, you can store one type of item in a single Limited Barrel, two in a Limited Barrel II etc..."]
 			dependencies: ["577D6202E19B2599"]
 			id: "75308F9FEE61E017"
@@ -742,10 +832,23 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6FD9E5A4DC9711A6"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:limited_barrel_1"
+					Count: 1b
+					tag: {
+						mainColor: 11546150
+						accentColor: 11546150
+					}
+				}
+			}]
 		}
 		{
 			x: -10.0d
 			y: -3.0d
+			shape: "square"
 			description: ["The Wooden Chest works the same way as a chest, you have the place of a classic barrel with an upgrade slot."]
 			dependencies: ["577D6202E19B2599"]
 			id: "1BA882F4CA682BAB"
@@ -760,10 +863,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0B507EA323CE8F04"
+				type: "item"
+				item: "minecraft:oak_log"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -10.0d
 			y: -2.0d
+			shape: "square"
 			description: ["The Iron chest have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["1BA882F4CA682BAB"]
 			id: "30C701AF99006157"
@@ -778,10 +888,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "68E98F027F89C191"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -10.0d
 			y: -1.0d
+			shape: "square"
 			description: ["The Gold Chest have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["30C701AF99006157"]
 			id: "4D369390E12BA60B"
@@ -796,10 +913,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F2EA450474AE642"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -10.0d
 			y: 0.0d
+			shape: "square"
 			description: ["The Diamond Chest have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["4D369390E12BA60B"]
 			id: "7ED79876EE4D0011"
@@ -814,10 +938,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "63DF713B584640AA"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -10.0d
 			y: 1.0d
+			shape: "square"
 			description: ["The Netherite Chest have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["7ED79876EE4D0011"]
 			id: "672189D3F78BFD00"
@@ -832,10 +963,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "08C0917773341CB2"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -9.0d
 			y: -3.5d
+			shape: "square"
 			description: ["The Shulker Box works the same way as a backpack, you have the place of a classic barrel with an upgrade slot."]
 			dependencies: ["577D6202E19B2599"]
 			id: "118BC2A083BED6DE"
@@ -844,10 +981,22 @@
 				type: "item"
 				item: "sophisticatedstorage:shulker_box"
 			}]
+			rewards: [{
+				id: "6F7E06651D9305FF"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:shulker_gate_small"
+					}
+				}
+			}]
 		}
 		{
 			x: -9.0d
 			y: -2.5d
+			shape: "square"
 			description: ["The Iron Shulker have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["118BC2A083BED6DE"]
 			id: "14233AF80B6A7FE4"
@@ -856,10 +1005,17 @@
 				type: "item"
 				item: "sophisticatedstorage:iron_shulker_box"
 			}]
+			rewards: [{
+				id: "09B14F067278EDF7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -9.0d
 			y: -1.5d
+			shape: "square"
 			description: ["The Gold Shulker have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["14233AF80B6A7FE4"]
 			id: "279F0BD79453ED79"
@@ -868,10 +1024,17 @@
 				type: "item"
 				item: "sophisticatedstorage:gold_shulker_box"
 			}]
+			rewards: [{
+				id: "7256727E24AB414C"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -9.0d
 			y: -0.5d
+			shape: "square"
 			description: ["The Diamond Shulker have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["279F0BD79453ED79"]
 			id: "14CEE4611690CC5B"
@@ -880,10 +1043,17 @@
 				type: "item"
 				item: "sophisticatedstorage:diamond_shulker_box"
 			}]
+			rewards: [{
+				id: "75EA92CDBF6E543E"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: -9.0d
 			y: 0.5d
+			shape: "square"
 			description: ["The Netherite Shulker have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["14CEE4611690CC5B"]
 			id: "45A412519D59BA1A"
@@ -892,15 +1062,32 @@
 				type: "item"
 				item: "sophisticatedstorage:netherite_shulker_box"
 			}]
+			rewards: [{
+				id: "75353210C830C2E6"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -11.0d
 			y: 1.5d
+			shape: "square"
 			description: ["The Packing tape allows you to tape your chests, barrels from Sophisticated Storage, to keep items inside your storage when you want to take it."]
 			dependencies: ["577D6202E19B2599"]
 			id: "2463484B9B0A7144"
 			tasks: [{
 				id: "55BB4C0E7F00F505"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:packing_tape"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "36321368B003F817"
 				type: "item"
 				item: {
 					id: "sophisticatedstorage:packing_tape"
@@ -1766,6 +1953,7 @@
 			icon: "enderstorage:ender_chest"
 			x: -7.5d
 			y: -3.5d
+			shape: "square"
 			description: [
 				"These chests and tank link together based on matching color patterns. All chests and tank with the same color buttons share an inventory."
 				"Ender bags can be color coded to access ender chests."
@@ -1791,6 +1979,11 @@
 					item: "enderstorage:ender_pouch"
 				}
 			]
+			rewards: [{
+				id: "299F333B9DD3C5F6"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
 		}
 		{
 			x: -2.5d
@@ -2211,6 +2404,7 @@
 			title: "Functional Storage"
 			x: -7.5d
 			y: -2.0d
+			shape: "square"
 			description: [
 				"Function Storage works like Storage Drawer, but it's more powerful, in my opinion."
 				""
@@ -2240,6 +2434,19 @@
 					id: "5BE4E46EFDC88641"
 					type: "item"
 					item: "functionalstorage:ender_drawer"
+				}
+			]
+			rewards: [
+				{
+					id: "3DA7535EBA8D8E5D"
+					type: "item"
+					item: "functionalstorage:ender_drawer"
+				}
+				{
+					id: "084F8884961D3942"
+					type: "item"
+					item: "functionalstorage:oak_1"
+					random_bonus: 7
 				}
 			]
 		}
@@ -2417,6 +2624,7 @@
 		{
 			x: -10.0d
 			y: 2.5d
+			shape: "square"
 			description: ["You can store 256000mb in the Iron Drum."]
 			dependencies: ["577D6202E19B2599"]
 			id: "2BAB39B9C800849F"
@@ -2425,10 +2633,17 @@
 				type: "item"
 				item: "miniutilities:iron_drum"
 			}]
+			rewards: [{
+				id: "64D11547A0F27BC1"
+				type: "item"
+				item: "minecraft:iron_block"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -9.0d
 			y: 2.5d
+			shape: "square"
 			description: ["You can store 4096000mb in the Reinforced Drum."]
 			dependencies: ["2BAB39B9C800849F"]
 			id: "215F85255D964EE5"
@@ -2437,10 +2652,17 @@
 				type: "item"
 				item: "miniutilities:reinforced_large_drum"
 			}]
+			rewards: [{
+				id: "35869F20BB49BD33"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -8.0d
 			y: 2.5d
+			shape: "square"
 			description: ["You can store 65536000mb in the Netherite Drum."]
 			dependencies: ["215F85255D964EE5"]
 			id: "03E2D45D274F9372"
@@ -2449,10 +2671,17 @@
 				type: "item"
 				item: "miniutilities:netherite_reinforced_drum"
 			}]
+			rewards: [{
+				id: "029651F734A88726"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -7.0d
 			y: 2.5d
+			shape: "square"
 			description: ["You can store an incredible amount of millibuckets in an Unstable Drum."]
 			dependencies: ["03E2D45D274F9372"]
 			id: "3F090233207036EA"
@@ -2460,6 +2689,12 @@
 				id: "348909436297B3B3"
 				type: "item"
 				item: "miniutilities:unstable_drum"
+			}]
+			rewards: [{
+				id: "28BA477E444F8DEC"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2763,6 +2998,7 @@
 			title: "Functional Control"
 			x: -7.5d
 			y: -1.0d
+			shape: "square"
 			description: [
 				"The Linking Tool is THE tool you need to properly connect all your drawer on your Controller, you can also, with it, set up your Ender Drawer."
 				""
@@ -2795,11 +3031,18 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "07B032F135BF9EF3"
+				type: "item"
+				item: "functionalstorage:oak_1"
+				random_bonus: 7
+			}]
 		}
 		{
 			title: "Special upgrades"
 			x: -7.5d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"Functional Storage as some upgrade for upgrading your content and voiding them, but that not it !"
 				""
@@ -2844,11 +3087,26 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "02C0F2DB69479DAF"
+					type: "item"
+					item: "functionalstorage:void_upgrade"
+					random_bonus: 4
+				}
+				{
+					id: "464F1D45611E59E6"
+					type: "item"
+					item: "functionalstorage:copper_upgrade"
+					random_bonus: 4
+				}
+			]
 		}
 		{
 			title: "Framed Drawer"
 			x: -7.5d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"The Frame Drawer is pretty fun to use, because you can custom your drawer like you want."
 				"{image:ftbquests:textures/quests/functional_drawer.png width:150 height:100 align:1}"
@@ -2860,6 +3118,76 @@
 				type: "item"
 				item: "functionalstorage:framed_1"
 			}]
+			rewards: [
+				{
+					id: "474A6DD3A72B9BBB"
+					type: "item"
+					item: {
+						id: "functionalstorage:framed_1"
+						Count: 1b
+						tag: {
+							Style: {
+								side: "architects_palette:entrails"
+								particle: "architects_palette:entrails"
+								front: "architects_palette:hadaline_lamp"
+								front_divider: "architects_palette:entrails"
+							}
+						}
+					}
+					random_bonus: 7
+				}
+				{
+					id: "0BC8DD0825558CC2"
+					type: "item"
+					item: {
+						id: "functionalstorage:framed_1"
+						Count: 1b
+						tag: {
+							Style: {
+								side: "architects_palette:osseous_pillar"
+								particle: "architects_palette:osseous_pillar"
+								front: "architects_palette:osseous_skull"
+								front_divider: "architects_palette:osseous_pillar"
+							}
+						}
+					}
+					random_bonus: 7
+				}
+				{
+					id: "277F3AB92325A0E3"
+					type: "item"
+					item: {
+						id: "functionalstorage:framed_1"
+						Count: 1b
+						tag: {
+							Style: {
+								side: "architects_palette:withered_osseous_pillar"
+								particle: "architects_palette:withered_osseous_pillar"
+								front: "architects_palette:withered_osseous_skull"
+								front_divider: "architects_palette:withered_osseous_pillar"
+							}
+						}
+					}
+					random_bonus: 7
+				}
+				{
+					id: "58C4A01B31447374"
+					type: "item"
+					item: {
+						id: "functionalstorage:framed_1"
+						Count: 1b
+						tag: {
+							Style: {
+								side: "minecraft:coal_block"
+								particle: "minecraft:coal_block"
+								front: "minecraft:calcite"
+								front_divider: "minecraft:coal_block"
+							}
+						}
+					}
+					random_bonus: 7
+				}
+			]
 		}
 		{
 			icon: "torchmaster:megatorch"
@@ -2894,6 +3222,7 @@
 			}
 			x: -11.0d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"The Storage Controller is, like his name said, a Controller.You can connect multiple inventory (chests, barrels, backpacks, etc...) with a Storage Link and a Storage Tool."
 				""
@@ -2925,6 +3254,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "01475E8195862CFD"
+				type: "item"
+				item: "sophisticatedstorage:storage_link"
+				random_bonus: 7
+			}]
 		}
 		{
 			title: "Upgrades"
