@@ -814,21 +814,6 @@
 					item: "occultism:tallow"
 				}
 			]
-			rewards: [
-				{
-					id: "0897E7C409C55D98"
-					type: "command"
-					title: "Farmer's Delight"
-					icon: "kubejs:farmers_delight"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/quest_farmers_delight"
-					player_command: false
-				}
-				{
-					id: "3ADE30653760D441"
-					type: "xp"
-					xp: 400
-				}
-			]
 		}
 		{
 			x: -8.0d
