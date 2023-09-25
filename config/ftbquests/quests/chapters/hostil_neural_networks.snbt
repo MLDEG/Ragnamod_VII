@@ -84,6 +84,7 @@
 						}
 					}
 				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -102,6 +103,7 @@
 						}
 					}
 				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -160,6 +162,7 @@
 						}
 					}
 				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -178,6 +181,7 @@
 						}
 					}
 				}
+				match_nbt: true
 			}]
 		}
 	]
