@@ -298,7 +298,14 @@ onEvent('jei.hide.items', event => {
 		'ironfurnaces:upgrade_iron2',
 		'ironfurnaces:upgrade_obsidian2',
 		'summoningrituals:indestructible_altar',
-		'beyond_earth:iron_stick'
+		'beyond_earth:iron_stick',
+		'ftbic:advanced_powered_furnace',
+		'ftbic:advanced_macerator',
+		'ftbic:advanced_centrifuge',
+		'ftbic:advanced_compressor',
+		'ftbic:teleporter',
+		'ftbic:powered_crafting_table',
+		'ironfurnaces:augment_xp'
 
 	])
 })

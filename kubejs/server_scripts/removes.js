@@ -584,6 +584,7 @@ onEvent('recipes', e => {
         'undergarden:blast_depthrock_iron_ore',
         'undergarden:blast_shiverstone_gold_ore',
         'undergarden:blast_shiverstone_iron_ore',
+        'ironfurnaces:augments/augment_xp'
 
 
 
