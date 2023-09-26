@@ -1,0 +1,12 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "minecraft:honeycomb"
+  },
+  "result": [
+    {
+      "fluid": "create:honey",
+      "amount": 100
+    }
+  ]
+}

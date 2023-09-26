@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "type": "minecraft:bee"
+  },
+  "result": {
+    "fluid": "create:honey",
+    "amount": 25
+  },
+  "damage": 2
+}

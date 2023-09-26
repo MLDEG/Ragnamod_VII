@@ -587,6 +587,7 @@ onEvent('recipes', e => {
         'ironfurnaces:augments/augment_xp',
         'ae2:blasting/silicon_from_certus_quartz_dust',
         'ae2:smelting/silicon_from_certus_quartz_dust',
+        'create:fill_minecraft_bucket_with_tconstruct_honey',
 
 
 

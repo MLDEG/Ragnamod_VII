@@ -1,5 +1,5 @@
-onEvent('jei.hide.items', event => {
-	event.hide([
+onEvent('jei.hide.items', e => {
+	e.hide([
 		/chickens:liquid_egg/,
 		/chickens:spawn_egg/,
 		/tconstruct:part_builder/,
@@ -311,8 +311,8 @@ onEvent('jei.hide.items', event => {
 	])
 })
 
-onEvent('jei.add.items', event => {
-	event.add([
+onEvent('jei.add.items', e => {
+	e.add([
 		Item.of('tconstruct:part_builder', '{texture:"minecraft:oak_planks"}'),
 		Item.of('tconstruct:tinker_station', '{texture:"minecraft:oak_planks"}'),
 		Item.of('tconstruct:crafting_station', '{texture:"minecraft:oak_log"}'),
@@ -345,6 +345,13 @@ onEvent('jei.add.items', event => {
 		'cataclysm:enderite_block'
 	])
 })
+
+onEvent('jei.hide.fluids', e => {
+	e.hide([
+		'cofh_core:honey',
+		'tconstruct:honey'
+	])
+  })
 
 onEvent('jei.remove.categories', e => {
 	// console.log(e.getCategoryIds())	

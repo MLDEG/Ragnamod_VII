@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "create:flowing_honey",
+    "create:honey"
+  ]
+}
