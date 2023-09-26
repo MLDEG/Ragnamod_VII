@@ -305,7 +305,8 @@ onEvent('jei.hide.items', event => {
 		'ftbic:advanced_compressor',
 		'ftbic:teleporter',
 		'ftbic:powered_crafting_table',
-		'ironfurnaces:augment_xp'
+		'ironfurnaces:augment_xp',
+		'ae2:silicon'
 
 	])
 })

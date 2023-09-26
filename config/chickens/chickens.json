@@ -732,10 +732,10 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "ae2:silicon"
+      "itemID": "ftbic:silicon"
     },
     "drop_item": {
-      "itemID": "ae2:silicon"
+      "itemID": "ftbic:silicon"
     },
     "spawn_type": "NONE",
     "parent_1": "",

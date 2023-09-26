@@ -577,6 +577,7 @@ onEvent('recipes', function (e) {
     ['#forge:coal_coke', 'immersiveengineering:coal_coke'].forEach(I => { replaceIO(I, 'thermal:coal_coke') });
     ['reliquary:bat_wing'].forEach(I => { replaceIO(I, 'forbidden_arcanus:bat_wing') });
     ['architects_palette:withered_bone', 'tconstruct:necrotic_bone'].forEach(I => { replaceIO(I, 'bhc:wither_bone') });
+    ['forge:silicon', 'ae2:silicon'].forEach(I => { replaceIO(I, 'ftbic:silicon') });
 
 
 })

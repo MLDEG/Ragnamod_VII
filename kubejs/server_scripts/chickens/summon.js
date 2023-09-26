@@ -103,7 +103,7 @@ onEvent('recipes', e => {
     summonChicken('tconstruct:queens_slime_ingot', 'tconstruct:queens_slime_block', 'queens_slime')
     summonChicken('tinkers_reforged:chorus_metal_ingot', 'tinkers_reforged:chorus_metal_block', 'chorus_metal')
     summonChicken('thermal:tin_ingot', 'thermal:tin_block', 'tin')
-    summonChicken('ae2:silicon', 'ae2:silicon', 'silicon')
+    summonChicken('ftbic:silicon', 'kubejs:silicon_block', 'silicon')
     summonChicken('mythicbotany:alfsteel_ingot', 'mythicbotany:alfsteel_block', 'alfsteel')
     summonChicken('minecraft:redstone', 'minecraft:redstone_block', 'redstone')
     summonChicken('tconstruct:manyullyn_ingot', 'tconstruct:manyullyn_block', 'manyullyn')

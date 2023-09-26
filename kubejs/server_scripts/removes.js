@@ -584,7 +584,9 @@ onEvent('recipes', e => {
         'undergarden:blast_depthrock_iron_ore',
         'undergarden:blast_shiverstone_gold_ore',
         'undergarden:blast_shiverstone_iron_ore',
-        'ironfurnaces:augments/augment_xp'
+        'ironfurnaces:augments/augment_xp',
+        'ae2:blasting/silicon_from_certus_quartz_dust',
+        'ae2:smelting/silicon_from_certus_quartz_dust',
 
 
 
