@@ -3768,7 +3768,7 @@
 			rewards: [{
 				id: "78680075A272275A"
 				type: "item"
-				item: "ae2:silicon"
+				item: "ftbic:silicon"
 				random_bonus: 63
 			}]
 		}
