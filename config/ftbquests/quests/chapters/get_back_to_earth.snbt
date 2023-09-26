@@ -305,7 +305,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["To get your Bottled Substance you need to right-click in the air with a Bottle and Cork"]
+			description: ["To get your Bottled Darkness you need to right-click in the air with a Bottle and Cork."]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "731DC23E85B1A666"
 			tasks: [{
@@ -315,7 +315,7 @@
 					id: "naturesaura:aura_bottle"
 					Count: 1b
 					tag: {
-						stored_type: "naturesaura:other"
+						stored_type: "naturesaura:end"
 					}
 				}
 			}]
