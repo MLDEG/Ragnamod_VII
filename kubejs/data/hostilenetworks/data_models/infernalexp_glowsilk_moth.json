@@ -1,0 +1,23 @@
+{
+  "type": "infernalexp:glowsilk_moth",
+  "name": "entity.infernalexp.glowsilk_moth",
+  "name_color": "0xe0ae63",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.infernalexp.glowsilk_moth",
+  "fabricator_drops": [
+    {
+      "item": "infernalexp:moth_dust",
+      "count": 8
+    }
+  ]
+}

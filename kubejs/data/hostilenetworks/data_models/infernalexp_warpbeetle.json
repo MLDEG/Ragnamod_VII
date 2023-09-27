@@ -1,0 +1,27 @@
+{
+  "type": "infernalexp:warpbeetle",
+  "name": "entity.infernalexp.warpbeetle",
+  "name_color": "0x62ca81",
+  "gui_scale": 1.4,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.infernalexp.warpbeetle",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:warped_fungus",
+      "count": 8
+    },
+    {
+      "item": "infernalexp:warped_fungus_cap",
+      "count": 2
+    }
+  ]
+}

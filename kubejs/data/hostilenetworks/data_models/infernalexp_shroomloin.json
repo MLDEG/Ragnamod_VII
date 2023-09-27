@@ -1,0 +1,27 @@
+{
+  "type": "infernalexp:shroomloin",
+  "name": "entity.infernalexp.shroomloin",
+  "name_color": "0xcb222e",
+  "gui_scale": 1.4,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.infernalexp.shroomloin",
+  "fabricator_drops": [
+    {
+      "item": "infernalexp:crimson_fungus_cap",
+      "count": 2
+    },
+    {
+      "item": "infernalexp:ascus_bomb",
+      "count": 1
+    }
+  ]
+}

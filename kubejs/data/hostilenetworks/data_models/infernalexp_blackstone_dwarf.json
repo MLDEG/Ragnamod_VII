@@ -1,0 +1,23 @@
+{
+  "type": "infernalexp:blackstone_dwarf",
+  "name": "entity.infernalexp.blackstone_dwarf",
+  "name_color": "0x18181a",
+  "gui_scale": 0.85,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.infernalexp.blackstone_dwarf",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:golden_apple",
+      "count": 4
+    }
+  ]
+}
