@@ -15,6 +15,14 @@
     {
       "item": "hostilenetworks:twilight_prediction",
       "slot": 3
+    },
+    {
+      "item": "hostilenetworks:blueskies_prediction",
+      "slot": 4
+    },
+    {
+      "item": "hostilenetworks:undergarden_prediction",
+      "slot": 5
     }
   ],
   "hephaestus_forge_item": "hostilenetworks:machine_frame",
