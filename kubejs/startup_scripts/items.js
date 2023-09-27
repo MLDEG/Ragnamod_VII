@@ -171,4 +171,7 @@ onEvent('item.registry', e => {
     e.create('solarflux:photovoltaic_cell_12').displayName('Photovoltaic Cell XII')
     e.create('solarflux:photovoltaic_cell_13').displayName('Photovoltaic Cell XIII')
 
+    e.create('hostilenetworks:blueskies_prediction').displayName('Generalized Blue Skies Prediction')
+    e.create('hostilenetworks:undergarden_prediction').displayName('Generalized Undergarden Prediction')
+
 })
