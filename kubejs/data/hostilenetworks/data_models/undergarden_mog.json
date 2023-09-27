@@ -1,0 +1,27 @@
+{
+  "type": "undergarden:mog",
+  "name": "entity.undergarden.mog",
+  "name_color": "0x728d27",
+  "gui_scale": 1.2,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:undergarden_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.undergarden.mog",
+  "fabricator_drops": [
+    {
+      "item": "undergarden:depthrock_pebble",
+      "count": 16
+    },
+    {
+      "item": "undergarden:mogmoss",
+      "count": 8
+    }
+  ]
+}

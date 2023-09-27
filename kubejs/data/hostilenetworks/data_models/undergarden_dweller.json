@@ -1,0 +1,27 @@
+{
+  "type": "undergarden:dweller",
+  "name": "entity.undergarden.dweller",
+  "name_color": "0xce8d65",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:undergarden_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.undergarden.dweller",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:leather",
+      "count": 16
+    },
+    {
+      "item": "undergarden:raw_dweller_meat",
+      "count": 8
+    }
+  ]
+}

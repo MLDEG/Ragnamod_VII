@@ -1,0 +1,23 @@
+{
+  "type": "undergarden:brute",
+  "name": "entity.undergarden.brute",
+  "name_color": "0x5b4e42",
+  "gui_scale": 0.85,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:undergarden_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.undergarden.brute",
+  "fabricator_drops": [
+    {
+      "item": "undergarden:brute_tusk",
+      "count": 4
+    }
+  ]
+}
