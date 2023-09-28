@@ -1,0 +1,27 @@
+{
+  "type": "blue_skies:azulfo",
+  "name": "entity.blue_skies.azulfo",
+  "name_color": "0x415d7f",
+  "gui_scale": 0.85,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.azulfo",
+  "fabricator_drops": [
+    {
+      "item": "blue_skies:azulfo_horn",
+      "count": 4
+    },
+    {
+      "item": "blue_skies:carabeef",
+      "count": 8
+    }
+  ]
+}

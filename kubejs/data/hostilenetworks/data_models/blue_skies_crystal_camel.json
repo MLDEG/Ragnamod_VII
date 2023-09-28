@@ -1,0 +1,27 @@
+{
+  "type": "blue_skies:crystal_camel",
+  "name": "entity.blue_skies.crystal_camel",
+  "name_color": "0x838f9d",
+  "gui_scale": 0.85,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.crystal_camel",
+  "fabricator_drops": [
+    {
+      "item": "blue_skies:vitreous_moonstone",
+      "count": 8
+    },
+    {
+      "item": "minecraft:bone",
+      "count": 16
+    }
+  ]
+}

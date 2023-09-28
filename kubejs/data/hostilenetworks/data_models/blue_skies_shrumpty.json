@@ -1,0 +1,23 @@
+{
+  "type": "blue_skies:shrumpty",
+  "name": "entity.blue_skies.shrumpty",
+  "name_color": "0x68b5d7",
+  "gui_scale": 1.5,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.shrumpty",
+  "fabricator_drops": [
+    {
+      "item": "blue_skies:snowcap_pinhead",
+      "count": 8
+    }
+  ]
+}

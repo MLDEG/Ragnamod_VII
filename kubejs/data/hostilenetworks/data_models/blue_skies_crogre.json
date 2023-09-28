@@ -1,0 +1,23 @@
+{
+  "type": "blue_skies:crogre",
+  "name": "entity.blue_skies.crogre",
+  "name_color": "0x9a957a",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.crogre",
+  "fabricator_drops": [
+    {
+      "item": "blue_skies:bug_guts",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "blue_skies:firefly",
+  "name": "entity.blue_skies.firefly",
+  "name_color": "0xb54026",
+  "gui_scale": 1.5,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.firefly",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "blue_skies:snow_owl",
+  "name": "entity.blue_skies.snow_owl",
+  "name_color": "0xc9deeb",
+  "gui_scale": 1.5,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.snow_owl",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:feather",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "blue_skies:diophyde_prowler",
+  "name": "entity.blue_skies.diophyde_prowler",
+  "name_color": "0x26916a",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.diophyde_prowler",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:leather",
+      "count": 16
+    },
+    {
+      "item": "blue_skies:municipal_monkfish",
+      "count": 8
+    }
+  ]
+}

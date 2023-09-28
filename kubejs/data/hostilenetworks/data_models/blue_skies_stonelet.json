@@ -1,0 +1,27 @@
+{
+  "type": "blue_skies:stonelet",
+  "name": "entity.blue_skies.stonelet",
+  "name_color": "0x388462",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 160,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blueskies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blue_skies.stonelet",
+  "fabricator_drops": [
+    {
+      "item": "blue_skies:nature_stone",
+      "count": 8
+    },
+    {
+      "item": "blue_skies:starlit_vine",
+      "count": 4
+    }
+  ]
+}
