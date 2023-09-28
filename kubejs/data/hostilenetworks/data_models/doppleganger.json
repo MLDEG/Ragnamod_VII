@@ -1,0 +1,35 @@
+{
+  "type": "botania:doppleganger",
+  "name": "entity.botania.doppleganger",
+  "name_color": "0xedb2c7",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 5120,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.botania.doppleganger",
+  "fabricator_drops": [
+    {
+      "item": "botania:life_essence",
+      "count": 4
+    },
+    {
+      "item": "botania:black_lotus",
+      "count": 6
+    },
+    {
+      "item": "botania:blacker_lotus",
+      "count": 1
+    },
+    {
+      "item": "botania:overgrowth_seed",
+      "count": 1
+    }
+  ]
+}
