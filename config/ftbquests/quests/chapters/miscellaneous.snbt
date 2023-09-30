@@ -379,6 +379,7 @@
 		{
 			x: -3.0d
 			y: 6.5d
+			shape: "square"
 			description: [
 				"This basic backpack have 27 slots to store things and have 1 upgrade slot."
 				"You can dye your backpack the same way you can dye a leather armor."
@@ -404,10 +405,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7C5B30506A883B25"
+				type: "item"
+				item: "quark:bonded_leather"
+			}]
 		}
 		{
 			x: -2.0d
 			y: 6.5d
+			shape: "square"
 			description: ["The Iron Backpack have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["269D21923CB857A7"]
 			id: "5378CA948429B7B3"
@@ -429,10 +436,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2DC49CD41F0599F6"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -1.0d
 			y: 6.5d
+			shape: "square"
 			description: ["The Gold Backpack have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["5378CA948429B7B3"]
 			id: "71FDCBC2A8D9BD0E"
@@ -454,10 +468,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "72234907C968BB5C"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 0.0d
 			y: 6.5d
+			shape: "square"
 			description: ["The Diamond Backpack have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["71FDCBC2A8D9BD0E"]
 			id: "65E3040EFE9F7C72"
@@ -479,10 +500,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3729D906F9A23DF3"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 1.0d
 			y: 6.5d
+			shape: "square"
 			description: ["The Netherite Backpack have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["65E3040EFE9F7C72"]
 			id: "083C4D3950305289"
@@ -503,6 +531,13 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "1CCF7CB2AB95FFFD"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -554,6 +589,7 @@
 		{
 			x: -5.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Iron Furnace use 160 ticks to smelt something."]
 			dependencies: ["61F78EE2BCF65B54"]
 			id: "3354A2490DC664E7"
@@ -562,10 +598,17 @@
 				type: "item"
 				item: "ironfurnaces:iron_furnace"
 			}]
+			rewards: [{
+				id: "145D2BDE84EF3DFB"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -4.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Silver Furnace use 140 ticks to smelt something."]
 			dependencies: ["3354A2490DC664E7"]
 			id: "0BFEA039B42AF17A"
@@ -574,10 +617,17 @@
 				type: "item"
 				item: "ironfurnaces:silver_furnace"
 			}]
+			rewards: [{
+				id: "6A48A547F9AC5726"
+				type: "item"
+				item: "thermal:silver_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -6.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Copper Furnace use 180 ticks to smelt something."]
 			dependencies: ["577D6202E19B2599"]
 			id: "61F78EE2BCF65B54"
@@ -586,10 +636,17 @@
 				type: "item"
 				item: "ironfurnaces:copper_furnace"
 			}]
+			rewards: [{
+				id: "2228DE0B9EA69FC7"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -3.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Gold Furnace use 120 ticks to smelt something."]
 			dependencies: ["0BFEA039B42AF17A"]
 			id: "1794B0912FC32133"
@@ -598,10 +655,17 @@
 				type: "item"
 				item: "ironfurnaces:gold_furnace"
 			}]
+			rewards: [{
+				id: "282F728E055A2F6D"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Diamond Furnace use 80 ticks to smelt something."]
 			dependencies: ["1794B0912FC32133"]
 			id: "38F21B6D8A3F4500"
@@ -610,10 +674,17 @@
 				type: "item"
 				item: "ironfurnaces:diamond_furnace"
 			}]
+			rewards: [{
+				id: "6F0E76A172D46765"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 0.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Emerald Furnace use 40 ticks to smelt something."]
 			dependencies: ["38F21B6D8A3F4500"]
 			id: "4879AC817FF297B3"
@@ -622,10 +693,17 @@
 				type: "item"
 				item: "ironfurnaces:emerald_furnace"
 			}]
+			rewards: [{
+				id: "3796A3433E1E42B5"
+				type: "item"
+				item: "minecraft:emerald"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 1.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Obsidian Furnace use 20 ticks to smelt something."]
 			dependencies: [
 				"5BF2042F87D0C6BD"
@@ -638,10 +716,17 @@
 				type: "item"
 				item: "ironfurnaces:obsidian_furnace"
 			}]
+			rewards: [{
+				id: "680E7DF1B0148C29"
+				type: "item"
+				item: "minecraft:obsidian"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -1.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Crystal Furnace use 40 ticks to smelt something."]
 			dependencies: ["38F21B6D8A3F4500"]
 			id: "5BF2042F87D0C6BD"
@@ -650,10 +735,17 @@
 				type: "item"
 				item: "ironfurnaces:crystal_furnace"
 			}]
+			rewards: [{
+				id: "62183D2DE1058DBA"
+				type: "item"
+				item: "minecraft:tinted_glass"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 2.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Netherite Furnace use 5 ticks to smelt something."]
 			dependencies: ["09A85D028D01FE97"]
 			id: "5A0B2E850F12BCB8"
@@ -662,10 +754,17 @@
 				type: "item"
 				item: "ironfurnaces:netherite_furnace"
 			}]
+			rewards: [{
+				id: "3E7EF621246D6F88"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 3.0d
 			y: 8.5d
+			shape: "square"
 			description: ["The Rainbow Furnace use 20 ticks to smelt something, but smelt an entire stack."]
 			dependencies: [
 				"61F78EE2BCF65B54"
@@ -698,11 +797,17 @@
 					item: "ironfurnaces:item_linker"
 				}
 			]
+			rewards: [{
+				id: "3A97D134F38BBE05"
+				type: "item"
+				item: "quark:rainbow_rune"
+			}]
 		}
 		{
 			title: "Wireless Heat"
 			x: 4.0d
 			y: 8.5d
+			shape: "square"
 			description: ["You can smelt with RF using a Heat Transmitter and Receiver."]
 			dependencies: ["61F78EE2BCF65B54"]
 			id: "6DABD2C542566176"
@@ -718,6 +823,11 @@
 					item: "ironfurnaces:heater"
 				}
 			]
+			rewards: [{
+				id: "532D16945E30180F"
+				type: "item"
+				item: "ironfurnaces:item_heater"
+			}]
 		}
 		{
 			x: -11.0d
@@ -1357,6 +1467,7 @@
 		{
 			x: -2.5d
 			y: 7.5d
+			shape: "square"
 			description: [
 				"The Tinker Station is your first station who you can build your basic weapons and tools."
 				""
@@ -1401,6 +1512,13 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "545EA453A1F6946A"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			icon: {
@@ -1481,6 +1599,7 @@
 		{
 			x: 2.5d
 			y: 7.0d
+			shape: "square"
 			description: [
 				"This item allows you to accelerate the rate at which blocks tick."
 				"It passively collects time while in your inventory which you can consume by right clicking a block with it."
@@ -1495,6 +1614,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "4B2B8098B52771C5"
+				type: "item"
+				item: "apotheosis:epic_material"
+				random_bonus: 15
 			}]
 		}
 		{
@@ -1856,6 +1981,7 @@
 		{
 			x: -1.5d
 			y: 7.5d
+			shape: "square"
 			description: [
 				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocs."
 				"Just put your Melter on top of your Heater."
@@ -1874,10 +2000,18 @@
 					item: "tconstruct:seared_melter"
 				}
 			]
+			rewards: [{
+				id: "141B6861D2147BFB"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 8
+				random_bonus: 24
+			}]
 		}
 		{
 			x: -0.5d
 			y: 7.5d
+			shape: "square"
 			description: ["To extract the melted stuff you have made in your tiny smeltery, you need a faucet and at least a Casting Basin."]
 			dependencies: ["577D6202E19B2599"]
 			id: "49DF699C7ABC10F2"
@@ -1899,10 +2033,16 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "2BF6AB7696042C76"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
 		}
 		{
 			x: 0.5d
 			y: 7.5d
+			shape: "square"
 			description: [
 				"It's time to make a bigger smelter, right ? With your tiny smelter, pour some molten copper in a casting basin with a Seared Heater in it to get a Smeltery Controller."
 				"A Seared Drain is what you need to put in and out your melted stuff."
@@ -1969,6 +2109,13 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "10CE9FF327EF5D37"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 16
+				random_bonus: 32
+			}]
 		}
 		{
 			x: 7.5d
@@ -2976,6 +3123,7 @@
 		{
 			x: 4.0d
 			y: 5.5d
+			shape: "square"
 			description: ["Here are some Cards to play with your Laser Nodes."]
 			dependencies: ["13D80F7212A60AA6"]
 			id: "2C8B1F0DE7322D32"
@@ -3019,6 +3167,7 @@
 		{
 			x: 3.0d
 			y: 5.0d
+			shape: "square"
 			description: ["Laser Wrench can connect Laser Node to each other to form a network of Nodes."]
 			dependencies: ["577D6202E19B2599"]
 			id: "06B022181A43AF7A"
@@ -3027,11 +3176,19 @@
 				type: "item"
 				item: "laserio:laser_wrench"
 			}]
+			rewards: [{
+				id: "205628D905205327"
+				type: "item"
+				item: "laserio:logic_chip"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			icon: "laserio:laser_node"
 			x: 4.0d
 			y: 4.5d
+			shape: "square"
 			description: [
 				"A Laser Node can connect to another Laser Node from 8 blocks."
 				"The Laser Connector can increase the range of your network."
@@ -3050,10 +3207,17 @@
 					item: "laserio:laser_connector"
 				}
 			]
+			rewards: [{
+				id: "695913033ED53004"
+				type: "item"
+				item: "laserio:laser_node"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 4.0d
 			y: 6.5d
+			shape: "square"
 			description: ["Overclockers can overclock your Laser Nodes and your cards."]
 			dependencies: ["13D80F7212A60AA6"]
 			id: "2F2E0A3803ABA25C"
@@ -3069,6 +3233,13 @@
 					item: "laserio:overclocker_card"
 				}
 			]
+			rewards: [{
+				id: "3436A2BCE0F087F7"
+				type: "item"
+				item: "laserio:overclocker_card"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: 6.5d
@@ -3095,6 +3266,7 @@
 		{
 			x: -4.5d
 			y: 7.0d
+			shape: "square"
 			description: ["Classic angel ring, you can fly like creative !"]
 			dependencies: ["577D6202E19B2599"]
 			id: "483B83B5CDF55541"
@@ -3102,6 +3274,12 @@
 				id: "1AAE2838B38EB135"
 				type: "item"
 				item: "miniutilities:angel_ring"
+			}]
+			rewards: [{
+				id: "60F8C09028D2731F"
+				type: "item"
+				item: "architects_palette:unobtanium"
+				random_bonus: 7
 			}]
 		}
 		{
