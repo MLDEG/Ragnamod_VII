@@ -588,6 +588,11 @@ onEvent('recipes', e => {
         'ae2:blasting/silicon_from_certus_quartz_dust',
         'ae2:smelting/silicon_from_certus_quartz_dust',
         'create:fill_minecraft_bucket_with_tconstruct_honey',
+		'miniutilities:gold_angel_ring',
+		'miniutilities:ender_dragon_angel_ring',
+		'miniutilities:feather_angel_ring',
+		'miniutilities:bat_angel_ring',
+		'miniutilities:peacock_angel_ring'
 
 
 

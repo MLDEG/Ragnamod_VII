@@ -306,7 +306,12 @@ onEvent('jei.hide.items', e => {
 		'ftbic:teleporter',
 		'ftbic:powered_crafting_table',
 		'ironfurnaces:augment_xp',
-		'ae2:silicon'
+		'ae2:silicon',
+		'miniutilities:gold_angel_ring',
+		'miniutilities:ender_dragon_angel_ring',
+		'miniutilities:feather_angel_ring',
+		'miniutilities:bat_angel_ring',
+		'miniutilities:peacock_angel_ring'
 
 	])
 })
