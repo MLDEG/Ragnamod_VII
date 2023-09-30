@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "beyond_earth:desh_ingot"
+    },
+    "B": {
+      "item": "architects_palette:unobtanium"
+    },
+    "C": {
+      "item": "apotheosis:superior_sigil_of_socketing"
+    },
+    "D": {
+      "item": "ars_nouveau:air_essence"
+    }
+  },
+  "pattern": ["AAA", "BCB", "ADA"],
+  "result": {
+    "item": "miniutilities:angel_ring"
+  }
+}

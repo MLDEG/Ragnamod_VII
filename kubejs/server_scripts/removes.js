@@ -592,7 +592,8 @@ onEvent('recipes', e => {
 		'miniutilities:ender_dragon_angel_ring',
 		'miniutilities:feather_angel_ring',
 		'miniutilities:bat_angel_ring',
-		'miniutilities:peacock_angel_ring'
+		'miniutilities:peacock_angel_ring',
+		'miniutilities:angel_ring_crafting',
 
 
 
