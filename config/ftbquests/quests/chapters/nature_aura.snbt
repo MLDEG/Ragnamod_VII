@@ -10,7 +10,8 @@
 	quests: [
 		{
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
+			shape: "square"
 			description: [
 				"Use Brilliant Fiber on leaves."
 				"Then wait a few minutes until you get fully golden leaves."
@@ -18,6 +19,7 @@
 				"You can see that the conversion is complete when the foliage emits small particles."
 			]
 			dependencies: ["03F04C5F7BAED6A3"]
+			size: 1.5d
 			id: "6C96FE0695C6B11E"
 			tasks: [{
 				id: "0B3E4459E640F9BA"
@@ -35,6 +37,7 @@
 			icon: "naturesaura:gold_leaf"
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
 			description: ["When you break Golden Leaves, you may get a Gold Leaf that you can then turn into powder."]
 			dependencies: ["6C96FE0695C6B11E"]
 			id: "21BC6CA6EEB95BC6"
@@ -61,6 +64,7 @@
 			icon: "naturesaura:nature_altar"
 			x: -1.0d
 			y: 2.0d
+			shape: "square"
 			description: [
 				"You can use the Book of Natural Aura to visualize the multiblock with ghost blocks, or you can reproduce it according to the following picture:"
 				"{image:ftbquests:textures/quests/natureaura_natural_altar.png width:150 height:100 align:1}"
@@ -109,6 +113,7 @@
 		{
 			x: 0.0d
 			y: 4.0d
+			shape: "square"
 			description: [
 				"Bottle and Cork are used to get different bottles."
 				""
@@ -180,6 +185,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			shape: "square"
 			description: [
 				"To get an Infused Iron Ingot, use an Iron Ingot in the Natural Altar."
 				"This ingot is used to make tools, aura cache and other stuff."
@@ -201,6 +207,7 @@
 		{
 			x: -2.0d
 			y: 1.0d
+			shape: "square"
 			description: ["Transform a Gold Ingot in a Crimson Altar to obtain the Tainted Gold Ingot."]
 			dependencies: ["7C8755271F338DCB"]
 			id: "691F0E989EEE474C"
@@ -219,6 +226,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
+			shape: "square"
 			description: ["Use the Offering Table to get this ingot."]
 			dependencies: ["72BB33D21B770DCE"]
 			id: "27DA3EEF9DF78B7A"
@@ -237,6 +245,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
+			shape: "square"
 			description: ["The Environmental Eye allows you to see the amount of aura in the chunk you are in."]
 			dependencies: ["118CF1B7418B3CC4"]
 			id: "25EF9CEF662A2F45"
@@ -255,6 +264,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
+			shape: "square"
 			description: ["This upgrade allows you to see more than the aura in the chunk: you can see the positive and negative effects as well."]
 			dependencies: ["25EF9CEF662A2F45"]
 			id: "0FA9880BDFC97633"
@@ -273,6 +283,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
+			shape: "square"
 			description: ["Use the Ritual of the Forest to get the Token of Joy."]
 			dependencies: ["118CF1B7418B3CC4"]
 			id: "68383BED1EA06D9F"
@@ -280,11 +291,13 @@
 				id: "6D0DCE436BA87093"
 				type: "item"
 				item: "naturesaura:token_joy"
+				count: 2L
 			}]
 			rewards: [{
 				id: "6459B188F5A7255E"
 				type: "item"
 				item: "naturesaura:token_joy"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -292,6 +305,7 @@
 			icon: "naturesaura:moss_generator"
 			x: 0.0d
 			y: 2.0d
+			shape: "square"
 			description: [
 				"Swamp Homi absorbs moss from blocks (like Mossy Cobblestone) to turn it into aura in the chunk."
 				""
@@ -321,10 +335,18 @@
 					item: "naturesaura:moss_generator"
 				}
 			]
+			rewards: [{
+				id: "2AAD1D521B5CEF03"
+				type: "item"
+				item: "minecraft:mossy_cobblestone"
+				count: 8
+				random_bonus: 16
+			}]
 		}
 		{
 			x: 1.0d
 			y: 2.0d
+			shape: "square"
 			description: [
 				"Leaves of trees grown from Ancient Saplings are used to generate aura in the chunk."
 				""
@@ -336,11 +358,19 @@
 				id: "7B82ECF64ED9FB64"
 				type: "item"
 				item: "naturesaura:ancient_sapling"
+				count: 2L
+			}]
+			rewards: [{
+				id: "274C81A718BCB9D3"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+				random_bonus: 7
 			}]
 		}
 		{
 			x: -1.0d
 			y: 4.0d
+			shape: "square"
 			description: [
 				"Aura Cache is used to store Aura on you."
 				"Simply place your Aura Cache on the Ritual Altar to charge it."
@@ -367,6 +397,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
+			shape: "square"
 			description: ["The Aura Trove is just a bigger version of the Aura Cache."]
 			dependencies: ["237C80E9ED2EF157"]
 			id: "7504ADD9756D5D39"
@@ -386,6 +417,7 @@
 			title: "Powders from the skies"
 			x: 1.0d
 			y: 4.0d
+			shape: "square"
 			description: [
 				"Use the Ritual of the Forest with the ingots of the skies to get their powders."
 				""
@@ -434,6 +466,7 @@
 			title: "Catalysts"
 			x: -2.0d
 			y: 2.0d
+			shape: "square"
 			description: ["Catalysts are used to craft several items in the Natural or Crimson Altar!"]
 			dependencies: ["27A25E88696A2CE0"]
 			id: "0BE8AC98FA9A5F89"
@@ -449,10 +482,17 @@
 					item: "naturesaura:conversion_catalyst"
 				}
 			]
+			rewards: [{
+				id: "146CA9752BFE785A"
+				type: "item"
+				item: "minecraft:dragon_breath"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 1.0d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"To get some Spirit of Birthing you need to breed animals in a chunk with an excess of Aura !"
 				"You have a chance of getting Spirit of Birthing that way."
@@ -475,6 +515,7 @@
 			icon: "naturesaura:animal_spawner"
 			x: 2.0d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"This altar allows you to summon mobs. For example, by using the Spirit of Birthing, Raw Beef and Leather you can summon a Cow, with a little bit of aura around."
 				"{image:ftbquests:textures/quests/natureaura_altar_of_birthing.png width:150 height:100 align:1}"
@@ -516,6 +557,7 @@
 		{
 			x: -2.0d
 			y: 3.0d
+			shape: "square"
 			description: ["You can transform a stone block into infused rock using the Natural Altar."]
 			dependencies: ["27A25E88696A2CE0"]
 			id: "0BDC79CB920BA817"
@@ -543,6 +585,7 @@
 			icon: "naturesaura:nature_altar"
 			x: -1.0d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"You can use the guide book to see the multiblock with ghost blocks, or you can reproduce the multiblock via the following image."
 				"{image:ftbquests:textures/quests/natureaura_crimson_altar.png width:150 height:100 align:1}"
@@ -593,6 +636,7 @@
 			icon: "naturesaura:wood_stand"
 			x: 0.0d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"The Ritual of the Forest allows you to perform rituals by absorbing the power of a growing tree!"
 				"{image:ftbquests:textures/quests/natureaura_ritual_of_the_forest.png width:150 height:100 align:1}"
@@ -634,6 +678,7 @@
 			icon: "naturesaura:offering_table"
 			x: 1.0d
 			y: 3.0d
+			shape: "square"
 			description: [
 				"The offering table allows you to appeal to the gods, with a spirit of calling, to obtain new powerful items!"
 				"{image:ftbquests:textures/quests/natureaura_offering_table.png width:150 height:100 align:1}"
