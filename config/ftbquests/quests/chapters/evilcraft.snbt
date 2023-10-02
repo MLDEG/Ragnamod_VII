@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 9
 	filename: "evilcraft"
-	title: "EvilCraft"
+	title: " EvilCraft"
 	icon: "evilcraft:condensed_blood"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,66 +11,135 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
+			description: ["Find Dark Ore underground."]
+			dependencies: ["48D9C1D7730F18CD"]
 			id: "1577635AA4E66A66"
 			tasks: [{
 				id: "43074C8E71841251"
 				type: "item"
 				item: "evilcraft:dark_gem"
 			}]
+			rewards: [{
+				id: "30E9CBAACA926440"
+				type: "item"
+				item: "evilcraft:dark_gem"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: 0.0d
+			y: -1.0d
+			shape: "square"
+			description: ["Just craft a darkened apple, but NOT EAT IT !"]
+			dependencies: ["1577635AA4E66A66"]
 			id: "1D654C0A3871B157"
 			tasks: [{
 				id: "2EDC157D50D5005E"
 				type: "item"
 				item: "evilcraft:darkened_apple"
 			}]
+			rewards: [{
+				id: "7099BF3B62A57CD1"
+				type: "item"
+				item: "evilcraft:dark_gem"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: -1.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Origins of Darkness book is the guide to learning how to play with Evil Craft."
+				""
+				"To obtain this book, you must feed an animal a Darkened Apple then throw a book where the mob died."
+			]
+			dependencies: ["1D654C0A3871B157"]
 			id: "47708A85225B918A"
 			tasks: [{
 				id: "47C2AABB81F9239B"
 				type: "item"
 				item: "evilcraft:origins_of_darkness"
 			}]
+			rewards: [{
+				id: "2451A9912194445E"
+				type: "item"
+				item: "evilcraft:dark_gem"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: -1.0d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"The Vendeance Ring is useful for being able to see the Vengeance Spirits that can spawn when you kill a mob."
+				""
+				"Be careful, however, because when the ring is activated you attract more spiritualist vengeance than normal."
+			]
+			dependencies: ["1577635AA4E66A66"]
 			id: "4F8B08C502230A0F"
 			tasks: [{
 				id: "1E2AB1E95ED99DD4"
 				type: "item"
 				item: "evilcraft:vengeance_ring"
 			}]
+			rewards: [{
+				id: "44D516656A444DDB"
+				type: "item"
+				item: "beyond_earth:ostrum_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: -2.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"The Vengeance Focus is used to freeze Cengeance Spirit."
+				""
+				"It's useful if you need to capture a spirit in a Box of Eternal Closure."
+			]
+			dependencies: ["4F8B08C502230A0F"]
 			id: "44167CB3A1DDA560"
 			tasks: [{
 				id: "68B826431CD3909C"
 				type: "item"
 				item: "evilcraft:vengeance_focus"
 			}]
+			rewards: [{
+				id: "290A9C42D996F39F"
+				type: "item"
+				item: "evilcraft:dark_gem_crushed"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 5.0d
+			x: -2.0d
 			y: 0.0d
+			shape: "square"
+			description: ["The Piercing Vengeance Focus is used to deal damage to Spirit and get Essence."]
+			dependencies: ["44167CB3A1DDA560"]
 			id: "5BDC7CBB07E7230D"
 			tasks: [{
 				id: "496A95B2737A90E2"
 				type: "item"
 				item: "evilcraft:piercing_vengeance_focus"
 			}]
+			rewards: [{
+				id: "69CADD98C1846909"
+				type: "item"
+				item: "minecraft:end_crystal"
+				count: 4
+			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Blood Infuser can transform an item into another item using blood."]
+			dependencies: ["562FF1F6F3713850"]
 			id: "7DA9A918079760B1"
 			tasks: [{
 				id: "55592CC1CF207782"
@@ -94,70 +163,170 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "15D9EE9A4E907EBC"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 2.5d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"The Sanguinary Environmental Accumulator requires blood to function."
+				"When placed in the world you can see 8 smoke particles around, this is where you should place the blood tank."
+				"{image:ftbquests:textures/quests/evilcraft_sanguinary_setup.png width:150 height:100 align:1}"
+				"You can place any kind of tank, even Ender Tank."
+			]
+			dependencies: ["249D4E899B6A93B0"]
 			id: "3DD4AC2306FA9462"
 			tasks: [{
 				id: "0921E16731DF7B53"
 				type: "item"
 				item: "evilcraft:sanguinary_environmental_accumulator"
 			}]
+			rewards: [{
+				id: "5FEABD83E9B60116"
+				type: "item"
+				item: {
+					id: "evilcraft:dark_tank"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 16000
+						}
+						capacity: 16000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "evilcraft:blood"
+							Amount: 16000
+							capacity: 16000
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 2.5d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"The Environmental Accumulation Core is used to craft the Sanguinary Environmental Accumulator."
+				"You need to break the Environmental Accumulator in the Dark Temple like the screen below."
+				"{image:ftbquests:textures/quests/evilcraft_dark_temple.png width:150 height:100 align:1}"
+				"In the first place, the Environmental Accumulator is used to capture the weather in a Weather Container by throwing the bottle in the beam."
+			]
+			dependencies: ["48D9C1D7730F18CD"]
 			id: "249D4E899B6A93B0"
 			tasks: [{
 				id: "7E88F28F0CFFA014"
 				type: "item"
 				item: "evilcraft:environmental_accumulation_core"
 			}]
+			rewards: [{
+				id: "51CF5623DC568D09"
+				type: "item"
+				item: "evilcraft:bloody_cobblestone"
+				count: 8
+				random_bonus: 24
+			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 6.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"The Sceptre of Thunder is a single-used item, it can summon a thunder."
+				"Useful for crafting Weather Container \"Thunderstruck\"."
+			]
+			dependencies: ["11A9C8B93702BC82"]
 			id: "2498E11E6FA06B0F"
 			tasks: [{
 				id: "7A2AB4CD3F31453A"
 				type: "item"
 				item: "evilcraft:sceptre_of_thunder"
 			}]
+			rewards: [{
+				id: "4147B23B4D57E40D"
+				type: "item"
+				item: "evilcraft:blood_orb_filled"
+			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: -1.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Use some Crushed Dark Gem and combined it with a Vengeance Essence to get a Materialized Vengeance Essence."]
+			dependencies: ["7DB61268194A5D7E"]
 			id: "1505DA74A50CCFF1"
 			tasks: [{
 				id: "634E7380B33E63C3"
 				type: "item"
 				item: "evilcraft:vengeance_essence_materialized"
 			}]
+			rewards: [{
+				id: "1B7217038713CCF3"
+				type: "item"
+				item: "evilcraft:dark_gem_crushed"
+				count: 8
+				random_bonus: 16
+			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: -1.0d
+			y: 0.5d
+			shape: "square"
+			description: ["Obtain by killing a spirit with your Piercing Vengeance Focus."]
+			dependencies: ["5BDC7CBB07E7230D"]
 			id: "7DB61268194A5D7E"
 			tasks: [{
 				id: "530D309B1EB93E48"
 				type: "item"
 				item: "evilcraft:vengeance_essence"
 			}]
+			rewards: [{
+				id: "6149AB742B8A53D6"
+				type: "item"
+				item: "evilcraft:vengeance_essence"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 0.0d
-			y: 2.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"The Box of Eternal Closure is used to capture a Vengeance Spirit."
+				""
+				"In this pack you need to capture certain mobs to get the end game !"
+			]
+			dependencies: ["1577635AA4E66A66"]
 			id: "4512C2B58AD1076D"
 			tasks: [{
 				id: "3E8069A26A7BACBC"
 				type: "item"
 				item: "evilcraft:box_of_eternal_closure"
 			}]
+			rewards: [{
+				id: "68E1C4CDB21B78F8"
+				type: "item"
+				item: "evilcraft:box_of_eternal_closure"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Sanguinary Pedestal is used to drain blood stains in the surrounding area."
+				"Combine it with Spiked Plate to automate the blood production."
+			]
+			dependencies: ["1577635AA4E66A66"]
 			id: "585B9B16C8FB0996"
 			tasks: [{
 				id: "5DAEB41479E57B89"
@@ -181,10 +350,29 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2E69A5A0B2BBA6E0"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_0"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			description: ["The Powered Sanguinary Pedestal work like the simple Sanguinary Pedestal, but it can drain more blood."]
+			dependencies: ["585B9B16C8FB0996"]
 			id: "397F81BC0FACA32C"
 			tasks: [{
 				id: "0727B28271C2DE27"
@@ -208,20 +396,45 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3D8AE2CA0424E143"
+				type: "item"
+				item: "evilcraft:spiked_plate"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			x: 4.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"The Spiked Plate is used to damage mobs."
+				"Use a Pedestal to automate blood production."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1577635AA4E66A66"]
 			id: "2F27D1C519E3D2FC"
 			tasks: [{
 				id: "3C084BD9C515E72E"
 				type: "item"
 				item: "evilcraft:spiked_plate"
 			}]
+			rewards: [{
+				id: "0B4EFB000C4C417C"
+				type: "item"
+				item: "evilcraft:spiked_plate"
+			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 1.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"The Blood Extractor can drain blood stains by shift right-clicking the stain."
+				"It can, also, store blood when you kill mods with your Extractor in your inventory."
+				"You can upgrade is internal inventory by combining other blood extractor or a blood tank !"
+			]
+			dependencies: ["1577635AA4E66A66"]
 			id: "2805CB885775263A"
 			tasks: [{
 				id: "2B8CB33E0DF144E6"
@@ -245,10 +458,39 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "222822127E135ECB"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 5000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 5000
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 1.0d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"The Weather Container, like his name said, can store Weather inside using an Environmental Accumulatore or the Sanguinary one."
+				""
+				"When you have a Weather Container with something inside, you can release it just throwing it."
+			]
+			dependencies: ["1577635AA4E66A66"]
 			id: "296E48F13F86BBB7"
 			tasks: [{
 				id: "108092E56DA73F22"
@@ -261,95 +503,340 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7003DA7B9DA17E39"
+				type: "item"
+				item: {
+					id: "evilcraft:weather_container"
+					Count: 1b
+					tag: {
+						weather: "EMPTY"
+					}
+				}
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			description: ["The Promise of Velocity is used in EvilCraft machines, stackable by 4, it speeds up the machines."]
+			dependencies: ["7DA9A918079760B1"]
 			id: "3C6BFF8D837001FE"
 			tasks: [{
 				id: "0B693901BAC43FFE"
 				type: "item"
 				item: "evilcraft:promise_speed_0"
 			}]
+			rewards: [{
+				id: "1E668E9D9E7D3BF8"
+				type: "item"
+				item: "evilcraft:promise_speed_0"
+			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 6.0d
+			y: -1.0d
+			shape: "square"
+			description: ["The Promise of Productivity is used in EvilCraft machines, stackable by 4, it allows you to consume less blood per operation."]
+			dependencies: ["7DA9A918079760B1"]
 			id: "27163873EBE27E61"
 			tasks: [{
 				id: "350D127CEF5942A1"
 				type: "item"
 				item: "evilcraft:promise_efficiency_0"
 			}]
+			rewards: [{
+				id: "63BFC3119E88E099"
+				type: "item"
+				item: "evilcraft:promise_efficiency_0"
+			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: 7.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The Promise of Tenacity I is used to upgrading your machines."]
+			dependencies: ["7DA9A918079760B1"]
 			id: "7D728D0DB7EBC47A"
 			tasks: [{
 				id: "620F4A6AD1D82305"
 				type: "item"
 				item: "evilcraft:promise_tier_1"
 			}]
+			rewards: [{
+				id: "43C8F7618380DCF5"
+				type: "item"
+				item: "evilcraft:promise_tier_1"
+			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 7.0d
+			y: 0.5d
+			shape: "square"
+			description: ["The Promise of Tenacity II is used to upgrading your machines."]
+			dependencies: ["7D728D0DB7EBC47A"]
 			id: "2B1CF4ACF28CA9DE"
 			tasks: [{
 				id: "123B9AB0879E6179"
 				type: "item"
 				item: "evilcraft:promise_tier_2"
 			}]
+			rewards: [{
+				id: "6355BD986C53DEB7"
+				type: "item"
+				item: "evilcraft:promise_tier_2"
+			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 7.0d
+			y: -0.5d
+			shape: "square"
+			description: ["The Promise of Tenacity III is the last tier up used to upgrading your machines."]
+			dependencies: ["2B1CF4ACF28CA9DE"]
 			id: "4CBA5CFBD7EF0EA3"
 			tasks: [{
 				id: "55C42BECE0C8AED3"
 				type: "item"
 				item: "evilcraft:promise_tier_3"
 			}]
+			rewards: [{
+				id: "16F250C39B45A116"
+				type: "item"
+				item: "evilcraft:promise_tier_3"
+			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 2.0d
+			y: 1.5d
+			shape: "square"
+			description: ["You need to throw a Dark Gem in a pool of 5 bucket of blood to get this Dark Power Gem."]
+			dependencies: ["2B6D002D9CEE7153"]
 			id: "384747F22752688B"
 			tasks: [{
 				id: "3A41C53B6FA34445"
 				type: "item"
 				item: "evilcraft:dark_power_gem"
 			}]
+			rewards: [{
+				id: "0A90A1E725AA36FE"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 5.0d
-			y: 4.0d
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"To get the Hardened Blood you need to wait until your bucket of blood, place in the world, dry !"
+				"Or you can use Integrated Dynamics."
+				""
+				"You need also Silk Touched."
+			]
+			dependencies: ["2B6D002D9CEE7153"]
 			id: "1C8DB2E8717C6AAF"
 			tasks: [{
 				id: "70BFE71264971E74"
 				type: "item"
 				item: "evilcraft:hardened_blood"
 			}]
+			rewards: [{
+				id: "362178B465E33618"
+				type: "item"
+				item: "evilcraft:hardened_blood_shard"
+				random_bonus: 15
+			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: -2.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Infuse your Materialized Vengeance Essence with blood to obtain a Garmonbozia"]
+			dependencies: ["1505DA74A50CCFF1"]
 			id: "443E2A8B9754F1B8"
 			tasks: [{
 				id: "21BD4D7D4A534B50"
 				type: "item"
 				item: "evilcraft:garmonbozia"
 			}]
+			rewards: [{
+				id: "73813AFA025F74B2"
+				type: "item"
+				item: "evilcraft:vengeance_essence_materialized"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: 4.5d
+			y: 2.5d
+			shape: "square"
+			description: ["The Undead Sapling can grow an Undead Tree who drop blood stains on the floor."]
+			dependencies: ["7DA9A918079760B1"]
 			id: "511DF6A8A14D0B68"
 			tasks: [{
 				id: "639A4C78BBC09D23"
 				type: "item"
 				item: "evilcraft:undead_sapling"
+			}]
+			rewards: [{
+				id: "23C1680DFBFDE1B6"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Blood Infusion Core is the base ingredient for EvilCraft Machines."]
+			dependencies: [
+				"384747F22752688B"
+				"1C8DB2E8717C6AAF"
+			]
+			id: "562FF1F6F3713850"
+			tasks: [{
+				id: "3D9B73F862DB72F7"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
+			rewards: [{
+				id: "5E3F4A921541EC82"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			shape: "square"
+			description: ["The Blood orb can be transformed into a Weak Blood Orb, for Blood Magic."]
+			dependencies: ["7DA9A918079760B1"]
+			id: "11A9C8B93702BC82"
+			tasks: [{
+				id: "4C7C4DDBD745DE0B"
+				type: "item"
+				item: "evilcraft:blood_orb_filled"
+			}]
+			rewards: [{
+				id: "50824B30F1816709"
+				type: "item"
+				item: "evilcraft:blood_orb_filled"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "square"
+			description: ["When you have 1000mb or more blood in your Extractor, you can right-click on the ground to release a bucket of blood."]
+			dependencies: ["2805CB885775263A"]
+			id: "2B6D002D9CEE7153"
+			tasks: [{
+				id: "4D02B6D731B05615"
+				type: "item"
+				item: "evilcraft:bucket_blood"
+			}]
+			rewards: [{
+				id: "084D6E9DC913AF85"
+				type: "item"
+				item: "evilcraft:bucket_blood"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Eternal Water Block is simply an infinite water source with an auto output in an adjacent tank."]
+			dependencies: ["296E48F13F86BBB7"]
+			id: "2D68A619FA087D0F"
+			tasks: [{
+				id: "36B57C93D6B1600D"
+				type: "item"
+				item: "evilcraft:eternal_water"
+			}]
+			rewards: [{
+				id: "32494F1C6ABE57FC"
+				type: "item"
+				item: "evilcraft:bucket_eternal_water"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "square"
+			description: ["The Blood Chest can repair stuff with blood !"]
+			dependencies: ["562FF1F6F3713850"]
+			id: "3A65F6BCB2F34B73"
+			tasks: [{
+				id: "6D2F533B17EAD271"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_chest"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 10000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "68BA57019C6ADD8E"
+				type: "item"
+				item: "evilcraft:bucket_blood"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"The Spirit Reanimator is used to reanimated Spirit into a Spawn Egg."
+				""
+				"Place a Box of Eternal Closure with the Spirit you desire trap inside, put an Egg, use some blood and wait for your Spawn Egg."
+			]
+			dependencies: ["4512C2B58AD1076D"]
+			id: "3990D1C488310B47"
+			tasks: [{
+				id: "169096CE7C545E5A"
+				type: "item"
+				item: {
+					id: "evilcraft:spirit_reanimator"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 10000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "623E90D76BCC815E"
+				type: "item"
+				item: "minecraft:egg"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 	]
