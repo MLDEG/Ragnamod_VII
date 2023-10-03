@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 10
 	filename: "blue_skies"
-	title: "Blue Skies"
+	title: " Blue Skies"
 	icon: "blue_skies:soul_fragment"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -19,6 +19,7 @@
 			}
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"To begin Blue Skies, you need to find on the Overworld different houses with a Gatekeeper inside (or outside the house)."
 				"You can find these houses on a Mountain, a Plains or a Snowy biome."
@@ -47,10 +48,18 @@
 					item: "blue_skies:blue_journal"
 				}
 			]
+			rewards: [{
+				id: "50736F09A7252594"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+				random_bonus: 8
+			}]
 		}
 		{
 			x: -0.5d
 			y: 3.5d
+			shape: "square"
 			description: [
 				"After defeating the Summoner, you must now go to the Nature Dungeon."
 				"You CANNOT miss it !"
@@ -65,10 +74,16 @@
 				type: "item"
 				item: "blue_skies:nature_key"
 			}]
+			rewards: [{
+				id: "76F5F70228F9C387"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
 		}
 		{
 			x: 0.5d
 			y: 3.5d
+			shape: "square"
 			description: [
 				"After defeating the Alchemist, you must now go to the Poison Dungeon."
 				"{image:ftbquests:textures/quests/bs_poison_dungeon.png width:150 height:100 align:1}"
@@ -84,12 +99,18 @@
 				type: "item"
 				item: "blue_skies:poison_key"
 			}]
+			rewards: [{
+				id: "5639775C27EC4DD5"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
 		}
 		{
 			title: "Starlit Crusher"
 			icon: "blue_skies:starlit_crusher_spawn_egg"
 			x: -1.0d
 			y: 4.5d
+			shape: "square"
 			description: [
 				"Simply fight and kill the Starlit Crusher."
 				"It will drop a trophy and a loot bag."
@@ -132,12 +153,31 @@
 					match_nbt: false
 				}
 			]
+			rewards: [{
+				id: "7D8EC9BC5DAC0982"
+				type: "item"
+				item: {
+					id: "blue_skies:bag_of_spoils"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [{
+								Slot: 2b
+								id: "blue_skies:defying_starlight"
+								Count: 1b
+							}]
+							id: "blue_skies:bag_of_spoils"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Summoner"
 			icon: "blue_skies:summoner_spawn_egg"
 			x: -1.0d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"Simply fight and kill the Summoner."
 				"It will drop a trophy and a loot bag."
@@ -182,12 +222,31 @@
 					match_nbt: false
 				}
 			]
+			rewards: [{
+				id: "0F3928538236D418"
+				type: "item"
+				item: {
+					id: "blue_skies:bag_of_spoils"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [{
+								Slot: 2b
+								id: "blue_skies:population"
+								Count: 1b
+							}]
+							id: "blue_skies:bag_of_spoils"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Alchemist"
 			icon: "blue_skies:alchemist_spawn_egg"
 			x: 1.0d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"Simply fight and kill the Alchemist."
 				"It will drop a trophy and a loot bag."
@@ -232,12 +291,31 @@
 					match_nbt: false
 				}
 			]
+			rewards: [{
+				id: "2E36B2110BD129F9"
+				type: "item"
+				item: {
+					id: "blue_skies:bag_of_spoils"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [{
+								Slot: 2b
+								id: "blue_skies:blinding_rage"
+								Count: 1b
+							}]
+							id: "blue_skies:bag_of_spoils"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Arachnarch"
 			icon: "blue_skies:arachnarch_spawn_egg"
 			x: 1.0d
 			y: 4.5d
+			shape: "square"
 			description: [
 				"Simply fight and kill the Arachnarch."
 				"It will drop a trophy and a loot bag."
@@ -279,12 +357,31 @@
 					match_nbt: false
 				}
 			]
+			rewards: [{
+				id: "735CE75B07A04055"
+				type: "item"
+				item: {
+					id: "blue_skies:bag_of_spoils"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [{
+								Slot: 2b
+								id: "blue_skies:venomous_encounter"
+								Count: 1b
+							}]
+							id: "blue_skies:bag_of_spoils"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Everbright"
 			icon: "blue_skies:everbright_portal"
 			x: -1.5d
 			y: 1.5d
+			shape: "square"
 			description: ["Find a portal frame made of Turquoise Stone Bricks, light it with your Zeal Lighter and go into the Everbright !"]
 			dependencies: ["5D41E955B2B0A532"]
 			id: "25C16DAF79CEB2AC"
@@ -293,12 +390,43 @@
 				type: "dimension"
 				dimension: "blue_skies:everbright"
 			}]
+			rewards: [{
+				id: "60750811AB95EA31"
+				type: "item"
+				item: {
+					id: "blue_skies:bag_of_spoils"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									id: "blue_skies:black_brewberry"
+									Count: 64b
+								}
+								{
+									Slot: 1b
+									id: "blue_skies:pink_brewberry"
+									Count: 64b
+								}
+								{
+									Slot: 2b
+									id: "blue_skies:starlit_bookshelf"
+									Count: 32b
+								}
+							]
+							id: "blue_skies:bag_of_spoils"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Everdawn"
 			icon: "blue_skies:everdawn_portal"
 			x: 1.5d
 			y: 1.5d
+			shape: "square"
 			description: ["Find a portal frame made of Lunar Stone Bricks, light it with your Zeal Lighter and go into the Everdawn!"]
 			dependencies: ["5D41E955B2B0A532"]
 			id: "12AB66D0233C13DD"
@@ -307,10 +435,41 @@
 				type: "dimension"
 				dimension: "blue_skies:everdawn"
 			}]
+			rewards: [{
+				id: "37663CF2E3E01178"
+				type: "item"
+				item: {
+					id: "blue_skies:bag_of_spoils"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									id: "blue_skies:crescent_fruit"
+									Count: 64b
+								}
+								{
+									Slot: 1b
+									id: "blue_skies:scalefruit"
+									Count: 64b
+								}
+								{
+									Slot: 2b
+									id: "blue_skies:dusk_bookshelf"
+									Count: 32b
+								}
+							]
+							id: "blue_skies:bag_of_spoils"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.0d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"You can find Horizonite Ore in this biomes:"
 				"Crystal Dunes"
@@ -326,10 +485,17 @@
 				type: "item"
 				item: "blue_skies:raw_horizonite"
 			}]
+			rewards: [{
+				id: "4DF75F34C87C9444"
+				type: "item"
+				item: "blue_skies:raw_horizonite"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.0d
 			y: 2.5d
+			shape: "square"
 			description: [
 				"You can find Ventium Ore in this biomes:"
 				"Slushlands"
@@ -347,10 +513,17 @@
 				type: "item"
 				item: "blue_skies:raw_ventium"
 			}]
+			rewards: [{
+				id: "2B19BF0C469F03A0"
+				type: "item"
+				item: "blue_skies:raw_ventium"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.5d
 			y: 1.5d
+			shape: "square"
 			description: [
 				"You can find Falsite Ore in this biomes:"
 				"Slushlands"
@@ -368,20 +541,37 @@
 				type: "item"
 				item: "blue_skies:raw_falsite"
 			}]
+			rewards: [{
+				id: "5F806CA5B7F4008B"
+				type: "item"
+				item: "blue_skies:raw_falsite"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 0.0d
 			y: 5.0d
+			shape: "square"
+			description: ["The Warding Pearl block the spawn of hostile mob in a large radius."]
+			hide_dependency_lines: true
+			dependencies: ["5E6F7485DE77D2BF"]
 			id: "6EF85A594ED56AF6"
 			tasks: [{
 				id: "06101496ED8707AE"
 				type: "item"
 				item: "blue_skies:warding_pearl"
 			}]
+			rewards: [{
+				id: "4A009EFBBE119320"
+				type: "item"
+				item: "blue_skies:pearl"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.0d
 			y: 0.5d
+			shape: "square"
 			description: ["You can find Aquite Ore in everywhere."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -395,10 +585,17 @@
 				type: "item"
 				item: "blue_skies:raw_aquite"
 			}]
+			rewards: [{
+				id: "7EA1D1C8351464AE"
+				type: "item"
+				item: "blue_skies:raw_aquite"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 2.0d
 			y: 0.5d
+			shape: "square"
 			description: ["You can find Charoite Ore in everywhere."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -412,10 +609,19 @@
 				type: "item"
 				item: "blue_skies:raw_charoite"
 			}]
+			rewards: [{
+				id: "7B52DCAA5F49F545"
+				type: "item"
+				item: "blue_skies:raw_charoite"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 2.0d
 			y: -0.5d
+			shape: "square"
+			description: ["Craft the Charoite armor set, you'll gonna need it for the End Game."]
+			dependencies: ["0DA2467A22F6D309"]
 			id: "47F04F195DE192F9"
 			tasks: [
 				{
@@ -463,10 +669,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "20D2A9C7E74717D4"
+				type: "item"
+				item: "blue_skies:charoite_block"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 2.0d
 			y: -1.5d
+			shape: "square"
+			description: ["Craft the Charoite toolset, you'll gonna need it for the end of the game."]
+			dependencies: ["0DA2467A22F6D309"]
 			id: "1019A0B35E3CCF27"
 			tasks: [
 				{
@@ -514,10 +729,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5D7EBBBCB54571FC"
+				type: "item"
+				item: "blue_skies:charoite"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 3.0d
 			y: -0.5d
+			shape: "square"
+			description: ["Craft the Diopside armor set, you'll gonna need it for the End Game."]
+			dependencies: ["3ED4894CC5603845"]
 			id: "5812E71E54C1398A"
 			tasks: [
 				{
@@ -565,10 +789,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3BBF3A7A90CF2FE2"
+				type: "item"
+				item: "blue_skies:diopside_block"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 3.0d
 			y: -1.5d
+			shape: "square"
+			description: ["Craft the Diopsite toolset, you'll gonna need it for the end of the game."]
+			dependencies: ["3ED4894CC5603845"]
 			id: "6080D26507C6D50B"
 			tasks: [
 				{
@@ -616,10 +849,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1526D41A476301DC"
+				type: "item"
+				item: "blue_skies:diopside_gem"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -3.0d
 			y: -0.5d
+			shape: "square"
+			description: ["Craft the Pyrope armor set, you'll gonna need it for the End Game."]
+			dependencies: ["7805AD446625B4BD"]
 			id: "2BBF8DBC515DA045"
 			tasks: [
 				{
@@ -667,10 +909,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "381B055C6A39AA59"
+				type: "item"
+				item: "blue_skies:pyrope_block"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.0d
 			y: -1.5d
+			shape: "square"
+			description: ["Craft the Pyrope toolset, you'll gonna need it for the end of the game."]
+			dependencies: ["7805AD446625B4BD"]
 			id: "26C9072836B7441D"
 			tasks: [
 				{
@@ -718,10 +969,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1C82014ABDCECA50"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.0d
 			y: -0.5d
+			shape: "square"
+			description: ["Craft the Aquite armor set, you'll gonna need it for the End Game."]
+			dependencies: ["7E6B4F17B0F46590"]
 			id: "7D75138C480894E3"
 			tasks: [
 				{
@@ -769,10 +1029,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5FD242C291733D3D"
+				type: "item"
+				item: "blue_skies:aquite_block"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.0d
 			y: -1.5d
+			shape: "square"
+			description: ["Craft the Aquite toolset, you'll gonna need it for the end of the game."]
+			dependencies: ["7E6B4F17B0F46590"]
 			id: "2CAD18360359759B"
 			tasks: [
 				{
@@ -820,30 +1089,49 @@
 					}
 				}
 			]
-		}
-		{
-			x: 0.0d
-			y: 6.0d
-			id: "54AE1856FCFF9641"
-			tasks: [{
-				id: "2D8B58DC54BE7242"
+			rewards: [{
+				id: "30811756BC75846C"
 				type: "item"
-				item: "blue_skies:alchemy_table"
+				item: "blue_skies:aquite"
+				random_bonus: 7
 			}]
 		}
 		{
 			x: -1.5d
 			y: 3.5d
+			shape: "square"
+			description: ["The Tool Box allow you to put Falsite on your tools to get a bonus temporary durability."]
+			hide_dependency_lines: true
+			dependencies: ["5087D7633FD14915"]
 			id: "534F929E63557D43"
 			tasks: [{
 				id: "3EE9B513579D9448"
 				type: "item"
 				item: "blue_skies:tool_box"
 			}]
+			rewards: [{
+				id: "19915BF98D77A379"
+				type: "item"
+				item: {
+					id: "blue_skies:cherry_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Falsite: 60
+					}
+				}
+			}]
 		}
 		{
 			x: -3.0d
 			y: 3.0d
+			shape: "square"
+			description: [
+				"Make the Star Emitter and make it into a Profession Table for a villager, it will sell you, at level 3, the Astrolabe."
+				"The Astrolabe allows you to teleport to a Star Emitter."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5E6F7485DE77D2BF"]
 			id: "3B89725E5E56A8CF"
 			tasks: [
 				{
@@ -857,10 +1145,18 @@
 					item: "blue_skies:astrolabe"
 				}
 			]
+			rewards: [{
+				id: "58B01B6CCFB325C3"
+				type: "item"
+				item: "blue_skies:star_flare"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 3.5d
+			shape: "square"
+			description: ["Craft the Horizonite armor set, you'll gonna need it for the End Game."]
+			dependencies: ["0F3871DA957D1676"]
 			id: "1CE0851610DB9220"
 			tasks: [
 				{
@@ -908,10 +1204,19 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "22DF2B89609BEC0C"
+				type: "item"
+				item: "blue_skies:horizonite_block"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 3.0d
 			y: 3.0d
+			shape: "square"
+			description: ["Craft the Horizonite toolset, you'll gonna need it for the end of the game."]
+			dependencies: ["0F3871DA957D1676"]
 			id: "701C945DBA3DF5CD"
 			tasks: [
 				{
@@ -959,11 +1264,18 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4634601B0078D953"
+				type: "item"
+				item: "blue_skies:horizonite_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			title: "Blinding Dungeons"
 			x: 0.0d
 			y: 2.0d
+			shape: "square"
 			description: [
 				"Whether you are in the Everbright or the Everdawn, you must first find the Blinding Dungeon first."
 				"{image:ftbquests:textures/quests/bs_blinding_dungeons.png width:150 height:100 align:1}"
@@ -980,10 +1292,16 @@
 				type: "item"
 				item: "blue_skies:blinding_key"
 			}]
+			rewards: [{
+				id: "389E4B2B3A13EFDF"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
 		}
 		{
 			x: 3.0d
 			y: 0.5d
+			shape: "square"
 			description: ["You can find Diopside Ore in everywhere."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -997,10 +1315,17 @@
 				type: "item"
 				item: "blue_skies:diopside_gem"
 			}]
+			rewards: [{
+				id: "18DD7115DACD13A3"
+				type: "item"
+				item: "blue_skies:diopside_gem"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -3.0d
 			y: 0.5d
+			shape: "square"
 			description: ["You can find Pyrope Ore in everywhere."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1014,10 +1339,17 @@
 				type: "item"
 				item: "blue_skies:pyrope_gem"
 			}]
+			rewards: [{
+				id: "23CF6F29852716DA"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 2.5d
 			y: 1.5d
+			shape: "square"
 			description: ["You can find Moonstone Ore in everywhere."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1030,6 +1362,12 @@
 				id: "07D2272311EAED6F"
 				type: "item"
 				item: "blue_skies:moonstone"
+			}]
+			rewards: [{
+				id: "6154BD6BE91E5CCE"
+				type: "item"
+				item: "blue_skies:moonstone"
+				random_bonus: 7
 			}]
 		}
 	]
