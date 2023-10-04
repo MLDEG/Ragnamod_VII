@@ -594,6 +594,8 @@ onEvent('recipes', e => {
 		'miniutilities:bat_angel_ring',
 		'miniutilities:peacock_angel_ring',
 		'miniutilities:angel_ring_crafting',
+		'evilcraft:crafting/weather_container_lightning',
+		'evilcraft:crafting/weather_container_rain',
 
 
 
