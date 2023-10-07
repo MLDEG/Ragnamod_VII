@@ -5,7 +5,7 @@
 #By default, the spawner runs "function twilighttweaks:final_boss_example", which is a mcfunction made for the mod that runs several commands in a row. Mcfunctions are a vanilla feature and you can google how to make one of your own.
 #Any command can be ran once, after which the spawner will break itself.
 ["FINAL BOSS SPAWNER"]
-	"The command that the spawner should run: " = "function twilighttweaks:final_boss_example"
+	"The command that the spawner should run: " = "function ragnamod_7:final_boss_twilight_forest"
 
 #With this mod installed, boss spawners now leave remnants behind (usually, after the actual boss has been killed).
 #Additionally, killed hostile mobs in the Twilight Forest dimension have a chance (0.5%) to drop Time powder.
