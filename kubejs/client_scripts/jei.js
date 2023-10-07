@@ -419,4 +419,18 @@ onEvent('item.tooltip', tooltip => {
 		text.add(2, Text.of('§7Transition Metals'))
 	})
 
+	//Horsmen Essence
+	tooltip.addAdvanced('ragnamod_seven:conquest_essence', (item, advanced, text) => {
+			text.add(1, Text.of('§5§oDrop when killing Conquest'))
+	})
+	tooltip.addAdvanced('ragnamod_seven:death_essence', (item, advanced, text) => {
+			text.add(1, Text.of('§5§oDrop when killing Death'))
+	})
+	tooltip.addAdvanced('ragnamod_seven:famine_essence', (item, advanced, text) => {
+			text.add(1, Text.of('§5§oDrop when killing Famine'))
+	})
+	tooltip.addAdvanced('ragnamod_seven:war_essence', (item, advanced, text) => {
+			text.add(1, Text.of('§5§oDrop when killing War'))
+	})
+
 })
