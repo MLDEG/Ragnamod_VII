@@ -14,6 +14,82 @@ onEvent('recipes', e => {
   e.shapeless('9x cataclysm:enderite_ingot', 'cataclysm:enderite_block')
   e.shapeless('cataclysm:enderite_block', '9x cataclysm:enderite_ingot')
 
+  /***************************Horsmen Stuff***************************/
+  /***************************Death***************************/
+  e.shapeless('9x ragnamod_seven:death_nugget', 'ragnamod_seven:death_ingot')
+  e.shapeless('ragnamod_seven:death_ingot', '9x ragnamod_seven:death_nugget')
+  e.shapeless('9x ragnamod_seven:death_ingot', 'ragnamod_seven:death_block')
+  e.shapeless('ragnamod_seven:death_block', '9x ragnamod_seven:death_ingot')
+  //Helmet
+  e.shaped('ragnamod_seven:death_helmet', ['AAA','A A'], {A: 'ragnamod_seven:death_ingot'})
+  //Chestplate
+  e.shaped('ragnamod_seven:death_chestplate', ['A A','AAA','AAA'], {A: 'ragnamod_seven:death_ingot'})
+  //Leggings
+  e.shaped('ragnamod_seven:death_leggings', ['AAA','A A','A A'], {A: 'ragnamod_seven:death_ingot'})
+  //Boots
+  e.shaped('ragnamod_seven:death_boots', ['A A','A A'], {A: 'ragnamod_seven:death_ingot'})
+  //Weapon
+  e.shaped('ragnamod_seven:death_weapon', ['AA ',' SA','S  '], {A: 'ragnamod_seven:death_ingot', S: 'minecraft:stick'})
+  //Essence
+  e.custom({"type": "create:compacting","ingredients": [{"item": "ragnamod_seven:death_essence"},{"item": "thermal:netherite_dust"}],"results": [{"item": "ragnamod_seven:death_essence"},{"item": "ragnamod_seven:death_essence_materialized"}],"heatRequirement": "superheated"})
+  //Ingot
+  e.custom({"type": "evilcraft:blood_infuser","item": "ragnamod_seven:death_essence_materialized","fluid": {"fluid": "evilcraft:blood","amount": 100000},"result": {"item": "ragnamod_seven:death_ingot"},"duration": 1200,"xp": 20,"tier": 3})
+  /***************************War***************************/
+  e.shapeless('9x ragnamod_seven:war_nugget', 'ragnamod_seven:war_ingot')
+  e.shapeless('ragnamod_seven:war_ingot', '9x ragnamod_seven:war_nugget')
+  e.shapeless('9x ragnamod_seven:war_ingot', 'ragnamod_seven:war_block')
+  e.shapeless('ragnamod_seven:war_block', '9x ragnamod_seven:war_ingot')
+  //Helmet
+  e.shaped('ragnamod_seven:war_helmet', ['AAA','A A'], {A: 'ragnamod_seven:war_ingot'})
+  //Chestplate
+  e.shaped('ragnamod_seven:war_chestplate', ['A A','AAA','AAA'], {A: 'ragnamod_seven:war_ingot'})
+  //Leggings
+  e.shaped('ragnamod_seven:war_leggings', ['AAA','A A','A A'], {A: 'ragnamod_seven:war_ingot'})
+  //Boots
+  e.shaped('ragnamod_seven:war_boots', ['A A','A A'], {A: 'ragnamod_seven:war_ingot'})
+  //Weapon
+  e.shaped('ragnamod_seven:war_weapon', ['A A','ASA',' S '], {A: 'ragnamod_seven:war_ingot', S: 'minecraft:stick'})
+  //Essence
+  e.custom({"type": "create:compacting","ingredients": [{"item": "ragnamod_seven:war_essence"},{"item": "thermal:netherite_dust"}],"results": [{"item": "ragnamod_seven:war_essence"},{"item": "ragnamod_seven:war_essence_materialized"}],"heatRequirement": "superheated"})
+  //Ingot
+  e.custom({"type": "evilcraft:blood_infuser","item": "ragnamod_seven:war_essence_materialized","fluid": {"fluid": "evilcraft:blood","amount": 100000},"result": {"item": "ragnamod_seven:war_ingot"},"duration": 1200,"xp": 20,"tier": 3})
+  /***************************Conquest***************************/
+  e.shapeless('9x ragnamod_seven:conquest_nugget', 'ragnamod_seven:conquest_ingot')
+  e.shapeless('ragnamod_seven:conquest_ingot', '9x ragnamod_seven:conquest_nugget')
+  e.shapeless('9x ragnamod_seven:conquest_ingot', 'ragnamod_seven:conquest_block')
+  e.shapeless('ragnamod_seven:conquest_block', '9x ragnamod_seven:conquest_ingot')
+  //Helmet
+  e.shaped('ragnamod_seven:conquest_helmet', ['AAA','A A'], {A: 'ragnamod_seven:conquest_ingot'})
+  //Chestplate
+  e.shaped('ragnamod_seven:conquest_chestplate', ['A A','AAA','AAA'], {A: 'ragnamod_seven:conquest_ingot'})
+  //Leggings
+  e.shaped('ragnamod_seven:conquest_leggings', ['AAA','A A','A A'], {A: 'ragnamod_seven:conquest_ingot'})
+  //Boots
+  e.shaped('ragnamod_seven:conquest_boots', ['A A','A A'], {A: 'ragnamod_seven:conquest_ingot'})
+  //Essence
+  e.custom({"type": "create:compacting","ingredients": [{"item": "ragnamod_seven:conquest_essence"},{"item": "thermal:netherite_dust"}],"results": [{"item": "ragnamod_seven:conquest_essence"},{"item": "ragnamod_seven:conquest_essence_materialized"}],"heatRequirement": "superheated"})
+  //Ingot
+  e.custom({"type": "evilcraft:blood_infuser","item": "ragnamod_seven:conquest_essence_materialized","fluid": {"fluid": "evilcraft:blood","amount": 100000},"result": {"item": "ragnamod_seven:conquest_ingot"},"duration": 1200,"xp": 20,"tier": 3})
+  /***************************Famine***************************/
+  e.shapeless('9x ragnamod_seven:famine_nugget', 'ragnamod_seven:famine_ingot')
+  e.shapeless('ragnamod_seven:famine_ingot', '9x ragnamod_seven:famine_nugget')
+  e.shapeless('9x ragnamod_seven:famine_ingot', 'ragnamod_seven:famine_block')
+  e.shapeless('ragnamod_seven:famine_block', '9x ragnamod_seven:famine_ingot')
+  //Helmet
+  e.shaped('ragnamod_seven:famine_helmet', ['AAA','A A'], {A: 'ragnamod_seven:famine_ingot'})
+  //Chestplate
+  e.shaped('ragnamod_seven:famine_chestplate', ['A A','AAA','AAA'], {A: 'ragnamod_seven:famine_ingot'})
+  //Leggings
+  e.shaped('ragnamod_seven:famine_leggings', ['AAA','A A','A A'], {A: 'ragnamod_seven:famine_ingot'})
+  //Boots
+  e.shaped('ragnamod_seven:famine_boots', ['A A','A A'], {A: 'ragnamod_seven:famine_ingot'})
+  //Weapon
+  e.shaped('ragnamod_seven:famine_weapon', ['A','A','S'], {A: 'ragnamod_seven:famine_ingot', S: 'minecraft:stick'})
+  //Essence
+  e.custom({"type": "create:compacting","ingredients": [{"item": "ragnamod_seven:famine_essence"},{"item": "thermal:netherite_dust"}],"results": [{"item": "ragnamod_seven:famine_essence"},{"item": "ragnamod_seven:famine_essence_materialized"}],"heatRequirement": "superheated"})
+  //Ingot
+  e.custom({"type": "evilcraft:blood_infuser","item": "ragnamod_seven:famine_essence_materialized","fluid": {"fluid": "evilcraft:blood","amount": 100000},"result": {"item": "ragnamod_seven:famine_ingot"},"duration": 1200,"xp": 20,"tier": 3})
+
   //Corundum Block
   //RED
   e.shapeless('quark:red_corundum', '4x quark:red_corundum_cluster')
