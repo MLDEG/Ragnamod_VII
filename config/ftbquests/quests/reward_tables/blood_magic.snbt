@@ -1,0 +1,13 @@
+{
+	id: "1FE2915616B5BAE9"
+	order_index: 0
+	title: "Blood Magic"
+	loot_size: 1
+	rewards: [
+		{ item: "bloodmagic:steadfastdemoncrystal", count: 4 }
+		{ item: "bloodmagic:vengefuldemoncrystal", count: 4 }
+		{ item: "bloodmagic:destructivedemoncrystal", count: 4 }
+		{ item: "bloodmagic:corrosivedemoncrystal", count: 4 }
+		{ item: "bloodmagic:rawdemoncrystal", count: 4 }
+	]
+}

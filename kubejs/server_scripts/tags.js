@@ -173,6 +173,7 @@ onEvent('tags.items', e => {
     e.add('comforts:sleeping_bags', ['comforts:sleeping_bag_blue', 'comforts:sleeping_bag_brown', 'comforts:sleeping_bag_green', 'comforts:sleeping_bag_red', 'comforts:sleeping_bag_black', 'comforts:sleeping_bag_white', 'comforts:sleeping_bag_orange', 'comforts:sleeping_bag_magenta', 'comforts:sleeping_bag_light_blue', 'comforts:sleeping_bag_yellow', 'comforts:sleeping_bag_lime', 'comforts:sleeping_bag_pink', 'comforts:sleeping_bag_gray', 'comforts:sleeping_bag_light_gray', 'comforts:sleeping_bag_cyan', 'comforts:sleeping_bag_purple'])
     e.add('comforts:hammocks', ['comforts:hammock_black', 'comforts:hammock_white', 'comforts:hammock_orange', 'comforts:hammock_magenta', 'comforts:hammock_light_blue', 'comforts:hammock_yellow', 'comforts:hammock_cyan', 'comforts:hammock_light_gray', 'comforts:hammock_gray', 'comforts:hammock_pink', 'comforts:hammock_lime', 'comforts:hammock_purple', 'comforts:hammock_blue', 'comforts:hammock_brown', 'comforts:hammock_green', 'comforts:hammock_red'])
     e.add('justhammers:hammer', ['justhammers:netherite_hammer', 'justhammers:diamond_hammer', 'justhammers:gold_hammer', 'justhammers:iron_hammer', 'justhammers:stone_hammer'])
+    e.add('ftbquests:crystal_blood_magic', ['bloodmagic:steadfastdemoncrystal', 'bloodmagic:vengefuldemoncrystal', 'bloodmagic:destructivedemoncrystal', 'bloodmagic:corrosivedemoncrystal', 'bloodmagic:rawdemoncrystal'])
 
 })
 onEvent('tags.blocks', e => {

@@ -1,0 +1,30 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "botania:rune_mana"
+  },
+  "mana": 8000,
+  "ingredients": [
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "tag": "botania:manasteel_ingots"
+    },
+    {
+      "tag": "botania:manasteel_ingots"
+    },
+    {
+      "tag": "botania:manasteel_ingots"
+    },
+    {
+      "tag": "botania:manasteel_ingots"
+    },
+    {
+      "tag": "botania:manasteel_ingots"
+    },
+    {
+      "item": "botania:mana_pearl"
+    }
+  ]
+}
