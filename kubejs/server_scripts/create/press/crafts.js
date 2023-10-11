@@ -16,10 +16,6 @@ onEvent('recipes', e => {
                 "amount": 250
             },
             {
-                "item": "forbidden_arcanus:edelwood_stick",
-                "count": 3
-            },
-            {
                 "item": "chickens:smashed_chicken",
                 "count": 1
             }
