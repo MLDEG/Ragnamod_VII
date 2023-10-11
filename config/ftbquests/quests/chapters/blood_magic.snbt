@@ -1561,6 +1561,128 @@
 				item: "bloodmagic:life_essence_bucket"
 			}]
 		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:will_factory"
+				}
+			}
+			x: 4.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"The Will Factory allows you to quickly farm Will Crystals."
+				"{image:ftbquests:textures/quests/custom_will_factory.png width:150 height:100 align:1}"
+				"You can either use an existing Resonance of the Faceted Crystal ritual and build the multiblock needed to operate the Factory, or build the multiblock yourself using the requested blocks from the quest book"
+			]
+			dependencies: ["0221387E12A17F19"]
+			id: "76FA8F00F4C5CE80"
+			tasks: [
+				{
+					id: "6621B6D3538A1004"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:will_factory"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "72558930360BFA59"
+					type: "item"
+					item: "bloodmagic:rawdemoncrystal"
+				}
+				{
+					id: "60F618CF5D23F12F"
+					type: "item"
+					item: "bloodmagic:vengefuldemoncrystal"
+				}
+				{
+					id: "2D9FB9D7B3702F71"
+					type: "item"
+					item: "bloodmagic:steadfastdemoncrystal"
+				}
+				{
+					id: "042BCBA42BC54A05"
+					type: "item"
+					item: "bloodmagic:destructivedemoncrystal"
+				}
+				{
+					id: "0D1BB8F4AA90B0C9"
+					type: "item"
+					item: "bloodmagic:corrosivedemoncrystal"
+				}
+				{
+					id: "543E8D7625D06434"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+				}
+				{
+					id: "30F66A3250D00C21"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+				}
+				{
+					id: "61C7DF73FACECDDC"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+				}
+				{
+					id: "22A633872261BF3C"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+				}
+				{
+					id: "11AB7B4A4C90F4CB"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 8L
+				}
+				{
+					id: "322D4482FD163A13"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "5F0445BE4B456D9C"
+					type: "item"
+					item: "bloodmagic:steadfastcrystal"
+					count: 64
+				}
+				{
+					id: "73515066C006D846"
+					type: "item"
+					item: "bloodmagic:destructivecrystal"
+					count: 64
+				}
+				{
+					id: "00D36DF217F9C70F"
+					type: "item"
+					item: "bloodmagic:vengefulcrystal"
+					count: 64
+				}
+				{
+					id: "2A00F201C9333887"
+					type: "item"
+					item: "bloodmagic:corrosivecrystal"
+					count: 64
+				}
+				{
+					id: "2121DB68F6ABBF25"
+					type: "item"
+					item: "bloodmagic:defaultcrystal"
+					count: 64
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }
