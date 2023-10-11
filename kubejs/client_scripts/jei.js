@@ -1,5 +1,6 @@
 onEvent('jei.hide.items', e => {
 	e.hide([
+		/botanypots(tiers:(elite|ultra|creative)_|:).+_(terracotta|concrete)(_hopper)?_botany_pot/,
 		/chickens:liquid_egg/,
 		/chickens:spawn_egg/,
 		/tconstruct:part_builder/,
@@ -347,7 +348,10 @@ onEvent('jei.add.items', e => {
 		'cataclysm:witherite_ingot',
 		'cataclysm:enderite_ingot',
 		'cataclysm:witherite_block',
-		'cataclysm:enderite_block'
+		'cataclysm:enderite_block',
+		'custommachinery:machine_creator_item',
+		'custommachinery:structure_creator',
+		'custommachinery:box_creator_item'
 	])
 })
 
