@@ -399,4 +399,107 @@ onEvent('recipes', e => {
     E: 'immersiveengineering:craftingtable'
   })
 
+  //Blood Magic Ritual Stone
+  function ritualStone(input, output, catalyst){e.custom({"type": "create:item_application","ingredients": [{"item": input},{"item": catalyst}],"results": [{"item": output}]})}
+  ritualStone ('bloodmagic:ritualstone', 'bloodmagic:airritualstone', 'bloodmagic:airscribetool')
+  ritualStone ('bloodmagic:ritualstone', 'bloodmagic:waterritualstone', 'bloodmagic:firescribetool')
+  ritualStone ('bloodmagic:ritualstone', 'bloodmagic:fireritualstone', 'bloodmagic:waterscribetool')
+  ritualStone ('bloodmagic:ritualstone', 'bloodmagic:earthritualstone', 'bloodmagic:earthscribetool')
+  ritualStone ('bloodmagic:ritualstone', 'bloodmagic:duskritualstone', 'bloodmagic:duskscribetool')
+
+  //Will Crystals
+  e.custom({
+    "type": "custommachinery:custom_machine",
+    "machine": "ragnamod_7:will_factory",
+    "time": 20,
+    "requirements": [
+      {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "item": "bloodmagic:reagentbinding",
+          "amount": 1
+      },
+      {
+          "type": "custommachinery:fluid",
+          "mode": "input",
+          "fluid": "bloodmagic:life_essence_fluid",
+          "amount": 1000,
+      },
+      {
+        "type": "custommachinery:energy",
+        "mode": "input",
+        "amount": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "mode": "output",
+      "item": "bloodmagic:defaultcrystal",
+      "amount": 4
+    },
+    {
+      "type": "custommachinery:item",
+      "mode": "output",
+      "item": "bloodmagic:corrosivecrystal",
+      "amount": 4
+    },
+    {
+      "type": "custommachinery:item",
+      "mode": "output",
+      "item": "bloodmagic:vengefulcrystal",
+      "amount": 4
+    },
+    {
+      "type": "custommachinery:item",
+      "mode": "output",
+      "item": "bloodmagic:destructivecrystal",
+      "amount": 4
+    },
+    {
+      "type": "custommachinery:item",
+      "mode": "output",
+      "item": "bloodmagic:steadfastcrystal",
+      "amount": 4
+    },
+    {
+      "type": "custommachinery:structure",
+      "pattern": [
+          [
+              " A A ",
+              "A   A",
+              "     ",
+              "A   A",
+              " A A "
+          ],
+          [
+              "  B  ",
+              " BWB ",
+              "BEBIB",
+              " BFB ",
+              "  m  "
+          ],
+          [
+              "     ",
+              "  1  ",
+              " 234 ",
+              "  5  ",
+              "     "
+          ]
+      ],
+      "keys": {
+          "A": "bloodmagic:duskritualstone",
+          "B": "bloodmagic:ritualstone",
+          "W": "bloodmagic:waterritualstone",
+          "I": "bloodmagic:airritualstone",
+          "E": "bloodmagic:earthritualstone",
+          "F": "bloodmagic:fireritualstone",
+          "1": "bloodmagic:steadfastdemoncrystal[age=6]",
+          "2": "bloodmagic:corrosivedemoncrystal[age=6]",
+          "3": "bloodmagic:rawdemoncrystal[age=6]",
+          "4": "bloodmagic:destructivedemoncrystal[age=6]",
+          "5": "bloodmagic:vengefuldemoncrystal[age=6]"
+      }
+  }
+  ]
+})
+
 })

@@ -1,0 +1,224 @@
+{
+  "name": "Will Factory",
+  "appearance": {
+    "block": "ragnamod_seven:machine/will_factory_idle_model",
+    "item": "ragnamod_seven:machine/will_factory_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/will_factory_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/will_factory_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "maxInput": 10000,
+      "maxOutput": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 10000,
+      "id": "life_essence_tank",
+      "maxInput": 10000,
+      "maxOutput": 10000,
+      "filter": ["bloodmagic:life_essence_fluid"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_will_factory",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_will_factory1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_will_factory2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_will_factory3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_will_factory4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_will_factory5",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "text": "Will Crystals Factory",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_progress_filled.png",
+      "type": "custommachinery:progress",
+      "x": 116,
+      "y": 49
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled.png",
+      "x": 15,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "input_will_factory",
+      "x": 119,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory1",
+      "x": 83,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory2",
+      "x": 101,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory3",
+      "x": 119,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory4",
+      "x": 137,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory5",
+      "x": 155,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage.png",
+      "type": "custommachinery:fluid",
+      "x": 223,
+      "y": 30,
+      "id": "life_essence_tank"
+    }
+  ],
+  "jei": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "text": "Will Crystals Factory",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_progress_filled.png",
+      "type": "custommachinery:progress",
+      "x": 116,
+      "y": 48
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled.png",
+      "x": 47,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "input_will_factory",
+      "x": 119,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory1",
+      "x": 83,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory2",
+      "x": 101,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory3",
+      "x": 119,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory4",
+      "x": 137,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_will_factory5",
+      "x": 155,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage.png",
+      "type": "custommachinery:fluid",
+      "x": 191,
+      "y": 30,
+      "id": "life_essence_tank"
+    }
+  ],
+  "catalysts": []
+}

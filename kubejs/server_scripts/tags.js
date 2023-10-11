@@ -187,6 +187,5 @@ onEvent('tags.blocks', e => {
     e.remove('forge:ores/silver', ['darkerdepths:silver_ore', 'immersiveengineering:deepslate_ore_silver', 'immersiveengineering:ore_silver', 'occultism:silver_ore_deepslate', 'occultism:silver_ore'])
 
     e.add('blue_skies:logs', ['blue_skies:stripped_dusk_wood', 'blue_skies:maple_wood', 'blue_skies:stripped_maple_wood', 'blue_skies:cherry_wood', 'blue_skies:stripped_cherry_wood', 'blue_skies:bluebright_log', 'blue_skies:stripped_bluebright_log', 'blue_skies:starlit_log', 'blue_skies:stripped_starlit_log', 'blue_skies:frostbright_log', 'blue_skies:stripped_frostbright_log', 'blue_skies:lunar_log', 'blue_skies:stripped_lunar_log', 'blue_skies:dusk_log', 'blue_skies:stripped_dusk_log', 'blue_skies:maple_log', 'blue_skies:stripped_maple_log', 'blue_skies:cherry_log', 'blue_skies:stripped_cherry_log', 'blue_skies:bluebright_wood', 'blue_skies:stripped_bluebright_wood', 'blue_skies:starlit_wood', 'blue_skies:stripped_starlit_wood', 'blue_skies:frostbright_wood', 'blue_skies:stripped_frostbright_wood', 'blue_skies:lunar_wood', 'blue_skies:stripped_lunar_wood', 'blue_skies:dusk_wood'])
-    // e.add('minecraft:beacon_base_blocks', [])
 
 })
