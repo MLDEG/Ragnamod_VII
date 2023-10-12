@@ -3858,6 +3858,7 @@
 			description: [
 				"The Frame Drawer is pretty fun to use, because you can custom your drawer like you want."
 				"{image:ftbquests:textures/quests/functional_drawer.png width:150 height:100 align:1}"
+				"Do NOT use block with connected texture."
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "47FAC14EE3D916E5"
