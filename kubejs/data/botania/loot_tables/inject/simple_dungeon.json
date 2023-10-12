@@ -1,0 +1,28 @@
+{
+  "__comment": "This table is injected as its own pool into minecraft:chests/simple_dungeon",
+  "pools": [{
+    "name": "main",
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "item",
+        "name": "botania:mana_bottle",
+        "weight": 10
+      },
+      {
+        "type": "item",
+        "name": "botania:black_lotus",
+        "weight": 5
+      },
+      {
+        "type": "item",
+        "name": "botania:overgrowth_seed",
+        "weight": 2
+      },
+      {
+        "type": "empty",
+        "weight": 38
+      }
+    ]
+  }]
+}
