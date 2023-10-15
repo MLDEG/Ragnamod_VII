@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 13
 	filename: "alchemistry"
-	title: "Alchemistry"
+	title: " Alchemistry"
 	icon: "alchemistry:combiner"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
@@ -25,11 +25,66 @@
 			x: -10.5d
 			y: -10.5d
 			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "4C123B389FEC43F7"
 			tasks: [{
 				id: "2A0AD4DFF9A1DE87"
 				type: "item"
 				item: "chemlib:hydrogen"
+			}]
+			rewards: [{
+				id: "3D1E4CE61B4C2B95"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:hydrogen"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:yellow_concrete"
+								particle: "minecraft:yellow_concrete"
+								front: "minecraft:yellow_concrete"
+								front_divider: "minecraft:yellow_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:yellow_concrete"
+							particle: "minecraft:yellow_concrete"
+							front: "minecraft:yellow_concrete"
+							front_divider: "minecraft:yellow_concrete"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -37,22 +92,132 @@
 			x: 2.5d
 			y: -9.5d
 			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "2F55EE4F7C905F32"
 			tasks: [{
 				id: "21800EBB10055EC9"
 				type: "item"
 				item: "chemlib:carbon"
 			}]
+			rewards: [{
+				id: "53F0E7DFDCB27C24"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:carbon"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:yellow_concrete"
+								particle: "minecraft:yellow_concrete"
+								front: "minecraft:yellow_concrete"
+								front_divider: "minecraft:yellow_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:yellow_concrete"
+							particle: "minecraft:yellow_concrete"
+							front: "minecraft:yellow_concrete"
+							front_divider: "minecraft:yellow_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Oxygen"
 			x: 4.5d
 			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "78AB4CDE098C05E2"
 			tasks: [{
 				id: "0FB77C3AE0111DB2"
 				type: "item"
 				item: "chemlib:oxygen"
+			}]
+			rewards: [{
+				id: "73840D293975677C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:oxygen"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:yellow_concrete"
+								particle: "minecraft:yellow_concrete"
+								front: "minecraft:yellow_concrete"
+								front_divider: "minecraft:yellow_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:yellow_concrete"
+							particle: "minecraft:yellow_concrete"
+							front: "minecraft:yellow_concrete"
+							front_divider: "minecraft:yellow_concrete"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -60,1259 +225,7698 @@
 			x: 3.5d
 			y: -9.5d
 			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "56C9C2AF2E54FE76"
 			tasks: [{
 				id: "39F38D5C076EBD5B"
 				type: "item"
 				item: "chemlib:nitrogen"
 			}]
+			rewards: [{
+				id: "3EC37C22DB6552C6"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:nitrogen"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:yellow_concrete"
+								particle: "minecraft:yellow_concrete"
+								front: "minecraft:yellow_concrete"
+								front_divider: "minecraft:yellow_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:yellow_concrete"
+							particle: "minecraft:yellow_concrete"
+							front: "minecraft:yellow_concrete"
+							front_divider: "minecraft:yellow_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Sulfur"
 			x: 4.5d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "3284FA0AD5AF0B46"
 			tasks: [{
 				id: "705012BC496E3240"
 				type: "item"
 				item: "chemlib:sulfur"
 			}]
+			rewards: [{
+				id: "354E6CB81B117731"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:sulfur"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:yellow_concrete"
+								particle: "minecraft:yellow_concrete"
+								front: "minecraft:yellow_concrete"
+								front_divider: "minecraft:yellow_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:yellow_concrete"
+							particle: "minecraft:yellow_concrete"
+							front: "minecraft:yellow_concrete"
+							front_divider: "minecraft:yellow_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "5DDD81010749786A"
 			tasks: [{
 				id: "54AD0A1AC2C7BE53"
 				type: "item"
 				item: "chemlib:zinc"
-				count: 16L
+			}]
+			rewards: [{
+				id: "031F3167D990C6CE"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:zinc"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: -0.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "3CAAE78A51E426EF"
 			tasks: [{
 				id: "3C55593C0A8DF1D8"
 				type: "item"
 				item: "chemlib:copper"
-				count: 16L
+			}]
+			rewards: [{
+				id: "4D61BE2F0961A08C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:copper"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: -9.5d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "0BE583CB4FBAE0D9"
 			tasks: [{
 				id: "10FA35D7183E0102"
 				type: "item"
 				item: "chemlib:magnesium"
 			}]
+			rewards: [{
+				id: "4D1B3016103442C8"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:magnesium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:red_concrete"
+								particle: "minecraft:red_concrete"
+								front: "minecraft:red_concrete"
+								front_divider: "minecraft:red_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:red_concrete"
+							particle: "minecraft:red_concrete"
+							front: "minecraft:red_concrete"
+							front_divider: "minecraft:red_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -10.5d
 			y: -9.5d
 			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "7A43ABA2FC2A0862"
 			tasks: [{
 				id: "219EC4C9DDEEC08A"
 				type: "item"
 				item: "chemlib:lithium"
 			}]
+			rewards: [{
+				id: "07CF2E6E5454258C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:lithium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:magenta_concrete"
+								particle: "minecraft:magenta_concrete"
+								front: "minecraft:magenta_concrete"
+								front_divider: "minecraft:magenta_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:magenta_concrete"
+							particle: "minecraft:magenta_concrete"
+							front: "minecraft:magenta_concrete"
+							front_divider: "minecraft:magenta_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "5B840FA7CBB1AB4D"
 			tasks: [{
 				id: "24B741DD77F67CAF"
 				type: "item"
 				item: "chemlib:manganese"
 			}]
+			rewards: [{
+				id: "06E160F46B34EE76"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:manganese"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "61482B380EF86C37"
 			tasks: [{
 				id: "7E35DAC3B6A1C3E4"
 				type: "item"
 				item: "chemlib:tungsten"
-				count: 16L
+			}]
+			rewards: [{
+				id: "636EFE311E194B4C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:tungsten"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: -3.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "73E26817D590CF2D"
 			tasks: [{
 				id: "7FE6C241B5F08AFB"
 				type: "item"
 				item: "chemlib:iron"
-				count: 16L
+			}]
+			rewards: [{
+				id: "03DDE4C00926019F"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:iron"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: -10.5d
 			y: -8.5d
 			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "221D0A5444304854"
 			tasks: [{
 				id: "3B5CA3AA90DB1686"
 				type: "item"
 				item: "chemlib:sodium"
 			}]
+			rewards: [{
+				id: "3EAFFAAE5CA6C4D2"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:sodium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:magenta_concrete"
+								particle: "minecraft:magenta_concrete"
+								front: "minecraft:magenta_concrete"
+								front_divider: "minecraft:magenta_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:magenta_concrete"
+							particle: "minecraft:magenta_concrete"
+							front: "minecraft:magenta_concrete"
+							front_divider: "minecraft:magenta_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "4B7437683548BA63"
 			tasks: [{
 				id: "403554C99520FED8"
 				type: "item"
 				item: "chemlib:chlorine"
 			}]
+			rewards: [{
+				id: "04159633DE8A74E4"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:chlorine"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:pink_concrete"
+								particle: "minecraft:pink_concrete"
+								front: "minecraft:pink_concrete"
+								front_divider: "minecraft:pink_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:pink_concrete"
+							particle: "minecraft:pink_concrete"
+							front: "minecraft:pink_concrete"
+							front_divider: "minecraft:pink_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -9.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "3C8051899371C4D0"
 			tasks: [{
 				id: "42672A38AAF25993"
 				type: "item"
 				item: "chemlib:strontium"
 			}]
+			rewards: [{
+				id: "6206D9BFBC0D0AF9"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:strontium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:red_concrete"
+								particle: "minecraft:red_concrete"
+								front: "minecraft:red_concrete"
+								front_divider: "minecraft:red_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:red_concrete"
+							particle: "minecraft:red_concrete"
+							front: "minecraft:red_concrete"
+							front_divider: "minecraft:red_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
 			y: -10.5d
 			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "3AEEFA69C4026D0A"
 			tasks: [{
 				id: "5BF96444B50B95B6"
 				type: "item"
 				item: "chemlib:helium"
 			}]
+			rewards: [{
+				id: "227B72A21884FD50"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:helium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:light_blue_concrete"
+								particle: "minecraft:light_blue_concrete"
+								front: "minecraft:light_blue_concrete"
+								front_divider: "minecraft:light_blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:light_blue_concrete"
+							particle: "minecraft:light_blue_concrete"
+							front: "minecraft:light_blue_concrete"
+							front_divider: "minecraft:light_blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -9.5d
 			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "4D7B0431E8A054B0"
 			tasks: [{
 				id: "7AB9B613CF8EC97C"
 				type: "item"
 				item: "chemlib:beryllium"
 			}]
+			rewards: [{
+				id: "1A5DF7379ECABF52"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:beryllium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:red_concrete"
+								particle: "minecraft:red_concrete"
+								front: "minecraft:red_concrete"
+								front_divider: "minecraft:red_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:red_concrete"
+							particle: "minecraft:red_concrete"
+							front: "minecraft:red_concrete"
+							front_divider: "minecraft:red_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -10.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "35E283A488E7CD92"
 			tasks: [{
 				id: "7304DC5B6F2AE4EA"
 				type: "item"
 				item: "chemlib:potassium"
 			}]
+			rewards: [{
+				id: "43B64E467D324B59"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:potassium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:magenta_concrete"
+								particle: "minecraft:magenta_concrete"
+								front: "minecraft:magenta_concrete"
+								front_divider: "minecraft:magenta_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:magenta_concrete"
+							particle: "minecraft:magenta_concrete"
+							front: "minecraft:magenta_concrete"
+							front_divider: "minecraft:magenta_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -9.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "2DF1C52053C89572"
 			tasks: [{
 				id: "5F98DCC0D60A8FE7"
 				type: "item"
 				item: "chemlib:calcium"
 			}]
+			rewards: [{
+				id: "2DB8F8E699684967"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:calcium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:red_concrete"
+								particle: "minecraft:red_concrete"
+								front: "minecraft:red_concrete"
+								front_divider: "minecraft:red_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:red_concrete"
+							particle: "minecraft:red_concrete"
+							front: "minecraft:red_concrete"
+							front_divider: "minecraft:red_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -8.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "459E2F304B9302AA"
 			tasks: [{
 				id: "37A035A3F1EA0634"
 				type: "item"
 				item: "chemlib:scandium"
 			}]
+			rewards: [{
+				id: "3AA97BCBCD958C55"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:scandium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "0DEFD5735FAC526D"
 			tasks: [{
 				id: "1FE3CEF5C56F39B5"
 				type: "item"
 				item: "chemlib:titanium"
 			}]
+			rewards: [{
+				id: "759A44EBD7447FCE"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:titanium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "5B53474EB158C433"
 			tasks: [{
 				id: "08BE2942AF7E9776"
 				type: "item"
 				item: "chemlib:vanadium"
 			}]
+			rewards: [{
+				id: "3015639A8BB408DA"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:vanadium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "09D99CD15B107836"
 			tasks: [{
 				id: "017CDD0D4BF942DF"
 				type: "item"
 				item: "chemlib:chromium"
 			}]
+			rewards: [{
+				id: "12181E0E271C9007"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:chromium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "16F46EE2439E20A6"
 			tasks: [{
 				id: "0F5AB9A74EA3ADF7"
 				type: "item"
 				item: "chemlib:cobalt"
 			}]
+			rewards: [{
+				id: "123011AD737B67CE"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:cobalt"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "6AE5D181AADF3145"
 			tasks: [{
 				id: "6BAA3AC965E8D0F2"
 				type: "item"
 				item: "chemlib:nickel"
 			}]
+			rewards: [{
+				id: "495F1DA21FCEE0DE"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:nickel"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
 			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"49D3E191FDBAB0E2"
+				"75286F7DEE67DEB1"
+			]
+			dependency_requirement: "one_completed"
 			id: "7A5DFD6BF35FFDF9"
 			tasks: [{
 				id: "0327A2C0346749B4"
 				type: "item"
 				item: "chemlib:neon"
 			}]
+			rewards: [{
+				id: "448D31CD5077D040"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:neon"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:light_blue_concrete"
+								particle: "minecraft:light_blue_concrete"
+								front: "minecraft:light_blue_concrete"
+								front_divider: "minecraft:light_blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:light_blue_concrete"
+							particle: "minecraft:light_blue_concrete"
+							front: "minecraft:light_blue_concrete"
+							front_divider: "minecraft:light_blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "7802404667C93424"
 			tasks: [{
 				id: "174187CAD2ADD191"
 				type: "item"
 				item: "chemlib:fluorine"
 			}]
+			rewards: [{
+				id: "6FC5178394618092"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:fluorine"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:pink_concrete"
+								particle: "minecraft:pink_concrete"
+								front: "minecraft:pink_concrete"
+								front_divider: "minecraft:pink_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:pink_concrete"
+							particle: "minecraft:pink_concrete"
+							front: "minecraft:pink_concrete"
+							front_divider: "minecraft:pink_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "1342E5F7B1AB2FDF"
 			tasks: [{
 				id: "2B259041E906F9A5"
 				type: "item"
 				item: "chemlib:boron"
 			}]
+			rewards: [{
+				id: "54D690018230037C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:boron"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:lime_concrete"
+								particle: "minecraft:lime_concrete"
+								front: "minecraft:lime_concrete"
+								front_divider: "minecraft:lime_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:lime_concrete"
+							particle: "minecraft:lime_concrete"
+							front: "minecraft:lime_concrete"
+							front_divider: "minecraft:lime_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "16EAD9030FF93E05"
 			tasks: [{
 				id: "777417E280F6970F"
 				type: "item"
 				item: "chemlib:argon"
 			}]
+			rewards: [{
+				id: "720FC34D56519A86"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:argon"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:light_blue_concrete"
+								particle: "minecraft:light_blue_concrete"
+								front: "minecraft:light_blue_concrete"
+								front_divider: "minecraft:light_blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:light_blue_concrete"
+							particle: "minecraft:light_blue_concrete"
+							front: "minecraft:light_blue_concrete"
+							front_divider: "minecraft:light_blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "16CB31A221FD9C6E"
 			tasks: [{
 				id: "41D499C200A7EFDC"
 				type: "item"
 				item: "chemlib:phosphorus"
 			}]
+			rewards: [{
+				id: "6F318C0D3803BF92"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:phosphorus"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:yellow_concrete"
+								particle: "minecraft:yellow_concrete"
+								front: "minecraft:yellow_concrete"
+								front_divider: "minecraft:yellow_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:yellow_concrete"
+							particle: "minecraft:yellow_concrete"
+							front: "minecraft:yellow_concrete"
+							front_divider: "minecraft:yellow_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "04F4FE6DC2BDAE54"
 			tasks: [{
 				id: "7B64ACAC6F7EB05C"
 				type: "item"
 				item: "chemlib:silicon"
 			}]
+			rewards: [{
+				id: "15EC25C5844EB74C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:silicon"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:lime_concrete"
+								particle: "minecraft:lime_concrete"
+								front: "minecraft:lime_concrete"
+								front_divider: "minecraft:lime_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:lime_concrete"
+							particle: "minecraft:lime_concrete"
+							front: "minecraft:lime_concrete"
+							front_divider: "minecraft:lime_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "729BB055698A78DA"
 			tasks: [{
 				id: "5F273FB3162BAC13"
 				type: "item"
 				item: "chemlib:aluminum"
 			}]
+			rewards: [{
+				id: "5039E1FAD162792B"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:aluminum"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -10.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "43F2A525304F392B"
 			tasks: [{
 				id: "47AB7439F8533B51"
 				type: "item"
 				item: "chemlib:rubidium"
 			}]
+			rewards: [{
+				id: "15039AEBE431EA83"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:rubidium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:magenta_concrete"
+								particle: "minecraft:magenta_concrete"
+								front: "minecraft:magenta_concrete"
+								front_divider: "minecraft:magenta_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:magenta_concrete"
+							particle: "minecraft:magenta_concrete"
+							front: "minecraft:magenta_concrete"
+							front_divider: "minecraft:magenta_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -8.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "3D33D7CF35ED90D3"
 			tasks: [{
 				id: "7E43D51D5B2C7ACC"
 				type: "item"
 				item: "chemlib:yttrium"
 			}]
+			rewards: [{
+				id: "225E48E0D44DBBBB"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:yttrium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "0A512C0FDD1A5690"
 			tasks: [{
 				id: "1FAB699FC46C24DB"
 				type: "item"
 				item: "chemlib:gallium"
 			}]
+			rewards: [{
+				id: "058DFC82F7B6863A"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:gallium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "10BD5DD3E5B1D5DF"
 			tasks: [{
 				id: "4AC05BFB083BE2D2"
 				type: "item"
 				item: "chemlib:germanium"
 			}]
+			rewards: [{
+				id: "792713BD17F781AC"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:germanium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:lime_concrete"
+								particle: "minecraft:lime_concrete"
+								front: "minecraft:lime_concrete"
+								front_divider: "minecraft:lime_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:lime_concrete"
+							particle: "minecraft:lime_concrete"
+							front: "minecraft:lime_concrete"
+							front_divider: "minecraft:lime_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "74865D9D3FD54878"
 			tasks: [{
 				id: "6A254F2E60369F99"
 				type: "item"
 				item: "chemlib:arsenic"
 			}]
+			rewards: [{
+				id: "4331FD049FF7375D"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:arsenic"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:lime_concrete"
+								particle: "minecraft:lime_concrete"
+								front: "minecraft:lime_concrete"
+								front_divider: "minecraft:lime_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:lime_concrete"
+							particle: "minecraft:lime_concrete"
+							front: "minecraft:lime_concrete"
+							front_divider: "minecraft:lime_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 4.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "788D65C5434E2EB6"
 			tasks: [{
 				id: "0F17CB0253F526AF"
 				type: "item"
 				item: "chemlib:selenium"
 			}]
+			rewards: [{
+				id: "664FDFBE1EC46BCB"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:selenium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:yellow_concrete"
+								particle: "minecraft:yellow_concrete"
+								front: "minecraft:yellow_concrete"
+								front_divider: "minecraft:yellow_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:yellow_concrete"
+							particle: "minecraft:yellow_concrete"
+							front: "minecraft:yellow_concrete"
+							front_divider: "minecraft:yellow_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "286E1B557270C7CD"
 			tasks: [{
 				id: "1D6DC527A0C8EA14"
 				type: "item"
 				item: "chemlib:bromine"
 			}]
+			rewards: [{
+				id: "07B4E9764AE334B3"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:bromine"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:pink_concrete"
+								particle: "minecraft:pink_concrete"
+								front: "minecraft:pink_concrete"
+								front_divider: "minecraft:pink_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:pink_concrete"
+							particle: "minecraft:pink_concrete"
+							front: "minecraft:pink_concrete"
+							front_divider: "minecraft:pink_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "3E691572BC9C914F"
 			tasks: [{
 				id: "29D58927A93FB9C9"
 				type: "item"
 				item: "chemlib:krypton"
 			}]
+			rewards: [{
+				id: "63795FC81E149831"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:krypton"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:light_blue_concrete"
+								particle: "minecraft:light_blue_concrete"
+								front: "minecraft:light_blue_concrete"
+								front_divider: "minecraft:light_blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:light_blue_concrete"
+							particle: "minecraft:light_blue_concrete"
+							front: "minecraft:light_blue_concrete"
+							front_divider: "minecraft:light_blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "4CBBE160A6D8F509"
 			tasks: [{
 				id: "7D9E376D026EBE68"
 				type: "item"
 				item: "chemlib:zirconium"
 			}]
+			rewards: [{
+				id: "320FDCD810459A1E"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:zirconium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "5E352BF89B76E50A"
 			tasks: [{
 				id: "4C73E4BD58351401"
 				type: "item"
 				item: "chemlib:niobium"
 			}]
+			rewards: [{
+				id: "69CD451A1AB7EF82"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:niobium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "122F1C9A0AC01501"
 			tasks: [{
 				id: "1F1EF539C4342454"
 				type: "item"
 				item: "chemlib:molybdenum"
 			}]
+			rewards: [{
+				id: "66968CB4387A6682"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:molybdenum"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
 			y: -6.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "648777D252346880"
 			tasks: [{
 				id: "15B30FC8F2583953"
 				type: "item"
 				item: "chemlib:technetium"
 			}]
+			rewards: [{
+				id: "07D60E0760FF08C7"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:technetium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -3.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "1155210875FB90E2"
 			tasks: [{
 				id: "6FA03A9B2466C6FE"
 				type: "item"
 				item: "chemlib:ruthenium"
 			}]
+			rewards: [{
+				id: "5A881D9DB696F8D3"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:ruthenium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "555001E30C4DE7F1"
 			tasks: [{
 				id: "4858C873D366DF9D"
 				type: "item"
 				item: "chemlib:rhodium"
 			}]
+			rewards: [{
+				id: "1720D92F4C20AF95"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:rhodium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "0D2A7F2BC0B383DC"
 			tasks: [{
 				id: "6B9CBDE508FEF088"
 				type: "item"
 				item: "chemlib:palladium"
 			}]
+			rewards: [{
+				id: "132A1DF0503A9894"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:palladium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "3B47114FC1CCD970"
 			tasks: [{
 				id: "3192840E36DE09FB"
 				type: "item"
 				item: "chemlib:silver"
 			}]
+			rewards: [{
+				id: "15CF882F1A619BCC"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:silver"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "1D1D537F91219E77"
 			tasks: [{
 				id: "776974B882A57897"
 				type: "item"
 				item: "chemlib:cadmium"
 			}]
+			rewards: [{
+				id: "27475BECD3CBF57A"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:cadmium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "692550B2C8F182C4"
 			tasks: [{
 				id: "30F063BA807C614B"
 				type: "item"
 				item: "chemlib:tin"
 			}]
+			rewards: [{
+				id: "4FDD47A7E35D38E3"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:tin"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 4.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "36A2EA0EFC521D87"
 			tasks: [{
 				id: "50C3D7C86EAA5BEC"
 				type: "item"
 				item: "chemlib:tellurium"
 			}]
+			rewards: [{
+				id: "1F3AA716BC229CA3"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:tellurium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:lime_concrete"
+								particle: "minecraft:lime_concrete"
+								front: "minecraft:lime_concrete"
+								front_divider: "minecraft:lime_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:lime_concrete"
+							particle: "minecraft:lime_concrete"
+							front: "minecraft:lime_concrete"
+							front_divider: "minecraft:lime_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "51D8C732E13DAF18"
 			tasks: [{
 				id: "4EA1015C7108DF40"
 				type: "item"
 				item: "chemlib:iodine"
 			}]
+			rewards: [{
+				id: "5ADBA230BFD148CA"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:iodine"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:pink_concrete"
+								particle: "minecraft:pink_concrete"
+								front: "minecraft:pink_concrete"
+								front_divider: "minecraft:pink_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:pink_concrete"
+							particle: "minecraft:pink_concrete"
+							front: "minecraft:pink_concrete"
+							front_divider: "minecraft:pink_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "248114CE358C3B4F"
 			tasks: [{
 				id: "0E0404FFACC12861"
 				type: "item"
 				item: "chemlib:xenon"
 			}]
+			rewards: [{
+				id: "35FA06AB70F0E167"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:xenon"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:light_blue_concrete"
+								particle: "minecraft:light_blue_concrete"
+								front: "minecraft:light_blue_concrete"
+								front_divider: "minecraft:light_blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:light_blue_concrete"
+							particle: "minecraft:light_blue_concrete"
+							front: "minecraft:light_blue_concrete"
+							front_divider: "minecraft:light_blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "491E129E37A3E677"
 			tasks: [{
 				id: "37834C104210193C"
 				type: "item"
 				item: "chemlib:indium"
 			}]
+			rewards: [{
+				id: "221F95FCBE5308ED"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:indium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "0F37333B93C9862A"
 			tasks: [{
 				id: "10729F033400B319"
 				type: "item"
 				item: "chemlib:antimony"
 			}]
+			rewards: [{
+				id: "62DAB37C64CC95F4"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:antimony"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:lime_concrete"
+								particle: "minecraft:lime_concrete"
+								front: "minecraft:lime_concrete"
+								front_divider: "minecraft:lime_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:lime_concrete"
+							particle: "minecraft:lime_concrete"
+							front: "minecraft:lime_concrete"
+							front_divider: "minecraft:lime_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "01DBE64351350275"
 			tasks: [{
 				id: "4A1B684BDC1030F6"
 				type: "item"
 				item: "chemlib:hafnium"
 			}]
+			rewards: [{
+				id: "23BB5C5692B5ABB1"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:hafnium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "0C40F0C83904EF51"
 			tasks: [{
 				id: "040C88401FD4D16D"
 				type: "item"
 				item: "chemlib:tantalum"
 			}]
+			rewards: [{
+				id: "3A23EE857C347A3F"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:tantalum"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "1E9A22D718D2E47B"
 			tasks: [{
 				id: "15C2868BDA91061A"
 				type: "item"
 				item: "chemlib:rhenium"
 			}]
+			rewards: [{
+				id: "128C37CD786D79E9"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:rhenium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -3.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "365556D774C36D86"
 			tasks: [{
 				id: "43B1DED3CAA9E07C"
 				type: "item"
 				item: "chemlib:osmium"
 			}]
+			rewards: [{
+				id: "6BC7FC1DFF0F1B76"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:osmium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "7599C778D8891240"
 			tasks: [{
 				id: "0DE2578295C568B0"
 				type: "item"
 				item: "chemlib:iridium"
 			}]
+			rewards: [{
+				id: "6569ACBCC40EDA4B"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:iridium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "42C00D2AEE963D9D"
 			tasks: [{
 				id: "632134767D519ED0"
 				type: "item"
 				item: "chemlib:platinum"
 			}]
+			rewards: [{
+				id: "063BAA9F9F73E2A6"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:platinum"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "3E8F1A7F4BFDACC5"
 			tasks: [{
 				id: "617F6BCF0B1EFE25"
 				type: "item"
 				item: "chemlib:gold"
 			}]
+			rewards: [{
+				id: "195E9FFEDC8BDA2D"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:gold"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "02787B34B0E699A0"
 			tasks: [{
 				id: "0E1FE5FA5BCD6DDF"
 				type: "item"
 				item: "chemlib:mercury"
 			}]
+			rewards: [{
+				id: "3AF3F4DB6ED49557"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:mercury"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "2D9C226620AABAD6"
 			tasks: [{
 				id: "63D2FF75AC495F3F"
 				type: "item"
 				item: "chemlib:lead"
 			}]
+			rewards: [{
+				id: "711C94E95CF1604F"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:lead"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "769B5C82D0FF830A"
 			tasks: [{
 				id: "0085E2D0818F438C"
 				type: "item"
 				item: "chemlib:bismuth"
 			}]
+			rewards: [{
+				id: "2B502BBB1B96E9F7"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:bismuth"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 4.5d
 			y: -5.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "45ECE3DDBB3AC98D"
 			tasks: [{
 				id: "2177004129E5262C"
 				type: "item"
 				item: "chemlib:polonium"
 			}]
+			rewards: [{
+				id: "3EE687678A3D4787"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:polonium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -5.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "54452A9EF523A233"
 			tasks: [{
 				id: "59D51B7A9CA8B45B"
 				type: "item"
 				item: "chemlib:astatine"
 			}]
+			rewards: [{
+				id: "55A9E3E9AD0259C4"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:astatine"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:pink_concrete"
+								particle: "minecraft:pink_concrete"
+								front: "minecraft:pink_concrete"
+								front_divider: "minecraft:pink_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:pink_concrete"
+							particle: "minecraft:pink_concrete"
+							front: "minecraft:pink_concrete"
+							front_divider: "minecraft:pink_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "1E2FF0060919E051"
 			tasks: [{
 				id: "4E49DAA0CB387344"
 				type: "item"
 				item: "chemlib:thallium"
 			}]
+			rewards: [{
+				id: "19B48DA39002C32B"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:thallium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:blue_concrete"
+								particle: "minecraft:blue_concrete"
+								front: "minecraft:blue_concrete"
+								front_divider: "minecraft:blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:blue_concrete"
+							particle: "minecraft:blue_concrete"
+							front: "minecraft:blue_concrete"
+							front_divider: "minecraft:blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
 			y: -5.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "17FAA8C76347A5B2"
 			tasks: [{
 				id: "6C8CE9C0146BC69B"
 				type: "item"
 				item: "chemlib:radon"
 			}]
+			rewards: [{
+				id: "19853FCF5AB96D81"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:radon"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:light_blue_concrete"
+								particle: "minecraft:light_blue_concrete"
+								front: "minecraft:light_blue_concrete"
+								front_divider: "minecraft:light_blue_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:light_blue_concrete"
+							particle: "minecraft:light_blue_concrete"
+							front: "minecraft:light_blue_concrete"
+							front_divider: "minecraft:light_blue_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -10.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "4A61770639EC362F"
 			tasks: [{
 				id: "18706656D51D1B11"
 				type: "item"
 				item: "chemlib:cesium"
 			}]
+			rewards: [{
+				id: "4239438C051FDADE"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:cesium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:magenta_concrete"
+								particle: "minecraft:magenta_concrete"
+								front: "minecraft:magenta_concrete"
+								front_divider: "minecraft:magenta_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:magenta_concrete"
+							particle: "minecraft:magenta_concrete"
+							front: "minecraft:magenta_concrete"
+							front_divider: "minecraft:magenta_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -9.5d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "7E67052203B6B024"
 			tasks: [{
 				id: "20F92C443CEC48F1"
 				type: "item"
 				item: "chemlib:barium"
 			}]
+			rewards: [{
+				id: "093DFFC2C636763F"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:barium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:red_concrete"
+								particle: "minecraft:red_concrete"
+								front: "minecraft:red_concrete"
+								front_divider: "minecraft:red_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:red_concrete"
+							particle: "minecraft:red_concrete"
+							front: "minecraft:red_concrete"
+							front_divider: "minecraft:red_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -10.5d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "3E54BAB0CF6B4E75"
 			tasks: [{
 				id: "36F905C156CBEAF4"
 				type: "item"
 				item: "chemlib:francium"
 			}]
+			rewards: [{
+				id: "78E58CD664FEF4A5"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:francium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:magenta_concrete"
+								particle: "minecraft:magenta_concrete"
+								front: "minecraft:magenta_concrete"
+								front_divider: "minecraft:magenta_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:magenta_concrete"
+							particle: "minecraft:magenta_concrete"
+							front: "minecraft:magenta_concrete"
+							front_divider: "minecraft:magenta_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -9.5d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "385361F71558755C"
 			tasks: [{
 				id: "0693EB709554F0DD"
 				type: "item"
 				item: "chemlib:radium"
 			}]
+			rewards: [{
+				id: "02D11B55CCF29EB1"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:radium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:red_concrete"
+								particle: "minecraft:red_concrete"
+								front: "minecraft:red_concrete"
+								front_divider: "minecraft:red_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:red_concrete"
+							particle: "minecraft:red_concrete"
+							front: "minecraft:red_concrete"
+							front_divider: "minecraft:red_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "4A91A399AB4FF14A"
 			tasks: [{
 				id: "0FDF10A578985021"
 				type: "item"
 				item: "chemlib:rutherfordium"
 			}]
+			rewards: [{
+				id: "0816ABFBCB830821"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:rutherfordium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -3.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "317FFB2874D98708"
 			tasks: [{
 				id: "244ADF3B8D20BC59"
 				type: "item"
 				item: "chemlib:hassium"
 			}]
+			rewards: [{
+				id: "7767635184772EE5"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:hassium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "280B72179F1CF15F"
 			tasks: [{
 				id: "53B3B0D0AE604B85"
 				type: "item"
 				item: "chemlib:bohrium"
 			}]
+			rewards: [{
+				id: "586F7FF21509D672"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:bohrium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "2679CD44BACAE873"
 			tasks: [{
 				id: "10515C6BED2DAFCC"
 				type: "item"
 				item: "chemlib:seaborgium"
 			}]
+			rewards: [{
+				id: "46FB4B4958501590"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:seaborgium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "6B14767652141CE2"
 			tasks: [{
 				id: "704AD8A98B2DA798"
 				type: "item"
 				item: "chemlib:dubnium"
 			}]
+			rewards: [{
+				id: "7AD879F04E763C61"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:dubnium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:cyan_concrete"
+								particle: "minecraft:cyan_concrete"
+								front: "minecraft:cyan_concrete"
+								front_divider: "minecraft:cyan_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:cyan_concrete"
+							particle: "minecraft:cyan_concrete"
+							front: "minecraft:cyan_concrete"
+							front_divider: "minecraft:cyan_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "4F106D3811C1146D"
 			tasks: [{
 				id: "6D66F3179754B2DA"
 				type: "item"
 				item: "chemlib:darmstadtium"
 			}]
+			rewards: [{
+				id: "4C3DC86EB492893E"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:darmstadtium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "2DE6C89263C46D11"
 			tasks: [{
 				id: "70D18E992E305879"
 				type: "item"
 				item: "chemlib:meitnerium"
 			}]
+			rewards: [{
+				id: "6008F5997C7FB225"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:meitnerium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "70500F436A576C88"
 			tasks: [{
 				id: "5BE01969057B2FA5"
 				type: "item"
 				item: "chemlib:roentgenium"
 			}]
+			rewards: [{
+				id: "54E46E07553B13BF"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:roentgenium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "377A9C8271AB78AD"
 			tasks: [{
 				id: "7F8068F806FBED67"
 				type: "item"
 				item: "chemlib:copernicium"
 			}]
+			rewards: [{
+				id: "63BE5BA2FC48F4D2"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:copernicium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "4A1F2E655567CC8A"
 			tasks: [{
 				id: "2FAD97EAE5D3B386"
 				type: "item"
 				item: "chemlib:nihonium"
 			}]
+			rewards: [{
+				id: "5204833D249B3349"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:nihonium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "412E78B911A93D9D"
 			tasks: [{
 				id: "4B08F9537585949D"
 				type: "item"
 				item: "chemlib:flerovium"
 			}]
+			rewards: [{
+				id: "012F88FB6A648712"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:flerovium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "2C71AD65D752007D"
 			tasks: [{
 				id: "6C124C74F76F1177"
 				type: "item"
 				item: "chemlib:moscovium"
 			}]
+			rewards: [{
+				id: "16A14C578F417C1F"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:moscovium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "3898D4B7003B8D08"
 			tasks: [{
 				id: "0D555755F4B763A4"
 				type: "item"
 				item: "chemlib:tennessine"
 			}]
+			rewards: [{
+				id: "360D8471869F46CA"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:tennessine"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 4.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "5D69CBA9475E22AD"
 			tasks: [{
 				id: "32D379092F294F10"
 				type: "item"
 				item: "chemlib:livermorium"
 			}]
+			rewards: [{
+				id: "1BDB21122974C0E4"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:livermorium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
 			y: -4.5d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "0E6228D17ABFE396"
 			tasks: [{
 				id: "631EAB3FF06E9A88"
 				type: "item"
 				item: "chemlib:oganesson"
 			}]
+			rewards: [{
+				id: "1B84F8EEAC537AA8"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:oganesson"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:brown_concrete"
+								particle: "minecraft:brown_concrete"
+								front: "minecraft:brown_concrete"
+								front_divider: "minecraft:brown_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:brown_concrete"
+							particle: "minecraft:brown_concrete"
+							front: "minecraft:brown_concrete"
+							front_divider: "minecraft:brown_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -8.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "0526D01089679821"
 			tasks: [{
 				id: "5CB6E5F13D88D48D"
 				type: "item"
 				item: "chemlib:lanthanum"
 			}]
+			rewards: [{
+				id: "04929D0CD7068160"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:lanthanum"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "154A964AEE93C61D"
 			tasks: [{
 				id: "51179E8BF6130975"
 				type: "item"
 				item: "chemlib:cerium"
 			}]
+			rewards: [{
+				id: "0E09A8C944E2576D"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:cerium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "7F60C4B98D59058C"
 			tasks: [{
 				id: "1A9259BEFD38A704"
 				type: "item"
 				item: "chemlib:neodymium"
 			}]
+			rewards: [{
+				id: "5B335370B8E8A8B5"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:neodymium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"75286F7DEE67DEB1"
+				"49D3E191FDBAB0E2"
+			]
+			dependency_requirement: "one_completed"
 			id: "3537802F250451DA"
 			tasks: [{
 				id: "272DB07C800A6577"
 				type: "item"
 				item: "chemlib:praseodymium"
 			}]
+			rewards: [{
+				id: "666C5669ADD8B602"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:praseodymium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
 			y: -3.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "66DA47A93896C758"
 			tasks: [{
 				id: "720E9DB6A6D200E5"
 				type: "item"
 				item: "chemlib:promethium"
 			}]
+			rewards: [{
+				id: "7C5C9729353F1C3D"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:promethium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -3.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "47C74F1A08DD2DEB"
 			tasks: [{
 				id: "31093F1910435416"
 				type: "item"
 				item: "chemlib:samarium"
 			}]
+			rewards: [{
+				id: "6577A15205AA73F0"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:samarium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "7544FF81F832C677"
 			tasks: [{
 				id: "736B625E08736EF1"
 				type: "item"
 				item: "chemlib:europium"
 			}]
+			rewards: [{
+				id: "0C2061908589A5DE"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:europium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "14798B3C47FE1CEB"
 			tasks: [{
 				id: "0D5260FA0B6DEE00"
 				type: "item"
 				item: "chemlib:gadolinium"
 			}]
+			rewards: [{
+				id: "4B585A87A5940A83"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:gadolinium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "4D8335934714D058"
 			tasks: [{
 				id: "23AACB8175D5F9B0"
 				type: "item"
 				item: "chemlib:dysprosium"
 			}]
+			rewards: [{
+				id: "2532AD7FEC1F6955"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:dysprosium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "41BAABEFA0C6BD7C"
 			tasks: [{
 				id: "709ADE08A47CE1E0"
 				type: "item"
 				item: "chemlib:holmium"
 			}]
+			rewards: [{
+				id: "19DE78F268BDA91F"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:holmium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "379821EF9A5E73E0"
 			tasks: [{
 				id: "5F9E1A083E65171C"
 				type: "item"
 				item: "chemlib:terbium"
 			}]
+			rewards: [{
+				id: "4DCDCFF2B241E58B"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:terbium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "2B9346C2B41891B1"
 			tasks: [{
 				id: "2AB45975F0105ACA"
 				type: "item"
 				item: "chemlib:erbium"
 			}]
+			rewards: [{
+				id: "047B3E31A75EC1C8"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:erbium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "77657FF0898E3BE8"
 			tasks: [{
 				id: "04CDF00A13EEA1E6"
 				type: "item"
 				item: "chemlib:thulium"
 			}]
+			rewards: [{
+				id: "3F0939431CD542DF"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:thulium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 4.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "026C8AE566807B75"
 			tasks: [{
 				id: "2A831C4F91818055"
 				type: "item"
 				item: "chemlib:ytterbium"
 			}]
+			rewards: [{
+				id: "53DEC34FCF6FC2E1"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:ytterbium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "30D732AED0DFB9BC"
 			tasks: [{
 				id: "38E48814667CC802"
 				type: "item"
 				item: "chemlib:lutetium"
 			}]
+			rewards: [{
+				id: "480BDFE87E7F3A30"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:lutetium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:purple_concrete"
+								particle: "minecraft:purple_concrete"
+								front: "minecraft:purple_concrete"
+								front_divider: "minecraft:purple_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:purple_concrete"
+							particle: "minecraft:purple_concrete"
+							front: "minecraft:purple_concrete"
+							front_divider: "minecraft:purple_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -8.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "493EE1FB3595EFC0"
 			tasks: [{
 				id: "28C1C572E8D4609B"
 				type: "item"
 				item: "chemlib:actinium"
 			}]
+			rewards: [{
+				id: "66CA30EA679C3989"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:actinium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "332EF98A4AB25F9D"
 			tasks: [{
 				id: "7642E35A4D9DBDFB"
 				type: "item"
 				item: "chemlib:thorium"
 			}]
+			rewards: [{
+				id: "2E3651557EE84680"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:thorium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -6.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "11D37DADA6F29E45"
 			tasks: [{
 				id: "384752A52219EBA2"
 				type: "item"
 				item: "chemlib:protactinium"
 			}]
+			rewards: [{
+				id: "40C0E5B8D04BB862"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:protactinium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "369DCB5AF3FED4C0"
 			tasks: [{
 				id: "2F05307AA9975EDA"
 				type: "item"
 				item: "chemlib:uranium"
 			}]
+			rewards: [{
+				id: "59FC75B4124BDDC9"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:uranium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "146F5CFCF3592FBA"
 			tasks: [{
 				id: "1DE3F0A45CCF9E1B"
 				type: "item"
 				item: "chemlib:neptunium"
 			}]
+			rewards: [{
+				id: "499BBFE1D7313A1C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:neptunium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "4644469878CADFB2"
 			tasks: [{
 				id: "133FDB2177D087EC"
 				type: "item"
 				item: "chemlib:americium"
 			}]
+			rewards: [{
+				id: "65E5CFFD81385168"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:americium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -3.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "634F8F2EA619528D"
 			tasks: [{
 				id: "1A5C0BB73649E634"
 				type: "item"
 				item: "chemlib:plutonium"
 			}]
+			rewards: [{
+				id: "5F0A25DAC7378406"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:plutonium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "0CCC490208236D1E"
 			tasks: [{
 				id: "0A9EF1E1A644EFB4"
 				type: "item"
 				item: "chemlib:curium"
 			}]
+			rewards: [{
+				id: "035C531AE64B2451"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:curium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "7F2E7188563D5177"
 			tasks: [{
 				id: "1B06C6B0F760E024"
 				type: "item"
 				item: "chemlib:berkelium"
 			}]
+			rewards: [{
+				id: "3F1C879909E7EC26"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:berkelium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "032FAAD56111420E"
 			tasks: [{
 				id: "66EECDB06615C1AA"
 				type: "item"
 				item: "chemlib:californium"
 			}]
+			rewards: [{
+				id: "713403EF8A4C9D0A"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:californium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 4.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "3C370D3A30132F02"
 			tasks: [{
 				id: "60FEC086DDE0DB78"
 				type: "item"
 				item: "chemlib:nobelium"
 			}]
+			rewards: [{
+				id: "28D84918AA376544"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:nobelium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "529C652017974256"
 			tasks: [{
 				id: "4D3FABEE97D3AAB1"
 				type: "item"
 				item: "chemlib:lawrencium"
 			}]
+			rewards: [{
+				id: "4B15B98F0981D93C"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:lawrencium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["5B79B72822AA6F6F"]
 			id: "6B78C6A4A159BCF3"
 			tasks: [{
 				id: "4F200B2C01EA0E72"
 				type: "item"
 				item: "chemlib:mendelevium"
 			}]
+			rewards: [{
+				id: "6F30F91F976E8F40"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:mendelevium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "55941D5827FEB832"
 			tasks: [{
 				id: "4603E21799BF0116"
 				type: "item"
 				item: "chemlib:fermium"
 			}]
+			rewards: [{
+				id: "063B513966F0BE90"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:fermium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -2.0d
 			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["49D3E191FDBAB0E2"]
 			id: "426E76A5BFB29A0C"
 			tasks: [{
 				id: "5B312C5648C3EC1B"
 				type: "item"
 				item: "chemlib:einsteinium"
 			}]
+			rewards: [{
+				id: "729AA254678F1F5B"
+				type: "item"
+				item: {
+					id: "functionalstorage:framed_1"
+					Count: 1b
+					tag: {
+						Tile: {
+							isCreative: 0b
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 1
+										Stack: {
+											id: "chemlib:einsteinium"
+											Count: 1b
+										}
+									}
+								}
+							}
+							mult: 1
+							isVoid: 0b
+							storageUpgrades: {
+								Size: 4
+								Items: [ ]
+							}
+							drawerOptions: {
+								TOGGLE_UPGRADES: 1b
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+							}
+							hasDowngrade: 0b
+							ForgeCaps: { }
+							utilityUpgrades: {
+								Size: 3
+								Items: [ ]
+							}
+							framedDrawerModelData: {
+								side: "minecraft:green_concrete"
+								particle: "minecraft:green_concrete"
+								front: "minecraft:green_concrete"
+								front_divider: "minecraft:green_concrete"
+							}
+						}
+						Style: {
+							side: "minecraft:green_concrete"
+							particle: "minecraft:green_concrete"
+							front: "minecraft:green_concrete"
+							front_divider: "minecraft:green_concrete"
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: -10.5d
+			x: -1.5d
 			y: -0.5d
+			description: [
+				"The Alchemistry Machine Frame is the core of any machine from Alchemistry."
+				"This frame was created for this modpack."
+			]
+			dependencies: ["53281223F73C2C0A"]
+			size: 2.0d
 			id: "2B8992AD09AC321C"
 			tasks: [{
 				id: "53E827196A5F456F"
 				type: "item"
 				item: "alchemistry:machine_frame"
 			}]
+			rewards: [{
+				id: "7B41F4ABF42B95F9"
+				type: "item"
+				item: "alchemistry:machine_frame"
+			}]
 		}
 		{
-			x: -9.5d
-			y: -0.5d
+			x: -0.5d
+			y: 1.0d
+			description: ["The Atomizer is a powered machine that is used to convert fluids into their equivalent Alchemistry elements or compounds."]
+			dependencies: ["2B8992AD09AC321C"]
 			id: "069D90EBEB0B162C"
 			tasks: [{
 				id: "6999A991075E2DD3"
 				type: "item"
 				item: "alchemistry:atomizer"
 			}]
+			rewards: [{
+				id: "3434CFB9CF5CABDF"
+				type: "item"
+				item: "alchemistry:atomizer"
+			}]
 		}
 		{
-			x: -8.5d
-			y: -0.5d
+			x: 0.5d
+			y: 0.5d
+			description: ["The Compactor is a powered machine that will allow you to form simple items by compacting their components."]
+			dependencies: ["2B8992AD09AC321C"]
 			id: "60DA8C672BA26417"
 			tasks: [{
 				id: "17AB641169AD0FD6"
 				type: "item"
 				item: "alchemistry:compactor"
 			}]
+			rewards: [{
+				id: "2901A2AAE867A25E"
+				type: "item"
+				item: "alchemistry:compactor"
+			}]
 		}
 		{
-			x: -7.5d
-			y: -0.5d
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"The Chemical Combiner is a powered machine, perhaps the most important machine of all in Alchemistry."
+				"It allows you to combine elements, compounds and occasionally other items to form new items."
+				"The combiner takes up to 4 input items similar to a 2x2 crafting grid, but unlike a crafting grid it allows each input slot to contain more than one item per craft."
+			]
+			dependencies: ["2B8992AD09AC321C"]
 			id: "3603C0516F526EE2"
 			tasks: [{
 				id: "321474712623F7CA"
 				type: "item"
 				item: "alchemistry:combiner"
 			}]
+			rewards: [{
+				id: "3906B1062D7AF34B"
+				type: "item"
+				item: "alchemistry:combiner"
+			}]
 		}
 		{
-			x: -6.5d
-			y: -0.5d
+			x: -3.5d
+			y: 0.5d
+			description: [
+				"The Chemical Dissolver is a powered machine, and it, along with the chemical Combiner are the most essential machines in Alchemistry."
+				"The Chemical Dissolver takes inputs and breaks them down into different chemical elements and compounds."
+			]
+			dependencies: ["2B8992AD09AC321C"]
 			id: "5B79B72822AA6F6F"
 			tasks: [{
 				id: "55000A6354820C42"
 				type: "item"
 				item: "alchemistry:dissolver"
 			}]
+			rewards: [{
+				id: "2997B7D4D79790E0"
+				type: "item"
+				item: "alchemistry:dissolver"
+			}]
 		}
 		{
-			x: -5.5d
-			y: -0.5d
+			x: -2.5d
+			y: 1.0d
+			description: ["The Liquifier is a powered machine that can be used to convert elements and compound into their fluid equivalents."]
+			dependencies: ["2B8992AD09AC321C"]
 			id: "3EE092F1BD79D9DE"
 			tasks: [{
 				id: "4ED349FE4E6A45A2"
 				type: "item"
 				item: "alchemistry:liquifier"
 			}]
+			rewards: [{
+				id: "2331371143F7E1FB"
+				type: "item"
+				item: "alchemistry:liquifier"
+			}]
 		}
 		{
+			title: "Fusion Multiblock"
+			icon: "alchemistry:fusion_chamber_controller"
 			x: -4.5d
-			y: -0.5d
+			y: -0.75d
+			description: [
+				"The Fusion Reactor allows you to fuse two elements together to create new elements."
+				"{image:ftbquests:textures/quests/alchemistry_fusion.png width:150 height:100 align:1}"
+				"Output will be decided by the sum of the atomic number of two inputs. See JEI for recipes."
+			]
+			dependencies: ["2B8992AD09AC321C"]
+			size: 1.5d
 			id: "49D3E191FDBAB0E2"
 			tasks: [
 				{
@@ -1351,10 +7955,26 @@
 					item: "alchemistry:reactor_energy"
 				}
 			]
+			rewards: [{
+				id: "268AF3F3EAB0AE54"
+				type: "item"
+				item: "alchemistry:reactor_casing"
+				count: 4
+				random_bonus: 8
+			}]
 		}
 		{
-			x: -3.5d
-			y: -0.5d
+			title: "Fission Multiblock"
+			icon: "alchemistry:fission_chamber_controller"
+			x: 1.5d
+			y: -0.75d
+			description: [
+				"The Fission Reactor allows you to split apart the very fabric that holds elements together."
+				"{image:ftbquests:textures/quests/alchemistry_fission.png width:150 height:100 align:1}"
+				"All elements except for Hydrogen can be split with the fission multiblock. See JEI for recipes."
+			]
+			dependencies: ["2B8992AD09AC321C"]
+			size: 1.5d
 			id: "75286F7DEE67DEB1"
 			tasks: [
 				{
@@ -1393,15 +8013,37 @@
 					item: "alchemistry:reactor_energy"
 				}
 			]
+			rewards: [{
+				id: "29DFF5ACB02884DD"
+				type: "item"
+				item: "alchemistry:reactor_casing"
+				count: 4
+				random_bonus: 8
+			}]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
+			x: -1.5d
+			y: 2.5d
+			description: ["Draconium Compound is used in the Compactor to create Draconium Dust."]
+			hide_dependency_lines: true
+			dependencies: [
+				"17FAA8C76347A5B2"
+				"248114CE358C3B4F"
+				"0E6228D17ABFE396"
+				"30D732AED0DFB9BC"
+				"3603C0516F526EE2"
+			]
 			id: "2EF42D4157A674AF"
 			tasks: [{
 				id: "7312BCC87C68FDA7"
 				type: "item"
 				item: "chemlib:draconium_compound"
+			}]
+			rewards: [{
+				id: "1041CCFB8C3CDDA0"
+				type: "item"
+				item: "chemlib:draconium_compound"
+				random_bonus: 3
 			}]
 		}
 	]
