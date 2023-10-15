@@ -1,59 +1,16 @@
 {
   "heartEntries": {
     "red": {
-      "minecraft:cow": 0.05,
-      "minecraft:pig": 0.05,
-      "minecraft:chicken": 0.05,
-      "minecraft:sheep": 0.05,
-      "minecraft:horse": 0.05,
-      "minecraft:donkey": 0.05,
-      "minecraft:mule": 0.05,
-      "minecraft:rabbit": 0.05,
-      "minecraft:squid": 0.05,
-      "minecraft:mooshroom": 0.05,
-      "minecraft:bat": 0.05,
-      "minecraft:parrot": 0.05,
-      "minecraft:ocelot": 0.05,
-      "minecraft:turtle": 0.05,
-      "minecraft:bee": 0.05,
-      "minecraft:cat": 0.05,
-      "minecraft:wolf": 0.05,
-      "minecraft:fox": 0.05,
-      "minecraft:strider": 0.05,
-      "minecraft:wandering_trader": 0.05,
-      "minecraft:cod": 0.05,
-      "minecraft:dolphine": 0.05,
-      "minecraft:llama": 0.05,
-      "minecraft:llama_trader": 0.05,
-      "minecraft:panda": 0.05,
-      "minecraft:polar_bear": 0.05,
-      "minecraft:pufferfish": 0.05,
-      "minecraft:salmon": 0.05,
-      "minecraft:tropical_fish": 0.05,
-      "minecraft:villager": 0.05,
-      "quark:crab": 0.05,
-      "quark:frog": 0.05,
-      "quark:stoneling": 0.05,
-      "quark:shiba": 0.05,
-      "quark:toretoise": 0.05,
-      "twilightforest:bighorn_sheep": 0.05,
-      "twilightforest:tiny_bird": 0.05,
-      "twilightforest:squirrel": 0.05,
-      "twilightforest:raven": 0.05,
-      "twilightforest:quest_ram": 0.05,
-      "twilightforest:penguin": 0.05,
-      "twilightforest:dwarf_rabbit": 0.05,
-      "twilightforest:deer": 0.05,
-      "twilightforest:boar": 0.05
+      "minecraft:cow": 0.0
     },
     "green": {
       "minecraft:ender_dragon": 0.0
     },
     "blue": {
-      "mythicbotany:alf_pixie": 0.1
+      "mythicbotany:alf_pixie": 0.0
     },
     "yellow": {
-      "boss": 1.0
+      "boss": 0.0
     }
   }
 }
