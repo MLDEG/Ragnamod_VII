@@ -14,7 +14,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/arc_furnace.png"
+			image: "ftbquests:textures/background/ie_arcfurnace.png"
 			hover: ["Arc Furnace"]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/assembler.png"
+			image: "ftbquests:textures/background/ie_assembler.png"
 			hover: ["Assembler"]
 			click: ""
 			dev: false
@@ -38,7 +38,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/automated_workbench.png"
+			image: "ftbquests:textures/background/ie_autoworkbench.png"
 			hover: ["Automated Workbench"]
 			click: ""
 			dev: false
@@ -50,7 +50,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/bottling_machine.png"
+			image: "ftbquests:textures/background/ie_bottler.png"
 			hover: ["Bottling Machine"]
 			click: ""
 			dev: false
@@ -62,7 +62,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/crusher.png"
+			image: "ftbquests:textures/background/ie_crusher.png"
 			hover: ["Crusher"]
 			click: ""
 			dev: false
@@ -74,7 +74,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/diesel_generator.png"
+			image: "ftbquests:textures/background/ie_dieselgenerator.png"
 			hover: ["Diesel Generator"]
 			click: ""
 			dev: false
@@ -86,7 +86,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/distillation_tower.png"
+			image: "ftbquests:textures/background/ie_distillation.png"
 			hover: ["Distillation Tower"]
 			click: ""
 			dev: false
@@ -98,7 +98,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/excavator.png"
+			image: "ftbquests:textures/background/ie_excavator.png"
 			hover: ["Excavator"]
 			click: ""
 			dev: false
@@ -110,20 +110,8 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/fermenter.png"
+			image: "ftbquests:textures/background/ie_fermenter.png"
 			hover: ["Fermenter"]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 4.0d
-			y: 3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "ftbquests:textures/lightning_rod.png"
-			hover: ["Lightning Rod"]
 			click: ""
 			dev: false
 			corner: false
@@ -134,7 +122,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/metal_press.png"
+			image: "ftbquests:textures/background/ie_metalpress.png"
 			hover: ["Metal Press"]
 			click: ""
 			dev: false
@@ -146,20 +134,8 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/mixer.png"
+			image: "ftbquests:textures/background/ie_mixer.png"
 			hover: ["Mixer"]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 0.0d
-			y: -3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "ftbquests:textures/pumpjack.png"
-			hover: ["Pumpjack"]
 			click: ""
 			dev: false
 			corner: false
@@ -170,7 +146,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/refinery.png"
+			image: "ftbquests:textures/background/ie_refinery.png"
 			hover: ["Refinery"]
 			click: ""
 			dev: false
@@ -182,7 +158,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/sawmill.png"
+			image: "ftbquests:textures/background/ie_sawmill.png"
 			hover: ["Sawmill"]
 			click: ""
 			dev: false
@@ -194,7 +170,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/squeezer.png"
+			image: "ftbquests:textures/background/ie_squeezer.png"
 			hover: ["Squeezer"]
 			click: ""
 			dev: false
@@ -206,8 +182,32 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "ftbquests:textures/coker.png"
+			image: "ftbquests:textures/background/ie_coker.png"
 			hover: ["Coker"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/ie_pumpjack.png"
+			hover: ["Pumpjack"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/ie_derrick.png"
+			hover: ["Derrick"]
 			click: ""
 			dev: false
 			corner: false
@@ -1061,57 +1061,6 @@
 			]
 		}
 		{
-			title: "Lightning Rod"
-			icon: "immersiveengineering:lightning_rod"
-			x: 3.5d
-			y: 1.5d
-			description: [
-				"The Lightning Rod is a 3x3x3 multiblock who can generate 16M RF per lightning strike."
-				""
-				"To get a lightning strike more easily on to your Lightning Rod, you need to put some Steel fence in the middle of this structure, the more you put, the better the chance you can get your strike."
-			]
-			dependencies: ["0000000000000786"]
-			id: "00000000000006F6"
-			tasks: [
-				{
-					id: "00000000000006F7"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 4L
-				}
-				{
-					id: "00000000000006F8"
-					type: "item"
-					item: "immersiveengineering:coil_hv"
-					count: 3L
-				}
-				{
-					id: "00000000000006F9"
-					type: "item"
-					item: "immersiveengineering:treated_fence"
-					count: 4L
-				}
-				{
-					id: "00000000000006FA"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 4L
-				}
-				{
-					id: "00000000000006FB"
-					type: "item"
-					item: "immersiveengineering:coil_lv"
-					count: 8L
-				}
-				{
-					id: "00000000000006FC"
-					type: "item"
-					item: "immersiveengineering:capacitor_hv"
-					count: 4L
-				}
-			]
-		}
-		{
 			title: "Metal Press"
 			icon: "immersiveengineering:metal_press"
 			x: 10.5d
@@ -1919,16 +1868,6 @@
 			}]
 		}
 		{
-			title: "Lightning Rod Quest"
-			x: 4.5d
-			y: 1.5d
-			id: "0000000000000786"
-			tasks: [{
-				id: "0000000000000787"
-				type: "checkmark"
-			}]
-		}
-		{
 			title: "Metal Press Quest"
 			x: 9.5d
 			y: -1.5d
@@ -2241,6 +2180,44 @@
 				type: "item"
 				item: "minecraft:charcoal"
 				count: 64
+			}]
+		}
+		{
+			icon: {
+				id: "immersivepetroleum:survey_result"
+				Count: 1b
+				tag: {
+					islandscan: {
+						amount: 15835741L
+						expected: 956
+						x: 852
+						z: 540
+						fluid: "immersivepetroleum:crudeoil"
+						status: 87b
+					}
+				}
+			}
+			x: 15.0d
+			y: -5.5d
+			id: "12FE884009B0DF1A"
+			tasks: [
+				{
+					id: "74B8F7E72D377691"
+					type: "item"
+					item: "immersivepetroleum:seismic_survey"
+				}
+				{
+					id: "2DCFCCD9F7BD680F"
+					type: "item"
+					item: "immersiveengineering:buckshot"
+				}
+			]
+			rewards: [{
+				id: "274CAD5B7718E92C"
+				type: "item"
+				item: "immersiveengineering:buckshot"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 	]
