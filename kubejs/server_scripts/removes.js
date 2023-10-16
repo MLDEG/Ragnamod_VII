@@ -477,7 +477,7 @@ onEvent('recipes', e => {
         'undergarden:smelt_depthrock_iron_ore',
         'undergarden:smelt_shiverstone_gold_ore',
         'undergarden:smelt_shiverstone_iron_ore',
-        
+
         'alchemistry:copper_ingot_from_blasting_copper_dust',
         'alchemistry:gold_ingot_from_blasting_gold_dust',
         'alchemistry:iron_ingot_from_blasting_iron_dust',
@@ -588,20 +588,14 @@ onEvent('recipes', e => {
         'ae2:blasting/silicon_from_certus_quartz_dust',
         'ae2:smelting/silicon_from_certus_quartz_dust',
         'create:fill_minecraft_bucket_with_tconstruct_honey',
-		'miniutilities:gold_angel_ring',
-		'miniutilities:ender_dragon_angel_ring',
-		'miniutilities:feather_angel_ring',
-		'miniutilities:bat_angel_ring',
-		'miniutilities:peacock_angel_ring',
-		'miniutilities:angel_ring_crafting',
-		'evilcraft:crafting/weather_container_lightning',
-		'evilcraft:crafting/weather_container_rain',
-
-
-
+        'miniutilities:gold_angel_ring',
+        'miniutilities:ender_dragon_angel_ring',
+        'miniutilities:feather_angel_ring',
+        'miniutilities:bat_angel_ring',
+        'miniutilities:peacock_angel_ring',
+        'miniutilities:angel_ring_crafting',
+        'evilcraft:crafting/weather_container_lightning',
+        'evilcraft:crafting/weather_container_rain',
     ]
     removeId.forEach(C => { r(C) })
-    
-
-
 })
