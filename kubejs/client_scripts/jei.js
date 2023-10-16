@@ -31,6 +31,14 @@ onEvent('jei.hide.items', e => {
 		/evilcraft:dark_tank/,
 		/ae2:facade/,
 		/titanium:/,
+		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"tconstruct:honey"}}]}}'),
+		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"cofh_core:honey"}}]}}'),
+		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"beyond_earth:oil"}}]}}'),
+		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"pneumaticcraft:oil"}}]}}'),
+		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:crude_oil"}}]}}'),
+		'thermal:crude_oil_bucket',
+		'pneumaticcraft:oil_bucket',
+		'tconstruct:honey_bucket',
 		'mekanism:ingot_steel',
 		'immersiveengineering:ingot_steel',
 		'chemlib:osmium_ingot',
@@ -288,7 +296,7 @@ onEvent('jei.hide.items', e => {
 		'ironfurnaces:upgrade_silver',
 		'ironfurnaces:upgrade_copper',
 		'ironfurnaces:upgrade_netherite',
-		'ironfurnaces:upgrade_crystal', 
+		'ironfurnaces:upgrade_crystal',
 		'ironfurnaces:upgrade_obsidian',
 		'ironfurnaces:upgrade_emerald',
 		'ironfurnaces:upgrade_diamond',
@@ -312,7 +320,11 @@ onEvent('jei.hide.items', e => {
 		'miniutilities:ender_dragon_angel_ring',
 		'miniutilities:feather_angel_ring',
 		'miniutilities:bat_angel_ring',
-		'miniutilities:peacock_angel_ring'
+		'miniutilities:peacock_angel_ring',
+		'custommachinery:machine_creator_item',
+		'custommachinery:structure_creator',
+		'custommachinery:box_creator_item',
+		'beyond_earth:oil_bucket',
 
 	])
 })
@@ -348,19 +360,17 @@ onEvent('jei.add.items', e => {
 		'cataclysm:witherite_ingot',
 		'cataclysm:enderite_ingot',
 		'cataclysm:witherite_block',
-		'cataclysm:enderite_block',
-		'custommachinery:machine_creator_item',
-		'custommachinery:structure_creator',
-		'custommachinery:box_creator_item'
+		'cataclysm:enderite_block'
 	])
 })
 
-onEvent('jei.hide.fluids', e => {
-	e.hide([
-		'cofh_core:honey',
-		'tconstruct:honey'
-	])
-  })
+onEvent('jei.hide.fluids', event => {
+	event.hide('cofh_core:honey')
+	event.hide('tconstruct:honey')
+	event.hide('beyond_earth:oil')
+	event.hide('pneumaticcraft:oil')
+	event.hide('thermal:crude_oil')
+})
 
 onEvent('jei.remove.categories', e => {
 	// console.log(e.getCategoryIds())	
@@ -373,7 +383,7 @@ onEvent('jei.information', e => {
 	e.add('bhc:yellow_heart', ['Drop from bosses'])
 	e.add('bhc:green_heart', ['Drop from Piglin Bathering'])
 	e.add('bhc:blue_heart', ['Drop from Pixies from Alfeim'])
-  })
+})
 
 //Tooltips ChemLib
 onEvent('item.tooltip', tooltip => {
@@ -408,16 +418,16 @@ onEvent('item.tooltip', tooltip => {
 		if (item.nbt?.Modifier == 'forbidden_arcanus:eternal')
 			text.add(Component.translate('item.unbreakable').blue())
 	})
-	
+
 	tooltip.addAdvanced('chemlib:draconium_compound', (item, advanced, text) => {
-			text.add(1, Text.of('§3Rn₂₄Xe₈Og₁₆Lu₃₂'))
+		text.add(1, Text.of('§3Rn₂₄Xe₈Og₁₆Lu₃₂'))
 	})
 
 	tooltip.addAdvanced('mekanism:dust_lithium', (item, advanced, text) => {
-			text.add(1, Text.of('§3Li (3)'))
-			text.add(2, Text.of('§7Alkali Metals'))
+		text.add(1, Text.of('§3Li (3)'))
+		text.add(2, Text.of('§7Alkali Metals'))
 	})
-	
+
 	tooltip.addAdvanced(['create:zinc_ingot', 'create:zinc_nugget', 'createaddition:zinc_sheet'], (item, advanced, text) => {
 		text.add(1, Text.of('§3Zn (30)'))
 		text.add(2, Text.of('§7Transition Metals'))
@@ -425,16 +435,16 @@ onEvent('item.tooltip', tooltip => {
 
 	//Horsmen Essence
 	tooltip.addAdvanced('ragnamod_seven:conquest_essence', (item, advanced, text) => {
-			text.add(1, Text.of('§5§oDrop when killing Conquest'))
+		text.add(1, Text.of('§5§oDrop when killing Conquest'))
 	})
 	tooltip.addAdvanced('ragnamod_seven:death_essence', (item, advanced, text) => {
-			text.add(1, Text.of('§5§oDrop when killing Death'))
+		text.add(1, Text.of('§5§oDrop when killing Death'))
 	})
 	tooltip.addAdvanced('ragnamod_seven:famine_essence', (item, advanced, text) => {
-			text.add(1, Text.of('§5§oDrop when killing Famine'))
+		text.add(1, Text.of('§5§oDrop when killing Famine'))
 	})
 	tooltip.addAdvanced('ragnamod_seven:war_essence', (item, advanced, text) => {
-			text.add(1, Text.of('§5§oDrop when killing War'))
+		text.add(1, Text.of('§5§oDrop when killing War'))
 	})
 
 })

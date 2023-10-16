@@ -1,12 +1,9 @@
 {
   "replace": true,
   "values": [
-    "#minecraft:is_ocean",
-    "#minecraft:is_deep_ocean",
     "twilightforest:dense_forest",
     "twilightforest:dense_mushroom_forest",
     "twilightforest:forest",
-    "twilightforest:mushroom_forest",
-    "minecraft:swamp"
+    "twilightforest:mushroom_forest"
   ]
 }

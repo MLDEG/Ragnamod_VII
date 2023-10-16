@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "recipe": {
+        "output": "{FluidName:\"immersivepetroleum:crudeoil\",Amount:50}",
+          
+        "rarity": [
+          {
+            "whitelist": {
+              "type": "minecraft:worldgen/biome",
+              "values": [
+                "minecraft:desert",
+                "minecraft:desert_hills",
+                "minecraft:desert_lakes",
+                "minecraft:ocean",
+                "minecraft:cold_ocean",
+                "minecraft:deep_cold_ocean",
+                "minecraft:deep_frozen_ocean",
+                "minecraft:deep_lukewarm_ocean",
+                "minecraft:deep_warm_ocean",
+                "minecraft:warm_ocean"
+              ]
+            },
+            "blacklist": {},
+            "depth_min": 20,
+            "depth_max": 60,
+            "weight": 8
+          }
+        ],
+        "pointer": 0,
+        "catalyst": {
+          "item": "industrialforegoing:laser_lens15"
+        },
+        "entity": "minecraft:empty",
+        "type": "industrialforegoing:laser_drill_fluid"
+      }
+    }
+  ]
+}
