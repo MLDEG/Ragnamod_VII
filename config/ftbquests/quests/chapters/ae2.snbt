@@ -11,6 +11,12 @@
 		{
 			x: -4.5d
 			y: 2.5d
+			shape: "square"
+			description: [
+				"This Housing is used to create storage cell like Refined Storage."
+				""
+				"For Example, a 1k ME DISK Drive can store 1k item even 1k different."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3E6DD455D008056B"]
 			id: "5B0BD0E9A592D51E"
@@ -19,10 +25,22 @@
 				type: "item"
 				item: "ae2things:disk_housing"
 			}]
+			rewards: [{
+				id: "549B66798F9B0180"
+				type: "item"
+				item: "ae2things:disk_housing"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.5d
 			y: 3.5d
+			shape: "square"
+			description: [
+				"This Housing allows you to store fluids."
+				""
+				"Without limit."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3E6DD455D008056B"]
 			id: "3E10BAC2982459F2"
@@ -31,10 +49,18 @@
 				type: "item"
 				item: "ae2additions:disk_fluid_housing"
 			}]
+			rewards: [{
+				id: "172110319FF2174C"
+				type: "item"
+				item: "ae2additions:disk_fluid_housing"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 0.0d
 			y: -5.5d
+			shape: "square"
+			description: ["Make a Singularity using the Matter Condenser."]
 			dependencies: ["1B4AAFAEA2CA31E6"]
 			id: "394A9406419C97ED"
 			tasks: [{
@@ -42,11 +68,24 @@
 				type: "item"
 				item: "ae2:singularity"
 			}]
+			rewards: [{
+				id: "56C9079350E938C8"
+				type: "item"
+				item: "ae2:singularity"
+			}]
 		}
 		{
+			title: "Auto Craft"
 			icon: "ae2:pattern_encoding_terminal"
 			x: -5.5d
 			y: -5.0d
+			shape: "square"
+			description: [
+				"The Pattern Encoding Terminal allows you to create patterns for your crafts. "
+				"Those pattern need to be place in a Pattern Provider."
+				""
+				"The Pattern Access Terminal is used to access all your pattern provider in your network."
+			]
 			dependencies: ["5043254E409494EC"]
 			id: "2259108D337977F9"
 			tasks: [
@@ -66,27 +105,73 @@
 					item: "ae2:pattern_access_terminal"
 				}
 			]
+			rewards: [{
+				id: "621F9064CEBACB1C"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
+			title: "P2P Network"
+			icon: "ae2:me_p2p_tunnel"
 			x: -1.5d
 			y: -2.5d
+			shape: "square"
+			description: [
+				"P2P is not that complicated, with this image, I hope I can make you want to try and adopt it!"
+				"{image:ftbquests:textures/quests/ae2_p2p.png width:150 height:100 align:1}"
+				"On the right, you have your network with two P2P entries."
+				"On the left, you have your two P2P outputs."
+				""
+				"As you can see, on your network, there are two dense cables, one red and one blue, which enter two P2P Tunnels. These P2P Tunnels must be connected to your network so currently, they are connected with a small blue cable."
+				"A shift right click with a memory card on your P2P Tunnel will make them inputs with a unique frequency."
+				""
+				"Then, on your left, you have a single cable with two channels used for your two P2Ps."
+				"With a right click and your memory card already configured, you will transform your P2P into output, and therefore be able to transfer 64 channels through your small cable with your two P2P !!"
+				""
+				"P2P also works very well with Redstone, item flow, fluids, energy (like RF), light, mana and chemicals from Mekanism."
+			]
 			hide_dependency_lines: true
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "238550758D9C9137"
-			tasks: [{
-				id: "388C0121D6BB7593"
-				type: "item"
-				item: {
-					id: "ae2:memory_card"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "388C0121D6BB7593"
+					type: "item"
+					item: {
+						id: "ae2:memory_card"
+						Count: 1b
+						tag: { }
+					}
 				}
+				{
+					id: "2F2F91A690A71A0E"
+					type: "item"
+					item: "ae2:me_p2p_tunnel"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "35BF481DE2EE340C"
+				type: "item"
+				item: "ae2:me_p2p_tunnel"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
 			icon: "ae2:security_station"
 			x: -0.5d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"The ME Security Terminal is your bridge between your network and your wireless terminal."
+				"Simply put your Wireless Terminal into it, and it will connect to the network is attached to."
+				""
+				"The Wireless Access Point allows you to access your network wirelessly."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3BF49369E9042EC9"]
 			id: "6B286387A0D76305"
@@ -102,10 +187,19 @@
 					item: "ae2:wireless_access_point"
 				}
 			]
+			rewards: [{
+				id: "4D1C184947533AAD"
+				type: "item"
+				item: "ae2:wireless_booster"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			x: -2.5d
 			y: 2.5d
+			shape: "square"
+			description: ["This Housing allows you to store Chemical from Mekanism."]
 			hide_dependency_lines: true
 			dependencies: ["3E6DD455D008056B"]
 			id: "4557E3DD011B87D6"
@@ -114,11 +208,21 @@
 				type: "item"
 				item: "ae2additions:disk_chemical_housing"
 			}]
+			rewards: [{
+				id: "0DE9F954B3A803E4"
+				type: "item"
+				item: "ae2additions:disk_chemical_housing"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.5d
 			y: 4.0d
-			shape: "diamond"
+			shape: "square"
+			description: [
+				"This Housing allows you to store everything."
+				"But only accept Super Storage Component."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3E6DD455D008056B"]
 			id: "0BD4EEABD9B307A8"
@@ -127,10 +231,26 @@
 				type: "item"
 				item: "ae2additions:super_cell_housing"
 			}]
+			rewards: [{
+				id: "538A8A124F1C205E"
+				type: "item"
+				item: "ae2additions:super_cell_housing"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: -8.5d
-			y: -3.5d
+			title: "Quantum Ring"
+			x: -1.5d
+			y: -6.0d
+			shape: "square"
+			description: [
+				"The Quantum ring is a structure that allow you to make a bridge between two place."
+				"It's basically a wireless device for your ME System."
+				"{image:ftbquests:textures/quests/ae2_quantum.png width:150 height:100 align:1}"
+				"You need to make a pair of Quantum Entangled Singularity by exploding a Singularity, an Ender Dust with an explosion to connect your two rings."
+				""
+				"Make sure to provide energy in your quantum ring, the one who are not connected to your network."
+			]
 			hide_dependency_lines: true
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "4E26F33BBE97D699"
@@ -139,19 +259,31 @@
 					id: "1C2D9DB5347AFC34"
 					type: "item"
 					item: "ae2:quantum_link"
+					count: 2L
 				}
 				{
 					id: "1816A5D057B3DD53"
 					type: "item"
 					item: "ae2:quantum_ring"
+					count: 16L
 				}
 			]
+			rewards: [{
+				id: "7B9E41A695D0C221"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
 		}
 		{
 			title: "Wireless Terminal"
 			icon: "ae2:wireless_crafting_terminal"
 			x: 0.5d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"The Wireless Terminal allows you to access your storage from your network wirelessly."
+				"The Infinity Booster Card delete the restriction with your terminal and the Access Point."
+			]
 			dependencies: ["6B286387A0D76305"]
 			id: "06EFF9FAB9B0B7DA"
 			tasks: [
@@ -170,11 +302,22 @@
 					item: "ae2wtlib:infinity_booster_card"
 				}
 			]
+			rewards: [{
+				id: "29531C327D45F5BE"
+				type: "item"
+				item: "ae2wtlib:magnet_card"
+			}]
 		}
 		{
 			icon: "ae2:pattern_provider"
 			x: -5.5d
 			y: -4.0d
+			shape: "square"
+			description: [
+				"A ME Pattern Provider can be combined with multiple Molecular Assembler or different machines."
+				""
+				"Note: Molecular Assembler don't consume a channel but need to be connected to a Network."
+			]
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "5043254E409494EC"
 			tasks: [
@@ -189,10 +332,23 @@
 					item: "ae2:molecular_assembler"
 				}
 			]
+			rewards: [{
+				id: "54144FC5131ADF1E"
+				type: "item"
+				item: "ae2:pattern_provider"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -3.5d
-			y: -1.0d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"You can put up to 10 disks in the ME Drive."
+				""
+				"A ME Drive use a channel."
+			]
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "3E6DD455D008056B"
 			tasks: [{
@@ -200,10 +356,25 @@
 				type: "item"
 				item: "ae2:drive"
 			}]
+			rewards: [{
+				id: "484C46AC583ED8C6"
+				type: "item"
+				item: "ae2:drive"
+			}]
 		}
 		{
 			x: -3.5d
 			y: -6.5d
+			shape: "square"
+			description: [
+				"The ME Controller is your centerpiece of your ME system."
+				"You can build a 7x7x7 cube MAX of ME Controller."
+				""
+				"In Applied Energistics 2 you are limited by channels in your network."
+				"With a ME Controller you can extract 32 channels from each face of the cube."
+				""
+				"You can't connect a ME Controller to your network if it doesn't touch another ME Controller."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"0B8F6C8E01B6B604"
@@ -216,10 +387,18 @@
 				type: "item"
 				item: "ae2:controller"
 			}]
+			rewards: [{
+				id: "27DAA0624DD58CE7"
+				type: "item"
+				item: "ae2:controller"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: -3.5d
-			y: -2.0d
+			x: -2.5d
+			y: -3.5d
+			shape: "square"
+			description: ["The ME Crafting Terminal is basically a terminal with a crafting grid."]
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "17679B2382E8387B"
 			tasks: [{
@@ -227,10 +406,21 @@
 				type: "item"
 				item: "ae2:crafting_terminal"
 			}]
+			rewards: [{
+				id: "22BF728D5A043162"
+				type: "item"
+				item: "ae2:crafting_terminal"
+			}]
 		}
 		{
 			x: -6.5d
 			y: -4.5d
+			shape: "square"
+			description: [
+				"A ME Interface is used to provide liquid and items from your network."
+				""
+				"A ME Interface use a channel."
+			]
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "7DAB91211A70F683"
 			tasks: [{
@@ -238,10 +428,22 @@
 				type: "item"
 				item: "ae2:interface"
 			}]
+			rewards: [{
+				id: "12FA3BB3DBE387DD"
+				type: "item"
+				item: "ae2:interface"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -4.5d
 			y: -4.5d
+			shape: "square"
+			description: [
+				"The Advanced Inscriber is more easily automatable than the Basic Inscriber."
+				"You can put stacks in the input slots."
+			]
 			dependencies: ["5B424F11CFCA332D"]
 			id: "1284F563433C77DF"
 			tasks: [{
@@ -249,10 +451,21 @@
 				type: "item"
 				item: "ae2things:advanced_inscriber"
 			}]
+			rewards: [{
+				id: "24F303F5EFACB202"
+				type: "item"
+				item: "ae2things:advanced_inscriber"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -5.0d
+			shape: "square"
+			description: [
+				"The Crystal Growth Chamber can grow quickly Certus Quest Seed and Fluix Seed into their Crystals."
+				""
+				"You can also automate the craft of Fluix Dust."
+			]
 			dependencies: ["0B8F6C8E01B6B604"]
 			id: "3D87A1A25C91BC96"
 			tasks: [{
@@ -260,10 +473,17 @@
 				type: "item"
 				item: "ae2things:crystal_growth"
 			}]
+			rewards: [{
+				id: "72708FC8E4B5A887"
+				type: "item"
+				item: "ae2things:crystal_growth"
+			}]
 		}
 		{
 			x: -3.5d
 			y: 3.0d
+			shape: "square"
+			description: ["This Housing allows you to store items."]
 			hide_dependency_lines: true
 			dependencies: ["3E6DD455D008056B"]
 			id: "2A22FE61390DDBF3"
@@ -272,10 +492,22 @@
 				type: "item"
 				item: "ae2:item_cell_housing"
 			}]
+			rewards: [{
+				id: "23EBC23778FCAAF2"
+				type: "item"
+				item: "ae2:item_cell_housing"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -4.5d
 			y: 3.5d
+			shape: "square"
+			description: [
+				"This Housing allows you to store fluids."
+				""
+				"With a limit of 5 differents type."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3E6DD455D008056B"]
 			id: "365086FC853A5E9C"
@@ -284,10 +516,18 @@
 				type: "item"
 				item: "ae2:fluid_cell_housing"
 			}]
+			rewards: [{
+				id: "7C10E754DDF1D18C"
+				type: "item"
+				item: "ae2:fluid_cell_housing"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.5d
 			y: -5.0d
+			shape: "square"
+			description: ["The Charger is used to charged stuff from AE2 and also charge a Certus Quartz."]
 			dependencies: ["0B1D5E77E82B17AB"]
 			id: "4B0024EB89A2DBC9"
 			tasks: [{
@@ -295,10 +535,18 @@
 				type: "item"
 				item: "ae2:charger"
 			}]
+			rewards: [{
+				id: "0B98CC3B55B1DD82"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -4.5d
 			y: -3.5d
+			shape: "square"
+			description: ["The Inscriber is used to make Circuit and Processor for AE2."]
 			dependencies: ["00000000000007BD"]
 			id: "5B424F11CFCA332D"
 			tasks: [{
@@ -306,10 +554,20 @@
 				type: "item"
 				item: "ae2:inscriber"
 			}]
+			rewards: [{
+				id: "0C4F29DBAEFB92FB"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
 		}
 		{
 			x: -0.5d
 			y: -4.5d
+			shape: "square"
+			description: [
+				"The Matter Condenser can condense items and fluids into a Singularity or Matter Ball."
+				"You can also use it like a trash can."
+			]
 			dependencies: ["0B8F6C8E01B6B604"]
 			id: "1B4AAFAEA2CA31E6"
 			tasks: [{
@@ -317,10 +575,21 @@
 				type: "item"
 				item: "ae2:condenser"
 			}]
+			rewards: [{
+				id: "368B40F9B3A6C595"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
 		}
 		{
 			x: -7.0d
 			y: -5.5d
+			shape: "square"
+			description: [
+				"A Cell Workbench allows you to format your disk and therefore configure a filter into it."
+				""
+				"The Cell Workbench doesn't have to be connected to your network."
+			]
 			hide_dependency_lines: true
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "17E877B90530E115"
@@ -329,21 +598,17 @@
 				type: "item"
 				item: "ae2:cell_workbench"
 			}]
-		}
-		{
-			x: -2.5d
-			y: -3.5d
-			dependencies: ["2DC966A4EECD0FE7"]
-			id: "5189549A573EF05C"
-			tasks: [{
-				id: "0382706FC561453D"
+			rewards: [{
+				id: "7EB6EE85A50F1AFC"
 				type: "item"
-				item: "ae2additions:me_wireless_transceiver"
+				item: "ae2:view_cell"
 			}]
 		}
 		{
 			x: -7.0d
 			y: -1.5d
+			shape: "square"
+			description: ["1K ME Storage Component can store 1024 Bytes."]
 			hide_dependency_lines: true
 			dependencies: ["2DC966A4EECD0FE7"]
 			id: "7C32C62005DE9D15"
@@ -352,10 +617,17 @@
 				type: "item"
 				item: "ae2:cell_component_1k"
 			}]
+			rewards: [{
+				id: "77E5FBE4174C3B99"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
 		}
 		{
 			x: -6.5d
 			y: -0.5d
+			shape: "square"
+			description: ["4K ME Storage Component can store 4096 Bytes."]
 			dependencies: ["7C32C62005DE9D15"]
 			id: "3B123F66DCAAE971"
 			tasks: [{
@@ -363,10 +635,17 @@
 				type: "item"
 				item: "ae2:cell_component_4k"
 			}]
+			rewards: [{
+				id: "349CAE1990152308"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
 		}
 		{
 			x: -5.5d
 			y: 0.0d
+			shape: "square"
+			description: ["16K ME Storage Component can store 16384 Bytes."]
 			dependencies: ["3B123F66DCAAE971"]
 			id: "3BF49369E9042EC9"
 			tasks: [{
@@ -374,10 +653,17 @@
 				type: "item"
 				item: "ae2:cell_component_16k"
 			}]
+			rewards: [{
+				id: "3FD84882C672C50B"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
 		}
 		{
 			x: -4.5d
 			y: 0.5d
+			shape: "square"
+			description: ["64K ME Storage Component can store 65536 Bytes."]
 			dependencies: ["3BF49369E9042EC9"]
 			id: "0DEB12EBFC1F7DCC"
 			tasks: [{
@@ -385,10 +671,17 @@
 				type: "item"
 				item: "ae2:cell_component_64k"
 			}]
+			rewards: [{
+				id: "4D4D74DF3785E737"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
 		}
 		{
 			x: -3.5d
 			y: 1.0d
+			shape: "square"
+			description: ["256K ME Storage Component can store 262144 Bytes."]
 			dependencies: ["0DEB12EBFC1F7DCC"]
 			id: "0235E73C94D2E5E8"
 			tasks: [{
@@ -396,10 +689,17 @@
 				type: "item"
 				item: "ae2:cell_component_256k"
 			}]
+			rewards: [{
+				id: "4D7F6CFDC80C5070"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
 		}
 		{
 			x: -2.5d
 			y: 0.5d
+			shape: "square"
+			description: ["1024K ME Storage Component can store 1048576 Bytes."]
 			dependencies: ["0235E73C94D2E5E8"]
 			id: "6183F8C262907876"
 			tasks: [{
@@ -407,10 +707,17 @@
 				type: "item"
 				item: "ae2additions:cell_component_1024"
 			}]
+			rewards: [{
+				id: "56C651141C0841A3"
+				type: "item"
+				item: "ae2additions:cell_component_1024"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 0.0d
+			shape: "square"
+			description: ["4096K ME Storage Component can store 4194304 Bytes."]
 			dependencies: ["6183F8C262907876"]
 			id: "676BBD010B19B2D5"
 			tasks: [{
@@ -418,10 +725,17 @@
 				type: "item"
 				item: "ae2additions:cell_component_4096"
 			}]
+			rewards: [{
+				id: "4B92D8CB8E6CFA93"
+				type: "item"
+				item: "ae2additions:cell_component_4096"
+			}]
 		}
 		{
 			x: -0.5d
 			y: -0.5d
+			shape: "square"
+			description: ["16384K ME Storage Component can store 16777216 Bytes."]
 			dependencies: ["676BBD010B19B2D5"]
 			id: "4583FAB6A7671236"
 			tasks: [{
@@ -429,10 +743,17 @@
 				type: "item"
 				item: "ae2additions:cell_component_16384"
 			}]
+			rewards: [{
+				id: "7BE8B0B1DC1B6632"
+				type: "item"
+				item: "ae2additions:cell_component_16384"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -1.5d
+			shape: "square"
+			description: ["65536K ME Storage Component can store 67108864 Bytes."]
 			dependencies: ["4583FAB6A7671236"]
 			id: "33E094C77D977AB6"
 			tasks: [{
@@ -440,11 +761,17 @@
 				type: "item"
 				item: "ae2additions:cell_component_65536"
 			}]
+			rewards: [{
+				id: "78ABDADAA1A59002"
+				type: "item"
+				item: "ae2additions:cell_component_65536"
+			}]
 		}
 		{
 			x: -7.5d
 			y: -0.5d
-			shape: "diamond"
+			shape: "square"
+			description: ["1K ME Super Storage Component can store 1024 Bytes of anything."]
 			dependencies: ["7C32C62005DE9D15"]
 			id: "443C300767CCEDAF"
 			tasks: [{
@@ -452,11 +779,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_1k"
 			}]
+			rewards: [{
+				id: "3490A11B5007DC05"
+				type: "item"
+				item: "ae2additions:super_cell_component_1k"
+			}]
 		}
 		{
 			x: -7.0d
 			y: 0.5d
-			shape: "diamond"
+			shape: "square"
+			description: ["4K ME Storage Component can store 4096 Bytes of anything."]
 			dependencies: ["3B123F66DCAAE971"]
 			id: "07C389F810E6198C"
 			tasks: [{
@@ -464,11 +797,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_4k"
 			}]
+			rewards: [{
+				id: "4A5F6A61D899E170"
+				type: "item"
+				item: "ae2additions:super_cell_component_4k"
+			}]
 		}
 		{
 			x: -6.0d
 			y: 1.0d
-			shape: "diamond"
+			shape: "square"
+			description: ["16K ME Storage Component can store 16384 Bytes of anything."]
 			dependencies: ["3BF49369E9042EC9"]
 			id: "34B93263D9720FCF"
 			tasks: [{
@@ -476,11 +815,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_16k"
 			}]
+			rewards: [{
+				id: "40169FADE0A4770C"
+				type: "item"
+				item: "ae2additions:super_cell_component_16k"
+			}]
 		}
 		{
 			x: -5.0d
 			y: 1.5d
-			shape: "diamond"
+			shape: "square"
+			description: ["64K ME Storage Component can store 65536 Bytes of anything."]
 			dependencies: ["0DEB12EBFC1F7DCC"]
 			id: "237C6ECAEA2C20FC"
 			tasks: [{
@@ -488,11 +833,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_64k"
 			}]
+			rewards: [{
+				id: "6052545F7F80770A"
+				type: "item"
+				item: "ae2additions:super_cell_component_64k"
+			}]
 		}
 		{
 			x: -3.5d
 			y: 2.0d
-			shape: "diamond"
+			shape: "square"
+			description: ["256K ME Storage Component can store 262144 Bytes of anything."]
 			dependencies: ["0235E73C94D2E5E8"]
 			id: "48C2955FEB405F66"
 			tasks: [{
@@ -500,11 +851,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_256k"
 			}]
+			rewards: [{
+				id: "09A452A4E3DD2857"
+				type: "item"
+				item: "ae2additions:super_cell_component_256k"
+			}]
 		}
 		{
 			x: -2.0d
 			y: 1.5d
-			shape: "diamond"
+			shape: "square"
+			description: ["1024K ME Storage Component can store 1048576 Bytes of anything."]
 			dependencies: ["6183F8C262907876"]
 			id: "7C4CC1B647E8D3C9"
 			tasks: [{
@@ -512,11 +869,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_1024k"
 			}]
+			rewards: [{
+				id: "18399F0381CD407A"
+				type: "item"
+				item: "ae2additions:super_cell_component_1024k"
+			}]
 		}
 		{
 			x: -1.0d
 			y: 1.0d
-			shape: "diamond"
+			shape: "square"
+			description: ["4096K ME Storage Component can store 4194304 Bytes of anything."]
 			dependencies: ["676BBD010B19B2D5"]
 			id: "667A4319EF44B30E"
 			tasks: [{
@@ -524,11 +887,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_4096k"
 			}]
+			rewards: [{
+				id: "5065A5481C3028E1"
+				type: "item"
+				item: "ae2additions:super_cell_component_4096k"
+			}]
 		}
 		{
 			x: 0.0d
 			y: 0.5d
-			shape: "diamond"
+			shape: "square"
+			description: ["16384K ME Storage Component can store 16777216 Bytes of anything."]
 			dependencies: ["4583FAB6A7671236"]
 			id: "4406D0BE1BA47E6B"
 			tasks: [{
@@ -536,11 +905,17 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_16m"
 			}]
+			rewards: [{
+				id: "52CD93B671E6F18C"
+				type: "item"
+				item: "ae2additions:super_cell_component_16m"
+			}]
 		}
 		{
 			x: 0.5d
 			y: -0.5d
-			shape: "diamond"
+			shape: "square"
+			description: ["65536K ME Storage Component can store 67108864 Bytes of anything."]
 			dependencies: ["33E094C77D977AB6"]
 			id: "6B3B2C9E6064C0D9"
 			tasks: [{
@@ -548,10 +923,29 @@
 				type: "item"
 				item: "ae2additions:super_cell_component_65m"
 			}]
+			rewards: [{
+				id: "41059506471FF995"
+				type: "item"
+				item: "ae2additions:super_cell_component_65m"
+			}]
 		}
 		{
-			x: -1.5d
+			title: "Cables"
+			x: -5.5d
 			y: -6.0d
+			shape: "square"
+			description: [
+				"There are 3 different cables to transfer channels."
+				""
+				"The Basic Fluix Cable can transfer 8 channels."
+				""
+				"The Basic Smart Cable can also transfer 8 channels, but you can see those channels on your cable."
+				""
+				"The Dense Smart Cable can transfer 32 channels, the Maximum possible on one cable."
+				""
+				"You can also color your cable, so they can no longer connect to each other, except for the colorless cable (Fluix)."
+			]
+			hide_dependency_lines: true
 			dependencies: ["0B8F6C8E01B6B604"]
 			id: "78C0ADBE2B90C059"
 			tasks: [
@@ -571,11 +965,23 @@
 					item: "ae2:fluix_smart_dense_cable"
 				}
 			]
+			rewards: [{
+				id: "6981744277388703"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			title: "Color Applicator"
 			x: -3.5d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"The Color Applicator is used to change the color of your cable."
+				"Place your Applicator in a ME Chest and fill it with colored matter ball."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3B123F66DCAAE971"]
 			id: "525970E42BF8B0B7"
@@ -588,10 +994,24 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1B6C931B667F0D5C"
+				type: "item"
+				item: "ae2:matter_ball"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			x: -6.5d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"Energy Cell is pretty important for your network."
+				"The more your network is wide, the more energy consuming it is."
+				""
+				"You can store up to 200k AE (or RF if you want) into it."
+			]
 			hide_dependency_lines: true
 			dependencies: ["0B8F6C8E01B6B604"]
 			id: "7730BA1D9D3AA9FF"
@@ -604,14 +1024,35 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "28516B5D99567AFC"
+				type: "item"
+				item: {
+					id: "ae2:energy_cell"
+					Count: 1b
+					tag: { }
+				}
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -7.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Dense Energy Cell is an upgrade to the basic Energy Cell, you can store up to 1.6M AE (or RF if you want) into it."]
 			dependencies: ["7730BA1D9D3AA9FF"]
 			id: "5A974E79F8E1AF71"
 			tasks: [{
 				id: "063AC11B785174BA"
+				type: "item"
+				item: {
+					id: "ae2:dense_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7B995980C4EC40BB"
 				type: "item"
 				item: {
 					id: "ae2:dense_energy_cell"
@@ -624,6 +1065,8 @@
 			title: "Inscriber Press"
 			x: -3.5d
 			y: -4.0d
+			shape: "square"
+			description: ["You can find those press only inside a meteorite on the Moon !"]
 			dependencies: ["0B1D5E77E82B17AB"]
 			id: "3ED4CC577351B4DA"
 			tasks: [
@@ -648,11 +1091,23 @@
 					item: "ae2:silicon_press"
 				}
 			]
+			rewards: [{
+				id: "47B9F38876045DCE"
+				type: "item"
+				item: "ae2:sky_stone_block"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
 			title: "Processors"
 			x: -3.5d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"Craft some Processors using your Inscriber."
+				"Those Processors are used everywhere in AE2 !"
+			]
 			dependencies: [
 				"5B424F11CFCA332D"
 				"3ED4CC577351B4DA"
@@ -675,10 +1130,23 @@
 					item: "ae2:engineering_processor"
 				}
 			]
+			rewards: [{
+				id: "19C9C0D256A743E8"
+				type: "item"
+				item: "ae2:printed_silicon"
+				count: 32
+				random_bonus: 32
+			}]
 		}
 		{
-			x: 1.5d
-			y: -3.5d
+			x: -3.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"The Me IO Port allows you to empty your cells into other cells or storage connected with a storage bus, depending on the priority setup."
+				""
+				"It's, for example, the best way to empty your cells into your storage networks if your Storage Bus has a higher priority than your Disk Drive."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3E6DD455D008056B"]
 			id: "5BF31E43CF8C2DE4"
@@ -687,11 +1155,26 @@
 				type: "item"
 				item: "ae2:io_port"
 			}]
+			rewards: [{
+				id: "7AA8B638CF05B792"
+				type: "item"
+				item: "ae2:speed_card"
+				random_bonus: 3
+			}]
 		}
 		{
 			icon: "merequester:requester"
 			x: -2.0d
 			y: -1.5d
+			shape: "square"
+			description: [
+				"The ME Requester is, like his name said, can request items that learn previously with a pattern."
+				""
+				"You have 5 line with each 3 slots."
+				"The first slot is your item, you can grab an item in JEI."
+				"The second is the number of items you want in your system."
+				"The last is the number of items you network launch at the same time."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7DAB91211A70F683"]
 			id: "7B72A2B03B954969"
@@ -707,21 +1190,42 @@
 					item: "merequester:requester_terminal"
 				}
 			]
+			rewards: [{
+				id: "4D8EF88881126B10"
+				type: "item"
+				item: "merequester:requester"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -4.0d
+			shape: "square"
+			description: ["You can obtain Fluix Dust by throwing an equivalent amount of Redstone Dust, Quartz and Charged Certus Quartz in a pool of water."]
 			dependencies: ["63F57021D71CF827"]
 			id: "0B8F6C8E01B6B604"
 			tasks: [{
 				id: "3B744AF15D402E97"
 				type: "item"
 				item: "ae2:fluix_dust"
+				count: 2L
+			}]
+			rewards: [{
+				id: "068AC9039FC6570E"
+				type: "item"
+				item: "ae2:fluix_dust"
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
 			x: -5.5d
 			y: -2.5d
+			shape: "square"
+			description: [
+				"The ME Mana Cell Housing can accept ME Storage Component up to 256k."
+				""
+				"Those storages Cell can store Mana from a Fluix Mana Pool."
+			]
 			dependencies: ["00000000000003E9"]
 			id: "51CB7889C969B6E8"
 			tasks: [{
@@ -729,10 +1233,17 @@
 				type: "item"
 				item: "appbot:mana_cell_housing"
 			}]
+			rewards: [{
+				id: "235DC96380D1472E"
+				type: "item"
+				item: "appbot:mana_cell_housing"
+			}]
 		}
 		{
 			x: -5.0d
 			y: -1.5d
+			shape: "square"
+			description: ["The Fluix Mana Pool work like a Mana Pool but when it's connect to your network you can store the Mana into ME Mana Storage Cell."]
 			dependencies: [
 				"00000000000003F9"
 				"00000000000003B9"
@@ -743,16 +1254,99 @@
 				type: "item"
 				item: "appbot:fluix_mana_pool"
 			}]
+			rewards: [{
+				id: "00E6A39450375B9F"
+				type: "item"
+				item: "appbot:fluix_mana_pool"
+			}]
 		}
 		{
 			x: -2.5d
 			y: -4.5d
+			shape: "square"
+			description: ["Charge a Certus Quartz using a Tesla coil of the Charger from AE2."]
 			dependencies: ["4B0024EB89A2DBC9"]
 			id: "63F57021D71CF827"
 			tasks: [{
 				id: "5E3FC60EC498095D"
 				type: "item"
 				item: "ae2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "26C7387F639FAED1"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Auto Crafting Component"
+			x: -7.5d
+			y: -4.0d
+			shape: "square"
+			description: [
+				"There are two different type of blocks used for auto crafting."
+				"The Crafting Co-Processing Unit allows you to craft multiple task for one demand."
+				"The Crafting Storage store the amount of item needed for your demand."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2DC966A4EECD0FE7"]
+			id: "39D10873CDF6BFD7"
+			tasks: [
+				{
+					id: "0B2D39AC0A78CE06"
+					type: "item"
+					item: "ae2:crafting_accelerator"
+				}
+				{
+					id: "7DFCB1198B45610F"
+					type: "item"
+					item: "ae2:1k_crafting_storage"
+				}
+			]
+			rewards: [{
+				id: "4FEB6B5B5C0E2B1E"
+				type: "item"
+				item: "ae2:crafting_monitor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			shape: "square"
+			description: [
+				"The Storage bus can read the storage attached to (very useful with a storage controller)"
+				""
+				"The Import bus can import stuff into your network."
+				""
+				"The Export bus can export stuff from your network."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7DAB91211A70F683"]
+			id: "4A447D346D239970"
+			tasks: [
+				{
+					id: "04F6B4D950912517"
+					type: "item"
+					item: "ae2:storage_bus"
+				}
+				{
+					id: "05D3F0E8EA484DF6"
+					type: "item"
+					item: "ae2:import_bus"
+				}
+				{
+					id: "70E6E9552EEF62A0"
+					type: "item"
+					item: "ae2:export_bus"
+				}
+			]
+			rewards: [{
+				id: "70F657BB829CF301"
+				type: "item"
+				item: "ae2:storage_bus"
+				random_bonus: 3
 			}]
 		}
 	]
