@@ -1,5 +1,5 @@
 {
-	id: "1D8EBD11B32D7946"
+	id: "6AEDA2F9BEB57759"
 	group: ""
 	order_index: 14
 	filename: "ars_nouveau"
@@ -9,86 +9,1745 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			id: "12F8E1D777DB276E"
+			x: 6.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "Start"
+			description: [
+				"Welcome to &dArs Nouveau&r !"
+				""
+				"Ars Nouveau is a magical mod allowing you to create &byour own spell&r !"
+			]
+			hide_dependency_lines: true
+			size: 1.5d
+			id: "6E0E13806F388D7E"
 			tasks: [{
-				id: "031724B51CDC2707"
+				id: "33CEC23CAF6DA6A6"
+				type: "checkmark"
+				title: "Ars Nouveau"
+				icon: "ars_nouveau:creative_spell_book"
+			}]
+			rewards: [{
+				id: "0998E1347931DF77"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			optional: true
+			id: "48D5D9D9AD98409F"
+			tasks: [{
+				id: "1624D71379FBBDA6"
+				type: "item"
+				item: {
+					id: "ars_nouveau:starbuncle_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			optional: true
+			id: "34A173721735401B"
+			tasks: [{
+				id: "7CB3845C4BCA9F0E"
+				type: "item"
+				item: "ars_nouveau:wixie_charm"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "7ACE7A6A71D3F4D2"
+			tasks: [{
+				id: "569B0D7ABC091612"
+				type: "item"
+				item: "ars_nouveau:glyph_intangible"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -10.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "58EBEC3DDE47DAC7"
+			tasks: [{
+				id: "55B5FAA746D6C829"
+				type: "item"
+				item: "ars_nouveau:glyph_ignite"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "79146466E43A2B99"
+			tasks: [{
+				id: "615188F5D6F85423"
+				type: "item"
+				item: "ars_nouveau:glyph_flare"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "07D6CC12D577643E"
+			tasks: [{
+				id: "75FB9F65DDF0403C"
+				type: "item"
+				item: "ars_nouveau:glyph_craft"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "05C2A6E54898C963"
+			tasks: [{
+				id: "20E81CE5B5665DAF"
+				type: "item"
+				item: "ars_nouveau:glyph_cold_snap"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "6C4E72C0BF98E8DD"
+			tasks: [{
+				id: "17D156865446035D"
+				type: "item"
+				item: "ars_nouveau:glyph_rune"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "295703FC5B92D0E6"
+			tasks: [{
+				id: "6A60A533BDBCCAD9"
+				type: "item"
+				item: "ars_nouveau:glyph_slowfall"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -13.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "5BB155110168DF92"
+			tasks: [{
+				id: "12CE4920DABD0F98"
+				type: "item"
+				item: "ars_nouveau:glyph_freeze"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "00143D4FC12AEFD9"
+			tasks: [{
+				id: "2CBB0C0E32E58128"
+				type: "item"
+				item: "ars_nouveau:glyph_split"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "73D19C0C1836CD03"
+			tasks: [{
+				id: "05AD66530B699FA0"
+				type: "item"
+				item: "ars_nouveau:glyph_crush"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "5F75215CB5956290"
+			tasks: [{
+				id: "761F5F98E18E824D"
+				type: "item"
+				item: "ars_nouveau:glyph_accelerate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "2714EE46B4DF620E"
+			tasks: [{
+				id: "0AD6A125820795DE"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_vex"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "0EC08C5BBFA83A51"
+			tasks: [{
+				id: "59CE7EAEA0C25808"
+				type: "item"
+				item: "ars_nouveau:glyph_lightning"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "7F97805EE8DFC9F6"
+			tasks: [{
+				id: "54E317444AF31DA0"
+				type: "item"
+				item: "ars_nouveau:glyph_grow"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "62A9FD6138446A17"
+			tasks: [{
+				id: "3512BC20229693CD"
+				type: "item"
+				item: "ars_nouveau:glyph_dampen"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "46469E3A8AF0CB80"
+			tasks: [{
+				id: "6E473A397B0824E4"
+				type: "item"
+				item: "ars_nouveau:glyph_extract"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "73C9BE065B1F094B"
+			tasks: [{
+				id: "3F20F6E300F8E095"
+				type: "item"
+				item: "ars_nouveau:glyph_light"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "5F7A07D0F71044D2"
+			tasks: [{
+				id: "353BF5D2B4D53BF5"
+				type: "item"
+				item: "ars_nouveau:glyph_duration_down"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "0641F45BEA6C67E5"
+			tasks: [{
+				id: "5C9BC3699A5762CA"
+				type: "item"
+				item: "ars_nouveau:glyph_conjure_water"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "515001313775DCFC"
+			tasks: [{
+				id: "651B06E6873F34CF"
+				type: "item"
+				item: "ars_nouveau:glyph_cut"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "7AAD3CE642A34A0C"
+			tasks: [{
+				id: "32C20AFC9A4A0E0E"
+				type: "item"
+				item: "ars_nouveau:glyph_blink"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "073FD3884B2B11F7"
+			tasks: [{
+				id: "41EF535B718F674F"
+				type: "item"
+				item: "ars_nouveau:glyph_amplify"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -9.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "1038054E334AC792"
+			tasks: [{
+				id: "56F8DEF68AA8B41C"
+				type: "item"
+				item: "ars_nouveau:glyph_extend_time"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "30B8E8169EAE1C01"
+			tasks: [{
+				id: "53250785A630D303"
+				type: "item"
+				item: "ars_nouveau:glyph_heal"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -12.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "00D329407250AC7B"
+			tasks: [{
+				id: "38003743B695C5C1"
+				type: "item"
+				item: "ars_nouveau:glyph_leap"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "290F943A1FF52070"
+			tasks: [{
+				id: "04E0C481BB6ABD87"
+				type: "item"
+				item: "ars_nouveau:glyph_pierce"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -10.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "496639EC3DC0165C"
+			tasks: [{
+				id: "10D3703D3C415FC3"
+				type: "item"
+				item: "ars_nouveau:glyph_harvest"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "66D63DC37FCDD268"
+			tasks: [{
+				id: "55DA99DF01D9C37C"
+				type: "item"
+				item: "ars_nouveau:glyph_fortune"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -11.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "1EEC5622F2A9A163"
+			tasks: [{
+				id: "44C797F6DFAF95D9"
+				type: "item"
+				item: "ars_nouveau:glyph_pickup"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -13.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "0671915D3BDDD07D"
+			tasks: [{
+				id: "54AED59019A9FC16"
+				type: "item"
+				item: "ars_nouveau:glyph_dispel"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -11.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "392869A1DEB7EE20"
+			tasks: [{
+				id: "41A6ED0A1538D0A8"
+				type: "item"
+				item: "ars_nouveau:glyph_pull"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "5DE36D1C9F29F931"
+			tasks: [{
+				id: "2626959A926C1054"
+				type: "item"
+				item: "ars_nouveau:glyph_explosion"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "16C47409C0A411EF"
+			tasks: [{
+				id: "624F70371F036C65"
+				type: "item"
+				item: "ars_nouveau:glyph_fangs"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			dependency_requirement: "one_started"
+			id: "3801E818308438FF"
+			tasks: [{
+				id: "03829269308C4BC8"
+				type: "item"
+				item: "ars_nouveau:glyph_aoe"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "485EE9E6C6F59826"
+			tasks: [{
+				id: "27987EFDAC19DE52"
+				type: "item"
+				item: "ars_nouveau:glyph_gravity"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "4F5FCEBB16B5B6F5"
+			tasks: [{
+				id: "589EE0FDB1FB0FA9"
+				type: "item"
+				item: "ars_nouveau:glyph_wither"
+			}]
+		}
+		{
+			title: "Tier 2 Glyphs"
+			x: 12.0d
+			y: -6.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"3D4D88B8BE881351"
+				"0D330FAD6C993DBC"
+			]
+			id: "63DD7F5A4441ACE7"
+			tasks: [{
+				id: "15C6E9C02D1FBEC0"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Tier 1 Glyphs"
+			x: 6.0d
+			y: -11.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"3D4D88B8BE881351"
+				"64D0E66CB4FBEC82"
+			]
+			id: "441C0659ED28D935"
+			tasks: [{
+				id: "1CC556A6921208B8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Tier 3 Glyphs"
+			x: 0.0d
+			y: -6.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"3D4D88B8BE881351"
+				"17D7D34F519F7E5F"
+			]
+			id: "6F3602F5600A6221"
+			tasks: [{
+				id: "65D68BEEB36FC805"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			description: [
+				"When your Magebloom seeds, bloom, you can use Magebloom to create fiber."
+				""
+				"These are used to craft multiple items, including your first set of magic armor !"
+			]
+			hide_dependency_lines: true
+			dependencies: ["58EC47584C773B82"]
+			id: "542C6D76B579886C"
+			tasks: [{
+				id: "561CAB97C346BD65"
 				type: "item"
 				item: "ars_nouveau:magebloom_fiber"
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
-			id: "1F2F5D652CB229C6"
+			title: "Enchanting Apparatus"
+			x: 7.5d
+			y: -1.5d
+			subtitle: "Badass Enchanting Visual "
+			description: [
+				"The &9Enchanting Apparatus&r is used to make various items in the mod. It requires Source to work."
+				""
+				"It is also a multiblock structure that uses arcane bases to make."
+				""
+				"Start by placing an Arcane Core in the ground, then place the Enchanting Device on top. Surround the Device with arcane pedestals."
+			]
+			hide_dependency_lines: true
+			dependencies: ["40BC67BDEE15D1DE"]
+			id: "3D862A3D3F83CA26"
 			tasks: [
 				{
-					id: "2B12D6BB3E553633"
+					id: "2C36C64341C6B6F2"
 					type: "item"
-					item: {
-						id: "ars_nouveau:novice_hood"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "ars_nouveau:enchanting_apparatus"
 				}
 				{
-					id: "61FAC8120945C45F"
+					id: "695EFDD9FC874F04"
 					type: "item"
-					item: {
-						id: "ars_nouveau:novice_robes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4C8C19CDBF5615D1"
-					type: "item"
-					item: {
-						id: "ars_nouveau:novice_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7017F284D2E64EF9"
-					type: "item"
-					item: {
-						id: "ars_nouveau:novice_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "ars_nouveau:arcane_core"
 				}
 			]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
-			id: "2C162C41066AD918"
+			title: "Arcane Pedestals"
+			x: 7.5d
+			y: -2.5d
+			subtitle: "Small Tables"
+			description: ["The arcane piedestal is used full different way! It is used for Imbuement Chamber, Enchanting Apparatus and even the Ritual Brazierl!"]
+			hide_dependency_lines: true
+			dependencies: ["40BC67BDEE15D1DE"]
+			id: "18A2FBE2D4133FA2"
 			tasks: [{
-				id: "1927C7117155E533"
+				id: "5B80C1EF5D85EA64"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+				count: 8L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -12.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "1D3471FCA8B3BE36"
+			tasks: [{
+				id: "5A03F82C6B50D548"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_steed"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -13.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "779C2162C69DAE8E"
+			tasks: [{
+				id: "29E06B429B4AE176"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_wolves"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -14.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "69A04EB462756EED"
+			tasks: [{
+				id: "17413068980A17B1"
+				type: "item"
+				item: "ars_nouveau:glyph_underfoot"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "29E3DD9A3F85CE80"
+			tasks: [{
+				id: "72D77A51A69EDA71"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_decoy"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "44D5ABE34271D7FE"
+			tasks: [{
+				id: "2A80E3849EB6A71D"
+				type: "item"
+				item: "ars_nouveau:glyph_hex"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "43784C83C8A76E8B"
+			tasks: [{
+				id: "3280A874803F3976"
+				type: "item"
+				item: "ars_nouveau:ritual_sunrise"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "21EC1A577B4E2FC4"
+			tasks: [{
+				id: "342E847B567C499A"
+				type: "item"
+				item: "ars_nouveau:ritual_warping"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "07DE3A966516EA8B"
+			tasks: [{
+				id: "4553742BFEB7AAF6"
+				type: "item"
+				item: "ars_nouveau:ritual_overgrowth"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "34DC34EA5ED7C96D"
+			tasks: [{
+				id: "3FCA99481934542B"
+				type: "item"
+				item: "ars_nouveau:ritual_moonfall"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "08803844E52178AA"
+			tasks: [{
+				id: "139DDE68B8C4A5C6"
+				type: "item"
+				item: "ars_nouveau:ritual_fertility"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "4E0976E1DAF65FC9"
+			tasks: [{
+				id: "252DC59E9F363E10"
+				type: "item"
+				item: "ars_nouveau:ritual_burrowing"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "6D8C9D7D9DF9A6DD"
+			tasks: [{
+				id: "11D8B50355018821"
+				type: "item"
+				item: "ars_nouveau:ritual_challenge"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "4F8119B6298EA753"
+			tasks: [{
+				id: "51A93C01E6E8F960"
+				type: "item"
+				item: "ars_nouveau:ritual_cloudshaping"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "40407D2CDC660866"
+			tasks: [{
+				id: "1FBAFEB74535EFAE"
+				type: "item"
+				item: "ars_nouveau:ritual_disintegration"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "251C9E4B29A29728"
+			tasks: [{
+				id: "6BEA84FA2F3A39AE"
+				type: "item"
+				item: "ars_nouveau:ritual_restoration"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "Upgrade spells"
+			description: [
+				"If you want to cast better spells, you’ll need a &bscribe table&r to unlock new glyphs for your spell book."
+				""
+				"There are 3 &eTier of glyphs&r to unlock, and each requires experience and items."
+				""
+				"The scribe table is also used to attach spells to spell scrolls. To do this, place a spell scroll on the table, select the spell in your spell book, and then right-click the book on the table."
+				""
+				"To create a glyph, right-click on the scribe table with your spell book. Find the glyph you want to create, and then click Select at the bottom. Right-click the table with the required elements, and the glyph will be created. Use the glyph to learn it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["33682F4B44950123"]
+			size: 1.5d
+			id: "3D4D88B8BE881351"
+			tasks: [{
+				id: "5ADEEEE0C217B20F"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			optional: true
+			id: "2C47C9B566A63135"
+			tasks: [{
+				id: "5646241FF2CF806B"
+				type: "item"
+				item: "ars_nouveau:whirlisprig_charm"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Your first spell book !"
+			description: [
+				"For starters, you need to make yourself a &dNovice Spellbook&r."
+				""
+				"It is in this book that you can create and store your spells !"
+				""
+				"Do not forget to set the key to open the book on the spell creation page (default \"&3C&r\")"
+				""
+				"This spell book allows you to create spells with &etier 1 glyphs&r. To create better spells you will need to increase your spell book."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6E0E13806F388D7E"]
+			id: "64D0E66CB4FBEC82"
+			tasks: [{
+				id: "6988873450238F30"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			subtitle: "Step 2 !"
+			description: [
+				"This is the next increase in your spell book !"
+				""
+				"This will increase your overall mana and mana regeneration, and unlock the ability to create and use &eTier 2 glyphs&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["64D0E66CB4FBEC82"]
+			id: "0D330FAD6C993DBC"
+			tasks: [{
+				id: "0BCFC6422BBF539C"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Final Step !"
+			description: [
+				"To make the last tier of your spell book, you need to kill the &cWilden Chimera&r."
+				""
+				"This is a ritual that you need to do and use in the &9ritual brazier&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0D330FAD6C993DBC"]
+			id: "17D7D34F519F7E5F"
+			tasks: [{
+				id: "5E7DBDDD97BA8F13"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.625d
+			shape: "gear"
+			subtitle: "Burning some tablets"
+			description: [
+				"The &9Ritual Brazier&r is used to initiate rituals. It can also be used for decoration. If you want to light the fire, use a light spell."
+				""
+				"To perform rituals, you will also need arcane bases. As there are so many rituals to launch, be sure to check each of them using the &6Worn Notebook&r!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["40BC67BDEE15D1DE"]
+			size: 1.25d
+			id: "457DE8C154641437"
+			tasks: [{
+				id: "1E0B9FBF5319CEF6"
+				type: "item"
+				item: "ars_nouveau:ritual_brazier"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "Storing Potion"
+			description: [
+				"The &9Potion Jar&r stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar."
+				""
+				"Wixies will use these pots during potion autocraft."
+			]
+			hide_dependency_lines: true
+			dependencies: ["227DBA8836021B0B"]
+			id: "04D9F6587EF8D9B7"
+			tasks: [{
+				id: "7F3D9B9E5E4FD3B8"
+				type: "item"
+				item: "ars_nouveau:potion_jar"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "On the way to Source Gem !"
+			description: [
+				"To create one of the main crafts in Ars Nouveau, the &dsource gem&r, we will need to make an impregnation chamber."
+				""
+				"The &6Imbuement Chamber&r needs the Source to permeate the objects. It produces a small amount of Source by itself, but can also use Source Jar as an energy source."
+			]
+			hide_dependency_lines: true
+			dependencies: ["33682F4B44950123"]
+			id: "5766C8B9E850C186"
+			tasks: [{
+				id: "78B5B8F9CE9EC702"
+				type: "item"
+				item: "ars_nouveau:imbuement_chamber"
+			}]
+		}
+		{
+			title: "Archwood logs"
+			x: 6.0d
+			y: -3.5d
+			subtitle: "Magical Wood"
+			description: [
+				"To know the spells better, we will need a specific type of magic wood! &dArchwood&r!"
+				""
+				"&dArchwood&r trees are found in the world."
+			]
+			hide_dependency_lines: true
+			dependencies: ["64D0E66CB4FBEC82"]
+			id: "33682F4B44950123"
+			tasks: [
+				{
+					id: "163A6E303D6F419D"
+					type: "item"
+					title: "Archwood Logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:logs/archwood"
+						}
+					}
+				}
+				{
+					id: "7508E906C021AB6B"
+					type: "item"
+					title: "Archwood Planks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:planks/archwood"
+						}
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "Storing Source"
+			description: [
+				"In Ars Nouveau, the power system for machines is called &dSource&r."
+				""
+				"To start collecting some Source, we'll need a Source Jar."
+				""
+				"Source can also be moved with buckets, or by breaking and picking up Source Jars."
+			]
+			hide_dependency_lines: true
+			dependencies: ["40BC67BDEE15D1DE"]
+			id: "227DBA8836021B0B"
+			tasks: [{
+				id: "55AA5FAABC23709E"
+				type: "item"
+				item: "ars_nouveau:source_jar"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			optional: true
+			id: "04987E54ADC2C057"
+			tasks: [{
+				id: "3BFC384D0B963E6E"
+				type: "item"
+				item: "ars_nouveau:drygmy_charm"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			optional: true
+			id: "6CEAA86EEAAC1203"
+			tasks: [{
+				id: "751B3A47FE592B2F"
+				type: "item"
+				item: "ars_nouveau:amethyst_golem_charm"
+			}]
+		}
+		{
+			title: "Magebloom Seed"
+			x: 12.0d
+			y: 4.0d
+			subtitle: "Growing Magic"
+			description: [
+				"Using our enchanting device structure, we will want to make our first seed, the &5Magebloom Seed&r."
+				""
+				"This will be used to create magical clothes for us !"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "58EC47584C773B82"
+			tasks: [{
+				id: "6CB12C3C6401287A"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+				count: 3L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "73C7A44F05AB6FAC"
+			tasks: [{
+				id: "0DB8F107D55B420F"
+				type: "item"
+				item: "ars_nouveau:glyph_orbit"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -10.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "2F5AECF5CDC8D8DB"
+			tasks: [{
+				id: "21C6D6FA46FCE9E9"
+				type: "item"
+				item: "ars_nouveau:glyph_sensitive"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "407AD700892ADBF1"
+			tasks: [{
+				id: "3282190E6DF860F4"
+				type: "item"
+				item: "ars_nouveau:glyph_decelerate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Generates Source from burnable item"
+			description: [
+				"The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source."
+				""
+				"As it burns items, it will convert nearby stone into lava."
+				""
+				"This also generates Lava Lilys."
+			]
+			hide_dependency_lines: true
+			dependencies: ["227DBA8836021B0B"]
+			id: "19D02325579F2AA8"
+			tasks: [{
+				id: "273385666F3DBB43"
+				type: "item"
+				item: "ars_nouveau:volcanic_sourcelink"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			subtitle: "Ground Spells"
+			description: [
+				"Rune chalk is used to draw permanent runes on this ground. These runes will cast spells on entities that walk on them."
+				""
+				"To attach a spell to a rune, enter a &eSpell Scroll&r using a Scribe Table."
+				""
+				"PS: The Rune will need the Source to work."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0E2AD156E5EF263A"]
+			id: "151648179684B088"
+			tasks: [{
+				id: "2E649D2172E6D537"
+				type: "item"
+				item: {
+					id: "ars_nouveau:runic_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "0E88FDAE4CB5561B"
+			tasks: [{
+				id: "5018B75946EB5FA4"
+				type: "item"
+				item: "ars_nouveau:ritual_awakening"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "7471CDF5166D38F0"
+			tasks: [{
+				id: "6CF702640DFC9FBA"
+				type: "item"
+				item: "ars_nouveau:ritual_flight"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "28D9ED74EBBC9818"
+			tasks: [{
+				id: "5D3C989D159E191B"
+				type: "item"
+				item: "ars_nouveau:ritual_wilden_summon"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "26D2183E27E1273A"
+			tasks: [{
+				id: "0577B2F9A78434A0"
+				type: "item"
+				item: "ars_nouveau:ritual_scrying"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["457DE8C154641437"]
+			id: "634B477861AC9162"
+			tasks: [{
+				id: "7B9F88A9A5FAE5CB"
+				type: "item"
+				item: "ars_nouveau:ritual_binding"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "4A41FCBFE985D81E"
+			tasks: [{
+				id: "496294EBE15C66AD"
+				type: "item"
+				item: "ars_nouveau:glyph_glide"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "790C77898FED4E5D"
+			tasks: [{
+				id: "6EA660C81B613163"
+				type: "item"
+				item: "ars_nouveau:glyph_wind_shear"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "7F3EB3F473DF8385"
+			tasks: [{
+				id: "598ED65E5C450F82"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_undead"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["6F3602F5600A6221"]
+			id: "08B6FA532A136AF2"
+			tasks: [{
+				id: "46FA84B093CC1151"
+				type: "item"
+				item: "ars_nouveau:glyph_linger"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -12.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "59BD06DB42E0219F"
+			tasks: [{
+				id: "5DA75E54FF1EFE89"
+				type: "item"
+				item: "ars_nouveau:glyph_evaporate"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -12.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["441C0659ED28D935"]
+			id: "12A70E00A63A7154"
+			tasks: [{
+				id: "024EA8646EFADFF5"
+				type: "item"
+				item: "ars_nouveau:glyph_bounce"
+			}]
+		}
+		{
+			icon: {
+				id: "ars_nouveau:spell_parchment"
+				Count: 1b
+				tag: { }
+			}
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Your first spell !"
+			description: [
+				"While holding your spell book, press &3C&r to open the creation menu."
+				""
+				"Each spell has a shape. You start with 3 basic shapes: Projectile, Self Cast and Touch."
+				""
+				"For effects, this determines what happens when you cast a spell. You can have 9 effects per spell."
+				""
+				"To start, you have &bHarm&r and &bBreak&r !"
+				""
+				"Select a shape and effect, name it, and click on &dcreate&r !"
+				"{image:ftbquests:textures/ars_nouveau/spellbook.png width:192 height:129 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["64D0E66CB4FBEC82"]
+			id: "5CFBA24B3E0CDEDD"
+			tasks: [{
+				id: "1B916AE67F84E6D7"
+				type: "checkmark"
+				title: "Creating Your First Spell"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion"
+				}
+			}
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Essence of the Mage !"
+			description: [
+				"At the bottom left of your screen you can see a bar. This bar is your mana reserve."
+				""
+				"There are several ways to increase your mana reserve through this mod. Improving your spell book will increase your mana !"
+				""
+				"{image:ftbquests:textures/ars_nouveau/mana_bar.png width:218 height:36 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["64D0E66CB4FBEC82"]
+			id: "6B511C8B572E8940"
+			tasks: [{
+				id: "01FD75641E5EA5E4"
+				type: "checkmark"
+				title: "Mana"
+			}]
+		}
+		{
+			title: "&5Source Gems"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "The Source "
+			description: ["To create source gems, we will need to place fragments of lapis or amethyst in the impregnation chamber. Over time, these will become source gems !"]
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "40BC67BDEE15D1DE"
+			tasks: [{
+				id: "1344731C799303A3"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+				count: 2L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			subtitle: "Amethyst ?"
+			description: ["This allows you to see the magical creatures nearby as well as help you find amethyst !"]
+			hide_dependency_lines: true
+			dependencies: ["33682F4B44950123"]
+			optional: true
+			id: "3142A40E1EAEBAA3"
+			tasks: [{
+				id: "07469C1ABB23F686"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dowsing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Generates Source from Mob Deaths and Animal Breeding"
+			hide_dependency_lines: true
+			dependencies: ["227DBA8836021B0B"]
+			id: "295C77EEC89000FC"
+			tasks: [{
+				id: "33072A37F4A28A77"
+				type: "item"
+				item: "ars_nouveau:vitalic_sourcelink"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Power through Potions"
+			description: ["The &9Alchemical Sourcelink&r produces Source from adjacent potion jars."]
+			hide_dependency_lines: true
+			dependencies: ["227DBA8836021B0B"]
+			id: "41A0BE357C8A74E1"
+			tasks: [{
+				id: "2D08E66F6D607676"
+				type: "item"
+				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "Generates Source from Nearby Food"
+			description: [
+				"Source Berries produce more Source than other sources."
+				""
+				"This will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty."
+			]
+			hide_dependency_lines: true
+			dependencies: ["227DBA8836021B0B"]
+			id: "77145113CD5B26FB"
+			tasks: [{
+				id: "3F5621FA53258210"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "Creates Source using the growth of Plants"
+			description: [
+				"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source !"
+				""
+				"PS: Bonemealing does not produce Source."
+			]
+			hide_dependency_lines: true
+			dependencies: ["227DBA8836021B0B"]
+			id: "2D0CF18C8B2ABB7D"
+			tasks: [{
+				id: "7CEAACDBB77206CC"
+				type: "item"
+				item: "ars_nouveau:agronomic_sourcelink"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.0d
+			description: ["Used to inscribe spells on with the Scribe's Table."]
+			hide_dependency_lines: true
+			dependencies: ["542C6D76B579886C"]
+			id: "0E2AD156E5EF263A"
+			tasks: [{
+				id: "5D09025968ED4E34"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			shape: "rsquare"
+			subtitle: "Summoning Control"
+			description: ["The Dominion Wand is used to control the creatures you might encounter in the world! Each being reacts differently to the wand, so be sure to read in the &eworn notebook&r !"]
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "1D86B2E553503E53"
+			tasks: [{
+				id: "259C1D84AD3996AF"
+				type: "item"
+				item: "ars_nouveau:dominion_wand"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "14DB8A515CA50932"
+			tasks: [{
+				id: "307E429DCDA2A0BC"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "3182E8AF755104E4"
+			tasks: [{
+				id: "571B04DAC6DAFDAE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "632BC46928CC9A8C"
+			tasks: [{
+				id: "4B4A171486A31360"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "51162B9185A45BB1"
+			tasks: [{
+				id: "7F425E0F613F8B23"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_bow"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "6DAA82B5F94AF9F8"
+			tasks: [
+				{
+					id: "78C9026D8627D7B7"
+					type: "item"
+					item: "ars_nouveau:jar_of_light"
+				}
+				{
+					id: "1ED244E1CC75D358"
+					type: "item"
+					item: "ars_nouveau:void_jar"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			shape: "diamond"
+			description: ["The Ring of Discount provides a small bonus to mana max and mana regen. It also reduces the total cost to cast a spell."]
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "0A1ABE9CF7740AAA"
+			tasks: [
+				{
+					id: "3F1F4C069415D13A"
+					type: "item"
+					item: "ars_nouveau:ring_of_lesser_discount"
+				}
+				{
+					id: "0A4973ED77865904"
+					type: "item"
+					item: "ars_nouveau:ring_of_greater_discount"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["This belt will give random positive potion effects for a short duration. These will vary in strength. "]
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "088FCB5267CB7A89"
+			tasks: [{
+				id: "28D8B81E947FCB97"
+				type: "item"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+			}]
+			rewards: [
+				{
+					id: "7FAFCABED4EBB110"
+					type: "random"
+				}
+				{
+					id: "77A632E3CC0DA81D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "3FD702B5AB006402"
+			tasks: [{
+				id: "470AEF18D37A0535"
+				type: "item"
+				item: "ars_nouveau:belt_of_levitation"
+			}]
+		}
+		{
+			title: "The Amulets"
+			x: 12.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "6A1C0B17B22CE50F"
+			tasks: [
+				{
+					id: "737E14DCCDDAC4D9"
+					type: "item"
+					item: "ars_nouveau:amulet_of_mana_boost"
+				}
+				{
+					id: "06AFF105FACF7961"
+					type: "item"
+					item: "ars_nouveau:amulet_of_mana_regen"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "111649D7E16D869F"
+			tasks: [{
+				id: "3CF6151060ADB889"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["542C6D76B579886C"]
+			id: "113AD73FF719CCFC"
+			tasks: [{
+				id: "085C27C676DB56AD"
 				type: "item"
 				item: "ars_nouveau:blaze_fiber"
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
-			id: "7303A1FD5880CD16"
+			x: 14.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["113AD73FF719CCFC"]
+			id: "250075C5711B314D"
+			tasks: [{
+				id: "4F9133916DDB5BD1"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["113AD73FF719CCFC"]
+			id: "29C2141E830500CC"
 			tasks: [
 				{
-					id: "083EAB89C567D54F"
+					id: "035D84179FEC0B3B"
 					type: "item"
 					item: {
-						id: "ars_nouveau:apprentice_hood"
+						id: "ars_nouveau:apprentice_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -96,18 +1755,7 @@
 					}
 				}
 				{
-					id: "18746875427F5488"
-					type: "item"
-					item: {
-						id: "ars_nouveau:apprentice_robes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "30104BEB1739D462"
+					id: "7FFC99E4DC284E4A"
 					type: "item"
 					item: {
 						id: "ars_nouveau:apprentice_leggings"
@@ -118,10 +1766,21 @@
 					}
 				}
 				{
-					id: "72975FF095F03D7E"
+					id: "4E2EAB11D974C550"
 					type: "item"
 					item: {
-						id: "ars_nouveau:apprentice_boots"
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A316F9AA35DE14B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -131,25 +1790,17 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
-			id: "7CFA3150EE7D7998"
-			tasks: [{
-				id: "783FD2B161FB813D"
-				type: "item"
-				item: "ars_nouveau:end_fiber"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 1.0d
-			id: "08C01AEFAFA7B031"
+			x: 14.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["250075C5711B314D"]
+			id: "350E94CFB430DEF6"
 			tasks: [
 				{
-					id: "023FB8347E1D9B50"
+					id: "6923D8AA51AA6198"
 					type: "item"
 					item: {
-						id: "ars_nouveau:archmage_hood"
+						id: "ars_nouveau:archmage_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -157,18 +1808,7 @@
 					}
 				}
 				{
-					id: "3D1022F9BC3833BF"
-					type: "item"
-					item: {
-						id: "ars_nouveau:archmage_robes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "78DBBDE21408AF3F"
+					id: "34AAF850359E6AAD"
 					type: "item"
 					item: {
 						id: "ars_nouveau:archmage_leggings"
@@ -179,10 +1819,21 @@
 					}
 				}
 				{
-					id: "27FE5AD0AB08CB2B"
+					id: "3B1002988973089D"
 					type: "item"
 					item: {
-						id: "ars_nouveau:archmage_boots"
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BB66C67825E8E31"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -192,370 +1843,152 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
-			id: "0970988017030AD3"
+			x: 12.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["542C6D76B579886C"]
+			id: "39380875D15CC045"
 			tasks: [
 				{
-					id: "32818717CAF5DF67"
+					id: "5A7A63225FC656B2"
 					type: "item"
-					item: "ars_nouveau:magebloom_crop"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
-					id: "4218A162DA6298C9"
+					id: "65540B2FE6928E91"
 					type: "item"
-					item: "ars_nouveau:magebloom"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43C0B0FB9252C0B2"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "616C9E803F0917DB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
-			id: "68C71ABC7663FCB1"
+			x: 10.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "75FB086E46ED4C56"
 			tasks: [{
-				id: "65BFD16AB6BB00F1"
+				id: "61A30A17DB06DC66"
 				type: "item"
 				item: "ars_nouveau:abjuration_essence"
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
-			id: "0080DDF2F410EF87"
-			tasks: [{
-				id: "30597C5375662001"
-				type: "item"
-				item: "ars_nouveau:conjuration_essence"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 2.0d
-			id: "2D0A231974FD22A8"
-			tasks: [{
-				id: "3A84C1ADBBD1D75E"
-				type: "item"
-				item: "ars_nouveau:air_essence"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 2.0d
-			id: "448AC0138B14BFE6"
-			tasks: [{
-				id: "7FCDA5BE1DDC01D6"
-				type: "item"
-				item: "ars_nouveau:earth_essence"
-			}]
-		}
-		{
-			x: -1.0d
-			y: 3.0d
-			id: "173121947B91871D"
-			tasks: [{
-				id: "17E5020C3A00498A"
-				type: "item"
-				item: "ars_nouveau:fire_essence"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 3.0d
-			id: "3E67FEC3688484A1"
-			tasks: [{
-				id: "6B2921C7ACC875EC"
-				type: "item"
-				item: "ars_nouveau:manipulation_essence"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 3.0d
-			id: "1886EEF7EEEEDE43"
-			tasks: [{
-				id: "2327050AFC4A78F4"
-				type: "item"
-				item: "ars_nouveau:water_essence"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 0.0d
-			id: "6E4F0523585CAC97"
-			tasks: [{
-				id: "713CD61EFB68662A"
-				type: "item"
-				item: "ars_nouveau:whirlisprig_shards"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 0.0d
-			id: "191EEA384CE6AA31"
-			tasks: [{
-				id: "6C81045E1F558D9C"
-				type: "item"
-				item: "ars_nouveau:starbuncle_shards"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 0.0d
-			id: "099B715DA2FF6EC5"
-			tasks: [{
-				id: "2134CC234439BE0C"
-				type: "item"
-				item: "ars_nouveau:drygmy_shard"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 1.0d
-			id: "001B04666539B227"
-			tasks: [{
-				id: "06FB761AA2D2926E"
-				type: "item"
-				item: "ars_nouveau:novice_spell_book"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 1.0d
-			id: "4F99885866F33901"
-			tasks: [{
-				id: "1BD400742667EA08"
-				type: "item"
-				item: "ars_nouveau:apprentice_spell_book"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 1.0d
-			id: "70B25408A44380DA"
-			tasks: [{
-				id: "5B54717BCDE24161"
-				type: "item"
-				item: "ars_nouveau:archmage_spell_book"
-			}]
-		}
-		{
 			x: 6.0d
-			y: 1.0d
-			id: "6C3F429E07F535F2"
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["28D9ED74EBBC9818"]
+			id: "7417915BB5B548DA"
 			tasks: [{
-				id: "5079364EDA01C9B3"
+				id: "40A7B73D5A23A72D"
 				type: "item"
 				item: "ars_nouveau:wilden_tribute"
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
-			id: "0376151AB60AB33F"
-			tasks: [
-				{
-					id: "1741A5B42A168865"
-					type: "item"
-					item: "minecraft:lectern"
-				}
-				{
-					id: "754313634F894CBE"
-					type: "item"
-					item: "ars_nouveau:bookwyrm_charm"
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 2.0d
-			id: "1306EAC1A65BD0A8"
-			tasks: [
-				{
-					id: "272B4AC0B04B60F3"
-					type: "item"
-					item: "ars_nouveau:imbuement_chamber"
-				}
-				{
-					id: "2968A85C8C544601"
-					type: "item"
-					item: "ars_nouveau:source_gem"
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: -2.0d
-			id: "5D6ED6FE169B3E1F"
-			tasks: [
-				{
-					id: "445CFFDD8CC40817"
-					type: "item"
-					item: "ars_nouveau:red_archwood_sapling"
-				}
-				{
-					id: "64004E3E55EF666D"
-					type: "item"
-					item: "ars_nouveau:red_archwood_log"
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -2.0d
-			id: "6D212B67F00819F1"
-			tasks: [
-				{
-					id: "6AE3F253A98398F9"
-					type: "item"
-					item: "ars_nouveau:blue_archwood_sapling"
-				}
-				{
-					id: "086017AD720FC7B2"
-					type: "item"
-					item: "ars_nouveau:blue_archwood_log"
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: -2.0d
-			id: "498C16316C65B185"
-			tasks: [
-				{
-					id: "4EE6560DB88F6B87"
-					type: "item"
-					item: "ars_nouveau:purple_archwood_sapling"
-				}
-				{
-					id: "611BE145D6EC20C5"
-					type: "item"
-					item: "ars_nouveau:purple_archwood_log"
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: -2.0d
-			id: "62563E613E93D7FB"
-			tasks: [
-				{
-					id: "484BD2F0BAA47A59"
-					type: "item"
-					item: "ars_nouveau:green_archwood_sapling"
-				}
-				{
-					id: "04A03787A950189C"
-					type: "item"
-					item: "ars_nouveau:green_archwood_log"
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: -3.0d
-			id: "5D3A710F69196EF9"
+			x: 11.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "678BE11A95D2E8D8"
 			tasks: [{
-				id: "12213BE89E355C4C"
+				id: "2CD199ECF3344917"
 				type: "item"
-				item: "ars_nouveau:mycelial_sourcelink"
+				item: "ars_nouveau:conjuration_essence"
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
-			id: "1F7C80E6AF6EAB89"
+			x: 12.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "7010DB233C85694C"
 			tasks: [{
-				id: "3ADD63BE17A64DCF"
+				id: "3E7D28DC3113F9AB"
 				type: "item"
-				item: "ars_nouveau:volcanic_sourcelink"
+				item: "ars_nouveau:air_essence"
 			}]
 		}
 		{
-			x: 5.0d
-			y: -3.0d
-			id: "0D34F0609F48A4A8"
+			x: 13.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "6D501E10A37B61B2"
 			tasks: [{
-				id: "202B7E3CAD81D167"
+				id: "07C98A4FAF941DE5"
 				type: "item"
-				item: "ars_nouveau:vitalic_sourcelink"
+				item: "ars_nouveau:earth_essence"
 			}]
 		}
 		{
-			x: 6.0d
-			y: -3.0d
-			id: "7C5D5767A7B4BF0F"
+			x: 14.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "5DE55ABE8942E5C4"
 			tasks: [{
-				id: "7438898A23427366"
+				id: "452011424F085863"
 				type: "item"
-				item: "ars_nouveau:alchemical_sourcelink"
+				item: "ars_nouveau:fire_essence"
 			}]
 		}
 		{
-			x: 7.0d
-			y: -3.0d
-			id: "400FC4053DDAAE27"
+			x: 11.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "2871565D6C051F15"
 			tasks: [{
-				id: "3BBB106ADC455CB3"
+				id: "31665385355F4438"
 				type: "item"
-				item: "ars_nouveau:agronomic_sourcelink"
+				item: "ars_nouveau:manipulation_essence"
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
-			id: "242971E3220F58F0"
+			x: 12.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["5766C8B9E850C186"]
+			id: "5CAF0E219DA3BF6F"
 			tasks: [{
-				id: "53BBB9CBB25F27B8"
+				id: "42EDE9A1980F3AB1"
 				type: "item"
-				item: "ars_nouveau:ritual_brazier"
-			}]
-		}
-		{
-			x: 4.5d
-			y: -1.5d
-			id: "14F025CD28CC89EC"
-			tasks: [
-				{
-					id: "3EC55C5F03AB256C"
-					type: "item"
-					item: "ars_nouveau:enchanting_apparatus"
-				}
-				{
-					id: "0023A23134A8AAC7"
-					type: "item"
-					item: "ars_nouveau:arcane_pedestal"
-					count: 8L
-				}
-			]
-		}
-		{
-			x: 5.5d
-			y: -1.5d
-			id: "56E69735D3631FCA"
-			tasks: [{
-				id: "7995EDA278C16996"
-				type: "item"
-				item: "ars_nouveau:scribes_table"
-			}]
-		}
-		{
-			x: 6.5d
-			y: -1.5d
-			id: "4228FDD518291B14"
-			tasks: [{
-				id: "24B25545A23A69C9"
-				type: "item"
-				item: "ars_nouveau:arcane_core"
-			}]
-		}
-		{
-			x: 7.5d
-			y: -1.5d
-			id: "4A02043FCAFB4F6B"
-			tasks: [{
-				id: "2F8F0BED985B18E6"
-				type: "item"
-				item: "ars_nouveau:source_jar"
+				item: "ars_nouveau:water_essence"
 			}]
 		}
 	]

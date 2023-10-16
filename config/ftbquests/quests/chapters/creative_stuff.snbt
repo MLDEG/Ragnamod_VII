@@ -7,6 +7,405 @@
 	icon: "functionalstorage:creative_vending_upgrade"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6C32D8957AD3C8E1"
+			tasks: [{
+				id: "5E3FD54CF83B6A96"
+				type: "item"
+				item: {
+					id: "wormhole:creative_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "28AA8CD36B2B9558"
+			tasks: [{
+				id: "6F73D004A1F623B7"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "4730BCB8ADE3ACD3"
+			tasks: [{
+				id: "7146268427E63875"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "0FEA7D2300B7DE02"
+			tasks: [{
+				id: "220B39E861242BC4"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "4856D32141E4126A"
+			tasks: [
+				{
+					id: "3B148D8E71479AA7"
+					type: "item"
+					item: "ae2:creative_item_cell"
+				}
+				{
+					id: "7DD2A4C95E85F406"
+					type: "item"
+					item: "appmek:creative_chemical_cell"
+				}
+				{
+					id: "1FE6252474DDD608"
+					type: "item"
+					item: "ae2:creative_fluid_cell"
+				}
+				{
+					id: "08F5FC0E1648AD3D"
+					type: "item"
+					item: "appbot:creative_mana_cell"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "408EA6FEF13CBB4D"
+			tasks: [{
+				id: "0B9D59D51DFE8A34"
+				type: "item"
+				item: "ae2:creative_energy_cell"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "2A7D454C292387E0"
+			tasks: [
+				{
+					id: "3B507753327F9310"
+					type: "item"
+					item: "thermal:rf_coil_creative_augment"
+				}
+				{
+					id: "1A33731E55661E25"
+					type: "item"
+					item: "thermal:fluid_tank_creative_augment"
+				}
+				{
+					id: "6F69509EE9407C79"
+					type: "item"
+					item: "thermal:machine_efficiency_creative_augment"
+				}
+				{
+					id: "76B54A8EDB888180"
+					type: "item"
+					item: "thermal:machine_catalyst_creative_augment"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "10053CCE85A66DF2"
+			tasks: [{
+				id: "4A5E7D8F1DCAB999"
+				type: "item"
+				item: {
+					id: "modularrouters:creative_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "226DE9F1866723FA"
+			tasks: [{
+				id: "345C6C66061F78DD"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "38DDB80287539FAC"
+			tasks: [{
+				id: "499D86CA44B87A59"
+				type: "item"
+				item: "integrateddynamics:energy_battery_creative"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "69AFC31D8ED36BC9"
+			tasks: [{
+				id: "37ACFE80A8ED3976"
+				type: "item"
+				item: "immersiveengineering:capacitor_creative"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "660E7811106C27B4"
+			tasks: [{
+				id: "359535669194B828"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_creative"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "277CA9168C323EA1"
+			tasks: [{
+				id: "7BF8F7F8F56A2BC4"
+				type: "item"
+				item: {
+					id: "evilcraft:creative_blood_drop"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 500
+						}
+						capacity: 1000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "evilcraft:blood"
+							Amount: 500
+							capacity: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "0AC99B1658512EB6"
+			tasks: [{
+				id: "29866962101FE734"
+				type: "item"
+				item: "psi:cad_assembly_creative"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "3D2847F5C61982E7"
+			tasks: [{
+				id: "67BA74D57FE278C0"
+				type: "item"
+				item: "pneumaticcraft:creative_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "4E98C312F3F9F18E"
+			tasks: [{
+				id: "678F30CB404617B2"
+				type: "item"
+				item: "ars_nouveau:creative_source_jar"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "28D1E450E435254A"
+			tasks: [{
+				id: "0AA2E786F4671D5C"
+				type: "item"
+				item: "ars_nouveau:creative_spell_book"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "4F4568C31ADF1B89"
+			tasks: [{
+				id: "5CDDF2195B4028B9"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "3B0833F7389081DB"
+			tasks: [{
+				id: "34CEFA6E767DEE06"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "77E1871FC0819137"
+			tasks: [{
+				id: "32C6A7EF959968F0"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1754085220
+									-1703589541
+									-1817829619
+									-1859080802
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "53D75A792FB99E8F"
+			tasks: [{
+				id: "3AFADEABB58175D6"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "3341D306DBA297C8"
+			tasks: [{
+				id: "5C46C533CEC197D3"
+				type: "item"
+				item: "functionalstorage:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			id: "224975442C8C7641"
+			tasks: [{
+				id: "22A4DAF0174A3FAF"
+				type: "item"
+				item: "bloodmagic:activationcrystalcreative"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "31B18FC4BAD38EF7"
+			tasks: [{
+				id: "54F4BD95CB23801C"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "10792CBBE7D201BB"
+			tasks: [{
+				id: "79535D9D09332189"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			id: "2D0187F42F7C7525"
+			tasks: [{
+				id: "3A22D250539FD0B9"
+				type: "item"
+				item: "draconicevolution:creative_op_capacitor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			id: "5AD8AF6C3C08F2B7"
+			tasks: [{
+				id: "7DFC90BCAB747BE2"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			id: "2EFA9237FEADC2FB"
+			tasks: [{
+				id: "6A8A83CB3E8A693E"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

@@ -1908,7 +1908,6 @@
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_source_gem.png width:150 height:100 align:1}"]
-			dependencies: ["4A02043FCAFB4F6B"]
 			id: "5F49C76E878DA54A"
 			tasks: [{
 				id: "1DF54F852DE6CB2E"

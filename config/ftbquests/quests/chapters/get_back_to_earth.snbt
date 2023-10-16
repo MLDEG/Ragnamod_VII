@@ -205,7 +205,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			description: ["The Portal Activator is needed to open a Twilight portal.Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
+			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
 			dependencies: [
 				"5CFDD2C9BF21A177"
 				"22556496826ED6BF"
@@ -460,7 +460,7 @@
 		{
 			title: "Overworld"
 			icon: "beyond_earth:earth_globe"
-			x: 6.0d
+			x: 8.0d
 			y: 3.0d
 			shape: "octagon"
 			subtitle: "The adventure begin !"
@@ -590,7 +590,7 @@
 		}
 		{
 			title: "How to return in the Undergarden and Twilight Forest."
-			x: 6.0d
+			x: 8.0d
 			y: 1.0d
 			shape: "circle"
 			description: [
@@ -609,6 +609,84 @@
 				id: "2D4FA487219B7095"
 				type: "item"
 				item: "undergarden:catalyst"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			shape: "circle"
+			id: "713A56F9D9036CC6"
+			tasks: [{
+				id: "673BA3E5C155C8A5"
+				type: "item"
+				item: "immersivepetroleum:crudeoil_bucket"
+			}]
+			rewards: [{
+				id: "6446CE2EFABB8310"
+				type: "item"
+				item: "immersivepetroleum:crudeoil_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			shape: "circle"
+			dependencies: ["1E65C40447A8DAC9"]
+			id: "37E18CFB7E512A82"
+			tasks: [{
+				id: "511ED3FE7C5B9AE1"
+				type: "item"
+				item: "beyond_earth:fuel_bucket"
+			}]
+			rewards: [{
+				id: "1DE056748A95830D"
+				type: "item"
+				item: "beyond_earth:fuel_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: [
+				"Fuel Refinery can convert Oil into Fuel"
+				"With Shift + Right Click on your rocket you can fill it with your recently obtain fuel"
+			]
+			dependencies: [
+				"3C884020904C1B6C"
+				"713A56F9D9036CC6"
+			]
+			id: "1E65C40447A8DAC9"
+			tasks: [{
+				id: "207FF5F35A77FCE9"
+				type: "item"
+				item: "beyond_earth:fuel_refinery"
+			}]
+			rewards: [{
+				id: "2ACD56ECB2D0776D"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Launch Pad"
+			x: 6.0d
+			y: 3.0d
+			shape: "square"
+			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
+			dependencies: ["3C884020904C1B6C"]
+			id: "2196A221FBC8BDF3"
+			tasks: [{
+				id: "309581467DDCF2AB"
+				type: "item"
+				item: "beyond_earth:rocket_launch_pad"
+				count: 9L
+			}]
+			rewards: [{
+				id: "17AF5DF646E688E8"
+				type: "item"
+				item: "beyond_earth:rocket_launch_pad"
+				count: 9
 			}]
 		}
 	]
