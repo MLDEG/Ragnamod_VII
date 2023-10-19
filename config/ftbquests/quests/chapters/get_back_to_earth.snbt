@@ -433,12 +433,14 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 6.0d
 			y: 3.0d
 			subtitle: "Liftoff"
 			description: [
 				"With your Nasa Workbench, you can now make your first rocket."
 				"This will allow you to go to the overworld and therefore have access to the Nether and to the end!"
+				""
+				"Be careful, if you go to the moon straight away, remember to take launch pads with you as well as fuel to get back from the moon!"
 			]
 			dependencies: ["2FE44372B1A4621B"]
 			id: "6F5B1AE2E73664A7"
@@ -612,9 +614,15 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 4.0d
 			y: 2.0d
-			shape: "circle"
+			shape: "square"
+			description: [
+				"In order to make a fuel for your rocket, you need to find some Crude Oil, like this oil well."
+				"{image:ftbquests:textures/quests/ip_crudeoil.png width:150 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "713A56F9D9036CC6"
 			tasks: [{
 				id: "673BA3E5C155C8A5"
@@ -628,9 +636,10 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 4.0d
 			y: 4.0d
-			shape: "circle"
+			shape: "square"
+			description: ["Process your crude oil in the Fuel Refinery to obtain fuel for your rocket."]
 			dependencies: ["1E65C40447A8DAC9"]
 			id: "37E18CFB7E512A82"
 			tasks: [{
@@ -645,7 +654,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 4.0d
 			y: 3.0d
 			description: [
 				"Fuel Refinery can convert Oil into Fuel"
@@ -670,7 +679,7 @@
 		}
 		{
 			title: "Launch Pad"
-			x: 6.0d
+			x: 5.0d
 			y: 3.0d
 			shape: "square"
 			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
