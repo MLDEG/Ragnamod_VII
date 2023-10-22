@@ -1657,7 +1657,7 @@
 			y: 7.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_brass.png width:150 height:100 align:1}"]
-			dependencies: ["71AB34A88B76A25C"]
+			dependencies: ["28A1FE67951514B7"]
 			id: "078341CDB9D88E8B"
 			tasks: [{
 				id: "2B4B0390AECCA40F"
@@ -1908,6 +1908,7 @@
 			y: -3.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_source_gem.png width:150 height:100 align:1}"]
+			dependencies: ["40BC67BDEE15D1DE"]
 			id: "5F49C76E878DA54A"
 			tasks: [{
 				id: "1DF54F852DE6CB2E"
