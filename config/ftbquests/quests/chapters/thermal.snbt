@@ -3,15 +3,17 @@
 	group: ""
 	order_index: 15
 	filename: "thermal"
-	title: "Thermal"
+	title: " Thermal"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: -4.0d
+			x: 16.0d
+			y: 0.0d
+			shape: "square"
 			description: ["The Crescent Hammer is the Wrench of Thermal."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			size: 2.0d
 			id: "3A2F84D5513666E6"
 			tasks: [{
@@ -20,15 +22,16 @@
 				item: "thermal:wrench"
 			}]
 			rewards: [{
-				id: "716F573C79A8F844"
+				id: "3B2EE627E5F47049"
 				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 8
+				item: "thermal:tin_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 3.0d
+			x: 13.0d
 			y: 5.5d
+			shape: "square"
 			description: ["The Cyclical Processing augment allows a machine's valid outputs to be fed back into its input slot."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -45,8 +48,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.5d
+			x: 13.0d
+			y: 3.5d
+			shape: "square"
 			description: ["The Auxiliary Process Sieve augment increases chances of secondary output by 15% but scales the energy per operation by 1.25."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -63,8 +67,9 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 13.0d
 			y: 4.5d
+			shape: "square"
 			description: ["The Expanded Tank Construction augment scales the size of all fluid storage in a machine, device, dynamo or tool by 4."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -81,8 +86,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.5d
+			x: 10.0d
+			y: 5.0d
+			shape: "square"
 			description: ["The High-Flux RF Coil augment scales the RF storage by 2 and the RF transfer by 6."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -99,8 +105,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 6.5d
+			x: 10.0d
+			y: 4.0d
+			shape: "square"
 			description: ["The Stabilized RF Coil augment scales the RF storage by 6 and RF transfer by 2."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -117,8 +124,9 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 4.5d
+			x: 10.0d
+			y: 3.0d
+			shape: "square"
 			description: ["The Expanded RF Coil augment scales RF storage and transfer by 4."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -135,8 +143,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 6.5d
+			x: 6.0d
+			y: 4.0d
+			shape: "square"
 			description: ["The Alchemical Extended augment increases duration of potions by 100%."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -159,8 +168,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 4.5d
+			x: 14.5d
+			y: 3.0d
+			shape: "square"
 			description: ["The Radial Enhancement Augment allows your tool or machine to affect a greater area around it."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -177,8 +187,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 3.5d
+			x: 6.0d
+			y: 5.0d
+			shape: "square"
 			description: ["The Auxiliary Reaction Chamber augment increases maximum generation of dynamo by 100% but scales the efficiency by 0.9."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -196,8 +207,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.5d
+			x: 14.5d
+			y: 4.0d
+			shape: "square"
 			description: ["The Catalytic Reclamation Chamber augment scales the chance for a catalyst to be used by 0.8x but also scales the energy used per operation by 1.25x."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -215,8 +227,9 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
 			description: ["The Flux Linkage Amplifier augment increases maximum RF usage rate by 100% but also scales the RF per operation by 1.1."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "011C6051A7077391"
@@ -232,8 +245,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 5.5d
+			x: 6.0d
+			y: 3.0d
+			shape: "square"
 			description: ["The Alchemical Amplifier augment increases the effect of the stored potion by 1 level but decreases its duration by 25%."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -264,8 +278,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.5d
+			x: 14.5d
+			y: 5.0d
+			shape: "square"
 			description: ["The Multi-Cycle Injectors augment scales the fuel efficiency of a dynamo by 1.1."]
 			hide_dependency_lines: true
 			dependencies: ["68BFEB24DC925A5C"]
@@ -282,11 +297,14 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.5d
+			x: 3.0d
+			y: 3.5d
+			shape: "square"
 			description: ["Improves base attributes, scale factor : 4x."]
-			hide_dependency_lines: true
-			dependencies: ["4FF6CDF532386817"]
+			dependencies: [
+				"4FF6CDF532386817"
+				"2C221E8FEA2D54A2"
+			]
 			id: "66481F46FE74054F"
 			tasks: [{
 				id: "2F710F6C8A234543"
@@ -300,10 +318,10 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 5.5d
+			x: 3.0d
+			y: 4.5d
+			shape: "square"
 			description: ["Improves base attributes, scale factor : 3x."]
-			hide_dependency_lines: true
 			dependencies: ["302764D49346CE68"]
 			id: "4FF6CDF532386817"
 			tasks: [{
@@ -318,9 +336,11 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.5d
+			x: 3.0d
+			y: 5.5d
+			shape: "square"
 			description: ["Improves base attributes, scale factor : 2x."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "302764D49346CE68"
 			tasks: [{
 				id: "3EC6D88316074E75"
@@ -334,9 +354,11 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.5d
+			x: 16.0d
+			y: 4.5d
+			shape: "square"
 			description: ["The Tinker's Workbench is used to charge, fill and apply augments to tools and machines."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "12666F8DB9B23E58"
 			tasks: [{
 				id: "4CB4A2CC3959DC6C"
@@ -344,15 +366,18 @@
 				item: "thermal:tinker_bench"
 			}]
 			rewards: [{
-				id: "61A2A2CFCDD4388B"
-				type: "xp"
-				xp: 200
+				id: "071DF8C322892EF7"
+				type: "item"
+				item: "thermal:rf_coil"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 1.0d
-			y: 4.5d
+			x: 16.0d
+			y: 3.5d
+			shape: "square"
 			description: ["The aqueous accumulator is used to generate infinite water when it has two or more adjacent water sources."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "759745DB74769D4B"
 			tasks: [{
 				id: "1EA26D54132C3914"
@@ -367,9 +392,11 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.5d
+			x: 10.0d
+			y: 1.5d
+			shape: "square"
 			description: ["The Fluid Cell can be used to store and distribute fluids."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "4B7BE4361E136047"
 			tasks: [{
 				id: "72086C97173B5BBB"
@@ -405,9 +432,11 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 5.5d
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
 			description: ["The Redstone Flux Cell can be used to store and distribute RF."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "2F363E70275F6998"
 			tasks: [{
 				id: "6C4BD4F6173F31C7"
@@ -443,6 +472,13 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"In this pack, you need to advance in Pneumaticcraft and Industrial Foregoing to unlock the basic Machine Frame."
+				""
+				"Later, you can automate this frame more easily with an Induction Smelter."
+			]
+			dependencies: ["00000000000007BD"]
 			size: 2.0d
 			id: "68BFEB24DC925A5C"
 			tasks: [{
@@ -453,13 +489,13 @@
 			rewards: [{
 				id: "103F3AD9C8C0551F"
 				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 16
+				item: "industrialforegoing:machine_frame_simple"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: 2.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Magma Crucible is a machine that melts items into fluids."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "60E195805368EF0F"
@@ -475,8 +511,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 8.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Sequential Fabricator is a machine that automatically crafts items."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "5398F5D6E0C3CB28"
@@ -485,10 +522,16 @@
 				type: "item"
 				item: "thermal:machine_crafter"
 			}]
+			rewards: [{
+				id: "324CBED10AF71573"
+				type: "item"
+				item: "thermal:item_filter_augment"
+			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: 13.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Alchemical Imbuer is a machine that brews potions."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "2C79FD0B76E3AB5E"
@@ -514,8 +557,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.5d
+			x: 3.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Fluid Encapsulator is a machine who can fill items that can hold fluids, such as buckets or bottles."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "1F60F78DA73569F4"
@@ -532,8 +576,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Sawmill is a machine that cuts logs into planks more efficiently than crafting."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "0F75BA1B13389015"
@@ -550,8 +595,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
+			x: 11.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Pulverizer is a machine that crushes items and ores."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "3E918C5CC15AE782"
@@ -568,8 +614,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Induction Smelter is a machine that smelts multiple item together, producing alloys."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "71305894046B0915"
@@ -579,15 +626,15 @@
 				item: "thermal:machine_smelter"
 			}]
 			rewards: [{
-				id: "018F8FD6F19184E4"
+				id: "5300D82EA49155AC"
 				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 8
+				item: "thermal:machine_frame"
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
+			x: 5.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Phytogenic Insolator is a machine that uses RF, water and optionally fertilizer in order to grow crops, flowers and trees."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "43709ECA1B3D3FC8"
@@ -604,8 +651,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: 10.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Centrifugal Separator is a machine that separates items into their components."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "3574EA0AABCEF9DF"
@@ -622,8 +670,9 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.5d
+			x: 12.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Multiservo Press is a machine that can accept a variety of dies in order to shape metals into different forms and pack, unpack blocks and items."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "69FA9807FFE333DA"
@@ -639,8 +688,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: 9.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Blast Chiller is a machine that cools down and crystallizes liquids such as water and molten metals into their solid forms."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "4DA3FD4824A3D06B"
@@ -657,8 +707,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: 14.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Fractionating Still is a machine refines fluids such as Resin and Sap."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "132CB4C9AFC94C8F"
@@ -674,8 +725,9 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
+			x: 6.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Pyrolyzer is a machine that decomposes substances in a low-oxygen environment using heat."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "09C06DDEE47BEBBD"
@@ -692,8 +744,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.5d
+			x: 7.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Redstone Furnace is a machine that smelts your items like a traditional furnace."]
 			dependencies: ["68BFEB24DC925A5C"]
 			id: "3F1E602216D02187"
@@ -711,9 +764,11 @@
 		}
 		{
 			title: "Radioactive Suit"
-			x: 3.5d
-			y: 1.0d
+			x: 9.0d
+			y: 4.5d
+			shape: "square"
 			description: ["The Hazmat Suit will protect you from environmental hazards such as burning, fall damage, and status ailments."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "4A8718BD71AF4CD9"
 			tasks: [
 				{
@@ -770,9 +825,11 @@
 		}
 		{
 			title: "Diving Suit"
-			x: 4.0d
-			y: 0.0d
+			x: 8.0d
+			y: 5.0d
+			shape: "square"
 			description: ["The Diving Suit will allow you to explore underwater depths with ease."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "45E46443FDF4C54C"
 			tasks: [
 				{
@@ -829,9 +886,11 @@
 		}
 		{
 			title: "Beekeeper Suit"
-			x: 3.5d
-			y: -1.0d
+			x: 7.0d
+			y: 4.5d
+			shape: "square"
 			description: ["The Beekeeper Suit will protect you from any sort of stings you may encounter at the cost of durability."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "4FFAC3509FC5DBE7"
 			tasks: [
 				{
@@ -888,8 +947,9 @@
 		}
 		{
 			title: "Thermal Tools"
-			x: 5.0d
-			y: 0.0d
+			x: 8.0d
+			y: 4.0d
+			shape: "square"
 			description: [
 				"The Saw Blade is used to mine wood-type blocks with ease."
 				""
@@ -907,6 +967,7 @@
 				""
 				"The Reservoir is used to store fluid and refills equipped items, can also be used to pick up and place fluids."
 			]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "326F1C2BA8FEBF75"
 			tasks: [
 				{
@@ -989,9 +1050,11 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.0d
-			dependencies: ["3A2F84D5513666E6"]
+			x: 7.0d
+			y: 3.0d
+			shape: "square"
+			description: ["Stirling Dynamo use burnable fuel to generate Energy, the more powerful the fuel is, the more energy it can produce."]
+			dependencies: ["4A5DA79BF6E7A085"]
 			id: "4D526268420A3A58"
 			tasks: [{
 				id: "76F7414FB10E5C7F"
@@ -1003,13 +1066,15 @@
 				type: "item"
 				item: "minecraft:coal"
 				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: 7.0d
+			y: 1.0d
+			shape: "square"
 			description: ["The Compression Dynamo produce RF with fuels like Refined Fuel, Gasoline and many more."]
-			dependencies: ["3A2F84D5513666E6"]
+			dependencies: ["4A5DA79BF6E7A085"]
 			id: "098FD002C30CAEE2"
 			tasks: [{
 				id: "0A1A8D3FD68A3E97"
@@ -1023,10 +1088,11 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.0d
+			x: 9.0d
+			y: 1.0d
+			shape: "square"
 			description: ["The Magmatic Dynamo produce RF with Lava."]
-			dependencies: ["3A2F84D5513666E6"]
+			dependencies: ["4A5DA79BF6E7A085"]
 			id: "5C87FA7C4138AAC9"
 			tasks: [{
 				id: "13B1C6AA95842F58"
@@ -1040,10 +1106,11 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -5.0d
+			x: 9.0d
+			y: 3.0d
+			shape: "square"
 			description: ["The Numismatic Dynamo produce RF with coins."]
-			dependencies: ["3A2F84D5513666E6"]
+			dependencies: ["4A5DA79BF6E7A085"]
 			id: "6B96354B1CB1D566"
 			tasks: [{
 				id: "7A99E9CF624E15D6"
@@ -1057,10 +1124,11 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -4.0d
+			x: 7.0d
+			y: 2.0d
+			shape: "square"
 			description: ["The Lapidary Dynamo produce RF with gems."]
-			dependencies: ["3A2F84D5513666E6"]
+			dependencies: ["4A5DA79BF6E7A085"]
 			id: "60B0BFF0D0DFD573"
 			tasks: [{
 				id: "2B05249CE0BEC41A"
@@ -1068,16 +1136,18 @@
 				item: "thermal:dynamo_lapidary"
 			}]
 			rewards: [{
-				id: "7615C9FDE9558200"
+				id: "080990F41D15E731"
 				type: "item"
-				item: "thermal:sapphire"
-				count: 2
+				item: "minecraft:diamond"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.5d
+			x: 16.0d
+			y: 5.5d
+			shape: "square"
 			description: ["The Phyto-Soil Infuser is a device that uses RF in order to speed up the growth of crops on nearby phyto-soil."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "599ECF642C45C33C"
 			tasks: [{
 				id: "2242D96C3A3C9776"
@@ -1085,15 +1155,17 @@
 				item: "thermal:device_soil_infuser"
 			}]
 			rewards: [{
-				id: "1BE6D1725037F346"
-				type: "xp"
-				xp: 200
+				id: "33C0BCE42994BB8C"
+				type: "item"
+				item: "thermal:device_soil_infuser"
 			}]
 		}
 		{
-			x: -1.0d
-			y: 3.5d
+			x: 16.0d
+			y: 1.5d
+			shape: "square"
 			description: ["The Phyto-Soil can't be trampled and doesn't need water nearby to remain hydrated."]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "556D5FF0547F9E07"
 			tasks: [{
 				id: "3E766481157554DE"
@@ -1108,13 +1180,15 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 4.5d
+			x: 16.0d
+			y: 2.5d
+			shape: "square"
 			description: [
 				"The Igneous Extruder is a device that will generate infinite blocks when surrounded with water and lava."
 				""
 				"Check JEI to see what kind of block you can farm."
 			]
+			dependencies: ["3FC86B24AC2C57A9"]
 			id: "6825B1B7327455C4"
 			tasks: [{
 				id: "0037A4ED7AD9F107"
@@ -1128,10 +1202,11 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.0d
+			x: 8.0d
+			y: 1.0d
+			shape: "square"
 			description: ["The Disenchantment Dynamo produce RF with enchanted books."]
-			dependencies: ["3A2F84D5513666E6"]
+			dependencies: ["4A5DA79BF6E7A085"]
 			id: "54793224323A2CF8"
 			tasks: [{
 				id: "09B8A60A833A805C"
@@ -1154,10 +1229,11 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -5.5d
+			x: 9.0d
+			y: 2.0d
+			shape: "square"
 			description: ["The Gourmand Dynamo produce RF with foods."]
-			dependencies: ["3A2F84D5513666E6"]
+			dependencies: ["4A5DA79BF6E7A085"]
 			id: "52B3CB25F59A065C"
 			tasks: [{
 				id: "4076572D1B379BD5"
@@ -1171,10 +1247,10 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.5d
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
 			description: ["Improves base attributes, scale factor : 4.5x."]
-			hide_dependency_lines: true
 			dependencies: [
 				"66481F46FE74054F"
 				"76F6A2093D86A169"
@@ -1192,66 +1268,102 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 1.5d
+			x: 1.5d
+			y: 2.0d
+			shape: "square"
 			description: ["First alloy of Thermal Extra use to make upgrade, Soul Infused ingots are made in the alloy smelter"]
+			dependencies: ["71305894046B0915"]
 			id: "069171E8B30EFA2E"
 			tasks: [{
 				id: "0F27AE6422C41C3A"
 				type: "item"
 				item: "thermal_extra:soul_infused_ingot"
 			}]
+			rewards: [{
+				id: "72A0F99307275416"
+				type: "item"
+				item: "thermal_extra:soul_infused_block"
+			}]
 		}
 		{
-			x: -6.0d
-			y: -1.5d
-			description: ["Final alloy of Thermal Series, Enderium ingots are made in the alloy smelter"]
+			x: 1.5d
+			y: 3.0d
+			shape: "square"
+			description: ["Final alloy of Thermal Series, Enderium ingots are made in the Induction Smelter."]
+			dependencies: ["71305894046B0915"]
 			id: "2C221E8FEA2D54A2"
 			tasks: [{
 				id: "10A4C164E6821EFB"
 				type: "item"
 				item: "thermal:enderium_ingot"
 			}]
+			rewards: [{
+				id: "0FE5D6F5367291FE"
+				type: "item"
+				item: "thermal:enderium_block"
+			}]
 		}
 		{
-			x: -7.0d
-			y: 1.5d
+			x: 1.5d
+			y: 4.0d
+			shape: "square"
 			description: ["Second alloy of Thermal Extra use to make upgrade, Shellite are made in the alloy smelter"]
+			dependencies: ["71305894046B0915"]
 			id: "18C15EFD9AC53DC5"
 			tasks: [{
 				id: "72D52ED03063CB6D"
 				type: "item"
 				item: "thermal_extra:shellite_ingot"
 			}]
+			rewards: [{
+				id: "4CBEB8510AEB6D47"
+				type: "item"
+				item: "thermal_extra:shellite_block"
+			}]
 		}
 		{
-			x: -8.0d
-			y: -1.5d
+			x: 1.5d
+			y: 5.0d
+			shape: "square"
 			description: ["Final alloy on Thermal Extra, use to make upgrade, Twinite are made in the alloy smelter"]
+			dependencies: ["71305894046B0915"]
 			id: "6BCBF1F51521D038"
 			tasks: [{
 				id: "7C7983413F69B4CD"
 				type: "item"
 				item: "thermal_extra:twinite_ingot"
 			}]
+			rewards: [{
+				id: "0ACFB9251E33A75B"
+				type: "item"
+				item: "thermal_extra:twinite_block"
+			}]
 		}
 		{
-			x: -4.0d
-			y: -1.5d
+			x: 1.5d
+			y: 1.0d
+			shape: "square"
 			description: [
 				"Dragonsteel ingots are made in the alloy smelter. "
 				"From Thermal Extra it use to make the highest tier of integral component"
 			]
+			dependencies: ["71305894046B0915"]
 			id: "76F6A2093D86A169"
 			tasks: [{
 				id: "5615728CC5038525"
 				type: "item"
 				item: "thermal_extra:dragonsteel_ingot"
 			}]
+			rewards: [{
+				id: "67B569D8C39B687B"
+				type: "item"
+				item: "thermal_extra:dragonsteel_block"
+			}]
 		}
 		{
-			x: -5.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.5d
+			shape: "square"
 			description: ["The Flux Linkage Amplifier augment inscreases maximum RF usage rate by 105% but also scales the RF per operation by 1.1"]
 			dependencies: [
 				"011C6051A7077391"
@@ -1263,10 +1375,16 @@
 				type: "item"
 				item: "thermal_extra:machine_speed_augment_1"
 			}]
+			rewards: [{
+				id: "0246FEFF00AC9FD9"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_1"
+			}]
 		}
 		{
-			x: -6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.5d
+			shape: "square"
 			description: ["The Flux Linkage Amplifier augment inscreases maximum RF usage rate by 110% but also scales the RF per operation by 1.1"]
 			dependencies: [
 				"2781270187ECD83F"
@@ -1278,10 +1396,16 @@
 				type: "item"
 				item: "thermal_extra:machine_speed_augment_2"
 			}]
+			rewards: [{
+				id: "11AF8054277F043F"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_2"
+			}]
 		}
 		{
-			x: -7.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.5d
+			shape: "square"
 			description: ["The Flux Linkage Amplifier augment inscreases maximum RF usage rate by 120% but also scales the RF per operation by 1.1"]
 			dependencies: [
 				"291C732146A9286F"
@@ -1293,10 +1417,16 @@
 				type: "item"
 				item: "thermal_extra:machine_speed_augment_3"
 			}]
+			rewards: [{
+				id: "0D609C848CB5E308"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_3"
+			}]
 		}
 		{
-			x: -8.0d
-			y: 0.0d
+			x: 0.0d
+			y: 5.5d
+			shape: "square"
 			description: ["The Flux Linkage Amplifier augment inscreases maximum RF usage rate by 110% but also scales the RF per operation by 0.9"]
 			dependencies: [
 				"23059D21BC8D5D46"
@@ -1307,6 +1437,84 @@
 				id: "215103A00A8AB291"
 				type: "item"
 				item: "thermal_extra:machine_speed_augment_4"
+			}]
+			rewards: [{
+				id: "7AE9329E3D05008A"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_4"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.0d
+			shape: "square"
+			description: ["Sunflower oil is made in the Multiservo press."]
+			dependencies: ["69FA9807FFE333DA"]
+			id: "68F5CD80BE1D30F8"
+			tasks: [{
+				id: "5F306D0E07164F34"
+				type: "item"
+				item: "thermal_extra:sunflower_oil_bucket"
+			}]
+			rewards: [{
+				id: "42468E399164555A"
+				type: "item"
+				item: "thermal_extra:sunflower_oil_bucket"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Crystalizd Sunflower Oil is made in the Alchemical Imbuer with Amethyst."]
+			dependencies: ["2C79FD0B76E3AB5E"]
+			id: "53282F13A2CB254E"
+			tasks: [{
+				id: "2ECD71BD7EE11940"
+				type: "item"
+				item: "thermal_extra:crystallized_sunflower_oil_bucket"
+			}]
+			rewards: [{
+				id: "5D08FDDCF64CBA6E"
+				type: "item"
+				item: "thermal_extra:crystallized_sunflower_oil_bucket"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			shape: "square"
+			description: ["The Refined Sunflower Oil is made in the Fractionating Still."]
+			dependencies: ["132CB4C9AFC94C8F"]
+			id: "5A92197FC0E04A31"
+			tasks: [{
+				id: "2D5267A78179266A"
+				type: "item"
+				item: "thermal_extra:refined_sunflower_oil_bucket"
+			}]
+			rewards: [{
+				id: "66DAF298BFC72AFF"
+				type: "item"
+				item: "thermal_extra:refined_sunflower_oil_bucket"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Redstone Flux Coil is used to craft any machines of Thermal and also Dynamos."]
+			dependencies: ["3FC86B24AC2C57A9"]
+			id: "4A5DA79BF6E7A085"
+			tasks: [{
+				id: "183245855523E05A"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+			rewards: [{
+				id: "4E4EA0AE5359D41F"
+				type: "item"
+				item: "thermal:rf_coil"
+				random_bonus: 3
 			}]
 		}
 	]

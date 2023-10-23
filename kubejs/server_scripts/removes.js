@@ -596,6 +596,10 @@ onEvent('recipes', e => {
         'miniutilities:angel_ring_crafting',
         'evilcraft:crafting/weather_container_lightning',
         'evilcraft:crafting/weather_container_rain',
+        'thermal_extra:dragonsteel_dust',
+        'thermal_extra:soul_infused_dust',
+        'thermal_extra:shellite_dust',
+        'thermal_extra:twinite_dust',
     ]
     removeId.forEach(C => { r(C) })
 })
