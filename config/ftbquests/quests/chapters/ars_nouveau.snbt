@@ -262,6 +262,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
+			shape: "square"
 			description: [
 				"This is the next increase in your spell book !"
 				""
@@ -275,10 +276,16 @@
 				item: "ars_nouveau:apprentice_spell_book"
 				match_nbt: false
 			}]
+			rewards: [{
+				id: "3857BC40201A53E2"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"To make the last tier of your spell book, you need to kill the &cWilden Chimera&r."
 				""
@@ -291,6 +298,11 @@
 				type: "item"
 				item: "ars_nouveau:archmage_spell_book"
 				match_nbt: false
+			}]
+			rewards: [{
+				id: "6438ECA5EAE6EE3E"
+				type: "item"
+				item: "ars_nouveau:wilden_tribute"
 			}]
 		}
 		{
