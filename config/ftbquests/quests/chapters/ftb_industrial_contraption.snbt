@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 24
 	filename: "ftb_industrial_contraption"
-	title: "FTB Industrial Contraptions"
+	title: " FTB Industrial Contraptions"
 	icon: "ftbic:nuclear_reactor"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,16 +11,32 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
+			description: ["Rubberwood can be found in the world."]
+			dependencies: ["24CEA0C30026A5BD"]
+			size: 2.0d
 			id: "33E25F3B447ED34D"
 			tasks: [{
 				id: "7F6B315F50D8A9B1"
 				type: "item"
 				item: "myrtrees:rubberwood_sapling"
 			}]
+			rewards: [{
+				id: "5DC83998111566AA"
+				type: "item"
+				item: "myrtrees:rubberwood_sapling"
+			}]
 		}
 		{
-			x: 1.0d
+			icon: "myrtrees:tree_tap"
+			x: 1.5d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"Place a Tree Tap on the second Rubber Wood Log (from the ground up) and place a Wooden Bucket underneath."
+				"{image:ftbquests:textures/quests/ftbic_tree.png width:150 height:100 align:1}"
+			]
+			dependencies: ["33E25F3B447ED34D"]
 			id: "16C55EB5AAEA2FAC"
 			tasks: [
 				{
@@ -34,10 +50,20 @@
 					item: "myrtrees:wooden_bucket"
 				}
 			]
+			rewards: [{
+				id: "348A8E2141DA50E4"
+				type: "item"
+				item: "myrtrees:tree_tap"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 2.0d
+			title: "RUBEEERRR !!!"
+			x: 2.5d
 			y: 0.0d
+			shape: "square"
+			description: ["Right-click on the Wooden Bucket to recover the Latex (a minimum of 1000 mB is required to recover the Latex)."]
+			dependencies: ["16C55EB5AAEA2FAC"]
 			id: "207C7551F52E1BC8"
 			tasks: [
 				{
@@ -51,160 +77,312 @@
 					item: "ftbic:rubber"
 				}
 			]
+			rewards: [{
+				id: "392D93418B0AC486"
+				type: "item"
+				item: "ftbic:rubber"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
+			shape: "square"
+			description: ["Use the LV cable to transmit up to 32 EU/tick maximum to your machines! "]
+			dependencies: ["207C7551F52E1BC8"]
 			id: "0B34DDCEED750AAC"
 			tasks: [{
 				id: "25ABF3185284598E"
 				type: "item"
+				title: "LV Cable"
 				item: "ftbic:lv_cable"
+				count: 6L
 			}]
-		}
-		{
-			x: 4.0d
-			y: 0.0d
-			id: "369B95CB156459C7"
-			tasks: [{
-				id: "15BEF59DB3CA13C8"
+			rewards: [{
+				id: "196C2A56DF1938C3"
 				type: "item"
-				item: "ftbic:mv_cable"
+				item: "ftbic:lv_cable"
+				count: 6
+				random_bonus: 6
 			}]
 		}
 		{
-			x: 5.0d
+			x: 7.5d
 			y: 0.0d
+			shape: "square"
+			description: ["Use the HV cable to transmit up to 512 EU/tick maximum to your machines! "]
+			dependencies: ["207C7551F52E1BC8"]
 			id: "5FBBFC4675037876"
 			tasks: [{
 				id: "61009DCC43778B7D"
 				type: "item"
+				title: "HV Cable"
 				item: "ftbic:hv_cable"
+				count: 6L
+			}]
+			rewards: [{
+				id: "7F43ADA441712550"
+				type: "item"
+				item: "ftbic:hv_cable"
+				count: 6
+				random_bonus: 6
 			}]
 		}
 		{
-			x: 6.0d
+			title: "EV Cable"
+			x: 9.5d
 			y: 0.0d
+			shape: "square"
+			description: ["Use the EV cable to transmit up to 2048 EU/tick maximum to your machines! "]
+			dependencies: ["207C7551F52E1BC8"]
 			id: "6E31F1878719B0B9"
 			tasks: [{
 				id: "566BF6CA6C1A677B"
 				type: "item"
 				item: "ftbic:ev_cable"
+				count: 6L
+			}]
+			rewards: [{
+				id: "41883063306C0C35"
+				type: "item"
+				item: "ftbic:ev_cable"
+				count: 6
+				random_bonus: 6
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.0d
+			x: 18.0d
+			y: -1.5d
+			shape: "square"
+			description: ["Use the EV cable to transmit up to 8192 EU/tick maximum to your machines! "]
+			dependencies: ["54E8063E7AE122CB"]
 			id: "5F69E6C72595000B"
 			tasks: [{
 				id: "1450FE2C36AB7787"
 				type: "item"
 				item: "ftbic:iv_cable"
+				count: 6L
 			}]
-		}
-		{
-			x: 0.0d
-			y: -1.0d
-			id: "23BC5E14E838A40D"
-			tasks: [{
-				id: "25D8FDCC6A7829F2"
+			rewards: [{
+				id: "3786C81B11397B65"
 				type: "item"
-				item: "ftbic:industrial_grade_metal"
+				title: "IV Cable"
+				item: "ftbic:iv_cable"
+				count: 6
+				random_bonus: 6
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 14.0d
+			y: 0.0d
+			shape: "square"
+			description: ["Machine Block is a material used to craft various components from FTB IC"]
+			dependencies: ["207C7551F52E1BC8"]
+			size: 2.0d
 			id: "6403C7F6E4933243"
 			tasks: [{
 				id: "06F0066C5CADAADE"
 				type: "item"
 				item: "ftbic:machine_block"
 			}]
+			rewards: [{
+				id: "20775159E4D4CA6E"
+				type: "item"
+				item: "ftbic:machine_block"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 14.0d
+			y: -5.0d
+			shape: "square"
+			description: ["Advanced Machine Block is a material used to craft various components from FTB IC"]
+			dependencies: ["6403C7F6E4933243"]
+			size: 2.0d
 			id: "064EC198DEA45645"
 			tasks: [{
 				id: "45A4B709657CF2C4"
 				type: "item"
 				item: "ftbic:advanced_machine_block"
 			}]
+			rewards: [{
+				id: "75516C44A2EB5031"
+				type: "item"
+				item: "ftbic:advanced_machine_block"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			icon: "ftbic:quarry"
+			x: 13.5d
+			y: -6.5d
+			shape: "square"
+			description: [
+				"The more energy the Quarry is given, the greater his speed."
+				"Place the 3 Landmarks so as to form an intersection (it should form a T)."
+				"{image:ftbquests:textures/quests/ftbic_quarry_zone.png width:150 height:100 align:1}"
+				"Place the Quarry on the intersection of the 3 Landmarks (on the Polished Andesite block)."
+				"{image:ftbquests:textures/quests/ftbic_quarry.png width:150 height:100 align:1}"
+			]
+			dependencies: ["064EC198DEA45645"]
 			id: "3B77DDA06B1A907F"
-			tasks: [{
-				id: "2E16524FEA3605C5"
+			tasks: [
+				{
+					id: "2E16524FEA3605C5"
+					type: "item"
+					item: "ftbic:quarry"
+				}
+				{
+					id: "3A2AA38C8B515594"
+					type: "item"
+					item: "ftbic:landmark"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "060D9EE9C056BE2C"
 				type: "item"
-				item: "ftbic:quarry"
+				item: "ftbic:advanced_circuit"
+				count: 2
+			}]
+		}
+		{
+			icon: "ftbic:pump"
+			x: 14.5d
+			y: -6.5d
+			shape: "square"
+			description: [
+				"The more energy the Pump is given, the greater its speed."
+				"Place the 3 Landmarks so as to form an intersection (it should form a T)."
+				"{image:ftbquests:textures/quests/ftbic_pump_zone.png width:150 height:100 align:1}"
+				""
+				"Place the Pump on the intersection of the 3 Landmarks (on the Polished Andesite block)."
+				"{image:ftbquests:textures/quests/ftbic_pump.png width:150 height:100 align:1}"
+			]
+			dependencies: ["064EC198DEA45645"]
+			id: "5DDF55425E4710D9"
+			tasks: [
+				{
+					id: "624B379295ACDC51"
+					type: "item"
+					item: "ftbic:pump"
+				}
+				{
+					id: "70D2FDD0708F2548"
+					type: "item"
+					item: "ftbic:landmark"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "2781B9C9253FEB7C"
+				type: "item"
+				item: "ftbic:advanced_circuit"
+				count: 2
 			}]
 		}
 		{
 			x: 1.0d
-			y: -2.0d
-			id: "5DDF55425E4710D9"
-			tasks: [{
-				id: "624B379295ACDC51"
-				type: "item"
-				item: "ftbic:pump"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -3.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Generates energy from the sun."]
+			dependencies: ["5FA9A34CBFBB54F8"]
 			id: "42CDA98F3ED529D6"
 			tasks: [{
 				id: "302FCBA495AC87DA"
 				type: "item"
 				item: "ftbic:lv_solar_panel"
 			}]
+			rewards: [{
+				id: "1C793C5B17730670"
+				type: "item"
+				item: "ftbic:lv_solar_panel"
+			}]
 		}
 		{
-			x: 1.0d
-			y: -3.0d
+			x: 0.0d
+			y: 2.0d
+			shape: "square"
+			description: ["Generates energy from the sun."]
+			dependencies: ["42CDA98F3ED529D6"]
 			id: "507A6526A6D2F384"
 			tasks: [{
 				id: "294EFE6D031952AF"
 				type: "item"
 				item: "ftbic:mv_solar_panel"
 			}]
+			rewards: [{
+				id: "2A4B2B9CF90C2C0B"
+				type: "item"
+				item: "ftbic:mv_solar_panel"
+			}]
 		}
 		{
-			x: 2.0d
-			y: -3.0d
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			description: ["Generates energy from the sun."]
+			dependencies: ["507A6526A6D2F384"]
 			id: "4B20EE1575B31D94"
 			tasks: [{
 				id: "3C76870C10841B85"
 				type: "item"
 				item: "ftbic:hv_solar_panel"
 			}]
+			rewards: [{
+				id: "09814225D69E0912"
+				type: "item"
+				item: "ftbic:hv_solar_panel"
+			}]
 		}
 		{
-			x: 3.0d
-			y: -3.0d
+			x: 1.0d
+			y: 3.5d
+			shape: "square"
+			description: ["Generates energy from the sun."]
+			dependencies: ["4B20EE1575B31D94"]
 			id: "25BCEBD2793D0C68"
 			tasks: [{
 				id: "462BAA4C32682E4C"
 				type: "item"
 				item: "ftbic:ev_solar_panel"
 			}]
+			rewards: [{
+				id: "633CAE3F7828383F"
+				type: "item"
+				item: "ftbic:ev_solar_panel"
+			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 16.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Carbon Plate is a material used to craft various components from FTB IC"]
+			dependencies: ["7E0E1B43FC43A851"]
 			id: "00B0457819BF124B"
 			tasks: [{
 				id: "092F18A2E9F482E9"
 				type: "item"
 				item: "ftbic:carbon_plate"
 			}]
+			rewards: [{
+				id: "411209318E6029E9"
+				type: "item"
+				item: "ftbic:carbon_plate"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			title: "Carbon Armor"
+			x: 18.0d
+			y: 1.5d
+			shape: "square"
+			description: ["A minimum of the Chestplate is required for the armor to work."]
+			dependencies: [
+				"54E8063E7AE122CB"
+				"00B0457819BF124B"
+			]
 			id: "774A3243223043C2"
 			tasks: [
 				{
@@ -263,10 +441,21 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4E1489BC34F009EC"
+				type: "item"
+				item: "ftbic:carbon_plate"
+				count: 8
+				random_bonus: 16
+			}]
 		}
 		{
-			x: 5.0d
-			y: -1.0d
+			title: "Quantum Armor"
+			x: 19.5d
+			y: -4.0d
+			shape: "square"
+			description: ["A minimum of the Chestplate is required for the armor to work."]
+			dependencies: ["0CAB09512CD5B2A4"]
 			id: "3EB29B65C16D485B"
 			tasks: [
 				{
@@ -314,250 +503,503 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "352054774A0C27DE"
+				type: "item"
+				item: "ftbic:antimatter"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
+			x: 13.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Mainly used in Antimatter Constructor."]
+			dependencies: ["52D50873CEC448E7"]
 			id: "0808D3FF0A1F4194"
 			tasks: [{
 				id: "71AD25C6E8827541"
 				type: "item"
 				item: "ftbic:scrap"
 			}]
+			rewards: [{
+				id: "0887E1CCB42DCC34"
+				type: "item"
+				item: "ftbic:scrap"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
-			x: 1.0d
-			y: -4.0d
+			x: 18.0d
+			y: -4.5d
+			shape: "square"
+			description: ["Antimatter is a material used to craft various components from FTB IC"]
+			dependencies: ["5B425D4D027AE0E4"]
 			id: "0CAB09512CD5B2A4"
 			tasks: [{
 				id: "700BF1C0204CBCAA"
 				type: "item"
 				item: "ftbic:antimatter"
 			}]
+			rewards: [{
+				id: "3DB4F37F146C901D"
+				type: "item"
+				item: "ftbic:antimatter"
+			}]
 		}
 		{
-			x: 2.0d
-			y: -4.0d
+			x: 18.0d
+			y: -3.0d
+			shape: "square"
+			description: ["The Antimatter Crystal is used to craft the EV Battery Box."]
+			dependencies: [
+				"54E8063E7AE122CB"
+				"0CAB09512CD5B2A4"
+			]
 			id: "2F0EDA00D9826D53"
 			tasks: [{
 				id: "1CA50F0B50C796F1"
 				type: "item"
 				item: "ftbic:antimatter_crystal"
 			}]
+			rewards: [{
+				id: "639272C6F97F672F"
+				type: "item"
+				item: "ftbic:antimatter_crystal"
+			}]
 		}
 		{
-			x: 1.0d
+			x: 16.5d
 			y: -5.0d
+			shape: "square"
+			description: [
+				"The Antimatter Construction transforms EUs and items to generate Antimatter."
+				"If you give him items in addition to energy, energy consumption will be reduced. Scrap Box are the best items to put inside."
+				"{image:ftbquests:textures/quests/ftbic_antimatter_constructor.png width:190 height:60 align:1}"
+			]
+			dependencies: ["064EC198DEA45645"]
 			id: "5B425D4D027AE0E4"
 			tasks: [{
 				id: "01151E591221E649"
 				type: "item"
 				item: "ftbic:antimatter_constructor"
 			}]
+			rewards: [{
+				id: "6608EB25EEB00862"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 3.5d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"The Battery Box stores 40 000 EU and recharges your FTB IC stuff."
+				""
+				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
+			]
+			dependencies: ["3EC042D8A562C120"]
 			id: "4AB74A07C9E00A86"
 			tasks: [{
 				id: "028FD302135F4723"
 				type: "item"
 				item: "ftbic:lv_battery_box"
 			}]
+			rewards: [{
+				id: "6162D47A0C71C9F0"
+				type: "item"
+				item: "ftbic:lv_battery"
+			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			x: 3.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Transforms MV energy into LV."]
+			dependencies: ["0B34DDCEED750AAC"]
 			id: "1B2E42013647BD46"
 			tasks: [{
 				id: "338B1C316F2C7D09"
 				type: "item"
 				item: "ftbic:lv_transformer"
 			}]
+			rewards: [{
+				id: "48F443DEF145FBE8"
+				type: "item"
+				item: "ftbic:lv_transformer"
+			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 5.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"The Battery Box stores 400 000 EU and recharges your FTB IC stuff."
+				""
+				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
+			]
+			dependencies: ["73D3EC02975A74A2"]
 			id: "34379C67FF9A73AC"
 			tasks: [{
 				id: "1E62ED8F2676D6FF"
 				type: "item"
 				item: "ftbic:mv_battery_box"
 			}]
+			rewards: [{
+				id: "44A0F080184F4F22"
+				type: "item"
+				item: "ftbic:mv_battery_box"
+			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 5.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Transforms HV energy into MV."]
+			dependencies: ["73D3EC02975A74A2"]
 			id: "5D1FA34602A10883"
 			tasks: [{
 				id: "03554C473F93042C"
 				type: "item"
 				item: "ftbic:mv_transformer"
 			}]
+			rewards: [{
+				id: "70FFA3DFC222BFEF"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: 7.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"The Battery Box stores 4 000 000 EU and recharges your FTB IC stuff."
+				""
+				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
+			]
+			dependencies: ["34379C67FF9A73AC"]
 			id: "5CF0C854C38E8739"
 			tasks: [{
 				id: "77910AFE3FD7D396"
 				type: "item"
 				item: "ftbic:hv_battery_box"
 			}]
+			rewards: [{
+				id: "28E3E7ED45C0CAE2"
+				type: "item"
+				item: "ftbic:hv_battery_box"
+			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 7.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Transforms EV energy into HV."]
+			dependencies: [
+				"5D1FA34602A10883"
+				"5FBBFC4675037876"
+			]
 			id: "63EC60CAFF6779FD"
 			tasks: [{
 				id: "0AFE6198876BEBB8"
 				type: "item"
 				item: "ftbic:hv_transformer"
 			}]
+			rewards: [{
+				id: "61A6C3952805445E"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: 9.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"The Battery Box stores 40 000 000 EU and recharges your FTB IC stuff."
+				""
+				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
+			]
+			dependencies: ["5CF0C854C38E8739"]
 			id: "0003E374D73FF87C"
 			tasks: [{
 				id: "795772F6B2CB65D2"
 				type: "item"
 				item: "ftbic:ev_battery_box"
 			}]
+			rewards: [{
+				id: "0B67E2BE868A689A"
+				type: "item"
+				item: "ftbic:ev_battery_box"
+			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: 9.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Transforms 8192 EU into 2048 EU."]
+			dependencies: [
+				"63EC60CAFF6779FD"
+				"6E31F1878719B0B9"
+			]
 			id: "15EF4B0143D7581E"
 			tasks: [{
 				id: "59D2233350075138"
 				type: "item"
 				item: "ftbic:ev_transformer"
 			}]
+			rewards: [{
+				id: "18817F5796AE7972"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 10.0d
+			y: -5.0d
+			shape: "square"
+			description: [
+				"Here's an example of a configuration for your nuclear reactor."
+				"{image:ftbquests:textures/ftbic/nuclear_reactor_gui.png width:150 height:125 align:1}"
+				""
+				"Click on the \"?\" button to find information about your nuclear reactor:"
+				"  -Your reactor's operating time."
+				"  -Whether or not your nuclear reactor explodes, and the explosion radius."
+				"  -Energy generated per tick."
+				"  -Energy generated during its cycle."
+				"{image:ftbquests:textures/ftbic/nuclear_reactor_simu.png width:190 height:70 align:1}"
+			]
+			dependencies: ["064EC198DEA45645"]
+			size: 2.0d
 			id: "33CB37A7F08837D8"
 			tasks: [{
 				id: "2E24CEE311276F0F"
 				type: "item"
 				item: "ftbic:nuclear_reactor"
 			}]
+			rewards: [{
+				id: "57D85CE64995655A"
+				type: "item"
+				item: "ftbic:nuclear_reactor_chamber"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 8.5d
-			y: -4.5d
+			x: 16.5d
+			y: 0.0d
+			shape: "square"
+			description: ["The Centrifuge allows you to get more Rubber from Latex, Get Latex directly from a Rubberwood Log and more."]
+			dependencies: ["6403C7F6E4933243"]
 			id: "5604FA79FD9A7196"
 			tasks: [{
 				id: "379DC319FEE7892B"
 				type: "item"
 				item: "ftbic:centrifuge"
 			}]
+			rewards: [{
+				id: "39055A7A75C72392"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 9.5d
-			y: -4.5d
+			x: 15.0d
+			y: 1.5d
+			shape: "square"
+			description: ["With a Compressor, you can turn Canned Food into a Protein Bar, Compress a lot of Coal into Diamond and more."]
+			dependencies: ["6403C7F6E4933243"]
 			id: "7E0E1B43FC43A851"
 			tasks: [{
 				id: "512DE18BE7C65C63"
 				type: "item"
 				item: "ftbic:compressor"
 			}]
+			rewards: [{
+				id: "1F797DE21F37CB3A"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 10.5d
-			y: -4.5d
+			x: 14.0d
+			y: 2.0d
+			shape: "square"
+			description: ["The Reprocessor is used to turn anything into Scrap."]
+			dependencies: ["7E0E1B43FC43A851"]
 			id: "52D50873CEC448E7"
 			tasks: [{
 				id: "75A8F59F458320DC"
 				type: "item"
 				item: "ftbic:reprocessor"
 			}]
+			rewards: [{
+				id: "3C982B926CB4634D"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 11.5d
-			y: -4.5d
+			x: 15.0d
+			y: -1.5d
+			shape: "square"
+			description: ["With the Extruder, you can craft Gears, Rods and Wires !"]
+			dependencies: ["6403C7F6E4933243"]
 			id: "0D1C330050EF01D2"
 			tasks: [{
 				id: "50AA43E56AF48ABF"
 				type: "item"
 				item: "ftbic:extruder"
 			}]
+			rewards: [{
+				id: "35FCE6EB562861E2"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 8.5d
-			y: -3.5d
+			x: 14.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Canning Machine can put food into Tin Can and also craft painting spray for your machines."]
+			dependencies: ["6403C7F6E4933243"]
 			id: "31DE564082D22F3F"
 			tasks: [{
 				id: "1D760ABAE921E248"
 				type: "item"
 				item: "ftbic:canning_machine"
 			}]
+			rewards: [{
+				id: "440F677569A84E50"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 9.5d
-			y: -3.5d
+			x: 13.0d
+			y: -1.5d
+			shape: "square"
+			description: ["You can craft plates with the Roller."]
+			dependencies: ["6403C7F6E4933243"]
 			id: "0462A9B381073D1E"
 			tasks: [{
 				id: "07DD8E6E9BB7324C"
 				type: "item"
 				item: "ftbic:roller"
 			}]
+			rewards: [{
+				id: "0AFF508A36FE4BE6"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 10.5d
-			y: -3.5d
+			x: 2.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"Generate energy from the power of the wind!"
+				""
+				"/!\\ The minimum height for production is Y = 64"
+			]
+			dependencies: ["5FA9A34CBFBB54F8"]
 			id: "6138D248CDEF546B"
 			tasks: [{
 				id: "6DEB63EA3BC5F79D"
 				type: "item"
 				item: "ftbic:wind_mill"
 			}]
+			rewards: [{
+				id: "26CA7C0EE6704514"
+				type: "item"
+				item: "ftbic:wind_mill"
+				random_bonus: 1
+			}]
 		}
 		{
-			x: 11.5d
-			y: -3.5d
+			x: 2.5d
+			y: 2.5d
+			shape: "square"
+			description: ["Transforms Lava into energy."]
+			dependencies: ["5FA9A34CBFBB54F8"]
 			id: "1C35E861F973002D"
 			tasks: [{
 				id: "705B63B0CEAC66DD"
 				type: "item"
 				item: "ftbic:geothermal_generator"
 			}]
+			rewards: [{
+				id: "7370FF2D0045DF28"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
-			x: 8.5d
-			y: -2.5d
+			x: 2.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Creates energy from items that can burn (Exemple : Coal)."]
+			dependencies: ["3EC042D8A562C120"]
 			id: "5FA9A34CBFBB54F8"
 			tasks: [{
 				id: "2ACAAFE0C43860CD"
 				type: "item"
 				item: "ftbic:basic_generator"
 			}]
+			rewards: [{
+				id: "6FFBC12A7C27215B"
+				type: "item"
+				item: "ftbic:basic_generator"
+				random_bonus: 1
+			}]
 		}
 		{
-			x: 9.5d
-			y: -2.5d
+			x: 11.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Works like the Furnace, but uses energy instead of coal."]
+			dependencies: ["5EE02F223FC5B622"]
 			id: "4DFF2A6635EAD395"
 			tasks: [{
 				id: "6C709DEB40B1DF53"
 				type: "item"
 				item: "ftbic:powered_furnace"
 			}]
+			rewards: [{
+				id: "624E1C195BDDBEBE"
+				type: "item"
+				item: "ftbic:powered_furnace"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 10.5d
-			y: -2.5d
+			x: 13.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The Macerator is basically a Crusher, turn ingots into dusts."]
+			dependencies: ["6403C7F6E4933243"]
 			id: "1AAF440EEB228A77"
 			tasks: [{
 				id: "2B73000F3813A74D"
 				type: "item"
 				item: "ftbic:macerator"
 			}]
+			rewards: [{
+				id: "33A478FF173C7E3A"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
 		}
 		{
-			x: 5.0d
-			y: -3.0d
+			title: "Spray Paint Cans"
+			x: 13.0d
+			y: -2.5d
+			shape: "square"
+			description: ["With this Spray Paint Cans, you can recolor your machine from white to black, or vice versa."]
+			dependencies: ["31DE564082D22F3F"]
 			id: "257EEAFACFB3AE38"
 			tasks: [
 				{
@@ -571,67 +1013,101 @@
 					item: "ftbic:dark_spray_paint_can"
 				}
 			]
+			rewards: [{
+				id: "52BA2A68D927687E"
+				type: "item"
+				item: {
+					id: "ftbic:fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: "minecraft:water"
+					}
+				}
+			}]
 		}
 		{
-			x: 8.5d
-			y: -1.5d
+			x: 11.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Electronic Circuit is a material used to craft various components from FTB IC."]
+			dependencies: ["0B34DDCEED750AAC"]
 			id: "5EE02F223FC5B622"
 			tasks: [{
 				id: "0B74A1491B54E4D7"
 				type: "item"
 				item: "ftbic:electronic_circuit"
 			}]
+			rewards: [{
+				id: "72C8B5187A2B94F4"
+				type: "item"
+				item: "ftbic:electronic_circuit"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 9.5d
+			x: 11.5d
 			y: -1.5d
+			shape: "square"
+			description: ["Advanced Circuit is a material used to craft various components from FTB IC."]
+			dependencies: ["5EE02F223FC5B622"]
 			id: "61E315F49B14D7A3"
 			tasks: [{
 				id: "04E2AD199C27589F"
 				type: "item"
 				item: "ftbic:advanced_circuit"
 			}]
+			rewards: [{
+				id: "7CC4DA76F643FCFF"
+				type: "item"
+				item: "ftbic:advanced_circuit"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 10.5d
-			y: -1.5d
+			x: 11.5d
+			y: -3.0d
+			shape: "square"
+			description: ["Iridium Circuit is a material used to craft various components from FTB IC"]
+			dependencies: ["61E315F49B14D7A3"]
 			id: "3354ED35BB2B9A0E"
 			tasks: [{
 				id: "0233C30B2CBD1322"
 				type: "item"
 				item: "ftbic:iridium_circuit"
 			}]
+			rewards: [{
+				id: "34370F6937DB1FDE"
+				type: "item"
+				item: "ftbic:iridium_circuit"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 8.5d
-			y: 0.0d
+			x: 4.5d
+			y: 2.5d
+			shape: "square"
+			description: ["Increase the energy storage capacity of your machines."]
+			dependencies: ["3EC042D8A562C120"]
 			id: "3DB86674760765F9"
-			tasks: [
-				{
-					id: "2154ED23406CA0B5"
-					type: "item"
-					item: "ftbic:overclocker_upgrade"
-				}
-				{
-					id: "0D9341FA0306C9B7"
-					type: "item"
-					item: "ftbic:transformer_upgrade"
-				}
-				{
-					id: "75D1E23A205479F3"
-					type: "item"
-					item: "ftbic:energy_storage_upgrade"
-				}
-				{
-					id: "29D597B9F8C00FD8"
-					type: "item"
-					item: "ftbic:ejector_upgrade"
-				}
-			]
+			tasks: [{
+				id: "75D1E23A205479F3"
+				type: "item"
+				item: "ftbic:energy_storage_upgrade"
+			}]
+			rewards: [{
+				id: "02DD17200AA29CB5"
+				type: "item"
+				item: "ftbic:energy_storage_upgrade"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 9.5d
-			y: 0.0d
+			title: "Canned Food"
+			x: 15.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Canned Food and the Protein Bar can be eaten even if you haven't hungry, and can eat those fast !"]
+			dependencies: ["31DE564082D22F3F"]
 			id: "3F31DBB7AE0D7B49"
 			tasks: [
 				{
@@ -650,6 +1126,793 @@
 					item: "ftbic:protein_bar"
 				}
 			]
+			rewards: [{
+				id: "3C8399A2724229C9"
+				type: "item"
+				item: "ftbic:protein_bar"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"  The LV Battery allows you to store 4000 EU on your body and transfer it to a Battery Box (for example). "
+				"  By right-clicking on the Battery, you can recharge your stuff that requires power from the FTB IC."
+			]
+			dependencies: ["0B34DDCEED750AAC"]
+			id: "3EC042D8A562C120"
+			tasks: [{
+				id: "1F32583FE30B5EE5"
+				type: "item"
+				item: "ftbic:lv_battery"
+			}]
+			rewards: [{
+				id: "602D29AB9B4E3B31"
+				type: "item"
+				item: "ftbic:lv_battery"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"Transformer Upgrade can upgrade the rate of energy you can put into a machine."
+				""
+				"For example an Extruder who needs 32⚡/t you have to use LV Cable, but with a Transformer you can use an MV cable, with two transformers a HV Cable etc..."
+			]
+			dependencies: ["5D1FA34602A10883"]
+			id: "55941AFE7221D2D3"
+			tasks: [{
+				id: "15EE461073DD726B"
+				type: "item"
+				item: "ftbic:transformer_upgrade"
+			}]
+			rewards: [{
+				id: "466910A6FBB9ACEF"
+				type: "item"
+				item: "ftbic:transformer_upgrade"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"Increase the speed of your machines. "
+				""
+				"/!\\ Beware, this will increase the amount of energy required."
+			]
+			dependencies: ["5604FA79FD9A7196"]
+			id: "3A78FD65269C2D94"
+			tasks: [{
+				id: "0B31E7AE8EDE4FE0"
+				type: "item"
+				item: "ftbic:overclocker_upgrade"
+			}]
+			rewards: [{
+				id: "1554B63F0F20DE04"
+				type: "item"
+				item: "ftbic:overclocker_upgrade"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			shape: "square"
+			description: ["Automatically ejects items from machines."]
+			dependencies: ["3DB86674760765F9"]
+			id: "520BE48183B58308"
+			tasks: [{
+				id: "02C6CBFB5BB5933F"
+				type: "item"
+				item: "ftbic:ejector_upgrade"
+			}]
+			rewards: [{
+				id: "387D018B7702BEF3"
+				type: "item"
+				item: "ftbic:ejector_upgrade"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			shape: "square"
+			description: ["Energy Crystal is a material used to craft various components from FTB IC"]
+			dependencies: ["5604FA79FD9A7196"]
+			id: "54E8063E7AE122CB"
+			tasks: [{
+				id: "0E7E0F25A4338B05"
+				type: "item"
+				item: "ftbic:energy_crystal"
+			}]
+			rewards: [{
+				id: "5B866E1929C67151"
+				type: "item"
+				item: "ftbic:energy_crystal"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Use the MV cable to transmit up to 128 EU/tick maximum to your machines! "]
+			dependencies: ["207C7551F52E1BC8"]
+			id: "73D3EC02975A74A2"
+			tasks: [{
+				id: "3FB5D8A01E9D3498"
+				type: "item"
+				title: "MV Cable"
+				item: "ftbic:mv_cable"
+				count: 6L
+			}]
+			rewards: [{
+				id: "412BC03EFC32648F"
+				type: "item"
+				item: "ftbic:mv_cable"
+				count: 6
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 19.5d
+			y: 0.0d
+			shape: "square"
+			description: ["  The MV Battery allows you to store 40 000 EU on your body and transfer it to a Battery Box (for example). "]
+			dependencies: ["54E8063E7AE122CB"]
+			id: "6766FA0101E9B2D6"
+			tasks: [{
+				id: "07B60791A0B6C827"
+				type: "item"
+				item: "ftbic:mv_battery"
+			}]
+			rewards: [{
+				id: "2592B70DB636889F"
+				type: "item"
+				item: "ftbic:mv_battery"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -1.0d
+			shape: "square"
+			description: ["  The HV Battery allows you to store 400 000 EU on your body and transfer it to a Battery Box (for example). "]
+			dependencies: ["6766FA0101E9B2D6"]
+			id: "2FB684283AA8A659"
+			tasks: [{
+				id: "77DC37FDC88119C2"
+				type: "item"
+				item: "ftbic:hv_battery"
+			}]
+			rewards: [{
+				id: "4897D353A01E0C49"
+				type: "item"
+				item: "ftbic:hv_battery"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -2.0d
+			shape: "square"
+			description: ["  The EV Battery allows you to store 10 000 000 EU on your body and transfer it to a Battery Box (for example). "]
+			dependencies: ["2FB684283AA8A659"]
+			id: "787AE8CC9BEE8507"
+			tasks: [{
+				id: "3E05C8EA6E680948"
+				type: "item"
+				item: "ftbic:ev_battery"
+			}]
+			rewards: [{
+				id: "671257EDBC871A0D"
+				type: "item"
+				item: "ftbic:ev_battery"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.5d
+			shape: "square"
+			description: ["Uranium Fuel Rod is used to generate energy in the nuclear reactor."]
+			dependencies: ["33CB37A7F08837D8"]
+			id: "41B3C691A8C26006"
+			tasks: [{
+				id: "113DE86D3DB7D84A"
+				type: "item"
+				item: {
+					id: "ftbic:uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25616A9ECCF57D96"
+				type: "item"
+				item: {
+					id: "ftbic:uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.5d
+			shape: "square"
+			description: ["Dual Uranium Fuel Rod is used to generate energy in the nuclear reactor."]
+			dependencies: [
+				"41B3C691A8C26006"
+				"33CB37A7F08837D8"
+			]
+			id: "54788B872DB155FC"
+			tasks: [{
+				id: "6D4EB2F32B9EE62D"
+				type: "item"
+				item: {
+					id: "ftbic:dual_uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "21AE37D3F8307D59"
+				type: "item"
+				item: {
+					id: "ftbic:dual_uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			shape: "square"
+			description: ["Quad Uranium Fuel Rod is used to generate energy in the nuclear reactor."]
+			dependencies: [
+				"54788B872DB155FC"
+				"33CB37A7F08837D8"
+			]
+			id: "73614A12C432F6C5"
+			tasks: [{
+				id: "4ADBFDCC9E6FCC21"
+				type: "item"
+				item: {
+					id: "ftbic:quad_uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E0D06776189CCDE"
+				type: "item"
+				item: {
+					id: "ftbic:quad_uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			shape: "square"
+			description: ["Heat Vent is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["33CB37A7F08837D8"]
+			id: "2C4F0C9F64CBEC49"
+			tasks: [{
+				id: "7B44EA6935D84B20"
+				type: "item"
+				item: {
+					id: "ftbic:heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FD2FB15A2F13534"
+				type: "item"
+				item: {
+					id: "ftbic:heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			shape: "square"
+			description: ["Advanced Heat Vent is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["2C4F0C9F64CBEC49"]
+			id: "0279994FE9D04376"
+			tasks: [{
+				id: "3F7DB27C1323291D"
+				type: "item"
+				item: {
+					id: "ftbic:advanced_heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "639BA184E3144C12"
+				type: "item"
+				item: {
+					id: "ftbic:advanced_heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			shape: "square"
+			description: ["Reactor Heat Vent is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["2C4F0C9F64CBEC49"]
+			id: "47382358FC1F4909"
+			tasks: [{
+				id: "69C6999B3A1C6DD8"
+				type: "item"
+				item: {
+					id: "ftbic:reactor_heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "105CBDDEB7E19928"
+				type: "item"
+				item: {
+					id: "ftbic:reactor_heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			shape: "square"
+			description: ["Component Heat Vent is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["2C4F0C9F64CBEC49"]
+			id: "09BE190FB95A9F98"
+			tasks: [{
+				id: "6F557BE85B378B1F"
+				type: "item"
+				item: "ftbic:component_heat_vent"
+			}]
+			rewards: [{
+				id: "187345299992F1A3"
+				type: "item"
+				item: "ftbic:component_heat_vent"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			shape: "square"
+			description: ["Overclocked Heat Vent is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["47382358FC1F4909"]
+			id: "321547FC2CA7B9B0"
+			tasks: [{
+				id: "6E00AEC7340AED2E"
+				type: "item"
+				item: {
+					id: "ftbic:overclocked_heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7EB2CEF852E09133"
+				type: "item"
+				item: {
+					id: "ftbic:overclocked_heat_vent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.5d
+			shape: "square"
+			description: ["Reactor Plating is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["33CB37A7F08837D8"]
+			id: "217D8D3FEDCDB857"
+			tasks: [{
+				id: "414BF0651FFA2096"
+				type: "item"
+				item: "ftbic:reactor_plating"
+			}]
+			rewards: [{
+				id: "76C74EAC1C538778"
+				type: "item"
+				item: "ftbic:reactor_plating"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.5d
+			shape: "square"
+			description: ["Containment Reactor Plating is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["217D8D3FEDCDB857"]
+			id: "47C31AA34B5A4475"
+			tasks: [{
+				id: "25A795F6C0E0B3E9"
+				type: "item"
+				item: "ftbic:containment_reactor_plating"
+			}]
+			rewards: [{
+				id: "6930FCC601E18565"
+				type: "item"
+				item: "ftbic:containment_reactor_plating"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			shape: "square"
+			description: ["Heat-Capacity Reactor Plating is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["217D8D3FEDCDB857"]
+			id: "6C1378DA9EE10183"
+			tasks: [{
+				id: "2625EA34A3BADF37"
+				type: "item"
+				item: "ftbic:heat_capacity_reactor_plating"
+			}]
+			rewards: [{
+				id: "2B84EC9821BDBD16"
+				type: "item"
+				item: "ftbic:heat_capacity_reactor_plating"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.5d
+			shape: "square"
+			description: ["Neutron Reflector is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["33CB37A7F08837D8"]
+			id: "754C10F424D03607"
+			tasks: [{
+				id: "5947BACEC7DAA865"
+				type: "item"
+				item: {
+					id: "ftbic:neutron_reflector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C91831FFE9A2E2F"
+				type: "item"
+				item: {
+					id: "ftbic:neutron_reflector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.5d
+			shape: "square"
+			description: ["Thick Neutron Reflector is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["754C10F424D03607"]
+			id: "4CA2628AA22ABF0D"
+			tasks: [{
+				id: "1A0B45A0ADD44CF4"
+				type: "item"
+				item: {
+					id: "ftbic:thick_neutron_reflector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "383FF10EA0303087"
+				type: "item"
+				item: {
+					id: "ftbic:thick_neutron_reflector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.5d
+			shape: "square"
+			description: ["Iridium Neutron Reflector is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["4CA2628AA22ABF0D"]
+			id: "3CC2FDBA6067940F"
+			tasks: [{
+				id: "24BC3B9422C78A56"
+				type: "item"
+				item: "ftbic:iridium_neutron_reflector"
+			}]
+			rewards: [{
+				id: "49921DBF5A2EFF69"
+				type: "item"
+				item: "ftbic:iridium_neutron_reflector"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			shape: "square"
+			description: ["Small Coolant Cell is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["33CB37A7F08837D8"]
+			id: "272C58C794EC5C3C"
+			tasks: [{
+				id: "5C317FC7FB4B8071"
+				type: "item"
+				item: {
+					id: "ftbic:small_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D39A405EC529D96"
+				type: "item"
+				item: {
+					id: "ftbic:small_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.5d
+			shape: "square"
+			description: ["Medium Coolant Cell is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["272C58C794EC5C3C"]
+			id: "1225873C59B798C4"
+			tasks: [{
+				id: "43939D5900CD047E"
+				type: "item"
+				item: {
+					id: "ftbic:medium_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D01D0D0855FBE2E"
+				type: "item"
+				item: {
+					id: "ftbic:medium_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			shape: "square"
+			description: ["Large Coolant Cell is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["1225873C59B798C4"]
+			id: "572B0DB580C11CDA"
+			tasks: [{
+				id: "5BB3E2BEB78F0B4B"
+				type: "item"
+				item: {
+					id: "ftbic:large_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1146C0F4EBB4B03D"
+				type: "item"
+				item: {
+					id: "ftbic:large_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			shape: "square"
+			description: ["Heat Exchanger is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["33CB37A7F08837D8"]
+			id: "09EF30F571757BEA"
+			tasks: [{
+				id: "2341BAD4DDDE044B"
+				type: "item"
+				item: {
+					id: "ftbic:heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AE7B2A2632A586D"
+				type: "item"
+				item: {
+					id: "ftbic:heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			shape: "square"
+			description: ["Advanced Heat Exchanger is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["09EF30F571757BEA"]
+			id: "5D7F3351C2986B05"
+			tasks: [{
+				id: "674D5B6E53E4CE53"
+				type: "item"
+				item: {
+					id: "ftbic:advanced_heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B059D08CED1CF6A"
+				type: "item"
+				item: {
+					id: "ftbic:advanced_heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.0d
+			shape: "square"
+			description: ["Reactor Heat Exchanger is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["09EF30F571757BEA"]
+			id: "681DA2040395D901"
+			tasks: [{
+				id: "7D19C0AEEB6F6461"
+				type: "item"
+				item: {
+					id: "ftbic:reactor_heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FEF0A2678497F72"
+				type: "item"
+				item: {
+					id: "ftbic:reactor_heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			shape: "square"
+			description: ["Component Heat Exchanger is a material used to regulate your Nuclear Reactor."]
+			dependencies: ["09EF30F571757BEA"]
+			id: "3EEE2E55D3E7E932"
+			tasks: [{
+				id: "545B68B9A35E04A8"
+				type: "item"
+				item: {
+					id: "ftbic:component_heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "50790D7C5F619BA5"
+				type: "item"
+				item: {
+					id: "ftbic:component_heat_exchanger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			shape: "square"
+			description: ["Mainly used in Antimatter Constructor."]
+			dependencies: ["0808D3FF0A1F4194"]
+			id: "6C7AB184E91BDD90"
+			tasks: [{
+				id: "09E3A401A5EDE2A4"
+				type: "item"
+				item: "ftbic:scrap_box"
+			}]
+			rewards: [{
+				id: "22B53403B4E81C36"
+				type: "item"
+				item: "ftbic:scrap_box"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 	]
 	quest_links: [ ]
