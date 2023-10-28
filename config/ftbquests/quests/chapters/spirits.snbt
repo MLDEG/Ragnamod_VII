@@ -3,14 +3,16 @@
 	group: ""
 	order_index: 16
 	filename: "spirits"
-	title: "Spirit"
+	title: " Spirit"
 	icon: "spirit:crude_soul_crystal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
+			shape: "square"
+			description: ["The Soul Crystal Shard is used to store a Soul when you kill a mod, it can store only one soul, and you can have your crystal anywhere in your inventory."]
 			dependencies: ["2C386FCB4D66DD1F"]
 			id: "6C3F4C8301FB6B2C"
 			tasks: [{
@@ -18,10 +20,28 @@
 				type: "item"
 				item: "spirit:soul_crystal_shard"
 			}]
+			rewards: [{
+				id: "16E8F9FDC21307E3"
+				type: "item"
+				item: "minecraft:quartz_block"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"The Soul Crystal is an upgrade of your previous Crystal, but as you can see, you can store only 64 souls in it..."
+				""
+				"That's normal because right now your Soul Crystal is only in tier 0, also it's your key to activate a Soul Cage."
+				""
+				"When you have reach 64 souls in it, you can see the number goes up, it's now in Tier 1 and can store 128 souls."
+				"Tier 2 can store 256 souls."
+				"Tier 3 can store 512 souls."
+				"Tier 4 is the max tier and doesn't store more than the tier 3."
+			]
 			dependencies: [
 				"33BFE515CC2C6B7B"
 				"6142628451058BC0"
@@ -32,10 +52,23 @@
 				type: "item"
 				item: "spirit:soul_crystal"
 			}]
+			rewards: [{
+				id: "172458F0B8AB018D"
+				type: "item"
+				item: "spirit:soul_glass"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"The Crude Soul Crystal work the same as the Soul Crystal Shard."
+				""
+				"It's basically an updrage and with it, you can gather 256 Souls."
+			]
 			dependencies: [
 				"2740BEE716A25BEE"
 				"6C3F4C8301FB6B2C"
@@ -46,41 +79,100 @@
 				type: "item"
 				item: "spirit:crude_soul_crystal"
 			}]
+			rewards: [{
+				id: "68F62B9CC38AD178"
+				type: "item"
+				item: "spirit:soul_slate"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 0.0d
 			y: -1.0d
+			shape: "square"
+			description: ["To get Soul Powder, simply throw a Burnt Otherstone in soul fire."]
+			dependencies: [
+				"2B57367693BD9211"
+				"13C41B348C636ACA"
+			]
 			id: "2C386FCB4D66DD1F"
 			tasks: [{
 				id: "4C1542B47C7606A5"
 				type: "item"
 				item: "spirit:soul_powder"
 			}]
+			rewards: [{
+				id: "19FE928C57885D1A"
+				type: "item"
+				item: "spirit:soul_powder"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 1.0d
 			y: -1.0d
+			shape: "square"
+			description: [
+				"To obtain a Soul Steel Ingot you need to throw an Iron Ingot into soul fire, but the block underneath the fire need to be surrounded by Soul Powder Block."
+				""
+				"The Soul Powder Block will be consumed by the craft."
+				""
+				"Check JEI if you want to see the \"structure\" to make."
+			]
+			dependencies: ["2C386FCB4D66DD1F"]
 			id: "2346B197A80C7552"
 			tasks: [{
 				id: "6BDD0214E2D42381"
 				type: "item"
 				item: "spirit:soul_steel_ingot"
 			}]
+			rewards: [{
+				id: "68B9AEF69A946375"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
+			x: 1.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"To obtain Soul Glasses, you need to throw Tinted Glass into soul fire, but the block underneath the fire need to be surrounded by Blocks of Lapis Lazuli."
+				""
+				"Check JEI if you want to see the \"structure\" to make."
+			]
+			dependencies: ["13C41B348C636ACA"]
 			id: "33BFE515CC2C6B7B"
 			tasks: [{
 				id: "4090479CA6361CB8"
 				type: "item"
 				item: "spirit:soul_glass"
 			}]
+			rewards: [{
+				id: "4E737721129B176D"
+				type: "item"
+				item: "spirit:soul_glass"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 1.0d
+			icon: "spirit:soul_pedestal"
+			x: 1.5d
 			y: 0.0d
-			dependencies: ["2346B197A80C7552"]
+			shape: "square"
+			description: [
+				"The Soul Pedestal is used to transmute souls into a physical form."
+				""
+				"In this pack, it's mainly used to transmute Ressource Chicken."
+				"{image:ftbquests:textures/quests/spirit_pedestal.png width:150 height:100 align:1}"
+				"When you have everything in place, with your soul, you need to simply right-click the Soul Pedestal to start the transmutation."
+			]
+			dependencies: [
+				"2346B197A80C7552"
+				"2740BEE716A25BEE"
+			]
 			id: "7D9ACDADBB4CBD8C"
 			tasks: [
 				{
@@ -95,15 +187,98 @@
 					count: 8L
 				}
 			]
+			rewards: [{
+				id: "57E87FB42A63D9EA"
+				type: "item"
+				item: "spirit:pedestal"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
+			x: 1.0d
+			y: 1.0d
+			shape: "square"
+			description: ["To get Soul Slate you need to throw Otherstone in soul fire."]
+			dependencies: [
+				"2B57367693BD9211"
+				"13C41B348C636ACA"
+			]
 			id: "2740BEE716A25BEE"
 			tasks: [{
 				id: "4357A29B640C8D04"
 				type: "item"
 				item: "spirit:soul_slate"
+			}]
+			rewards: [{
+				id: "613B134AFC6DB342"
+				type: "item"
+				item: "spirit:soul_slate"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"The Soul Steel Sword can help you to gather souls, when killing a mob with it, it counts double for your Crystal."
+				""
+				"Soul Reaper enchantment can also give you additional soul per kill for every level of enchantment."
+			]
+			dependencies: ["2346B197A80C7552"]
+			id: "08810F1B7F35C526"
+			tasks: [{
+				id: "239EC9361341CAD8"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "081641B945E540A8"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "spirit:soul_reaper"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Soul Cage is used to summon soulless mob, and it works like a spawner, without the range require."
+				""
+				"In order to activate this cage, you need a Soul Crystal with, at least, 64 souls."
+				""
+				"Be aware that the more souls you have to activate your Soul Cage, the better it will work."
+			]
+			dependencies: ["2346B197A80C7552"]
+			id: "4F2A8CF32BA4BDBD"
+			tasks: [{
+				id: "42A2B8066E34A47D"
+				type: "item"
+				item: "spirit:soul_cage"
+			}]
+			rewards: [{
+				id: "02441852FE430CB6"
+				type: "item"
+				item: "spirit:soul_steel_block"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 	]
