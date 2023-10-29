@@ -3,16 +3,20 @@
 	group: ""
 	order_index: 17
 	filename: "forbidden_and_arcanus"
-	title: "Forbidden and Arcanus"
+	title: " Forbidden and Arcanus"
 	icon: "forbidden_arcanus:hephaestus_forge"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Tyr Armor"
-			x: 5.0d
+			x: 6.0d
 			y: 2.0d
-			description: ["Craft the Tyr Armor"]
+			shape: "square"
+			description: [
+				"Craft the Tyr Armor."
+				"It's used to the End Game armor."
+			]
 			dependencies: ["06741AEC28F07033"]
 			id: "00000000000005DF"
 			tasks: [
@@ -69,9 +73,13 @@
 		}
 		{
 			title: "Draco Arcanus Armor"
-			x: 6.0d
+			x: 4.0d
 			y: 2.0d
-			description: ["Craft the Dragon Arcanus Armor"]
+			shape: "square"
+			description: [
+				"Craft the Dragon Arcanus Armor."
+				"It's used to the End Game armor."
+			]
 			dependencies: ["06741AEC28F07033"]
 			id: "00000000000005E4"
 			tasks: [
@@ -133,87 +141,9 @@
 			}]
 		}
 		{
-			title: "Mortem Armor"
-			x: 8.0d
+			x: 6.5d
 			y: 1.0d
-			description: ["Craft the Mortem Armor."]
-			dependencies: ["480EB40B0567EE82"]
-			id: "00000000000005E9"
-			tasks: [
-				{
-					id: "00000000000005EA"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:mortem_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "00000000000005EB"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:mortem_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "00000000000005EC"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:mortem_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "00000000000005ED"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:mortem_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "372BD55E49B5CA70"
-				type: "item"
-				item: "forbidden_arcanus:stellarite_block"
-			}]
-		}
-		{
-			title: "Edelwood Planks"
-			x: 1.5d
-			y: -1.0d
-			description: ["Edelwood Planks come from the Edelwood Log, who you can find some in Dark Forest or craft it."]
-			dependencies: ["000000000000060C"]
-			id: "00000000000005EE"
-			tasks: [{
-				id: "00000000000005EF"
-				type: "item"
-				item: "forbidden_arcanus:edelwood_planks"
-				count: 64L
-			}]
-			rewards: [{
-				id: "15B24093009F5D91"
-				type: "item"
-				item: "forbidden_arcanus:edelwood_log"
-				count: 8
-			}]
-		}
-		{
-			x: 5.5d
-			y: 1.0d
+			shape: "square"
 			description: ["The Draco Arcanus Scepter can launch thunder at mobs."]
 			dependencies: ["06B3F7979853F6BE"]
 			id: "00000000000005F4"
@@ -229,8 +159,9 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: -1.0d
+			shape: "square"
 			description: [
 				"With your Dark Soul, craft a Corrupted Pixie."
 				"You can right-click it on a Utrem Jar."
@@ -255,8 +186,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: -1.0d
+			shape: "square"
 			description: ["Turn the Soul into a Dark Soul."]
 			dependencies: ["00000000000005FA"]
 			id: "00000000000005F8"
@@ -272,8 +204,9 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: -1.0d
+			shape: "square"
 			description: ["Collect a Soul from a soul sand using the Soul Extractor."]
 			dependencies: ["00000000000005FC"]
 			id: "00000000000005FA"
@@ -289,10 +222,11 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -1.0d
+			shape: "square"
 			description: ["The Soul Extractor is used to extract souls from soul sand."]
-			dependencies: ["06B3F7979853F6BE"]
+			dependencies: ["49566F6C3DE4A0A0"]
 			id: "00000000000005FC"
 			tasks: [{
 				id: "00000000000005FD"
@@ -309,13 +243,16 @@
 				id: "07C41332D728B9E9"
 				type: "item"
 				item: "minecraft:soul_sand"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
-			x: 9.0d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
 			description: ["The Quantum Catcher can catch mobs."]
+			dependencies: ["000000000000060A"]
 			id: "00000000000005FE"
 			tasks: [{
 				id: "00000000000005FF"
@@ -329,8 +266,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: 3.5d
+			y: -0.5d
+			shape: "square"
 			description: ["The Slimec Pickexe has Silk Touch when you craft it."]
 			dependencies: ["09FB1CFAC203AC1F"]
 			id: "0000000000000602"
@@ -357,9 +295,11 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: -1.0d
-			description: ["You can find, rarely, Runestone between Y 15 and 5."]
+			shape: "square"
+			description: ["You can find, rarely, Runestone in Deepslate Layer."]
+			dependencies: ["49566F6C3DE4A0A0"]
 			id: "0000000000000604"
 			tasks: [{
 				id: "0000000000000605"
@@ -369,12 +309,14 @@
 			rewards: [{
 				id: "52A311F0D676ED5C"
 				type: "item"
-				item: "forbidden_arcanus:rune_bag"
+				item: "forbidden_arcanus:rune"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.5d
 			y: 1.0d
+			shape: "square"
 			description: ["The Arcane Dragon Egg is useless, but it's a pretty cool trophy"]
 			dependencies: [
 				"06741AEC28F07033"
@@ -395,7 +337,9 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
 			description: ["The Arcane Crystal is used in a lot a recipe in Forbidden and Arcanus."]
+			dependencies: ["49566F6C3DE4A0A0"]
 			size: 2.0d
 			id: "000000000000060A"
 			tasks: [{
@@ -413,6 +357,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			shape: "square"
 			description: ["Just smelt some Arcane Crystal to get the Dust of it."]
 			dependencies: ["000000000000060A"]
 			id: "000000000000060C"
@@ -429,9 +374,11 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: 9.0d
+			y: 0.0d
+			shape: "square"
 			description: ["The Eternal Stella can make your gear Indestructible."]
+			dependencies: ["08AFEB39635D7EA8"]
 			id: "0000000000000610"
 			tasks: [{
 				id: "0000000000000611"
@@ -455,7 +402,11 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			description: ["The Mundabitur Dust is used to make the Magical Farmland."]
+			shape: "square"
+			description: [
+				"The Mundabitur Dust is used to make the Magical Farmland."
+				"Form the Hephaestus Forge and the Arcane Crystal Obelisk."
+			]
 			dependencies: ["000000000000060C"]
 			id: "0000000000000612"
 			tasks: [{
@@ -471,9 +422,10 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 1.5d
 			y: -1.0d
-			description: ["The Dark Matter is used to craft the Runis Tenebris Frame, the Mystical Dagger and the Void Portal."]
+			shape: "square"
+			description: ["You can obtain a Dark Matter by smelting Edelwood Log."]
 			dependencies: ["000000000000060C"]
 			id: "0000000000000614"
 			tasks: [{
@@ -485,12 +437,14 @@
 				id: "6C1B0E4602BDDAFE"
 				type: "item"
 				item: "forbidden_arcanus:dark_matter"
-				count: 6
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
+			x: 8.0d
+			y: 0.5d
+			shape: "square"
 			description: ["The Obsidian Skull protect you from fire damage for 30 seconds."]
 			dependencies: ["7DEB614236ACD216"]
 			id: "0000000000000616"
@@ -500,29 +454,38 @@
 				item: "forbidden_arcanus:obsidian_skull"
 			}]
 			rewards: [{
-				id: "5C3D119630B1D12D"
+				id: "49C51BC78651BE9E"
 				type: "item"
-				item: "forbidden_arcanus:obsidian_skull"
+				item: "forbidden_arcanus:processed_obsidian_block"
 			}]
 		}
 		{
 			title: "Obsidian Ingot"
-			x: 6.5d
+			x: 7.0d
 			y: 0.0d
+			shape: "square"
 			description: ["Obsidian Ingot is made with Iron and Obsidian."]
+			dependencies: ["49566F6C3DE4A0A0"]
 			id: "7DEB614236ACD216"
 			tasks: [{
 				id: "392D473A3E9DA194"
 				type: "item"
 				item: "forbidden_arcanus:obsidian_ingot"
-				count: 64L
+			}]
+			rewards: [{
+				id: "37F9027A06F25210"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_ingot"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
 			title: "Arcane Gold Ingot"
-			x: 2.5d
-			y: 0.0d
-			shape: "hexagon"
+			x: 3.0d
+			y: 0.5d
+			shape: "square"
+			description: ["Arcane Gold Ingot can be craft using Gold, charcoal, Arcane Crystal Dust and Mundabitur Dust !"]
 			dependencies: [
 				"0000000000000612"
 				"000000000000060C"
@@ -532,19 +495,19 @@
 				id: "3DB4F7A0A43ED897"
 				type: "item"
 				item: "forbidden_arcanus:arcane_gold_ingot"
-				count: 32L
 			}]
 			rewards: [{
 				id: "528A8FE2359ADCF3"
 				type: "item"
-				item: "forbidden_arcanus:arcane_gold_block"
-				count: 4
+				item: "forbidden_arcanus:arcane_gold_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: 0.0d
-			description: ["You can either get a Dark Rune by using the Runic Tenebris Core or mine it on the bottom of the world."]
+			shape: "square"
+			description: ["You can craft Dark Rune in a crafting table or by right-clicking a Dark Nether Star Block with a Rune."]
 			dependencies: [
 				"0000000000000604"
 				"06B3F7979853F6BE"
@@ -558,13 +521,15 @@
 			rewards: [{
 				id: "638484923886C4B9"
 				type: "item"
-				item: "forbidden_arcanus:dark_rune_bag"
+				item: "forbidden_arcanus:dark_rune"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
-			description: ["The Dark Nether Star is used to activate the Runic Tenebris Frame."]
+			shape: "square"
+			description: ["Dark Nether Star is used to help you automate Dark Runes."]
 			dependencies: ["7DEB614236ACD216"]
 			id: "06B3F7979853F6BE"
 			tasks: [{
@@ -576,11 +541,13 @@
 				id: "11F6D3D5FA45A05E"
 				type: "item"
 				item: "forbidden_arcanus:dark_nether_star"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.5d
 			y: 1.0d
+			shape: "square"
 			description: ["The Mystical Dagger is used to cut off Dragon Head to obtain Dragon Scale."]
 			dependencies: ["6243F43E5363E196"]
 			id: "19B9455CD4C64D92"
@@ -602,9 +569,10 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.0d
 			y: 2.0d
-			description: ["Get some Dragon Scale."]
+			shape: "square"
+			description: ["You can get Dragon Scale by killing the Ender Dragon."]
 			dependencies: ["19B9455CD4C64D92"]
 			id: "06741AEC28F07033"
 			tasks: [{
@@ -619,44 +587,29 @@
 			}]
 		}
 		{
-			title: "Cloth"
-			x: 7.0d
-			y: 1.0d
-			description: ["Craft Cloth with string and wool"]
-			id: "480EB40B0567EE82"
-			tasks: [{
-				id: "01BC42D8F6255F32"
-				type: "item"
-				item: "forbidden_arcanus:cloth"
-				count: 14L
-			}]
-			rewards: [{
-				id: "39E4C0000A2B69E3"
-				type: "item"
-				item: "minecraft:white_wool"
-				count: 64
-			}]
-		}
-		{
-			x: 0.0d
-			y: 2.0d
+			title: "Hephaestus Forge"
+			icon: "forbidden_arcanus:hephaestus_forge"
+			x: 11.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Hephaestus Forge is a multiblock magic structure who can craft different enchanted book and Eternal Stella, but in this modpack it's focus on Chicken and the Alchemistry Machine Frame."
+				"To form this multiblock, simply build, with the blocks requested in the quest, the screen below."
+				"{image:ftbquests:textures/quests/forbidden_forge.png width:150 height:100 align:1}"
+				"Now place your Smithing Table in the center and shift right-click with a Mundabitur Dust."
+				"You have 8 different blocks on the ground, this is where you'll have to place your pedestals."
+				""
+				"To start a craft, you have to right-click with a Blacksmith Gavel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["09FB1CFAC203AC1F"]
+			size: 2.0d
 			id: "08AFEB39635D7EA8"
 			tasks: [
 				{
-					id: "2C63187E925C5A7D"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:wooden_blacksmith_gavel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "4885337D925542C6"
 					type: "item"
-					item: "forbidden_arcanus:hephaestus_forge"
+					item: "minecraft:smithing_table"
 				}
 				{
 					id: "4FDEA3D719E62438"
@@ -682,16 +635,96 @@
 					item: "forbidden_arcanus:polished_darkstone"
 					count: 48L
 				}
+				{
+					id: "503A9613C9F1B9E1"
+					type: "item"
+					title: "Any #forbidden_arcanus:blacksmith_gavel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forbidden_arcanus:blacksmith_gavel"
+						}
+					}
+				}
 			]
+			rewards: [{
+				id: "65385EFF6BED1864"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: 9.5d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"To get an Arcane Crystal Obelisk you have to put together an Arcane Polished Darkstone and two Arcane Crystal Block on top of it, then right-click with a Mundabitur Dust. "
+				"{image:ftbquests:textures/quests/forbidden_obelisk.png width:150 height:100 align:1}"
+				"The Obelisk will generate passively Aureal for your Hephaestus Forge."
+			]
+			dependencies: ["08AFEB39635D7EA8"]
 			id: "71F9CD3BF1C02CD8"
 			tasks: [{
 				id: "7C80DA2157F8872D"
 				type: "item"
 				item: "forbidden_arcanus:arcane_crystal_obelisk"
+			}]
+			rewards: [{
+				id: "01C4DE36B132F07A"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_block"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"Xpetrified Orb can be found in caves, but you can automate his production."
+				""
+				"To do so, you need to create a Black Hole by throwing a Dark Matter and a Corrupti Dust on the ground."
+				"{image:ftbquests:textures/quests/forbidden_blackhole.png width:150 height:100 align:1}"
+				"Don't worry, this black hole won't hurt you, but he absorbs items and XP orbs."
+				"Items will be destroyed, but XP will be transformed into Xpetrified Orb."
+			]
+			dependencies: ["0000000000000614"]
+			id: "1F9473E35F4E3455"
+			tasks: [{
+				id: "2F190AAE0286A586"
+				type: "item"
+				item: "forbidden_arcanus:xpetrified_orb"
+			}]
+			rewards: [{
+				id: "2E65F5723C42C83D"
+				type: "item"
+				item: "forbidden_arcanus:xpetrified_orb"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"Golden Orchid Seeds is used on Magical Farmland, and it can provide you infinite amount of Arcane Gold Nuggets."
+				""
+				"To get Magical Farmland, simply applie an Arcane Bone Meal on a regular Farmland."
+			]
+			dependencies: ["09FB1CFAC203AC1F"]
+			id: "0ADE37DDA117E17E"
+			tasks: [{
+				id: "35BF8554A205C66D"
+				type: "item"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+			}]
+			rewards: [{
+				id: "65B03C0B13E4BF73"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_nugget"
+				random_bonus: 7
 			}]
 		}
 	]

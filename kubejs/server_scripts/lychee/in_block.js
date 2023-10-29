@@ -1,22 +1,15 @@
-// priority: 1
-
 onEvent('recipes', e => {
 
     e.custom({
-        "type": "lychee:item_inside",
-        "item_in": [
-            { "item": "ae2:sky_dust" },
-            { "item": "minecraft:diamond" },
-            { "item": "thermal:ender_pearl_dust" }
-        ],
-        "block_in": {
-            "blocks": ["minecraft:water"]
+        "type": "lychee:block_interacting",
+        "item_in": {
+            "item": "forbidden_arcanus:rune"
         },
+        "block_in": "forbidden_arcanus:dark_nether_star_block",
         "post": [
             {
                 "type": "drop_item",
-                "item": "lazierae2:resonating_dust",
-                "count": 2
+                "item": "forbidden_arcanus:dark_rune"
             }
         ]
     })
