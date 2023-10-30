@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 19
 	filename: "hostil_neural_networks"
-	title: "Hostile Neural Networks"
+	title: " Hostile Neural Networks"
 	icon: "hostilenetworks:sim_chamber"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,66 +11,137 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
+			description: ["This Machine Frame was made for this modpack, and it's used to craft Hostile Neural Machines."]
+			dependencies: ["7D0BC26B33BBB358"]
+			size: 2.0d
 			id: "53281223F73C2C0A"
 			tasks: [{
 				id: "559E58622DF71343"
 				type: "item"
 				item: "hostilenetworks:machine_frame"
 			}]
+			rewards: [{
+				id: "16D800A3FB9B7FD1"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
+			shape: "square"
+			description: ["The Simulation Chamber is used to produce Generalized Prediction and the Mob Prediction, using your Data Model and Prediction Matrix."]
+			dependencies: [
+				"53281223F73C2C0A"
+				"565CE6AE6D70881D"
+			]
 			id: "055A2F4251CEB8F4"
 			tasks: [{
 				id: "27ED03A76820069C"
 				type: "item"
 				item: "hostilenetworks:sim_chamber"
 			}]
+			rewards: [{
+				id: "446505E9268CA916"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Loot Fabricator can produce resources with Mob Prediction."]
+			dependencies: ["53281223F73C2C0A"]
 			id: "26EC567B8ED51040"
 			tasks: [{
 				id: "347CB8332DCB8391"
 				type: "item"
 				item: "hostilenetworks:loot_fabricator"
 			}]
+			rewards: [{
+				id: "7D1587AED0982A88"
+				type: "item"
+				item: "hostilenetworks:loot_fabricator"
+			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: 5.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"The Deep Learner is used to collect data on your Data Model."
+				"When you have a data model, place in the GUI of your Deep Learner."
+				"You don't need to have your Learner in your hotbar, you can just have in your inventory."
+				"You can put 4 Data Model in your Learner."
+			]
+			dependencies: ["0C53882CCAF972DC"]
 			id: "219FE5C2C142EC17"
 			tasks: [{
 				id: "5639718242E03C86"
 				type: "item"
 				item: "hostilenetworks:deep_learner"
 			}]
+			rewards: [{
+				id: "1A9CA75E198B0390"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cheesecake"
+			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 5.5d
+			y: -1.0d
+			shape: "square"
+			description: ["The Model Framework is used to get a Data Model from mobs."]
+			dependencies: ["5CF931657DFA41A5"]
 			id: "0C53882CCAF972DC"
 			tasks: [{
 				id: "3D6F63D16601DF20"
 				type: "item"
 				item: "hostilenetworks:blank_data_model"
 			}]
+			rewards: [{
+				id: "23A8C93B9054B94A"
+				type: "item"
+				item: "hostilenetworks:blank_data_model"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 4.0d
-			y: 0.5d
+			title: "Prediction Matrix"
+			x: 1.5d
+			y: 1.0d
+			shape: "square"
+			description: ["The Prediction Matrix is used to generation Generalized Prediction in the Simulation Chamber."]
+			dependencies: ["5CF931657DFA41A5"]
 			id: "565CE6AE6D70881D"
 			tasks: [{
 				id: "6473B035A1C7A823"
 				type: "item"
 				item: "hostilenetworks:empty_prediction"
+				count: 16L
+			}]
+			rewards: [{
+				id: "15CE2678728B8161"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
-			x: 5.5d
+			x: 3.0d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"Get a Warden Data Model."
+				"Simply right-click the mob."
+			]
+			dependencies: [
+				"0C53882CCAF972DC"
+				"055A2F4251CEB8F4"
+			]
 			id: "0521FCCDCB3DB274"
 			tasks: [{
 				id: "2046BF23EDA6D287"
@@ -80,16 +151,39 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							id: "hostilenetworks:zombie"
+							id: "hostilenetworks:warden"
 						}
 					}
 				}
 				match_nbt: true
 			}]
+			rewards: [{
+				id: "11E3037051A67AE0"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:creeper"
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 6.5d
+			x: 4.0d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"Get a Blaze Data Model."
+				"Simply right-click the mob."
+			]
+			dependencies: [
+				"0C53882CCAF972DC"
+				"055A2F4251CEB8F4"
+			]
 			id: "68FB65525251C786"
 			tasks: [{
 				id: "5C30BFCC74F17359"
@@ -99,56 +193,115 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							id: "hostilenetworks:zombified_piglin"
+							id: "hostilenetworks:blaze"
 						}
 					}
 				}
 				match_nbt: true
 			}]
+			rewards: [{
+				id: "5F3DE607B014E281"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:zombified_piglin"
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 5.5d
+			x: 3.0d
 			y: 1.0d
+			shape: "square"
+			description: ["This Generalized Overworld Prediction is made by the Simulation Chamber with an Overworld Data Model."]
+			dependencies: ["0521FCCDCB3DB274"]
 			id: "1D013C288CC715C8"
 			tasks: [{
 				id: "71569791E84BBFF9"
 				type: "item"
 				item: "hostilenetworks:overworld_prediction"
 			}]
+			rewards: [{
+				id: "7F2E4CBE26090DD0"
+				type: "item"
+				item: "hostilenetworks:overworld_prediction"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 6.5d
+			x: 4.0d
 			y: 1.0d
+			shape: "square"
+			description: ["This Generalized Nether Prediction is made by the Simulation Chamber with a Nether Data Model."]
+			dependencies: ["68FB65525251C786"]
 			id: "5B092740CBDC0A6B"
 			tasks: [{
 				id: "0D64DC5C26E87BD4"
 				type: "item"
 				item: "hostilenetworks:nether_prediction"
 			}]
+			rewards: [{
+				id: "6EA418EBC9BE2807"
+				type: "item"
+				item: "hostilenetworks:nether_prediction"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 7.5d
+			x: 5.0d
 			y: 1.0d
+			shape: "square"
+			description: ["This Generalized Ender Prediction is made by the Simulation Chamber with an Ender Data Model."]
+			dependencies: ["42247B4F56A6393F"]
 			id: "1317D404CB9A9735"
 			tasks: [{
 				id: "2591D75F97CB8689"
 				type: "item"
 				item: "hostilenetworks:end_prediction"
 			}]
+			rewards: [{
+				id: "73440B8755116C98"
+				type: "item"
+				item: "hostilenetworks:end_prediction"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 8.5d
+			x: 6.0d
 			y: 1.0d
+			shape: "square"
+			description: ["This Generalized Twilight Prediction is made by the Simulation Chamber with a Twilight Data Model."]
+			dependencies: ["44150A1347863EF6"]
 			id: "7F963FC1D741B554"
 			tasks: [{
 				id: "0CD99446CBD7F0B0"
 				type: "item"
 				item: "hostilenetworks:twilight_prediction"
 			}]
+			rewards: [{
+				id: "30C7AFBE4ADE9510"
+				type: "item"
+				item: "hostilenetworks:twilight_prediction"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 7.5d
+			x: 5.0d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"Get an Enderman Data Model."
+				"Simply right-click the mob."
+			]
+			dependencies: [
+				"0C53882CCAF972DC"
+				"055A2F4251CEB8F4"
+			]
 			id: "42247B4F56A6393F"
 			tasks: [{
 				id: "7A47DE47C1E73B04"
@@ -164,10 +317,33 @@
 				}
 				match_nbt: true
 			}]
+			rewards: [{
+				id: "7D7B7A82B02E5A4D"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:shulker"
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 8.5d
+			x: 6.0d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"Get a Cave Troll Data Model."
+				"Simply right-click the mob."
+			]
+			dependencies: [
+				"0C53882CCAF972DC"
+				"055A2F4251CEB8F4"
+			]
 			id: "44150A1347863EF6"
 			tasks: [{
 				id: "3A066925EC66EFE6"
@@ -177,11 +353,149 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							id: "hostilenetworks:twilightforest/skeleton_druid"
+							id: "hostilenetworks:twilightforest/troll"
 						}
 					}
 				}
 				match_nbt: true
+			}]
+			rewards: [{
+				id: "7687866AA96030E3"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 54
+							id: "hostilenetworks:twilightforest/death_tome"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "square"
+			description: ["This Generalized Undergarden Prediction is made by the Simulation Chamber with an Undergarden Data Model."]
+			dependencies: ["54B3964CD5D46AF9"]
+			id: "42966F6EA137914D"
+			tasks: [{
+				id: "4AA6A14E1705E488"
+				type: "item"
+				item: "hostilenetworks:undergarden_prediction"
+			}]
+			rewards: [{
+				id: "313554AD55012418"
+				type: "item"
+				item: "hostilenetworks:undergarden_prediction"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			shape: "square"
+			description: ["This Generalized Blue Skies Prediction is made by the Simulation Chamber with a Blue Skies Data Model."]
+			dependencies: ["0FEA7BD6913AC553"]
+			id: "5132D78E47917D2A"
+			tasks: [{
+				id: "5726C90643EC64F2"
+				type: "item"
+				item: "hostilenetworks:blueskies_prediction"
+			}]
+			rewards: [{
+				id: "6D160FC23980B594"
+				type: "item"
+				item: "hostilenetworks:blueskies_prediction"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Get a Rotbeast Data Model."
+				"Simply right-click the mob."
+			]
+			dependencies: [
+				"0C53882CCAF972DC"
+				"055A2F4251CEB8F4"
+			]
+			id: "54B3964CD5D46AF9"
+			tasks: [{
+				id: "2DCED991EC518E21"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 54
+							id: "hostilenetworks:undergarden_rotbeast"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "517E575704634551"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 54
+							id: "hostilenetworks:undergarden_gloomper"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Get a Stonelet Data Model."
+				"Simply right-click the mob."
+			]
+			dependencies: [
+				"0C53882CCAF972DC"
+				"055A2F4251CEB8F4"
+			]
+			id: "0FEA7BD6913AC553"
+			tasks: [{
+				id: "317991025FEEE945"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 1254
+							id: "hostilenetworks:blue_skies_stonelet"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "56DA1517B7C1C2C5"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							data: 54
+							id: "hostilenetworks:blue_skies_cosmic_fox"
+						}
+					}
+				}
 			}]
 		}
 	]

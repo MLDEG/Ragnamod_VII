@@ -341,6 +341,36 @@ onEvent('recipes', e => {
     E: 'immersiveengineering:craftingtable'
   })
 
+  //Generalized Twilight Prediction
+  e.shaped('hostilenetworks:twilight_prediction', [
+    ' A ',
+    'ABA',
+    ' A '
+  ], {
+    A: 'hostilenetworks:end_prediction',
+    B: 'twilightforest:root'
+  })
+
+  //Generalized Undergarden Prediction
+  e.shaped('hostilenetworks:undergarden_prediction', [
+    ' A ',
+    'ABA',
+    ' A '
+  ], {
+    A: 'hostilenetworks:twilight_prediction',
+    B: 'undergarden:depthrock'
+  })
+
+  //Generalized Blueskies Prediction
+  e.shaped('hostilenetworks:blueskies_prediction', [
+    ' A ',
+    'ABA',
+    ' A '
+  ], {
+    A: 'hostilenetworks:undergarden_prediction',
+    B: 'blue_skies:turquoise_stone'
+  })
+
   //Blood Magic Ritual Stone
   function ritualStone(input, output, catalyst) { e.custom({ "type": "create:item_application", "ingredients": [{ "item": input }, { "item": catalyst }], "results": [{ "item": output }] }) }
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:airritualstone', 'bloodmagic:airscribetool')
