@@ -73,7 +73,7 @@
 		}
 		{
 			title: "Draco Arcanus Armor"
-			x: 4.0d
+			x: 7.0d
 			y: 2.0d
 			shape: "square"
 			description: [
@@ -705,7 +705,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: 1.5d
 			shape: "square"
 			description: [

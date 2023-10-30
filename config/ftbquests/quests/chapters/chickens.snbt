@@ -4332,7 +4332,6 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Capture a Chicken with an Edelwood Bucket."]
-			dependencies: ["00000000000005EE"]
 			id: "1933597473E41E04"
 			tasks: [{
 				id: "71C0A6CC64D6C1B8"

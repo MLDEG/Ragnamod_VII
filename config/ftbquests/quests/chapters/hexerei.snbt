@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 18
 	filename: "hexerei"
-	title: "Hexerei"
+	title: " Hexerei"
 	icon: {
 		id: "hexerei:book_of_shadows"
 		Count: 1b
@@ -18,48 +18,102 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Dipper is used to create Candles."
+				"Place your Dipper on top of your Cauldron, then put some string on the 3 square place on the edge of the cauldron."
+				"{image:ftbquests:textures/quests/hexerei_candles.png width:150 height:100 align:1}"
+				"If you have Tallow in your cauldron, right-click your string and wait."
+			]
+			dependencies: ["68DB6565A81015C2"]
 			id: "0A5E91F6FDAEE9EF"
 			tasks: [{
 				id: "6A5F0BDF72E6D6AF"
 				type: "item"
 				item: "hexerei:candle_dipper"
 			}]
+			rewards: [{
+				id: "51449E8C0D40F47B"
+				type: "item"
+				item: "minecraft:string"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
+			shape: "square"
+			description: ["The Dowsing Rod is used to find Swamps and Jungles, if the leaves are greens, it's means that you're looking at the right direction."]
+			dependencies: ["17F1675D9744D1DE"]
 			id: "1A69D43B206242FB"
 			tasks: [{
 				id: "24413348E4D17909"
 				type: "item"
 				item: "hexerei:dowsing_rod"
 			}]
+			rewards: [{
+				id: "20C40B0F40FF65DE"
+				type: "item"
+				item: "farmersdelight:chocolate_pie"
+			}]
 		}
 		{
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
+			shape: "square"
+			description: ["The Mixing Cauldron is the centerpiece of Hexerei, almost every special craft is made in it!"]
+			dependencies: ["17F1675D9744D1DE"]
+			size: 2.0d
 			id: "68DB6565A81015C2"
 			tasks: [{
 				id: "467A9C0E50DCB221"
 				type: "item"
 				item: "hexerei:mixing_cauldron"
 			}]
+			rewards: [{
+				id: "377C56A6DA00642A"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: -1.5d
+			y: -0.5d
+			shape: "square"
+			description: ["The Altar is mainly used to read your guidebook, you can also put stuff on it."]
+			dependencies: ["1FEFB53D452355D1"]
 			id: "4FFB53CB5468C75A"
 			tasks: [{
 				id: "09021EBA87672D2C"
 				type: "item"
 				item: "hexerei:book_of_shadows_altar"
 			}]
+			rewards: [{
+				id: "4BCA8EA02F183F7A"
+				type: "item"
+				item: "hexerei:book_of_shadows_altar"
+			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: 1.0d
+			shape: "square"
+			description: [
+				"Broom is a cool way to fly but at the cost of durability from your Brush."
+				""
+				"You can enter its GUI by shift right-click it when it's place on the ground."
+				""
+				"You have 3 slots."
+				"Misc: For decoration but also can have effect depending on what you take."
+				"Satchel: Well, it's rather simple to understand."
+				"Brush: You brush."
+				"{image:ftbquests:textures/quests/hexerei_mahoganybroom.png width:150 height:100 align:1}"
+				"The Mahogany is quicker and it's fire resistance."
+			]
+			dependencies: ["68DB6565A81015C2"]
 			id: "5EE8C827D067ED06"
 			tasks: [{
 				id: "131A2CC2B2BB9B83"
@@ -70,10 +124,29 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "02C64E6CDE8DAAA1"
+				type: "item"
+				item: "hexerei:small_satchel"
+			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"Broom is a cool way to fly but at the cost of durability from your Brush."
+				""
+				"You can enter its GUI by shift right-click it when it's place on the ground."
+				""
+				"You have 3 slots."
+				"Misc: For decoration but also can have effect depending on what you take."
+				"Satchel: Well, it's rather simple to understand."
+				"Brush: You brush."
+				"{image:ftbquests:textures/quests/hexerei_willowbroom.png width:150 height:100 align:1}"
+				"The Willow one is the cheapest one."
+			]
+			dependencies: ["68DB6565A81015C2"]
 			id: "7C0951CA1B3F214F"
 			tasks: [{
 				id: "7CAEB2BFDF91034E"
@@ -84,10 +157,32 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "4F2CBCC40891BCBC"
+				type: "item"
+				item: {
+					id: "hexerei:broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			x: 1.5d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"The Witch's Tunic can give you some benefit."
+				""
+				"With two pieces, Witches ignore you, and you have 50% reduction of magic damage taken."
+				""
+				"With three pieces, on top of the previous benefice, you inflict 25% more magic damage and 15% of the damage you make is convert into health."
+				""
+				"And on top of that, you look absolutely cool !"
+			]
+			dependencies: ["17C55C73B8D8106D"]
 			id: "5D02F4028B66F7E7"
 			tasks: [
 				{
@@ -124,30 +219,66 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6CFD5610ABDDB270"
+				type: "item"
+				item: {
+					id: "hexerei:mushroom_witch_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: -0.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Pestle and Mortar is mainly used to get Seed Mixture."]
+			dependencies: ["68DB6565A81015C2"]
 			id: "2CE01A1BB21AD817"
 			tasks: [{
 				id: "6A1E7A586BD8B527"
 				type: "item"
 				item: "hexerei:pestle_and_mortar"
 			}]
+			rewards: [{
+				id: "27E36FF89B84E71B"
+				type: "item"
+				item: "croptopia:macaron"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft some Seed Mixture and give them to a Crow."]
+			dependencies: ["2CE01A1BB21AD817"]
 			id: "327E14E8EA88152B"
 			tasks: [{
 				id: "60FB083984C21C57"
 				type: "item"
 				item: "hexerei:seed_mixture"
 			}]
+			rewards: [{
+				id: "39F6200B5E7E7AE2"
+				type: "item"
+				item: "hexerei:seed_mixture"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 6.0d
+			x: 3.5d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"The Drying Rack is used to dry items, it can turn rotten flesh into Leather YAY !"
+				""
+				"The other type of Drying Rack is purely for decoration."
+			]
+			dependencies: ["68DB6565A81015C2"]
 			id: "4F651994273D3B6A"
 			tasks: [
 				{
@@ -161,10 +292,22 @@
 					item: "hexerei:herb_drying_rack_full"
 				}
 			]
+			rewards: [{
+				id: "1F9BF7CFB6C9E7F6"
+				type: "item"
+				item: "hexerei:herb_drying_rack_full"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Coffer is pretty cool, it's work like a shulker box, has 36 slots, you can even make your Crow work with the inventory with the button en the bottom right."
+				"You can dye it."
+			]
+			dependencies: ["68DB6565A81015C2"]
 			id: "0CF42CD001F7B9E6"
 			tasks: [{
 				id: "223EEAFE03836ADE"
@@ -175,10 +318,216 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "617BC7CF8A273EE0"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: {
+						ButtonToggled: 0
+						Inventory: {
+							Size: 36
+							Items: [
+								{
+									Slot: 0
+									id: "hexerei:mandrake_root"
+									Count: 6b
+								}
+								{
+									Slot: 1
+									id: "hexerei:mugwort_leaves"
+									Count: 2b
+								}
+								{
+									Slot: 2
+									id: "hexerei:animal_fat"
+									Count: 8b
+								}
+								{
+									Slot: 3
+									id: "hexerei:mandrake_flowers"
+									Count: 1b
+								}
+								{
+									Slot: 4
+									id: "hexerei:mandrake_root"
+									Count: 1b
+								}
+								{
+									Slot: 5
+									id: "hexerei:mugwort_leaves"
+									Count: 1b
+								}
+								{
+									Slot: 6
+									id: "hexerei:mandrake_flowers"
+									Count: 2b
+								}
+								{
+									Slot: 7
+									id: "hexerei:animal_fat"
+									Count: 8b
+								}
+								{
+									Slot: 8
+									id: "hexerei:mugwort_leaves"
+									Count: 1b
+								}
+								{
+									Slot: 9
+									id: "hexerei:mandrake_flowers"
+									Count: 1b
+								}
+								{
+									Slot: 10
+									id: "hexerei:belladonna_flowers"
+									Count: 4b
+								}
+								{
+									Slot: 11
+									id: "hexerei:mandrake_root"
+									Count: 1b
+								}
+								{
+									Slot: 12
+									id: "hexerei:mandrake_root"
+									Count: 3b
+								}
+								{
+									Slot: 13
+									id: "hexerei:belladonna_flowers"
+									Count: 1b
+								}
+								{
+									Slot: 14
+									id: "hexerei:mugwort_leaves"
+									Count: 3b
+								}
+								{
+									Slot: 15
+									id: "hexerei:animal_fat"
+									Count: 8b
+								}
+								{
+									Slot: 16
+									id: "hexerei:belladonna_flowers"
+									Count: 1b
+								}
+								{
+									Slot: 17
+									id: "hexerei:mugwort_leaves"
+									Count: 3b
+								}
+								{
+									Slot: 18
+									id: "hexerei:animal_fat"
+									Count: 8b
+								}
+								{
+									Slot: 19
+									id: "hexerei:mandrake_flowers"
+									Count: 4b
+								}
+								{
+									Slot: 20
+									id: "hexerei:mandrake_root"
+									Count: 2b
+								}
+								{
+									Slot: 21
+									id: "hexerei:mandrake_flowers"
+									Count: 4b
+								}
+								{
+									Slot: 22
+									id: "hexerei:mugwort_leaves"
+									Count: 2b
+								}
+								{
+									Slot: 23
+									id: "hexerei:animal_fat"
+									Count: 8b
+								}
+								{
+									Slot: 24
+									id: "hexerei:mugwort_leaves"
+									Count: 4b
+								}
+								{
+									Slot: 25
+									id: "hexerei:mandrake_root"
+									Count: 1b
+								}
+								{
+									Slot: 26
+									id: "hexerei:belladonna_flowers"
+									Count: 2b
+								}
+								{
+									Slot: 27
+									id: "hexerei:mugwort_leaves"
+									Count: 1b
+								}
+								{
+									Slot: 28
+									id: "hexerei:mandrake_root"
+									Count: 1b
+								}
+								{
+									Slot: 29
+									id: "hexerei:mandrake_flowers"
+									Count: 1b
+								}
+								{
+									Slot: 30
+									id: "hexerei:belladonna_flowers"
+									Count: 1b
+								}
+								{
+									Slot: 31
+									id: "hexerei:mandrake_flowers"
+									Count: 4b
+								}
+								{
+									Slot: 32
+									id: "hexerei:mandrake_root"
+									Count: 3b
+								}
+								{
+									Slot: 33
+									id: "hexerei:animal_fat"
+									Count: 8b
+								}
+								{
+									Slot: 34
+									id: "hexerei:belladonna_flowers"
+									Count: 5b
+								}
+								{
+									Slot: 35
+									id: "hexerei:mandrake_flowers"
+									Count: 2b
+								}
+							]
+						}
+						display: {
+							color: 11480357
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 2.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Herb Jar can store up to 1024 items of one type and can accept only item with the tag #hexerei:herbs."
+				""
+				"Type $herbs in JEI to see all the items."
+			]
+			dependencies: ["68DB6565A81015C2"]
 			id: "592AB2506CBCBAC7"
 			tasks: [{
 				id: "110A87F24EDB51D2"
@@ -189,36 +538,225 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "78E42AF7A1522C91"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: {
+						Inventory: {
+							Size: 1
+							Items: [{
+								Slot: 0
+								ExtendedCount: 1024
+								id: "croptopia:chile_pepper"
+								Count: 0b
+							}]
+						}
+					}
+				}
+			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 0.5d
+			y: -1.5d
+			shape: "square"
+			description: ["The Blood Sigil is made in your Cauldron, and it is used to produce Blood."]
+			dependencies: ["68DB6565A81015C2"]
 			id: "7AF425FB03F28C21"
 			tasks: [{
 				id: "317A841FFD3AAF60"
 				type: "item"
 				item: "hexerei:blood_sigil"
 			}]
+			rewards: [{
+				id: "70B130A32E8ECE69"
+				type: "item"
+				item: "minecraft:polished_blackstone"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: -2.0d
+			shape: "square"
+			description: ["To obtain Blood from Hexerei you need to step in your cauldron with the Blood Sigil in it."]
+			dependencies: ["7AF425FB03F28C21"]
 			id: "57AA2DEC43481852"
 			tasks: [{
 				id: "03E17A9596E17393"
 				type: "item"
 				item: "hexerei:blood_bucket"
 			}]
+			rewards: [{
+				id: "3E273A88C99B6853"
+				type: "item"
+				item: "hexerei:blood_bucket"
+			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			title: "Infused Fabric"
+			x: 0.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Use your Cauldron to make some Infused Fabric."]
+			dependencies: ["68DB6565A81015C2"]
 			id: "17C55C73B8D8106D"
 			tasks: [{
 				id: "4B6C5CE5B50C1802"
 				type: "item"
 				item: "hexerei:infused_fabric"
-				count: 17L
+				count: 9L
+			}]
+			rewards: [{
+				id: "4D2A27A56D24D368"
+				type: "item"
+				item: "hexerei:infused_fabric"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"The Book of Shadows is your guidebook through Hexerei."
+				"You need to put this guidebook on an Altar."
+			]
+			dependencies: ["17F1675D9744D1DE"]
+			id: "1FEFB53D452355D1"
+			tasks: [{
+				id: "65663E9AE3B3650C"
+				type: "item"
+				item: {
+					id: "hexerei:book_of_shadows"
+					Count: 1b
+					tag: {
+						bookmarks: { }
+						chapter: 0
+						opened: 0b
+						page: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "49BAD7CA9A7EAEEE"
+				type: "item"
+				item: "hexerei:belladonna_flowers"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"You can control your Crow with this flute."
+				"Shift right-click to see the GUI of your flute and select whatever you want to do with your Crow."
+				"{image:ftbquests:textures/quests/hexerei_crow.png width:150 height:100 align:1}"
+			]
+			dependencies: ["327E14E8EA88152B"]
+			id: "3E48A2D64D4C123D"
+			tasks: [{
+				id: "0DA259410816DB66"
+				type: "item"
+				item: {
+					id: "hexerei:crow_flute"
+					Count: 1b
+					tag: {
+						crowList: { }
+						helpCommandSelected: 0
+						commandSelected: 0
+						dyeColor1: -1
+						commandMode: 0
+						dyeColor2: -1
+					}
+				}
+			}]
+			rewards: [{
+				id: "6074532B5820DEEF"
+				type: "item"
+				item: "hexerei:seed_mixture"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Reading glasses let you zoom in with the press of a button on the keyboard (w by default)"]
+			hide_dependency_lines: true
+			dependencies: ["68DB6565A81015C2"]
+			id: "7B49ED3BC1FD6452"
+			tasks: [{
+				id: "39CBEEBC66A26364"
+				type: "item"
+				item: "hexerei:reading_glasses"
+			}]
+			rewards: [{
+				id: "1193D7714D76D112"
+				type: "item"
+				item: "minecraft:spyglass"
+			}]
+		}
+		{
+			title: "Candles"
+			icon: "hexerei:candle"
+			x: 0.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Just craft a candle."]
+			dependencies: ["0A5E91F6FDAEE9EF"]
+			id: "53DE6EE50B2E4F45"
+			tasks: [{
+				id: "3FC7DC59CE2728B0"
+				type: "item"
+				title: "Candle"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hexerei:candles"
+					}
+				}
+			}]
+			rewards: [{
+				id: "294505BD4A889EFB"
+				type: "item"
+				item: "hexerei:candle"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "square"
+			description: ["The Broom Chain allow you to use any item or block to decorate your Broom !"]
+			dependencies: ["7C0951CA1B3F214F"]
+			id: "052E4DCC8C765816"
+			tasks: [{
+				id: "22AC18472420A0DE"
+				type: "item"
+				item: {
+					id: "hexerei:broom_keychain"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "383EB019E818066C"
+				type: "item"
+				item: {
+					id: "hexerei:broom_keychain"
+					Count: 1b
+					tag: {
+						Items: [{
+							Slot: 0b
+							id: "twilightforest:thorn_rose"
+							Count: 1b
+						}]
+					}
+				}
 			}]
 		}
 	]
