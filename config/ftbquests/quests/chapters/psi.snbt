@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 21
 	filename: "psi"
-	title: "PSI"
+	title: " PSI"
 	icon: {
 		id: "psi:cad"
 		Count: 1b
@@ -25,22 +25,16 @@
 				Count: 1b
 			}
 		}
-		ForgeCaps: {
-			Parent: {
-				Memory: [ ]
-				Battery: 400
-				Time: 182
-			}
-		}
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "CAD Assembly"
-			x: 1.5d
-			y: -1.0d
-			description: ["The Iron and Gold CAD Assembly are used to craft Psidusts and Psimetal Ingots."]
+			title: "Rods Frame"
+			x: 2.0d
+			y: 0.0d
+			shape: "square"
+			description: ["The Iron and Gold Rod Frame are used to craft Psidusts and Psimetal Ingots."]
 			dependencies: ["0000000000000AAB"]
 			id: "0000000000000A7E"
 			tasks: [
@@ -62,9 +56,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.0d
-			description: ["The Psimetal CAD Assembly is used to craft Psigems."]
+			x: 5.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The Psimetal Rod Frame is used to craft Psigems."]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000A82"
 			tasks: [{
@@ -79,9 +74,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.0d
-			description: ["Craft an Invory Psimetal CAD Assembly using Ivory Psimetal Ingots."]
+			x: 0.5d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft an Invory Psimetal Rod Frame using Ivory Psimetal Ingots."]
 			dependencies: ["0000000000000A8E"]
 			id: "0000000000000A84"
 			tasks: [{
@@ -96,9 +92,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
-			description: ["Craft an Ebony Psimetal CAD Assembly using Ebony Psimetal Ingots."]
+			x: 3.5d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft an Ebony Psimetal Rod Frame using Ebony Psimetal Ingots."]
 			dependencies: ["0000000000000A90"]
 			id: "0000000000000A86"
 			tasks: [{
@@ -114,113 +111,130 @@
 		}
 		{
 			title: "Psidust"
-			x: 1.5d
-			y: 1.0d
-			description: ["To get Psidust you have to shoot Redstone Dust with your Casting Assistant Device, and to get your Casting Assistant Device simply put your Iron CAD Assembly in the CAD Assembler."]
+			x: 2.0d
+			y: -1.5d
+			shape: "square"
+			description: ["To get Psidust you have to shoot Redstone Dust with your Focusing Rod, and to get your Focusing Rod simply put your Iron or Gold Rod Frame in your Rod Constructor."]
 			dependencies: ["0000000000000A7E"]
+			size: 1.5d
 			id: "0000000000000A88"
 			tasks: [{
 				id: "0000000000000A89"
 				type: "item"
 				item: "psi:psidust"
-				count: 64L
+				count: 8L
 			}]
 			rewards: [{
 				id: "6F047E2240AFD0AC"
 				type: "item"
-				item: "psi:psidust_block"
+				item: "psi:psidust"
 				count: 8
+				random_bonus: 16
 			}]
 		}
 		{
 			title: "Psimetal"
-			x: 1.5d
-			y: 0.0d
+			x: 2.0d
+			y: 1.5d
+			shape: "square"
 			description: [
-				"To get Psimetal Ingots you need to put  the Trick:Infusion on a bullet and insert them in your Casting Assistant Device."
-				"For that, go to your Spell Programmer, select any square and search Trick:Infusion. Now simply right-click the Spell Programmer with a bullet and put this in your CAD Assembler."
-				"{image:kubejs:textures/ftbquests/begin/psi.png width:150 height:100 align:1}"
+				"To get Psimetal Ingots you need to put the \"Trick:Infusion\" on a Node and insert them in your Focusing Rod."
+				"{image:ftbquests:textures/quests/psi_psimetal.png width:150 height:100 align:1}"
+				"For that, go to your Spell Inscriber, select any square and search \"Trick:Infusion\". Now simply right-click the Spell Inscriber with a Node and put this in your Rod Constructor."
 			]
 			dependencies: ["0000000000000A7E"]
+			size: 1.5d
 			id: "0000000000000A8A"
 			tasks: [{
 				id: "0000000000000A8B"
 				type: "item"
 				item: "psi:psimetal"
-				count: 64L
+				count: 8L
 			}]
 			rewards: [{
 				id: "264656C02BFA93E4"
 				type: "item"
-				item: "psi:psimetal_block"
+				item: "psi:psimetal"
 				count: 8
+				random_bonus: 16
 			}]
 		}
 		{
 			title: "Psigem"
-			x: 3.5d
-			y: -1.0d
-			description: ["To get your Psigem, same deal than the Psimetal Ingots, but you're going to need another spell, The Greater Infusion. But be careful, this time you need another Casting Assistant Device, make one with your Psimetal Ingots."]
+			x: 8.0d
+			y: 1.5d
+			shape: "square"
+			description: ["To get your Psigem, same deal than the Psimetal Ingots, but you're going to need another spell, The \"Greater Infusion\". But be careful, this time you need another Focusing Rod, make one with your Psimetal Ingots."]
 			dependencies: ["0000000000000A82"]
+			size: 1.5d
 			id: "0000000000000A8C"
 			tasks: [{
 				id: "0000000000000A8D"
 				type: "item"
 				item: "psi:psigem"
-				count: 64L
+				count: 8L
 			}]
 			rewards: [{
 				id: "49A25E9A1EEB5EF1"
 				type: "item"
-				item: "psi:psigem_block"
+				item: "psi:psigem"
 				count: 8
+				random_bonus: 16
 			}]
 		}
 		{
 			title: "Ivory Psimetal Ingot"
-			x: 1.5d
-			y: -3.0d
-			description: ["The Ivory Psimetal Ingot is made with Ivory substance, those are made with another spell, Trick: Ebony and Ivory, performed in the End dimension."]
+			x: 0.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Ivory Psimetal Ingot is made with Ivory substance, those are made with another spell, \"Trick: Ebony and Ivory\", performed in the End dimension."]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000A8E"
 			tasks: [{
 				id: "0000000000000A8F"
 				type: "item"
 				item: "psi:ivory_psimetal"
-				count: 64L
+				count: 8L
 			}]
 			rewards: [{
 				id: "4DFBA5D99544741E"
 				type: "item"
-				item: "psi:ivory_psimetal_block"
+				item: "psi:ivory_psimetal"
 				count: 8
+				random_bonus: 16
 			}]
 		}
 		{
 			title: "Ebony Psimetal Ingot"
-			x: 1.5d
-			y: -2.0d
-			description: ["The Ebony Psimetal Ingot is made with Ebony substance, those are made with another spell, Trick: Ebony and Ivory, performed in the End dimension."]
+			x: 3.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Ebony Psimetal Ingot is made with Ebony substance, those are made with another spell, \"Trick: Ebony and Ivory\", performed in the End dimension."]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000A90"
 			tasks: [{
 				id: "0000000000000A91"
 				type: "item"
 				item: "psi:ebony_psimetal"
-				count: 64L
+				count: 8L
 			}]
 			rewards: [{
 				id: "23F94D9B245DDE16"
 				type: "item"
-				item: "psi:ebony_psimetal_block"
+				item: "psi:ebony_psimetal"
 				count: 8
+				random_bonus: 16
 			}]
 		}
 		{
 			title: "Psimetal Exosuit"
-			x: 3.0d
-			y: 0.0d
-			description: ["Craft a Psimetal Exosuit."]
+			x: 2.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Craft a Psimetal Exosuit."
+				"It's used to the End Game armor."
+			]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000A92"
 			tasks: [
@@ -291,9 +305,10 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
-			description: ["The Basic CAD Socket can hold up to four Spell Bullets at a time, and can transfer Spells up to 5x5 in size."]
+			x: 1.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Minor Rod Notch can hold up to four Spell Nodes at a time, and can transfer Spells up to 5x5 in size."]
 			dependencies: ["0000000000000A88"]
 			id: "0000000000000A97"
 			tasks: [{
@@ -308,9 +323,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
-			description: ["The Signaling CAD Socket can hold up to six Spell Bullets at a time, and can transfer Spells up to 7x7 in size."]
+			x: 1.5d
+			y: 3.0d
+			shape: "square"
+			description: ["The Flashing Rod Notch can hold up to six Spell Nodes at a time, and can transfer Spells up to 7x7 in size."]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000A99"
 			tasks: [{
@@ -325,9 +341,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.0d
-			description: ["The Large CAD Socket can hold up to eight Spell Bullets at a time, and can transfer Spells up to 6x6 in size."]
+			x: 1.0d
+			y: 4.5d
+			shape: "square"
+			description: ["The Medium Rod Notch can hold up to eight Spell Nodes at a time, and can transfer Spells up to 6x6 in size."]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000A9B"
 			tasks: [{
@@ -342,9 +359,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.0d
-			description: ["The Transmissive CAD Socket can hold up to ten Spells Bullets at a time, and can transfer Spells up to 9x9 in size."]
+			x: 9.0d
+			y: 0.5d
+			shape: "square"
+			description: ["The Beaming Rod Notch can hold up to ten Spells Nodes at a time, and can transfer Spells up to 9x9 in size."]
 			dependencies: ["0000000000000A8C"]
 			id: "0000000000000A9D"
 			tasks: [{
@@ -359,9 +377,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
-			description: ["The Huge CAD Socket can hold up to twelve Spells Bullets at a time, and can transfer Spells up to 8x8 in size."]
+			x: 8.0d
+			y: 0.0d
+			shape: "square"
+			description: ["The Major Rod Notch can hold up to twelve Spells Nodes at a time, and can transfer Spells up to 8x8 in size."]
 			dependencies: ["0000000000000A8C"]
 			id: "0000000000000A9F"
 			tasks: [{
@@ -376,10 +395,11 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: 2.0d
+			y: -3.0d
+			shape: "square"
 			description: [
-				"The Basic CAD Core is often the first CAD Core a mage crafts."
+				"The Humble Rod Crux is often the first Rod Crux a mage crafts."
 				""
 				"It's not fantastic, but it's quite sufficient for a beginner's needs."
 			]
@@ -397,9 +417,10 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
-			description: ["The Overclocked CAD Core has twice the complexity of its Basic predecessor, and thrice the projection."]
+			x: 3.0d
+			y: 4.5d
+			shape: "square"
+			description: ["The Quick Rod Crux has twice the complexity of its Basic predecessor, and thrice the projection."]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000AA3"
 			tasks: [{
@@ -414,9 +435,10 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
-			description: ["The Conductive CAD Core has less complexity than the Overclocked once but can handle four tricks at once."]
+			x: 2.5d
+			y: 3.0d
+			shape: "square"
+			description: ["The Bright Rod Crux has less complexity than the Quick Rod Crux, but can handle four tricks at once."]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000AA5"
 			tasks: [{
@@ -431,9 +453,10 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -1.0d
-			description: ["The Hyperclocked CAD Core has double the complexity of a Conductive Core and double the projection of an Overclocked one."]
+			x: 9.5d
+			y: 1.5d
+			shape: "square"
+			description: ["The Swift Rod Crux has double the complexity of a Bright Rod Crux and double the projection of a Quick Rod Crux."]
 			dependencies: ["0000000000000A8C"]
 			id: "0000000000000AA7"
 			tasks: [{
@@ -448,9 +471,10 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
-			description: ["The Radiative CAD Core has lesse projection than the Hyperclocked one, but has the capability to execute a staggering seven tricks per cast."]
+			x: 9.0d
+			y: 2.5d
+			shape: "square"
+			description: ["The Radiant Rod Crux has less projection than the Swift Rod Crux, but has the capability to execute a staggering seven tricks per cast."]
 			dependencies: ["0000000000000A8C"]
 			id: "0000000000000AA9"
 			tasks: [{
@@ -466,8 +490,10 @@
 		}
 		{
 			x: 0.0d
-			y: -1.0d
-			description: ["The CAD Assembler is used to assembles a CAD from its component parts, and it loads non-empty Spell Bullets into CADs."]
+			y: 0.0d
+			shape: "square"
+			description: ["The Rod Constructor is used to construct a Rod from its component parts, and it loads non-empty Spell Nodes into Rods."]
+			dependencies: ["6C08FEEEC41D0620"]
 			size: 2.0d
 			id: "0000000000000AAB"
 			tasks: [{
@@ -475,11 +501,19 @@
 				type: "item"
 				item: "psi:cad_assembler"
 			}]
+			rewards: [{
+				id: "23583EECC0829C12"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
-			description: ["The Spell Programmer is used to write and compile spells, and copied into Spell Bullets to be cast."]
+			x: 5.0d
+			y: 0.0d
+			shape: "square"
+			description: ["The Spell Inscriber is used to write and compile spells, and copied into Spell Nodes to be cast."]
+			dependencies: ["0000000000000A88"]
 			size: 2.0d
 			id: "0000000000000AAD"
 			tasks: [{
@@ -487,11 +521,19 @@
 				type: "item"
 				item: "psi:programmer"
 			}]
+			rewards: [{
+				id: "7D2F994682E0FEC7"
+				type: "item"
+				item: "psi:psidust"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
-			x: 9.5d
-			y: -1.0d
-			description: ["The Spell Drive can store a single Spell for later use."]
+			x: 7.0d
+			y: 2.5d
+			shape: "square"
+			description: ["The Mindful Scroll can store a single Spell for later use."]
 			dependencies: ["0000000000000A8C"]
 			id: "0000000000000AAF"
 			tasks: [{
@@ -514,14 +556,15 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 1.0d
+			x: 3.0d
+			y: -2.5d
+			shape: "square"
 			description: [
-				"A CAD Battery is an optional attachment to a CAD, allowing it to indefinitely store a small amount of its user's Psi energy."
+				"A Rod Source is an optional attachment to a Rod, allowing it to indefinitely store a small amount of its user's Psi energy."
 				""
-				"A Battery discharges after its user's main supply of PSI energy runs out, but before the CAD taps into its user's health."
+				"A Battery discharges after its user's main supply of PSI energy runs out, but before the Rod taps into its user's health."
 				""
-				"The Basic CAD Battery has an overflow of 100."
+				"The Glowing Rod Source has an overflow of 100."
 			]
 			dependencies: ["0000000000000A88"]
 			id: "0000000000000AB1"
@@ -537,14 +580,15 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.0d
+			x: 2.0d
+			y: 5.0d
+			shape: "square"
 			description: [
-				"A CAD Battery is an optional attachment to a CAD, allowing it to indefinitely store a small amount of its user's Psi energy."
+				"A Rod Source is an optional attachment to a Rod, allowing it to indefinitely store a small amount of its user's Psi energy."
 				""
-				"A Battery discharges after its user's main supply of PSI energy runs out, but before the CAD taps into its user's health."
+				"A Battery discharges after its user's main supply of PSI energy runs out, but before the Rod taps into its user's health."
 				""
-				"The Extended CAD Battery has an overflow of 200."
+				"The Sparkling Rod Source has an overflow of 200."
 			]
 			dependencies: ["0000000000000A8A"]
 			id: "0000000000000AB3"
@@ -560,14 +604,15 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -1.0d
+			x: 8.0d
+			y: 3.0d
+			shape: "square"
 			description: [
-				"A CAD Battery is an optional attachment to a CAD, allowing it to indefinitely store a small amount of its user's Psi energy."
+				"A Rod Source is an optional attachment to a Rod, allowing it to indefinitely store a small amount of its user's Psi energy."
 				""
-				"A Battery discharges after its user's main supply of PSI energy runs out, but before the CAD taps into its user's health."
+				"A Battery discharges after its user's main supply of PSI energy runs out, but before the Rod taps into its user's health."
 				""
-				"The Ultradense CAD Battery has an overflow of 400."
+				"The Bursting Rod Source has an overflow of 400."
 			]
 			dependencies: ["0000000000000A8C"]
 			id: "0000000000000AB5"
@@ -583,14 +628,15 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.0d
+			x: 3.5d
+			y: 0.5d
+			shape: "square"
 			description: [
-				"The simplest type of Spell Bullet."
+				"The simplest type of Spell Node."
 				""
-				"When a Spell stored in it is cast, it executes right away."
-				"The Focal Point for this type of Bullet is just the caster."
-				"Its cost of casting is exactly what the Spell Programmer says it is."
+				"When a Spell stored in it is rod, it executes right away."
+				"The Focal Point for this type of Node is just the caster."
+				"Its cost of casting is exactly what the Spell Inscriber says it is."
 			]
 			dependencies: ["0000000000000AAD"]
 			id: "0000000000000AB7"
@@ -614,12 +660,13 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.0d
+			x: 5.0d
+			y: -2.0d
+			shape: "square"
 			description: [
-				"A Spell cast from a Projectile Spell Bullet doesn't execute immediately."
+				"A Spell cast from a Projectile Spell Node doesn't execute immediately."
 				""
-				"Instead, a fast-moving Spell Projectile containing it's fired out the end of the CAD from which it's cast."
+				"Instead, a fast-moving Spell Projectile containing it's fired out the end of the Rod from which it's cast."
 				""
 				"This projectile acts as the Focal Point for its Spell, executing it when the projectile collides with something."
 			]
@@ -645,14 +692,15 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.0d
+			x: 3.5d
+			y: -0.5d
+			shape: "square"
 			description: [
-				"A Spell cast from a Loopcast Spell Bullet is executed as if from a plain Spell Bullet."
+				"A Spell cast with a Loopcast Spell Node is executed as if from a plain Spell Node."
 				""
 				"Repeatedly."
 				""
-				"A Spell cast from one of these Bullets is executed over and over nonstop, four times a second, until the CAD it was cast from stops being held in the same hand, or a different Spell is selected."
+				"A Spell cast from one of these Node is executed over and over nonstop, four times a second, until the Rod it was cast from stops being held in the same hand, or a different Spell is selected."
 			]
 			dependencies: ["0000000000000AAD"]
 			id: "0000000000000ABB"
@@ -677,9 +725,10 @@
 		}
 		{
 			x: 6.5d
-			y: 2.0d
+			y: -0.5d
+			shape: "square"
 			description: [
-				"A Spell cast from a Circle Spell Bullet is executed consecutively exactly twenty times."
+				"A Spell cast from a Circle Spell Node is executed consecutively exactly twenty times."
 				""
 				"When the Spell is first cast, a Spell Circle is conjured at the point the caster is looking at, which acts as the Focal Point for the Spell."
 				"This circle executes the Spell four times a second until it runs out of Psi energy, five seconds later."
@@ -706,10 +755,11 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 4.0d
+			y: -1.5d
+			shape: "square"
 			description: [
-				"A Spell cast from a Grenade Spell Bullet, instead of executing immediately, is fired out the end of the CAD it was cast in a Spell Grenade."
+				"A Spell cast with a Grenade Spell Node, instead of executing immediately, is fired out the end of the Rod it was cast in a Spell Grenade."
 				""
 				"Unlike a Spell Projectile, though, a grenade is affected by gravity."
 				""
@@ -737,12 +787,13 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 2.0d
+			x: 6.5d
+			y: 0.5d
+			shape: "square"
 			description: [
-				"A Spell cast from a Mine Spell Bullet is fired out of the CAS it was cast in a Spell Mine."
+				"A Spell cast from a Mine Spell Node is fired out of the Rod it was cast in a Spell Mine."
 				""
-				"A Spell Min obeys gravity and has a five-minute lifespan, and only executes its stored Spell once stepped on by someone (or something)."
+				"A Mine Spell obeys gravity and has a five-minute lifespan, and only executes its stored Spell once stepped on by someone (or something)."
 			]
 			dependencies: ["0000000000000AAD"]
 			id: "0000000000000AC1"
@@ -766,10 +817,11 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
+			x: 6.0d
+			y: -1.5d
+			shape: "square"
 			description: [
-				"A Spell cast from a Charge Spell Bullet, rather than executing immediately, is fired out the end of the CAD it's cast from in a Spell Charge, which obeys gravity just like a Spell Grenade."
+				"A Spell cast from a Charge Spell Node, rather than executing immediately, is fired out the end of the Rod it's cast from in a Spell Charge, which obeys gravity just like a Spell Grenade."
 				""
 				"However, unlike a Spell Grenade, a Spell Charge can last up to five minutes, and only executes its Spell when specially told to do so by a Spell Detonator."
 			]
