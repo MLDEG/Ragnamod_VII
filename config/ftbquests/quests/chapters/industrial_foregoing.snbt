@@ -3,14 +3,14 @@
 	group: ""
 	order_index: 22
 	filename: "industrial_foregoing"
-	title: "Industrial Foregoing"
+	title: " Industrial Foregoing"
 	icon: "industrialforegoing:mob_imprisonment_tool"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 4.5d
-			y: -3.0d
+			x: 12.5d
+			y: 0.0d
 			shape: "square"
 			description: ["When all the other Mycelial Generator are working, this Reactor produce 25M RF/t"]
 			dependencies: [
@@ -31,8 +31,9 @@
 				"00000000000007AF"
 				"000000000000079B"
 				"00000000000007B3"
+				"00000000000007B9"
 			]
-			size: 2.0d
+			size: 1.5d
 			id: "0000000000000795"
 			tasks: [{
 				id: "0000000000000796"
@@ -46,9 +47,12 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -3.0d
+			x: 15.5d
+			y: 0.0d
+			shape: "square"
 			description: ["Meatallurgic Mycelial Generator, generate power with Liquid Meat and any kind of metal."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007B9"]
 			id: "0000000000000797"
 			tasks: [{
 				id: "0000000000000798"
@@ -63,9 +67,12 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 12.5d
+			y: -2.5d
+			shape: "square"
 			description: ["Crimed Mycelial Generator, generate power with Warped or Crimson vegetation."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "0000000000000799"
 			tasks: [{
 				id: "000000000000079A"
@@ -88,9 +95,12 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: 12.5d
+			y: -1.5d
+			shape: "square"
 			description: ["Rocket Mycelial Generator, generate power with Rocket."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "000000000000079B"
 			tasks: [{
 				id: "000000000000079C"
@@ -113,9 +123,12 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -2.0d
+			x: 13.5d
+			y: 1.0d
+			shape: "square"
 			description: ["Death Mycelial Generator, generate power with mobs loot like Skull, bones, rotten flesh, etc..."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "000000000000079D"
 			tasks: [{
 				id: "000000000000079E"
@@ -138,9 +151,12 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
+			x: 15.0d
+			y: 1.0d
+			shape: "square"
 			description: ["Netherstar Mycelial Generator, generate power with Nether Star."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007B9"]
 			id: "000000000000079F"
 			tasks: [{
 				id: "00000000000007A0"
@@ -154,9 +170,12 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -4.0d
+			x: 11.5d
+			y: -1.0d
+			shape: "square"
 			description: ["Pink Mycelial Generator, generate power with any pink items."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BD"]
 			id: "00000000000007A1"
 			tasks: [{
 				id: "00000000000007A2"
@@ -171,9 +190,12 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -4.0d
+			x: 14.5d
+			y: -2.0d
+			shape: "square"
 			description: ["Magma Mycelial Generator, generate power with lava."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "00000000000007A3"
 			tasks: [{
 				id: "00000000000007A4"
@@ -187,9 +209,12 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -1.5d
+			x: 15.0d
+			y: -1.0d
+			shape: "square"
 			description: ["Halitosis Mycelial Generator, generate power with Dragon Breath."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007B9"]
 			id: "00000000000007A5"
 			tasks: [{
 				id: "00000000000007A6"
@@ -204,9 +229,12 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
+			x: 10.5d
+			y: 2.0d
+			shape: "square"
 			description: ["Frosty Mycelial Generator, generate power with cold item like snowball, ice, etc..."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BD"]
 			id: "00000000000007A7"
 			tasks: [{
 				id: "00000000000007A8"
@@ -221,9 +249,12 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.0d
+			x: 14.0d
+			y: 0.0d
+			shape: "square"
 			description: ["Explosive Mycelial Generator, generate power with TNT."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "00000000000007A9"
 			tasks: [{
 				id: "00000000000007AA"
@@ -238,9 +269,12 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
+			x: 14.5d
+			y: 2.0d
+			shape: "square"
 			description: ["Ender Mycelial Generator, generate power with ender pearl or eye of ender."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "00000000000007AB"
 			tasks: [{
 				id: "00000000000007AC"
@@ -255,9 +289,12 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.0d
+			x: 12.5d
+			y: 1.5d
+			shape: "square"
 			description: ["Disenchantement Mycelial Generator, generate power with enchanted book."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "00000000000007AD"
 			tasks: [{
 				id: "00000000000007AE"
@@ -272,8 +309,8 @@
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
-							id: "enigmaticlegacy:wrath"
+							lvl: 3s
+							id: "apotheosis:berserkers_fury"
 						}]
 					}
 				}
@@ -281,9 +318,12 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.0d
+			x: 12.5d
+			y: 2.5d
+			shape: "square"
 			description: ["Potion Mycelial Generator, generate power with Potion."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "00000000000007AF"
 			tasks: [{
 				id: "00000000000007B0"
@@ -327,20 +367,32 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -4.5d
+			x: 11.5d
+			y: 1.0d
+			shape: "square"
 			description: ["Culinary Mycelial Generator, generate power with any food."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BD"]
 			id: "00000000000007B1"
 			tasks: [{
 				id: "00000000000007B2"
 				type: "item"
 				item: "industrialforegoing:mycelial_culinary"
 			}]
+			rewards: [{
+				id: "7E28CC096E77F172"
+				type: "item"
+				item: "croptopia:pineapple_pepperoni_pizza"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
+			x: 13.5d
+			y: -1.0d
+			shape: "square"
 			description: ["Slimey Mycelial Generator, generate power with Milk and Slime."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BB"]
 			id: "00000000000007B3"
 			tasks: [{
 				id: "00000000000007B4"
@@ -361,9 +413,12 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -4.5d
+			x: 10.5d
+			y: -2.0d
+			shape: "square"
 			description: ["Furnace Mycelial Generator, generate power with any furnace fuel."]
+			hide_dependency_lines: true
+			dependencies: ["00000000000007BD"]
 			id: "00000000000007B5"
 			tasks: [{
 				id: "00000000000007B6"
@@ -378,8 +433,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: -1.0d
+			y: -1.0d
+			shape: "square"
 			description: ["The Biofuel Generator generates power when provided with Biofuel from the Bioreactor."]
 			dependencies: ["00000000000007BF"]
 			id: "00000000000007B7"
@@ -395,8 +451,9 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 0.0d
+			shape: "square"
 			description: ["The Supreme Machine Frame is the final tier machine frame from Industrial Foregoing."]
 			dependencies: [
 				"00000000000007BB"
@@ -415,8 +472,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
+			shape: "square"
 			description: ["The Advanced Machine Frame is the third tier machine frame from Industrial Foregoing."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007BB"
@@ -432,8 +490,9 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
+			shape: "square"
 			description: ["The Simple Machine Frame is the second tier machine frame from Industrial Foregoing."]
 			dependencies: ["02B127DDF2125857"]
 			id: "00000000000007BD"
@@ -451,7 +510,9 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
 			description: ["The pity Machine Frame is the first tier of Machine frame in Industrial Foregoing."]
+			dependencies: ["594B09B9BA7FD7C3"]
 			size: 1.5d
 			id: "00000000000007BF"
 			tasks: [{
@@ -467,8 +528,9 @@
 		}
 		{
 			title: "Fluid Management"
-			x: -0.5d
+			x: -1.0d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"The Fluid Collector, collect fluids."
 				"The Fluid Placer, place fluids."
@@ -502,8 +564,9 @@
 		}
 		{
 			title: "Block Management"
-			x: 0.5d
-			y: 1.0d
+			x: 2.0d
+			y: -2.0d
+			shape: "square"
 			description: [
 				"The Block Placer, place blocks."
 				"The Block Breaker, break blocks."
@@ -536,8 +599,9 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 1.0d
+			shape: "square"
 			description: ["The Material StoneWork Factory, using power, will produce any output found in a standard \"Cobbleworks\" setup."]
 			dependencies: ["00000000000007BB"]
 			id: "00000000000007C7"
@@ -554,8 +618,9 @@
 		}
 		{
 			title: "Industrial Enchantment"
-			x: 8.0d
+			x: 8.5d
 			y: 1.0d
+			shape: "square"
 			description: [
 				"The Enchantment Applicator is used to apply enchantments like an Anvil using essence."
 				""
@@ -583,8 +648,9 @@
 		}
 		{
 			title: "Black Hole"
-			x: 10.0d
-			y: 1.0d
+			x: 10.5d
+			y: 0.5d
+			shape: "square"
 			description: [
 				"The Black Hole Unit is used to store large quantities of items."
 				"The Black Hole Tank is used to store large quantities of fluid."
@@ -611,8 +677,9 @@
 		}
 		{
 			title: "Laser Miner"
-			x: 7.0d
+			x: 7.5d
 			y: -1.0d
+			shape: "square"
 			description: ["The Laser Base is used with Laser Drills to produce ores or fluids."]
 			dependencies: ["00000000000007BB"]
 			id: "00000000000007D6"
@@ -650,10 +717,10 @@
 		}
 		{
 			title: "Plastic"
-			x: 4.5d
+			x: 5.0d
 			y: 0.0d
-			shape: "hexagon"
-			description: ["Collect 16 Plastic."]
+			shape: "square"
+			description: ["Collect Plastics."]
 			dependencies: ["00000000000007DC"]
 			size: 2.0d
 			id: "00000000000007DA"
@@ -669,18 +736,20 @@
 						value: "forge:plastic"
 					}
 				}
-				count: 16L
+				count: 8L
 			}]
 			rewards: [{
 				id: "0747408C5FCDD220"
 				type: "item"
 				item: "industrialforegoing:plastic"
-				count: 16
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
+			shape: "square"
 			description: ["The Latex Processing Unit generate one Tiny Dry Rubber from 500 mB of Water, 100 mB of Latex and power."]
 			dependencies: ["00000000000007DE"]
 			id: "00000000000007DC"
@@ -696,8 +765,9 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
+			shape: "square"
 			description: ["Collect a bucket of Latex from the Fluid Extractor."]
 			dependencies: ["00000000000007E0"]
 			id: "00000000000007DE"
@@ -713,8 +783,9 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
+			shape: "square"
 			description: ["The Fluid Extractor slowly break the log in front of it and generate Latex."]
 			dependencies: ["00000000000007BF"]
 			id: "00000000000007E0"
@@ -731,8 +802,9 @@
 		}
 		{
 			title: "Pink Slime and Liquid Meat Bucket"
-			x: 2.0d
-			y: -1.0d
+			x: 0.0d
+			y: 2.5d
+			shape: "square"
 			description: ["Collect a bucket of Pink Slime and Liquid Meat from the Mob Slaughter Factory."]
 			dependencies: ["00000000000007E5"]
 			id: "00000000000007E2"
@@ -762,8 +834,9 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
 			description: ["The Mob Slaughter Factory is used to process mobs and animals into Liquid Meat and Pink Slime."]
 			dependencies: ["00000000000007BF"]
 			id: "00000000000007E5"
@@ -787,8 +860,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
+			x: 1.0d
+			y: -1.0d
+			shape: "square"
 			description: ["The Plant Gatherer will break crops when harvesting, even when the plant may be harvested by right click."]
 			dependencies: ["00000000000007BF"]
 			id: "00000000000007EE"
@@ -813,7 +887,8 @@
 		}
 		{
 			x: -2.0d
-			y: 0.0d
+			y: -2.0d
+			shape: "square"
 			description: ["The Plant Sower is used to automatically plant seeds in farmland above the machine."]
 			dependencies: ["00000000000007BF"]
 			id: "00000000000007F0"
@@ -837,8 +912,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: 6.5d
+			y: -1.0d
+			shape: "square"
 			description: ["The Plant Fertilizer is used to automatically apply bonemeal and fertilizer to crops, plants, and saplings."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007F2"
@@ -862,8 +938,9 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: 1.0d
 			y: 1.0d
+			shape: "square"
 			description: ["The Animal Feeder automatically breed animals in each operation provided they have a valid breeding partner."]
 			dependencies: ["00000000000007BF"]
 			id: "00000000000007F4"
@@ -880,8 +957,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
+			shape: "square"
 			description: [
 				"The Animal Rancher is used to automatically collect resources from passive mobs."
 				"Like Milk from cow or Wool from Sheep."
@@ -908,8 +986,9 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: 1.0d
+			shape: "square"
 			description: ["The Mob Crusher is used to kill mobs as if a player, producing Essence and mob drops."]
 			dependencies: ["00000000000007BB"]
 			id: "00000000000007F8"
@@ -948,8 +1027,9 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
+			shape: "square"
 			description: ["The Sewage Composter is used to process Sewage collected from the Animal Sewer."]
 			dependencies: ["00000000000007BF"]
 			id: "00000000000007FA"
@@ -966,8 +1046,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: -1.0d
+			shape: "square"
 			description: ["The Mob Duplicator is used to spawn mobs based on the type of mob trapped in a Mob Imprisonment Tool."]
 			dependencies: ["00000000000007BB"]
 			id: "7063B2DD115DC958"
@@ -984,306 +1065,145 @@
 				}
 			]
 			rewards: [{
-				id: "742E2A28B939CB15"
+				id: "755563B2B5A4B1A7"
 				type: "item"
 				item: {
 					id: "industrialforegoing:mob_imprisonment_tool"
 					Count: 1b
 					tag: {
+						GraceRecharged: 1b
 						Brain: {
 							memories: { }
 						}
 						HurtByTimestamp: 0
-						ForgeData: { }
-						CanJoinRaid: 1b
+						ForgeData: {
+							InfernalMobsMod: "notInfernal"
+						}
+						Sitting: 0b
 						Attributes: [
+							{
+								Base: 0.0d
+								Name: "forge:step_height_addition"
+							}
 							{
 								Base: 0.08d
 								Name: "forge:entity_gravity"
 							}
 							{
-								Base: 12.0d
+								Base: 0.2d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 16.0d
 								Modifiers: [{
 									Operation: 1
 									UUID: [I;
-										-133613080
-										649871400
-										-1477028515
-										130929367
+										1381601561
+										-2039919176
+										-1999778556
+										914227708
 									]
-									Amount: 0.06986313053909392d
+									Amount: -0.09497861847761799d
 									Name: "Random spawn bonus"
 								}]
 								Name: "minecraft:generic.follow_range"
 							}
-							{
-								Base: 0.5d
-								Name: "minecraft:generic.movement_speed"
-							}
 						]
-						PatrolLeader: 1b
 						Invulnerable: 0b
 						FallFlying: 0b
+						ForcedAge: 0
 						PortalCooldown: 0
 						AbsorptionAmount: 0.0f
+						BlueprintTrackedData: [{
+							Boolean: 0b
+							Id: "savage_and_ravage:invisible_due_to_mask"
+						}]
 						FallDistance: 0.0f
+						InLove: 0
 						CanUpdate: 1b
 						DeathTime: 0s
-						BoundingBox: [
-							1396.1255447053088d
-							79.0d
-							1883.2141567484107d
-							1396.7255447291507d
-							80.95000004768372d
-							1883.8141567722525d
-						]
 						ForgeCaps: {
-							"mahoutsukai:mahou_settings": {
-								intsettings: [
-									{
-										key: 0
-										values: [I;
-											255
-											94
-											204
-											255
-											94
-											204
-										]
-									}
-									{
-										key: 1
-										values: [I;
-											216
-											0
-											0
-											0
-											0
-											0
-										]
-									}
-									{
-										key: 2
-										values: [I;
-											255
-											255
-											150
-											0
-											0
-											0
-										]
-									}
-									{
-										key: 3
-										values: [I;
-											244
-											237
-											64
-											0
-											0
-											0
-										]
-									}
-									{
-										key: 4
-										values: [I;
-											255
-											50
-											50
-											0
-											0
-											0
-										]
-									}
-									{
-										key: 5
-										values: [I;
-											150
-											0
-											0
-											0
-											0
-											0
-										]
-									}
-									{
-										key: 6
-										values: [I;
-											224
-											64
-											0
-											0
-											0
-											0
-										]
-									}
-									{
-										key: 7
-										values: [I;
-											140
-											82
-											191
-											0
-											0
-											0
-										]
-									}
-									{
-										key: 8
-										values: [I;
-											166
-											125
-											224
-											0
-											0
-											0
-										]
-									}
-								]
-							}
-							"mahoutsukai:mahou": {
-								MAHOUTSUKAI_PLAYER_PREV_YAW: 0.0f
-								MAHOUTSUKAI_SHOW_MAHOU: 1b
-								MAHOUTSUKAI_PAGE: 0
-								MAHOUTSUKAI_MANA_FULL: 1b
-								MAHOUTSUKAI_MANA_UP_COUNTER: 100
-								MAHOUTSUKAI_PLAYER_POSSESSING: 0b
-								MAHOUTSUKAI_AUTHORITY_HIT: 0b
-								MAHOUTSUKAI_LAST_RECIPE_CLOTH: 0b
-								MAHOUTSUKAI_PLAYER_HAS_MAGIC: 0b
-								MAHOUTSUKAI_FAE_SPAWN: 1b
-								MAHOUTSUKAI_PLAYER_CHARGE_RATE: 0.1d
-								MAHOUTSUKAI_PLAYER_DAMAGE_EXCHANGE_USES: 0
-								MAHOUTSUKAI_PLAYER_PREV_PITCH: 0.0f
-								MAHOUTSUKAI_PLAYER_MAX_MANA: 100
-								MAHOUTSUKAI_PLAYER_STORED_MANA: 100
-								MAHOUTSUKAI_PLAYER_PROTECTIVE_DISPLACEMENT_USES: 0
-								MAHOUTSUKAI_CANCEL_TIME: 0L
-								MAHOUTSUKAI_PLAYER_DEATH_COLLECTION_USES_LEFT: 0.0f
+							"twilightforest:cap_shield": {
+								permshields: 0
+								tempshields: 0
 							}
 							"structure_gel:gel_entity": {
 								portal: "structure_gel:empty"
 							}
 							"mekanism:radiation": {
-								radiation: "1.0E-7d"
+								radiation: 0.0d
 							}
-							"everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [ ]
-							"twilightforest:cap_shield": {
-								permshields: 0
-								tempshields: 0
-							}
-							"citadel:extended_entity_data_citadel": { }
 							"pneumaticcraft:hacking": { }
-							"eidolon:knowledge": {
-								facts: [ ]
-								signs: [ ]
-							}
 						}
 						HandDropChances: [
 							0.085f
 							0.085f
 						]
 						PersistenceRequired: 0b
-						SpellTicks: 0
 						UUID: [I;
-							807168230
-							-389660562
-							-1381223234
-							-1652242662
+							2109726528
+							-1902294818
+							-1400595583
+							533586118
 						]
-						Patrolling: 0b
+						Age: 0
 						Motion: [
-							-0.07125830220220104d
+							0.0d
 							-0.0784000015258789d
-							-0.07778231437597977d
+							0.0d
 						]
-						Health: 24.0f
+						Health: 12.0f
+						HelpCommand: 0
+						PickpocketTimer: 0
+						KubeJSPersistentData: { }
 						LeftHanded: 0b
 						Air: 300s
 						OnGround: 1b
 						CitadelData: { }
+						DyeColor: -1
 						Rotation: [
-							137.60251f
-							2.167447f
+							129.26295f
+							0.0f
 						]
 						HandItems: [
 							{ }
 							{ }
 						]
-						Wave: 0
+						inv: {
+							Size: 3
+							Items: [ ]
+						}
 						ArmorDropChances: [
 							0.085f
 							0.085f
 							0.085f
-							2.0f
+							0.085f
 						]
 						Pos: [
-							1396.4255447172297d
-							79.0d
-							1883.5141567603316d
+							-1090.5d
+							68.0d
+							69.5d
 						]
+						fireType: "minecraft:fire"
+						Command: 0
 						Fire: -1s
 						ArmorItems: [
 							{ }
 							{ }
 							{ }
-							{
-								id: "minecraft:white_banner"
-								Count: 1b
-								tag: {
-									HideFlags: 32
-									BlockEntityTag: {
-										Patterns: [
-											{
-												Pattern: "mr"
-												Color: 9
-											}
-											{
-												Pattern: "bs"
-												Color: 8
-											}
-											{
-												Pattern: "cs"
-												Color: 7
-											}
-											{
-												Pattern: "bo"
-												Color: 8
-											}
-											{
-												Pattern: "ms"
-												Color: 15
-											}
-											{
-												Pattern: "hh"
-												Color: 8
-											}
-											{
-												Pattern: "mc"
-												Color: 8
-											}
-											{
-												Pattern: "bo"
-												Color: 15
-											}
-										]
-									}
-									display: {
-										Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
-									}
-								}
-							}
+							{ }
 						]
 						CanPickUpLoot: 0b
 						HurtTime: 0s
-						entity: "minecraft:evoker"
+						entity: "hexerei:crow"
 					}
 				}
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
+			shape: "square"
 			description: ["The Dissolution Chamber is used to craft materials, using up to 8 items and one fluid."]
 			dependencies: ["00000000000007DA"]
 			id: "02B127DDF2125857"
@@ -1299,8 +1219,9 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: -1.0d
+			shape: "square"
 			description: ["The Stasis Chamber is a machine who freeze any mob on top of it."]
 			dependencies: ["00000000000007BB"]
 			id: "065C9B70BEE4C9F5"
@@ -1317,13 +1238,14 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 10.5d
+			y: -0.5d
+			shape: "square"
 			description: [
 				"This is how you can get Ether Gas easily."
 				"Power your Stasis Chamber to freeze the Wither Boss and build, on top, your Miner Fluid Laser with your purple Laser Lens to obtain Ether Gas."
 				"Don't forget to power your Laser Drill."
-				"{image:kubejs:textures/ftbquests/begin/stasis.png width:150 height:100 align:1}"
+				"{image:ftbquests:textures/quests/if_ether.png width:150 height:100 align:1}"
 				"Collect a bucket of Ether Gas."
 			]
 			dependencies: ["065C9B70BEE4C9F5"]
@@ -1340,8 +1262,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
 			description: ["The Bioreactor produce Biofuel when provided with valid bio-materials."]
 			dependencies: ["00000000000007BF"]
 			id: "541A1EDDE995DE63"
@@ -1358,8 +1281,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
+			x: 0.0d
+			y: -2.5d
+			shape: "square"
 			description: ["Collect a bucket of Biofuel from the Bioreactor."]
 			dependencies: ["541A1EDDE995DE63"]
 			id: "3971D0D187482556"
@@ -1372,6 +1296,60 @@
 				id: "3923EC348EE740F9"
 				type: "item"
 				item: "industrialforegoing:biofuel_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			description: ["The Sewer collects Sewage from animals and can collects experience orbs to turn into Essence."]
+			dependencies: ["00000000000007BF"]
+			id: "5B7FC74DDBEDC4DA"
+			tasks: [{
+				id: "655756BC3089BA62"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			rewards: [{
+				id: "52769B0A51F2212D"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Collect a bucket of Sewage from the Sewer."]
+			dependencies: ["5B7FC74DDBEDC4DA"]
+			id: "44B5369EC83C3BE0"
+			tasks: [{
+				id: "053274588F1ECD62"
+				type: "item"
+				item: "industrialforegoing:sewage_bucket"
+			}]
+			rewards: [{
+				id: "1B3E0D2207E3E9E7"
+				type: "item"
+				item: "industrialforegoing:sewage_bucket"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			shape: "square"
+			description: ["The Marine Fisher, when placed above a pool of water of 3x1x3, it'll start fishing and put whatever you can fish in the internal inventory."]
+			dependencies: ["00000000000007BD"]
+			id: "251C032FF6C85A4A"
+			tasks: [{
+				id: "1A1E6D9810D77212"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+			rewards: [{
+				id: "353FEA38A12D9943"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
 			}]
 		}
 	]
