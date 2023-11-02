@@ -1,5 +1,5 @@
 onEvent('tags.items', e => {
-    
+
     //Remove Ingots
     e.remove('forge:ingots/steel', ['mekanism:ingot_steel', 'immersiveengineering:ingot_steel'])
     e.remove('forge:ingots/osmium', 'chemlib:osmium_ingot')
@@ -60,7 +60,7 @@ onEvent('tags.items', e => {
     e.remove('forge:gears/gold', ['ftbic:gold_gear', 'industrialforegoing:gold_gear'])
 
     // //Remove Plates
-    e.remove('forge:plates/iron', ['chemlib:iron_plate','beyond_earth:iron_plate', 'create:iron_sheet', 'thermal:iron_plate', 'immersiveengineering:plate_iron'])
+    e.remove('forge:plates/iron', ['chemlib:iron_plate', 'beyond_earth:iron_plate', 'create:iron_sheet', 'thermal:iron_plate', 'immersiveengineering:plate_iron'])
     e.remove('forge:plates/gold', ['chemlib:gold_plate', 'thermal:gold_plate', 'immersiveengineering:plate_gold', 'create:golden_sheet'])
     e.remove('forge:plates/copper', ['chemlib:copper_plate', 'thermal:copper_plate', 'immersiveengineering:plate_copper', 'create:copper_sheet'])
     e.remove('forge:plates/nickel', ['chemlib:nickel_plate', 'immersiveengineering:plate_nickel'])
@@ -75,7 +75,7 @@ onEvent('tags.items', e => {
     e.remove('forge:plates/silver', ['chemlib:silver_plate', 'immersiveengineering:plate_silver'])
     e.remove('forge:plates/iridium', 'chemlib:iridium_plate')
     e.remove('forge:plates/zinc', 'chemlib:zinc_plate')
-    
+
     //Remove Dusts
     e.remove('forge:dusts/wood', ['mekanism:sawdust', 'immersiveengineering:dust_wood'])
     e.remove('forge:sawdust', ['mekanism:sawdust', 'immersiveengineering:dust_wood'])
@@ -158,7 +158,7 @@ onEvent('tags.items', e => {
     e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal'])
 
     //Adding Tags
-    
+
     e.add('botania:metamorphic_stone', ['botania:metamorphic_desert_stone', 'botania:metamorphic_forest_stone', 'botania:metamorphic_fungal_stone', 'botania:metamorphic_mesa_stone', 'botania:metamorphic_mountain_stone', 'botania:metamorphic_plains_stone', 'botania:metamorphic_swamp_stone', 'botania:metamorphic_taiga_stone'])
     e.add('itemfilters:check_nbt', ['chickens:chicken_item', 'chickens:colored_egg', 'naturesaura:aura_bottle'])
     e.add('forge:storage_blocks/hop_graphite', 'immersiveengineering:storage_hop_graphite')
@@ -174,7 +174,6 @@ onEvent('tags.items', e => {
     e.add('comforts:hammocks', ['comforts:hammock_black', 'comforts:hammock_white', 'comforts:hammock_orange', 'comforts:hammock_magenta', 'comforts:hammock_light_blue', 'comforts:hammock_yellow', 'comforts:hammock_cyan', 'comforts:hammock_light_gray', 'comforts:hammock_gray', 'comforts:hammock_pink', 'comforts:hammock_lime', 'comforts:hammock_purple', 'comforts:hammock_blue', 'comforts:hammock_brown', 'comforts:hammock_green', 'comforts:hammock_red'])
     e.add('justhammers:hammer', ['justhammers:netherite_hammer', 'justhammers:diamond_hammer', 'justhammers:gold_hammer', 'justhammers:iron_hammer', 'justhammers:stone_hammer'])
     e.add('ftbquests:crystal_blood_magic', ['bloodmagic:steadfastdemoncrystal', 'bloodmagic:vengefuldemoncrystal', 'bloodmagic:destructivedemoncrystal', 'bloodmagic:corrosivedemoncrystal', 'bloodmagic:rawdemoncrystal'])
-
 })
 onEvent('tags.blocks', e => {
 

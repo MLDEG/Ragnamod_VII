@@ -3,15 +3,20 @@
 	group: ""
 	order_index: 25
 	filename: "rftools_and_co"
-	title: "RFTools and co"
+	title: " RFTools and co"
 	icon: "rftoolsbase:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 4.0d
-			y: -5.0d
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
 			description: ["The Machine Frame is the base of all RFTools machines."]
+			dependencies: [
+				"6BAADB4B4E44097C"
+				"7B83F39A4381DA06"
+			]
 			size: 2.0d
 			id: "0000000000000ACA"
 			tasks: [{
@@ -26,10 +31,14 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -6.5d
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Machine Infuser is used to improve the efficiency of lot of machines using Dimensional Shards."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"0000000000000AF5"
+			]
 			id: "0000000000000ACC"
 			tasks: [{
 				id: "0000000000000ACD"
@@ -39,13 +48,13 @@
 			rewards: [{
 				id: "29B8AA882B137437"
 				type: "item"
-				item: "rftoolsbase:dimensionalshard"
-				count: 32
+				item: "rftoolsbase:machine_infuser"
 			}]
 		}
 		{
 			x: 1.5d
-			y: -5.0d
+			y: 0.5d
+			shape: "square"
 			description: ["The Matter Transmitter is used with a Dialing Device to teleport you to a Matter Receiver."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000AD0"
@@ -62,8 +71,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -5.0d
+			x: 1.5d
+			y: -0.5d
+			shape: "square"
 			description: ["The Matter Receiver is used to create a point of teleportation, place this block anywhere in the world, then you can dial to it using a Dialing Device."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000AD2"
@@ -81,32 +91,32 @@
 		}
 		{
 			title: "Dimensional Shard"
-			x: 4.0d
-			y: -7.5d
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
 			description: ["Craft or Find a stack of Dimensional Shard."]
+			dependencies: ["6BAADB4B4E44097C"]
 			size: 1.5d
 			id: "0000000000000AF5"
 			tasks: [{
 				id: "0000000000000AF6"
 				type: "item"
 				item: "rftoolsbase:dimensionalshard"
-				count: 64L
+				count: 32L
 			}]
 			rewards: [{
 				id: "4F91A2D97758A8F1"
 				type: "item"
 				item: "rftoolsbase:dimensionalshard"
 				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
 			x: 2.5d
-			y: -5.5d
-			description: [
-				"The Dialing Device can \"dial\" any nearby matter transmitter to any matter receiver existing."
-				""
-				"Note: When you create a new dimension, automatically you have a Matter Receiver in it."
-			]
+			y: 0.0d
+			shape: "square"
+			description: ["The Dialing Device can \"dial\" any matter transmitter to any matter receiver existing."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000B07"
 			tasks: [{
@@ -121,8 +131,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.0d
+			x: -0.5d
+			y: 1.5d
+			shape: "square"
 			description: ["The Builder can quarry areas, pump liquids, move/copy/swap structures, collect item and XP, move entities, build structures, etc..."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000B09"
@@ -132,15 +143,15 @@
 				item: "rftoolsbuilder:builder"
 			}]
 			rewards: [{
-				id: "01827D43E6B3B973"
+				id: "1E129A48525777F8"
 				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 2
+				item: "rftoolsbuilder:builder"
 			}]
 		}
 		{
-			x: 1.5d
-			y: -7.0d
+			x: -0.5d
+			y: 2.5d
+			shape: "square"
 			description: [
 				"Every card is used in a Builder."
 				"The Sharp card is used to build."
@@ -179,8 +190,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.5d
+			icon: "rftoolspower:dimensionalcell_simple"
+			x: 3.5d
+			y: 0.0d
+			shape: "square"
 			description: [
 				"Dimensional Cell (Simple) can store RF and re distribute it through another Cell with powercell card."
 				"Can store 250kRF."
@@ -203,15 +216,15 @@
 				}
 			]
 			rewards: [{
-				id: "006F604F79945951"
+				id: "236CF355265DA8B4"
 				type: "item"
-				item: "minecraft:redstone"
-				count: 48
+				item: "rftoolspower:dimensionalcell_simple"
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The dimensional Cell work like the Simple version but can store up to 1 MRF."]
 			dependencies: ["0000000000000B10"]
 			id: "0000000000000B12"
@@ -221,15 +234,15 @@
 				item: "rftoolspower:dimensionalcell"
 			}]
 			rewards: [{
-				id: "4B4C64A77661B11E"
+				id: "30E5726BCBD5AD56"
 				type: "item"
-				item: "minecraft:diamond"
-				count: 2
+				item: "rftoolspower:dimensionalcell"
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.5d
+			x: 5.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The dimensional Cell (Advanced) work like the Simple version but can store up to 4 MRF."]
 			dependencies: ["0000000000000B12"]
 			id: "0000000000000B14"
@@ -239,16 +252,17 @@
 				item: "rftoolspower:dimensionalcell_advanced"
 			}]
 			rewards: [{
-				id: "6C9266F2A0385CE2"
+				id: "43092171A7F5D8FC"
 				type: "item"
-				item: "rftoolsbase:dimensionalshard"
-				count: 48
+				item: "rftoolspower:dimensionalcell_advanced"
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 4.5d
+			y: 2.0d
+			shape: "square"
 			description: ["The Advanced Charged Porter allow you to teleport to a previously set matter receiver, shift-right click on a receiver to set the destination."]
+			dependencies: ["6BAADB4B4E44097C"]
 			id: "0000000000000B17"
 			tasks: [{
 				id: "0000000000000B18"
@@ -269,8 +283,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -3.5d
+			x: -0.5d
+			y: -1.5d
+			shape: "square"
 			description: ["The Storage Scanner will scan all nearby inventories and show them in a list, you can then search and access items from those inventories."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000B19"
@@ -287,8 +302,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.5d
+			x: 0.5d
+			y: -1.5d
+			shape: "square"
 			description: ["The Modular Storage can store a lot of items and allows easy searching and filtering using a storage module in it."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000B1B"
@@ -298,15 +314,15 @@
 				item: "rftoolsstorage:modular_storage"
 			}]
 			rewards: [{
-				id: "4ECB9AAE1024861E"
+				id: "7E83ECB86D770717"
 				type: "item"
-				item: "minecraft:chest"
-				count: 8
+				item: "rftoolsstorage:modular_storage"
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.5d
+			x: 1.5d
+			y: -2.0d
+			shape: "square"
 			description: ["The Tier 1 Storage Module can old 100 stacks."]
 			dependencies: ["0000000000000B1B"]
 			id: "0000000000000B1D"
@@ -316,14 +332,15 @@
 				item: "rftoolsstorage:storage_module0"
 			}]
 			rewards: [{
-				id: "104B902717566704"
+				id: "200A15B2BA786BC0"
 				type: "item"
-				item: "minecraft:quartz_block"
+				item: "rftoolsstorage:storage_module0"
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			x: 2.5d
+			y: -2.0d
+			shape: "square"
 			description: ["The Tier 2 Storage Module can old 200 stacks."]
 			dependencies: ["0000000000000B1D"]
 			id: "0000000000000B1F"
@@ -333,14 +350,15 @@
 				item: "rftoolsstorage:storage_module1"
 			}]
 			rewards: [{
-				id: "252DEBF95A45C479"
+				id: "0D07484711561EFE"
 				type: "item"
-				item: "minecraft:quartz_block"
+				item: "rftoolsstorage:storage_module1"
 			}]
 		}
 		{
 			x: 3.5d
-			y: -1.5d
+			y: -2.0d
+			shape: "square"
 			description: ["The Tier 3 Storage Module can old 300 stacks."]
 			dependencies: ["0000000000000B1F"]
 			id: "0000000000000B21"
@@ -350,14 +368,15 @@
 				item: "rftoolsstorage:storage_module2"
 			}]
 			rewards: [{
-				id: "628DC6D5F68387A7"
+				id: "2813C8352B81CEF5"
 				type: "item"
-				item: "minecraft:diamond_block"
+				item: "rftoolsstorage:storage_module2"
 			}]
 		}
 		{
-			x: 4.0d
-			y: -0.5d
+			x: 4.5d
+			y: -2.0d
+			shape: "square"
 			description: ["The Tier 4 Storage Module can old 500 stacks."]
 			dependencies: ["0000000000000B21"]
 			id: "0000000000000B23"
@@ -367,14 +386,15 @@
 				item: "rftoolsstorage:storage_module3"
 			}]
 			rewards: [{
-				id: "3F93E66936BB08CA"
+				id: "36DFD37213BCCC8A"
 				type: "item"
-				item: "rftoolsbase:infused_diamond"
+				item: "rftoolsstorage:storage_module3"
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.5d
+			x: 0.5d
+			y: 1.5d
+			shape: "square"
 			description: ["The Controller is the brain of all automatization with Xnet."]
 			dependencies: ["0000000000000ACA"]
 			id: "7E4A67963D11BE48"
@@ -384,36 +404,38 @@
 				item: "xnet:controller"
 			}]
 			rewards: [{
-				id: "4D42F9131279E534"
+				id: "5A901EC338C81416"
 				type: "item"
-				item: "minecraft:redstone_block"
-				count: 2
+				item: "xnet:controller"
 			}]
 		}
 		{
 			title: "Network Cables"
-			x: 5.5d
-			y: -3.5d
+			x: 1.5d
+			y: 2.0d
+			shape: "square"
 			description: ["The Network Cables are used to link your connectors together in your Xnet Network."]
 			dependencies: ["7E4A67963D11BE48"]
 			id: "5DEC564FC643F344"
 			tasks: [{
-				id: "0A22919C853467F3"
+				id: "3AEFEEBEB02F1FAC"
 				type: "item"
 				item: "xnet:netcable_red"
 				count: 16L
 			}]
 			rewards: [{
-				id: "30B64956A1C90E9B"
+				id: "1DF7826AC416E704"
 				type: "item"
-				item: "minecraft:string"
-				count: 8
+				item: "xnet:netcable_blue"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{
 			title: "Connectors"
-			x: 5.5d
-			y: -2.5d
+			x: 2.5d
+			y: 2.0d
+			shape: "square"
 			description: ["The Connectors ares used to link, in your Xnet Network, your machines, storages, tank etc..."]
 			dependencies: ["5DEC564FC643F344"]
 			id: "08B4975CC7077DF0"
@@ -424,16 +446,18 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "62B2CEE6EF132967"
+				id: "64564D121E4112DF"
 				type: "item"
-				item: "minecraft:diamond"
-				count: 2
+				item: "xnet:connector_blue"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{
 			title: "Advanced Connectors"
-			x: 5.5d
-			y: -1.5d
+			x: 3.5d
+			y: 2.0d
+			shape: "square"
 			description: ["Advanced connectors are used in the same way as connectors, but the advanced version can control all sides of all machines, storages, tanks to which it's connected."]
 			dependencies: ["08B4975CC7077DF0"]
 			id: "734F49C4762BA967"
@@ -444,15 +468,19 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "68F2AAE0A5FE4B71"
+				id: "03C38A0C96DEAD9C"
 				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 2
+				item: "xnet:advanced_connector_blue"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{
-			x: 3.5d
+			title: "Remote Storage"
+			x: -0.5d
 			y: -2.5d
+			shape: "square"
+			description: ["The Storage Control Screen Module is used to register a Storage Scanner and when it's in a Tablet, you can access your Modular Scanner from anywhere (of course if your Modular Scanner is in a loaded chunk)."]
 			dependencies: ["0000000000000B19"]
 			id: "25ACE1C1A60E4D38"
 			tasks: [
@@ -482,7 +510,8 @@
 		}
 		{
 			x: 3.0d
-			y: -6.5d
+			y: 1.0d
+			shape: "square"
 			description: ["The Crafter can handle up to 8 recipes at once and allows recipes to use the crafting results of previous steps."]
 			dependencies: ["0000000000000ACA"]
 			id: "520DC4800966F859"
@@ -498,8 +527,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -5.5d
+			x: 3.0d
+			y: -1.0d
+			shape: "square"
 			description: ["The Environmental Controller can be used to apply various effects to a large area."]
 			dependencies: ["0000000000000ACA"]
 			id: "41738FB567065B41"
