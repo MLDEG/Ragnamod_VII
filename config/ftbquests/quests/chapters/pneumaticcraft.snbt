@@ -3,17 +3,18 @@
 	group: ""
 	order_index: 27
 	filename: "pneumaticcraft"
-	title: "Pneumaticcraft"
+	title: " Pneumaticcraft"
 	icon: "pneumaticcraft:air_compressor"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Pressure Chamber"
-			x: 4.0d
+			x: 8.0d
 			y: 0.0d
+			shape: "square"
 			description: [
-				"The Pressure Chamber is a multi-block structure mainly used to compress various materials into others."
+				"The Pressure Chamber is a multiblock structure mainly used to compress various materials into others."
 				"It is made by creating a hollow cube out of Pressure Chamber Walls/Windows.The size of the cube can vary from 3x3x3 to 5x5x5."
 				"The Pressure Chamber also requires a Valve, which has to connect to the air blocks in the Pressure Chamber."
 			]
@@ -48,13 +49,15 @@
 				id: "09017CF40974711F"
 				type: "item"
 				item: "pneumaticcraft:pressure_chamber_wall"
-				count: 64
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
 			title: "Pressure Tube"
 			x: 1.5d
 			y: 0.0d
+			shape: "square"
 			description: [
 				"The Pressure Tube is used to transfer pressurized air around all your machine connected."
 				"Max pressure 5.0 bar"
@@ -72,12 +75,14 @@
 				type: "item"
 				item: "pneumaticcraft:pressure_tube"
 				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
 			title: "Advanced Pressure Tube"
-			x: 9.0d
-			y: -0.5d
+			x: 14.5d
+			y: -3.0d
+			shape: "square"
 			description: [
 				"Advanced Pressure Tubes are used to transport compressed air and they are capable of handling higher pressures and more volume of compressed air."
 				"Max pressure 20.0 bar"
@@ -98,27 +103,13 @@
 				type: "item"
 				item: "pneumaticcraft:advanced_pressure_tube"
 				count: 8
-			}]
-		}
-		{
-			x: 7.5d
-			y: 1.0d
-			dependencies: ["000000000000096F"]
-			id: "000000000000095F"
-			tasks: [{
-				id: "0000000000000960"
-				type: "item"
-				item: "pneumaticcraft:module_expansion_card"
-			}]
-			rewards: [{
-				id: "08B41935BBC7E3EC"
-				type: "item"
-				item: "pneumaticcraft:module_expansion_card"
+				random_bonus: 8
 			}]
 		}
 		{
 			x: 1.5d
-			y: 1.0d
+			y: -1.0d
+			shape: "square"
 			description: ["The Charging Station is used to charge an item that need pressurized air in it."]
 			dependencies: ["000000000000095B"]
 			id: "0000000000000961"
@@ -135,7 +126,8 @@
 		}
 		{
 			x: 2.5d
-			y: 0.0d
+			y: -1.0d
+			shape: "square"
 			description: ["Air Compressor is the foundation of PneumaticCraft and it's used to create compressed air from items that burn in a Furnace."]
 			dependencies: ["000000000000095B"]
 			id: "0000000000000963"
@@ -151,8 +143,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -0.5d
+			x: 13.5d
+			y: -2.0d
+			shape: "square"
 			description: [
 				"The Advanced Air Compressor works like the Air Compressor, but it produces more pressure and also produce heat."
 				"You need to dissipate the heat for more efficiency."
@@ -171,8 +164,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
+			x: 10.0d
+			y: -3.0d
+			shape: "square"
 			description: [
 				"The UV Light Box can expose Empty PCB's to UV light."
 				"If this happens in such a way that only a part of the PCB gets exposed, this part will hold it's copper traces when etched in an Etching tank."
@@ -186,14 +180,17 @@
 				item: "pneumaticcraft:uv_light_box"
 			}]
 			rewards: [{
-				id: "1A3F0880A7B9DEBE"
-				type: "xp"
-				xp: 100
+				id: "114CEC2D7F071B95"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
-			x: 7.0d
-			y: -2.0d
+			x: 8.5d
+			y: -3.0d
+			shape: "square"
 			description: ["Principally you have to buy a PCB Blueprint with an Amadron Tablet, but you can, also, buy it with a villager."]
 			dependencies: ["0000000000000971"]
 			id: "0000000000000969"
@@ -203,14 +200,17 @@
 				item: "pneumaticcraft:pcb_blueprint"
 			}]
 			rewards: [{
-				id: "6A91257AC0A10B4D"
+				id: "000722FC96DD059E"
 				type: "item"
-				item: "pneumaticcraft:pcb_blueprint"
+				item: "minecraft:emerald"
+				count: 8
+				random_bonus: 4
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
+			x: 11.5d
+			y: -3.0d
+			shape: "square"
 			description: ["The Empty PCB is used in the fabrication of a Printed Circuit Board, an essential part of the mods assembly line machines."]
 			dependencies: ["0000000000000967"]
 			id: "000000000000096B"
@@ -219,10 +219,16 @@
 				type: "item"
 				item: "pneumaticcraft:empty_pcb"
 			}]
+			rewards: [{
+				id: "4CB6742EA52EF92C"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: 11.0d
+			y: -2.0d
+			shape: "square"
 			description: ["At first, you need to get this Unassembled PCB through Etching Acid, after, you can automate it with the Assembly multiblock."]
 			dependencies: [
 				"00000000000009BA"
@@ -235,10 +241,16 @@
 				type: "item"
 				item: "pneumaticcraft:unassembled_pcb"
 			}]
+			rewards: [{
+				id: "28247314560A717A"
+				type: "item"
+				item: "pneumaticcraft:failed_pcb"
+			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: 11.0d
+			y: 0.0d
+			shape: "square"
 			description: ["The Printed Circuit Board is a crafting component used extensively in the fabrication of parts and machines."]
 			dependencies: [
 				"000000000000098D"
@@ -258,8 +270,9 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.0d
 			y: -3.0d
+			shape: "square"
 			description: [
 				"The Amadron Tablet is used to order items and fluids, similar to Villager trading, except items and fluids are picked up and delivered via Drones."
 				"A pick-up, drop-up location must be specified by right-clicking an inventory and/or tank with your tablet."
@@ -278,8 +291,9 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 13.0d
 			y: -3.0d
+			shape: "square"
 			description: [
 				"Simply buy the program with your Amadron Tablet."
 				"This program is used in the Assembly multiblock."
@@ -292,20 +306,26 @@
 				item: "pneumaticcraft:assembly_program_drill_laser"
 			}]
 			rewards: [{
-				id: "41264467E571D75A"
-				type: "xp"
-				xp: 100
+				id: "7E2FA91029D67ACB"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 8
+				random_bonus: 16
 			}]
 		}
 		{
-			x: 9.0d
-			y: 2.0d
+			x: 14.5d
+			y: 0.0d
+			shape: "square"
 			description: [
 				"To make the Assembly Machine work you don't need all the requested items in this quest, it depends on which program you are going to use."
 				"However, I recommend you to install all the items requested in this quests so that it is easier afterwards to change programs."
 				""
-				"Place the Platform assembly at the center of your structure.Around this one place your two Assembly IO Units as well as your Drill and your Laser forming a plus shape \"+\"."
-				"Put a chest or other form of storage right next to your two IO Units.Now you can place your Assembly Controller to inject the compressed air you need and a program"
+				"Place the Platform assembly at the center of your structure."
+				"Around this one place your two Assembly IO Units as well as your Drill and your Laser forming a plus shape \"+\"."
+				"{image:ftbquests:textures/quests/pneumaticcraft_assembly.png width:150 height:100 align:1}"
+				"Put a chest or other form of storage right next to your two IO Units."
+				"Now you can place your Assembly Controller to inject the compressed air you need and a program."
 			]
 			dependencies: ["000000000000096F"]
 			id: "0000000000000975"
@@ -341,10 +361,17 @@
 					item: "pneumaticcraft:assembly_platform"
 				}
 			]
+			rewards: [{
+				id: "2999CFB515DEDED0"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
 			description: [
 				"The Thermopneumatic Processing Plant is used to process liquids into other liquids."
 				"For example, LGP and Coal together can produce liquid plastic."
@@ -357,15 +384,16 @@
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
 			}]
 			rewards: [{
-				id: "2EB5F0DF050136E3"
-				type: "xp"
-				xp: 100
+				id: "7D3B3EC83B7D977D"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
 			}]
 		}
 		{
 			title: "Refinery"
-			x: 1.5d
-			y: -2.0d
+			x: 3.5d
+			y: 0.0d
+			shape: "square"
 			description: [
 				"The Refinery can process Crude Oil or Oil to produce Diesel, Kerosene, Light Fuel and LPG."
 				"It needs Heat to function !"
@@ -386,14 +414,15 @@
 				}
 			]
 			rewards: [{
-				id: "24455F0D8D78929D"
+				id: "533C2D6DD7847A75"
 				type: "item"
-				item: "pneumaticcraft:oil_bucket"
+				item: "immersivepetroleum:crudeoil_bucket"
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.0d
+			x: 12.0d
+			y: -0.5d
+			shape: "square"
 			description: [
 				"The Flux Compressor is used to convert RF into compressed air."
 				"The Compressor generates heat, which must be dissipated to avoid efficiency loss."
@@ -414,8 +443,9 @@
 		}
 		{
 			title: "Heat Sink"
-			x: 0.0d
-			y: 1.5d
+			x: 6.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Heat Sink is used to disperses heat and cold into the air."]
 			dependencies: ["5E490F7D44E6FF57"]
 			id: "0000000000000982"
@@ -433,8 +463,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.0d
+			x: 1.5d
+			y: -3.0d
+			shape: "square"
 			description: [
 				"The Liquid Hopper is a hopper which you can use to transfer liquids. "
 				"Like the Omnidirectional Hopper it's omnidirectional."
@@ -454,11 +485,13 @@
 		}
 		{
 			title: "Pneumatic Armor"
-			x: 6.0d
-			y: 3.0d
+			x: 11.0d
+			y: -1.0d
+			shape: "square"
 			description: [
 				"Pneumatic Armor is very powerful if you provide it with lot of upgrade !"
 				"You can hold Shift on Upgrade to see what kind of upgrade can be put on your armor."
+				"It's used to the End Game armor."
 			]
 			dependencies: ["000000000000096F"]
 			id: "0000000000000986"
@@ -515,8 +548,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: 9.5d
+			y: -0.5d
+			shape: "square"
 			description: ["The Capacitor is a component used in the fabrication process of a Printed Circuit Board."]
 			dependencies: ["0000000000000956"]
 			id: "000000000000098B"
@@ -529,11 +563,13 @@
 				id: "06EFEFB24FC0E2AE"
 				type: "item"
 				item: "pneumaticcraft:capacitor"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.5d
+			x: 9.5d
+			y: 0.5d
+			shape: "square"
 			description: ["The Transistor is a component used in the fabrication process of a Printed Circuit Board."]
 			dependencies: ["0000000000000956"]
 			id: "000000000000098D"
@@ -546,13 +582,15 @@
 				id: "6BFAEC59BF4D732D"
 				type: "item"
 				item: "pneumaticcraft:transistor"
+				random_bonus: 3
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.0d
+			x: 9.5d
+			y: -2.0d
+			shape: "square"
 			description: ["The Etching Tank is used, with Etching Acid and optionally heat to get faster, to transform an Empty PCB into an Unassembly PCB previously exposed in a UV Light Box."]
-			dependencies: ["5E490F7D44E6FF57"]
+			dependencies: ["00000000000009BA"]
 			id: "000000000000098F"
 			tasks: [{
 				id: "0000000000000990"
@@ -560,14 +598,15 @@
 				item: "pneumaticcraft:etching_tank"
 			}]
 			rewards: [{
-				id: "1407B2E423F26C20"
-				type: "xp"
-				xp: 100
+				id: "23F49C7A67AE5B16"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
 			}]
 		}
 		{
 			x: 1.5d
-			y: 2.0d
+			y: -2.0d
+			shape: "square"
 			description: [
 				"Pneumatic Wrench is used to rotate blocs or toggle the corresponding side of a tube open/closed."
 				"Sneak-right-click PneumaticCraft blocks, to instantly dismantle the block, dropping it as an item."
@@ -593,8 +632,9 @@
 		}
 		{
 			title: "Lego Time"
-			x: 4.0d
-			y: -1.5d
+			x: 3.5d
+			y: -3.0d
+			shape: "square"
 			description: ["You can craft Lego blocks with your plastic sheets."]
 			dependencies: ["00000000000009B3"]
 			id: "0000000000000993"
@@ -781,8 +821,9 @@
 		}
 		{
 			title: "Plastic Sheet"
-			x: 4.0d
+			x: 5.0d
 			y: -3.0d
+			shape: "square"
 			description: [
 				"To get plastic sheet you have to put your molten plastic in the world, and it will instantly turn into plastic sheeting."
 				""
@@ -796,18 +837,20 @@
 				id: "00000000000009B4"
 				type: "item"
 				item: "pneumaticcraft:plastic"
-				count: 64L
+				count: 8L
 			}]
 			rewards: [{
 				id: "414A31643E6238D7"
 				type: "item"
 				item: "pneumaticcraft:plastic"
-				count: 64
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
-			x: 1.5d
-			y: -4.0d
+			x: 5.5d
+			y: 0.0d
+			shape: "square"
 			description: ["The Fluid Mixer is used to mix two fluids together, producing a fluid and/or item output."]
 			dependencies: ["000000000000095B"]
 			id: "00000000000009B6"
@@ -817,15 +860,17 @@
 				item: "pneumaticcraft:fluid_mixer"
 			}]
 			rewards: [{
-				id: "51A033DE89B921F3"
+				id: "275BCA4A4E37F4B7"
 				type: "item"
-				item: "pneumaticcraft:glycerol"
-				count: 12
+				item: "pneumaticcraft:pressure_tube"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: 2.5d
+			y: 0.0d
+			shape: "square"
 			description: [
 				"The Vortex Tube splits incoming air into hot and cold components."
 				"One side will be heated (Red), the other cooled (Bleu). It's air usage is dependent on the pressure."
@@ -846,8 +891,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			x: 8.0d
+			y: -2.0d
+			shape: "square"
 			description: [
 				"Craft a bucket of Etching Acid using your Pressure Chamber."
 				"The Etching Acid is used in the Etching Tank to transform an Empty PCB to an Unassembled PCB, or a Failed PCB if your Empty PCB has not previously passed through the UV Light Box."
@@ -866,8 +912,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.0d
+			x: 6.0d
+			y: -1.0d
+			shape: "square"
 			description: ["Collect a bucket of Biodiesel."]
 			dependencies: ["00000000000009B6"]
 			id: "39DEAD6995C04E5F"
@@ -883,8 +930,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
+			x: 4.0d
+			y: -1.0d
+			shape: "square"
 			description: ["Collect a bucket of LPG."]
 			dependencies: ["000000000000097E"]
 			id: "79132090A91F6877"
@@ -900,8 +948,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.0d
+			x: 5.0d
+			y: -1.0d
+			shape: "square"
 			description: ["Collect a bucket of Molten Plastic."]
 			min_required_dependencies: 2
 			dependencies: [
@@ -926,7 +975,9 @@
 			title: "Compressed Iron Ingot"
 			x: 0.0d
 			y: 0.0d
+			shape: "square"
 			description: ["The Compressed Iron Ingot is made by exploding Iron Ingots with TNT."]
+			dependencies: ["4ECF8A0985D2EC5D"]
 			size: 2.0d
 			id: "5E490F7D44E6FF57"
 			tasks: [{
@@ -939,7 +990,139 @@
 				id: "33BD7F97E70015FC"
 				type: "item"
 				item: "pneumaticcraft:ingot_iron_compressed"
-				count: 16
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"The Pneumatic Dynamo is used to convert compressed air into RF."
+				"The Pneumatic Dynamo generates heat, which must be dissipated to avoid efficiency loss."
+			]
+			dependencies: ["000000000000096F"]
+			id: "1423FA9CCB755359"
+			tasks: [{
+				id: "6B37E9A74940F446"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_dynamo"
+			}]
+			rewards: [{
+				id: "028EA1F13FC6A1AE"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "square"
+			description: ["The Pressure Gauge Tube Module allows you to see the pressure in your tubes and also can provide a redstone signal depending on the pressure."]
+			dependencies: ["000000000000095B"]
+			id: "3C1A52E363797D63"
+			tasks: [{
+				id: "48A58AF2EC5FE694"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge_module"
+			}]
+			rewards: [{
+				id: "05B563DB711E7333"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge_module"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Get some Glycerol using the Fluid Mixer, It's used to craft Speed Upgrade but also a Singularity in the end game !"]
+			dependencies: ["00000000000009B6"]
+			id: "5FCA7CBFD5D77D47"
+			tasks: [{
+				id: "0EDA1B244F639099"
+				type: "item"
+				item: "pneumaticcraft:glycerol"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6342560D50E1869A"
+				type: "item"
+				item: "pneumaticcraft:glycerol"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Speed Upgrade, like his name suggests, can speed up your machines."]
+			dependencies: ["4ECF8A0985D2EC5D"]
+			id: "57461DB134316544"
+			tasks: [{
+				id: "566AE86C4433F63F"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			rewards: [{
+				id: "23D70A5CC559B3E1"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"The Security Upgrade is VERY important for every machine you're going to be used in Pneumaticcraft."
+				""
+				"It prevents machines from exploding if they have too much Compressed Air !"
+			]
+			dependencies: ["4ECF8A0985D2EC5D"]
+			id: "72F306FB15BD49D0"
+			tasks: [{
+				id: "7ABC672372C68CA3"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
+			rewards: [{
+				id: "5CAD2EE922CC5555"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"The Camouflage Applicator allows you to apply a facade on your tube."
+				""
+				"Right-click a bloc to get this texture, then, with pressure, right-click on a tube to apply the facade at the cost of a block."
+			]
+			dependencies: ["000000000000095B"]
+			id: "0D9B76B4955185A0"
+			tasks: [{
+				id: "0929ED4D3743F114"
+				type: "item"
+				item: "pneumaticcraft:camo_applicator"
+			}]
+			rewards: [{
+				id: "6E63A2002B2906AD"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:air_canister"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
 			}]
 		}
 	]
