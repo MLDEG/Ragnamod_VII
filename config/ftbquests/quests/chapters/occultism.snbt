@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 28
 	filename: "occultism"
-	title: "Occultism"
+	title: " Occultism"
 	icon: "occultism:ritual_dummy/craft_miner_afrit_deeps"
 	default_quest_shape: ""
 	default_hide_dependency_lines: true

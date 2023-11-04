@@ -157,10 +157,13 @@ onEvent('tags.items', e => {
     e.remove('minecraft:coals', 'immersiveengineering:coal_coke')
     e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal'])
 
-    //Adding Tags
-
+    //Tag for Metamorphic Stone (Botania)
     e.add('botania:metamorphic_stone', ['botania:metamorphic_desert_stone', 'botania:metamorphic_forest_stone', 'botania:metamorphic_fungal_stone', 'botania:metamorphic_mesa_stone', 'botania:metamorphic_mountain_stone', 'botania:metamorphic_plains_stone', 'botania:metamorphic_swamp_stone', 'botania:metamorphic_taiga_stone'])
+
+    //Tag for FTPQuests Chickens
     e.add('itemfilters:check_nbt', ['chickens:chicken_item', 'chickens:colored_egg', 'naturesaura:aura_bottle'])
+
+    //Tags Forge
     e.add('forge:storage_blocks/hop_graphite', 'immersiveengineering:storage_hop_graphite')
     e.add('forge:storage_blocks/silicon', 'kubejs:silicon_block')
     e.add('forge:ores/iron', 'infernalexp:basalt_iron_ore')
@@ -168,12 +171,39 @@ onEvent('tags.items', e => {
     e.add('forge:wires/gold', 'ftbic:gold_wire')
     e.add('forge:wires/copper', 'ftbic:copper_wire')
     e.add('forge:wires/aluminum', 'ftbic:aluminum_wire')
+
+    //Tag for more revertable chests
     e.add('quark:revertable_chests', ['blue_skies:bluebright_chest', 'ars_nouveau:archwood_chest', 'blue_skies:starlit_chest', 'blue_skies:frostbright_chest', 'blue_skies:lunar_chest', 'blue_skies:dusk_chest', 'blue_skies:maple_chest', 'blue_skies:cherry_chest', 'twilightforest:sorting_chest', 'twilightforest:mining_chest', 'twilightforest:transformation_chest', 'twilightforest:time_chest', 'twilightforest:darkwood_chest', 'twilightforest:mangrove_chest', 'twilightforest:canopy_chest', 'twilightforest:twilight_oak_chest'])
+
+    //Tag for planks (for crafts)
     e.add('rm:oak_planks', ['minecraft:oak_planks', 'twilightforest:dark_planks', 'twilightforest:time_planks', 'twilightforest:transformation_planks', 'twilightforest:mining_planks', 'twilightforest:sorting_planks', 'tconstruct:nahuatl', 'tconstruct:greenheart_planks', 'tconstruct:skyroot_planks', 'tconstruct:bloodshroom_planks', 'blue_skies:frostbright_planks', 'blue_skies:lunar_planks', 'blue_skies:starlit_planks', 'blue_skies:bluebright_planks', 'architects_palette:twisted_planks', 'ars_nouveau:archwood_planks', 'minecraft:warped_planks', 'minecraft:crimson_planks', 'blue_skies:dusk_planks', 'blue_skies:maple_planks', 'blue_skies:crystallized_planks', 'blue_skies:cherry_planks', 'cataclysm:chorus_planks', 'darkerdepths:petrified_planks', 'myrtrees:rubberwood_planks', 'forbidden_arcanus:fungyss_planks', 'forbidden_arcanus:cherrywood_planks', 'forbidden_arcanus:mysterywood_planks', 'forbidden_arcanus:edelwood_planks', 'hexerei:mahogany_planks', 'hexerei:willow_planks', 'integrateddynamics:menril_planks', 'naturesaura:ancient_planks', 'twilightforest:towerwood', 'twilightforest:twilight_oak_planks', 'twilightforest:canopy_planks', 'twilightforest:mangrove_planks'])
+
+    //Tag for Sleeping Bags
     e.add('comforts:sleeping_bags', ['comforts:sleeping_bag_blue', 'comforts:sleeping_bag_brown', 'comforts:sleeping_bag_green', 'comforts:sleeping_bag_red', 'comforts:sleeping_bag_black', 'comforts:sleeping_bag_white', 'comforts:sleeping_bag_orange', 'comforts:sleeping_bag_magenta', 'comforts:sleeping_bag_light_blue', 'comforts:sleeping_bag_yellow', 'comforts:sleeping_bag_lime', 'comforts:sleeping_bag_pink', 'comforts:sleeping_bag_gray', 'comforts:sleeping_bag_light_gray', 'comforts:sleeping_bag_cyan', 'comforts:sleeping_bag_purple'])
+
+    //Tag for Hammocks
     e.add('comforts:hammocks', ['comforts:hammock_black', 'comforts:hammock_white', 'comforts:hammock_orange', 'comforts:hammock_magenta', 'comforts:hammock_light_blue', 'comforts:hammock_yellow', 'comforts:hammock_cyan', 'comforts:hammock_light_gray', 'comforts:hammock_gray', 'comforts:hammock_pink', 'comforts:hammock_lime', 'comforts:hammock_purple', 'comforts:hammock_blue', 'comforts:hammock_brown', 'comforts:hammock_green', 'comforts:hammock_red'])
+
+    //Tag for hammer
     e.add('justhammers:hammer', ['justhammers:netherite_hammer', 'justhammers:diamond_hammer', 'justhammers:gold_hammer', 'justhammers:iron_hammer', 'justhammers:stone_hammer'])
+
+    //Tag for FTBQuests and Crystals of Blood Magic
     e.add('ftbquests:crystal_blood_magic', ['bloodmagic:steadfastdemoncrystal', 'bloodmagic:vengefuldemoncrystal', 'bloodmagic:destructivedemoncrystal', 'bloodmagic:corrosivedemoncrystal', 'bloodmagic:rawdemoncrystal'])
+
+    //Tags for Powah Items
+    e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
+    e.add('powah:energy_cell', ['powah:energy_cell_nitro', 'powah:energy_cell_spirited', 'powah:energy_cell_niotic', 'powah:energy_cell_blazing', 'powah:energy_cell_hardened', 'powah:energy_cell_basic', 'powah:energy_cell_starter'])
+    e.add('powah:ender_cell', ['powah:ender_cell_nitro', 'powah:ender_cell_spirited', 'powah:ender_cell_niotic', 'powah:ender_cell_blazing', 'powah:ender_cell_hardened', 'powah:ender_cell_basic', 'powah:ender_cell_starter'])
+    e.add('powah:energy_cable', ['powah:energy_cable_nitro', 'powah:energy_cable_spirited', 'powah:energy_cable_niotic', 'powah:energy_cable_blazing', 'powah:energy_cable_hardened', 'powah:energy_cable_basic', 'powah:energy_cable_starter'])
+    e.add('powah:ender_gate', ['powah:ender_gate_nitro', 'powah:ender_gate_spirited', 'powah:ender_gate_niotic', 'powah:ender_gate_blazing', 'powah:ender_gate_hardened', 'powah:ender_gate_basic', 'powah:ender_gate_starter'])
+    e.add('powah:energizing_rod', ['powah:energizing_rod_nitro', 'powah:energizing_rod_spirited', 'powah:energizing_rod_niotic', 'powah:energizing_rod_blazing', 'powah:energizing_rod_hardened', 'powah:energizing_rod_basic', 'powah:energizing_rod_starter'])
+    e.add('powah:furnator', ['powah:furnator_nitro', 'powah:furnator_spirited', 'powah:furnator_niotic', 'powah:furnator_blazing', 'powah:furnator_hardened', 'powah:furnator_basic', 'powah:furnator_starter'])
+    e.add('powah:magmator', ['powah:magmator_nitro', 'powah:magmator_spirited', 'powah:magmator_niotic', 'powah:magmator_blazing', 'powah:magmator_hardened', 'powah:magmator_basic', 'powah:magmator_starter'])
+    e.add('powah:solar_panel', ['powah:solar_panel_nitro', 'powah:solar_panel_spirited', 'powah:solar_panel_niotic', 'powah:solar_panel_blazing', 'powah:solar_panel_hardened', 'powah:solar_panel_basic', 'powah:solar_panel_starter'])
+    e.add('powah:reactor', ['powah:reactor_nitro', 'powah:reactor_spirited', 'powah:reactor_niotic', 'powah:reactor_blazing', 'powah:reactor_hardened', 'powah:reactor_basic', 'powah:reactor_starter'])
+    e.add('powah:player_transmitter', ['powah:player_transmitter_nitro', 'powah:player_transmitter_spirited', 'powah:player_transmitter_niotic', 'powah:player_transmitter_blazing', 'powah:player_transmitter_hardened', 'powah:player_transmitter_basic', 'powah:player_transmitter_starter'])
+    e.add('powah:energy_hopper', ['powah:energy_hopper_nitro', 'powah:energy_hopper_spirited', 'powah:energy_hopper_niotic', 'powah:energy_hopper_blazing', 'powah:energy_hopper_hardened', 'powah:energy_hopper_basic', 'powah:energy_hopper_starter'])
+    e.add('powah:energy_discharger', ['powah:energy_discharger_nitro', 'powah:energy_discharger_spirited', 'powah:energy_discharger_niotic', 'powah:energy_discharger_blazing', 'powah:energy_discharger_hardened', 'powah:energy_discharger_basic', 'powah:energy_discharger_starter'])
 })
 onEvent('tags.blocks', e => {
 
