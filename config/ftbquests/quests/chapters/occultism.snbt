@@ -29,9 +29,11 @@
 				}
 			}
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
+			shape: "square"
 			description: ["To get Demon's Dream Seeds, you need to go in EverDawn dimension and break some Lunar grass."]
 			hide_dependency_lines: true
+			dependencies: ["112B0AEF7EDDDE6A"]
 			id: "624FB2D445541958"
 			tasks: [
 				{
@@ -51,10 +53,24 @@
 					item: "occultism:datura_seeds"
 				}
 			]
+			rewards: [{
+				id: "3D0FB95C7DF0DED2"
+				type: "item"
+				item: "occultism:datura_seeds"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 0.0d
-			y: 0.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Get a Demon's Dream Fruit by growing up a Demon's Dream Seeds."
+				""
+				"This fruit, when eaten, can give you the effect \"Third Eye\"."
+				""
+				"This effect allows you to see some things you cannot see normally, like Iesnium Or in the Nether, Otherstone n the Overworld."
+			]
 			hide_dependency_lines: false
 			dependencies: ["624FB2D445541958"]
 			id: "4712F25FE9D3F49D"
@@ -63,22 +79,41 @@
 				type: "item"
 				item: "occultism:datura"
 			}]
+			rewards: [{
+				id: "07F235944A2A95D2"
+				type: "item"
+				item: "occultism:datura"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 4.0d
+			shape: "square"
+			description: ["In this pack to get a Spirit Attuned Gem you need to throw a Charoite in the Spiritfire."]
 			hide_dependency_lines: false
-			dependencies: ["1033BEED30BCBE2E"]
+			dependencies: [
+				"1033BEED30BCBE2E"
+				"0DA2467A22F6D309"
+			]
 			id: "7DC88845B345922C"
 			tasks: [{
 				id: "58D9F6E3BD1F355C"
 				type: "item"
 				item: "occultism:spirit_attuned_gem"
 			}]
+			rewards: [{
+				id: "72CF703A6DE209E9"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 1.0d
-			y: 3.0d
+			y: 3.5d
+			shape: "square"
+			description: ["In this pack to get Otherstone you need to throw Lunar Stone in the Spiritfire."]
 			hide_dependency_lines: false
 			dependencies: ["1033BEED30BCBE2E"]
 			id: "2B57367693BD9211"
@@ -87,10 +122,18 @@
 				type: "item"
 				item: "occultism:otherstone"
 			}]
+			rewards: [{
+				id: "08DE06D6F1448713"
+				type: "item"
+				item: "occultism:otherstone"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -1.0d
-			y: 4.5d
+			y: 5.0d
+			shape: "square"
+			description: ["The Purified Ink is used for crafting Book of Bindings, and o get these you need to throw black dye in Spiritfire."]
 			hide_dependency_lines: false
 			dependencies: ["1033BEED30BCBE2E"]
 			id: "4688100944675BC9"
@@ -99,15 +142,38 @@
 				type: "item"
 				item: "occultism:purified_ink"
 			}]
+			rewards: [{
+				id: "0E5A878F3E10B68C"
+				type: "item"
+				item: "occultism:purified_ink"
+				random_bonus: 3
+			}]
 		}
 		{
+			title: "Otherworld Sapling"
 			x: -1.0d
-			y: 3.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"To get an Otherworld Sapling you need to throw an Oak Sapling in the Spiritfire."
+				""
+				"Yes, the item is name \"Oak Sapling\" but trust me, it's not an Oak Sapling."
+				"You can see what I'm talking about if you have the effect Third Eye."
+			]
 			hide_dependency_lines: false
 			dependencies: ["1033BEED30BCBE2E"]
 			id: "22DF3A00D7A1D69D"
 			tasks: [{
 				id: "313B8D5539E3438A"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_sapling_natural"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "547DE34613D04D0F"
 				type: "item"
 				item: {
 					id: "occultism:otherworld_sapling_natural"
@@ -126,7 +192,9 @@
 				}
 			}
 			x: 3.0d
-			y: 6.0d
+			y: 6.5d
+			shape: "square"
+			description: ["White Chalk is used to draw your first ritual."]
 			hide_dependency_lines: false
 			dependencies: ["514C05D403F385B6"]
 			id: "160551369B2D3DD7"
@@ -148,6 +216,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "38FCC48A61A8BFE3"
+				type: "item"
+				item: "occultism:chalk_white_impure"
+			}]
 		}
 		{
 			title: "Red Chalk"
@@ -159,11 +232,10 @@
 				}
 			}
 			x: -5.5d
-			y: 7.5d
-			dependencies: [
-				"514C05D403F385B6"
-				"26A8EB06BC68E46A"
-			]
+			y: 8.0d
+			shape: "square"
+			description: ["The Red Chalk is your final type of chalk for making more powerful rituals, but you need to summon an Afrit and kill it to obtain the main component for your Red Chalk."]
+			dependencies: ["514C05D403F385B6"]
 			id: "0646054B9C984677"
 			tasks: [
 				{
@@ -183,6 +255,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5FB7D4DA47115FBF"
+				type: "item"
+				item: "occultism:chalk_red_impure"
+			}]
 		}
 		{
 			title: "Purple Chalk"
@@ -194,11 +271,10 @@
 				}
 			}
 			x: 5.5d
-			y: 7.5d
-			dependencies: [
-				"514C05D403F385B6"
-				"331FC88010907455"
-			]
+			y: 8.0d
+			shape: "square"
+			description: ["The Purple Chalk is your third type of chalk for making more advanced rituals, but you need to summon a Crusher for making Crushed End Stones."]
+			dependencies: ["514C05D403F385B6"]
 			id: "4DF6B5FAF20A7360"
 			tasks: [
 				{
@@ -218,6 +294,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "66C15C77E1546162"
+				type: "item"
+				item: "occultism:chalk_purple_impure"
+			}]
 		}
 		{
 			title: "Golden Chalk"
@@ -229,11 +310,10 @@
 				}
 			}
 			x: -3.0d
-			y: 6.0d
-			dependencies: [
-				"514C05D403F385B6"
-				"331FC88010907455"
-			]
+			y: 6.5d
+			shape: "square"
+			description: ["The Golden Chalk is your second type of chalk for making more advanced rituals."]
+			dependencies: ["514C05D403F385B6"]
 			id: "40DC6014B8542DF8"
 			tasks: [
 				{
@@ -253,10 +333,21 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "66EE309660D5C467"
+				type: "item"
+				item: "occultism:chalk_gold_impure"
+			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: 2.5d
+			shape: "square"
+			description: [
+				"To get Otherworld Woods you need to chop a tree from an Otherworld Sapling with the effect Third Eye."
+				""
+				"If you don't have this effect activated when you want to chop the tree, you get regular Oak Woods."
+			]
 			hide_dependency_lines: false
 			dependencies: ["22DF3A00D7A1D69D"]
 			id: "3F6AD3FCF5C8E898"
@@ -265,10 +356,22 @@
 				type: "item"
 				item: "occultism:otherworld_log"
 			}]
+			rewards: [{
+				id: "4B8773309AFDE2D5"
+				type: "item"
+				item: "occultism:otherworld_log"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -9.5d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"The Dimensional Storage Actuator by itself can hold 128 slots of 16 stacks."
+				""
+				"You can increase the number of slot inside by using Dimensional Storage Stabilizer."
+			]
 			dependencies: ["455A987F13AB6ED9"]
 			id: "77543FB2A9AD0C71"
 			tasks: [{
@@ -276,10 +379,24 @@
 				type: "item"
 				item: "occultism:storage_controller"
 			}]
+			rewards: [{
+				id: "06D68475418DCBBF"
+				type: "item"
+				item: "occultism:otherstone_tablet"
+			}]
 		}
 		{
 			x: -8.5d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"The Tier 1 Dimensional Storage Stabilizer adds 256 slots."
+				"You can add max 6 Stabilizer on each axis facing the Matrix."
+				"{image:ftbquests:textures/quests/occultism_storage.png width:150 height:100 align:1}"
+				"On the screen, you can see every block who you can place those storages Stabilizer, minus the center."
+				""
+				"Beware that future items stored in your Actuator will not be stored in the Stabilizers, they will remain in your Actuator even if you remove the stabilizers afterward, but you will not be able to add more than the limit shown in the Actuator."
+			]
 			dependencies: ["10B492869E896F19"]
 			id: "66378A34DC617D1B"
 			tasks: [{
@@ -287,10 +404,17 @@
 				type: "item"
 				item: "occultism:storage_stabilizer_tier1"
 			}]
+			rewards: [{
+				id: "27EBBF9E491929AE"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier1"
+			}]
 		}
 		{
 			x: -7.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Tier 2 Dimensional Storage Stabilizer adds 512 slots."]
 			dependencies: [
 				"455A987F13AB6ED9"
 				"66378A34DC617D1B"
@@ -301,10 +425,17 @@
 				type: "item"
 				item: "occultism:storage_stabilizer_tier2"
 			}]
+			rewards: [{
+				id: "1CFF95F717BDC59E"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier2"
+			}]
 		}
 		{
 			x: -6.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Tier 3 Dimensional Storage Stabilizer adds 1024 slots."]
 			dependencies: [
 				"75F2C1307F759954"
 				"1908B6128626BF09"
@@ -315,10 +446,17 @@
 				type: "item"
 				item: "occultism:storage_stabilizer_tier3"
 			}]
+			rewards: [{
+				id: "0396C602161BDB04"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier3"
+			}]
 		}
 		{
 			x: -5.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Tier 4 Dimensional Storage Stabilizer adds 2048 slots."]
 			dependencies: [
 				"74A6B535D678ADD9"
 				"0DE9649AE0EC69BA"
@@ -330,10 +468,21 @@
 				type: "item"
 				item: "occultism:storage_stabilizer_tier4"
 			}]
+			rewards: [{
+				id: "02D285B6B90B3312"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier4"
+			}]
 		}
 		{
 			x: -7.5d
-			y: -2.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Stable Wormhole allows you to access your Storage Actuator from anywhere you place it."
+				""
+				"For example, you can link your wormhole to your storage, place it in a automation contraption to extract whatever you want from your storage and insert too."
+			]
 			dependencies: ["10B492869E896F19"]
 			id: "094493EAF4AEFF89"
 			tasks: [{
@@ -345,10 +494,22 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1D8000FF74F484FE"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -8.5d
 			y: -2.0d
+			shape: "square"
+			description: ["The Storage Accessor allows you to access your Storage Actuator remotely, simply shift right-click on your Storage Actuator to link it."]
 			dependencies: [
 				"455A987F13AB6ED9"
 				"10B492869E896F19"
@@ -363,10 +524,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "35824D59370A9BFE"
+				type: "item"
+				item: "occultism:wormhole_frame"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 0.5d
+			shape: "square"
+			description: ["The Otherworld Goggles allows you to see the Otherworld without eating a Demon's Dream Fruit."]
 			dependencies: [
 				"4712F25FE9D3F49D"
 				"10B492869E896F19"
@@ -383,10 +551,25 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1143B46A547912C4"
+				type: "item"
+				item: "occultism:otherstone"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -1.5d
 			y: 0.5d
+			shape: "square"
+			description: [
+				"The Divination Rod allows finding Otherworld materials based on their similarities to materials common to our world."
+				"Shift right-click a block to attune the rod to the corresponding Otherworld block."
+				""
+				"Andesite = Otherstone"
+				"Oak Wood = Otherworld Wood"
+				"Netherrack = Iesnium Ore"
+			]
 			dependencies: ["7DC88845B345922C"]
 			id: "61D8610C6BAF0508"
 			tasks: [{
@@ -398,13 +581,24 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "03B2E8415FD59593"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
 		}
 		{
 			title: "Spiritfire"
 			icon: "occultism:spirit_fire"
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
+			shape: "square"
 			subtitle: "Look at a Spiritfire"
+			description: [
+				"Throw a Demon's Fruit in Fire to transform this fire into Spiritfire."
+				""
+				"This fire is used to transform items into another items."
+			]
 			hide_dependency_lines: false
 			dependencies: ["4712F25FE9D3F49D"]
 			id: "1033BEED30BCBE2E"
@@ -417,10 +611,18 @@
 				observe_type: 0
 				to_observe: "occultism:spirit_fire"
 			}]
+			rewards: [{
+				id: "04325F87B4D1B0A9"
+				type: "item"
+				item: "occultism:datura"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.0d
 			y: -3.5d
+			shape: "square"
+			description: ["Using the ritual \"Strigeor's Higher Binding\" Craft an Infused Pickaxe, this pickaxe is indispensable for getting the Iesnium materials."]
 			dependencies: ["455A987F13AB6ED9"]
 			id: "0B653169BA160CAD"
 			tasks: [{
@@ -435,10 +637,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4C7FBAEAB66C1305"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 2.0d
 			y: -3.5d
+			shape: "square"
+			description: ["Craft an Iesnium Pickaxe, this pickaxe is mainly used to craft different Miner lamps."]
 			hide_dependency_lines: false
 			dependencies: ["1558BE6E860A8770"]
 			id: "3DFE151398848633"
@@ -453,10 +663,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "373E659CD520ACAD"
+				type: "item"
+				item: "occultism:iesnium_ingot"
+			}]
 		}
 		{
-			x: 8.0d
-			y: 3.0d
+			x: -8.5d
+			y: 3.5d
+			shape: "square"
+			description: ["The Surprisingly Substantial Satchel is just a huge backpack with 117 slots."]
 			dependencies: ["10B492869E896F19"]
 			id: "0CA72769B2502EA8"
 			tasks: [{
@@ -470,10 +687,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5354DCE0DBCB127A"
+				type: "item"
+				item: "minecraft:chest"
+				random_bonus: 63
+			}]
 		}
 		{
 			x: 8.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Miner Foliot can mine for you regular ores and also blue skies, Undergarden and Gems and Jewels."]
 			dependencies: ["10B492869E896F19"]
 			id: "41B755D9D197AD63"
 			tasks: [{
@@ -488,10 +713,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2DE1B81225F4608B"
+				type: "item"
+				item: "occultism:magic_lamp_empty"
+			}]
 		}
 		{
 			x: 7.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Ore Miner Djinni can mine only Gems and Jewels, Undergarden and Blue Skies ores."]
 			dependencies: ["455A987F13AB6ED9"]
 			id: "72EB49F9C7C3EFD6"
 			tasks: [{
@@ -506,10 +738,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "37210A82E6EC7539"
+				type: "item"
+				item: "occultism:magic_lamp_empty"
+			}]
 		}
 		{
 			x: 6.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Deep Ore Miner Afrit can mine for you Deepslate ores and also blue skies, Undergarden and Gems and Jewels."]
 			dependencies: ["75F2C1307F759954"]
 			id: "53FF91A7DA4AEE77"
 			tasks: [{
@@ -524,10 +763,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3116F9534F2B60DB"
+				type: "item"
+				item: "occultism:magic_lamp_empty"
+			}]
 		}
 		{
 			x: 5.5d
 			y: -3.0d
+			shape: "square"
+			description: ["The Master Miner Marid can mine for you every ore that the previous Miner can mine for you + the Mining Master ones."]
 			dependencies: ["74A6B535D678ADD9"]
 			id: "71FE9EB861122A8E"
 			tasks: [{
@@ -542,11 +788,22 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "36C29248B391A7AE"
+				type: "item"
+				item: "occultism:magic_lamp_empty"
+			}]
 		}
 		{
 			icon: "occultism:dimensional_mineshaft"
 			x: 9.5d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"The dimensional mineshaft is a block that you can place a Spirit Miner in it to mine stuff !"
+				""
+				"You can automate it with hopper and pipes."
+			]
 			dependencies: ["455A987F13AB6ED9"]
 			id: "48ED20E919F6A136"
 			tasks: [
@@ -561,10 +818,17 @@
 					item: "occultism:magic_lamp_empty"
 				}
 			]
+			rewards: [{
+				id: "3B1F40306C610705"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
 		}
 		{
 			x: 8.5d
 			y: -2.0d
+			shape: "square"
+			description: ["With this gem, you can capture a Familiar to get his benefits effect on a ring."]
 			dependencies: ["455A987F13AB6ED9"]
 			id: "73D8E1672E2FBFF8"
 			tasks: [{
@@ -576,10 +840,21 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "6175D7660ED86EB4"
+				type: "item"
+				item: {
+					id: "occultism:soul_gem"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			x: 7.5d
-			y: -2.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Familiar Ring allows you to have the effect of the Familiar previously capture with your Soul Gems."]
 			hide_dependency_lines: false
 			dependencies: ["73D8E1672E2FBFF8"]
 			id: "62A2C4C342C22155"
@@ -597,44 +872,56 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "32C94835A011B047"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 4s
+					}
+				}
+			}]
 		}
 		{
 			title: "Hedyrin's Lure"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: -2.0d
-			y: 8.5d
+			x: -2.5d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_hedyrin_lure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"160551369B2D3DD7"
 				"40DC6014B8542DF8"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "11F435D6B8D2D5DD"
-			tasks: [
-				{
-					id: "3DAD8F7C1C65F6F1"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "35F7DC593D36806D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0D23DDB670023708"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 5s
+					}
 				}
-				{
-					id: "2629608102F37C67"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 8L
-				}
-				{
-					id: "52AEF86B1CE4E140"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-			]
+			}]
 		}
 		{
 			title: "Ihagan's Enthrallment"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: 2.0d
-			y: 8.5d
+			x: 2.5d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_ihagan_enthrallment.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"160551369B2D3DD7"
@@ -642,82 +929,62 @@
 				"40DC6014B8542DF8"
 				"0646054B9C984677"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "4A820C6E51741A85"
-			tasks: [
-				{
-					id: "089488396E92C556"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "758FD614137139A4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3FD6B4DC3CB8DA00"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 1s
+					}
 				}
-				{
-					id: "5B04629990DD36B3"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 10L
-				}
-				{
-					id: "432F1F9ED969FE91"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-				{
-					id: "25DB27F79D750C55"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 2L
-				}
-				{
-					id: "557A29DA5EE4C3D4"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
-					count: 2L
-				}
-			]
+			}]
 		}
 		{
 			title: "Abras' Commanding Conjure"
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 0.0d
-			y: 9.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_abras_commanding_conjure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"40DC6014B8542DF8"
 				"4DF6B5FAF20A7360"
 				"160551369B2D3DD7"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "2165FB92A0287E64"
-			tasks: [
-				{
-					id: "2D301FDAE4B38BF2"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "475D5DDFA371FBF4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "302839938D8B0610"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 4s
+					}
 				}
-				{
-					id: "1526F16EF7ACAB81"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 6L
-				}
-				{
-					id: "159DF94C264287E2"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-				{
-					id: "20627221B7908841"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 4L
-				}
-			]
+			}]
 		}
 		{
 			x: 1.0d
-			y: 4.5d
+			y: 5.0d
+			shape: "square"
+			description: ["To get Otherworld Ashes, you need to throw an Otherworld Wood in the Spiritfire."]
 			hide_dependency_lines: false
 			dependencies: ["1033BEED30BCBE2E"]
 			id: "514C05D403F385B6"
@@ -726,10 +993,18 @@
 				type: "item"
 				item: "occultism:otherworld_ashes"
 			}]
+			rewards: [{
+				id: "2BA5BB6583BB20B4"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -3.5d
 			y: 1.5d
+			shape: "square"
+			description: ["Spirit Attuned Crystals are used in Ritual structure and also has an ingredient for rituals."]
 			dependencies: ["7DC88845B345922C"]
 			id: "0162789FA3A5FB60"
 			tasks: [{
@@ -737,11 +1012,23 @@
 				type: "item"
 				item: "occultism:spirit_attuned_crystal"
 			}]
+			rewards: [{
+				id: "2F6B63D7B612D8EB"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+				random_bonus: 3
+			}]
 		}
 		{
+			title: "Bowls"
 			icon: "occultism:golden_sacrificial_bowl"
-			x: 2.0d
+			x: 2.5d
 			y: 2.5d
+			shape: "square"
+			description: [
+				"Bowls are used in rituals."
+				"You can put an item on it by right-click it, and the golden one is for the center of your ritual."
+			]
 			hide_dependency_lines: false
 			dependencies: ["2B57367693BD9211"]
 			id: "6F4090909CAB1264"
@@ -757,46 +1044,26 @@
 					item: "occultism:sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "55A5B6F5BCBBE389"
+				type: "item"
+				item: "occultism:sacrificial_bowl"
+				random_bonus: 7
+			}]
 		}
 		{
 			title: "Candles"
 			icon: "occultism:candle_white"
 			x: 3.5d
 			y: 1.5d
+			shape: "square"
+			description: [
+				"To craft Candles, you're going to need tallow, and to get Tallow you have to kill a cow, pig, sheep, horse or a llama with a Butcher Knife !"
+				"Candles are very important for your ritual, you're gonna need those in bulk."
+			]
 			dependencies: ["624FB2D445541958"]
 			id: "6AEA8EAB317F6A30"
 			tasks: [
-				{
-					id: "31417597949B949F"
-					type: "item"
-					title: "Candle"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "itemfilters:tag"
-									tag: {
-										value: "minecraft:candles"
-									}
-								}
-								{
-									Count: 1b
-									id: "itemfilters:tag"
-									tag: {
-										value: "hexerei:candles"
-									}
-								}
-								{
-									Count: 1b
-									id: "occultism:candle_white"
-								}
-							]
-						}
-					}
-				}
 				{
 					id: "79D98C285A242AB6"
 					type: "item"
@@ -813,17 +1080,36 @@
 					type: "item"
 					item: "occultism:tallow"
 				}
+				{
+					id: "25594DD866A2B205"
+					type: "item"
+					item: "occultism:candle_white"
+				}
 			]
+			rewards: [{
+				id: "555F8FFB67E90813"
+				type: "item"
+				item: "occultism:candle_white"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: -8.0d
-			y: 3.0d
+			x: 8.5d
+			y: 3.5d
+			shape: "square"
+			description: ["Chalk Brush is used simply to remove the glyph you draw on the ground."]
 			dependencies: ["160551369B2D3DD7"]
 			id: "62076EF546CECB81"
 			tasks: [{
 				id: "6D3498305A4D7DC4"
 				type: "item"
 				item: "occultism:brush"
+			}]
+			rewards: [{
+				id: "40448CC2AF3E3B08"
+				type: "item"
+				item: "minecraft:white_wool"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -836,89 +1122,36 @@
 				}
 			}
 			x: 0.0d
-			y: 10.5d
+			y: 8.5d
+			shape: "square"
+			description: [
+				"The Abras' Commanding Conjure allows you to summon a Guardian Familiar !"
+				""
+				"This Familiar sacrifices a limb everytime you are going to die."
+				"It's spawns with a random amount of limbs."
+			]
 			hide_dependency_lines: false
 			dependencies: ["2165FB92A0287E64"]
 			id: "2DC355D06C2A5A8D"
-			tasks: [
-				{
-					id: "5FF5DC56D1C450DF"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4L
-				}
-				{
-					id: "19ED8E7F3E9CC673"
-					type: "item"
-					item: "minecraft:golden_apple"
-					count: 2L
-				}
-				{
-					id: "6828F4A489AB92C2"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_afrit"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
+			tasks: [{
+				id: "6828F4A489AB92C2"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_afrit"
+					Count: 1b
+					tag: {
+						spiritName: "Discomanco"
 					}
 				}
-				{
-					id: "196B2DECA3B77CFF"
-					type: "checkmark"
-					title: "Villager or Player (Sacrifice)"
-				}
-			]
+			}]
+			rewards: [{
+				id: "275CA5891E2CF381"
+				type: "item"
+				item: "occultism:book_of_binding_afrit"
+			}]
 		}
 		{
-			title: "Possessed Endermite"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -2.5d
-			y: 10.0d
-			hide_dependency_lines: false
-			dependencies: ["11F435D6B8D2D5DD"]
-			id: "0959CF3C69D1CBB0"
-			tasks: [
-				{
-					id: "1B795071541AC048"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 2L
-				}
-				{
-					id: "564D354345240F52"
-					type: "item"
-					item: "minecraft:stone"
-					count: 2L
-				}
-				{
-					id: "20B73B4BD13D2C51"
-					type: "item"
-					title: "Egg (to Use)"
-					item: "minecraft:egg"
-				}
-				{
-					id: "55B117F29BD3E722"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Possessed Skeleton"
+			title: "Familiars from Hedyrin's Lure Rituals"
 			icon: {
 				id: "occultism:book_of_binding_bound_foliot"
 				Count: 1b
@@ -927,44 +1160,42 @@
 				}
 			}
 			x: -1.5d
-			y: 10.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"With the Hedyrin's Lure you can summon a number of familiars."
+				""
+				"_Possessed Endermite (drop an Endstone when kill)"
+				"_Possessed Skeleton (drop his head when kill)"
+				"_Parrot Familiar (summon just a Parrot but can fail and summon a chicken)"
+				"_Greedy Familiar (will pick up nearby items for you)"
+				"_Deer Familiar (When upgrade with a Blacksmith Familiar, it will attack nearby enemies with a HAMMER / Also give you Jump Boost.)"
+				"_Blacksmith Familiar (wan upgrade other Familiar)"
+				"_Beaver Familiar (will chop down nearby trees when they grow from a sapling / Can also increase wood break speed.)"
+			]
 			hide_dependency_lines: false
 			dependencies: ["11F435D6B8D2D5DD"]
-			id: "5A67248EE4766F82"
-			tasks: [
-				{
-					id: "18634F484EE17D8D"
-					type: "item"
-					title: "Bone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:bones"
-						}
-					}
-					count: 4L
-				}
-				{
-					id: "51D55187E0365809"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
+			id: "0959CF3C69D1CBB0"
+			tasks: [{
+				id: "55B117F29BD3E722"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_foliot"
+					Count: 1b
+					tag: {
+						spiritName: "Discomanco"
 					}
 				}
-				{
-					id: "16223137E6ECC436"
-					type: "checkmark"
-					title: "Chicken (Sacrifice)"
-				}
-			]
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "0DD824BC9A03ED40"
+				type: "item"
+				item: "occultism:book_of_binding_foliot"
+			}]
 		}
 		{
-			title: "Possessed Enderman"
+			title: "Familiars from Ihagan's Enthrallment Rituals"
 			icon: {
 				id: "occultism:book_of_binding_bound_djinni"
 				Count: 1b
@@ -973,966 +1204,60 @@
 				}
 			}
 			x: 1.5d
-			y: 10.5d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "0411FF6F528E2024"
-			tasks: [
-				{
-					id: "0ECBA17113981087"
-					type: "item"
-					title: "Bone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:bones"
-						}
-					}
-				}
-				{
-					id: "6AD2DB56B25807E6"
-					type: "item"
-					item: "minecraft:rotten_flesh"
-				}
-				{
-					id: "36CE6C7241A25609"
-					type: "item"
-					title: "String"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:string"
-						}
-					}
-				}
-				{
-					id: "1200C84D566D8E9E"
-					type: "item"
-					item: "minecraft:end_stone"
-				}
-				{
-					id: "5ADE91D0BFE0DC3B"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "5D718AF4606DD6ED"
-					type: "checkmark"
-					title: "Pig (Sacrifice)"
-				}
+			y: 8.0d
+			shape: "square"
+			description: [
+				"With the Ihagan's Enthrallment you can summon a number of familiars."
+				""
+				"_Possessed Enderman (drop 1-3 Ender Pearl when kill)"
+				""
+				"_Possessed Ghast (drop at least one Ghast Tear when kill)"
+				""
+				"_Drikwing Familiar (Provide Multi-Jump, Jump Boost and Slow Falling)"
+				""
+				"_Bat Familiar (Provide Night Vision)"
+				""
+				"_Cthulhu Familiar (Provide Water Breather and General Coolness)"
+				""
+				"_Devil Familiar (Provide Fire Resistance and attacks enemies)"
+				""
+				"_Dragon Familiar (Increas XP and you the Greedy Familiar can ride this Dragon)"
+				""
+				"_Headless Ratman Familiar (provide a damage buff to the type of head the Ratman is holding, after stealing it from a mod that died near him) "
+				""
+				"_Chimera Familiar (Can be mounted if it's enough big, feed him any kind of meat to do so)"
+				""
+				"_Beholder Familiar (Highlights enemies and shoots them with a laser)"
+				""
+				"_Fairy Familiar (prevents Familiar deaths and drains enemy life force)"
 			]
-		}
-		{
-			title: "Possessed Ghast"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 2.5d
-			y: 10.0d
 			hide_dependency_lines: false
 			dependencies: ["4A820C6E51741A85"]
 			id: "31290D701698E067"
-			tasks: [
-				{
-					id: "0A929F9469611200"
-					type: "item"
-					item: "minecraft:lava_bucket"
-					count: 3L
-				}
-				{
-					id: "1A7818B09470F11E"
-					type: "item"
-					item: "minecraft:magma_block"
-					count: 3L
-				}
-				{
-					id: "04B12C2729F27AFF"
-					type: "item"
-					title: "x3 Netherrack"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:netherrack"
-						}
-					}
-					count: 3L
-				}
-				{
-					id: "6670974144803DF7"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-				{
-					id: "704D8F56ED653D0A"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
+			tasks: [{
+				id: "704D8F56ED653D0A"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_djinni"
+					Count: 1b
+					tag: {
+						spiritName: "TheBoo"
 					}
 				}
-				{
-					id: "52908FCB8A8C6DD9"
-					type: "checkmark"
-					title: "Cow (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Parrot Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -3.0d
-			y: 11.0d
-			hide_dependency_lines: false
-			dependencies: ["11F435D6B8D2D5DD"]
-			id: "53EC4C6FBA1D325B"
-			tasks: [
-				{
-					id: "75CDCCB78283EA0F"
-					type: "item"
-					item: "minecraft:red_dye"
-				}
-				{
-					id: "4E691FC1D3C39CCD"
-					type: "item"
-					item: "minecraft:green_dye"
-				}
-				{
-					id: "79A8008C95FB4ED3"
-					type: "item"
-					item: "minecraft:blue_dye"
-				}
-				{
-					id: "46684A5FA91EE0E1"
-					type: "item"
-					title: "Yellow Dye"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dyes/yellow"
-						}
-					}
-				}
-				{
-					id: "6D754C63AAC8B635"
-					type: "item"
-					title: "Feather"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:feathers"
-						}
-					}
-				}
-				{
-					id: "5976C6762691EB05"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-				{
-					id: "3106F286F12E8B2B"
-					type: "checkmark"
-					title: "Chicken (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Greedy Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -2.0d
-			y: 11.5d
-			hide_dependency_lines: false
-			dependencies: ["11F435D6B8D2D5DD"]
-			id: "72DAC3140586C96D"
-			tasks: [
-				{
-					id: "5AF8019EC38C62BF"
-					type: "item"
-					item: "minecraft:stone"
-				}
-				{
-					id: "474B12C5C0B35C20"
-					type: "item"
-					item: "minecraft:iron_block"
-				}
-				{
-					id: "632B46E72DCBE966"
-					type: "item"
-					item: "minecraft:hopper"
-				}
-				{
-					id: "72F6B62AD67D59AC"
-					type: "item"
-					item: "minecraft:dispenser"
-				}
-				{
-					id: "5990A0DC5841BA35"
-					type: "item"
-					title: "Chest"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:chests"
-						}
-					}
-				}
-				{
-					id: "0BE6A51FD1C63AA3"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-				{
-					id: "284E591214C9ED48"
-					type: "checkmark"
-					title: "Zombie (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Bat Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 3.0d
-			y: 11.0d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "20AA201FD22291E8"
-			tasks: [
-				{
-					id: "7493058396E3F0AB"
-					type: "item"
-					item: "minecraft:lava_bucket"
-				}
-				{
-					id: "4AD925CE57E98C92"
-					type: "item"
-					item: "minecraft:glowstone"
-				}
-				{
-					id: "15F1D375075B5A7C"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "50C98BCE7AB5EC7A"
-					type: "item"
-					item: "minecraft:torch"
-				}
-				{
-					id: "1FD67247876E7749"
-					type: "item"
-					item: "minecraft:spider_eye"
-				}
-				{
-					id: "6899DF9902DE08F4"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "37EFBF06E548065F"
-					type: "checkmark"
-					title: "Bat (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Drikwing Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 2.0d
-			y: 11.5d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "3310B6197E6C750D"
-			tasks: [
-				{
-					id: "7F8C4E37DA57A2C8"
-					type: "item"
-					title: "Any #minecraft:leaves"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:leaves"
-						}
-					}
-				}
-				{
-					id: "4A1398249C256971"
-					type: "item"
-					title: "Feather"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:feathers"
-						}
-					}
-					count: 2L
-				}
-				{
-					id: "56C697D70AFB526C"
-					type: "item"
-					title: "String"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:string"
-						}
-					}
-				}
-				{
-					id: "293B1AE527AF1483"
-					type: "item"
-					item: "minecraft:cobweb"
-				}
-				{
-					id: "26C70F5DF05C839F"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "6B7011172FB18190"
-					type: "checkmark"
-					title: "Parrot (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Devil Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 3.5d
-			y: 12.0d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "22BDD5BAE8318A88"
-			tasks: [
-				{
-					id: "59FA4EDDBFA99DEC"
-					type: "item"
-					title: "Bone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:bones"
-						}
-					}
-					count: 4L
-				}
-				{
-					id: "55CB8068810084A4"
-					type: "item"
-					item: "minecraft:lava_bucket"
-					count: 4L
-				}
-				{
-					id: "1F38A6EE66573A6E"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "0893264FEAF710A8"
-					type: "checkmark"
-					title: "Horse (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Chimera Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 3.5d
-			y: 14.5d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "7ED0D8F8FD46206B"
-			tasks: [
-				{
-					id: "766363BA3252BDD4"
-					type: "item"
-					item: "minecraft:beef"
-				}
-				{
-					id: "4E2185BFB72E6DB9"
-					type: "item"
-					item: "minecraft:porkchop"
-				}
-				{
-					id: "4568C78ED244B542"
-					type: "item"
-					item: "minecraft:chicken"
-				}
-				{
-					id: "21E4BA9B69B5FCEE"
-					type: "item"
-					item: "minecraft:mutton"
-				}
-				{
-					id: "5A86541429B801AA"
-					type: "item"
-					title: "Bone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:bones"
-						}
-					}
-				}
-				{
-					id: "1566D779F8A143DE"
-					type: "item"
-					title: "String"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:string"
-						}
-					}
-				}
-				{
-					id: "00E8906529510591"
-					type: "item"
-					title: "Feather"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:feathers"
-						}
-					}
-				}
-				{
-					id: "7BD7C6A7B5C4F1C4"
-					type: "item"
-					title: "Wool"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:wool"
-						}
-					}
-				}
-				{
-					id: "58AB7524E1CF265B"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "5D5B01A8234EB6E2"
-					type: "checkmark"
-					title: "Sheep (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Fairy Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 5.0d
-			y: 15.0d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "473E5769169F396E"
-			tasks: [
-				{
-					id: "3E9605D90E74E10F"
-					type: "item"
-					item: "minecraft:gunpowder"
-					count: 3L
-				}
-				{
-					id: "433F16DB0969C315"
-					type: "item"
-					item: "minecraft:golden_apple"
-					count: 2L
-				}
-				{
-					id: "502E642A64019C65"
-					type: "item"
-					item: "minecraft:dragon_breath"
-				}
-				{
-					id: "76660070F58D0AF3"
-					type: "item"
-					item: "minecraft:ghast_tear"
-				}
-				{
-					id: "6F2787F39271A368"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "25E7CE5172700D2D"
-					type: "checkmark"
-					title: "Horse (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Deer Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -3.5d
-			y: 12.0d
-			hide_dependency_lines: false
-			dependencies: ["11F435D6B8D2D5DD"]
-			id: "73367F88957324D8"
-			tasks: [
-				{
-					id: "57C947CBC128A883"
-					type: "item"
-					title: "Stick"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "byg:sticks"
-						}
-					}
-					count: 4L
-				}
-				{
-					id: "746EC62555172275"
-					type: "item"
-					item: "minecraft:string"
-					count: 2L
-				}
-				{
-					id: "01FDDB7C8E7AD953"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-				{
-					id: "15B2E1F81021245A"
-					type: "checkmark"
-					title: "Cow (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Cthulhu Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 2.5d
-			y: 12.5d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "6985080A579A87FC"
-			tasks: [
-				{
-					id: "3629CB740DC780CE"
-					type: "item"
-					title: "Fish"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:fishes"
-						}
-					}
-					count: 8L
-				}
-				{
-					id: "6B7EFA7B0F96EC7A"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "3AB45DB31236CC46"
-					type: "checkmark"
-					title: "Squid (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Blacksmith Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -2.5d
-			y: 12.5d
-			hide_dependency_lines: false
-			dependencies: ["11F435D6B8D2D5DD"]
-			id: "421D51832D0B2EB0"
-			tasks: [
-				{
-					id: "08E55814E2776095"
-					type: "item"
-					title: "Stone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:stone"
-						}
-					}
-					count: 4L
-				}
-				{
-					id: "372B2C8CEA90ABBF"
-					type: "item"
-					item: "minecraft:anvil"
-				}
-				{
-					id: "23744E6C12F80EFF"
-					type: "item"
-					item: {
-						id: "minecraft:iron_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "29EA120ADFFB8CBC"
-					type: "item"
-					item: {
-						id: "minecraft:iron_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "129A645090E349AA"
-					type: "item"
-					item: {
-						id: "minecraft:iron_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "5F5B3B78B3309CBC"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-				{
-					id: "018474ED4B4C3A1F"
-					type: "checkmark"
-					title: "Zombie (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Beholder Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 4.5d
-			y: 14.0d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "15A9252043E10C04"
-			tasks: [
-				{
-					id: "28D796E2E895E9BE"
-					type: "item"
-					item: "minecraft:spider_eye"
-					count: 4L
-				}
-				{
-					id: "689F84EEDB6E45DE"
-					type: "item"
-					item: "minecraft:glowstone_dust"
-					count: 4L
-				}
-				{
-					id: "426C22A8CA7DFBFD"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "7D8F275DAB7CB893"
-					type: "checkmark"
-					title: "Spider (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Beaver Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -4.0d
-			y: 13.0d
-			hide_dependency_lines: false
-			dependencies: ["11F435D6B8D2D5DD"]
-			id: "32C4B17146FD059E"
-			tasks: [
-				{
-					id: "559555CD98B6B273"
-					type: "item"
-					title: "Sapling"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:sapling"
-						}
-					}
-					count: 4L
-				}
-				{
-					id: "7B84B3163143886D"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Dragon Familliar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 3.0d
-			y: 13.5d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "1B38BEFD5A87596B"
-			tasks: [
-				{
-					id: "4A13BD3C1D34F0A1"
-					type: "item"
-					title: "Obsidian"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:obsidian"
-						}
-					}
-					count: 2L
-				}
-				{
-					id: "1A56DDC8C8F90F52"
-					type: "item"
-					item: "minecraft:coal_block"
-				}
-				{
-					id: "2D054A50E02D2221"
-					type: "item"
-					title: "Block of Quartz"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:quartz_blocks"
-						}
-					}
-				}
-				{
-					id: "4F9A5F886022F791"
-					type: "item"
-					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7A94261787E0A0AE"
-					type: "item"
-					item: "minecraft:lava_bucket"
-				}
-				{
-					id: "2AF5BD11CA3FCD06"
-					type: "item"
-					item: "minecraft:gold_block"
-				}
-				{
-					id: "5BD57A7A3935D46B"
-					type: "item"
-					item: "minecraft:gunpowder"
-				}
-				{
-					id: "762136168D0E556A"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "0EED32FB098C9035"
-					type: "checkmark"
-					title: "Horse (Sacrifice)"
-				}
-			]
+			}]
+			rewards: [{
+				id: "078CEC598370B057"
+				type: "item"
+				item: "occultism:book_of_binding_djinni"
+			}]
 		}
 		{
 			title: "Uphyxes Inverted Tower"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: 7.0d
-			y: 5.0d
+			x: 7.5d
+			y: 5.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_uphyxes_inverted_tower.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"160551369B2D3DD7"
@@ -1940,51 +1265,32 @@
 				"0646054B9C984677"
 				"6AEA8EAB317F6A30"
 				"0162789FA3A5FB60"
+				"6FB44ED0D3BD0999"
 			]
 			id: "74A6B535D678ADD9"
-			tasks: [
-				{
-					id: "51D9D5AFAFA5A019"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "5F4CCCD7CD474D32"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0E8778C47E17AE2E"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 2s
+					}
 				}
-				{
-					id: "24BE257CA079AA6E"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 7L
-				}
-				{
-					id: "6649FD901F7A4E68"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-				{
-					id: "0D172E5ACC9A8525"
-					type: "item"
-					item: "occultism:spirit_attuned_crystal"
-					count: 8L
-				}
-				{
-					id: "261DF6CD085AF904"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 4L
-				}
-				{
-					id: "26BD2061470E8CB2"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
-					count: 4L
-				}
-			]
+			}]
 		}
 		{
 			title: "Strigeor's Higher Binding"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: 8.5d
-			y: 0.5d
+			x: -7.5d
+			y: 5.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_strigeor_higher_binding.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"514C05D403F385B6"
@@ -1993,629 +1299,273 @@
 				"6AEA8EAB317F6A30"
 				"0162789FA3A5FB60"
 				"40DC6014B8542DF8"
+				"6FB44ED0D3BD0999"
 			]
 			id: "455A987F13AB6ED9"
-			tasks: [
-				{
-					id: "757E0FDF5540961B"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "6D459B575E2785B2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "07E8A6F551067C1C"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 4s
+					}
 				}
-				{
-					id: "04ECF078EC0AD44B"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 8L
-				}
-				{
-					id: "6F0DE49389B499A5"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 4L
-				}
-				{
-					id: "7EB335AFC2AA5610"
-					type: "item"
-					item: "occultism:spirit_attuned_crystal"
-					count: 4L
-				}
-			]
+			}]
 		}
 		{
 			title: "Sevira's Permanent Confinement"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: -7.0d
-			y: 5.0d
+			x: 9.0d
+			y: 1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_sevira_permanent_confinement.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"40DC6014B8542DF8"
 				"160551369B2D3DD7"
 				"4DF6B5FAF20A7360"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "75F2C1307F759954"
-			tasks: [
-				{
-					id: "5BE22758419418F1"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "3D886C84BBF45A26"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "292A4305D7AB6CDE"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 5s
+					}
 				}
-				{
-					id: "7E52A67710E52897"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 6L
-				}
-				{
-					id: "7FBC35DA87923650"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 12L
-				}
-				{
-					id: "6253E01D53B205E1"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 2L
-				}
-				{
-					id: "6F12A0B2547CB1B3"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
-					count: 2L
-				}
-			]
+			}]
 		}
 		{
 			title: "Eziveus' Spectral Compulsion"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: -8.5d
-			y: 0.5d
+			x: -9.0d
+			y: 1.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_eziveu_spectral_compulsion.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"40DC6014B8542DF8"
 				"160551369B2D3DD7"
 				"6AEA8EAB317F6A30"
 				"0162789FA3A5FB60"
+				"6FB44ED0D3BD0999"
 			]
 			id: "10B492869E896F19"
-			tasks: [
-				{
-					id: "5369E5635589D215"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "4383D9CC30430B34"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "693DDDC2E77670F8"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 1s
+					}
 				}
-				{
-					id: "47C775FD3DF80587"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 5L
-				}
-				{
-					id: "36679C40013B7CBE"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 2L
-				}
-				{
-					id: "5AD2DA6C0484044D"
-					type: "item"
-					item: "occultism:spirit_attuned_crystal"
-					count: 2L
-				}
-			]
+			}]
 		}
 		{
 			title: "Ophyx' Calling"
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 6.5d
-			y: -5.0d
+			y: -5.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_ophyx_calling.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"4DF6B5FAF20A7360"
 				"160551369B2D3DD7"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "5CBB39C40DA020B8"
-			tasks: [
-				{
-					id: "70049491AEAF5A72"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "3D5D56DB6063AD35"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "051CA1A9E792B96A"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 1s
+					}
 				}
-				{
-					id: "164161B56F0E1DF4"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 4L
-				}
-				{
-					id: "083A97B00DA40842"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-				{
-					id: "777546C0C15D1D68"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 2L
-				}
-			]
+			}]
 		}
 		{
 			title: "Aviar's Circle"
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -6.5d
-			y: -5.0d
+			y: -5.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_aviar_circle.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "79B2A1D49A5BB79A"
-			tasks: [
-				{
-					id: "2ADE8B11C790F652"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "2A8B5967D0BFE026"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2FFB817F470C77FA"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 2s
+					}
 				}
-				{
-					id: "4E4352448CCF2EFC"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 5L
-				}
-				{
-					id: "04118FF608A80963"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 4L
-				}
-			]
+			}]
 		}
 		{
 			title: "Abras' Open Conjure"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: -3.0d
-			y: -7.5d
+			x: -3.5d
+			y: -8.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_abras_open_conjure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"6AEA8EAB317F6A30"
 				"160551369B2D3DD7"
 				"4DF6B5FAF20A7360"
+				"6FB44ED0D3BD0999"
 			]
 			id: "1C4436F0524630A6"
-			tasks: [
-				{
-					id: "0089912BB560D261"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "641D7DFBA0ED3CF0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "45881CFBACEEAC0F"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 0s
+					}
 				}
-				{
-					id: "080DAAD7EF309F87"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 4L
-				}
-				{
-					id: "5C628B1E58A6F757"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-				{
-					id: "46C38F6CE6F9FA57"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 2L
-				}
-				{
-					id: "4CC31E35C04B4432"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
-					count: 2L
-				}
-			]
+			}]
 		}
 		{
 			title: "Abras' Conjure"
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: 3.0d
-			y: -7.5d
+			x: 3.5d
+			y: -8.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_abras_conjure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"160551369B2D3DD7"
 				"4DF6B5FAF20A7360"
 				"0646054B9C984677"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "226A7A2FEAE19B15"
-			tasks: [
-				{
-					id: "512F18D41E009BA4"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "4AAF3BBFD1F65CE3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2FAB49A4D2C28728"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 3s
+					}
 				}
-				{
-					id: "3217DC9FEFE86774"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 4L
-				}
-				{
-					id: "607865288B468B4D"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-				{
-					id: "6453122FE06E62E2"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 2L
-				}
-				{
-					id: "3A3EB9ADAFEC5C2D"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
-					count: 2L
-				}
-			]
+			}]
 		}
 		{
 			title: "Fatma's Incentivized Attraction"
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -5.0d
-			y: -6.5d
+			y: -7.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_fatma_incentivized_attraction.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"0646054B9C984677"
 				"40DC6014B8542DF8"
 				"160551369B2D3DD7"
 				"6AEA8EAB317F6A30"
+				"6FB44ED0D3BD0999"
 			]
 			id: "45BECAEB61AA5E3B"
-			tasks: [
-				{
-					id: "5126EED22B8E0B0D"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
+			tasks: [{
+				id: "3F0D0474778D63A5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "595D421639393B25"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 1s
+					}
 				}
-				{
-					id: "62AB492B787AFB4E"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 4L
-				}
-				{
-					id: "55A6D394ACFC9E01"
-					type: "item"
-					item: "occultism:candle_white"
-					count: 8L
-				}
-				{
-					id: "1BD2841A0440CEEA"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 4L
-				}
-				{
-					id: "23CC832C28B03F53"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
-					count: 4L
-				}
-			]
+			}]
 		}
 		{
 			title: "Osorin's Unbound Calling"
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 5.0d
-			y: -6.5d
+			y: -7.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/quests/occultism_osorin_unbound_calling.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
 				"4DF6B5FAF20A7360"
 				"160551369B2D3DD7"
+				"6FB44ED0D3BD0999"
 			]
 			id: "410A2EE927762E89"
-			tasks: [
-				{
-					id: "6137A794C59E9E26"
-					type: "item"
-					item: "occultism:golden_sacrificial_bowl"
-				}
-				{
-					id: "40A8F0156611CC3A"
-					type: "item"
-					item: "occultism:sacrificial_bowl"
-					count: 6L
-				}
-				{
-					id: "6AED328FB2B19B0D"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 4L
-				}
-			]
-		}
-		{
-			title: "Foliot Crusher"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -9.0d
-			y: -6.0d
-			hide_dependency_lines: false
-			dependencies: ["79B2A1D49A5BB79A"]
-			id: "331FC88010907455"
-			tasks: [
-				{
-					id: "7308A5199E71EDFC"
-					type: "item"
-					item: "minecraft:raw_iron"
-				}
-				{
-					id: "3078B25AC63CA685"
-					type: "item"
-					item: "minecraft:raw_copper"
-				}
-				{
-					id: "25A5F9F687FD7164"
-					type: "item"
-					item: "minecraft:raw_gold"
-				}
-				{
-					id: "7583FE111740EA2F"
-					type: "item"
-					title: "Raw Silver"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:raw_materials/silver"
-						}
+			tasks: [{
+				id: "315738D695A3B9D6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "136FA8112E51D641"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 4s
 					}
 				}
-				{
-					id: "513F046695118BE2"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Foliot Lumberjack"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -9.5d
-			y: -7.5d
-			hide_dependency_lines: false
-			dependencies: ["79B2A1D49A5BB79A"]
-			id: "6BCAD49A18001F59"
-			tasks: [
-				{
-					id: "1DC4C8FD1D0AEEC5"
-					type: "item"
-					item: "minecraft:oak_sapling"
-				}
-				{
-					id: "6C98BF14BF63C4DE"
-					type: "item"
-					item: "minecraft:birch_sapling"
-				}
-				{
-					id: "3401B95835118BE4"
-					type: "item"
-					item: "minecraft:spruce_sapling"
-				}
-				{
-					id: "56CC24931FBEA853"
-					type: "item"
-					title: "Otherworld Sapling"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "occultism:saplings/otherworld"
-						}
-					}
-				}
-				{
-					id: "2046CA79FA28B779"
-					type: "item"
-					item: {
-						id: "minecraft:iron_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "572C86C7A5CC6645"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Foliot Transporter"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -10.0d
-			y: -6.5d
-			hide_dependency_lines: false
-			dependencies: ["79B2A1D49A5BB79A"]
-			id: "6BD0462C78BAB6AA"
-			tasks: [
-				{
-					id: "13987136B59730D5"
-					type: "item"
-					item: "minecraft:dispenser"
-				}
-				{
-					id: "7BEC415E8EFD45D5"
-					type: "item"
-					item: "minecraft:hopper"
-				}
-				{
-					id: "59C342C6EF5EE4FB"
-					type: "item"
-					item: "minecraft:minecart"
-				}
-				{
-					id: "654813CEC0118E36"
-					type: "item"
-					title: "Chest"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:chests"
-						}
-					}
-				}
-				{
-					id: "6A138B2093582ABB"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Otherstone Trader"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -8.0d
-			y: -5.5d
-			hide_dependency_lines: false
-			dependencies: ["79B2A1D49A5BB79A"]
-			id: "6588D93DBC4F5D56"
-			tasks: [
-				{
-					id: "58E80C25AA57DF05"
-					type: "item"
-					item: "minecraft:stone"
-				}
-				{
-					id: "35068DD5B2E9C6D3"
-					type: "item"
-					item: "minecraft:andesite"
-				}
-				{
-					id: "45BDBDAD4AD7612F"
-					type: "item"
-					item: "minecraft:granite"
-				}
-				{
-					id: "20CF6CAE2C146E89"
-					type: "item"
-					item: "minecraft:diorite"
-				}
-				{
-					id: "06094A9879B4FBAB"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Foliot Janitor"
-			icon: {
-				id: "occultism:book_of_binding_bound_foliot"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: -8.5d
-			y: -7.0d
-			hide_dependency_lines: false
-			dependencies: ["79B2A1D49A5BB79A"]
-			id: "2AB019E9EF06EF49"
-			tasks: [
-				{
-					id: "162B26365AB8FD45"
-					type: "item"
-					item: "occultism:brush"
-				}
-				{
-					id: "7F2C8B3BB898817E"
-					type: "item"
-					item: "minecraft:dispenser"
-				}
-				{
-					id: "0BA74E9BB40730C1"
-					type: "item"
-					item: "minecraft:hopper"
-				}
-				{
-					id: "19DFF5DBEE48BDD9"
-					type: "item"
-					title: "Chest"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:chests"
-						}
-					}
-				}
-				{
-					id: "549F7C982FF24273"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			title: "Otherworld Sapling Trader"
@@ -2626,32 +1576,27 @@
 					spiritName: "Discomanco"
 				}
 			}
-			x: -7.5d
-			y: -6.5d
+			x: -5.0d
+			y: -5.0d
+			shape: "square"
+			description: [
+				"With the Aciar's Circle you can summon some Foliot with different type of work they can do."
+				""
+				"You can have a Crusher, Lumberjack, Transporter, Janitor, Otherstone Trader and Otherworld Sapling Trader."
+				""
+				"_The Crusher will crush your ores."
+				"_The Lumberjack will harvest trees and re-plant saplings."
+				"_The Transporter will transport any items from an inventory to another."
+				"_The Janitor will pick up dropped items and deposit them into an inventory."
+				"_The Otherstone Trader will trade stone with Otherstone."
+				"_The Otherworld Sapling Trader will trade an oak sapling with an original Otherworld Sapling (the only way to get it)."
+				""
+				"For more info on how you can use those guys, check the Dictionary of Spirits."
+			]
 			hide_dependency_lines: false
 			dependencies: ["79B2A1D49A5BB79A"]
 			id: "38963D6A779A07F4"
 			tasks: [
-				{
-					id: "4A40900D86C2B692"
-					type: "item"
-					item: "minecraft:oak_sapling"
-				}
-				{
-					id: "18C0C25EB84B84DA"
-					type: "item"
-					item: "minecraft:spruce_sapling"
-				}
-				{
-					id: "25A3F11169F22F28"
-					type: "item"
-					item: "minecraft:birch_sapling"
-				}
-				{
-					id: "30AA3B2EE42946AA"
-					type: "item"
-					item: "minecraft:jungle_sapling"
-				}
 				{
 					id: "14CE592261CACAA3"
 					type: "item"
@@ -2662,194 +1607,19 @@
 							spiritName: "Discomanco"
 						}
 					}
+					match_nbt: false
+				}
+				{
+					id: "215F1034ABD623E1"
+					type: "item"
+					item: "occultism:otherworld_sapling"
 				}
 			]
-		}
-		{
-			title: "Clear Weather"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 8.0d
-			y: -5.5d
-			hide_dependency_lines: false
-			dependencies: ["5CBB39C40DA020B8"]
-			id: "33A455E1B2EB9945"
-			tasks: [
-				{
-					id: "391E1F8C0BC90358"
-					type: "item"
-					item: "minecraft:potato"
-				}
-				{
-					id: "1C0EB90588FEF5D2"
-					type: "item"
-					item: "minecraft:wheat"
-				}
-				{
-					id: "070F0D00D34CBB23"
-					type: "item"
-					item: "minecraft:carrot"
-				}
-				{
-					id: "5E65AF54FEDE4112"
-					type: "item"
-					item: "minecraft:beetroot"
-				}
-				{
-					id: "492293BB3CE64C56"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Djinni Crusher"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 9.0d
-			y: -6.0d
-			hide_dependency_lines: false
-			dependencies: ["5CBB39C40DA020B8"]
-			id: "45FAC244EE09071D"
-			tasks: [
-				{
-					id: "3365A1182A2055EA"
-					type: "item"
-					title: "Iron Dust"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dusts/iron"
-						}
-					}
-				}
-				{
-					id: "3E856AED947AF695"
-					type: "item"
-					title: "Silver Dust"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dusts/silver"
-						}
-					}
-				}
-				{
-					id: "6C3C057BC22C125D"
-					type: "item"
-					title: "Gold Dust"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dusts/gold"
-						}
-					}
-				}
-				{
-					id: "1D0C76EBEA3CF71D"
-					type: "item"
-					title: "Copper Dust"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dusts/copper"
-						}
-					}
-				}
-				{
-					id: "15FA4E62B43FF81D"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Time Magic"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 7.5d
-			y: -6.5d
-			hide_dependency_lines: false
-			dependencies: ["5CBB39C40DA020B8"]
-			id: "1CAF495521955C6E"
-			tasks: [
-				{
-					id: "46F8515535F8C0C9"
-					type: "item"
-					item: "minecraft:torch"
-				}
-				{
-					id: "20560A461070A50B"
-					type: "item"
-					title: "Sapling"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:sapling"
-						}
-					}
-				}
-				{
-					id: "3F79AEEACAA825C5"
-					type: "item"
-					title: "Yellow Dye"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dyes/yellow"
-						}
-					}
-				}
-				{
-					id: "2A15EA20E4F63017"
-					type: "item"
-					item: "minecraft:wheat"
-				}
-				{
-					id: "22F44787E0957451"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "12534F10B490C0CC"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+			}]
 		}
 		{
 			title: "Djinni Machine Operator"
@@ -2860,226 +1630,62 @@
 					spiritName: "TheBoo"
 				}
 			}
-			x: 8.5d
-			y: -7.0d
+			x: 5.0d
+			y: -5.0d
+			shape: "square"
+			description: [
+				"Use the Ophyx Calling to summon a Djinni Machine Operator."
+				"This guy is used to perform automation with your Dimensional Storage Actuator !"
+				""
+				"You can also summon a Crusher, Clear Weather or Time Magic."
+				""
+				"_Djinni Crusher will do 3x ore processing."
+				"_Clear Weather will clear the weather."
+				"_Time Magic will change the time from day to night and vis versa."
+			]
 			hide_dependency_lines: false
 			dependencies: ["5CBB39C40DA020B8"]
 			id: "0A2331AC31F5E740"
-			tasks: [
-				{
-					id: "37B66E93F7470E8A"
-					type: "item"
-					item: "minecraft:coal_block"
-				}
-				{
-					id: "1FB9091554BBAA64"
-					type: "item"
-					item: "minecraft:furnace"
-				}
-				{
-					id: "3E9EADA2F9AB1831"
-					type: "item"
-					item: "minecraft:gold_ingot"
-				}
-				{
-					id: "32B385349360B894"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-				{
-					id: "71B626654A9B84B5"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
+			tasks: [{
+				id: "71B626654A9B84B5"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_djinni"
+					Count: 1b
+					tag: {
+						spiritName: "TheBoo"
 					}
 				}
-			]
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "14D35975C105CBEB"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
 		}
 		{
 			title: "Wither Skeleton Skull"
 			icon: "minecraft:wither_skeleton_skull"
-			x: 6.0d
-			y: -7.5d
+			x: 4.0d
+			y: -6.0d
+			shape: "square"
+			description: ["With the Osorin's Unbound Calling you can perform only one ritual, It's consists of spawning a horde of skeleton with 3 wither skeleton who drop 100% their heads !"]
 			hide_dependency_lines: false
 			dependencies: ["410A2EE927762E89"]
 			id: "1AB39AD94D3E3222"
-			tasks: [
-				{
-					id: "6228B5DF43FDE97C"
-					type: "item"
-					item: "minecraft:soul_sand"
-				}
-				{
-					id: "6465FC7FCC20377C"
-					type: "item"
-					item: "minecraft:copper_block"
-				}
-				{
-					id: "623F1D6AD4DF5D41"
-					type: "item"
-					item: "minecraft:gold_block"
-				}
-				{
-					id: "671132E7F0353956"
-					type: "item"
-					title: "Netherrack"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:netherrack"
-						}
-					}
-					count: 2L
-				}
-				{
-					id: "216E120EC56C6AD2"
-					type: "item"
-					title: "Block of Silver"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:storage_blocks/silver"
-						}
-					}
-				}
-				{
-					id: "50321A68C09CE816"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-				{
-					id: "6130872ACC26AC08"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-				}
-				{
-					id: "50DCDE3AA56B7FCC"
-					type: "checkmark"
-					title: "Villager or Player (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Rainy Weather"
-			icon: {
-				id: "occultism:book_of_binding_bound_afrit"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: 4.0d
-			y: -10.0d
-			hide_dependency_lines: false
-			dependencies: ["226A7A2FEAE19B15"]
-			id: "13AB49AF26DFF03D"
-			tasks: [
-				{
-					id: "7E0DB7DB466012B3"
-					type: "item"
-					item: "minecraft:cactus"
-				}
-				{
-					id: "74E5756617F552D6"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-				{
-					id: "4BA0A0544F15E4A1"
-					type: "item"
-					item: "minecraft:dead_bush"
-				}
-				{
-					id: "7D5DC01907740433"
-					type: "item"
-					title: "Sand"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:sand"
-						}
-					}
-				}
-				{
-					id: "253D459205C63BA3"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_afrit"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-				{
-					id: "1693FB3A758596FF"
-					type: "checkmark"
-					title: "Cow (Sacrifice)"
-				}
-			]
-		}
-		{
-			title: "Thunderstorm"
-			icon: {
-				id: "occultism:book_of_binding_bound_afrit"
-				Count: 1b
-				tag: {
-					spiritName: "Discomanco"
-				}
-			}
-			x: 4.5d
-			y: -11.0d
-			hide_dependency_lines: false
-			dependencies: ["226A7A2FEAE19B15"]
-			id: "012DFBFBD848E4A5"
-			tasks: [
-				{
-					id: "06C97AD51C288A39"
-					type: "item"
-					item: "minecraft:gunpowder"
-					count: 2L
-				}
-				{
-					id: "096ADD851EDEB0E4"
-					type: "item"
-					title: "Bone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:bones"
-						}
-					}
-				}
-				{
-					id: "5DBA0BFA3EC9E30C"
-					type: "item"
-					item: "minecraft:ghast_tear"
-				}
-				{
-					id: "6BB30721FF15B910"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_afrit"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
-					}
-				}
-				{
-					id: "68A5E84FA3092327"
-					type: "checkmark"
-					title: "Cow (Sacrifice)"
-				}
-			]
+			tasks: [{
+				id: "1DCC0C5D75BB8703"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+			rewards: [{
+				id: "197052DE9CF78EC0"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				random_bonus: 2
+			}]
 		}
 		{
 			title: "Afrit Essence"
@@ -3090,38 +1696,14 @@
 					spiritName: "Discomanco"
 				}
 			}
-			x: -3.5d
-			y: -9.0d
+			x: -3.0d
+			y: -6.5d
+			shape: "square"
+			description: ["Kill an Afrit to collect an Afrit Essence using the Abras' Open Conjure ritual."]
 			hide_dependency_lines: false
 			dependencies: ["1C4436F0524630A6"]
 			id: "1A20C35A82D76B8E"
 			tasks: [
-				{
-					id: "563E23EB53DBF193"
-					type: "item"
-					item: "minecraft:netherrack"
-				}
-				{
-					id: "273B39BE5D2E5D0D"
-					type: "item"
-					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "46297C505B528823"
-					type: "item"
-					item: "minecraft:quartz"
-				}
-				{
-					id: "36660DD7E4F25EAC"
-					type: "item"
-					item: "minecraft:gunpowder"
-				}
 				{
 					id: "1C37DA3B42682BA2"
 					type: "item"
@@ -3132,13 +1714,19 @@
 							spiritName: "Discomanco"
 						}
 					}
+					match_nbt: false
 				}
 				{
-					id: "7248ACC51B4397A3"
-					type: "checkmark"
-					title: "Cow (Sacrifice)"
+					id: "5C73CF89AE4C5174"
+					type: "item"
+					item: "occultism:afrit_essence"
 				}
 			]
+			rewards: [{
+				id: "796BDA3BA2D8F5FB"
+				type: "item"
+				item: "occultism:afrit_essence"
+			}]
 		}
 		{
 			title: "Marid Crusher"
@@ -3149,44 +1737,35 @@
 					spiritName: "TemperedFool"
 				}
 			}
-			x: -6.0d
-			y: -7.5d
+			x: -4.0d
+			y: -6.0d
+			shape: "square"
+			description: [
+				"Using the Fatma's Incentivized Attraction, summon a Marid Crusher."
+				""
+				"This guy is fast and can crush your Ores into Dusts."
+				"You can do a 6x ore processing with him !"
+			]
 			hide_dependency_lines: false
 			dependencies: ["45BECAEB61AA5E3B"]
 			id: "74E335F14937A70F"
-			tasks: [
-				{
-					id: "206A39C593C7417B"
-					type: "item"
-					item: "occultism:iesnium_block"
-				}
-				{
-					id: "0522726CB4ADAB6B"
-					type: "item"
-					item: "minecraft:emerald_block"
-				}
-				{
-					id: "6773C00AC205F04E"
-					type: "item"
-					item: "minecraft:diamond_block"
-				}
-				{
-					id: "522ECFCC135EF433"
-					type: "item"
-					item: "minecraft:ghast_tear"
-				}
-				{
-					id: "27571CAE50011D81"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_marid"
-						Count: 1b
-						tag: {
-							spiritName: "TemperedFool"
-						}
+			tasks: [{
+				id: "27571CAE50011D81"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_marid"
+					Count: 1b
+					tag: {
+						spiritName: "TemperedFool"
 					}
 				}
-			]
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "29C2BDC6179312C2"
+				type: "item"
+				item: "minecraft:gold_ore"
+			}]
 		}
 		{
 			title: "Afrit Crusher"
@@ -3197,45 +1776,45 @@
 					spiritName: "Discomanco"
 				}
 			}
-			x: 3.5d
-			y: -9.0d
+			x: 3.0d
+			y: -6.5d
+			shape: "square"
+			description: [
+				"Using the Abras' Conjure, summon an Afrit Crusher."
+				"This guy can do a 4x ore processing."
+				""
+				"You can also, with this ritual, summon an Afrit who can change the weather, either rainy or thunderstorm"
+			]
 			hide_dependency_lines: false
 			dependencies: ["226A7A2FEAE19B15"]
 			id: "5A4EE2944C1151AF"
-			tasks: [
-				{
-					id: "5F183403C52CC959"
-					type: "item"
-					item: "occultism:iesnium_dust"
-					count: 2L
-				}
-				{
-					id: "5827C46D7D6965B5"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-				{
-					id: "35F438495D12D317"
-					type: "item"
-					item: "minecraft:emerald"
-				}
-				{
-					id: "6F4DACACE6D0D024"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_afrit"
-						Count: 1b
-						tag: {
-							spiritName: "Discomanco"
-						}
+			tasks: [{
+				id: "6F4DACACE6D0D024"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_afrit"
+					Count: 1b
+					tag: {
+						spiritName: "Discomanco"
 					}
 				}
-			]
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "1D2A24F636A0FDDD"
+				type: "item"
+				item: "minecraft:iron_ore"
+			}]
 		}
 		{
 			icon: "occultism:iesnium_ore"
 			x: 0.0d
 			y: -3.0d
+			shape: "square"
+			description: [
+				"Iesnium Ore can be found in the Nether, only with the effect Third eyes !"
+				"But, if you cant to mine it, you're going to need an Infused Pickaxe."
+			]
 			hide_dependency_lines: false
 			dependencies: ["0B653169BA160CAD"]
 			id: "1558BE6E860A8770"
@@ -3244,91 +1823,156 @@
 				type: "item"
 				item: "occultism:iesnium_ore"
 			}]
+			rewards: [{
+				id: "09B10E941713AC67"
+				type: "item"
+				item: "occultism:raw_iesnium"
+				random_bonus: 3
+			}]
 		}
 		{
+			title: "What you need to know about Rituals."
+			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 0.0d
-			y: -9.5d
-			dependencies: ["38963D6A779A07F4"]
-			id: "4EBBAEA5C075A5C9"
-			tasks: [{
-				id: "1C85E3B16A55FAD4"
-				type: "item"
-				item: "occultism:otherworld_sapling"
-			}]
-		}
-		{
-			x: -4.0d
-			y: -10.0d
-			hide_dependency_lines: false
-			dependencies: ["1A20C35A82D76B8E"]
-			id: "26A8EB06BC68E46A"
-			tasks: [{
-				id: "4A4EED7A2D13EE2F"
-				type: "item"
-				item: "occultism:afrit_essence"
-			}]
-		}
-		{
-			title: "Headless Ratman Familiar"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "TheBoo"
-				}
-			}
-			x: 4.0d
-			y: 13.0d
-			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
-			id: "3AA39BEC4FAF282C"
-			tasks: [
-				{
-					id: "7E0F9455B87B0A0E"
-					type: "item"
-					title: "Sticks"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:rods/wooden"
-						}
-					}
-					count: 2L
-				}
-				{
-					id: "371F8E8837DF3A1B"
-					type: "item"
-					item: "minecraft:wheat"
-					count: 2L
-				}
-				{
-					id: "47DE286270ADCD0F"
-					type: "item"
-					item: "minecraft:hay_block"
-				}
-				{
-					id: "233C768DDA1678F2"
-					type: "item"
-					item: "minecraft:carved_pumpkin"
-				}
-				{
-					id: "18139624412201B4"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_djinni"
-						Count: 1b
-						tag: {
-							spiritName: "TheBoo"
-						}
-					}
-				}
-				{
-					id: "4C055770F127C013"
-					type: "checkmark"
-					title: "Snow Golem (Sacrifice)"
-				}
+			y: -9.0d
+			shape: "square"
+			description: [
+				"In Occultism you have several types of ritual that use different materials."
+				"Depending on the rituals, you sometimes even need to make a sacrifice."
+				""
+				"In this Quest book I suggest you see, in pictures, all the available Occultism rituals, but I will not ask you to collect the materials to do so, you can see it directly in the \"Dictionary of Spirits\" which offers you to see the ghost blocks to build it, it's nice!"
+				""
+				"For the placement of the bowls in your ritual, know that you can place them wherever you want provided that it is not more than 8 blocks from the golden bowl."
+				""
+				"Finally, the rituals take quite a long time to perform, so if you have a time in a bottle, don't hesitate to do some right-click shift !"
 			]
+			dependencies: [
+				"6F4090909CAB1264"
+				"6AEA8EAB317F6A30"
+				"160551369B2D3DD7"
+			]
+			id: "6FB44ED0D3BD0999"
+			tasks: [{
+				id: "4E1CCF4104659219"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4298C4E7A4A471F3"
+				type: "item"
+				item: {
+					id: "tombstone:lollipop"
+					Count: 1b
+					tag: {
+						model_color: 4s
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Rituals of Eziveus' Spectral Compulsion"
+			x: -7.5d
+			y: 1.0d
+			shape: "square"
+			description: ["With the Ritual of Eziveus Spectral Compulsion, you can craft useful items like your first Miner, your Tier 1 Storage Stabilizer or Infused Lenses."]
+			hide_dependency_lines: false
+			dependencies: ["10B492869E896F19"]
+			id: "4375ADF256BA5083"
+			tasks: [{
+				id: "28020E006344222E"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_foliot"
+					Count: 1b
+					tag: {
+						spiritName: "Crogornzirn"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A532DADE58D7ADD"
+				type: "item"
+				item: "occultism:book_of_binding_foliot"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			shape: "square"
+			description: ["With the Ritual of Strigeor's Higher Binding, you can craft useful items like your second Miner, your Tier 2 Storage Stabilizer or, more importantly, your Infused Pickaxe."]
+			hide_dependency_lines: false
+			dependencies: ["455A987F13AB6ED9"]
+			id: "6FA119C5F7BAD4EA"
+			tasks: [{
+				id: "63C1D13208FEF4D2"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_djinni"
+					Count: 1b
+					tag: {
+						spiritName: "Cawynthorn"
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "0BD7D430CD546A28"
+				type: "item"
+				item: "occultism:book_of_binding_djinni"
+			}]
+		}
+		{
+			title: "Rituals of Sevira's Permanent Confinement"
+			x: 7.5d
+			y: 1.0d
+			shape: "square"
+			description: ["The Sevira's Permanent Confinement allows you to craft the Tier 3 Storage Stabilizer and the Deep Ore Miner !"]
+			hide_dependency_lines: false
+			dependencies: ["75F2C1307F759954"]
+			id: "14C207880000B07B"
+			tasks: [{
+				id: "5491B4F58B31BA31"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_afrit"
+					Count: 1b
+					tag: {
+						spiritName: "Jarsirvyr"
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "5852350881B7D770"
+				type: "item"
+				item: "occultism:book_of_binding_afrit"
+			}]
+		}
+		{
+			title: "Rituals of Uphyxes Inverted Tower"
+			x: 6.5d
+			y: 4.0d
+			shape: "square"
+			description: ["The Uphyxes Inverted Tower allows you to craft the Tier 4 Storage Stabilizer and the Master Miner !"]
+			hide_dependency_lines: false
+			dependencies: ["74A6B535D678ADD9"]
+			id: "49B35C7976BE67AA"
+			tasks: [{
+				id: "0E957359B762E644"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_marid"
+					Count: 1b
+					tag: {
+						spiritName: "Nidworndor"
+					}
+				}
+			}]
+			rewards: [{
+				id: "45CA342A7061EFEC"
+				type: "item"
+				item: "occultism:book_of_binding_marid"
+			}]
 		}
 	]
 	quest_links: [ ]
