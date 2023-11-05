@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+    {
+      "ore": "ragnamod_seven:unknown_ore",
+      "fillers": [
+        "beyond_earth:glacio_stone"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 0,
+      "maxY": 25,
+      "maxVeinSize": 4,
+      "spawnRate": 8.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "beyond_earth:glacio",
+          "beyond_earth:glacio_ice_spikes"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

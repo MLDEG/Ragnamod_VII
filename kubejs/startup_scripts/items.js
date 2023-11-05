@@ -188,5 +188,11 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:famine_nugget').displayName('Famine Nugget')
     e.create('ragnamod_seven:death_nugget').displayName('Death Nugget')
     e.create('ragnamod_seven:conquest_nugget').displayName('Conquest Nugget')
+    e.create('ragnamod_seven:sculk_ingot').displayName('Sculk Ingot')
+    e.create('ragnamod_seven:shub_niggurath_ingot').displayName('Shub Niggurath Ingot')
+    e.create('ragnamod_seven:unknown_ingot').displayName('Unknown Ingot')
+    e.create('ragnamod_seven:unknown_nugget').displayName('Unknown Nugget')
+    e.create('ragnamod_seven:raw_unknown').displayName('Raw Unknown')
+    e.create('ragnamod_seven:chemical_core').displayName('Chemical Core').glow(true)
 
 })

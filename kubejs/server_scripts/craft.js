@@ -13,6 +13,22 @@ onEvent('recipes', e => {
   //Ignitium
   e.shapeless('9x cataclysm:enderite_ingot', 'cataclysm:enderite_block')
   e.shapeless('cataclysm:enderite_block', '9x cataclysm:enderite_ingot')
+  //Sculk Ingot
+  e.shapeless('9x ragnamod_seven:sculk_ingot', 'ragnamod_seven:sculk_metal')
+  e.shapeless('ragnamod_seven:sculk_metal', '9x ragnamod_seven:sculk_ingot')
+  //Shub Niggurath Ingot
+  e.shapeless('9x ragnamod_seven:shub_niggurath_ingot', 'ragnamod_seven:shub_niggurath_ingot_block')
+  e.shapeless('ragnamod_seven:shub_niggurath_ingot_block', '9x ragnamod_seven:shub_niggurath_ingot')
+  //Unknown
+  e.shapeless('9x ragnamod_seven:unknown_nugget', 'ragnamod_seven:unknown_ingot')
+  e.shapeless('ragnamod_seven:unknown_ingot', '9x ragnamod_seven:unknown_nugget')
+  e.shapeless('9x ragnamod_seven:unknown_ingot', 'ragnamod_seven:unknown_ingot_block')
+  e.shapeless('ragnamod_seven:unknown_ingot_block', '9x ragnamod_seven:unknown_ingot')
+  e.blasting('ragnamod_seven:unknown_ingot', 'ragnamod_seven:unknown_ore')
+  e.smelting('ragnamod_seven:unknown_ingot', 'ragnamod_seven:unknown_ore')
+  e.blasting('ragnamod_seven:unknown_ingot', 'ragnamod_seven:raw_unknown')
+  e.smelting('ragnamod_seven:unknown_ingot', 'ragnamod_seven:raw_unknown')
+
 
   /***************************Horsmen Stuff***************************/
   /***************************Death***************************/
