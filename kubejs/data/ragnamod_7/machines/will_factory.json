@@ -76,6 +76,11 @@
       "type": "custommachinery:texture"
     },
     {
+      "type": "custommachinery:config",
+      "x": 46,
+      "y": 54
+    },
+    {
       "text": "Will Crystals Factory",
       "x": 7,
       "y": 5,

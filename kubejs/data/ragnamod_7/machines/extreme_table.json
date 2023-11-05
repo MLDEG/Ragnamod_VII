@@ -105,6 +105,11 @@
       "x": 0,
       "y": 0
     },
+    {
+      "type": "custommachinery:config",
+      "x": 208,
+      "y": 9
+    },
     { "type": "custommachinery:player_inventory", "x": 47, "y": 173 },
     { "type": "custommachinery:slot", "id": "ect_input_0", "x": 11, "y": 8 },
     { "type": "custommachinery:slot", "id": "ect_input_1", "x": 29, "y": 8 },
