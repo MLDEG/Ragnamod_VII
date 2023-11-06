@@ -194,5 +194,10 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:unknown_nugget').displayName('Unknown Nugget')
     e.create('ragnamod_seven:raw_unknown').displayName('Raw Unknown')
     e.create('ragnamod_seven:chemical_core').displayName('Chemical Core').glow(true)
+    e.create('ragnamod_seven:ghast_cow_tear').displayName('Ghast Cow Tear')
+    e.create('ragnamod_seven:ghast_cow_star').displayName('Ghast Cow Star').glow(true)
+    e.create('ragnamod_seven:chemical_draconium_ingot').displayName('Chemical Draconium Ingot')
+    e.create('ragnamod_seven:chemical_draconium_nugget').displayName('Chemical Draconium Nugget')
+    e.create('ragnamod_seven:condensed_ingot').displayName('Condensed Ingot')
 
 })

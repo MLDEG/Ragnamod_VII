@@ -1,0 +1,39 @@
+{
+    "inputs": [
+      {
+        "item": "cataclysm:ignitium_ingot",
+        "slot": 0
+      },
+      {
+        "item": "ragnamod_seven:shub_niggurath_ingot",
+        "slot": 1
+      },
+      {
+        "item": "ragnamod_seven:sculk_ingot",
+        "slot": 2
+      },
+      {
+        "item": "ragnamod_seven:chemical_draconium_ingot",
+        "slot": 3
+      },
+      {
+        "item": "cataclysm:enderite_ingot",
+        "slot": 4
+      },
+      {
+        "item": "cataclysm:witherite_ingot",
+        "slot": 5
+      }
+    ],
+    "hephaestus_forge_item": "miniutilities:unstable_ingot",
+    "essences": {
+      "aureal": 200,
+      "experience": 200,
+      "blood": 5000,
+      "souls": 1
+    },
+    "result": {
+      "item": "ragnamod_seven:condensed_ingot",
+      "count": 1
+    }
+  }

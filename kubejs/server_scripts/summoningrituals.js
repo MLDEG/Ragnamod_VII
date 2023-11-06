@@ -89,4 +89,26 @@ onEvent('recipes', e => {
         "block_below": { "block": "minecraft:magma_block" }
     })
 
+    //Ghast Cow
+    e.custom({
+        "type": "summoningrituals:altar",
+        "catalyst": { "item": "reliquary:eye_of_the_storm" },
+        "outputs": [
+            { "mob": "ghastcow:ghast_cow" }
+        ],
+        "inputs": [
+            { "item": "minecraft:leather" },
+            { "item": "ragnamod_seven:conquest_ingot" },
+            { "item": "minecraft:ghast_tear" },
+            { "item": "ragnamod_seven:death_ingot" },
+            { "item": "minecraft:leather" },
+            { "item": "ragnamod_seven:famine_ingot" },
+            { "item": "minecraft:ghast_tear" },
+            { "item": "ragnamod_seven:war_ingot" }
+        ],
+        "recipe_time": 200,
+        "block_below": { "block": "forbidden_arcanus:dark_nether_star_block" },
+        "day_time": "night",
+        "weather": "thunder"
+    })
 })

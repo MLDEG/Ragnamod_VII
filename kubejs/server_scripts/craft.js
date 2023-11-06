@@ -19,6 +19,11 @@ onEvent('recipes', e => {
   //Shub Niggurath Ingot
   e.shapeless('9x ragnamod_seven:shub_niggurath_ingot', 'ragnamod_seven:shub_niggurath_ingot_block')
   e.shapeless('ragnamod_seven:shub_niggurath_ingot_block', '9x ragnamod_seven:shub_niggurath_ingot')
+  //Chemical Draconium
+  e.shapeless('9x ragnamod_seven:chemical_draconium_nugget', 'ragnamod_seven:chemical_draconium_ingot')
+  e.shapeless('ragnamod_seven:chemical_draconium_ingot', '9x ragnamod_seven:chemical_draconium_nugget')
+  e.shapeless('9x ragnamod_seven:chemical_draconium_ingot', 'ragnamod_seven:chemical_draconium_block')
+  e.shapeless('ragnamod_seven:chemical_draconium_block', '9x ragnamod_seven:chemical_draconium_ingot')
   //Unknown
   e.shapeless('9x ragnamod_seven:unknown_nugget', 'ragnamod_seven:unknown_ingot')
   e.shapeless('ragnamod_seven:unknown_ingot', '9x ragnamod_seven:unknown_nugget')
@@ -387,6 +392,16 @@ onEvent('recipes', e => {
     B: 'blue_skies:turquoise_stone'
   })
 
+  //Ghast Cow Star
+  e.shaped('ragnamod_seven:ghast_cow_star', [
+    ' A ',
+    'ABA',
+    ' A '
+  ], {
+    A: 'ragnamod_seven:ghast_cow_tear',
+    B: 'forbidden_arcanus:dark_nether_star'
+  })
+
   //Blood Magic Ritual Stone
   function ritualStone(input, output, catalyst) { e.custom({ "type": "create:item_application", "ingredients": [{ "item": input }, { "item": catalyst }], "results": [{ "item": output }] }) }
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:airritualstone', 'bloodmagic:airscribetool')
@@ -394,5 +409,61 @@ onEvent('recipes', e => {
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:fireritualstone', 'bloodmagic:waterscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:earthritualstone', 'bloodmagic:earthscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:duskritualstone', 'bloodmagic:duskscribetool')
+
+  //Chemical Core
+  e.custom({
+    "type": "draconicevolution:fusion_crafting",
+    "result": {
+      "item": "ragnamod_seven:chemical_core"
+    },
+    "catalyst": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "total_energy": 5120000000,
+    "tier": "CHAOTIC",
+    "ingredients": [
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" },
+      { "item": "chemlib:francium_metal_block" }
+    ]
+  })
+
+  //Chemical Draconium Block
+  e.custom({
+    "type": "draconicevolution:fusion_crafting",
+    "result": {
+      "item": "ragnamod_seven:chemical_draconium_block",
+      "count": 4
+    },
+    "catalyst": {
+      "count": 4,
+      "items": [
+        {
+          "item": "draconicevolution:awakened_draconium_block"
+        }
+      ],
+      "type": "draconicevolution:ingredient_stack"
+    },
+    "total_energy": 10240000000,
+    "tier": "CHAOTIC",
+    "ingredients": [
+      { "item": "ragnamod_seven:chemical_core" },
+      { "item": "ragnamod_seven:chemical_core" },
+      { "item": "ragnamod_seven:chemical_core" },
+      { "item": "ragnamod_seven:ghast_cow_star" },
+      { "item": "ragnamod_seven:chemical_core" },
+      { "item": "ragnamod_seven:chemical_core" },
+      { "item": "ragnamod_seven:chemical_core" }
+    ]
+  })
 
 })
