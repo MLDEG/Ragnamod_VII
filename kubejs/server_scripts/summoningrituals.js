@@ -14,10 +14,6 @@ onEvent('recipes', e => {
             { "item": "minecraft:netherrack" },
             { "item": "rootsclassic:charged_runic_focus" }
         ],
-        "sacrifices": {
-            "mobs": [{ "mob": "minecraft:sheep" }],
-            "region": { "x": 3, "y": 3, "z": 3 }
-        },
         "recipe_time": 200,
         "block_below": { "block": "minecraft:magma_block" }
     })
@@ -35,10 +31,6 @@ onEvent('recipes', e => {
             { "item": "minecraft:basalt" },
             { "item": "rootsclassic:charged_runic_focus" }
         ],
-        "sacrifices": {
-            "mobs": [{ "mob": "minecraft:sheep" }],
-            "region": { "x": 3, "y": 3, "z": 3 }
-        },
         "recipe_time": 200,
         "block_below": { "block": "minecraft:magma_block" }
     })
@@ -57,10 +49,6 @@ onEvent('recipes', e => {
             { "item": "cataclysm:obsidian_bricks" },
             { "item": "rootsclassic:charged_runic_focus" }
         ],
-        "sacrifices": {
-            "mobs": [{ "mob": "minecraft:sheep" }],
-            "region": { "x": 3, "y": 3, "z": 3 }
-        },
         "recipe_time": 200,
         "block_below": { "block": "architects_palette:heavy_cracked_end_stone_bricks" }
     })
@@ -79,10 +67,6 @@ onEvent('recipes', e => {
             { "item": "cataclysm:ender_stone" },
             { "item": "rootsclassic:charged_runic_focus" }
         ],
-        "sacrifices": {
-            "mobs": [{ "mob": "minecraft:sheep" }],
-            "region": { "x": 3, "y": 3, "z": 3 }
-        },
         "recipe_time": 200,
         "block_below": { "block": "architects_palette:heavy_cracked_end_stone_bricks" }
     })
@@ -101,10 +85,6 @@ onEvent('recipes', e => {
             { "item": "tconstruct:scorched_stone" },
             { "item": "rootsclassic:charged_runic_focus" }
         ],
-        "sacrifices": {
-            "mobs": [{ "mob": "minecraft:sheep" }],
-            "region": { "x": 3, "y": 3, "z": 3 }
-        },
         "recipe_time": 200,
         "block_below": { "block": "minecraft:magma_block" }
     })

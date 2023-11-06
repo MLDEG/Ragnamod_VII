@@ -4489,7 +4489,7 @@
 			y: 1.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_chaotic.png width:150 height:100 align:1}"]
-			dependencies: ["2BAE7C748EA626B9"]
+			dependencies: ["410C369B33532099"]
 			id: "3C19A26F8A7D0566"
 			tasks: [{
 				id: "0A190EB2A3B4B035"
@@ -4517,7 +4517,7 @@
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_draconic.png width:150 height:100 align:1}"]
-			dependencies: ["7890BAD3FA9560D5"]
+			dependencies: ["176D771D9F343E0F"]
 			id: "12232ECD324BE62E"
 			tasks: [{
 				id: "06CFE049E1F3AECA"
@@ -4573,7 +4573,7 @@
 			y: 0.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_draconium.png width:150 height:100 align:1}"]
-			dependencies: ["4CB2498D41B773B8"]
+			dependencies: ["7B2F1149E89E2AC0"]
 			id: "37B939290E0593CC"
 			tasks: [{
 				id: "25F9790B573E0FC4"

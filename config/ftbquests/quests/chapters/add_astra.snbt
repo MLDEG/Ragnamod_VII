@@ -408,15 +408,22 @@
 			x: 2.5d
 			y: 1.5d
 			shape: "square"
-			description: ["Just visit Glacio."]
+			description: ["Unknown Ore can be found on the depth of Glacio."]
 			dependencies: ["18A1D97836E02C11"]
 			id: "6C436170FB69A8C1"
-			tasks: [{
-				id: "000792A9852916D6"
-				type: "dimension"
-				title: "Glacio"
-				dimension: "beyond_earth:glacio"
-			}]
+			tasks: [
+				{
+					id: "000792A9852916D6"
+					type: "dimension"
+					title: "Glacio"
+					dimension: "beyond_earth:glacio"
+				}
+				{
+					id: "65E172BAAEFCC227"
+					type: "item"
+					item: "ragnamod_seven:raw_unknown"
+				}
+			]
 			rewards: [{
 				id: "2B87C946CB3FCF17"
 				type: "item"

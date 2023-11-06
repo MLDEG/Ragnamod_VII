@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/focus_entangled_errored",
+    "side": "gemsnjewels:blocks/kunzite_block",
+    "top": "gemsnjewels:blocks/kunzite_block"
+  }
+}
