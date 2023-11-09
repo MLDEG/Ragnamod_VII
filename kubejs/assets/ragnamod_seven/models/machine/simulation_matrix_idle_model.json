@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/simulation_matrix_idle",
+    "side": "ragnamod_seven:block/simulation_matrix",
+    "top": "ragnamod_seven:block/simulation_matrix"
+  }
+}

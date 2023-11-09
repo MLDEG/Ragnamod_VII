@@ -1,0 +1,101 @@
+{
+  "name": "Simulation Matrix",
+  "appearance": {
+    "block": "ragnamod_seven:machine/simulation_matrix_idle_model",
+    "item": "ragnamod_seven:machine/simulation_matrix_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/simulation_matrix_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/simulation_matrix_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "maxInput": 100000,
+      "maxOutput": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }, 
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/simulation_matrix_gui.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 46,
+      "y": 30
+    },
+    {
+      "text": "§3Simulation Matrix",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled.png",
+      "x": 15,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/simul_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/simul_progress_full.png",
+      "type": "custommachinery:progress",
+      "x": 143,
+      "y": 59
+    },
+    {
+      "id": "output",
+      "x": 119,
+      "y": 56,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "jei": [
+    {
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_jei.png",
+      "x": 50,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "output",
+      "x": 75,
+      "y": 56,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "catalysts": []
+}

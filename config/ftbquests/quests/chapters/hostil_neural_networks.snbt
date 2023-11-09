@@ -498,6 +498,72 @@
 				}
 			}]
 		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:simulation_matrix"
+				}
+			}
+			x: 10.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Simulation matrix is a multiblock who can farm for your Mob Simulation very fast !"
+				"{image:ftbquests:textures/quests/simulation_matrix.png width:150 height:100 align:1}"
+				"You need, before, to craft a Complete Prediction using a Data Model \"Self-Aware\" and an Atomic Alloy to get one."
+				""
+				"Then, put this Complete Prediction on the Pedestal to start the machine to farm Mob Prediction."
+			]
+			dependencies: [
+				"5CF931657DFA41A5"
+				"055A2F4251CEB8F4"
+			]
+			size: 2.0d
+			id: "1243849C21B05B3B"
+			tasks: [
+				{
+					id: "53D632C5B1266C4D"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:simulation_matrix"
+						}
+					}
+				}
+				{
+					id: "101F2B6370F3B9DD"
+					type: "item"
+					item: "spirit:pedestal"
+				}
+				{
+					id: "50DC8F51272ADF6E"
+					type: "item"
+					item: "architects_palette:lit_withered_osseous_skull"
+				}
+				{
+					id: "5C31BA2630305E1F"
+					type: "item"
+					item: "decorative_blocks:soul_brazier"
+					count: 2L
+				}
+				{
+					id: "44F875CD9BBFC02B"
+					type: "item"
+					item: "create:scorchia_pillar"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "32D327AD9D3145E6"
+				type: "item"
+				item: "spirit:pedestal"
+				random_bonus: 7
+			}]
+		}
 	]
 	quest_links: [ ]
 }
