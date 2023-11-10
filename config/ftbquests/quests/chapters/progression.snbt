@@ -750,6 +750,28 @@
 			dependencies: ["6C08FEEEC41D0620"]
 			id: "7F8D203B2DBDE286"
 		}
+		{
+			icon: "ragnamod_seven:sphere"
+			x: 9.0d
+			y: 0.0d
+			id: "5297052C3503826D"
+			tasks: [{
+				id: "71209B4CD5B54414"
+				type: "checkmark"
+				title: "End Game Quests"
+			}]
+		}
+		{
+			icon: "thermal:lock"
+			x: 9.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: [
+				"5297052C3503826D"
+				"5443C3DB1D83DA16"
+			]
+			id: "3EF525880EBABE1A"
+		}
 	]
 	quest_links: [ ]
 }
