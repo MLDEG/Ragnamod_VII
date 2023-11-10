@@ -6,45 +6,45 @@ onEvent('recipes', function (e) {
         e.replaceOutput({}, input, output)
     }
     //Extruding
-    function extrudingFTB(input, countIn, output, countOut){e.custom({"type": "ftbic:extruding","inputItems": [{"ingredient": {"item": input},"count": countIn}],"outputItems": [{"item": output,"count": countOut}]})}
+    function extrudingFTB(input, countIn, output, countOut) { e.custom({ "type": "ftbic:extruding", "inputItems": [{ "ingredient": { "item": input }, "count": countIn }], "outputItems": [{ "item": output, "count": countOut }] }) }
     //Metal Press
-    function metalPress(mold, input, countIn, output, countOut){e.custom({"type":"immersiveengineering:metal_press","mold":mold,"result":{"count":countOut,"base_ingredient":{"item":output}},"input":{"count":countIn,"base_ingredient":{"item":input}},"energy":2400})}
+    function metalPress(mold, input, countIn, output, countOut) { e.custom({ "type": "immersiveengineering:metal_press", "mold": mold, "result": { "count": countOut, "base_ingredient": { "item": output } }, "input": { "count": countIn, "base_ingredient": { "item": input } }, "energy": 2400 }) }
     //Casting Table
-    function castingTable(cast, consumed, fluid, amount, output, cool){e.custom({"type": "tconstruct:casting_table","cast": {"tag": "tconstruct:casts/"+cast},"cast_consumed": consumed,"fluid": {"name": fluid,"amount": amount},"result": {"item": output},"cooling_time": cool})}
+    function castingTable(cast, consumed, fluid, amount, output, cool) { e.custom({ "type": "tconstruct:casting_table", "cast": { "tag": "tconstruct:casts/" + cast }, "cast_consumed": consumed, "fluid": { "name": fluid, "amount": amount }, "result": { "item": output }, "cooling_time": cool }) }
     //Rolling Mill
-    function rollingCreate(input, output, count){e.custom({"type":"createaddition:rolling","input": {"item": input},"result": {"item": output,"count": count}})}
+    function rollingCreate(input, output, count) { e.custom({ "type": "createaddition:rolling", "input": { "item": input }, "result": { "item": output, "count": count } }) }
     //Multiservo Press
-    function multiPress(input, count, press, output){e.custom({"type": "thermal:press","ingredients": [{"item": input,"count": count},{"item": press}],"result": [{"item": output}]})}
+    function multiPress(input, count, press, output) { e.custom({ "type": "thermal:press", "ingredients": [{ "item": input, "count": count }, { "item": press }], "result": [{ "item": output }] }) }
     //Multiservo Press Plate
-    function multiPressPlate(input, count, output){e.custom({"type": "thermal:press","ingredients": {"item": input,"count": count},"result": [{"item": output}]})}
+    function multiPressPlate(input, count, output) { e.custom({ "type": "thermal:press", "ingredients": { "item": input, "count": count }, "result": [{ "item": output }] }) }
     //Pressing Create
-    function createPress(input, output){e.custom({"type": "create:pressing","ingredients": [{"item": input}],"results": [{"item": output}]})}
+    function createPress(input, output) { e.custom({ "type": "create:pressing", "ingredients": [{ "item": input }], "results": [{ "item": output }] }) }
     //Rolling FTB
-    function rollingFTB(input, count, output){e.custom({"type": "ftbic:rolling","inputItems": [{"ingredient": {"item": input},"count": count}],"outputItems": [{"item": output}]})}
+    function rollingFTB(input, count, output) { e.custom({ "type": "ftbic:rolling", "inputItems": [{ "ingredient": { "item": input }, "count": count }], "outputItems": [{ "item": output }] }) }
     //Crusher MEKA
-    function crusherMeka(input, output, count){e.custom({"type":"mekanism:crushing","input":{"ingredient":{"item":input}},"output":{"item":output,"count":count}})}
+    function crusherMeka(input, output, count) { e.custom({ "type": "mekanism:crushing", "input": { "ingredient": { "item": input } }, "output": { "item": output, "count": count } }) }
     //Crusher MEKA Tag
-    function crusherMekaTag(input, output, count){e.custom({"type":"mekanism:crushing","input":{"ingredient":{"tag":input}},"output":{"item":output,"count":count}})}
+    function crusherMekaTag(input, output, count) { e.custom({ "type": "mekanism:crushing", "input": { "ingredient": { "tag": input } }, "output": { "item": output, "count": count } }) }
     //Crusher Occultism
-    function crusherOccu(input, output, count, ignore){e.custom({"type": "occultism:crushing","ingredient": {"item": input},"result": {"item": output,"count": count},"crushing_time": 200,"ignore_crushing_multiplier": ignore})}
+    function crusherOccu(input, output, count, ignore) { e.custom({ "type": "occultism:crushing", "ingredient": { "item": input }, "result": { "item": output, "count": count }, "crushing_time": 200, "ignore_crushing_multiplier": ignore }) }
     //Crusher Occultism Tag
-    function crusherOccuTag(input, output, count, ignore){e.custom({"type": "occultism:crushing","ingredient": {"tag": input},"result": {"item": output,"count": count},"crushing_time": 200,"ignore_crushing_multiplier": ignore})}
+    function crusherOccuTag(input, output, count, ignore) { e.custom({ "type": "occultism:crushing", "ingredient": { "tag": input }, "result": { "item": output, "count": count }, "crushing_time": 200, "ignore_crushing_multiplier": ignore }) }
     //Pulverizer Thermal
-    function crusherThermal(input, output, amount){e.custom({"type": "thermal:pulverizer","ingredient": {"item": input},"result": [{"item": output,"chance": amount}]})}
+    function crusherThermal(input, output, amount) { e.custom({ "type": "thermal:pulverizer", "ingredient": { "item": input }, "result": [{ "item": output, "chance": amount }] }) }
     //Pulverizer Thermal Tag
-    function crusherThermalTag(input, output, amount){e.custom({"type": "thermal:pulverizer","ingredient": {"tag": input},"result": [{"item": output,"chance": amount}]})}
+    function crusherThermalTag(input, output, amount) { e.custom({ "type": "thermal:pulverizer", "ingredient": { "tag": input }, "result": [{ "item": output, "chance": amount }] }) }
     //Macerating FTB
-    function crusherFTB(input, countIn, output, countOut){e.custom({"type": "ftbic:macerating","inputItems": [{"ingredient": {"item": input},"count": countIn}],"outputItems": [{"item": output,"count": countOut}]})}
+    function crusherFTB(input, countIn, output, countOut) { e.custom({ "type": "ftbic:macerating", "inputItems": [{ "ingredient": { "item": input }, "count": countIn }], "outputItems": [{ "item": output, "count": countOut }] }) }
     //Macerating FTB Tag
-    function crusherFTBTag(input, countIn, output, countOut){e.custom({"type": "ftbic:macerating","inputItems": [{"ingredient": {"tag": input},"count": countIn}],"outputItems": [{"item": output,"count": countOut}]})}
+    function crusherFTBTag(input, countIn, output, countOut) { e.custom({ "type": "ftbic:macerating", "inputItems": [{ "ingredient": { "tag": input }, "count": countIn }], "outputItems": [{ "item": output, "count": countOut }] }) }
     //Crusher Create
-    function crusherCreate(input, output){e.custom({"type": "create:milling","ingredients": [{"item": input}],"results": [{"item": output}],"processingTime": 100})}
+    function crusherCreate(input, output) { e.custom({ "type": "create:milling", "ingredients": [{ "item": input }], "results": [{ "item": output }], "processingTime": 100 }) }
     //Crusher Create Tag
-    function crusherCreateTag(input, output){e.custom({"type": "create:milling","ingredients": [{"tag": input}],"results": [{"item": output}],"processingTime": 100})}
+    function crusherCreateTag(input, output) { e.custom({ "type": "create:milling", "ingredients": [{ "tag": input }], "results": [{ "item": output }], "processingTime": 100 }) }
     //Crusher Immersive
-    function crusherIE(input, output){e.custom({"type":"immersiveengineering:crusher","secondaries":[],"result":{"item":output},"input":{"item":input},"energy":3000})}
+    function crusherIE(input, output) { e.custom({ "type": "immersiveengineering:crusher", "secondaries": [], "result": { "item": output }, "input": { "item": input }, "energy": 3000 }) }
     //Crusher Immersive
-    function crusherIETag(input, output){e.custom({"type":"immersiveengineering:crusher","secondaries":[],"result":{"item":output},"input":{"tag":input},"energy":3000})}
+    function crusherIETag(input, output) { e.custom({ "type": "immersiveengineering:crusher", "secondaries": [], "result": { "item": output }, "input": { "tag": input }, "energy": 3000 }) }
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
@@ -120,6 +120,7 @@ onEvent('recipes', function (e) {
     ['#forge:dusts/gold', 'bloodmagic:goldsand', 'occultism:gold_dust', 'ftbic:gold_dust', 'chemlib:gold_dust', 'immersiveengineering:dust_gold', 'mekanism:dust_gold'].forEach(I => { replaceIO(I, 'thermal:gold_dust') });
     ['#forge:dusts/iron', 'bloodmagic:ironsand', 'occultism:iron_dust', 'ftbic:iron_dust', 'chemlib:iron_dust', 'immersiveengineering:dust_iron', 'mekanism:dust_iron'].forEach(I => { replaceIO(I, 'thermal:iron_dust') });
     ['#forge:dusts/lithium', 'chemlib:lithium_dust'].forEach(I => { replaceIO(I, 'mekanism:dust_lithium') });
+    crusherMeka('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherMeka('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
     crusherMeka('minecraft:ender_pearl', 'ae2:ender_dust', 1);
     crusherMeka('minecraft:coal', 'mekanism:dust_coal', 1);
@@ -159,6 +160,7 @@ onEvent('recipes', function (e) {
     crusherMeka('chemlib:lithium_ingot', 'mekanism:dust_lithium', 1);
     crusherMeka('thermal:niter', 'thermal:niter_dust', 1);
     crusherMekaTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1);
+    crusherOccu('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1, true);
     crusherOccu('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1, true);
     crusherOccu('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust', 1, true);
     crusherOccu('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust', 1, true);
@@ -203,6 +205,7 @@ onEvent('recipes', function (e) {
     crusherOccuTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1, true);
     crusherOccuTag('forge:gems/diamond', 'thermal:diamond_dust', 1, true);
     crusherOccuTag('forge:gems/emerald', 'thermal:emerald_dust', 1, true);
+    crusherThermal('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherThermal('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
     crusherThermal('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust', 1);
     crusherThermal('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust', 1);
@@ -241,6 +244,7 @@ onEvent('recipes', function (e) {
     crusherThermal('create:zinc_ingot', 'chemlib:zinc_dust', 1);
     crusherThermal('mekanism:ingot_uranium', 'mekanism:dust_uranium', 1);
     crusherThermalTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1);
+    crusherFTB('evilcraft:dark_gem', 1, 'evilcraft:dark_gem_crushed', 1);
     crusherFTB('draconicevolution:draconium_ingot', 1, 'draconicevolution:draconium_dust', 1);
     crusherFTB('tinkers_reforged:crusteel_ingot', 1, 'tinkers_reforged:crusteel_dust', 1);
     crusherFTB('tinkers_reforged:yokel_ingot', 1, 'tinkers_reforged:yokel_dust', 1);
@@ -289,6 +293,7 @@ onEvent('recipes', function (e) {
     crusherFTBTag('forge:gems/emerald', 1, 'thermal:emerald_dust', 1);
     crusherFTBTag('forge:gems/certus_quartz', 1, 'ae2:certus_quartz_dust', 1);
     crusherFTBTag('forge:gems/amethyst', 1, 'thermal_extra:amethyst_dust', 1);
+    crusherCreate('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
     crusherCreate('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust');
     crusherCreate('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust');
     crusherCreate('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust');
@@ -342,6 +347,7 @@ onEvent('recipes', function (e) {
     crusherCreate('mekanism:fluorite_gem', 'mekanism:dust_fluorite');
     crusherCreateTag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherCreateTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
+    crusherIE('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
     crusherIE('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust');
     crusherIE('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust');
     crusherIE('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust');
@@ -433,13 +439,13 @@ onEvent('recipes', function (e) {
     castingTable('single_use/wire', true, 'tconstruct:molten_enderium', 45, 'ftbic:enderium_wire', 40);
     /**********************Gears*************************/
     ['#forge:gears/bronze', 'ftbic:bronze_gear'].forEach(I => { replaceIO(I, 'thermal:bronze_gear') });
-    ['#forge:gears/copper',  'ftbic:copper_gear'].forEach(I => { replaceIO(I, 'thermal:copper_gear') });
-    ['#forge:gears/enderium',  'ftbic:enderium_gear'].forEach(I => { replaceIO(I, 'thermal:enderium_gear') });
-    ['#forge:gears/lead',  'ftbic:lead_gear'].forEach(I => { replaceIO(I, 'thermal:lead_gear') });
-    ['#forge:gears/tin',  'ftbic:tin_gear'].forEach(I => { replaceIO(I, 'thermal:tin_gear') });
-    ['#forge:gears/diamond',  'industrialforegoing:diamond_gear'].forEach(I => { replaceIO(I, 'thermal:diamond_gear') });
-    ['#forge:gears/iron',  'ftbic:iron_gear', 'industrialforegoing:iron_gear'].forEach(I => { replaceIO(I, 'thermal:iron_gear') });
-    ['#forge:gears/gold',  'ftbic:gold_gear', 'industrialforegoing:gold_gear'].forEach(I => { replaceIO(I, 'thermal:gold_gear') });
+    ['#forge:gears/copper', 'ftbic:copper_gear'].forEach(I => { replaceIO(I, 'thermal:copper_gear') });
+    ['#forge:gears/enderium', 'ftbic:enderium_gear'].forEach(I => { replaceIO(I, 'thermal:enderium_gear') });
+    ['#forge:gears/lead', 'ftbic:lead_gear'].forEach(I => { replaceIO(I, 'thermal:lead_gear') });
+    ['#forge:gears/tin', 'ftbic:tin_gear'].forEach(I => { replaceIO(I, 'thermal:tin_gear') });
+    ['#forge:gears/diamond', 'industrialforegoing:diamond_gear'].forEach(I => { replaceIO(I, 'thermal:diamond_gear') });
+    ['#forge:gears/iron', 'ftbic:iron_gear', 'industrialforegoing:iron_gear'].forEach(I => { replaceIO(I, 'thermal:iron_gear') });
+    ['#forge:gears/gold', 'ftbic:gold_gear', 'industrialforegoing:gold_gear'].forEach(I => { replaceIO(I, 'thermal:gold_gear') });
     //CRAFTS
     multiPress('tinkers_reforged:aluminum_ingot', 4, 'thermal:press_gear_die', 'ftbic:aluminum_gear');
     multiPress('ftbic:iridium_ingot', 4, 'thermal:press_gear_die', 'ftbic:iridium_gear');
