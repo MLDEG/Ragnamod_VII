@@ -37,7 +37,9 @@ onEvent('recipes', e => {
   e.smelting('ragnamod_seven:unknown_ingot', 'ragnamod_seven:unknown_ore')
   e.blasting('ragnamod_seven:unknown_ingot', 'ragnamod_seven:raw_unknown')
   e.smelting('ragnamod_seven:unknown_ingot', 'ragnamod_seven:raw_unknown')
-
+  //Bright Opal
+  e.blasting('gemsnjewels:opal', 'gemsnjewels:bright_opal_ore_block')
+  e.smelting('gemsnjewels:opal', 'gemsnjewels:bright_opal_ore_block')
 
   /***************************Horsmen Stuff***************************/
   /***************************Death***************************/
