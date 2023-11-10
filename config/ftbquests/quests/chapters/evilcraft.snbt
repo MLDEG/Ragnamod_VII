@@ -369,7 +369,7 @@
 		}
 		{
 			x: 5.0d
-			y: 0.5d
+			y: -0.5d
 			shape: "square"
 			description: ["The Powered Sanguinary Pedestal work like the simple Sanguinary Pedestal, but it can drain more blood."]
 			dependencies: ["585B9B16C8FB0996"]
@@ -404,7 +404,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.5d
 			y: -1.0d
 			shape: "square"
 			description: [
@@ -837,6 +837,28 @@
 				item: "minecraft:egg"
 				count: 8
 				random_bonus: 8
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"Condensed Blood is used in the Blood Infuser to give you 500mb of Blood."
+				"In this pack, if you have a honeycomb farm, you can get Blood for free with it !"
+			]
+			dependencies: ["7DA9A918079760B1"]
+			id: "68E377793A62A934"
+			tasks: [{
+				id: "571406A1B31BF6E8"
+				type: "item"
+				item: "evilcraft:condensed_blood"
+			}]
+			rewards: [{
+				id: "06028432DCF04C24"
+				type: "item"
+				item: "evilcraft:condensed_blood"
+				random_bonus: 3
 			}]
 		}
 	]
