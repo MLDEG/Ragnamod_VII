@@ -477,7 +477,6 @@ onEvent('recipes', e => {
         'undergarden:smelt_depthrock_iron_ore',
         'undergarden:smelt_shiverstone_gold_ore',
         'undergarden:smelt_shiverstone_iron_ore',
-
         'alchemistry:copper_ingot_from_blasting_copper_dust',
         'alchemistry:gold_ingot_from_blasting_gold_dust',
         'alchemistry:iron_ingot_from_blasting_iron_dust',
@@ -600,6 +599,9 @@ onEvent('recipes', e => {
         'thermal_extra:soul_infused_dust',
         'thermal_extra:shellite_dust',
         'thermal_extra:twinite_dust',
+        'miniutilities:cursed_earth',
+        'miniutilities:blessed_earth',
+        'miniutilities:blursed_earth',
     ]
     removeId.forEach(C => { r(C) })
 })

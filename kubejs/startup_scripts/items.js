@@ -200,4 +200,6 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:chemical_draconium_nugget').displayName('Chemical Draconium Nugget')
     e.create('ragnamod_seven:condensed_ingot').displayName('Condensed Ingot')
 
+    e.create('miniutilities:stable_ingot').displayName('Stable Ingot')
+
 })

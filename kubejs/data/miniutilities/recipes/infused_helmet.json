@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XAX",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "miniutilities:stable_ingot"
+    },
+    "Y": {
+      "item": "miniutilities:nether_star_opinium_core"
+    },
+    "A": {
+      "item": "miniutilities:unstable_helmet"
+    }
+  },
+  "result": {
+    "item": "miniutilities:infused_helmet"
+  }
+}

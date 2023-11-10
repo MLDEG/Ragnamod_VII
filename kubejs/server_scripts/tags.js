@@ -165,6 +165,8 @@ onEvent('tags.items', e => {
 
     //Tags Forge
     e.add('forge:storage_blocks/hop_graphite', 'immersiveengineering:storage_hop_graphite')
+    e.add('forge:storage_blocks/stable', 'miniutilities:stable_block')
+    e.add('forge:ingots/stable', 'miniutilities:stable_ingot')
     e.add('forge:storage_blocks/silicon', 'ftbic:silicon_block')
     e.add('forge:ores/iron', 'infernalexp:basalt_iron_ore')
     e.add('forge:ores/silver', ['darkerdepths:aridrock_silver_ore', 'darkerdepths:limestone_silver_ore'])

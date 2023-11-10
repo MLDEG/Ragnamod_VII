@@ -325,6 +325,9 @@ onEvent('jei.hide.items', e => {
 		'custommachinery:structure_creator',
 		'custommachinery:box_creator_item',
 		'beyond_earth:oil_bucket',
+		'miniutilities:cursed_earth',
+		'miniutilities:blessed_earth',
+		'miniutilities:blursed_earth',
 
 	])
 })

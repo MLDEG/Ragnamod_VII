@@ -25,7 +25,7 @@
         "slot": 5
       }
     ],
-    "hephaestus_forge_item": "miniutilities:unstable_ingot",
+    "hephaestus_forge_item": "miniutilities:stable_ingot",
     "essences": {
       "aureal": 200,
       "experience": 200,

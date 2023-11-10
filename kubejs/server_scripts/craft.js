@@ -13,6 +13,10 @@ onEvent('recipes', e => {
   //Ignitium
   e.shapeless('9x cataclysm:enderite_ingot', 'cataclysm:enderite_block')
   e.shapeless('cataclysm:enderite_block', '9x cataclysm:enderite_ingot')
+  //Stable Ingot
+  e.shapeless('9x miniutilities:stable_ingot', 'miniutilities:stable_block')
+  e.shapeless('miniutilities:stable_block', '9x miniutilities:stable_ingot')
+  e.custom({ "type": "alchemistry:combiner", "group": "alchemistry:combiner", "input": [{ "ingredient": { "item": "chemlib:acetylsalicylic_acid" }, "count": 16 }, { "ingredient": { "item": "chemlib:mullite" }, "count": 8 }, { "ingredient": { "item": "miniutilities:unstable_ingot" }, "count": 1 }], "result": { "item": "miniutilities:stable_ingot" } })
   //Sculk Ingot
   e.shapeless('9x ragnamod_seven:sculk_ingot', 'ragnamod_seven:sculk_metal')
   e.shapeless('ragnamod_seven:sculk_metal', '9x ragnamod_seven:sculk_ingot')

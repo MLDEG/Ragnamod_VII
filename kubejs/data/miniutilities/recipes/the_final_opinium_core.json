@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XEX",
+    "EZE",
+    "XEX"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "E": {
+      "item": "miniutilities:nether_star_opinium_core"
+    },
+    "Z": {
+      "item": "miniutilities:stable_ingot"
+    }
+  },
+  "result": {
+    "item": "miniutilities:the_final_opinium_core"
+  }
+}
