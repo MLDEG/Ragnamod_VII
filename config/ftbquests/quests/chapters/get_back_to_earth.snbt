@@ -18,6 +18,8 @@
 				"In this pack, the classic progression of the Twilight Forest is disabled, so you can go wherever you want."
 				""
 				"You have to craft a Portal Activator in order to go in the Undergarden, grabbing the last pieces to built your rocket."
+				""
+				"Tips: You can find Vanilla Ores in hills."
 			]
 			size: 1.5d
 			id: "7DCDDC6CA278A7C5"
@@ -696,6 +698,24 @@
 				type: "item"
 				item: "beyond_earth:rocket_launch_pad"
 				count: 9
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["You can find Lava in Fire Swamp, underneath Fire Jet and smoker or in the Minoshroom Maze."]
+			hide_dependency_lines: true
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "5A7AE75E4AF0003F"
+			tasks: [{
+				id: "3FC10B61DD89AAD1"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "0357BD43E5378D47"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 	]
