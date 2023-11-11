@@ -233,4 +233,35 @@ onEvent('recipes', e => {
   simulMatrix("twilightforest/wraith", 'wraith')
   simulMatrix("twilightforest/yeti", 'yeti')
 
+  //Singulatiries Catalyst
+
+  function singCata(singu1, singu2, singu3, singu4, singu5, matter) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:singularity_catalyst", "time": 20, "requirements": [{ "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu1 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu2 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu3 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu4 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu5 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": "ragnamod_seven:agglomerate_matter_" + matter, "amount": 1 }, { "type": "custommachinery:structure", "pattern": [["BCB", "CXC", "BmB"], ["BGB", "GZG", "BGB"], ["BCB", "CDC", "ACB"], ["B A", " X ", "  B"], ["B  ", "   ", "  A"], ["A  ", "   ", "   "]], "keys": { "A": "forbidden_arcanus:eternal_obsidian_skull", "B": "forbidden_arcanus:arcane_polished_darkstone_rod", "X": "ragnamod_seven:singularity_catalyst", "C": "architects_palette:unobtanium_block", "D": "simplylight:illuminant_magenta_block_on", "G": "quark:myalite_crystal", "Z": "forbidden_arcanus:black_hole" } }] }) }
+
+  singCata('steeleaf', 'magicbeans', 'alphayeti', 'carminite', 'ironwood', 'twilight')
+  singCata('vengefulwill', 'steadfaswill', 'destructivewill', 'corrosivewill', 'demonwill', 'blood_magic')
+  singCata('hydraulicengine', 'steamengine', 'heatengine', 'precisionmechanism', 'electrontube', 'create')
+  singCata('uranium', 'osmium', 'mekasuitmodule', 'electrolytic', 'reprocessedfissilefragment', 'mekanism')
+  singCata('spiritedcrystal', 'nioticcrystal', 'blazingcrystal', 'energizedsteel', 'nitrocrystal', 'powah')
+  singCata('pixie', 'manadiamond', 'livingwood', 'livingrock', 'alfsteel', 'botania')
+  singCata('charoite', 'falsite', 'horizonite', 'ventium', 'aquite', 'blue_skies')
+  singCata('ostrum', 'desh', 'calorite', 'cheese', 'ice_shard', 'space')
+  singCata('redstone', 'gold', 'copper', 'iron', 'coal', 'minecraft1')
+  singCata('lapislazuli', 'emerald', 'diamond', 'quartz', 'honeycomb', 'minecraft2')
+  singCata('sculk', 'amethyst', 'netheritescrap', 'enderpearl', 'glowstone', 'minecraft3')
+  singCata('cerebral', 'netherbrass', 'wardstone', 'sunmetal', 'oracle_jelly', 'blocky')
+  singCata('catalyzinggland', 'zombieheart', 'nebulousheart', 'moltencore', 'frozencore', 'mobs')
+  singCata('white_psimetal', 'black_psimetal', 'ebony', 'ivory', 'psigem', 'psi')
+  singCata('rosin', 'slag', 'blizz', 'blitz', 'basalz', 'thermal')
+  singCata('dark_gem', 'condensed_blood', 'blood_waxed_coal', 'bloodpotash', 'darkpower', 'evil_craft')
+  singCata('engineering_processor', 'calculation_processor', 'logic_processor', 'certus_quartz_crystal', 'fluix', 'ae2')
+  singCata('dark_matter', 'rune', 'mundabitur', 'darknetherstar', 'arcanecrystal', 'forbidden_arcanus')
+  singCata('utherium', 'regalium', 'froststeel', 'cloggrum', 'forgotten', 'undergarden')
+  singCata('silicon', 'scrap', 'ftbroteinbar', 'compressedcoalball', 'antimatter', 'ftbic')
+  singCata('scorched_brick', 'seared_brick', 'cobalt', 'manyullyn', 'amethyst_bronze', 'tconstruct')
+  singCata('abjuration_essence', 'water_essence', 'fire_essence', 'earth_essence', 'air_essence', 'ars')
+  singCata('compactmachinewall', 'variablecard', 'logicdirector', 'fertilizer', 'plastic', 'tech')
+  singCata('iron_compressed', 'programming_puzzle', 'transistor', 'capacitor', 'glycerol', 'pneumaticcraft')
+
+
+
 })

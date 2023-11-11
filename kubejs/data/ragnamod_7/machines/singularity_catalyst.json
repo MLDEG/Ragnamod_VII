@@ -1,0 +1,116 @@
+{
+  "name": "Singularity Catalyst",
+  "appearance": {
+    "block": "ragnamod_seven:machine/singularity_catalyst_idle_model",
+    "item": "ragnamod_seven:machine/singularity_catalyst_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 15,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/singularity_catalyst_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/singularity_catalyst_errored_model"
+    }
+  },
+  "components": [
+    { "type": "custommachinery:item", "id": "sinc_input_0", "mode": "input" },
+    { "type": "custommachinery:item", "id": "sinc_input_1", "mode": "input" },
+    { "type": "custommachinery:item", "id": "sinc_input_2", "mode": "input" },
+    { "type": "custommachinery:item", "id": "sinc_input_3", "mode": "input" },
+    { "type": "custommachinery:item", "id": "sinc_input_4", "mode": "input" },
+    { "type": "custommachinery:item", "id": "sinc_output", "mode": "output" }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "ragnamod_seven:textures/gui/singularity_catalyst.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 208,
+      "y": 9
+    },
+    { "type": "custommachinery:player_inventory", "x": 47, "y": 173 },
+    {
+      "id": "sinc_input_0",
+      "x": 83,
+      "y": 13,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "sinc_input_1",
+      "x": 155,
+      "y": 13,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "sinc_input_2",
+      "x": 182,
+      "y": 94,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "sinc_input_3",
+      "x": 56,
+      "y": 94,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "sinc_input_4",
+      "x": 119,
+      "y": 139,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "sinc_output",
+      "x": 119,
+      "y": 67,
+      "type": "custommachinery:slot"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/sinc_prog_uptodown_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/sinc_prog_uptodown_filled.png",
+      "x": 97,
+      "y": 31,
+      "direction": "top",
+      "type": "custommachinery:progress"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/sinc_prog_lefttoright_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/sinc_prog_lefttoright_filled.png",
+      "x": 77,
+      "y": 80,
+      "direction": "right",
+      "type": "custommachinery:progress"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/sinc_prog_righttoleft_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/sinc_prog_righttoleft_filled.png",
+      "x": 140,
+      "y": 80,
+      "direction": "left",
+      "type": "custommachinery:progress"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/sinc_prog_downtoup_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/sinc_prog_downtoup_filled.png",
+      "x": 122,
+      "y": 89,
+      "direction": "bottom",
+      "type": "custommachinery:progress"
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}
