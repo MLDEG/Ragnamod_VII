@@ -34,7 +34,7 @@ onEvent('tags.items', e => {
     e.remove('forge:nuggets/steel', ['mekanism:nugget_steel', 'immersiveengineering:nugget_steel'])
     e.remove('forge:nuggets/nickel', ['chemlib:nickel_nugget', 'immersiveengineering:nugget_nickel'])
 
-    // //Remove Rodes
+    //Remove Rodes
     e.remove('forge:rods/gold', ['immersiveposts:stick_gold', 'createaddition:gold_rod'])
     e.remove('forge:rods/iron', ['immersiveengineering:stick_iron', 'createaddition:iron_rod', 'beyond_earth:iron_stick'])
     e.remove('forge:rods/copper', ['immersiveposts:stick_copper', 'createaddition:copper_rod'])
@@ -43,13 +43,13 @@ onEvent('tags.items', e => {
     e.remove('forge:rods/lead', 'immersiveposts:stick_lead')
     e.remove('forge:rods/electrum', 'createaddition:electrum_rod')
 
-    // //Remove Wires
+    //Remove Wires
     e.remove('forge:wires/aluminum', 'immersiveengineering:wire_aluminum')
     e.remove('forge:wires/gold', 'createaddition:gold_wire')
     e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
     e.remove('forge:wires/copper', ['createaddition:copper_wire', 'immersiveengineering:wire_copper'])
 
-    // //Remove Gears
+    //Remove Gears
     e.remove('forge:gears/bronze', 'ftbic:bronze_gear')
     e.remove('forge:gears/copper', 'ftbic:copper_gear')
     e.remove('forge:gears/enderium', 'ftbic:enderium_gear')
@@ -59,7 +59,7 @@ onEvent('tags.items', e => {
     e.remove('forge:gears/iron', ['ftbic:iron_gear', 'industrialforegoing:iron_gear'])
     e.remove('forge:gears/gold', ['ftbic:gold_gear', 'industrialforegoing:gold_gear'])
 
-    // //Remove Plates
+    //Remove Plates
     e.remove('forge:plates/iron', ['chemlib:iron_plate', 'beyond_earth:iron_plate', 'create:iron_sheet', 'thermal:iron_plate', 'immersiveengineering:plate_iron'])
     e.remove('forge:plates/gold', ['chemlib:gold_plate', 'thermal:gold_plate', 'immersiveengineering:plate_gold', 'create:golden_sheet'])
     e.remove('forge:plates/copper', ['chemlib:copper_plate', 'thermal:copper_plate', 'immersiveengineering:plate_copper', 'create:copper_sheet'])
@@ -149,7 +149,7 @@ onEvent('tags.items', e => {
     e.remove('forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum')
     e.remove('forge:storage_blocks/coal_coke', 'immersiveengineering:coke')
 
-    // //Remove Other
+    //Remove Other
     e.remove('forge:silicon', 'ae2:silicon')
     e.remove('forge:bitumen', 'immersivepetroleum:bitumen')
     e.remove('forge:slag', 'immersiveengineering:slag')
