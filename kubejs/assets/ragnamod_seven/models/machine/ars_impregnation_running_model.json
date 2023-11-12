@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/ars_impregnation_running",
+    "side": "ragnamod_seven:block/ars_impregnation",
+    "top": "ragnamod_seven:block/ars_impregnation"
+  }
+}

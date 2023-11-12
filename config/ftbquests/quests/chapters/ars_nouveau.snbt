@@ -1113,6 +1113,71 @@
 				item: "ars_nouveau:summon_focus"
 			}]
 		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:ars_impregnation"
+				}
+			}
+			x: 5.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Ars Imprégnation is a multiblock who can craft more quickly the stuff from the Imbuement Chamber."
+				"{image:ftbquests:textures/quests/ars_impregnation.png width:150 height:100 align:1}"
+				"In order to start a craft with this multiblock, you need to place 3 items available to farm in the multiblock, on the pedestals."
+				""
+				"So, for example, if you want to farm Air Essence, you need to put 3 air essence on the 3 pedestals to start the craft !"
+				""
+				"This multiblock don't consume anything, but it needs a source jar full of source on top of it to work."
+				""
+				"And yes, Imprégnation is the French word to say Imbuement. =)"
+			]
+			dependencies: ["5766C8B9E850C186"]
+			id: "2A66C125626239D0"
+			tasks: [
+				{
+					id: "0B85F20197C51143"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:ars_impregnation"
+						}
+					}
+				}
+				{
+					id: "336D2AFA5390F126"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+				}
+				{
+					id: "02E9199501E6436D"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 3L
+				}
+				{
+					id: "7493F46F4A286CDA"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+					count: 3L
+				}
+				{
+					id: "71B7D6CD736D7B8A"
+					type: "item"
+					item: "ars_nouveau:source_jar"
+				}
+			]
+			rewards: [{
+				id: "72798A8C631274B7"
+				type: "item"
+				item: "ars_nouveau:source_gem_block"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

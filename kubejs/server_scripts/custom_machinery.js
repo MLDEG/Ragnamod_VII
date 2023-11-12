@@ -103,23 +103,14 @@ onEvent('recipes', e => {
   //Focus Entangled Block
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:focus_entangled"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'gemsnjewels:kunzite_block', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //Focus Entangled
-  function focusEntangled(inputbox, outputblock) {
-    e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:focus_entangled", "time": 20, "requirements": [{ "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled1", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled2", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled3", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled4", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled_focus", "item": "ars_nouveau:summon_focus", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled_box", "item": "evilcraft:box_of_eternal_closure", "nbt": "{spiritTag:{innerEntity:\"" + inputbox + "\"}}", "amount": 1 }, { "type": "custommachinery:energy", "mode": "input", "amount": 1000000 }, { "type": "custommachinery:item", "mode": "output", "slot": "output_focus_entangled", "item": outputblock, "amount": 4 }, { "type": "custommachinery:item", "mode": "output", "slot": "output_focus_entangled_box", "item": "evilcraft:box_of_eternal_closure", "amount": 1 }, { "type": "custommachinery:structure", "pattern": [["     ", "     ", "  A  ", "   C ", "     "], ["     ", "  A  ", " ABAC", "  AC ", "  C  "], ["     ", "  AC ", " ABA ", " Cm  ", "     "], ["  C  ", " CA  ", "CABA ", "  A  ", "     "], ["     ", " C   ", "  A  ", "     ", "     "]], "keys": { "A": "gemsnjewels:kunzite_block", "B": "ars_nouveau:source_gem_block", "C": "forbidden_arcanus:arcane_golden_glass" } }] })
-  }
-
+  function focusEntangled(inputbox, outputblock) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:focus_entangled", "time": 20, "requirements": [{ "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled1", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled2", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled3", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled4", "item": "ragnamod_seven:unknown_ingot_block", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled_focus", "item": "ars_nouveau:summon_focus", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_focus_entangled_box", "item": "evilcraft:box_of_eternal_closure", "nbt": "{spiritTag:{innerEntity:\"" + inputbox + "\"}}", "amount": 1 }, { "type": "custommachinery:energy", "mode": "input", "amount": 1000000 }, { "type": "custommachinery:item", "mode": "output", "slot": "output_focus_entangled", "item": outputblock, "amount": 4 }, { "type": "custommachinery:item", "mode": "output", "slot": "output_focus_entangled_box", "item": "evilcraft:box_of_eternal_closure", "amount": 1 }, { "type": "custommachinery:structure", "pattern": [["     ", "     ", "  A  ", "   C ", "     "], ["     ", "  A  ", " ABAC", "  AC ", "  C  "], ["     ", "  AC ", " ABA ", " Cm  ", "     "], ["  C  ", " CA  ", "CABA ", "  A  ", "     "], ["     ", " C   ", "  A  ", "     ", "     "]], "keys": { "A": "gemsnjewels:kunzite_block", "B": "ars_nouveau:source_gem_block", "C": "forbidden_arcanus:arcane_golden_glass" } }] }) }
   focusEntangled("warden_and_sculk:warden", "ragnamod_seven:sculk_metal")
   focusEntangled("occultism:shub_niggurath_familiar", "ragnamod_seven:shub_niggurath_ingot_block")
-
 
   //Simulation Matrix Block
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:simulation_matrix"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'spirit:soul_steel_block', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //Simulation Matrix
-  function simulMatrix(output, pedestal) {
-    e.custom({
-      "type": "custommachinery:custom_machine", "machine": "ragnamod_7:simulation_matrix", "time": 20, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item", "mode": "output", "item": "hostilenetworks:prediction", "nbt": "{data_model:{id:\"hostilenetworks:" + output + "\"}}", "amount": 2 }, { "type": "custommachinery:block", "mode": "output", "action": "check", "pos": [0, 0, 0, 0, 1, 0], "whitelist": true, "filter": ["spirit:pedestal{item:{Count:1b,id:'hostilenetworks:" + pedestal + "_complete_prediction'}}"] }, { "type": "custommachinery:structure", "pattern": [[" C ", "CmC"], [" A ", "BDB"]], "keys": { "A": "architects_palette:lit_withered_osseous_skull", "B": "decorative_blocks:soul_brazier", "C": "create:scorchia_pillar", "D": "spirit:pedestal" } }]
-    })
-  }
-
+  function simulMatrix(output, pedestal) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:simulation_matrix", "time": 20, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item", "mode": "output", "item": "hostilenetworks:prediction", "nbt": "{data_model:{id:\"hostilenetworks:" + output + "\"}}", "amount": 2 }, { "type": "custommachinery:block", "mode": "output", "action": "check", "pos": [0, 0, 0, 0, 1, 0], "whitelist": true, "filter": ["spirit:pedestal{item:{Count:1b,id:'hostilenetworks:" + pedestal + "_complete_prediction'}}"] }, { "type": "custommachinery:structure", "pattern": [[" C ", "CmC"], [" A ", "BDB"]], "keys": { "A": "architects_palette:lit_withered_osseous_skull", "B": "decorative_blocks:soul_brazier", "C": "create:scorchia_pillar", "D": "spirit:pedestal" } }] }) }
   simulMatrix("ars_nouveau/wilden_mobs", 'ars_wilden')
   simulMatrix("bat", 'bat')
   simulMatrix("bee", 'bee')
@@ -237,7 +228,6 @@ onEvent('recipes', e => {
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:singularity_catalyst"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'architects_palette:unobtanium_block', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //Singulatiries Catalyst
   function singCata(singu1, singu2, singu3, singu4, singu5, matter) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:singularity_catalyst", "time": 20, "requirements": [{ "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu1 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu2 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu3 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu4 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu5 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": "ragnamod_seven:agglomerate_matter_" + matter, "amount": 1 }, { "type": "custommachinery:structure", "pattern": [["BCB", "CXC", "BmB"], ["BGB", "GZG", "BGB"], ["BCB", "CDC", "ACB"], ["B A", " X ", "  B"], ["B  ", "   ", "  A"], ["A  ", "   ", "   "]], "keys": { "A": "forbidden_arcanus:eternal_obsidian_skull", "B": "forbidden_arcanus:arcane_polished_darkstone_rod", "X": "ragnamod_seven:singularity_silent", "C": "architects_palette:unobtanium_block", "D": "simplylight:illuminant_magenta_block_on", "G": "quark:myalite_crystal", "Z": "forbidden_arcanus:black_hole" } }] }) }
-
   singCata('steeleaf', 'magicbeans', 'alphayeti', 'carminite', 'ironwood', 'twilight')
   singCata('vengefulwill', 'steadfaswill', 'destructivewill', 'corrosivewill', 'demonwill', 'blood_magic')
   singCata('hydraulicengine', 'steamengine', 'heatengine', 'precisionmechanism', 'electrontube', 'create')
@@ -265,41 +255,28 @@ onEvent('recipes', e => {
 
   //PSI STabilizer Block
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:psi_stabilizer"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'psi:lit_black_psimetal_plate', C: 'xnet:controller', D: 'rftoolsutility:screen' })
-
   //PSI Stabilizer
-  function psiStab(item) {
-    e.custom({
-      "type": "custommachinery:custom_machine", "machine": "ragnamod_7:psi_stabilizer", "time": 10, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item_transform", "input": item, "output": item, "slot": "inout" }, { "type": "custommachinery:item", "mode": "output", "item": item, "amount": 1, "slot": "output" },
-      {
-        "type": "custommachinery:structure",
-        "pattern": [
-          [
-            "m"
-          ],
-          [
-            "A"
-          ],
-          [
-            "B"
-          ],
-          [
-            "C"
-          ]
-        ],
-        "keys": {
-          "A": "psi:cad_assembler",
-          "B": "ragnamod_seven:psi_stabilizer",
-          "C": "psi:psigem_block",
-        }
-      }]
-    })
-  }
-
+  function psiStab(item) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:psi_stabilizer", "time": 10, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item_transform", "input": item, "output": item, "slot": "inout" }, { "type": "custommachinery:item", "mode": "output", "item": item, "amount": 1, "slot": "output" }, { "type": "custommachinery:structure", "pattern": [["m"], ["A"], ["B"], ["C"]], "keys": { "A": "psi:cad_assembler", "B": "ragnamod_seven:psi_stabilizer", "C": "psi:psigem_block", } }] }) }
   psiStab("psi:psidust")
   psiStab("psi:psimetal")
   psiStab("psi:psigem")
   psiStab("psi:ebony_substance")
   psiStab("psi:ivory_substance")
+
+  //Ars Imprégnation
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:ars_impregnation"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'ars_nouveau:arcane_core', C: 'xnet:controller', D: 'rftoolsutility:screen' })
+  //Ars Omprégnation
+  function arsImpre(time, output) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:ars_impregnation", "time": time, "requirements": [{ "type": "custommachinery:item", "mode": "output", "item": output, "amount": 1 }, { "type": "custommachinery:structure", "pattern": [["BCB", " m "], ["ABA", " I "], [" A ", "   "]], "keys": { "A": "ars_nouveau:arcane_pedestal", "B": "ars_nouveau:arcane_core", "C": "ars_nouveau:source_gem_block", "I": "ars_nouveau:source_jar[fill=11]" } }, { "type": "custommachinery:block", "mode": "output", "action": "check", "pos": [-1, 0, 0, 1, 2, -1], "whitelist": true, "amount": 3, "comparator": "==", "filter": ["ars_nouveau:arcane_pedestal{itemStack:{Count:1b,id:\"" + output + "\"}}"] }] }) }
+
+  arsImpre(5, 'ars_nouveau:air_essence')
+  arsImpre(5, 'ars_nouveau:manipulation_essence')
+  arsImpre(5, 'ars_nouveau:abjuration_essence')
+  arsImpre(5, 'ars_nouveau:water_essence')
+  arsImpre(5, 'ars_nouveau:earth_essence')
+  arsImpre(5, 'ars_nouveau:conjuration_essence')
+  arsImpre(5, 'ars_nouveau:fire_essence')
+  arsImpre(5, 'ars_nouveau:source_gem')
+  arsImpre(40, 'ars_nouveau:source_gem_block')
 
 
 })

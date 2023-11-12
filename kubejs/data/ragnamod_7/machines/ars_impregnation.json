@@ -1,0 +1,78 @@
+{
+  "name": "Ars Imprégnation",
+  "appearance": {
+    "block": "ragnamod_seven:machine/ars_impregnation_idle_model",
+    "item": "ragnamod_seven:machine/ars_impregnation_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/ars_impregnation_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/ars_impregnation_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/ars_impregnation.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 221,
+      "y": 137
+    },
+    {
+      "text": "Ars Imprégnation",
+      "color": 16772957,
+      "x": 7,
+      "y": 7,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/ars_impregnation_progress.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ars_impregnation_progress.png",
+      "type": "custommachinery:progress",
+      "x": 115,
+      "y": 7
+    },
+    {
+      "id": "output",
+      "x": 119,
+      "y": 52,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "jei": [
+    {
+      "id": "output",
+      "x": 119,
+      "y": 52,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "catalysts": []
+}
