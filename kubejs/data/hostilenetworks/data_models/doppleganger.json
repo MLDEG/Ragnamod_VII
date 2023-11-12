@@ -30,6 +30,10 @@
     {
       "item": "botania:overgrowth_seed",
       "count": 1
+    },
+    {
+      "item": "botania:gaia_head",
+      "count": 1
     }
   ]
 }

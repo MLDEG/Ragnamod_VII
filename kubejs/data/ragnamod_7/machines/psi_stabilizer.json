@@ -1,0 +1,108 @@
+{
+  "name": "PSI Stabilizer",
+  "appearance": {
+    "block": "ragnamod_seven:machine/psi_stabilizer_idle_model",
+    "item": "ragnamod_seven:machine/psi_stabilizer_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/psi_stabilizer_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/psi_stabilizer_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "maxInput": 100000,
+      "maxOutput": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inout"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/psi_stabilizer.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 46,
+      "y": 54
+    },
+    {
+      "text": "PSI Stabilizer",
+      "color": 130954,
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/psi_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/psi_progress_full.png",
+      "type": "custommachinery:progress",
+      "x": 117,
+      "y": 31
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled.png",
+      "x": 15,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "inout",
+      "x": 83,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output",
+      "x": 155,
+      "y": 30,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "jei": [
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_jei.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_jei.png",
+      "x": 50,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "inout",
+      "x": 70,
+      "y": 30,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "catalysts": []
+}

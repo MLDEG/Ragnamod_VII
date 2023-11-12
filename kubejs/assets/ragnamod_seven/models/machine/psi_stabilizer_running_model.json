@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/psi_stabilizer_running",
+    "side": "psi:blocks/psimetal_plate_black_light",
+    "top": "psi:blocks/psimetal_plate_black",
+    "bottom": "psi:blocks/psimetal_plate_black"
+  }
+}

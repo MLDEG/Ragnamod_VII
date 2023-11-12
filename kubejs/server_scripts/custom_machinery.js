@@ -233,6 +233,8 @@ onEvent('recipes', e => {
   simulMatrix("twilightforest/wraith", 'wraith')
   simulMatrix("twilightforest/yeti", 'yeti')
 
+  //Singulatiries Catalyst Block
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:singularity_catalyst"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'architects_palette:unobtanium_block', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //Singulatiries Catalyst
   function singCata(singu1, singu2, singu3, singu4, singu5, matter) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:singularity_catalyst", "time": 20, "requirements": [{ "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu1 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu2 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu3 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu4 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": "ragnamod_seven:" + singu5 + "_singularity", "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": "ragnamod_seven:agglomerate_matter_" + matter, "amount": 1 }, { "type": "custommachinery:structure", "pattern": [["BCB", "CXC", "BmB"], ["BGB", "GZG", "BGB"], ["BCB", "CDC", "ACB"], ["B A", " X ", "  B"], ["B  ", "   ", "  A"], ["A  ", "   ", "   "]], "keys": { "A": "forbidden_arcanus:eternal_obsidian_skull", "B": "forbidden_arcanus:arcane_polished_darkstone_rod", "X": "ragnamod_seven:singularity_silent", "C": "architects_palette:unobtanium_block", "D": "simplylight:illuminant_magenta_block_on", "G": "quark:myalite_crystal", "Z": "forbidden_arcanus:black_hole" } }] }) }
 
@@ -261,6 +263,43 @@ onEvent('recipes', e => {
   singCata('compactmachinewall', 'variablecard', 'logicdirector', 'fertilizer', 'plastic', 'tech')
   singCata('iron_compressed', 'programming_puzzle', 'transistor', 'capacitor', 'glycerol', 'pneumaticcraft')
 
+  //PSI STabilizer Block
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:psi_stabilizer"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'psi:lit_black_psimetal_plate', C: 'xnet:controller', D: 'rftoolsutility:screen' })
+
+  //PSI Stabilizer
+  function psiStab(item) {
+    e.custom({
+      "type": "custommachinery:custom_machine", "machine": "ragnamod_7:psi_stabilizer", "time": 10, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item_transform", "input": item, "output": item, "slot": "inout" }, { "type": "custommachinery:item", "mode": "output", "item": item, "amount": 1, "slot": "output" },
+      {
+        "type": "custommachinery:structure",
+        "pattern": [
+          [
+            "m"
+          ],
+          [
+            "A"
+          ],
+          [
+            "B"
+          ],
+          [
+            "C"
+          ]
+        ],
+        "keys": {
+          "A": "psi:cad_assembler",
+          "B": "ragnamod_seven:psi_stabilizer",
+          "C": "psi:psigem_block",
+        }
+      }]
+    })
+  }
+
+  psiStab("psi:psidust")
+  psiStab("psi:psimetal")
+  psiStab("psi:psigem")
+  psiStab("psi:ebony_substance")
+  psiStab("psi:ivory_substance")
 
 
 })

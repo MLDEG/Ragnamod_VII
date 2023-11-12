@@ -846,6 +846,57 @@
 				}
 			}]
 		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:psi_stabilizer"
+				}
+			}
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The PSI Stabilizer is a multiblock that farm for you the stuff you put inside from PSI."
+				"{image:ftbquests:textures/quests/psi_stabilizer.png width:150 height:100 align:1}"
+			]
+			dependencies: ["0000000000000AAB"]
+			id: "5CBDB0076EFB07B9"
+			tasks: [
+				{
+					id: "11C0D32309C12E7B"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:psi_stabilizer"
+						}
+					}
+				}
+				{
+					id: "3D6244CF4822634C"
+					type: "item"
+					item: "psi:cad_assembler"
+				}
+				{
+					id: "32925EB41567B0B3"
+					type: "item"
+					item: "ragnamod_seven:psi_stabilizer"
+				}
+				{
+					id: "7E757B512E8ED041"
+					type: "item"
+					item: "psi:psigem_block"
+				}
+			]
+			rewards: [{
+				id: "2F2992ED9BDB2612"
+				type: "item"
+				item: "psi:psigem_block"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
