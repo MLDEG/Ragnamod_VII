@@ -1,0 +1,36 @@
+{
+  "type": "custommachinery:custom_machine",
+  "machine": "ragnamod_7:extreme_table",
+  "time": 1,
+  "requirements": [
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_7","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_8","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_15","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_16","item": "avaritia:infinity_catalyst","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_17","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_23","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_24","item": "avaritia:infinity_catalyst","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_25","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_31","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_32","item": "avaritia:infinity_catalyst","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_33","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_37","item": "avaritia:crystal_matrix_block","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_39","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_40","item": "avaritia:infinity_catalyst","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_41","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_47","item": "avaritia:crystal_matrix_block","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_48","item": "create_sa:rose_quartz_sword","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_49","item": "avaritia:infinity_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_56","item": "draconicevolution:chaotic_staff","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_57","item": "avaritia:crystal_matrix_block","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_64","item": "avaritia:neutronium_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_67","item": "avaritia:crystal_matrix_block","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_72","item": "ragnamod_seven:sphere","amount": 1},
+  {
+    "type": "custommachinery:item",
+    "mode": "output",
+    "item": "avaritia:infinity_sword",
+    "amount": 1
+  }
+]
+}
