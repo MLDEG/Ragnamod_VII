@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {"item": "botania:white_mushroom"},
+      {"item": "botania:orange_mushroom"},
+      {"item": "botania:magenta_mushroom"},
+      {"item": "botania:light_blue_mushroom"},
+      {"item": "botania:yellow_mushroom"},
+      {"item": "botania:lime_mushroom"},
+      {"item": "botania:pink_mushroom"},
+      {"item": "botania:gray_mushroom"},
+      {"item": "botania:light_gray_mushroom"},
+      {"item": "botania:cyan_mushroom"},
+      {"item": "botania:purple_mushroom"},
+      {"item": "botania:blue_mushroom"},
+      {"item": "botania:brown_mushroom"},
+      {"item": "botania:green_mushroom"},
+      {"item": "botania:red_mushroom"},
+      {"item": "botania:black_mushroom"},
+      {"item": "blue_skies:snowcap_mushroom"},
+      {"item": "naturesaura:aura_mushroom"},
+      {"item": "byg:green_mushroom"},
+      {"item": "undergarden:blood_mushroom"},
+      {"item": "undergarden:ink_mushroom"},
+      {"item": "minecraft:brown_mushroom"},
+      {"item": "minecraft:red_mushroom"},
+      {"item": "byg:imparius_mushroom"},
+      {"item": "undergarden:veil_mushroom"},
+      {"item": "blue_skies:baneful_mushroom"}
+    ],
+    [
+      {"item": "botania:white_mushroom"},
+      {"item": "botania:orange_mushroom"},
+      {"item": "botania:magenta_mushroom"},
+      {"item": "botania:light_blue_mushroom"},
+      {"item": "botania:yellow_mushroom"},
+      {"item": "botania:lime_mushroom"},
+      {"item": "botania:pink_mushroom"},
+      {"item": "botania:gray_mushroom"},
+      {"item": "botania:light_gray_mushroom"},
+      {"item": "botania:cyan_mushroom"},
+      {"item": "botania:purple_mushroom"},
+      {"item": "botania:blue_mushroom"},
+      {"item": "botania:brown_mushroom"},
+      {"item": "botania:green_mushroom"},
+      {"item": "botania:red_mushroom"},
+      {"item": "botania:black_mushroom"},
+      {"item": "blue_skies:snowcap_mushroom"},
+      {"item": "naturesaura:aura_mushroom"},
+      {"item": "byg:green_mushroom"},
+      {"item": "undergarden:blood_mushroom"},
+      {"item": "undergarden:ink_mushroom"},
+      {"item": "minecraft:brown_mushroom"},
+      {"item": "minecraft:red_mushroom"},
+      {"item": "byg:imparius_mushroom"},
+      {"item": "undergarden:veil_mushroom"},
+      {"item": "blue_skies:baneful_mushroom"}
+    ],
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mushroom_stew"
+  }
+}
