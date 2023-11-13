@@ -1,6 +1,6 @@
 onEvent('item.registry', e => {
 
-    e.create('portal_activator').displayName('Portal Activator').maxStackSize(1)
+    e.create('ragnamod_seven:portal_activator').displayName('Portal Activator').maxStackSize(1)
     e.create('chickens:smashed_chicken').displayName('Smashed Chicken').maxStackSize(1)
     e.create('chickens:chicken_skin').displayName('Chicken Skin').maxStackSize(1)
     e.create('chickens:chicken_shell').displayName('Chicken Shell').maxStackSize(1)

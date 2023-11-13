@@ -1,5 +1,9 @@
 onEvent('recipes', e => {
 
+  //Ice Shard
+  e.shapeless('4x beyond_earth:ice_shard', 'minecraft:packed_ice')
+  //Beyond Heart Cheese
+  e.shapeless('beyond_earth:cheese', 'croptopia:cheese')
   //Silicon Block
   e.shapeless('9x ftbic:silicon', 'ftbic:silicon_block')
   e.shapeless('ftbic:silicon_block', '9x ftbic:silicon')
@@ -315,5 +319,19 @@ onEvent('recipes', e => {
     "result": {
       "item": "ragnamod_seven:psi_stabilizer"
     }
+  })
+  //Rune Forbidden Arcanus
+  e.custom({
+    "type": "create:deploying",
+    "ingredients": [
+      { "item": "undergarden:depthrock_pebble" },
+      { "item": "ars_nouveau:glyph_rune" }
+    ],
+    "results": [
+      {
+        "item": "forbidden_arcanus:rune",
+        "count": 1
+      }],
+    "keepHeldItem": true
   })
 })

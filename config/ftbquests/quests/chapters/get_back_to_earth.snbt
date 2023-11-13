@@ -223,7 +223,7 @@
 			tasks: [{
 				id: "39E7E8F2DCB9F5EB"
 				type: "item"
-				item: "kubejs:portal_activator"
+				item: "ragnamod_seven:portal_activator"
 			}]
 			rewards: [{
 				id: "0F251640BA15EF7E"

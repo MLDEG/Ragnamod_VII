@@ -1,0 +1,82 @@
+{
+  "type": "custommachinery:custom_machine",
+  "machine": "ragnamod_7:extreme_table",
+  "time": 1,
+  "requirements": [
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_3","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_4","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_5","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_10","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_11","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_12","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_13","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_14","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_15","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_16","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_19","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_20","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_21","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_22","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_23","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_24","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_25","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_27","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_28","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_29","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_30","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_31","item": "avaritia:neutronium_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_32","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_33","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_34","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_35","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_36","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_37","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_38","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_39","item": "avaritia:neutronium_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_40","item": "minecraft:nether_star","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_41","item": "avaritia:neutronium_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_42","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_43","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_44","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_45","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_46","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_47","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_48","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_49","item": "avaritia:neutronium_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_50","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_51","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_52","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_53","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_55","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_56","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_57","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_58","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_59","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_60","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_61","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_64","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_65","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_66","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_67","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_68","item": "minecraft:ender_pearl","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_69","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_70","item": "minecraft:end_stone","amount": 1},
+
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_75","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_76","item": "minecraft:end_stone","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_77","item": "minecraft:end_stone","amount": 1},
+  {
+    "type": "custommachinery:item",
+    "mode": "output",
+    "item": "avaritia:endest_pearl",
+    "amount": 1
+  }
+]
+}

@@ -328,6 +328,7 @@ onEvent('jei.hide.items', e => {
 		'miniutilities:cursed_earth',
 		'miniutilities:blessed_earth',
 		'miniutilities:blursed_earth',
+		'avaritia:extreme_crafting_table',
 
 	])
 })
