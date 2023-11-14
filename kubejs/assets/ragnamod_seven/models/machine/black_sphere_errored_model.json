@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/noisy_neutronium",
+    "side": "ragnamod_seven:block/noisy_neutronium",
+    "bottom": "ragnamod_seven:block/noisy_neutronium",
+    "top": "ragnamod_seven:block/noisy_neutronium_errored"
+  }
+}

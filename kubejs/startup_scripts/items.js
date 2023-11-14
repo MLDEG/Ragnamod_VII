@@ -53,6 +53,7 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:chemical_draconium_ingot').displayName('Chemical Draconium Ingot')
     e.create('ragnamod_seven:chemical_draconium_nugget').displayName('Chemical Draconium Nugget')
     e.create('ragnamod_seven:condensed_ingot').displayName('Condensed Ingot')
+    e.create('ragnamod_seven:black_sphere').displayName('Not an Item').maxStackSize(1)
     e.create('miniutilities:stable_ingot').displayName('Stable Ingot')
     e.create('ragnamod_seven:agglomerate_matter_minecraft1').displayName('§bMinecraft\'s Agglomerate Matter #1')
     e.create('ragnamod_seven:agglomerate_matter_minecraft2').displayName('§bMinecraft\'s Agglomerate Matter #2')
