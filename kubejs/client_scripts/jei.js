@@ -329,6 +329,7 @@ onEvent('jei.hide.items', e => {
 		'miniutilities:blessed_earth',
 		'miniutilities:blursed_earth',
 		'avaritia:extreme_crafting_table',
+		'ragnamod_seven:black_sphere',
 
 	])
 })

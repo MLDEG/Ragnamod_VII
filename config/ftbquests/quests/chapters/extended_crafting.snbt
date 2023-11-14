@@ -7,10 +7,302 @@
 	icon: "avaritia:infinity_catalyst"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 7.5d
+			y: 0.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_powah.png"
+			hover: ["Powah Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_ae2.png"
+			hover: ["AE2 Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_mc1.png"
+			hover: ["Minecraft Singularities #1"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_pneumaticcraft.png"
+			hover: ["Pneumaticcraft Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_create.png"
+			hover: ["Create Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_evil_craft.png"
+			hover: ["Evil Craft Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_botania.png"
+			hover: ["Botania Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_forbidden_arcanus.png"
+			hover: ["Forbidden Arcanus Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_mc3.png"
+			hover: ["Minecraft Singularities #3"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_ftbic.png"
+			hover: ["FTBIC Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_mc2.png"
+			hover: ["Minecraft Singularities #2"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_mobs.png"
+			hover: ["Mobs Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_blood_magic.png"
+			hover: ["Blood Magic Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_mekanism.png"
+			hover: ["Mekanism Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_thermal.png"
+			hover: ["Thermal Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_space.png"
+			hover: ["Space Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_ars.png"
+			hover: ["Ars Nouveau Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_tech.png"
+			hover: ["Tech Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_twilight.png"
+			hover: ["Twilight Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_blue_skies.png"
+			hover: ["Blue Skies Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_blocky.png"
+			hover: ["Blocky Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_undergarden.png"
+			hover: ["Undergarden Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_tconstruct.png"
+			hover: ["Tinkers Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			width: 1.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/quests/singu/long_background_psi.png"
+			hover: ["PSI Singularities"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			description: ["The Infinity Ingot is a combination of a lot of ingots."]
 			dependencies: ["0C4F359B153DD1A0"]
 			id: "1ACEEE78E66C87E1"
 			tasks: [{
@@ -18,70 +310,196 @@
 				type: "item"
 				item: "avaritia:infinity_ingot"
 			}]
+			rewards: [{
+				id: "1DA69AB11BFF1932"
+				type: "item"
+				item: {
+					id: "tconstruct:small_blade"
+					Count: 1b
+					tag: {
+						Material: "materialis:infinity"
+					}
+				}
+			}]
 		}
 		{
-			x: 1.0d
+			x: 3.0d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"In this pack, to craft an Infinity Catalyst, you need to combine every singularity in Agglomerate Matter form and combine again in an Extreme Crafting Table to get finally your Infinity Catalyst !"
+				""
+				"Also, its use in the Sphere of All Things."
+			]
+			dependencies: [
+				"0C4F359B153DD1A0"
+				"0AE31B324B5C8C8C"
+				"07A22CCF436DCC21"
+				"0661B67E5766285A"
+				"452B3BFA2B7AB92F"
+				"61677ECCC9BEF3D1"
+				"5A95B8EECF3397CC"
+				"183C120EA2428D78"
+				"6D705AA6096B2CB7"
+				"73145BA04969F2F6"
+				"0AD0CAC4641EB9A7"
+				"197550DC15B2300B"
+				"1538DD01548BFA03"
+				"50F28A1D5C5DA600"
+				"0FE5826EF73016C9"
+				"04A47B26DF36ED80"
+				"2A2A2DBE8E417E23"
+				"16CCA97BC51A23D5"
+				"588EED7AE212681F"
+				"44C32DD4FCABDA86"
+				"556488E94B4E8358"
+				"0770EBE159CC71A6"
+				"02148983D2A8BFE1"
+				"655DEE40F0A4D2C7"
+				"23679277982E8281"
+			]
+			size: 2.0d
 			id: "4BB16AAE2B3D988C"
 			tasks: [{
 				id: "1106BF8C1C2F76F8"
 				type: "item"
 				item: "avaritia:infinity_catalyst"
 			}]
+			rewards: [{
+				id: "2FBC0E5B26732085"
+				type: "item"
+				item: "avaritia:infinity_block"
+			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: -1.5d
+			y: -2.0d
+			shape: "square"
+			description: ["Craft an ingot of Neutronium."]
+			dependencies: ["29BC70C23160F467"]
 			id: "60FD4D8FA17A53D7"
 			tasks: [{
 				id: "43E33A028784C1A8"
 				type: "item"
 				item: "avaritia:neutronium_ingot"
 			}]
+			rewards: [{
+				id: "2405B14E4730B1AF"
+				type: "item"
+				item: "avaritia:neutron_pile"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"The Ultimate Stew is a huge stew with a lot of fruits and vegetables in it !"
+				""
+				"Also, its use in the Sphere of All Things."
+			]
+			dependencies: ["0C4F359B153DD1A0"]
 			id: "44FA34508B9165D3"
 			tasks: [{
 				id: "23B27C9C700ED3DC"
 				type: "item"
 				item: "avaritia:ultimate_stew"
 			}]
+			rewards: [{
+				id: "5E92F8E822696125"
+				type: "item"
+				item: "avaritia:ultimate_stew"
+			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.0d
+			shape: "square"
+			description: ["The job of the Neutron Collector is to farm passively Pile of Neutron."]
+			dependencies: [
+				"7AC685304D600112"
+				"17F7C5A61072C5BA"
+			]
 			id: "29BC70C23160F467"
 			tasks: [{
 				id: "5DD2C1BBF691F461"
 				type: "item"
 				item: "avaritia:neutron_collector"
 			}]
+			rewards: [{
+				id: "49E5345130FFF63A"
+				type: "item"
+				item: "ftbic:iridium_neutron_reflector"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The job of the Neutronium Compressor is to compress a bunch of items into a Singularity."
+				""
+				"And yep, there is a lot of singularity here ! Good Luck"
+			]
+			dependencies: [
+				"0C4F359B153DD1A0"
+				"4E2B181F09508CB7"
+			]
+			size: 2.0d
 			id: "7C4CE07814F3CD94"
 			tasks: [{
 				id: "0833A728A69FE364"
 				type: "item"
 				item: "avaritia:compressor"
 			}]
+			rewards: [{
+				id: "2AA9B5BED7904A23"
+				type: "item"
+				item: "avaritia:compressor"
+			}]
 		}
 		{
-			x: 6.0d
+			x: -1.5d
 			y: 0.0d
+			shape: "square"
+			description: [
+				"The Crystal Matrix is craft in the Alchemy Table with a Gaia Spirit, a Charge Snowball, some Diamond Lattice and Nether Stars !"
+				""
+				"You also need to get an Archmage's Blood Orb to do the craft."
+			]
+			dependencies: [
+				"00000000000009E2"
+				"124C6442CC789FCA"
+			]
 			id: "7AC685304D600112"
 			tasks: [{
 				id: "1DEA305A4ADD6D4B"
 				type: "item"
 				item: "avaritia:crystal_matrix_ingot"
 			}]
+			rewards: [{
+				id: "6AAD5EC3DEFBADFC"
+				type: "item"
+				item: "avaritia:crystal_matrix_ingot"
+			}]
 		}
 		{
-			x: 3.0d
-			y: -1.5d
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Extreme Crafting Table is used to craft Extreme Craft !"
+				""
+				"In this pack, this is a Custom Machine and not the original Crafting table, because the original is SO laggy ..."
+				""
+				"So the table do the craft automatically when you place all the component inside."
+			]
+			dependencies: ["7AC685304D600112"]
+			size: 2.0d
 			id: "0C4F359B153DD1A0"
 			tasks: [{
 				id: "00DDD5859486E804"
@@ -94,80 +512,174 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2666041288389B3E"
+				type: "item"
+				item: "avaritia:crystal_matrix_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The Endest Pearl can create a Black Hole, dealing damage to entities."
+				""
+				"Also, its use in the Sphere of All Things."
+			]
+			dependencies: ["0C4F359B153DD1A0"]
 			id: "62DC11B5E2D8D158"
 			tasks: [{
 				id: "318384ABAEFA1C50"
 				type: "item"
 				item: "avaritia:endest_pearl"
 			}]
+			rewards: [{
+				id: "1DDB16EA717D81B4"
+				type: "item"
+				item: "avaritia:endest_pearl"
+			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 3.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Sword of the Cosmos can one shot every mob, even a Creative player !"]
+			dependencies: ["4BB16AAE2B3D988C"]
 			id: "7B1E28049CF2BB91"
 			tasks: [{
 				id: "55DE00D19650992E"
 				type: "item"
 				item: "avaritia:infinity_sword"
 			}]
+			rewards: [{
+				id: "497E561B07877067"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"The Nature's Ruin lives up to its name."
+				""
+				"A shift right-click can destroy the Nature, turn grass into dirt and destroy every tree and flower around you."
+				""
+				"It can also one shot a tree."
+			]
+			dependencies: ["4BB16AAE2B3D988C"]
 			id: "0BC50A2F30D2979D"
 			tasks: [{
 				id: "79241B3DACB809C6"
 				type: "item"
 				item: "avaritia:infinity_axe"
 			}]
+			rewards: [{
+				id: "6405CDD2D1CA7519"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 2.0d
 			y: 1.0d
+			shape: "square"
+			description: ["The Hoe of the Green Earth can till your dirt in a large area."]
+			dependencies: ["4BB16AAE2B3D988C"]
 			id: "0D410CE5633E3C8B"
 			tasks: [{
 				id: "18AF819E49A411EC"
 				type: "item"
 				item: "avaritia:infinity_hoe"
 			}]
+			rewards: [{
+				id: "5CA1130560152F3D"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 4.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"The World Breaker destroy everything."
+				""
+				"When shift right-click, you can transform it into a hammer (and gained Fortune X) to destroy a huge cube!"
+				""
+				"note: It can't break Bedrock unfortunately."
+			]
+			dependencies: ["4BB16AAE2B3D988C"]
 			id: "1CD8FCD368167EC0"
 			tasks: [{
 				id: "6ED22CB6BE9D81D0"
 				type: "item"
 				item: "avaritia:infinity_pickaxe"
 			}]
+			rewards: [{
+				id: "5E51CBCA94A19700"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 4.0d
 			y: 1.0d
+			shape: "square"
+			description: [
+				"The Planet Eater can mine very fast every dirt, sand, gravel type of blocks."
+				""
+				"You can shift right-click to do a huge hole in the ground, like the World Breaker in hammer form."
+			]
+			dependencies: ["4BB16AAE2B3D988C"]
 			id: "673E7BBEA85FAE5B"
 			tasks: [{
 				id: "506F729B86B972DF"
 				type: "item"
 				item: "avaritia:infinity_shovel"
 			}]
+			rewards: [{
+				id: "6C997B8880831BA5"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+				random_bonus: 5
+			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: 2.0d
+			y: -1.0d
+			shape: "square"
+			description: ["The Longbow of the Heavens shoot explosive arrow and target entities nearby !"]
+			dependencies: ["4BB16AAE2B3D988C"]
 			id: "33C6F163371F26D1"
 			tasks: [{
 				id: "6D3B174124199283"
 				type: "item"
 				item: "avaritia:infinity_bow"
 			}]
+			rewards: [{
+				id: "0B6B88D90C17F873"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			title: "Infinity Armor"
+			x: 3.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Infinity Armor combined a lot of armors and make you INVINCIBLE !"]
+			dependencies: [
+				"55406F7249F6C73D"
+				"4BB16AAE2B3D988C"
+			]
 			id: "618E3E54728B3C47"
 			tasks: [
 				{
@@ -191,1636 +703,2411 @@
 					item: "avaritia:infinity_boots"
 				}
 			]
-		}
-		{
-			x: 1.0d
-			y: 2.0d
-			id: "2B256F142C9D22A5"
-			tasks: [{
-				id: "4AFB01E4E862C634"
+			rewards: [{
+				id: "09FA57C7DC3AFEDF"
 				type: "item"
-				item: "avaritia:neutron_burger"
+				item: "avaritia:infinity_catalyst"
+				random_bonus: 7
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
-			id: "245BD7555BC7326F"
-			tasks: [{
-				id: "799AD6D225CC9A8F"
-				type: "item"
-				item: "avaritia:neutron_doughnut"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 2.0d
-			id: "3784FEC753B0C435"
-			tasks: [{
-				id: "1E00C1BE458B2FE1"
-				type: "item"
-				item: "avaritia:neutron_taco"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 2.0d
-			id: "6DD57BC56945AA92"
-			tasks: [{
-				id: "180F6A9E1C0D3EC0"
-				type: "item"
-				item: "avaritia:neutron_sushi"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 2.0d
-			id: "6162ACD7FDAA4431"
-			tasks: [{
-				id: "0FA058EA9A705031"
-				type: "item"
-				item: "avaritia:neutron_pecan_pie"
-			}]
-		}
-		{
-			x: 9.5d
-			y: 0.0d
+			x: 11.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "251E6A1B45026493"
 			tasks: [{
 				id: "5243AC310E12FF2E"
 				type: "item"
 				item: "ragnamod_seven:calorite_singularity"
 			}]
-		}
-		{
-			x: 10.5d
-			y: 0.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "4B56C7B377545899"
-			tasks: [{
-				id: "7ED68DA44208EE21"
+			rewards: [{
+				id: "60BCF37C18F842A2"
 				type: "item"
-				item: "ragnamod_seven:sourcegem_singularity"
+				item: "ragnamod_seven:calorite_singularity"
 			}]
 		}
 		{
-			x: 11.5d
-			y: 0.0d
+			x: 5.5d
+			y: 1.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "2713F06E8F8AF835"
 			tasks: [{
 				id: "0CDB303501FDA4A6"
 				type: "item"
 				item: "ragnamod_seven:wardstone_singularity"
 			}]
+			rewards: [{
+				id: "4F75F4C4C05DCA12"
+				type: "item"
+				item: "ragnamod_seven:wardstone_singularity"
+			}]
 		}
 		{
-			x: 12.5d
-			y: 0.0d
+			x: 5.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "6E444598963DA21C"
 			tasks: [{
 				id: "25DB9D5707A87F6D"
 				type: "item"
 				item: "ragnamod_seven:sunmetal_singularity"
 			}]
-		}
-		{
-			x: 13.5d
-			y: 0.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "6DE27A12BDC6CCFB"
-			tasks: [{
-				id: "563BD0E37A07388B"
+			rewards: [{
+				id: "415B0C280456D809"
 				type: "item"
-				item: "ragnamod_seven:oraclejelly_singularity"
+				item: "ragnamod_seven:sunmetal_singularity"
 			}]
 		}
 		{
-			x: 14.5d
-			y: 0.0d
+			x: 5.5d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "5E60E3F6A8C20064"
 			tasks: [{
 				id: "1AB2DEE22BA3F33B"
 				type: "item"
 				item: "ragnamod_seven:netherbrass_singularity"
 			}]
+			rewards: [{
+				id: "14D2FA49971DE22E"
+				type: "item"
+				item: "ragnamod_seven:netherbrass_singularity"
+			}]
 		}
 		{
-			x: 15.5d
-			y: 0.0d
+			x: 5.5d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1749B3AF2FD75C51"
 			tasks: [{
 				id: "0EDB1FE21C57625C"
 				type: "item"
 				item: "ragnamod_seven:cerebral_singularity"
 			}]
-		}
-		{
-			x: 16.5d
-			y: 0.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "789C31E07EF91E8F"
-			tasks: [{
-				id: "2FBC16DD13B3C996"
+			rewards: [{
+				id: "569D6D7BDD250DBC"
 				type: "item"
-				item: "ragnamod_seven:algal_singularity"
+				item: "ragnamod_seven:cerebral_singularity"
 			}]
 		}
 		{
-			x: 17.5d
-			y: 0.0d
+			x: 7.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "59E1B3EAC3180117"
 			tasks: [{
 				id: "1B69758DD7E8702B"
 				type: "item"
 				item: "ragnamod_seven:fluix_singularity"
 			}]
+			rewards: [{
+				id: "5446BF83F0C68A24"
+				type: "item"
+				item: "ragnamod_seven:fluix_singularity"
+			}]
 		}
 		{
-			x: 9.5d
-			y: 1.0d
+			x: 8.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "4DFEE7117FA2478C"
 			tasks: [{
 				id: "243E791F55EC101C"
 				type: "item"
 				item: "ragnamod_seven:hydraulicengine_singularity"
 			}]
+			rewards: [{
+				id: "7F434612EFB2B7FA"
+				type: "item"
+				item: "ragnamod_seven:hydraulicengine_singularity"
+			}]
 		}
 		{
-			x: 10.5d
-			y: 1.0d
+			x: 8.5d
+			y: -2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "408DF0125CC4AB09"
 			tasks: [{
 				id: "0005E45C7E898C6C"
 				type: "item"
 				item: "ragnamod_seven:heatengine_singularity"
 			}]
-		}
-		{
-			x: 11.5d
-			y: 1.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "74A3EF40E083F056"
-			tasks: [{
-				id: "586AA91BEB565A87"
+			rewards: [{
+				id: "4C264533AAD12EB3"
 				type: "item"
-				item: "ragnamod_seven:sturdysheet_singularity"
+				item: "ragnamod_seven:heatengine_singularity"
 			}]
 		}
 		{
-			x: 12.5d
-			y: 1.0d
+			x: 8.5d
+			y: -3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "1535CFB3912088D7"
-			tasks: [{
-				id: "3326E46D4A911A4B"
-				type: "item"
-				item: "ragnamod_seven:zinc_singularity"
-			}]
-		}
-		{
-			x: 13.5d
-			y: 1.0d
-			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "4B91CE7668FEAE30"
 			tasks: [{
 				id: "5BF64A5B7CF9B456"
 				type: "item"
 				item: "ragnamod_seven:precisionmechanism_singularity"
 			}]
+			rewards: [{
+				id: "12184185051B4AB6"
+				type: "item"
+				item: "ragnamod_seven:precisionmechanism_singularity"
+			}]
 		}
 		{
-			x: 14.5d
-			y: 1.0d
+			x: 8.5d
+			y: -4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "0B70CEDC56448D5A"
 			tasks: [{
 				id: "311054231C14993F"
 				type: "item"
 				item: "ragnamod_seven:electrontube_singularity"
 			}]
+			rewards: [{
+				id: "74E5800D72813B17"
+				type: "item"
+				item: "ragnamod_seven:electrontube_singularity"
+			}]
 		}
 		{
-			x: 15.5d
-			y: 1.0d
+			x: 12.5d
+			y: -1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "29772D0B95C39C2F"
 			tasks: [{
 				id: "71204535B4DE834C"
 				type: "item"
 				item: "ragnamod_seven:compactmachinewall_singularity"
 			}]
-		}
-		{
-			x: 16.5d
-			y: 1.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "4A04FDF9760A248F"
-			tasks: [{
-				id: "10DC210475F70CCB"
+			rewards: [{
+				id: "156AC88AF90643B1"
 				type: "item"
-				item: "ragnamod_seven:pendorite_singularity"
+				item: "ragnamod_seven:compactmachinewall_singularity"
 			}]
 		}
 		{
-			x: 17.5d
-			y: 1.0d
+			x: 7.5d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "55D4EB5C5C99CDC4"
-			tasks: [{
-				id: "12FABE54427C5A3E"
-				type: "item"
-				item: "ragnamod_seven:constructionpaste_singularity"
-			}]
-		}
-		{
-			x: 9.5d
-			y: 2.0d
-			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "0AD430735024B6E1"
 			tasks: [{
 				id: "16D93F508A1E1925"
 				type: "item"
 				item: "ragnamod_seven:pixie_singularity"
 			}]
+			rewards: [{
+				id: "609BD8CC0D0026E2"
+				type: "item"
+				item: "ragnamod_seven:pixie_singularity"
+			}]
 		}
 		{
-			x: 10.5d
-			y: 2.0d
+			x: 7.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "2436EC8D54F4E3DA"
 			tasks: [{
 				id: "51D799749F4B0DCD"
 				type: "item"
 				item: "ragnamod_seven:manadiamond_singularity"
 			}]
+			rewards: [{
+				id: "5794544C787BBDF9"
+				type: "item"
+				item: "ragnamod_seven:manadiamond_singularity"
+			}]
 		}
 		{
-			x: 11.5d
-			y: 2.0d
+			x: 7.5d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "29895C7F5B8CAC2A"
 			tasks: [{
 				id: "452E70A83A278D72"
 				type: "item"
 				item: "ragnamod_seven:livingwood_singularity"
 			}]
+			rewards: [{
+				id: "26FCEB2F99735132"
+				type: "item"
+				item: "ragnamod_seven:livingwood_singularity"
+			}]
 		}
 		{
-			x: 12.5d
-			y: 2.0d
+			x: 7.5d
+			y: 4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "11A2CC2E71F0F784"
 			tasks: [{
 				id: "6A1551785F6D491B"
 				type: "item"
 				item: "ragnamod_seven:livingrock_singularity"
 			}]
+			rewards: [{
+				id: "70FC892BE96F6BE5"
+				type: "item"
+				item: "ragnamod_seven:livingrock_singularity"
+			}]
 		}
 		{
-			x: 13.5d
-			y: 2.0d
+			x: 6.5d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "3AE25FC89DA6D458"
 			tasks: [{
 				id: "4BD9312766A1B6DC"
 				type: "item"
 				item: "ragnamod_seven:ventium_singularity"
 			}]
+			rewards: [{
+				id: "5BF56DD3F243AA27"
+				type: "item"
+				item: "ragnamod_seven:ventium_singularity"
+			}]
 		}
 		{
-			x: 14.5d
-			y: 2.0d
+			x: 6.5d
+			y: 4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "0FCA4B369B8794DB"
 			tasks: [{
 				id: "359822BCA5AE82C9"
 				type: "item"
 				item: "ragnamod_seven:horizonite_singularity"
 			}]
+			rewards: [{
+				id: "369734B7B0475CB2"
+				type: "item"
+				item: "ragnamod_seven:horizonite_singularity"
+			}]
 		}
 		{
-			x: 15.5d
-			y: 2.0d
+			x: 6.5d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "7C68E956E31DA57F"
 			tasks: [{
 				id: "46C8FDF400057C64"
 				type: "item"
 				item: "ragnamod_seven:falsite_singularity"
 			}]
+			rewards: [{
+				id: "1271CBE3EC5F3DCC"
+				type: "item"
+				item: "ragnamod_seven:falsite_singularity"
+			}]
 		}
 		{
-			x: 16.5d
-			y: 2.0d
+			x: 6.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "5A50C366408F47EA"
 			tasks: [{
 				id: "3BA5ADC87CF115E0"
 				type: "item"
 				item: "ragnamod_seven:charoite_singularity"
 			}]
+			rewards: [{
+				id: "3A68105920ACDBEB"
+				type: "item"
+				item: "ragnamod_seven:charoite_singularity"
+			}]
 		}
 		{
-			x: 17.5d
+			x: 6.5d
 			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1D2E7BB67858314A"
 			tasks: [{
 				id: "0F1B8D8DA97DA9E9"
 				type: "item"
 				item: "ragnamod_seven:aquite_singularity"
 			}]
-		}
-		{
-			x: 9.5d
-			y: 3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "0161A4F9616334B4"
-			tasks: [{
-				id: "09E939AAF5720DDA"
+			rewards: [{
+				id: "553DDF3BDF4CA4C7"
 				type: "item"
-				item: "ragnamod_seven:pyrope_singularity"
-			}]
-		}
-		{
-			x: 10.5d
-			y: 3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "29AA4CC1C4D0079F"
-			tasks: [{
-				id: "56EC121ECC3467E8"
-				type: "item"
-				item: "ragnamod_seven:diopside_singularity"
+				item: "ragnamod_seven:aquite_singularity"
 			}]
 		}
 		{
 			x: 11.5d
-			y: 3.0d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "4D1E682B88492490"
-			tasks: [{
-				id: "33E62E61FA26AE80"
-				type: "item"
-				item: "ragnamod_seven:vengefulwill_singularity"
-			}]
-		}
-		{
-			x: 12.5d
-			y: 3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "57BD06CFF2AC1201"
-			tasks: [{
-				id: "35CC358B433C1CF2"
-				type: "item"
-				item: "ragnamod_seven:steadfaswill_singularity"
-			}]
-		}
-		{
-			x: 13.5d
-			y: 3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "5AD86BB162BA9DB7"
-			tasks: [{
-				id: "1179257895F23973"
-				type: "item"
-				item: "ragnamod_seven:destructivewill_singularity"
-			}]
-		}
-		{
-			x: 14.5d
-			y: 3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "01B72F4CDD6D178D"
-			tasks: [{
-				id: "6F80FC11E4CD1431"
-				type: "item"
-				item: "ragnamod_seven:demonwill_singularity"
-			}]
-		}
-		{
-			x: 15.5d
-			y: 3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "0BF496992EEC702D"
-			tasks: [{
-				id: "021DFA3AC67076A7"
-				type: "item"
-				item: "ragnamod_seven:corrosivewill_singularity"
-			}]
-		}
-		{
-			x: 16.5d
-			y: 3.0d
-			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "18DBA8924B949C76"
 			tasks: [{
 				id: "7D35487514BFF631"
 				type: "item"
 				item: "ragnamod_seven:ostrum_singularity"
 			}]
+			rewards: [{
+				id: "07D9777247912F38"
+				type: "item"
+				item: "ragnamod_seven:ostrum_singularity"
+			}]
 		}
 		{
-			x: 17.5d
-			y: 3.0d
+			x: 11.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "44349A99105AFD28"
 			tasks: [{
 				id: "3BEC2A864CFB48E2"
 				type: "item"
 				item: "ragnamod_seven:desh_singularity"
 			}]
+			rewards: [{
+				id: "77BD588CEDD39859"
+				type: "item"
+				item: "ragnamod_seven:desh_singularity"
+			}]
 		}
 		{
 			x: 9.5d
-			y: 4.0d
+			y: -2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "6E04994156C28E24"
 			tasks: [{
 				id: "4615B6A96A756C6B"
 				type: "item"
 				item: "ragnamod_seven:antimatter_singularity"
 			}]
+			rewards: [{
+				id: "6096BE1FCCE34D94"
+				type: "item"
+				item: "ragnamod_seven:antimatter_singularity"
+			}]
 		}
 		{
-			x: 10.5d
-			y: 4.0d
+			x: 8.5d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "46F30243449B2734"
 			tasks: [{
 				id: "16A3C8E15706FABE"
 				type: "item"
 				item: "ragnamod_seven:mundabitur_singularity"
 			}]
+			rewards: [{
+				id: "73C6199E67111AF0"
+				type: "item"
+				item: "ragnamod_seven:mundabitur_singularity"
+			}]
 		}
 		{
-			x: 11.5d
-			y: 4.0d
+			x: 8.5d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "2656F8578D8F9452"
 			tasks: [{
 				id: "4A5791C12EAD5392"
 				type: "item"
 				item: "ragnamod_seven:darknetherstar_singularity"
 			}]
+			rewards: [{
+				id: "29A8C57B86D1BA17"
+				type: "item"
+				item: "ragnamod_seven:darknetherstar_singularity"
+			}]
 		}
 		{
-			x: 12.5d
+			x: 8.5d
 			y: 4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "28C56D2A0BFB5B8D"
 			tasks: [{
 				id: "067467734AD4ECB4"
 				type: "item"
 				item: "ragnamod_seven:arcanecrystal_singularity"
 			}]
+			rewards: [{
+				id: "0F0DB764F008A5B5"
+				type: "item"
+				item: "ragnamod_seven:arcanecrystal_singularity"
+			}]
 		}
 		{
-			x: 13.5d
-			y: 4.0d
+			x: 8.5d
+			y: 0.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "266832DCE491FD9E"
 			tasks: [{
 				id: "3A85C19E90EFF271"
 				type: "item"
 				item: "ragnamod_seven:darkpower_singularity"
 			}]
+			rewards: [{
+				id: "157BB594999A4625"
+				type: "item"
+				item: "ragnamod_seven:darkpower_singularity"
+			}]
 		}
 		{
-			x: 14.5d
-			y: 4.0d
+			x: 8.5d
+			y: 1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "2E80AC6915DEB4A8"
 			tasks: [{
 				id: "32957A0C84B9527D"
 				type: "item"
 				item: "ragnamod_seven:bloodpotash_singularity"
 			}]
-		}
-		{
-			x: 15.5d
-			y: 4.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "35A99AAB73518707"
-			tasks: [{
-				id: "37E5BE4085079010"
+			rewards: [{
+				id: "74CE4DA19C5DAB39"
 				type: "item"
-				item: "ragnamod_seven:industrialiron_singularity"
+				item: "ragnamod_seven:bloodpotash_singularity"
 			}]
 		}
 		{
-			x: 16.5d
-			y: 4.0d
+			x: 8.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "38F3EF1C8F69ECAA"
-			tasks: [{
-				id: "20031ADEBF07ED4B"
-				type: "item"
-				item: "ragnamod_seven:castiron_singularity"
-			}]
-		}
-		{
-			x: 17.5d
-			y: 4.0d
-			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "0DABD0C008C25433"
 			tasks: [{
 				id: "5B198525557FF19E"
 				type: "item"
 				item: "ragnamod_seven:steamengine_singularity"
 			}]
+			rewards: [{
+				id: "1BF475211A93716C"
+				type: "item"
+				item: "ragnamod_seven:steamengine_singularity"
+			}]
 		}
 		{
-			x: 9.5d
-			y: 5.0d
+			x: 10.5d
+			y: 0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "28D3011A0113E011"
 			tasks: [{
 				id: "2C1EA705079B58C7"
 				type: "item"
 				item: "ragnamod_seven:quartz_singularity"
 			}]
+			rewards: [{
+				id: "3163356CB715BB23"
+				type: "item"
+				item: "ragnamod_seven:quartz_singularity"
+			}]
 		}
 		{
 			x: 10.5d
-			y: 5.0d
+			y: -3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1312E20AFD8592B6"
 			tasks: [{
 				id: "5EB4AEFAD1FD4016"
 				type: "item"
 				item: "ragnamod_seven:copper_singularity"
 			}]
+			rewards: [{
+				id: "19FD0D96395D0D95"
+				type: "item"
+				item: "ragnamod_seven:copper_singularity"
+			}]
 		}
 		{
-			x: 11.5d
-			y: 5.0d
+			x: 10.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "41578C6A39AD5F85"
 			tasks: [{
 				id: "2E38A6B1D1D8B5F3"
 				type: "item"
 				item: "ragnamod_seven:iron_singularity"
 			}]
+			rewards: [{
+				id: "5793DD8BA6CFFB12"
+				type: "item"
+				item: "ragnamod_seven:iron_singularity"
+			}]
 		}
 		{
-			x: 12.5d
-			y: 5.0d
+			x: 10.5d
+			y: -2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "43230420E37AE1A5"
 			tasks: [{
 				id: "08C4E93AE7546644"
 				type: "item"
 				item: "ragnamod_seven:redstone_singularity"
 			}]
-		}
-		{
-			x: 13.5d
-			y: 5.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "1176742CF2F2EC52"
-			tasks: [{
-				id: "13C1A446876087CD"
+			rewards: [{
+				id: "46D6CD00A5A148F3"
 				type: "item"
-				item: "ragnamod_seven:jellybaby_singularity"
+				item: "ragnamod_seven:redstone_singularity"
 			}]
 		}
 		{
-			x: 14.5d
-			y: 5.0d
+			x: 10.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "6CB08321856228EF"
 			tasks: [{
 				id: "578EB35D40A4809D"
 				type: "item"
 				item: "ragnamod_seven:netheritescrap_singularity"
 			}]
+			rewards: [{
+				id: "7981166E0A9AA4E8"
+				type: "item"
+				item: "ragnamod_seven:netheritescrap_singularity"
+			}]
 		}
 		{
-			x: 15.5d
-			y: 5.0d
+			x: 10.5d
+			y: 1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "4FF15EB458E5D19E"
 			tasks: [{
 				id: "0B6A467A393C5145"
 				type: "item"
 				item: "ragnamod_seven:lapislazuli_singularity"
 			}]
+			rewards: [{
+				id: "2474E14AAA08DD9F"
+				type: "item"
+				item: "ragnamod_seven:lapislazuli_singularity"
+			}]
 		}
 		{
-			x: 16.5d
-			y: 5.0d
+			x: 10.5d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "6706AE0D7D6F644D"
 			tasks: [{
 				id: "24ED10CEDDF815CA"
 				type: "item"
 				item: "ragnamod_seven:glowstone_singularity"
 			}]
+			rewards: [{
+				id: "40FFDF3602EBA34C"
+				type: "item"
+				item: "ragnamod_seven:glowstone_singularity"
+			}]
 		}
 		{
-			x: 17.5d
-			y: 5.0d
+			x: 10.5d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "3D049D87660F2DCA"
 			tasks: [{
 				id: "1CFD95AA38966B86"
 				type: "item"
 				item: "ragnamod_seven:enderpearl_singularity"
 			}]
+			rewards: [{
+				id: "47D2334B305EACA5"
+				type: "item"
+				item: "ragnamod_seven:enderpearl_singularity"
+			}]
 		}
 		{
-			x: 9.5d
-			y: 6.0d
+			x: 10.5d
+			y: -0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "73F951AFBDA8C471"
 			tasks: [{
 				id: "6D28BB2422C7371C"
 				type: "item"
 				item: "ragnamod_seven:emerald_singularity"
 			}]
+			rewards: [{
+				id: "764D4F3C319B63C5"
+				type: "item"
+				item: "ragnamod_seven:emerald_singularity"
+			}]
 		}
 		{
 			x: 10.5d
-			y: 6.0d
+			y: -1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1EA4F5C586A4113A"
 			tasks: [{
 				id: "5E14453EB8D08299"
 				type: "item"
 				item: "ragnamod_seven:diamond_singularity"
 			}]
+			rewards: [{
+				id: "4B4E486C8BF98EF8"
+				type: "item"
+				item: "ragnamod_seven:manadiamond_singularity"
+			}]
 		}
 		{
-			x: 11.5d
-			y: 6.0d
+			x: 10.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "2E53598EC55D2500"
 			tasks: [{
 				id: "53CC1293410A346D"
 				type: "item"
 				item: "ragnamod_seven:coal_singularity"
 			}]
+			rewards: [{
+				id: "5ECB5468E77CBB71"
+				type: "item"
+				item: "ragnamod_seven:coal_singularity"
+			}]
 		}
 		{
 			x: 12.5d
-			y: 6.0d
+			y: 1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "6C78396355D8B098"
 			tasks: [{
 				id: "0937EC0EFFEDB704"
 				type: "item"
 				item: "ragnamod_seven:fertilizer_singularity"
 			}]
-		}
-		{
-			x: 13.5d
-			y: 6.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "4AB7CA8C7DEDB6C5"
-			tasks: [{
-				id: "6E6894AC83654741"
+			rewards: [{
+				id: "689BED18B9801857"
 				type: "item"
-				item: "ragnamod_seven:pinkslime_singularity"
+				item: "ragnamod_seven:fertilizer_singularity"
 			}]
 		}
 		{
-			x: 14.5d
-			y: 6.0d
+			x: 12.5d
+			y: 0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "0C82B3ECB472A177"
 			tasks: [{
 				id: "54FE6442E618CBA6"
 				type: "item"
 				item: "ragnamod_seven:plastic_singularity"
 			}]
-		}
-		{
-			x: 15.5d
-			y: 6.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "19AD9A114B96B42E"
-			tasks: [{
-				id: "1C58D2E12DCC4CF9"
+			rewards: [{
+				id: "28E14A1888492FF7"
 				type: "item"
-				item: "ragnamod_seven:glowcoke_singularity"
+				item: "ragnamod_seven:plastic_singularity"
 			}]
 		}
 		{
-			x: 16.5d
-			y: 6.0d
+			x: 12.5d
+			y: -0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "62258E132AB71313"
 			tasks: [{
 				id: "3369EE19B4A154C0"
 				type: "item"
 				item: "ragnamod_seven:logicdirector_singularity"
 			}]
+			rewards: [{
+				id: "1F4D8312884543ED"
+				type: "item"
+				item: "ragnamod_seven:logicdirector_singularity"
+			}]
 		}
 		{
-			x: 17.5d
-			y: 6.0d
+			x: 12.5d
+			y: 0.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "4BBB4E4DBE78CA37"
 			tasks: [{
 				id: "69A55D2F1CAE9698"
 				type: "item"
 				item: "ragnamod_seven:variablecard_singularity"
 			}]
+			rewards: [{
+				id: "78766C08121E28EF"
+				type: "item"
+				item: "ragnamod_seven:variablecard_singularity"
+			}]
 		}
 		{
 			x: 9.5d
-			y: 7.0d
+			y: -1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "69F42B5F95A4027A"
 			tasks: [{
 				id: "43974921CADA140D"
 				type: "item"
 				item: "ragnamod_seven:electrolytic_singularity"
 			}]
+			rewards: [{
+				id: "2AB6A967D67A13E7"
+				type: "item"
+				item: "ragnamod_seven:electrolytic_singularity"
+			}]
 		}
 		{
-			x: 10.5d
-			y: 7.0d
+			x: 9.5d
+			y: 0.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "4E7796B4E0D73019"
 			tasks: [{
 				id: "20FFD341CA8C6DBB"
 				type: "item"
 				item: "ragnamod_seven:mekasuitmodule_singularity"
 			}]
+			rewards: [{
+				id: "2FB2DE1D235AB502"
+				type: "item"
+				item: "ragnamod_seven:mekasuitmodule_singularity"
+			}]
 		}
 		{
-			x: 11.5d
-			y: 7.0d
+			x: 9.5d
+			y: 0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "52C8729064F15DFE"
 			tasks: [{
 				id: "79DF77EDDB33E38C"
 				type: "item"
 				item: "ragnamod_seven:osmium_singularity"
 			}]
+			rewards: [{
+				id: "6035482B12E23874"
+				type: "item"
+				item: "ragnamod_seven:osmium_singularity"
+			}]
 		}
 		{
-			x: 12.5d
-			y: 7.0d
+			x: 9.5d
+			y: 1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "77276EB31CEB0E2E"
 			tasks: [{
 				id: "35378DA85580BD5E"
 				type: "item"
 				item: "ragnamod_seven:uranium_singularity"
 			}]
+			rewards: [{
+				id: "49655F200E3643FC"
+				type: "item"
+				item: "ragnamod_seven:uranium_singularity"
+			}]
 		}
 		{
-			x: 13.5d
-			y: 7.0d
+			x: 9.5d
+			y: -3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "6BAF2DCA4960D912"
 			tasks: [{
 				id: "0F81DC33546C7103"
 				type: "item"
 				item: "ragnamod_seven:scrap_singularity"
 			}]
+			rewards: [{
+				id: "55CB7E99CFBD2ECB"
+				type: "item"
+				item: "ragnamod_seven:scrap_singularity"
+			}]
 		}
 		{
-			x: 14.5d
-			y: 7.0d
+			x: 10.5d
+			y: 4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1B3D5C53950D5796"
 			tasks: [{
 				id: "2165C98BB8B78F6C"
 				type: "item"
 				item: "ragnamod_seven:amethyst_singularity"
 			}]
+			rewards: [{
+				id: "52F689A777ECE165"
+				type: "item"
+				item: "ragnamod_seven:amethyst_singularity"
+			}]
 		}
 		{
-			x: 15.5d
-			y: 7.0d
+			x: 9.5d
+			y: -0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "04F36C203898D280"
 			tasks: [{
 				id: "1B253CA5993175FD"
 				type: "item"
 				item: "ragnamod_seven:reprocessedfissilefragment_singularity"
 			}]
+			rewards: [{
+				id: "7DFA05B30C2B0666"
+				type: "item"
+				item: "ragnamod_seven:reprocessedfissilefragment_singularity"
+			}]
 		}
 		{
-			x: 16.5d
-			y: 7.0d
+			x: 9.5d
+			y: -4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "7619F461E6D406A0"
 			tasks: [{
 				id: "21E60469E8AE305D"
 				type: "item"
 				item: "ragnamod_seven:ftbroteinbar_singularity"
 			}]
+			rewards: [{
+				id: "1C8A5D9FFD23673F"
+				type: "item"
+				item: "ragnamod_seven:ftbroteinbar_singularity"
+			}]
 		}
 		{
-			x: 17.5d
-			y: 7.0d
+			x: 9.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "20F138A5251E47C7"
 			tasks: [{
 				id: "7A355C61D257FFB7"
 				type: "item"
 				item: "ragnamod_seven:compressedcoalball_singularity"
 			}]
+			rewards: [{
+				id: "5FD12688F87B9ED7"
+				type: "item"
+				item: "ragnamod_seven:compressedcoalball_singularity"
+			}]
 		}
 		{
-			x: 9.5d
-			y: -1.0d
+			x: 11.5d
+			y: -2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "4DA4C8DC392E5A99"
 			tasks: [{
 				id: "2EAF164AA954C1BE"
 				type: "item"
 				item: "ragnamod_seven:glycerol_singularity"
 			}]
+			rewards: [{
+				id: "1BFE5FE3F3B10F56"
+				type: "item"
+				item: "ragnamod_seven:glycerol_singularity"
+			}]
 		}
 		{
-			x: 10.5d
-			y: -1.0d
+			x: 11.5d
+			y: -3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "07FF2975596D6998"
 			tasks: [{
 				id: "2D76E3B37716DC9C"
 				type: "item"
 				item: "ragnamod_seven:transistor_singularity"
 			}]
+			rewards: [{
+				id: "601D9F86BEDA7148"
+				type: "item"
+				item: "ragnamod_seven:transistor_singularity"
+			}]
 		}
 		{
-			x: 11.5d
-			y: -1.0d
+			x: 7.5d
+			y: 0.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "7C4B96E4CBD1CA93"
 			tasks: [{
 				id: "1086DA19EFA6589E"
 				type: "item"
 				item: "ragnamod_seven:blazingcrystal_singularity"
 			}]
+			rewards: [{
+				id: "502B45997F82D7FE"
+				type: "item"
+				item: "ragnamod_seven:blazingcrystal_singularity"
+			}]
 		}
 		{
-			x: 12.5d
-			y: -1.0d
+			x: 7.5d
+			y: -0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1E2619AA4A231C5B"
 			tasks: [{
 				id: "305D8DBF571B7E09"
 				type: "item"
 				item: "ragnamod_seven:nioticcrystal_singularity"
 			}]
+			rewards: [{
+				id: "52EABE65090BF55B"
+				type: "item"
+				item: "ragnamod_seven:nioticcrystal_singularity"
+			}]
 		}
 		{
-			x: 13.5d
-			y: -1.0d
+			x: 7.5d
+			y: 0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "3F95A9734789F444"
 			tasks: [{
 				id: "300BF18E0E1D5D13"
 				type: "item"
 				item: "ragnamod_seven:nitrocrystal_singularity"
 			}]
+			rewards: [{
+				id: "570F1B45C01DE6FC"
+				type: "item"
+				item: "ragnamod_seven:nitrocrystal_singularity"
+			}]
 		}
 		{
-			x: 14.5d
+			x: 7.5d
 			y: -1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "33089F28776AF3AB"
 			tasks: [{
 				id: "7AA060E3357A8756"
 				type: "item"
 				item: "ragnamod_seven:spiritedcrystal_singularity"
 			}]
+			rewards: [{
+				id: "1E0A6EE2309B18EB"
+				type: "item"
+				item: "ragnamod_seven:spiritedcrystal_singularity"
+			}]
 		}
 		{
-			x: 15.5d
-			y: -1.0d
+			x: 7.5d
+			y: 1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "01FD06A6CCB9CCBB"
 			tasks: [{
 				id: "72BD672EC26A40AB"
 				type: "item"
 				item: "ragnamod_seven:energizedsteel_singularity"
 			}]
-		}
-		{
-			x: 16.5d
-			y: -1.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "7DE3812E29B6E02A"
-			tasks: [{
-				id: "19E7CD06DFEBAEFF"
+			rewards: [{
+				id: "4E096707583ED68D"
 				type: "item"
-				item: "ragnamod_seven:uraninite_singularity"
+				item: "ragnamod_seven:energizedsteel_singularity"
 			}]
 		}
 		{
-			x: 17.5d
-			y: -1.0d
+			x: 11.5d
+			y: 0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "5ED7BEB66A4B0FD8"
 			tasks: [{
 				id: "3FF6B52566AD988D"
 				type: "item"
 				item: "ragnamod_seven:ebony_singularity"
 			}]
-		}
-		{
-			x: 9.5d
-			y: -2.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "6127F6ED98FA2FA2"
-			tasks: [{
-				id: "1A8D2DDB3040B7DC"
+			rewards: [{
+				id: "26C91BC36C5F25BA"
 				type: "item"
-				item: "ragnamod_seven:niter_singularity"
+				item: "ragnamod_seven:ebony_singularity"
 			}]
 		}
 		{
-			x: 10.5d
-			y: -2.0d
+			x: 12.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "608FE050A4A7970F"
-			tasks: [{
-				id: "47C55C6B2F90DC4C"
-				type: "item"
-				item: "ragnamod_seven:cinnabar_singularity"
-			}]
-		}
-		{
-			x: 11.5d
-			y: -2.0d
-			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "0E8179AAF84D9986"
 			tasks: [{
 				id: "30D74664A4926B19"
 				type: "item"
 				item: "ragnamod_seven:blizz_singularity"
 			}]
+			rewards: [{
+				id: "5D3D5FCD34CC676D"
+				type: "item"
+				item: "ragnamod_seven:blizz_singularity"
+			}]
 		}
 		{
 			x: 12.5d
-			y: -2.0d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "4ED24E24DA70048E"
 			tasks: [{
 				id: "5DFFCC9E6DF9BA11"
 				type: "item"
 				item: "ragnamod_seven:blitz_singularity"
 			}]
-		}
-		{
-			x: 13.5d
-			y: -2.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "0CA24C72E1CD886B"
-			tasks: [{
-				id: "66EA5A6C101CB91E"
+			rewards: [{
+				id: "3C56B70033B34BDB"
 				type: "item"
-				item: "ragnamod_seven:bitumen_singularity"
+				item: "ragnamod_seven:blitz_singularity"
 			}]
 		}
 		{
-			x: 14.5d
-			y: -2.0d
+			x: 12.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "699A3CCB6FB11AC4"
 			tasks: [{
 				id: "4125D356AD4BAEC6"
 				type: "item"
 				item: "ragnamod_seven:basalz_singularity"
 			}]
-		}
-		{
-			x: 15.5d
-			y: -2.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "5E71B153078D6032"
-			tasks: [{
-				id: "3ECF8D19966F5F4E"
+			rewards: [{
+				id: "3239208CAD6C7CFF"
 				type: "item"
-				item: "ragnamod_seven:lead_singularity"
+				item: "ragnamod_seven:basalz_singularity"
 			}]
 		}
 		{
-			x: 16.5d
-			y: -2.0d
+			x: 12.5d
+			y: 4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "7EF995486F54306E"
-			tasks: [{
-				id: "148A5AB7B090B9BF"
-				type: "item"
-				item: "ragnamod_seven:nickel_singularity"
-			}]
-		}
-		{
-			x: 17.5d
-			y: -2.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "52764CCFD348DB89"
-			tasks: [{
-				id: "571D91935297309D"
-				type: "item"
-				item: "ragnamod_seven:silver_singularity"
-			}]
-		}
-		{
-			x: 9.5d
-			y: -3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "29FE413DA74F004D"
-			tasks: [{
-				id: "6830DA3D422B733B"
-				type: "item"
-				item: "ragnamod_seven:tin_singularity"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -3.0d
-			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "34D9796D28D39969"
 			tasks: [{
 				id: "213ED4986671C500"
 				type: "item"
 				item: "ragnamod_seven:rosin_singularity"
 			}]
+			rewards: [{
+				id: "66EB4950DAAC7D7E"
+				type: "item"
+				item: "ragnamod_seven:rosin_singularity"
+			}]
 		}
 		{
-			x: 11.5d
-			y: -3.0d
+			x: 12.5d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "014BD323EFE70ECE"
 			tasks: [{
 				id: "61E89E3326C23081"
 				type: "item"
 				item: "ragnamod_seven:slag_singularity"
 			}]
+			rewards: [{
+				id: "70362FE1711A3C68"
+				type: "item"
+				item: "ragnamod_seven:slag_singularity"
+			}]
 		}
 		{
 			x: 12.5d
-			y: -3.0d
+			y: -4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1BCE74D74D232568"
 			tasks: [{
 				id: "0A4A0DB08098C83B"
 				type: "item"
 				item: "ragnamod_seven:cobalt_singularity"
 			}]
-		}
-		{
-			x: 13.5d
-			y: -3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "1DFA50EAB687089F"
-			tasks: [{
-				id: "4F6D1A5F9E28ACF3"
+			rewards: [{
+				id: "7BB82F68A6D0E457"
 				type: "item"
-				item: "ragnamod_seven:soulpowder_singularity"
+				item: "ragnamod_seven:cobalt_singularity"
 			}]
 		}
 		{
-			x: 14.5d
-			y: -3.0d
+			x: 9.5d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1EFEFCFFC1A290D9"
 			tasks: [{
 				id: "09D732A2FBF0220B"
 				type: "item"
 				item: "ragnamod_seven:zombieheart_singularity"
 			}]
-		}
-		{
-			x: 15.5d
-			y: -3.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "742C9E1F6B164F13"
-			tasks: [{
-				id: "728AF82CCD660AF2"
+			rewards: [{
+				id: "1AB95FF760389672"
 				type: "item"
-				item: "ragnamod_seven:ribbone_singularity"
+				item: "ragnamod_seven:zombieheart_singularity"
 			}]
 		}
 		{
-			x: 16.5d
-			y: -3.0d
+			x: 9.5d
+			y: 4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "3F98B2679DC5D3F4"
 			tasks: [{
 				id: "7BBC5DE1DFA11D45"
 				type: "item"
 				item: "ragnamod_seven:nebulousheart_singularity"
 			}]
+			rewards: [{
+				id: "6582AEAFD80DFDF1"
+				type: "item"
+				item: "ragnamod_seven:nebulousheart_singularity"
+			}]
 		}
 		{
-			x: 17.5d
-			y: -3.0d
+			x: 9.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "7B8173F63F7606F4"
 			tasks: [{
 				id: "77E90164BAF36ADF"
 				type: "item"
 				item: "ragnamod_seven:moltencore_singularity"
 			}]
+			rewards: [{
+				id: "21405F8CAC699E03"
+				type: "item"
+				item: "ragnamod_seven:moltencore_singularity"
+			}]
 		}
 		{
 			x: 9.5d
-			y: -4.0d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1435312BA63D7FD9"
 			tasks: [{
 				id: "747CF4D267EE5444"
 				type: "item"
 				item: "ragnamod_seven:frozencore_singularity"
 			}]
-		}
-		{
-			x: 10.5d
-			y: -4.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "175A82D9DC2F5AA5"
-			tasks: [{
-				id: "7D6CC5C5B8B33679"
+			rewards: [{
+				id: "5FA7C057B1CB2DF3"
 				type: "item"
-				item: "ragnamod_seven:chelicerae_singularity"
+				item: "ragnamod_seven:frozencore_singularity"
 			}]
 		}
 		{
-			x: 11.5d
-			y: -4.0d
+			x: 9.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "12630ACDE5D39D4A"
 			tasks: [{
 				id: "185778334F91CAF6"
 				type: "item"
 				item: "ragnamod_seven:catalyzinggland_singularity"
 			}]
+			rewards: [{
+				id: "4864FF5E6BEFE505"
+				type: "item"
+				item: "ragnamod_seven:catalyzinggland_singularity"
+			}]
 		}
 		{
-			x: 12.5d
+			x: 10.5d
 			y: -4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "06ED39CC5960DD3B"
 			tasks: [{
 				id: "046059DA962B32BC"
 				type: "item"
 				item: "ragnamod_seven:gold_singularity"
 			}]
+			rewards: [{
+				id: "36FFF35C3A1AB14D"
+				type: "item"
+				item: "ragnamod_seven:gold_singularity"
+			}]
 		}
 		{
-			x: 13.5d
-			y: -4.0d
+			x: 11.5d
+			y: -1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "2A18E291D184701D"
 			tasks: [{
 				id: "65AB0855B0582361"
 				type: "item"
 				item: "ragnamod_seven:psigem_singularity"
 			}]
+			rewards: [{
+				id: "6527CBB4C6C21AF1"
+				type: "item"
+				item: "ragnamod_seven:psigem_singularity"
+			}]
 		}
 		{
-			x: 14.5d
-			y: -4.0d
+			x: 11.5d
+			y: 1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "1C637914E1B073BE"
 			tasks: [{
 				id: "0F93DB4C6BB812B8"
 				type: "item"
 				item: "ragnamod_seven:ivory_singularity"
 			}]
-		}
-		{
-			x: 15.5d
-			y: -4.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "298D7DEEF1D21EBB"
-			tasks: [{
-				id: "7BBA05D0B358A83F"
+			rewards: [{
+				id: "0707199A7F94C02E"
 				type: "item"
-				item: "ragnamod_seven:infusedrock_singularity"
+				item: "ragnamod_seven:ivory_singularity"
 			}]
 		}
 		{
-			x: 16.5d
-			y: -4.0d
+			x: 11.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "0896F6C073601FAB"
-			tasks: [{
-				id: "67CAB4954E007388"
-				type: "item"
-				item: "ragnamod_seven:spiritattunedgem_singularity"
-			}]
-		}
-		{
-			x: 17.5d
-			y: -4.0d
-			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "763CA0E80C8AC96A"
 			tasks: [{
 				id: "3D98DB0A346A097F"
 				type: "item"
 				item: "ragnamod_seven:capacitor_singularity"
 			}]
+			rewards: [{
+				id: "0A8105B45D3DFF8E"
+				type: "item"
+				item: "ragnamod_seven:capacitor_singularity"
+			}]
 		}
 		{
-			x: 9.5d
-			y: -5.0d
+			x: 13.5d
+			y: -1.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "0824B31B72419973"
 			tasks: [{
 				id: "291041324049D1EE"
 				type: "item"
 				item: "ragnamod_seven:alphayeti_singularity"
 			}]
+			rewards: [{
+				id: "75DC6D0203A30F3D"
+				type: "item"
+				item: "ragnamod_seven:alphayeti_singularity"
+			}]
 		}
 		{
-			x: 10.5d
-			y: -5.0d
+			x: 13.5d
+			y: -2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "7784DEC5D14A4C9C"
 			tasks: [{
 				id: "3B4AA01156D4BAAE"
 				type: "item"
 				item: "ragnamod_seven:carminite_singularity"
 			}]
-		}
-		{
-			x: 11.5d
-			y: -5.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "613582C6666D4506"
-			tasks: [{
-				id: "3F26875CE7BEAA80"
+			rewards: [{
+				id: "0F7429F9C8349BC0"
 				type: "item"
-				item: "ragnamod_seven:castlebrick_singularity"
+				item: "ragnamod_seven:carminite_singularity"
 			}]
 		}
 		{
-			x: 12.5d
-			y: -5.0d
+			x: 13.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "17CA5C2A71516EC3"
 			tasks: [{
 				id: "7F5345CA9B08B790"
 				type: "item"
 				item: "ragnamod_seven:magicbeans_singularity"
 			}]
+			rewards: [{
+				id: "78F2785474F088B1"
+				type: "item"
+				item: "ragnamod_seven:magicbeans_singularity"
+			}]
 		}
 		{
 			x: 13.5d
-			y: -5.0d
+			y: -0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "7A408773F40CBA18"
 			tasks: [{
 				id: "3B29981C064B75AA"
 				type: "item"
 				item: "ragnamod_seven:ironwood_singularity"
 			}]
+			rewards: [{
+				id: "37C323ABC2D066F9"
+				type: "item"
+				item: "ragnamod_seven:ironwood_singularity"
+			}]
 		}
 		{
-			x: 14.5d
-			y: -5.0d
+			x: 13.5d
+			y: -1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "7112819DE6BE8DB6"
 			tasks: [{
 				id: "0A05206784654FF0"
 				type: "item"
 				item: "ragnamod_seven:steeleaf_singularity"
 			}]
-		}
-		{
-			x: 15.5d
-			y: -5.0d
-			dependencies: ["7C4CE07814F3CD94"]
-			id: "35FEF41BC04FCCE5"
-			tasks: [{
-				id: "5119F356563A8A1F"
+			rewards: [{
+				id: "7FC5007ECD41E0EA"
 				type: "item"
-				item: "ragnamod_seven:depthrock_singularity"
+				item: "ragnamod_seven:steeleaf_singularity"
 			}]
 		}
 		{
-			x: 16.5d
-			y: -5.0d
+			x: 13.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "691BF4905A1C0E70"
 			tasks: [{
 				id: "6FDB17385BC30147"
 				type: "item"
 				item: "ragnamod_seven:cloggrum_singularity"
 			}]
+			rewards: [{
+				id: "1402111A9DF9B75D"
+				type: "item"
+				item: "ragnamod_seven:cloggrum_singularity"
+			}]
 		}
 		{
-			x: 17.5d
-			y: -5.0d
+			x: 13.5d
+			y: 1.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "2A4FFF1775E7FCBD"
 			tasks: [{
 				id: "75AFDF3C37B89A9D"
 				type: "item"
 				item: "ragnamod_seven:froststeel_singularity"
 			}]
+			rewards: [{
+				id: "6AA5DCE10D86232B"
+				type: "item"
+				item: "ragnamod_seven:froststeel_singularity"
+			}]
 		}
 		{
-			x: 9.5d
-			y: -6.0d
+			x: 10.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
 			id: "30DFE7E284C06FDE"
 			tasks: [{
 				id: "483EE3BC60425107"
 				type: "item"
 				item: "ragnamod_seven:sculk_singularity"
 			}]
+			rewards: [{
+				id: "0D48B9FA5F81636F"
+				type: "item"
+				item: "ragnamod_seven:sculk_singularity"
+			}]
 		}
 		{
-			x: 10.5d
-			y: -6.0d
+			x: 7.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "6014DDA5E15CF345"
+			size: 0.5d
+			id: "090668C0C2DEC41F"
 			tasks: [{
-				id: "40BB683EA26C1C24"
+				id: "75BFAB54E8C5B1C5"
 				type: "item"
-				item: "ragnamod_seven:sulfur_singularity"
+				item: "ragnamod_seven:alfsteel_singularity"
+			}]
+			rewards: [{
+				id: "1A8CF72B29C2BB76"
+				type: "item"
+				item: "ragnamod_seven:alfsteel_singularity"
 			}]
 		}
 		{
 			x: 11.5d
-			y: -6.0d
+			y: 3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "0897CA9210BA71F3"
+			size: 0.5d
+			id: "085A0DF6E2E87B85"
 			tasks: [{
-				id: "29F1FC4F035FF2E8"
+				id: "5BA695E2357CF462"
 				type: "item"
-				item: "ragnamod_seven:bauxite_singularity"
+				item: "ragnamod_seven:cheese_singularity"
+			}]
+			rewards: [{
+				id: "0E65F7913505475B"
+				type: "item"
+				item: "ragnamod_seven:cheese_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "0402B431707FC404"
+			tasks: [{
+				id: "712D54FC37065804"
+				type: "item"
+				item: "ragnamod_seven:ice_shard_singularity"
+			}]
+			rewards: [{
+				id: "507A396A3DFE9727"
+				type: "item"
+				item: "ragnamod_seven:ice_shard_singularity"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "27D4FF14FE6C71CD"
+			tasks: [{
+				id: "44495CE15A5B64B6"
+				type: "item"
+				item: "ragnamod_seven:honeycomb_singularity"
+			}]
+			rewards: [{
+				id: "41F76AA06B924D7D"
+				type: "item"
+				item: "ragnamod_seven:honeycomb_singularity"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "7F46D3DE352C0E73"
+			tasks: [{
+				id: "33DF6492C87B22B8"
+				type: "item"
+				item: "ragnamod_seven:oracle_jelly_singularity"
+			}]
+			rewards: [{
+				id: "578AD64CFDA4761C"
+				type: "item"
+				item: "ragnamod_seven:oracle_jelly_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "7F656F74823B8201"
+			tasks: [{
+				id: "13DC716D3C543373"
+				type: "item"
+				item: "ragnamod_seven:black_psimetal_singularity"
+			}]
+			rewards: [{
+				id: "153856B4F4471EB9"
+				type: "item"
+				item: "ragnamod_seven:black_psimetal_singularity"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "769E8396EC469A33"
+			tasks: [{
+				id: "6219057CA074D633"
+				type: "item"
+				item: "ragnamod_seven:white_psimetal_singularity"
+			}]
+			rewards: [{
+				id: "33A81768270E7097"
+				type: "item"
+				item: "ragnamod_seven:white_psimetal_singularity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "79753127C6D7FA9A"
+			tasks: [{
+				id: "4805B2F40BB6BCC7"
+				type: "item"
+				item: "ragnamod_seven:condensed_blood_singularity"
+			}]
+			rewards: [{
+				id: "5710B2E4BD1788D1"
+				type: "item"
+				item: "ragnamod_seven:condensed_blood_singularity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "108908EF890A02C5"
+			tasks: [{
+				id: "1E565200CDD1C410"
+				type: "item"
+				item: "ragnamod_seven:blood_waxed_coal_singularity"
+			}]
+			rewards: [{
+				id: "6B980F95F0CBA8E9"
+				type: "item"
+				item: "ragnamod_seven:blood_waxed_coal_singularity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "3B247C4D19D7763F"
+			tasks: [{
+				id: "7DD5E33C10E66360"
+				type: "item"
+				item: "ragnamod_seven:dark_gem_singularity"
+			}]
+			rewards: [{
+				id: "7E19AE3D82FE5229"
+				type: "item"
+				item: "ragnamod_seven:dark_gem_singularity"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "65687FF8AA44C6C8"
+			tasks: [{
+				id: "79FFB51868F445E1"
+				type: "item"
+				item: "ragnamod_seven:certus_quartz_crystal_singularity"
+			}]
+			rewards: [{
+				id: "35F592F3A4626B84"
+				type: "item"
+				item: "ragnamod_seven:certus_quartz_crystal_singularity"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "6DDFE3BB69DD94CC"
+			tasks: [{
+				id: "57DCB2E8EF171845"
+				type: "item"
+				item: "ragnamod_seven:logic_processor_singularity"
+			}]
+			rewards: [{
+				id: "0973237667EFD822"
+				type: "item"
+				item: "ragnamod_seven:logic_processor_singularity"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "38C9F8725E326986"
+			tasks: [{
+				id: "727D25C9E563D311"
+				type: "item"
+				item: "ragnamod_seven:calculation_processor_singularity"
+			}]
+			rewards: [{
+				id: "665FC019F5B76A79"
+				type: "item"
+				item: "ragnamod_seven:calculation_processor_singularity"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "0C40A79394EAD14F"
+			tasks: [{
+				id: "59250F39BE39C2E9"
+				type: "item"
+				item: "ragnamod_seven:engineering_processor_singularity"
+			}]
+			rewards: [{
+				id: "6DE061A28C0A34AF"
+				type: "item"
+				item: "ragnamod_seven:engineering_processor_singularity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "27BDD1B9FE670C31"
+			tasks: [{
+				id: "5AFF0A8D4957CC46"
+				type: "item"
+				item: "ragnamod_seven:dark_matter_singularity"
+			}]
+			rewards: [{
+				id: "7C80B05CF0DC660D"
+				type: "item"
+				item: "ragnamod_seven:dark_matter_singularity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "3FBD938547453C93"
+			tasks: [{
+				id: "25CD998AB14422A9"
+				type: "item"
+				item: "ragnamod_seven:rune_singularity"
+			}]
+			rewards: [{
+				id: "6CC31BF30AD4C6D3"
+				type: "item"
+				item: "ragnamod_seven:rune_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "17D1E6F0DF180588"
+			tasks: [{
+				id: "665F734D53EFA2BF"
+				type: "item"
+				item: "ragnamod_seven:utherium_singularity"
+			}]
+			rewards: [{
+				id: "793BBA5E726B0160"
+				type: "item"
+				item: "ragnamod_seven:utherium_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "2B862C765AF954FB"
+			tasks: [{
+				id: "4E688ED542036050"
+				type: "item"
+				item: "ragnamod_seven:regalium_singularity"
+			}]
+			rewards: [{
+				id: "22389A1D5CDA829F"
+				type: "item"
+				item: "ragnamod_seven:regalium_singularity"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "2049D2DC86D14172"
+			tasks: [{
+				id: "1756D811D49A90D0"
+				type: "item"
+				item: "ragnamod_seven:forgotten_singularity"
+			}]
+			rewards: [{
+				id: "29F79777507DA02E"
+				type: "item"
+				item: "ragnamod_seven:forgotten_singularity"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "15DDC7BE86249770"
+			tasks: [{
+				id: "0DA11F2B271F4F95"
+				type: "item"
+				item: "ragnamod_seven:silicon_singularity"
+			}]
+			rewards: [{
+				id: "21F26D8303DEE50C"
+				type: "item"
+				item: "ragnamod_seven:silicon_singularity"
 			}]
 		}
 		{
 			x: 12.5d
-			y: -6.0d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			hide_dependency_lines: true
 			dependencies: ["7C4CE07814F3CD94"]
-			id: "70D86E82ACD431C9"
+			size: 0.5d
+			id: "4D4A8F0DEE3C62E5"
 			tasks: [{
-				id: "685F9414A42C37E1"
+				id: "4761DB3910482A35"
 				type: "item"
-				item: "ragnamod_seven:kepu_singularity"
+				item: "ragnamod_seven:amethyst_bronze_singularity"
+			}]
+			rewards: [{
+				id: "118A3FE1366A6454"
+				type: "item"
+				item: "ragnamod_seven:amethyst_bronze_singularity"
 			}]
 		}
 		{
-			x: 19.5d
-			y: -6.0d
-			id: "1DB7B08393D10B7C"
+			x: 12.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "56F2D8CA8C36CFCE"
 			tasks: [{
-				id: "337D7F9B13059DDF"
+				id: "6E9BCAC1F84B9F66"
 				type: "item"
-				item: "ragnamod_seven:pneumaticcraft"
+				item: "ragnamod_seven:manyullyn_singularity"
+			}]
+			rewards: [{
+				id: "6476F468450B727F"
+				type: "item"
+				item: "ragnamod_seven:manyullyn_singularity"
 			}]
 		}
 		{
-			x: 19.5d
-			y: -5.0d
-			id: "2CE74A8D9A22DB10"
-			tasks: [{
-				id: "00E3550BF2BFD9F5"
-				type: "item"
-				item: "ragnamod_seven:industrial"
-			}]
-		}
-		{
-			x: 19.5d
-			y: -4.0d
-			id: "6B4326DC03D14760"
-			tasks: [{
-				id: "22865A7F807F52A9"
-				type: "item"
-				item: "ragnamod_seven:forbidden"
-			}]
-		}
-		{
-			x: 19.5d
+			x: 12.5d
 			y: -3.0d
-			id: "7B4E1863A6829764"
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "6E201DECA0A191A3"
 			tasks: [{
-				id: "073DD86BFD1EB5DC"
+				id: "7A943C5958107589"
 				type: "item"
-				item: "ragnamod_seven:ftbic"
+				item: "ragnamod_seven:seared_brick_singularity"
+			}]
+			rewards: [{
+				id: "16AD1F53B2BD0197"
+				type: "item"
+				item: "ragnamod_seven:seared_brick_singularity"
 			}]
 		}
 		{
-			x: 19.5d
+			x: 12.5d
 			y: -2.0d
-			id: "118C3F30EC324573"
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "036AC0377E9323DA"
 			tasks: [{
-				id: "75B6A21E03ADD8EE"
+				id: "128AADD7A6AA416C"
 				type: "item"
-				item: "ragnamod_seven:tech"
+				item: "ragnamod_seven:scorched_brick_singularity"
+			}]
+			rewards: [{
+				id: "251761ECBDCFE2EC"
+				type: "item"
+				item: "ragnamod_seven:scorched_brick_singularity"
 			}]
 		}
 		{
-			x: 19.5d
-			y: -1.0d
-			id: "295770286B7B7BC6"
+			x: 5.5d
+			y: -1.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "52B0536331A75724"
 			tasks: [{
-				id: "3EB1EAAC47D949D0"
+				id: "186D29C807E10E37"
 				type: "item"
-				item: "ragnamod_seven:magic"
+				item: "ragnamod_seven:abjuration_essence_singularity"
+			}]
+			rewards: [{
+				id: "176D6BD3550BCFA1"
+				type: "item"
+				item: "ragnamod_seven:abjuration_essence_singularity"
 			}]
 		}
 		{
-			x: 19.5d
-			y: 0.0d
-			id: "3E9045FFB4F6EB29"
+			x: 5.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "530061D68B9C36ED"
 			tasks: [{
-				id: "0447F79ACE0D550E"
+				id: "1FC2FF621EAD2F88"
 				type: "item"
-				item: "ragnamod_seven:undergarden"
+				item: "ragnamod_seven:water_essence_singularity"
+			}]
+			rewards: [{
+				id: "4E3A956B48FB6933"
+				type: "item"
+				item: "ragnamod_seven:water_essence_singularity"
 			}]
 		}
 		{
-			x: 19.5d
-			y: 1.0d
-			id: "5F9F416DA3ED2712"
-			tasks: [{
-				id: "35A8B29754397707"
-				type: "item"
-				item: "ragnamod_seven:raw_materials"
-			}]
-		}
-		{
-			x: 19.5d
-			y: 2.0d
-			id: "33CB17AE737667DB"
-			tasks: [{
-				id: "285806F978C43316"
-				type: "item"
-				item: "ragnamod_seven:vanilla"
-			}]
-		}
-		{
-			x: 19.5d
-			y: 3.0d
-			id: "10AD9BE310D61DF5"
-			tasks: [{
-				id: "30991EE9B86472A8"
-				type: "item"
-				item: "ragnamod_seven:create"
-			}]
-		}
-		{
-			x: 19.5d
-			y: 4.0d
-			id: "24BFBF3453E7C1BF"
-			tasks: [{
-				id: "0C0B796913B40FC3"
-				type: "item"
-				item: "ragnamod_seven:blood_magic"
-			}]
-		}
-		{
-			x: 20.5d
-			y: 4.0d
-			id: "3F4716778C9BF8C5"
-			tasks: [{
-				id: "271403CBC225D065"
-				type: "item"
-				item: "ragnamod_seven:mobs"
-			}]
-		}
-		{
-			x: 20.5d
-			y: 3.0d
-			id: "7AFE4C373A837581"
-			tasks: [{
-				id: "172859534E266B97"
-				type: "item"
-				item: "ragnamod_seven:psi"
-			}]
-		}
-		{
-			x: 20.5d
-			y: -6.0d
-			id: "2DDFBBA9F971DFEC"
-			tasks: [{
-				id: "49A5133DAA7B859E"
-				type: "item"
-				item: "ragnamod_seven:thermal"
-			}]
-		}
-		{
-			x: 20.5d
-			y: -5.0d
-			id: "243EFA0FBD1D5457"
-			tasks: [{
-				id: "4E72F0D264CBDBAA"
-				type: "item"
-				item: "ragnamod_seven:evil_craft"
-			}]
-		}
-		{
-			x: 20.5d
-			y: -4.0d
-			id: "29FB7478BBE669AB"
-			tasks: [{
-				id: "28596887C2DAF044"
-				type: "item"
-				item: "ragnamod_seven:twilight"
-			}]
-		}
-		{
-			x: 20.5d
+			x: 5.5d
 			y: -3.0d
-			id: "74E07AFCCB353F57"
+			shape: "square"
+			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "34589012DCDDB476"
 			tasks: [{
-				id: "4709CD7EC1547C16"
+				id: "5994457F242F0A81"
 				type: "item"
-				item: "ragnamod_seven:special_bricks"
+				item: "ragnamod_seven:fire_essence_singularity"
+			}]
+			rewards: [{
+				id: "388C0ED8C94F6D7E"
+				type: "item"
+				item: "ragnamod_seven:fire_essence_singularity"
 			}]
 		}
 		{
-			x: 20.5d
+			x: 5.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "33DFC2112543973C"
+			tasks: [{
+				id: "1A38515FBE6FF952"
+				type: "item"
+				item: "ragnamod_seven:earth_essence_singularity"
+			}]
+			rewards: [{
+				id: "284403CB6379A111"
+				type: "item"
+				item: "ragnamod_seven:earth_essence_singularity"
+			}]
+		}
+		{
+			x: 5.5d
 			y: -2.0d
-			id: "2F1B5DEE8DE3B4AC"
+			shape: "square"
+			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "021987D90305FE25"
 			tasks: [{
-				id: "28BCCA9479296E79"
+				id: "0AC2215CF0D0070C"
 				type: "item"
-				item: "ragnamod_seven:powah"
+				item: "ragnamod_seven:air_essence_singularity"
+			}]
+			rewards: [{
+				id: "40CE9982EEA4CB32"
+				type: "item"
+				item: "ragnamod_seven:air_essence_singularity"
 			}]
 		}
 		{
-			x: 20.5d
-			y: -1.0d
-			id: "023755D07BB12753"
+			x: 11.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "0B4EFE18C192CF2C"
 			tasks: [{
-				id: "062D45CF3B616B44"
+				id: "0BCAFC0EDC635063"
 				type: "item"
-				item: "ragnamod_seven:botania"
+				item: "ragnamod_seven:programming_puzzle_singularity"
+			}]
+			rewards: [{
+				id: "390ED7CDFA75DC5B"
+				type: "item"
+				item: "ragnamod_seven:programming_puzzle_singularity"
 			}]
 		}
 		{
-			x: 20.5d
-			y: 0.0d
-			id: "3696FD0DCA07ABF8"
+			x: 11.5d
+			y: -4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "0E5CA033F7D0DEB5"
 			tasks: [{
-				id: "37CC02A6B39BED60"
+				id: "5DACDFEE3EAC68FF"
 				type: "item"
-				item: "ragnamod_seven:space"
+				item: "ragnamod_seven:iron_compressed_singularity"
+			}]
+			rewards: [{
+				id: "70D969EEB0847A41"
+				type: "item"
+				item: "ragnamod_seven:iron_compressed_singularity"
 			}]
 		}
 		{
-			x: 20.5d
-			y: 1.0d
-			id: "040AB18602FA6F79"
+			x: 6.5d
+			y: -4.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "4D1E682B88492490"
 			tasks: [{
-				id: "2A58529BC07129D2"
+				id: "33E62E61FA26AE80"
 				type: "item"
-				item: "ragnamod_seven:blue_skies"
+				item: "ragnamod_seven:vengefulwill_singularity"
+			}]
+			rewards: [{
+				id: "751652BF57D34D44"
+				type: "item"
+				item: "ragnamod_seven:vengefulwill_singularity"
 			}]
 		}
 		{
-			x: 20.5d
-			y: 2.0d
-			id: "157D94D792BA9C34"
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "57BD06CFF2AC1201"
 			tasks: [{
-				id: "6BEF594386247EC8"
+				id: "35CC358B433C1CF2"
 				type: "item"
-				item: "ragnamod_seven:meka"
+				item: "ragnamod_seven:steadfaswill_singularity"
+			}]
+			rewards: [{
+				id: "197DFF1BABCB2614"
+				type: "item"
+				item: "ragnamod_seven:steadfaswill_singularity"
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
-			id: "30B075913444B5FA"
+			x: 6.5d
+			y: -3.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "5AD86BB162BA9DB7"
 			tasks: [{
-				id: "0BB63268C216CDBB"
+				id: "1179257895F23973"
 				type: "item"
-				item: "ragnamod_seven:infinity_gem"
+				item: "ragnamod_seven:destructivewill_singularity"
+			}]
+			rewards: [{
+				id: "56427F09A17C38FC"
+				type: "item"
+				item: "ragnamod_seven:destructivewill_singularity"
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
-			id: "5345E8BF19D99F83"
+			x: 6.5d
+			y: -2.5d
+			shape: "square"
+			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "01B72F4CDD6D178D"
 			tasks: [{
-				id: "11FC3D78F09598A9"
+				id: "6F80FC11E4CD1431"
 				type: "item"
-				item: "ragnamod_seven:sphere"
+				item: "ragnamod_seven:demonwill_singularity"
+			}]
+			rewards: [{
+				id: "524EF47835AAC98F"
+				type: "item"
+				item: "ragnamod_seven:demonwill_singularity"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
-			id: "256B6EFD48EF1175"
+			x: 6.5d
+			y: -2.0d
+			shape: "square"
+			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
+			hide_dependency_lines: true
+			dependencies: ["7C4CE07814F3CD94"]
+			size: 0.5d
+			id: "0BF496992EEC702D"
 			tasks: [{
-				id: "3ECED6063EA318A5"
+				id: "021DFA3AC67076A7"
 				type: "item"
-				item: "ragnamod_seven:neutronium_nutritious_compound"
+				item: "ragnamod_seven:corrosivewill_singularity"
+			}]
+			rewards: [{
+				id: "284AFD15844138D5"
+				type: "item"
+				item: "ragnamod_seven:corrosivewill_singularity"
 			}]
 		}
 	]

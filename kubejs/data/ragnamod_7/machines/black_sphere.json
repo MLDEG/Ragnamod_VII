@@ -1,0 +1,189 @@
+{
+  "name": "Black Sphere",
+  "appearance": {
+    "block": "ragnamod_seven:machine/black_sphere_idle_model",
+    "item": "ragnamod_seven:machine/black_sphere_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:amethyst_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/black_sphere_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/black_sphere_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input",
+      "filter": ["ragnamod_seven:neutronium_nutritious_compound"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input",
+      "filter": ["avaritia:infinity_catalyst"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "mode": "input",
+      "filter": ["ragnamod_seven:portal_activator"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input4",
+      "mode": "input",
+      "filter": ["ragnamod_seven:infinity_gem"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input5",
+      "mode": "input",
+      "filter": ["ragnamod_seven:condensed_ingot"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input6",
+      "mode": "input",
+      "filter": ["avaritia:ultimate_stew"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input7",
+      "mode": "input",
+      "filter": ["avaritia:endest_pearl"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/black_sphere_gui.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 7,
+      "y": 7
+    },
+    {
+      "text": "§4Sphere of All Things",
+      "x": 125,
+      "y": 125,
+      "type": "custommachinery:text",
+      "alignment": "center"
+    },
+
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/black_sphere_empty_top.png",
+      "filledtexture": "ragnamod_seven:textures/gui/black_sphere_full_top.png",
+      "x": 120,
+      "y": 26,
+      "direction": "top"
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/black_sphere_empty_left.png",
+      "filledtexture": "ragnamod_seven:textures/gui/black_sphere_full_left.png",
+      "x": 65,
+      "y": 26,
+      "direction": "right"
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/black_sphere_empty_right.png",
+      "filledtexture": "ragnamod_seven:textures/gui/black_sphere_full_right.png",
+      "x": 137,
+      "y": 24,
+      "direction": "left"
+    },
+
+    {
+      "x": 47,
+      "y": 134,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input1",
+      "x": 65,
+      "y": 8,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:neutronium_nutritious_compound"
+    },
+    {
+      "id": "input2",
+      "x": 119,
+      "y": 8,
+      "type": "custommachinery:slot",
+      "ghost": "avaritia:infinity_catalyst"
+    },
+    {
+      "id": "input3",
+      "x": 173,
+      "y": 8,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:portal_activator"
+    },
+    {
+      "id": "input4",
+      "x": 47,
+      "y": 53,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:infinity_gem"
+    },
+    {
+      "id": "input5",
+      "x": 191,
+      "y": 53,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:condensed_ingot"
+    },
+    {
+      "id": "input6",
+      "x": 65,
+      "y": 98,
+      "type": "custommachinery:slot",
+      "ghost": "avaritia:ultimate_stew"
+    },
+    {
+      "id": "input7",
+      "x": 173,
+      "y": 98,
+      "type": "custommachinery:slot",
+      "ghost": "avaritia:endest_pearl"
+    },
+    {
+      "id": "output",
+      "x": 119,
+      "y": 53,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:sphere"
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

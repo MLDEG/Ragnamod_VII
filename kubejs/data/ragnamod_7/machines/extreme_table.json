@@ -170,88 +170,28 @@
     { "type": "custommachinery:slot", "id": "ect_input_56", "x": 47, "y": 116 },
     { "type": "custommachinery:slot", "id": "ect_input_57", "x": 65, "y": 116 },
     { "type": "custommachinery:slot", "id": "ect_input_58", "x": 83, "y": 116 },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_59",
-      "x": 101,
-      "y": 116
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_60",
-      "x": 119,
-      "y": 116
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_61",
-      "x": 137,
-      "y": 116
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_62",
-      "x": 155,
-      "y": 116
-    },
+    { "type": "custommachinery:slot", "id": "ect_input_59", "x": 101, "y": 116},
+    { "type": "custommachinery:slot", "id": "ect_input_60", "x": 119, "y": 116},
+    { "type": "custommachinery:slot", "id": "ect_input_61", "x": 137, "y": 116},
+    { "type": "custommachinery:slot", "id": "ect_input_62", "x": 155, "y": 116},
     { "type": "custommachinery:slot", "id": "ect_input_63", "x": 11, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_64", "x": 29, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_65", "x": 47, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_66", "x": 65, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_67", "x": 83, "y": 134 },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_68",
-      "x": 101,
-      "y": 134
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_69",
-      "x": 119,
-      "y": 134
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_70",
-      "x": 137,
-      "y": 134
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_71",
-      "x": 155,
-      "y": 134
-    },
+    { "type": "custommachinery:slot", "id": "ect_input_68", "x": 101, "y": 134},
+    { "type": "custommachinery:slot", "id": "ect_input_69", "x": 119, "y": 134},
+    { "type": "custommachinery:slot", "id": "ect_input_70", "x": 137, "y": 134},
+    { "type": "custommachinery:slot", "id": "ect_input_71", "x": 155, "y": 134},
     { "type": "custommachinery:slot", "id": "ect_input_72", "x": 11, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_73", "x": 29, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_74", "x": 47, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_75", "x": 65, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_76", "x": 83, "y": 152 },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_77",
-      "x": 101,
-      "y": 152
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_78",
-      "x": 119,
-      "y": 152
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_79",
-      "x": 137,
-      "y": 152
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_80",
-      "x": 155,
-      "y": 152
-    },
+    { "type": "custommachinery:slot", "id": "ect_input_77", "x": 101, "y": 152},
+    { "type": "custommachinery:slot", "id": "ect_input_78", "x": 119, "y": 152},
+    { "type": "custommachinery:slot", "id": "ect_input_79", "x": 137, "y": 152},
+    { "type": "custommachinery:slot", "id": "ect_input_80", "x": 155, "y": 152},
     {
       "type": "custommachinery:slot",
       "texture": "ragnamod_seven:textures/gui/output_box_huge.png",
@@ -334,94 +274,29 @@
     { "type": "custommachinery:slot", "id": "ect_input_56", "x": 47, "y": 116 },
     { "type": "custommachinery:slot", "id": "ect_input_57", "x": 65, "y": 116 },
     { "type": "custommachinery:slot", "id": "ect_input_58", "x": 83, "y": 116 },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_59",
-      "x": 101,
-      "y": 116
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_60",
-      "x": 119,
-      "y": 116
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_61",
-      "x": 137,
-      "y": 116
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_62",
-      "x": 155,
-      "y": 116
-    },
+    { "type": "custommachinery:slot", "id": "ect_input_59", "x": 101, "y": 116},
+    { "type": "custommachinery:slot", "id": "ect_input_60", "x": 119, "y": 116},
+    { "type": "custommachinery:slot", "id": "ect_input_61", "x": 137, "y": 116},
+    { "type": "custommachinery:slot", "id": "ect_input_62", "x": 155, "y": 116},
     { "type": "custommachinery:slot", "id": "ect_input_63", "x": 11, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_64", "x": 29, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_65", "x": 47, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_66", "x": 65, "y": 134 },
     { "type": "custommachinery:slot", "id": "ect_input_67", "x": 83, "y": 134 },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_68",
-      "x": 101,
-      "y": 134
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_69",
-      "x": 119,
-      "y": 134
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_70",
-      "x": 137,
-      "y": 134
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_71",
-      "x": 155,
-      "y": 134
-    },
+    { "type": "custommachinery:slot", "id": "ect_input_68", "x": 101, "y": 134},
+    { "type": "custommachinery:slot", "id": "ect_input_69", "x": 119, "y": 134},
+    { "type": "custommachinery:slot", "id": "ect_input_70", "x": 137, "y": 134},
+    { "type": "custommachinery:slot", "id": "ect_input_71", "x": 155, "y": 134},
     { "type": "custommachinery:slot", "id": "ect_input_72", "x": 11, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_73", "x": 29, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_74", "x": 47, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_75", "x": 65, "y": 152 },
     { "type": "custommachinery:slot", "id": "ect_input_76", "x": 83, "y": 152 },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_77",
-      "x": 101,
-      "y": 152
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_78",
-      "x": 119,
-      "y": 152
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_79",
-      "x": 137,
-      "y": 152
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_input_80",
-      "x": 155,
-      "y": 152
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "ect_output",
-      "x": 177,
-      "y": 80
-    },
+    { "type": "custommachinery:slot", "id": "ect_input_77", "x": 101, "y": 152},
+    { "type": "custommachinery:slot", "id": "ect_input_78", "x": 119, "y": 152},
+    { "type": "custommachinery:slot", "id": "ect_input_79", "x": 137, "y": 152},
+    { "type": "custommachinery:slot", "id": "ect_input_80", "x": 155, "y": 152},
+    { "type": "custommachinery:slot", "id": "ect_output", "x": 177, "y": 80},
     {
       "type": "custommachinery:progress",
       "emptytexture": "ragnamod_seven:textures/gui/etc_progress_empty_jei.png",
