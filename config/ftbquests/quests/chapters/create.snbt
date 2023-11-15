@@ -1,7 +1,7 @@
 {
 	id: "5CD29C53E589AD7F"
 	group: ""
-	order_index: 8
+	order_index: 5
 	filename: "create"
 	title: " Create"
 	icon: "create:wrench"
@@ -41,7 +41,10 @@
 				""
 				"You can also change her wood type by simply right-click a plank into it. (compatible with any planks, except Chipped)"
 			]
-			dependencies: ["7E5C72750017BBA4"]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
 			id: "0BFAEEF599FEA7D7"
 			tasks: [{
 				id: "2F3155D9064B1943"
@@ -66,7 +69,10 @@
 				""
 				"You can also change her wood type by simply right-click a plank into it. (compatible with any planks, except Chipped)"
 			]
-			dependencies: ["0BFAEEF599FEA7D7"]
+			dependencies: [
+				"0BFAEEF599FEA7D7"
+				"298A3F9171009D45"
+			]
 			id: "353657F699F6DCE6"
 			tasks: [{
 				id: "3D52A38A57FEBB33"
@@ -85,7 +91,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The shaft is a basic mechanical component in Create. A shaft can be used to connect two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed. "]
-			dependencies: ["073310C4A43FCF55"]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
 			id: "7E5C72750017BBA4"
 			tasks: [{
 				id: "1BE26BC806D7F0D7"
@@ -108,7 +117,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Cogwheel is a basic mechanical component in Create that relays rotation."]
-			dependencies: ["7E5C72750017BBA4"]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
 			id: "12779E7CC3A93EB4"
 			tasks: [{
 				id: "409BB9F5C783F36A"
@@ -128,7 +140,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Large Cogwheel is a larger variant of the cogwheel that can relay rotation around corners and power Rotation Speed Controllers."]
-			dependencies: ["7E5C72750017BBA4"]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
 			id: "1CE221491F9152C6"
 			tasks: [{
 				id: "27464C18F80DE131"
@@ -149,7 +164,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Note: There is a built-in guide for Create. To access it, you need to hold a key on the wanted item in JEI. The animated guide will then appear."]
-			dependencies: ["073310C4A43FCF55"]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
 			size: 2.0d
 			id: "39718B6A5A7BEC15"
 			tasks: [{
@@ -177,6 +195,7 @@
 			dependencies: [
 				"12779E7CC3A93EB4"
 				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
 			]
 			id: "06698FAA93E75EB3"
 			tasks: [{
@@ -196,7 +215,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it"]
-			dependencies: ["39718B6A5A7BEC15"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
 			id: "58FF2A849EA93A2B"
 			tasks: [{
 				id: "29A8378E5651461C"
@@ -214,7 +236,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."]
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "3DB4CDB19FD3915F"
 			tasks: [{
 				id: "26C4CD9EC5E21117"
@@ -239,6 +264,7 @@
 			dependencies: [
 				"3DB4CDB19FD3915F"
 				"4BC7D64DB4ACB7A5"
+				"298A3F9171009D45"
 			]
 			id: "5262697B2954997E"
 			tasks: [{
@@ -258,7 +284,10 @@
 			shape: "square"
 			description: ["A Blaze Burner is a heating component required for certain Mixing recipes."]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			size: 1.5d
 			id: "4BC7D64DB4ACB7A5"
 			tasks: [{
@@ -283,6 +312,7 @@
 			dependencies: [
 				"7856C9C95751E9B3"
 				"073310C4A43FCF55"
+				"298A3F9171009D45"
 			]
 			id: "0E6A146274C136A1"
 			tasks: [{
@@ -308,6 +338,7 @@
 			dependencies: [
 				"073310C4A43FCF55"
 				"7856C9C95751E9B3"
+				"298A3F9171009D45"
 			]
 			id: "6E21ABA22491A8AC"
 			tasks: [{
@@ -349,7 +380,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
-			dependencies: ["7856C9C95751E9B3"]
+			dependencies: [
+				"7856C9C95751E9B3"
+				"298A3F9171009D45"
+			]
 			id: "3A882BAB0F731B55"
 			tasks: [{
 				id: "0A4EB7A0E7ECAA81"
@@ -370,7 +404,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["Chutes transport items vertically, similarly to Mechanical Belts."]
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "5B972F523E694CCB"
 			tasks: [{
 				id: "4DA5317A58E391DB"
@@ -415,7 +452,10 @@
 				""
 				"Any other block can also be attached with Super Glue, though it will not yield any benefit."
 			]
-			dependencies: ["073310C4A43FCF55"]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
 			id: "01680B8DD58DDE94"
 			tasks: [
 				{
@@ -443,7 +483,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["This casing is used to make most of the advanced stuff of Create."]
-			dependencies: ["28A1FE67951514B7"]
+			dependencies: [
+				"28A1FE67951514B7"
+				"298A3F9171009D45"
+			]
 			size: 2.0d
 			id: "63D160B52E8918C4"
 			tasks: [{
@@ -464,7 +507,10 @@
 			y: -4.0d
 			shape: "square"
 			description: ["Polished Rose Quartz is a material used to craft Electron Tubes and Chromatic Compound"]
-			dependencies: ["11A6AE8869E30BA1"]
+			dependencies: [
+				"11A6AE8869E30BA1"
+				"298A3F9171009D45"
+			]
 			id: "0F21B16927A39E9A"
 			tasks: [{
 				id: "052BF8C688598D67"
@@ -483,7 +529,10 @@
 			y: -5.5d
 			shape: "square"
 			description: ["Electron Tubes is a material used to craft various components from Create"]
-			dependencies: ["0F21B16927A39E9A"]
+			dependencies: [
+				"0F21B16927A39E9A"
+				"298A3F9171009D45"
+			]
 			size: 1.5d
 			id: "16B1F60A0D8DAD6D"
 			tasks: [{
@@ -507,6 +556,7 @@
 			dependencies: [
 				"63D160B52E8918C4"
 				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
 			]
 			id: "67680115E55B9C8B"
 			tasks: [{
@@ -532,7 +582,10 @@
 				"Upgraded version of Andesite Funnel."
 				"You can put a filter on this funnel, and it can extract a stack at a time !"
 			]
-			dependencies: ["16B1F60A0D8DAD6D"]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
 			id: "34C4BDA645A04E1F"
 			tasks: [{
 				id: "65E6DC0C8FE2533E"
@@ -558,7 +611,10 @@
 				""
 				"You can put a filter on this funnel, and it can extract a stack at a time !"
 			]
-			dependencies: ["16B1F60A0D8DAD6D"]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
 			id: "2E9F87E12C2688A5"
 			tasks: [{
 				id: "5BB96D2610E5021F"
@@ -582,6 +638,7 @@
 			dependencies: [
 				"5B972F523E694CCB"
 				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
 			]
 			id: "60DFC7FBE95E6BE5"
 			tasks: [{
@@ -608,7 +665,10 @@
 				""
 				"Display Links can write information to Display Boards. "
 			]
-			dependencies: ["16B1F60A0D8DAD6D"]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
 			id: "7F011DB567E42439"
 			tasks: [{
 				id: "5EC5869120A03AFF"
@@ -632,7 +692,10 @@
 				"Display links have a range of 64 blocks by default"
 			]
 			hide_dependency_lines: true
-			dependencies: ["63D160B52E8918C4"]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
 			id: "2A6205E787F7931A"
 			tasks: [{
 				id: "53FD3D0C4CEFE2CB"
@@ -656,7 +719,10 @@
 				"Item Vaults will connect with other Item Vaults. 1 tall vaults can be up to 3 blocks long, 2x2 tall item vaults can be 6 blocks long, and 3x3 tall vaults can be 9 blocks long, resulting in a maximum storage space of 1620 stacks in one Item Vault multiblock."
 			]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "2C52FC379CE4C378"
 			tasks: [{
 				id: "222E8A127B432BB8"
@@ -676,7 +742,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Crushing Wheels are the most advanced version of the Millstone. It applies Crushing recipes to any items inserted from the direction they are spinning away from"]
-			dependencies: ["67680115E55B9C8B"]
+			dependencies: [
+				"67680115E55B9C8B"
+				"298A3F9171009D45"
+			]
 			size: 1.5d
 			id: "1552AE931A4AEF0E"
 			tasks: [{
@@ -702,7 +771,10 @@
 				""
 				"A Display Link can be used to display the inventory the Smart Observer observes."
 			]
-			dependencies: ["16B1F60A0D8DAD6D"]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
 			id: "14E0B2F94E4705BA"
 			tasks: [{
 				id: "706718C5935AF0A7"
@@ -725,7 +797,10 @@
 				""
 				"A Display Link can be used to display how full an inventory is with either a percentage or a progress bar. "
 			]
-			dependencies: ["16B1F60A0D8DAD6D"]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
 			id: "65636E9C9C021051"
 			tasks: [{
 				id: "4844141844BF821F"
@@ -747,6 +822,7 @@
 			dependencies: [
 				"67680115E55B9C8B"
 				"013250199EBFD737"
+				"298A3F9171009D45"
 			]
 			id: "45F18D23AEB34F3E"
 			tasks: [{
@@ -765,7 +841,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Powered Obsidian is used to make Sturdy Sheet"]
-			dependencies: ["1552AE931A4AEF0E"]
+			dependencies: [
+				"1552AE931A4AEF0E"
+				"298A3F9171009D45"
+			]
 			id: "0D957F61D0FFDEAD"
 			tasks: [{
 				id: "3172BC0B37019E06"
@@ -785,7 +864,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["Those Sheet are used to make train stuff and flamethrower"]
-			dependencies: ["0D957F61D0FFDEAD"]
+			dependencies: [
+				"0D957F61D0FFDEAD"
+				"298A3F9171009D45"
+			]
 			id: "7726E320E30DB57B"
 			tasks: [{
 				id: "42C6A19650A47BC5"
@@ -807,7 +889,10 @@
 				"The Encased Fan is a mechanical component that can create air streams and generate power."
 				"Its air streams are used for moving entities or for Bulk Washing, Bulk Blasting, and Bulk Smoking."
 			]
-			dependencies: ["39718B6A5A7BEC15"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
 			id: "5F0D6FB5448862E1"
 			tasks: [{
 				id: "2D40736059CA201C"
@@ -827,7 +912,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["Fluid Pipes are blocks used to transport and deal with fluids."]
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "383139A22A980A32"
 			tasks: [{
 				id: "53CB386D9D17C424"
@@ -848,7 +936,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Mechanical Pump is used to extract fluid from a fluid pipe or a fluid tank."]
-			dependencies: ["383139A22A980A32"]
+			dependencies: [
+				"383139A22A980A32"
+				"298A3F9171009D45"
+			]
 			id: "608F2716B3429CCD"
 			tasks: [{
 				id: "7906065A3F0C22FC"
@@ -866,7 +957,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Fluid Valves can be used to close or open the flow in the pipe. Fluid Valves can be switched between open and closed by providing Rotational Force to the side."]
-			dependencies: ["383139A22A980A32"]
+			dependencies: [
+				"383139A22A980A32"
+				"298A3F9171009D45"
+			]
 			id: "4288B8D4393D7212"
 			tasks: [{
 				id: "736FCF979E78BE31"
@@ -888,7 +982,10 @@
 				"Fluid tanks will also merge with adjacent tanks up to 3x32x3, allowing to store up 2,304 buckets of any fluid."
 			]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "59715C99CC58A407"
 			tasks: [{
 				id: "4E1C6677E3792F6C"
@@ -908,7 +1005,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Hose Pulley lets down a hose that can drain bodies of liquids."]
-			dependencies: ["0EF14F0D3E9267D6"]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
 			id: "3E70077BADA57BBD"
 			tasks: [{
 				id: "3184016064E82500"
@@ -927,7 +1027,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Item Drain drains fluid from items such as buckets and bottles inserted onto it. "]
-			dependencies: ["0EF14F0D3E9267D6"]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
 			id: "3A50E9847D0436A4"
 			tasks: [{
 				id: "5DDD6B02D2F03F1C"
@@ -945,7 +1048,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids."]
-			dependencies: ["0EF14F0D3E9267D6"]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
 			id: "06DF3BC64FD7EDE0"
 			tasks: [{
 				id: "041E12BCB769F059"
@@ -963,7 +1069,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a Contraption."]
-			dependencies: ["0EF14F0D3E9267D6"]
+			dependencies: [
+				"0EF14F0D3E9267D6"
+				"298A3F9171009D45"
+			]
 			id: "7CF3A317B503AD7C"
 			tasks: [{
 				id: "6AF5BC5249FF808A"
@@ -984,7 +1093,10 @@
 				"The Steam Engine is a block that provides Rotational Force. It has the highest Stress (SU) capacity of all the survival-mode power-generating blocks. It converts the pressure caused by heating Water in a Fluid Tank into Rotational Force, allowing for large scale item production and multiple contraptions."
 				"{image:ftbquests:textures/quests/create_boiler.png width:150 height:100 align:1}"
 			]
-			dependencies: ["59715C99CC58A407"]
+			dependencies: [
+				"59715C99CC58A407"
+				"298A3F9171009D45"
+			]
 			id: "6FCDB1E491DE78FF"
 			tasks: [{
 				id: "0AF8D3E72F18B4E3"
@@ -1025,7 +1137,10 @@
 			shape: "square"
 			description: ["The Cart Assembler can attach a Contraption to carts that pass through it when supplied with a Redstone signal. Cart contraptions will not travel through nether portals. "]
 			hide_dependency_lines: true
-			dependencies: ["073310C4A43FCF55"]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
 			id: "7D5A52B0F1D9A26D"
 			tasks: [{
 				id: "587897FB65049A57"
@@ -1044,7 +1159,10 @@
 			y: -5.5d
 			shape: "square"
 			description: ["Controller Rails are used to control the speed of Minecarts or Minecart Contraptions. "]
-			dependencies: ["16B1F60A0D8DAD6D"]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
 			id: "4570EFBA2B1001FC"
 			tasks: [{
 				id: "405F59AD538012C8"
@@ -1065,7 +1183,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Speedometer measures the speed of Rotational Force"]
-			dependencies: ["39718B6A5A7BEC15"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
 			id: "33187D40C49EF688"
 			tasks: [{
 				id: "161B2D7825232A02"
@@ -1084,7 +1205,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Stressometer is used to measure the amount of Stress on a Shaft"]
-			dependencies: ["33187D40C49EF688"]
+			dependencies: [
+				"33187D40C49EF688"
+				"298A3F9171009D45"
+			]
 			id: "643E0D419EDC85F2"
 			tasks: [{
 				id: "0467916678200EA1"
@@ -1103,7 +1227,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The Mechanical Bearing is used to create and rotate Contraptions. "]
-			dependencies: ["7E5C72750017BBA4"]
+			dependencies: [
+				"7E5C72750017BBA4"
+				"298A3F9171009D45"
+			]
 			id: "74DC739681BF86AA"
 			tasks: [{
 				id: "1BFAD1096678603B"
@@ -1126,7 +1253,10 @@
 				"Linear Chassis will automatically connect to adjacent and equally aligned chassis"
 			]
 			hide_dependency_lines: false
-			dependencies: ["073310C4A43FCF55"]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
 			id: "25B25D7A328B248D"
 			tasks: [{
 				id: "0100CD5DE7DEA3E5"
@@ -1150,7 +1280,10 @@
 				"The Radial Chassis is a block used to connect Contraptions. "
 				"Unlike Linear Chassis, the Radial Chassis connects to a radius of blocks around it rather than a straight line of blocks"
 			]
-			dependencies: ["073310C4A43FCF55"]
+			dependencies: [
+				"073310C4A43FCF55"
+				"298A3F9171009D45"
+			]
 			id: "172C81EF8A61B42E"
 			tasks: [{
 				id: "6738E1D17CA741AE"
@@ -1173,7 +1306,10 @@
 			shape: "square"
 			description: ["The Mechanical Drill is a block used to break blocks."]
 			hide_dependency_lines: true
-			dependencies: ["39718B6A5A7BEC15"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
 			id: "3DA16F8AEBB6323B"
 			tasks: [{
 				id: "75CCBB3C0A106478"
@@ -1196,6 +1332,7 @@
 			dependencies: [
 				"5B972F523E694CCB"
 				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
 			]
 			id: "5D09328C1ABE02B6"
 			tasks: [{
@@ -1218,7 +1355,10 @@
 				"It will then either deposit the items on a inventory attach to the contraption, or, if no inventories are available, it will drop the items to the ground."
 			]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "1909ED480E48557C"
 			tasks: [{
 				id: "6F40B1C90B0973D6"
@@ -1241,7 +1381,10 @@
 				"The Mechanical Plough will also move entities and till soil blocks"
 			]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "4E87EABAC8A266E7"
 			tasks: [{
 				id: "3BC3E58DDE86DB77"
@@ -1260,7 +1403,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["The Rope Pulley creates Contraptions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles."]
-			dependencies: ["39718B6A5A7BEC15"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
 			id: "4664DB700BB005E7"
 			tasks: [{
 				id: "46CBC5F0A21DA8B5"
@@ -1283,6 +1429,7 @@
 			dependencies: [
 				"1552AE931A4AEF0E"
 				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
 			]
 			id: "07660601C3DC4480"
 			tasks: [{
@@ -1302,7 +1449,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Train Casing is used to make all the machine in relation with train"]
-			dependencies: ["7726E320E30DB57B"]
+			dependencies: [
+				"7726E320E30DB57B"
+				"298A3F9171009D45"
+			]
 			size: 2.0d
 			id: "1502B96487B5F720"
 			tasks: [{
@@ -1323,7 +1473,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Train Schedules are used to instruct non-player Train conductors. "]
-			dependencies: ["7726E320E30DB57B"]
+			dependencies: [
+				"7726E320E30DB57B"
+				"298A3F9171009D45"
+			]
 			id: "7678ED45A4F6AFAF"
 			tasks: [{
 				id: "4782A74D90CB0255"
@@ -1342,7 +1495,10 @@
 			y: -4.5d
 			shape: "square"
 			description: ["Train Tracks are special blocks used to support Trains."]
-			dependencies: ["2714A2EC7A917167"]
+			dependencies: [
+				"2714A2EC7A917167"
+				"298A3F9171009D45"
+			]
 			id: "4D9B4F317758E44F"
 			tasks: [{
 				id: "07FD5C7B084A39AC"
@@ -1362,7 +1518,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["Train Stations are used to create, disassemble, and guide Trains."]
-			dependencies: ["1502B96487B5F720"]
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
 			id: "17D7A2D76CD2E45B"
 			tasks: [{
 				id: "74F9EA510D7F91C9"
@@ -1380,7 +1539,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Train Signals are used to control the flow of Trains not driven by players."]
-			dependencies: ["1502B96487B5F720"]
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
 			id: "538B5A290B549058"
 			tasks: [{
 				id: "734ACCD7EB7D27A1"
@@ -1398,7 +1560,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Train Observer is used to detect passing Trains."]
-			dependencies: ["1502B96487B5F720"]
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
 			id: "0B08BFBBC2A427AB"
 			tasks: [{
 				id: "126A8FD9709189FD"
@@ -1417,7 +1582,10 @@
 			shape: "square"
 			description: ["Train Controls are required in the creation of Trains."]
 			hide_dependency_lines: false
-			dependencies: ["1502B96487B5F720"]
+			dependencies: [
+				"1502B96487B5F720"
+				"298A3F9171009D45"
+			]
 			id: "541FD6EC9A08F96A"
 			tasks: [{
 				id: "264D972D4BEE1B76"
@@ -1435,7 +1603,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["An Elevator Pulley is a Contraption useful for creating multi-floor elevators easily. "]
-			dependencies: ["63D160B52E8918C4"]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
 			id: "64082570BCC2312A"
 			tasks: [{
 				id: "3C90E5A31F6DB7CA"
@@ -1456,7 +1627,10 @@
 			shape: "square"
 			description: ["Redstone Contacts allow Contraptions to convey redstone signals or activate Redstone Circuits. "]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "1A55861188EC9CA0"
 			tasks: [{
 				id: "6781C16438A6D4C0"
@@ -1482,7 +1656,10 @@
 				"While on an Elevator, all Contraption Controls will be used to display and select elevator floors, regardless of if the controls have a filter. "
 			]
 			hide_dependency_lines: false
-			dependencies: ["64082570BCC2312A"]
+			dependencies: [
+				"64082570BCC2312A"
+				"298A3F9171009D45"
+			]
 			id: "03F9BDD2F33B6A79"
 			tasks: [{
 				id: "3D64BA9B3EABCB20"
@@ -1502,7 +1679,10 @@
 			shape: "square"
 			description: ["Engineer's goggles are a wearable item that allow the user to see more details about placed machines"]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "4E4D999C8145C662"
 			tasks: [{
 				id: "559DB656C978FF55"
@@ -1525,7 +1705,10 @@
 				"The main difference between Super Glue and Slimeballs is that Super Glue does not need to use the wooden face of a Linear Chassis to adhere blocks to each other"
 			]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "4C3442628AC11914"
 			tasks: [{
 				id: "10A495AFF79ABC9D"
@@ -1556,7 +1739,10 @@
 			shape: "square"
 			description: ["Minecart Coupling is used to make minecart or minecart contraption trains. "]
 			hide_dependency_lines: true
-			dependencies: ["58FF2A849EA93A2B"]
+			dependencies: [
+				"58FF2A849EA93A2B"
+				"298A3F9171009D45"
+			]
 			id: "5C4656243EB3EB53"
 			tasks: [{
 				id: "68C80FCFE1F92F8A"
@@ -1578,6 +1764,7 @@
 			dependencies: [
 				"58FF2A849EA93A2B"
 				"12779E7CC3A93EB4"
+				"298A3F9171009D45"
 			]
 			id: "52C396F7C7274709"
 			tasks: [{
@@ -1598,7 +1785,10 @@
 			shape: "square"
 			description: ["The Toolbox can hold up to 256 items per slot and up to 8 different types of items"]
 			hide_dependency_lines: true
-			dependencies: ["12779E7CC3A93EB4"]
+			dependencies: [
+				"12779E7CC3A93EB4"
+				"298A3F9171009D45"
+			]
 			id: "5F31490CB71F1B9E"
 			tasks: [{
 				id: "6D0858EF46C91387"
@@ -1619,6 +1809,7 @@
 			dependencies: [
 				"67680115E55B9C8B"
 				"2977B0A071166015"
+				"298A3F9171009D45"
 			]
 			id: "75498C2A9307FC24"
 			tasks: [{
@@ -1638,7 +1829,10 @@
 			y: -4.0d
 			shape: "square"
 			description: ["Just craft some wires"]
-			dependencies: ["4CA3D6B7B6F566BB"]
+			dependencies: [
+				"4CA3D6B7B6F566BB"
+				"298A3F9171009D45"
+			]
 			id: "2FA54518AEEC0CEF"
 			tasks: [{
 				id: "30CA26D9D3006539"
@@ -1659,7 +1853,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Copper Spool is used to make Alternator, Electric Motor or Tesla Coil"]
-			dependencies: ["2FA54518AEEC0CEF"]
+			dependencies: [
+				"2FA54518AEEC0CEF"
+				"298A3F9171009D45"
+			]
 			id: "2977B0A071166015"
 			tasks: [{
 				id: "43D266D346F8DD58"
@@ -1682,6 +1879,7 @@
 			dependencies: [
 				"2977B0A071166015"
 				"67680115E55B9C8B"
+				"298A3F9171009D45"
 			]
 			id: "78DDAE9857E2EF26"
 			tasks: [{
@@ -1701,7 +1899,10 @@
 			shape: "square"
 			description: ["The Rolling Mill is used to craft Wires and Rods"]
 			hide_dependency_lines: true
-			dependencies: ["39718B6A5A7BEC15"]
+			dependencies: [
+				"39718B6A5A7BEC15"
+				"298A3F9171009D45"
+			]
 			id: "4CA3D6B7B6F566BB"
 			tasks: [{
 				id: "0949D15030A75C79"
@@ -1722,6 +1923,7 @@
 			dependencies: [
 				"67680115E55B9C8B"
 				"2977B0A071166015"
+				"298A3F9171009D45"
 			]
 			id: "2748A6302CE3ACC6"
 			tasks: [{
@@ -1742,7 +1944,10 @@
 			shape: "square"
 			description: ["Redstone Link can transfer redstone wiressly"]
 			hide_dependency_lines: false
-			dependencies: ["63D160B52E8918C4"]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
 			id: "55BCE52CB5E284DE"
 			tasks: [{
 				id: "3274F4DC6C9768A1"
@@ -1766,7 +1971,10 @@
 				""
 				"You can get more stress and speed by placing a block of gold in front of it. (up to 384su and 24RPM)"
 			]
-			dependencies: ["0BFAEEF599FEA7D7"]
+			dependencies: [
+				"0BFAEEF599FEA7D7"
+				"298A3F9171009D45"
+			]
 			id: "6E034F4BB726CEC3"
 			tasks: [{
 				id: "36F24F4185BEC6C0"
@@ -1790,6 +1998,7 @@
 				"5262697B2954997E"
 				"4BC7D64DB4ACB7A5"
 				"3DB4CDB19FD3915F"
+				"298A3F9171009D45"
 			]
 			id: "28A1FE67951514B7"
 			tasks: [{
@@ -1815,7 +2024,10 @@
 			shape: "square"
 			subtitle: "autoclicker"
 			description: ["The deployer will be useful for making assembly crafts."]
-			dependencies: ["16B1F60A0D8DAD6D"]
+			dependencies: [
+				"16B1F60A0D8DAD6D"
+				"298A3F9171009D45"
+			]
 			id: "0E24A6FDB7149DE6"
 			tasks: [{
 				id: "52700167B6E83BBA"
@@ -1836,7 +2048,10 @@
 				"In this pack to make Rose Quartz you will need Fluorite and Redstone."
 				"There will be a way to make Rose Quartz with Quartz later."
 			]
-			dependencies: ["608B0D64957C2EC8"]
+			dependencies: [
+				"608B0D64957C2EC8"
+				"298A3F9171009D45"
+			]
 			id: "11A6AE8869E30BA1"
 			tasks: [{
 				id: "31BAAE493B2CB247"
@@ -1865,7 +2080,10 @@
 				""
 				"Be careful though because the craft has a 20% chance of missing and giving you a junk item"
 			]
-			dependencies: ["0E24A6FDB7149DE6"]
+			dependencies: [
+				"0E24A6FDB7149DE6"
+				"298A3F9171009D45"
+			]
 			id: "013250199EBFD737"
 			tasks: [{
 				id: "2452739E819A02A5"
@@ -1892,6 +2110,7 @@
 				"5836EBA421A25364"
 				"67680115E55B9C8B"
 				"013250199EBFD737"
+				"298A3F9171009D45"
 			]
 			id: "2714A2EC7A917167"
 			tasks: [{
@@ -1914,7 +2133,10 @@
 				"{image:ftbquests:textures/quests/create_accumulator.png width:150 height:100 align:1}"
 				"The maximum size is a 3x5x3 and can hold 188.8MRF"
 			]
-			dependencies: ["63D160B52E8918C4"]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
 			id: "4A49AEFC31374580"
 			tasks: [{
 				id: "31909A4D87B0D803"
@@ -1933,7 +2155,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Portable Energy Interface is the energy version of the Portable Storage Interface. It is used to insert or extract from the energy inventory of a Contraption."]
-			dependencies: ["63D160B52E8918C4"]
+			dependencies: [
+				"63D160B52E8918C4"
+				"298A3F9171009D45"
+			]
 			id: "13418BA96C23EFCA"
 			tasks: [{
 				id: "4867E3799A377D57"
@@ -1955,7 +2180,10 @@
 				""
 				"he's also going to put a nice helmet on blaze's head =3"
 			]
-			dependencies: ["4BC7D64DB4ACB7A5"]
+			dependencies: [
+				"4BC7D64DB4ACB7A5"
+				"298A3F9171009D45"
+			]
 			id: "68EC102A4B4E57D5"
 			tasks: [{
 				id: "1A5726579FFC14C1"

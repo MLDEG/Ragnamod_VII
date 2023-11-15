@@ -330,6 +330,7 @@ onEvent('jei.hide.items', e => {
 		'miniutilities:blursed_earth',
 		'avaritia:extreme_crafting_table',
 		'ragnamod_seven:black_sphere',
+		'ftbquests:missing_item',
 
 	])
 })

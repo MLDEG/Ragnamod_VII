@@ -1,7 +1,7 @@
 {
 	id: "4E9F718F175FD8F5"
 	group: ""
-	order_index: 28
+	order_index: 13
 	filename: "occultism"
 	title: " Occultism"
 	icon: "occultism:ritual_dummy/craft_miner_afrit_deeps"
@@ -72,7 +72,10 @@
 				"This effect allows you to see some things you cannot see normally, like Iesnium Or in the Nether, Otherstone n the Overworld."
 			]
 			hide_dependency_lines: false
-			dependencies: ["624FB2D445541958"]
+			dependencies: [
+				"624FB2D445541958"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "4712F25FE9D3F49D"
 			tasks: [{
 				id: "2E219018CA930255"
@@ -95,6 +98,7 @@
 			dependencies: [
 				"1033BEED30BCBE2E"
 				"0DA2467A22F6D309"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "7DC88845B345922C"
 			tasks: [{
@@ -115,7 +119,10 @@
 			shape: "square"
 			description: ["In this pack to get Otherstone you need to throw Lunar Stone in the Spiritfire."]
 			hide_dependency_lines: false
-			dependencies: ["1033BEED30BCBE2E"]
+			dependencies: [
+				"1033BEED30BCBE2E"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "2B57367693BD9211"
 			tasks: [{
 				id: "2BEB865F5A1F5233"
@@ -135,7 +142,10 @@
 			shape: "square"
 			description: ["The Purified Ink is used for crafting Book of Bindings, and o get these you need to throw black dye in Spiritfire."]
 			hide_dependency_lines: false
-			dependencies: ["1033BEED30BCBE2E"]
+			dependencies: [
+				"1033BEED30BCBE2E"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "4688100944675BC9"
 			tasks: [{
 				id: "6389270DAB2F1840"
@@ -161,7 +171,10 @@
 				"You can see what I'm talking about if you have the effect Third Eye."
 			]
 			hide_dependency_lines: false
-			dependencies: ["1033BEED30BCBE2E"]
+			dependencies: [
+				"1033BEED30BCBE2E"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "22DF3A00D7A1D69D"
 			tasks: [{
 				id: "313B8D5539E3438A"
@@ -196,7 +209,10 @@
 			shape: "square"
 			description: ["White Chalk is used to draw your first ritual."]
 			hide_dependency_lines: false
-			dependencies: ["514C05D403F385B6"]
+			dependencies: [
+				"514C05D403F385B6"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "160551369B2D3DD7"
 			tasks: [
 				{
@@ -235,7 +251,10 @@
 			y: 8.0d
 			shape: "square"
 			description: ["The Red Chalk is your final type of chalk for making more powerful rituals, but you need to summon an Afrit and kill it to obtain the main component for your Red Chalk."]
-			dependencies: ["514C05D403F385B6"]
+			dependencies: [
+				"514C05D403F385B6"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "0646054B9C984677"
 			tasks: [
 				{
@@ -274,7 +293,10 @@
 			y: 8.0d
 			shape: "square"
 			description: ["The Purple Chalk is your third type of chalk for making more advanced rituals, but you need to summon a Crusher for making Crushed End Stones."]
-			dependencies: ["514C05D403F385B6"]
+			dependencies: [
+				"514C05D403F385B6"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "4DF6B5FAF20A7360"
 			tasks: [
 				{
@@ -313,7 +335,10 @@
 			y: 6.5d
 			shape: "square"
 			description: ["The Golden Chalk is your second type of chalk for making more advanced rituals."]
-			dependencies: ["514C05D403F385B6"]
+			dependencies: [
+				"514C05D403F385B6"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "40DC6014B8542DF8"
 			tasks: [
 				{
@@ -349,7 +374,10 @@
 				"If you don't have this effect activated when you want to chop the tree, you get regular Oak Woods."
 			]
 			hide_dependency_lines: false
-			dependencies: ["22DF3A00D7A1D69D"]
+			dependencies: [
+				"22DF3A00D7A1D69D"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "3F6AD3FCF5C8E898"
 			tasks: [{
 				id: "5D2664B218FC0419"
@@ -372,7 +400,10 @@
 				""
 				"You can increase the number of slot inside by using Dimensional Storage Stabilizer."
 			]
-			dependencies: ["455A987F13AB6ED9"]
+			dependencies: [
+				"455A987F13AB6ED9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "77543FB2A9AD0C71"
 			tasks: [{
 				id: "5DA412F25F99FB34"
@@ -397,7 +428,10 @@
 				""
 				"Beware that future items stored in your Actuator will not be stored in the Stabilizers, they will remain in your Actuator even if you remove the stabilizers afterward, but you will not be able to add more than the limit shown in the Actuator."
 			]
-			dependencies: ["10B492869E896F19"]
+			dependencies: [
+				"10B492869E896F19"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "66378A34DC617D1B"
 			tasks: [{
 				id: "4A079F6FD9A4F8D0"
@@ -418,6 +452,7 @@
 			dependencies: [
 				"455A987F13AB6ED9"
 				"66378A34DC617D1B"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "1908B6128626BF09"
 			tasks: [{
@@ -439,6 +474,7 @@
 			dependencies: [
 				"75F2C1307F759954"
 				"1908B6128626BF09"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "0DE9649AE0EC69BA"
 			tasks: [{
@@ -461,6 +497,7 @@
 				"74A6B535D678ADD9"
 				"0DE9649AE0EC69BA"
 				"1558BE6E860A8770"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "53752EB8BC47DFCA"
 			tasks: [{
@@ -483,7 +520,10 @@
 				""
 				"For example, you can link your wormhole to your storage, place it in a automation contraption to extract whatever you want from your storage and insert too."
 			]
-			dependencies: ["10B492869E896F19"]
+			dependencies: [
+				"10B492869E896F19"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "094493EAF4AEFF89"
 			tasks: [{
 				id: "4729372BB9CC670B"
@@ -513,6 +553,7 @@
 			dependencies: [
 				"455A987F13AB6ED9"
 				"10B492869E896F19"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "56F5722EB8081F53"
 			tasks: [{
@@ -538,6 +579,7 @@
 			dependencies: [
 				"4712F25FE9D3F49D"
 				"10B492869E896F19"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "652C41159F78F6A6"
 			tasks: [{
@@ -570,7 +612,10 @@
 				"Oak Wood = Otherworld Wood"
 				"Netherrack = Iesnium Ore"
 			]
-			dependencies: ["7DC88845B345922C"]
+			dependencies: [
+				"7DC88845B345922C"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "61D8610C6BAF0508"
 			tasks: [{
 				id: "4AB5DB9CA4B3825D"
@@ -600,7 +645,10 @@
 				"This fire is used to transform items into another items."
 			]
 			hide_dependency_lines: false
-			dependencies: ["4712F25FE9D3F49D"]
+			dependencies: [
+				"4712F25FE9D3F49D"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "1033BEED30BCBE2E"
 			tasks: [{
 				id: "6F46732A132DC6E1"
@@ -623,7 +671,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["Using the ritual \"Strigeor's Higher Binding\" Craft an Infused Pickaxe, this pickaxe is indispensable for getting the Iesnium materials."]
-			dependencies: ["455A987F13AB6ED9"]
+			dependencies: [
+				"455A987F13AB6ED9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "0B653169BA160CAD"
 			tasks: [{
 				id: "013F00CA53CFF4D0"
@@ -650,7 +701,10 @@
 			shape: "square"
 			description: ["Craft an Iesnium Pickaxe, this pickaxe is mainly used to craft different Miner lamps."]
 			hide_dependency_lines: false
-			dependencies: ["1558BE6E860A8770"]
+			dependencies: [
+				"1558BE6E860A8770"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "3DFE151398848633"
 			tasks: [{
 				id: "4F1EE2860EF26817"
@@ -674,7 +728,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["The Surprisingly Substantial Satchel is just a huge backpack with 117 slots."]
-			dependencies: ["10B492869E896F19"]
+			dependencies: [
+				"10B492869E896F19"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "0CA72769B2502EA8"
 			tasks: [{
 				id: "27FC735BB09C7DB8"
@@ -699,7 +756,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Miner Foliot can mine for you regular ores and also blue skies, Undergarden and Gems and Jewels."]
-			dependencies: ["10B492869E896F19"]
+			dependencies: [
+				"10B492869E896F19"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "41B755D9D197AD63"
 			tasks: [{
 				id: "0CFD9EEA2B3316E6"
@@ -724,7 +784,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Ore Miner Djinni can mine only Gems and Jewels, Undergarden and Blue Skies ores."]
-			dependencies: ["455A987F13AB6ED9"]
+			dependencies: [
+				"455A987F13AB6ED9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "72EB49F9C7C3EFD6"
 			tasks: [{
 				id: "41AF447BCD198F62"
@@ -749,7 +812,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Deep Ore Miner Afrit can mine for you Deepslate ores and also blue skies, Undergarden and Gems and Jewels."]
-			dependencies: ["75F2C1307F759954"]
+			dependencies: [
+				"75F2C1307F759954"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "53FF91A7DA4AEE77"
 			tasks: [{
 				id: "044770A9004F5A03"
@@ -774,7 +840,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Master Miner Marid can mine for you every ore that the previous Miner can mine for you + the Mining Master ones."]
-			dependencies: ["74A6B535D678ADD9"]
+			dependencies: [
+				"74A6B535D678ADD9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "71FE9EB861122A8E"
 			tasks: [{
 				id: "54D4A2B7D790D3FD"
@@ -804,7 +873,10 @@
 				""
 				"You can automate it with hopper and pipes."
 			]
-			dependencies: ["455A987F13AB6ED9"]
+			dependencies: [
+				"455A987F13AB6ED9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "48ED20E919F6A136"
 			tasks: [
 				{
@@ -829,7 +901,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["With this gem, you can capture a Familiar to get his benefits effect on a ring."]
-			dependencies: ["455A987F13AB6ED9"]
+			dependencies: [
+				"455A987F13AB6ED9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "73D8E1672E2FBFF8"
 			tasks: [{
 				id: "504D6F20A551AEFA"
@@ -856,7 +931,10 @@
 			shape: "square"
 			description: ["The Familiar Ring allows you to have the effect of the Familiar previously capture with your Soul Gems."]
 			hide_dependency_lines: false
-			dependencies: ["73D8E1672E2FBFF8"]
+			dependencies: [
+				"73D8E1672E2FBFF8"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "62A2C4C342C22155"
 			tasks: [{
 				id: "00328A4BF6DDEE6F"
@@ -897,6 +975,7 @@
 				"40DC6014B8542DF8"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "11F435D6B8D2D5DD"
 			tasks: [{
@@ -930,6 +1009,7 @@
 				"0646054B9C984677"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "4A820C6E51741A85"
 			tasks: [{
@@ -962,6 +1042,7 @@
 				"160551369B2D3DD7"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "2165FB92A0287E64"
 			tasks: [{
@@ -986,7 +1067,10 @@
 			shape: "square"
 			description: ["To get Otherworld Ashes, you need to throw an Otherworld Wood in the Spiritfire."]
 			hide_dependency_lines: false
-			dependencies: ["1033BEED30BCBE2E"]
+			dependencies: [
+				"1033BEED30BCBE2E"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "514C05D403F385B6"
 			tasks: [{
 				id: "1A8DD13894AD0FC2"
@@ -1005,7 +1089,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Spirit Attuned Crystals are used in Ritual structure and also has an ingredient for rituals."]
-			dependencies: ["7DC88845B345922C"]
+			dependencies: [
+				"7DC88845B345922C"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "0162789FA3A5FB60"
 			tasks: [{
 				id: "08A1B652F6BB87C9"
@@ -1030,7 +1117,10 @@
 				"You can put an item on it by right-click it, and the golden one is for the center of your ritual."
 			]
 			hide_dependency_lines: false
-			dependencies: ["2B57367693BD9211"]
+			dependencies: [
+				"2B57367693BD9211"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "6F4090909CAB1264"
 			tasks: [
 				{
@@ -1061,7 +1151,10 @@
 				"To craft Candles, you're going to need tallow, and to get Tallow you have to kill a cow, pig, sheep, horse or a llama with a Butcher Knife !"
 				"Candles are very important for your ritual, you're gonna need those in bulk."
 			]
-			dependencies: ["624FB2D445541958"]
+			dependencies: [
+				"624FB2D445541958"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "6AEA8EAB317F6A30"
 			tasks: [
 				{
@@ -1098,7 +1191,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["Chalk Brush is used simply to remove the glyph you draw on the ground."]
-			dependencies: ["160551369B2D3DD7"]
+			dependencies: [
+				"160551369B2D3DD7"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "62076EF546CECB81"
 			tasks: [{
 				id: "6D3498305A4D7DC4"
@@ -1131,7 +1227,10 @@
 				"It's spawns with a random amount of limbs."
 			]
 			hide_dependency_lines: false
-			dependencies: ["2165FB92A0287E64"]
+			dependencies: [
+				"2165FB92A0287E64"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "2DC355D06C2A5A8D"
 			tasks: [{
 				id: "6828F4A489AB92C2"
@@ -1174,7 +1273,10 @@
 				"_Beaver Familiar (will chop down nearby trees when they grow from a sapling / Can also increase wood break speed.)"
 			]
 			hide_dependency_lines: false
-			dependencies: ["11F435D6B8D2D5DD"]
+			dependencies: [
+				"11F435D6B8D2D5DD"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "0959CF3C69D1CBB0"
 			tasks: [{
 				id: "55B117F29BD3E722"
@@ -1232,7 +1334,10 @@
 				"_Fairy Familiar (prevents Familiar deaths and drains enemy life force)"
 			]
 			hide_dependency_lines: false
-			dependencies: ["4A820C6E51741A85"]
+			dependencies: [
+				"4A820C6E51741A85"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "31290D701698E067"
 			tasks: [{
 				id: "704D8F56ED653D0A"
@@ -1266,6 +1371,7 @@
 				"6AEA8EAB317F6A30"
 				"0162789FA3A5FB60"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "74A6B535D678ADD9"
 			tasks: [{
@@ -1300,6 +1406,7 @@
 				"0162789FA3A5FB60"
 				"40DC6014B8542DF8"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "455A987F13AB6ED9"
 			tasks: [{
@@ -1332,6 +1439,7 @@
 				"4DF6B5FAF20A7360"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "75F2C1307F759954"
 			tasks: [{
@@ -1364,6 +1472,7 @@
 				"6AEA8EAB317F6A30"
 				"0162789FA3A5FB60"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "10B492869E896F19"
 			tasks: [{
@@ -1395,6 +1504,7 @@
 				"160551369B2D3DD7"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "5CBB39C40DA020B8"
 			tasks: [{
@@ -1424,6 +1534,7 @@
 				"6F4090909CAB1264"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "79B2A1D49A5BB79A"
 			tasks: [{
@@ -1455,6 +1566,7 @@
 				"160551369B2D3DD7"
 				"4DF6B5FAF20A7360"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "1C4436F0524630A6"
 			tasks: [{
@@ -1487,6 +1599,7 @@
 				"0646054B9C984677"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "226A7A2FEAE19B15"
 			tasks: [{
@@ -1519,6 +1632,7 @@
 				"160551369B2D3DD7"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "45BECAEB61AA5E3B"
 			tasks: [{
@@ -1549,6 +1663,7 @@
 				"4DF6B5FAF20A7360"
 				"160551369B2D3DD7"
 				"6FB44ED0D3BD0999"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "410A2EE927762E89"
 			tasks: [{
@@ -1594,7 +1709,10 @@
 				"For more info on how you can use those guys, check the Dictionary of Spirits."
 			]
 			hide_dependency_lines: false
-			dependencies: ["79B2A1D49A5BB79A"]
+			dependencies: [
+				"79B2A1D49A5BB79A"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "38963D6A779A07F4"
 			tasks: [
 				{
@@ -1644,7 +1762,10 @@
 				"_Time Magic will change the time from day to night and vis versa."
 			]
 			hide_dependency_lines: false
-			dependencies: ["5CBB39C40DA020B8"]
+			dependencies: [
+				"5CBB39C40DA020B8"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "0A2331AC31F5E740"
 			tasks: [{
 				id: "71B626654A9B84B5"
@@ -1672,7 +1793,10 @@
 			shape: "square"
 			description: ["With the Osorin's Unbound Calling you can perform only one ritual, It's consists of spawning a horde of skeleton with 3 wither skeleton who drop 100% their heads !"]
 			hide_dependency_lines: false
-			dependencies: ["410A2EE927762E89"]
+			dependencies: [
+				"410A2EE927762E89"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "1AB39AD94D3E3222"
 			tasks: [{
 				id: "1DCC0C5D75BB8703"
@@ -1701,7 +1825,10 @@
 			shape: "square"
 			description: ["Kill an Afrit to collect an Afrit Essence using the Abras' Open Conjure ritual."]
 			hide_dependency_lines: false
-			dependencies: ["1C4436F0524630A6"]
+			dependencies: [
+				"1C4436F0524630A6"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "1A20C35A82D76B8E"
 			tasks: [
 				{
@@ -1747,7 +1874,10 @@
 				"You can do a 6x ore processing with him !"
 			]
 			hide_dependency_lines: false
-			dependencies: ["45BECAEB61AA5E3B"]
+			dependencies: [
+				"45BECAEB61AA5E3B"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "74E335F14937A70F"
 			tasks: [{
 				id: "27571CAE50011D81"
@@ -1786,7 +1916,10 @@
 				"You can also, with this ritual, summon an Afrit who can change the weather, either rainy or thunderstorm"
 			]
 			hide_dependency_lines: false
-			dependencies: ["226A7A2FEAE19B15"]
+			dependencies: [
+				"226A7A2FEAE19B15"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "5A4EE2944C1151AF"
 			tasks: [{
 				id: "6F4DACACE6D0D024"
@@ -1816,7 +1949,10 @@
 				"But, if you cant to mine it, you're going to need an Infused Pickaxe."
 			]
 			hide_dependency_lines: false
-			dependencies: ["0B653169BA160CAD"]
+			dependencies: [
+				"0B653169BA160CAD"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "1558BE6E860A8770"
 			tasks: [{
 				id: "3A3B289A2BCC375F"
@@ -1850,6 +1986,7 @@
 				"6F4090909CAB1264"
 				"6AEA8EAB317F6A30"
 				"160551369B2D3DD7"
+				"112B0AEF7EDDDE6A"
 			]
 			id: "6FB44ED0D3BD0999"
 			tasks: [{
@@ -1876,7 +2013,10 @@
 			shape: "square"
 			description: ["With the Ritual of Eziveus Spectral Compulsion, you can craft useful items like your first Miner, your Tier 1 Storage Stabilizer or Infused Lenses."]
 			hide_dependency_lines: false
-			dependencies: ["10B492869E896F19"]
+			dependencies: [
+				"10B492869E896F19"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "4375ADF256BA5083"
 			tasks: [{
 				id: "28020E006344222E"
@@ -1901,7 +2041,10 @@
 			shape: "square"
 			description: ["With the Ritual of Strigeor's Higher Binding, you can craft useful items like your second Miner, your Tier 2 Storage Stabilizer or, more importantly, your Infused Pickaxe."]
 			hide_dependency_lines: false
-			dependencies: ["455A987F13AB6ED9"]
+			dependencies: [
+				"455A987F13AB6ED9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "6FA119C5F7BAD4EA"
 			tasks: [{
 				id: "63C1D13208FEF4D2"
@@ -1928,7 +2071,10 @@
 			shape: "square"
 			description: ["The Sevira's Permanent Confinement allows you to craft the Tier 3 Storage Stabilizer and the Deep Ore Miner !"]
 			hide_dependency_lines: false
-			dependencies: ["75F2C1307F759954"]
+			dependencies: [
+				"75F2C1307F759954"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "14C207880000B07B"
 			tasks: [{
 				id: "5491B4F58B31BA31"
@@ -1955,7 +2101,10 @@
 			shape: "square"
 			description: ["The Uphyxes Inverted Tower allows you to craft the Tier 4 Storage Stabilizer and the Master Miner !"]
 			hide_dependency_lines: false
-			dependencies: ["74A6B535D678ADD9"]
+			dependencies: [
+				"74A6B535D678ADD9"
+				"112B0AEF7EDDDE6A"
+			]
 			id: "49B35C7976BE67AA"
 			tasks: [{
 				id: "0E957359B762E644"

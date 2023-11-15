@@ -1,7 +1,7 @@
 {
 	id: "346297BE5BDEC10F"
 	group: ""
-	order_index: 9
+	order_index: 10
 	filename: "evilcraft"
 	title: " EvilCraft"
 	icon: "evilcraft:condensed_blood"
@@ -32,7 +32,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Just craft a darkened apple, but NOT EAT IT !"]
-			dependencies: ["1577635AA4E66A66"]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
 			id: "1D654C0A3871B157"
 			tasks: [{
 				id: "2EDC157D50D5005E"
@@ -55,7 +58,10 @@
 				""
 				"To obtain this book, you must feed an animal a Darkened Apple then throw a book where the mob died."
 			]
-			dependencies: ["1D654C0A3871B157"]
+			dependencies: [
+				"1D654C0A3871B157"
+				"48D9C1D7730F18CD"
+			]
 			id: "47708A85225B918A"
 			tasks: [{
 				id: "47C2AABB81F9239B"
@@ -78,7 +84,10 @@
 				""
 				"Be careful, however, because when the ring is activated you attract more spiritualist vengeance than normal."
 			]
-			dependencies: ["1577635AA4E66A66"]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
 			id: "4F8B08C502230A0F"
 			tasks: [{
 				id: "1E2AB1E95ED99DD4"
@@ -101,7 +110,10 @@
 				""
 				"It's useful if you need to capture a spirit in a Box of Eternal Closure."
 			]
-			dependencies: ["4F8B08C502230A0F"]
+			dependencies: [
+				"4F8B08C502230A0F"
+				"48D9C1D7730F18CD"
+			]
 			id: "44167CB3A1DDA560"
 			tasks: [{
 				id: "68B826431CD3909C"
@@ -120,7 +132,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Piercing Vengeance Focus is used to deal damage to Spirit and get Essence."]
-			dependencies: ["44167CB3A1DDA560"]
+			dependencies: [
+				"44167CB3A1DDA560"
+				"48D9C1D7730F18CD"
+			]
 			id: "5BDC7CBB07E7230D"
 			tasks: [{
 				id: "496A95B2737A90E2"
@@ -139,7 +154,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Blood Infuser can transform an item into another item using blood."]
-			dependencies: ["562FF1F6F3713850"]
+			dependencies: [
+				"562FF1F6F3713850"
+				"48D9C1D7730F18CD"
+			]
 			id: "7DA9A918079760B1"
 			tasks: [{
 				id: "55592CC1CF207782"
@@ -180,7 +198,10 @@
 				"{image:ftbquests:textures/quests/evilcraft_sanguinary_setup.png width:150 height:100 align:1}"
 				"You can place any kind of tank, even Ender Tank."
 			]
-			dependencies: ["249D4E899B6A93B0"]
+			dependencies: [
+				"249D4E899B6A93B0"
+				"48D9C1D7730F18CD"
+			]
 			id: "3DD4AC2306FA9462"
 			tasks: [{
 				id: "0921E16731DF7B53"
@@ -243,7 +264,10 @@
 				"The Sceptre of Thunder is a single-used item, it can summon a thunder."
 				"Useful for crafting Weather Container \"Thunderstruck\"."
 			]
-			dependencies: ["11A9C8B93702BC82"]
+			dependencies: [
+				"11A9C8B93702BC82"
+				"48D9C1D7730F18CD"
+			]
 			id: "2498E11E6FA06B0F"
 			tasks: [{
 				id: "7A2AB4CD3F31453A"
@@ -261,7 +285,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Use some Crushed Dark Gem and combined it with a Vengeance Essence to get a Materialized Vengeance Essence."]
-			dependencies: ["7DB61268194A5D7E"]
+			dependencies: [
+				"7DB61268194A5D7E"
+				"48D9C1D7730F18CD"
+			]
 			id: "1505DA74A50CCFF1"
 			tasks: [{
 				id: "634E7380B33E63C3"
@@ -281,7 +308,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["Obtain by killing a spirit with your Piercing Vengeance Focus."]
-			dependencies: ["5BDC7CBB07E7230D"]
+			dependencies: [
+				"5BDC7CBB07E7230D"
+				"48D9C1D7730F18CD"
+			]
 			id: "7DB61268194A5D7E"
 			tasks: [{
 				id: "530D309B1EB93E48"
@@ -304,7 +334,10 @@
 				""
 				"In this pack you need to capture certain mobs to get the end game !"
 			]
-			dependencies: ["1577635AA4E66A66"]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
 			id: "4512C2B58AD1076D"
 			tasks: [{
 				id: "3E8069A26A7BACBC"
@@ -326,7 +359,10 @@
 				"The Sanguinary Pedestal is used to drain blood stains in the surrounding area."
 				"Combine it with Spiked Plate to automate the blood production."
 			]
-			dependencies: ["1577635AA4E66A66"]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
 			id: "585B9B16C8FB0996"
 			tasks: [{
 				id: "5DAEB41479E57B89"
@@ -372,7 +408,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Powered Sanguinary Pedestal work like the simple Sanguinary Pedestal, but it can drain more blood."]
-			dependencies: ["585B9B16C8FB0996"]
+			dependencies: [
+				"585B9B16C8FB0996"
+				"48D9C1D7730F18CD"
+			]
 			id: "397F81BC0FACA32C"
 			tasks: [{
 				id: "0727B28271C2DE27"
@@ -412,7 +451,10 @@
 				"Use a Pedestal to automate blood production."
 			]
 			hide_dependency_lines: true
-			dependencies: ["1577635AA4E66A66"]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
 			id: "2F27D1C519E3D2FC"
 			tasks: [{
 				id: "3C084BD9C515E72E"
@@ -434,7 +476,10 @@
 				"It can, also, store blood when you kill mods with your Extractor in your inventory."
 				"You can upgrade is internal inventory by combining other blood extractor or a blood tank !"
 			]
-			dependencies: ["1577635AA4E66A66"]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
 			id: "2805CB885775263A"
 			tasks: [{
 				id: "2B8CB33E0DF144E6"
@@ -490,7 +535,10 @@
 				""
 				"When you have a Weather Container with something inside, you can release it just throwing it."
 			]
-			dependencies: ["1577635AA4E66A66"]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
 			id: "296E48F13F86BBB7"
 			tasks: [{
 				id: "108092E56DA73F22"
@@ -521,7 +569,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Promise of Velocity is used in EvilCraft machines, stackable by 4, it speeds up the machines."]
-			dependencies: ["7DA9A918079760B1"]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
 			id: "3C6BFF8D837001FE"
 			tasks: [{
 				id: "0B693901BAC43FFE"
@@ -539,7 +590,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Promise of Productivity is used in EvilCraft machines, stackable by 4, it allows you to consume less blood per operation."]
-			dependencies: ["7DA9A918079760B1"]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
 			id: "27163873EBE27E61"
 			tasks: [{
 				id: "350D127CEF5942A1"
@@ -557,7 +611,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Promise of Tenacity I is used to upgrading your machines."]
-			dependencies: ["7DA9A918079760B1"]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
 			id: "7D728D0DB7EBC47A"
 			tasks: [{
 				id: "620F4A6AD1D82305"
@@ -575,7 +632,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The Promise of Tenacity II is used to upgrading your machines."]
-			dependencies: ["7D728D0DB7EBC47A"]
+			dependencies: [
+				"7D728D0DB7EBC47A"
+				"48D9C1D7730F18CD"
+			]
 			id: "2B1CF4ACF28CA9DE"
 			tasks: [{
 				id: "123B9AB0879E6179"
@@ -593,7 +653,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Promise of Tenacity III is the last tier up used to upgrading your machines."]
-			dependencies: ["2B1CF4ACF28CA9DE"]
+			dependencies: [
+				"2B1CF4ACF28CA9DE"
+				"48D9C1D7730F18CD"
+			]
 			id: "4CBA5CFBD7EF0EA3"
 			tasks: [{
 				id: "55C42BECE0C8AED3"
@@ -611,7 +674,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["You need to throw a Dark Gem in a pool of 5 bucket of blood to get this Dark Power Gem."]
-			dependencies: ["2B6D002D9CEE7153"]
+			dependencies: [
+				"2B6D002D9CEE7153"
+				"48D9C1D7730F18CD"
+			]
 			id: "384747F22752688B"
 			tasks: [{
 				id: "3A41C53B6FA34445"
@@ -635,7 +701,10 @@
 				""
 				"You need also Silk Touched."
 			]
-			dependencies: ["2B6D002D9CEE7153"]
+			dependencies: [
+				"2B6D002D9CEE7153"
+				"48D9C1D7730F18CD"
+			]
 			id: "1C8DB2E8717C6AAF"
 			tasks: [{
 				id: "70BFE71264971E74"
@@ -654,7 +723,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Infuse your Materialized Vengeance Essence with blood to obtain a Garmonbozia"]
-			dependencies: ["1505DA74A50CCFF1"]
+			dependencies: [
+				"1505DA74A50CCFF1"
+				"48D9C1D7730F18CD"
+			]
 			id: "443E2A8B9754F1B8"
 			tasks: [{
 				id: "21BD4D7D4A534B50"
@@ -673,7 +745,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Undead Sapling can grow an Undead Tree who drop blood stains on the floor."]
-			dependencies: ["7DA9A918079760B1"]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
 			id: "511DF6A8A14D0B68"
 			tasks: [{
 				id: "639A4C78BBC09D23"
@@ -695,6 +770,7 @@
 			dependencies: [
 				"384747F22752688B"
 				"1C8DB2E8717C6AAF"
+				"48D9C1D7730F18CD"
 			]
 			id: "562FF1F6F3713850"
 			tasks: [{
@@ -714,7 +790,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Blood orb can be transformed into a Weak Blood Orb, for Blood Magic."]
-			dependencies: ["7DA9A918079760B1"]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
 			id: "11A9C8B93702BC82"
 			tasks: [{
 				id: "4C7C4DDBD745DE0B"
@@ -732,7 +811,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["When you have 1000mb or more blood in your Extractor, you can right-click on the ground to release a bucket of blood."]
-			dependencies: ["2805CB885775263A"]
+			dependencies: [
+				"2805CB885775263A"
+				"48D9C1D7730F18CD"
+			]
 			id: "2B6D002D9CEE7153"
 			tasks: [{
 				id: "4D02B6D731B05615"
@@ -750,7 +832,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Eternal Water Block is simply an infinite water source with an auto output in an adjacent tank."]
-			dependencies: ["296E48F13F86BBB7"]
+			dependencies: [
+				"296E48F13F86BBB7"
+				"48D9C1D7730F18CD"
+			]
 			id: "2D68A619FA087D0F"
 			tasks: [{
 				id: "36B57C93D6B1600D"
@@ -768,7 +853,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Blood Chest can repair stuff with blood !"]
-			dependencies: ["562FF1F6F3713850"]
+			dependencies: [
+				"562FF1F6F3713850"
+				"48D9C1D7730F18CD"
+			]
 			id: "3A65F6BCB2F34B73"
 			tasks: [{
 				id: "6D2F533B17EAD271"
@@ -807,7 +895,10 @@
 				""
 				"Place a Box of Eternal Closure with the Spirit you desire trap inside, put an Egg, use some blood and wait for your Spawn Egg."
 			]
-			dependencies: ["4512C2B58AD1076D"]
+			dependencies: [
+				"4512C2B58AD1076D"
+				"48D9C1D7730F18CD"
+			]
 			id: "3990D1C488310B47"
 			tasks: [{
 				id: "169096CE7C545E5A"
@@ -847,7 +938,10 @@
 				"Condensed Blood is used in the Blood Infuser to give you 500mb of Blood."
 				"In this pack, if you have a honeycomb farm, you can get Blood for free with it !"
 			]
-			dependencies: ["7DA9A918079760B1"]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
 			id: "68E377793A62A934"
 			tasks: [{
 				id: "571406A1B31BF6E8"

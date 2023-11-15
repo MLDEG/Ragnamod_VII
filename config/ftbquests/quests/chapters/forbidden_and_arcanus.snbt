@@ -1,7 +1,7 @@
 {
 	id: "4C310F9E6915E56F"
 	group: ""
-	order_index: 17
+	order_index: 16
 	filename: "forbidden_and_arcanus"
 	title: " Forbidden and Arcanus"
 	icon: "forbidden_arcanus:hephaestus_forge"
@@ -17,7 +17,10 @@
 				"Craft the Tyr Armor."
 				"It's used to the End Game armor."
 			]
-			dependencies: ["06741AEC28F07033"]
+			dependencies: [
+				"06741AEC28F07033"
+				"49566F6C3DE4A0A0"
+			]
 			id: "00000000000005DF"
 			tasks: [
 				{
@@ -80,7 +83,10 @@
 				"Craft the Dragon Arcanus Armor."
 				"It's used to the End Game armor."
 			]
-			dependencies: ["06741AEC28F07033"]
+			dependencies: [
+				"06741AEC28F07033"
+				"49566F6C3DE4A0A0"
+			]
 			id: "00000000000005E4"
 			tasks: [
 				{
@@ -145,7 +151,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Draco Arcanus Scepter can launch thunder at mobs."]
-			dependencies: ["06B3F7979853F6BE"]
+			dependencies: [
+				"06B3F7979853F6BE"
+				"49566F6C3DE4A0A0"
+			]
 			id: "00000000000005F4"
 			tasks: [{
 				id: "00000000000005F5"
@@ -166,7 +175,10 @@
 				"With your Dark Soul, craft a Corrupted Pixie."
 				"You can right-click it on a Utrem Jar."
 			]
-			dependencies: ["00000000000005F8"]
+			dependencies: [
+				"00000000000005F8"
+				"49566F6C3DE4A0A0"
+			]
 			id: "00000000000005F6"
 			tasks: [{
 				id: "00000000000005F7"
@@ -190,7 +202,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Turn the Soul into a Dark Soul."]
-			dependencies: ["00000000000005FA"]
+			dependencies: [
+				"00000000000005FA"
+				"49566F6C3DE4A0A0"
+			]
 			id: "00000000000005F8"
 			tasks: [{
 				id: "00000000000005F9"
@@ -208,7 +223,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Collect a Soul from a soul sand using the Soul Extractor."]
-			dependencies: ["00000000000005FC"]
+			dependencies: [
+				"00000000000005FC"
+				"49566F6C3DE4A0A0"
+			]
 			id: "00000000000005FA"
 			tasks: [{
 				id: "00000000000005FB"
@@ -252,7 +270,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Quantum Catcher can catch mobs."]
-			dependencies: ["000000000000060A"]
+			dependencies: [
+				"000000000000060A"
+				"49566F6C3DE4A0A0"
+			]
 			id: "00000000000005FE"
 			tasks: [{
 				id: "00000000000005FF"
@@ -270,7 +291,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Slimec Pickexe has Silk Touch when you craft it."]
-			dependencies: ["09FB1CFAC203AC1F"]
+			dependencies: [
+				"09FB1CFAC203AC1F"
+				"49566F6C3DE4A0A0"
+			]
 			id: "0000000000000602"
 			tasks: [{
 				id: "0000000000000603"
@@ -321,6 +345,7 @@
 			dependencies: [
 				"06741AEC28F07033"
 				"09FB1CFAC203AC1F"
+				"49566F6C3DE4A0A0"
 			]
 			id: "0000000000000606"
 			tasks: [{
@@ -359,7 +384,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Just smelt some Arcane Crystal to get the Dust of it."]
-			dependencies: ["000000000000060A"]
+			dependencies: [
+				"000000000000060A"
+				"49566F6C3DE4A0A0"
+			]
 			id: "000000000000060C"
 			tasks: [{
 				id: "000000000000060D"
@@ -378,7 +406,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Eternal Stella can make your gear Indestructible."]
-			dependencies: ["08AFEB39635D7EA8"]
+			dependencies: [
+				"08AFEB39635D7EA8"
+				"49566F6C3DE4A0A0"
+			]
 			id: "0000000000000610"
 			tasks: [{
 				id: "0000000000000611"
@@ -407,7 +438,10 @@
 				"The Mundabitur Dust is used to make the Magical Farmland."
 				"Form the Hephaestus Forge and the Arcane Crystal Obelisk."
 			]
-			dependencies: ["000000000000060C"]
+			dependencies: [
+				"000000000000060C"
+				"49566F6C3DE4A0A0"
+			]
 			id: "0000000000000612"
 			tasks: [{
 				id: "0000000000000613"
@@ -426,7 +460,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["You can obtain a Dark Matter by smelting Edelwood Log."]
-			dependencies: ["000000000000060C"]
+			dependencies: [
+				"000000000000060C"
+				"49566F6C3DE4A0A0"
+			]
 			id: "0000000000000614"
 			tasks: [{
 				id: "0000000000000615"
@@ -446,7 +483,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The Obsidian Skull protect you from fire damage for 30 seconds."]
-			dependencies: ["7DEB614236ACD216"]
+			dependencies: [
+				"7DEB614236ACD216"
+				"49566F6C3DE4A0A0"
+			]
 			id: "0000000000000616"
 			tasks: [{
 				id: "0000000000000617"
@@ -489,6 +529,7 @@
 			dependencies: [
 				"0000000000000612"
 				"000000000000060C"
+				"49566F6C3DE4A0A0"
 			]
 			id: "09FB1CFAC203AC1F"
 			tasks: [{
@@ -511,6 +552,7 @@
 			dependencies: [
 				"0000000000000604"
 				"06B3F7979853F6BE"
+				"49566F6C3DE4A0A0"
 			]
 			id: "6243F43E5363E196"
 			tasks: [{
@@ -530,7 +572,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Dark Nether Star is used to help you automate Dark Runes."]
-			dependencies: ["7DEB614236ACD216"]
+			dependencies: [
+				"7DEB614236ACD216"
+				"49566F6C3DE4A0A0"
+			]
 			id: "06B3F7979853F6BE"
 			tasks: [{
 				id: "1943B61D87FACB51"
@@ -549,7 +594,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Mystical Dagger is used to cut off Dragon Head to obtain Dragon Scale."]
-			dependencies: ["6243F43E5363E196"]
+			dependencies: [
+				"6243F43E5363E196"
+				"49566F6C3DE4A0A0"
+			]
 			id: "19B9455CD4C64D92"
 			tasks: [{
 				id: "51350121F78D1BDD"
@@ -573,7 +621,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["You can get Dragon Scale by killing the Ender Dragon."]
-			dependencies: ["19B9455CD4C64D92"]
+			dependencies: [
+				"19B9455CD4C64D92"
+				"49566F6C3DE4A0A0"
+			]
 			id: "06741AEC28F07033"
 			tasks: [{
 				id: "098D839DD981AAAB"
@@ -602,7 +653,10 @@
 				"To start a craft, you have to right-click with a Blacksmith Gavel."
 			]
 			hide_dependency_lines: true
-			dependencies: ["09FB1CFAC203AC1F"]
+			dependencies: [
+				"09FB1CFAC203AC1F"
+				"49566F6C3DE4A0A0"
+			]
 			size: 2.0d
 			id: "08AFEB39635D7EA8"
 			tasks: [
@@ -663,7 +717,10 @@
 				"{image:ftbquests:textures/quests/forbidden_obelisk.png width:150 height:100 align:1}"
 				"The Obelisk will generate passively Aureal for your Hephaestus Forge."
 			]
-			dependencies: ["08AFEB39635D7EA8"]
+			dependencies: [
+				"08AFEB39635D7EA8"
+				"49566F6C3DE4A0A0"
+			]
 			id: "71F9CD3BF1C02CD8"
 			tasks: [{
 				id: "7C80DA2157F8872D"
@@ -689,7 +746,10 @@
 				"Don't worry, this black hole won't hurt you, but he absorbs items and XP orbs."
 				"Items will be destroyed, but XP will be transformed into Xpetrified Orb."
 			]
-			dependencies: ["0000000000000614"]
+			dependencies: [
+				"0000000000000614"
+				"49566F6C3DE4A0A0"
+			]
 			id: "1F9473E35F4E3455"
 			tasks: [{
 				id: "2F190AAE0286A586"
@@ -713,7 +773,10 @@
 				""
 				"To get Magical Farmland, simply applie an Arcane Bone Meal on a regular Farmland."
 			]
-			dependencies: ["09FB1CFAC203AC1F"]
+			dependencies: [
+				"09FB1CFAC203AC1F"
+				"49566F6C3DE4A0A0"
+			]
 			id: "0ADE37DDA117E17E"
 			tasks: [{
 				id: "35BF8554A205C66D"

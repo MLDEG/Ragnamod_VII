@@ -1,7 +1,7 @@
 {
 	id: "58253107FB138B0D"
 	group: ""
-	order_index: 25
+	order_index: 24
 	filename: "rftools_and_co"
 	title: " RFTools and co"
 	icon: "rftoolsbase:machine_frame"
@@ -38,6 +38,7 @@
 			dependencies: [
 				"0000000000000ACA"
 				"0000000000000AF5"
+				"6BAADB4B4E44097C"
 			]
 			id: "0000000000000ACC"
 			tasks: [{
@@ -56,7 +57,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The Matter Transmitter is used with a Dialing Device to teleport you to a Matter Receiver."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000AD0"
 			tasks: [{
 				id: "0000000000000AD1"
@@ -75,7 +79,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Matter Receiver is used to create a point of teleportation, place this block anywhere in the world, then you can dial to it using a Dialing Device."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000AD2"
 			tasks: [{
 				id: "0000000000000AD3"
@@ -117,7 +124,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Dialing Device can \"dial\" any matter transmitter to any matter receiver existing."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B07"
 			tasks: [{
 				id: "0000000000000B08"
@@ -135,7 +145,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Builder can quarry areas, pump liquids, move/copy/swap structures, collect item and XP, move entities, build structures, etc..."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B09"
 			tasks: [{
 				id: "0000000000000B0A"
@@ -159,7 +172,10 @@
 				"The Pump card is used to pump areas."
 				"The Void card is used to void areas."
 			]
-			dependencies: ["0000000000000B09"]
+			dependencies: [
+				"0000000000000B09"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B0B"
 			tasks: [
 				{
@@ -200,7 +216,10 @@
 				""
 				"The powercell Card is used to connect dimensional cells."
 			]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B10"
 			tasks: [
 				{
@@ -226,7 +245,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The dimensional Cell work like the Simple version but can store up to 1 MRF."]
-			dependencies: ["0000000000000B10"]
+			dependencies: [
+				"0000000000000B10"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B12"
 			tasks: [{
 				id: "0000000000000B13"
@@ -244,7 +266,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The dimensional Cell (Advanced) work like the Simple version but can store up to 4 MRF."]
-			dependencies: ["0000000000000B12"]
+			dependencies: [
+				"0000000000000B12"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B14"
 			tasks: [{
 				id: "0000000000000B15"
@@ -287,7 +312,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Storage Scanner will scan all nearby inventories and show them in a list, you can then search and access items from those inventories."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B19"
 			tasks: [{
 				id: "0000000000000B1A"
@@ -306,7 +334,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Modular Storage can store a lot of items and allows easy searching and filtering using a storage module in it."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B1B"
 			tasks: [{
 				id: "0000000000000B1C"
@@ -324,7 +355,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Tier 1 Storage Module can old 100 stacks."]
-			dependencies: ["0000000000000B1B"]
+			dependencies: [
+				"0000000000000B1B"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B1D"
 			tasks: [{
 				id: "0000000000000B1E"
@@ -342,7 +376,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Tier 2 Storage Module can old 200 stacks."]
-			dependencies: ["0000000000000B1D"]
+			dependencies: [
+				"0000000000000B1D"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B1F"
 			tasks: [{
 				id: "0000000000000B20"
@@ -360,7 +397,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Tier 3 Storage Module can old 300 stacks."]
-			dependencies: ["0000000000000B1F"]
+			dependencies: [
+				"0000000000000B1F"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B21"
 			tasks: [{
 				id: "0000000000000B22"
@@ -378,7 +418,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Tier 4 Storage Module can old 500 stacks."]
-			dependencies: ["0000000000000B21"]
+			dependencies: [
+				"0000000000000B21"
+				"6BAADB4B4E44097C"
+			]
 			id: "0000000000000B23"
 			tasks: [{
 				id: "0000000000000B24"
@@ -396,7 +439,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Controller is the brain of all automatization with Xnet."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "7E4A67963D11BE48"
 			tasks: [{
 				id: "6555A59BDDA7A227"
@@ -415,7 +461,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Network Cables are used to link your connectors together in your Xnet Network."]
-			dependencies: ["7E4A67963D11BE48"]
+			dependencies: [
+				"7E4A67963D11BE48"
+				"6BAADB4B4E44097C"
+			]
 			id: "5DEC564FC643F344"
 			tasks: [{
 				id: "3AEFEEBEB02F1FAC"
@@ -437,7 +486,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Connectors ares used to link, in your Xnet Network, your machines, storages, tank etc..."]
-			dependencies: ["5DEC564FC643F344"]
+			dependencies: [
+				"5DEC564FC643F344"
+				"6BAADB4B4E44097C"
+			]
 			id: "08B4975CC7077DF0"
 			tasks: [{
 				id: "51162437E592CEF9"
@@ -459,7 +511,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["Advanced connectors are used in the same way as connectors, but the advanced version can control all sides of all machines, storages, tanks to which it's connected."]
-			dependencies: ["08B4975CC7077DF0"]
+			dependencies: [
+				"08B4975CC7077DF0"
+				"6BAADB4B4E44097C"
+			]
 			id: "734F49C4762BA967"
 			tasks: [{
 				id: "24E58720E57BD69C"
@@ -481,7 +536,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Storage Control Screen Module is used to register a Storage Scanner and when it's in a Tablet, you can access your Modular Scanner from anywhere (of course if your Modular Scanner is in a loaded chunk)."]
-			dependencies: ["0000000000000B19"]
+			dependencies: [
+				"0000000000000B19"
+				"6BAADB4B4E44097C"
+			]
 			id: "25ACE1C1A60E4D38"
 			tasks: [
 				{
@@ -513,7 +571,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Crafter can handle up to 8 recipes at once and allows recipes to use the crafting results of previous steps."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "520DC4800966F859"
 			tasks: [{
 				id: "673849F6F7D68532"
@@ -531,7 +592,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Environmental Controller can be used to apply various effects to a large area."]
-			dependencies: ["0000000000000ACA"]
+			dependencies: [
+				"0000000000000ACA"
+				"6BAADB4B4E44097C"
+			]
 			id: "41738FB567065B41"
 			tasks: [{
 				id: "1E8D8DE5B9DA0F95"

@@ -1,7 +1,7 @@
 {
 	id: "282378CE555D3359"
 	group: ""
-	order_index: 22
+	order_index: 25
 	filename: "industrial_foregoing"
 	title: " Industrial Foregoing"
 	icon: "industrialforegoing:mob_imprisonment_tool"
@@ -32,6 +32,7 @@
 				"000000000000079B"
 				"00000000000007B3"
 				"00000000000007B9"
+				"594B09B9BA7FD7C3"
 			]
 			size: 1.5d
 			id: "0000000000000795"
@@ -52,7 +53,10 @@
 			shape: "square"
 			description: ["Meatallurgic Mycelial Generator, generate power with Liquid Meat and any kind of metal."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007B9"]
+			dependencies: [
+				"00000000000007B9"
+				"594B09B9BA7FD7C3"
+			]
 			id: "0000000000000797"
 			tasks: [{
 				id: "0000000000000798"
@@ -72,7 +76,10 @@
 			shape: "square"
 			description: ["Crimed Mycelial Generator, generate power with Warped or Crimson vegetation."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "0000000000000799"
 			tasks: [{
 				id: "000000000000079A"
@@ -100,7 +107,10 @@
 			shape: "square"
 			description: ["Rocket Mycelial Generator, generate power with Rocket."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "000000000000079B"
 			tasks: [{
 				id: "000000000000079C"
@@ -128,7 +138,10 @@
 			shape: "square"
 			description: ["Death Mycelial Generator, generate power with mobs loot like Skull, bones, rotten flesh, etc..."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "000000000000079D"
 			tasks: [{
 				id: "000000000000079E"
@@ -156,7 +169,10 @@
 			shape: "square"
 			description: ["Netherstar Mycelial Generator, generate power with Nether Star."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007B9"]
+			dependencies: [
+				"00000000000007B9"
+				"594B09B9BA7FD7C3"
+			]
 			id: "000000000000079F"
 			tasks: [{
 				id: "00000000000007A0"
@@ -175,7 +191,10 @@
 			shape: "square"
 			description: ["Pink Mycelial Generator, generate power with any pink items."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007A1"
 			tasks: [{
 				id: "00000000000007A2"
@@ -195,7 +214,10 @@
 			shape: "square"
 			description: ["Magma Mycelial Generator, generate power with lava."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007A3"
 			tasks: [{
 				id: "00000000000007A4"
@@ -214,7 +236,10 @@
 			shape: "square"
 			description: ["Halitosis Mycelial Generator, generate power with Dragon Breath."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007B9"]
+			dependencies: [
+				"00000000000007B9"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007A5"
 			tasks: [{
 				id: "00000000000007A6"
@@ -234,7 +259,10 @@
 			shape: "square"
 			description: ["Frosty Mycelial Generator, generate power with cold item like snowball, ice, etc..."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007A7"
 			tasks: [{
 				id: "00000000000007A8"
@@ -254,7 +282,10 @@
 			shape: "square"
 			description: ["Explosive Mycelial Generator, generate power with TNT."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007A9"
 			tasks: [{
 				id: "00000000000007AA"
@@ -274,7 +305,10 @@
 			shape: "square"
 			description: ["Ender Mycelial Generator, generate power with ender pearl or eye of ender."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007AB"
 			tasks: [{
 				id: "00000000000007AC"
@@ -294,7 +328,10 @@
 			shape: "square"
 			description: ["Disenchantement Mycelial Generator, generate power with enchanted book."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007AD"
 			tasks: [{
 				id: "00000000000007AE"
@@ -323,7 +360,10 @@
 			shape: "square"
 			description: ["Potion Mycelial Generator, generate power with Potion."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007AF"
 			tasks: [{
 				id: "00000000000007B0"
@@ -372,7 +412,10 @@
 			shape: "square"
 			description: ["Culinary Mycelial Generator, generate power with any food."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007B1"
 			tasks: [{
 				id: "00000000000007B2"
@@ -392,7 +435,10 @@
 			shape: "square"
 			description: ["Slimey Mycelial Generator, generate power with Milk and Slime."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007B3"
 			tasks: [{
 				id: "00000000000007B4"
@@ -418,7 +464,10 @@
 			shape: "square"
 			description: ["Furnace Mycelial Generator, generate power with any furnace fuel."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007B5"
 			tasks: [{
 				id: "00000000000007B6"
@@ -437,7 +486,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Biofuel Generator generates power when provided with Biofuel from the Bioreactor."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007B7"
 			tasks: [{
 				id: "00000000000007B8"
@@ -458,6 +510,7 @@
 			dependencies: [
 				"00000000000007BB"
 				"465B208402827488"
+				"594B09B9BA7FD7C3"
 			]
 			id: "00000000000007B9"
 			tasks: [{
@@ -476,7 +529,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Advanced Machine Frame is the third tier machine frame from Industrial Foregoing."]
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007BB"
 			tasks: [{
 				id: "00000000000007BC"
@@ -494,7 +550,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Simple Machine Frame is the second tier machine frame from Industrial Foregoing."]
-			dependencies: ["02B127DDF2125857"]
+			dependencies: [
+				"02B127DDF2125857"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007BD"
 			tasks: [{
 				id: "00000000000007BE"
@@ -535,7 +594,10 @@
 				"The Fluid Collector, collect fluids."
 				"The Fluid Placer, place fluids."
 			]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007C1"
 			tasks: [
 				{
@@ -571,7 +633,10 @@
 				"The Block Placer, place blocks."
 				"The Block Breaker, break blocks."
 			]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007C4"
 			tasks: [
 				{
@@ -603,7 +668,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Material StoneWork Factory, using power, will produce any output found in a standard \"Cobbleworks\" setup."]
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007C7"
 			tasks: [{
 				id: "00000000000007C8"
@@ -626,7 +694,10 @@
 				""
 				"The Enchantment Extractor is used to remove enchantments from items and transfer them onto a book."
 			]
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007C9"
 			tasks: [
 				{
@@ -655,7 +726,10 @@
 				"The Black Hole Unit is used to store large quantities of items."
 				"The Black Hole Tank is used to store large quantities of fluid."
 			]
-			dependencies: ["00000000000007B9"]
+			dependencies: [
+				"00000000000007B9"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007CC"
 			tasks: [
 				{
@@ -681,7 +755,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Laser Base is used with Laser Drills to produce ores or fluids."]
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007D6"
 			tasks: [
 				{
@@ -721,7 +798,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Collect Plastics."]
-			dependencies: ["00000000000007DC"]
+			dependencies: [
+				"00000000000007DC"
+				"594B09B9BA7FD7C3"
+			]
 			size: 2.0d
 			id: "00000000000007DA"
 			tasks: [{
@@ -751,7 +831,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Latex Processing Unit generate one Tiny Dry Rubber from 500 mB of Water, 100 mB of Latex and power."]
-			dependencies: ["00000000000007DE"]
+			dependencies: [
+				"00000000000007DE"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007DC"
 			tasks: [{
 				id: "00000000000007DD"
@@ -769,7 +852,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Collect a bucket of Latex from the Fluid Extractor."]
-			dependencies: ["00000000000007E0"]
+			dependencies: [
+				"00000000000007E0"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007DE"
 			tasks: [{
 				id: "00000000000007DF"
@@ -787,7 +873,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Fluid Extractor slowly break the log in front of it and generate Latex."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007E0"
 			tasks: [{
 				id: "00000000000007E1"
@@ -806,7 +895,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Collect a bucket of Pink Slime and Liquid Meat from the Mob Slaughter Factory."]
-			dependencies: ["00000000000007E5"]
+			dependencies: [
+				"00000000000007E5"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007E2"
 			tasks: [
 				{
@@ -838,7 +930,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Mob Slaughter Factory is used to process mobs and animals into Liquid Meat and Pink Slime."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007E5"
 			tasks: [{
 				id: "00000000000007E6"
@@ -864,7 +959,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Plant Gatherer will break crops when harvesting, even when the plant may be harvested by right click."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007EE"
 			tasks: [{
 				id: "00000000000007EF"
@@ -890,7 +988,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Plant Sower is used to automatically plant seeds in farmland above the machine."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007F0"
 			tasks: [{
 				id: "00000000000007F1"
@@ -916,7 +1017,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Plant Fertilizer is used to automatically apply bonemeal and fertilizer to crops, plants, and saplings."]
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007F2"
 			tasks: [{
 				id: "00000000000007F3"
@@ -942,7 +1046,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Animal Feeder automatically breed animals in each operation provided they have a valid breeding partner."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007F4"
 			tasks: [{
 				id: "00000000000007F5"
@@ -964,7 +1071,10 @@
 				"The Animal Rancher is used to automatically collect resources from passive mobs."
 				"Like Milk from cow or Wool from Sheep."
 			]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007F6"
 			tasks: [{
 				id: "00000000000007F7"
@@ -990,7 +1100,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Mob Crusher is used to kill mobs as if a player, producing Essence and mob drops."]
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007F8"
 			tasks: [{
 				id: "00000000000007F9"
@@ -1031,7 +1144,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Sewage Composter is used to process Sewage collected from the Animal Sewer."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "00000000000007FA"
 			tasks: [{
 				id: "00000000000007FB"
@@ -1050,7 +1166,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Mob Duplicator is used to spawn mobs based on the type of mob trapped in a Mob Imprisonment Tool."]
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "7063B2DD115DC958"
 			tasks: [
 				{
@@ -1205,7 +1324,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Dissolution Chamber is used to craft materials, using up to 8 items and one fluid."]
-			dependencies: ["00000000000007DA"]
+			dependencies: [
+				"00000000000007DA"
+				"594B09B9BA7FD7C3"
+			]
 			id: "02B127DDF2125857"
 			tasks: [{
 				id: "56D3911C73D0B8FE"
@@ -1223,7 +1345,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Stasis Chamber is a machine who freeze any mob on top of it."]
-			dependencies: ["00000000000007BB"]
+			dependencies: [
+				"00000000000007BB"
+				"594B09B9BA7FD7C3"
+			]
 			id: "065C9B70BEE4C9F5"
 			tasks: [{
 				id: "5F55A83C0A4D971D"
@@ -1248,7 +1373,10 @@
 				"{image:ftbquests:textures/quests/if_ether.png width:150 height:100 align:1}"
 				"Collect a bucket of Ether Gas."
 			]
-			dependencies: ["065C9B70BEE4C9F5"]
+			dependencies: [
+				"065C9B70BEE4C9F5"
+				"594B09B9BA7FD7C3"
+			]
 			id: "465B208402827488"
 			tasks: [{
 				id: "1961C6F435388AA8"
@@ -1266,7 +1394,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Bioreactor produce Biofuel when provided with valid bio-materials."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "541A1EDDE995DE63"
 			tasks: [{
 				id: "47BBEFAAED5E2B3D"
@@ -1285,7 +1416,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["Collect a bucket of Biofuel from the Bioreactor."]
-			dependencies: ["541A1EDDE995DE63"]
+			dependencies: [
+				"541A1EDDE995DE63"
+				"594B09B9BA7FD7C3"
+			]
 			id: "3971D0D187482556"
 			tasks: [{
 				id: "2A02B9C36706F5AD"
@@ -1303,7 +1437,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Sewer collects Sewage from animals and can collects experience orbs to turn into Essence."]
-			dependencies: ["00000000000007BF"]
+			dependencies: [
+				"00000000000007BF"
+				"594B09B9BA7FD7C3"
+			]
 			id: "5B7FC74DDBEDC4DA"
 			tasks: [{
 				id: "655756BC3089BA62"
@@ -1321,7 +1458,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Collect a bucket of Sewage from the Sewer."]
-			dependencies: ["5B7FC74DDBEDC4DA"]
+			dependencies: [
+				"5B7FC74DDBEDC4DA"
+				"594B09B9BA7FD7C3"
+			]
 			id: "44B5369EC83C3BE0"
 			tasks: [{
 				id: "053274588F1ECD62"
@@ -1339,7 +1479,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Marine Fisher, when placed above a pool of water of 3x1x3, it'll start fishing and put whatever you can fish in the internal inventory."]
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"594B09B9BA7FD7C3"
+			]
 			id: "251C032FF6C85A4A"
 			tasks: [{
 				id: "1A1E6D9810D77212"

@@ -52,7 +52,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Crystal Binder is used for linking Energy I/O Crystal."]
-			dependencies: ["52862612E74DA81A"]
+			dependencies: [
+				"52862612E74DA81A"
+				"170B797FE3905864"
+			]
 			id: "098767A5FC13619E"
 			tasks: [{
 				id: "04B061C5344B6139"
@@ -76,7 +79,10 @@
 				""
 				"The Basic Wireless Energy Crystal is used to powered machines wirelessly,  can store 4M RF and has 4 links, can provide wireless RF to 16 machines, and it has a range of 128 blocks."
 			]
-			dependencies: ["098767A5FC13619E"]
+			dependencies: [
+				"098767A5FC13619E"
+				"170B797FE3905864"
+			]
 			id: "1864C6768EDA3D1C"
 			tasks: [
 				{
@@ -113,7 +119,10 @@
 				""
 				"The Wyvern Wireless Energy Crystal is used to powered machines wirelessly, it can store 16M RF and has 8 links, it can provide wireless RF to 32 machines, and it has a range of 128 blocks."
 			]
-			dependencies: ["1864C6768EDA3D1C"]
+			dependencies: [
+				"1864C6768EDA3D1C"
+				"170B797FE3905864"
+			]
 			id: "0BCC272B0208AED3"
 			tasks: [
 				{
@@ -150,7 +159,10 @@
 				""
 				"The Draconic Wireless Energy Crystal is used to powered machines wirelessly, it can store 64M RF and has 16 links, it can provide wireless RF to 64 machines, and it has a range of 128 blocks."
 			]
-			dependencies: ["0BCC272B0208AED3"]
+			dependencies: [
+				"0BCC272B0208AED3"
+				"170B797FE3905864"
+			]
 			id: "5713D0488851BA16"
 			tasks: [
 				{
@@ -185,7 +197,10 @@
 				""
 				"Shift right-click to set the teleportation position, then you can just right-click it to teleport you to the location (work in any dimension) or you can put it on a Dislocator Pedestal to not don't use the durability."
 			]
-			dependencies: ["57F807CF8460DB9D"]
+			dependencies: [
+				"57F807CF8460DB9D"
+				"170B797FE3905864"
+			]
 			id: "11118011651BA076"
 			tasks: [{
 				id: "14B804C8EBA4A958"
@@ -216,6 +231,7 @@
 			dependencies: [
 				"11118011651BA076"
 				"1E03ABAFD485057E"
+				"170B797FE3905864"
 			]
 			id: "3A8F28BDFAFF751E"
 			tasks: [{
@@ -262,7 +278,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["simply smelt Draconium Dust to get the Ingot."]
-			dependencies: ["57F807CF8460DB9D"]
+			dependencies: [
+				"57F807CF8460DB9D"
+				"170B797FE3905864"
+			]
 			id: "7B2F1149E89E2AC0"
 			tasks: [{
 				id: "57921DC357097515"
@@ -280,7 +299,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Draconic Core is an important crafting ingredient, It's used in many recipes and it is also used to stabilize a mob spawner into a Stabilized Mob Spawner."]
-			dependencies: ["7B2F1149E89E2AC0"]
+			dependencies: [
+				"7B2F1149E89E2AC0"
+				"170B797FE3905864"
+			]
 			id: "52862612E74DA81A"
 			tasks: [{
 				id: "5F550785D2D3CCE4"
@@ -299,7 +321,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Wyvern Core is the advanced version of a Draconic Core. It is used in higher crafting recipes like all the Wyvern Tools and Chest Piece."]
-			dependencies: ["52862612E74DA81A"]
+			dependencies: [
+				"52862612E74DA81A"
+				"170B797FE3905864"
+			]
 			id: "37E47BACAEEA6C1C"
 			tasks: [{
 				id: "2767BB431C0E4846"
@@ -320,6 +345,7 @@
 			dependencies: [
 				"37E47BACAEEA6C1C"
 				"176D771D9F343E0F"
+				"170B797FE3905864"
 			]
 			id: "7E6F43ABF03FF686"
 			tasks: [{
@@ -341,6 +367,7 @@
 			dependencies: [
 				"7E6F43ABF03FF686"
 				"410C369B33532099"
+				"170B797FE3905864"
 			]
 			id: "324526C4C41DC51B"
 			tasks: [{
@@ -359,7 +386,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Use the Fusion Crafting Core to combine a Dragon Heart, some Draconic Cores and Draconium Blocks to get the Awakened Draconium Blocks."]
-			dependencies: ["5FEF1CE17B8A57E7"]
+			dependencies: [
+				"5FEF1CE17B8A57E7"
+				"170B797FE3905864"
+			]
 			id: "1BF4A0B3372F5E91"
 			tasks: [{
 				id: "683C9C086631685C"
@@ -396,7 +426,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Simply uncraft a block to get an ingot."]
-			dependencies: ["1BF4A0B3372F5E91"]
+			dependencies: [
+				"1BF4A0B3372F5E91"
+				"170B797FE3905864"
+			]
 			id: "176D771D9F343E0F"
 			tasks: [{
 				id: "022FA13016A2AE1F"
@@ -425,7 +458,10 @@
 				"You can customize the color of the ball's outline in the GUI of your stabilizers."
 			]
 			hide_dependency_lines: true
-			dependencies: ["37E47BACAEEA6C1C"]
+			dependencies: [
+				"37E47BACAEEA6C1C"
+				"170B797FE3905864"
+			]
 			size: 2.0d
 			id: "7E30C51FE4413E5D"
 			tasks: [
@@ -463,7 +499,10 @@
 				""
 				"It crafts by pressing the button on the GUI or by a signal redstone."
 			]
-			dependencies: ["52862612E74DA81A"]
+			dependencies: [
+				"52862612E74DA81A"
+				"170B797FE3905864"
+			]
 			size: 2.0d
 			id: "1E03ABAFD485057E"
 			tasks: [{
@@ -492,6 +531,7 @@
 			dependencies: [
 				"1E03ABAFD485057E"
 				"52862612E74DA81A"
+				"170B797FE3905864"
 			]
 			id: "637CEF39661E2E17"
 			tasks: [{
@@ -516,6 +556,7 @@
 			dependencies: [
 				"637CEF39661E2E17"
 				"37E47BACAEEA6C1C"
+				"170B797FE3905864"
 			]
 			id: "6AFF133E53B9E11E"
 			tasks: [{
@@ -540,6 +581,7 @@
 			dependencies: [
 				"6AFF133E53B9E11E"
 				"7E6F43ABF03FF686"
+				"170B797FE3905864"
 			]
 			id: "16A5A3624601F22E"
 			tasks: [{
@@ -564,6 +606,7 @@
 			dependencies: [
 				"16A5A3624601F22E"
 				"324526C4C41DC51B"
+				"170B797FE3905864"
 			]
 			id: "0C3DD446B101C1D1"
 			tasks: [{
@@ -584,7 +627,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Item Dislocator is a magnet with a range of 8 blocks."]
-			dependencies: ["11118011651BA076"]
+			dependencies: [
+				"11118011651BA076"
+				"170B797FE3905864"
+			]
 			id: "068F187546E8D339"
 			tasks: [{
 				id: "2306D4CB2F0F7687"
@@ -602,7 +648,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The Awakened Item Dislocator is a magnet with a range of 32 blocks."]
-			dependencies: ["068F187546E8D339"]
+			dependencies: [
+				"068F187546E8D339"
+				"170B797FE3905864"
+			]
 			id: "7CFCE7A81FC5AAF0"
 			tasks: [{
 				id: "6D0561DADD12FAE8"
@@ -620,7 +669,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Energy Transfuser is used to rapidly recharge your draconic stuff, you can charge 4 items or blocks inside."]
-			dependencies: ["7E30C51FE4413E5D"]
+			dependencies: [
+				"7E30C51FE4413E5D"
+				"170B797FE3905864"
+			]
 			id: "3809491C3158398B"
 			tasks: [{
 				id: "50E6D34F1BE445E5"
@@ -667,7 +719,10 @@
 				""
 				"It can charge your held item, armor, hotbar, main inventory and your curios slots."
 			]
-			dependencies: ["6AFF133E53B9E11E"]
+			dependencies: [
+				"6AFF133E53B9E11E"
+				"170B797FE3905864"
+			]
 			id: "6E85AF3FD9B7C495"
 			tasks: [{
 				id: "332C748A2D8572AA"
@@ -723,7 +778,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Wyvern Tools/Weapons have a grid of 4x4 for modules."]
-			dependencies: ["6AFF133E53B9E11E"]
+			dependencies: [
+				"6AFF133E53B9E11E"
+				"170B797FE3905864"
+			]
 			id: "41B73D17192145C1"
 			tasks: [
 				{
@@ -853,7 +911,10 @@
 				""
 				"The Wyvern Chest Piece has a grid of 6x5 for modules."
 			]
-			dependencies: ["6AFF133E53B9E11E"]
+			dependencies: [
+				"6AFF133E53B9E11E"
+				"170B797FE3905864"
+			]
 			id: "1B612BE81B6A68AF"
 			tasks: [{
 				id: "6EA80DFCC56C490C"
@@ -898,6 +959,7 @@
 			dependencies: [
 				"16A5A3624601F22E"
 				"6E85AF3FD9B7C495"
+				"170B797FE3905864"
 			]
 			id: "51273A3B98D35838"
 			tasks: [{
@@ -956,6 +1018,7 @@
 			dependencies: [
 				"16A5A3624601F22E"
 				"41B73D17192145C1"
+				"170B797FE3905864"
 			]
 			id: "199AF3E0949C1FC5"
 			tasks: [
@@ -1084,6 +1147,7 @@
 			dependencies: [
 				"16A5A3624601F22E"
 				"1B612BE81B6A68AF"
+				"170B797FE3905864"
 			]
 			id: "1819C64566C8F99C"
 			tasks: [{
@@ -1125,6 +1189,7 @@
 			dependencies: [
 				"16A5A3624601F22E"
 				"199AF3E0949C1FC5"
+				"170B797FE3905864"
 			]
 			id: "2A8101FF634F57FF"
 			tasks: [{
@@ -1176,6 +1241,7 @@
 			dependencies: [
 				"0C3DD446B101C1D1"
 				"51273A3B98D35838"
+				"170B797FE3905864"
 			]
 			id: "2DC7E1A8E22F7658"
 			tasks: [{
@@ -1234,6 +1300,7 @@
 			dependencies: [
 				"0C3DD446B101C1D1"
 				"199AF3E0949C1FC5"
+				"170B797FE3905864"
 			]
 			id: "4AD569D41E53F2D5"
 			tasks: [
@@ -1362,6 +1429,7 @@
 			dependencies: [
 				"1819C64566C8F99C"
 				"0C3DD446B101C1D1"
+				"170B797FE3905864"
 			]
 			id: "0F8014863D85D2A8"
 			tasks: [{
@@ -1404,6 +1472,7 @@
 				"0C3DD446B101C1D1"
 				"2A8101FF634F57FF"
 				"4AD569D41E53F2D5"
+				"170B797FE3905864"
 			]
 			id: "08E48BC58C23B343"
 			tasks: [{
@@ -1449,7 +1518,10 @@
 			shape: "square"
 			description: ["The Hill Step Module gives you the ability to have a step assist."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "13F08312C020481C"
 			tasks: [{
 				id: "22D2138DB8AA400F"
@@ -1468,7 +1540,10 @@
 			shape: "square"
 			description: ["The Auto Fire Module, well, auto fire with your bow."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "29D28ADB04E8F197"
 			tasks: [{
 				id: "26C73A4C49A5231A"
@@ -1487,7 +1562,10 @@
 			shape: "square"
 			description: ["The Energy Module is used to increase the energy of your stuff."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "68E7C74D0D392250"
 			tasks: [
 				{
@@ -1523,7 +1601,10 @@
 			shape: "square"
 			description: ["The Speed Module is used to give you more Speed."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "63E479D855FAA8CA"
 			tasks: [
 				{
@@ -1559,7 +1640,10 @@
 			shape: "square"
 			description: ["The Projectile Immunity Cancellation Module is used to cancel the enderman's teleportation when you want to shoot them."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "234412CF474C7AC1"
 			tasks: [{
 				id: "537173AA057733CD"
@@ -1578,7 +1662,10 @@
 			shape: "square"
 			description: ["The Damage Module is used to increase the damage done by your weapons."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "1AE3E838D50B842F"
 			tasks: [
 				{
@@ -1614,7 +1701,10 @@
 			shape: "square"
 			description: ["The AOE Module is used to increase your AOE (area of effect) on your tools and weapons."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "479B3ECFA6301418"
 			tasks: [
 				{
@@ -1651,7 +1741,10 @@
 			shape: "square"
 			description: ["The Shield Capacity Module increases your Energy Shield."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "119A650AA8450046"
 			tasks: [
 				{
@@ -1683,7 +1776,10 @@
 			shape: "square"
 			description: ["The Shield Control Module is used to decrease the Shield Cooldown."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "0F60C23F1EABE66A"
 			tasks: [
 				{
@@ -1715,7 +1811,10 @@
 			shape: "square"
 			description: ["The Large Shield Capacity Module increases your Energy Shield but take less place in your grid of modules."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "14F9194C33A3D75C"
 			tasks: [
 				{
@@ -1747,7 +1846,10 @@
 			shape: "square"
 			description: ["The Shield Recovery Module is used to increase your shield recharge on your Chest Piece."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "33746431E7284578"
 			tasks: [
 				{
@@ -1779,7 +1881,10 @@
 			shape: "square"
 			description: ["The Flight Module give you an Elytra on your Chest Piece, doesn't work in a curio slot for right now."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "4E39F592C9CDA0E7"
 			tasks: [
 				{
@@ -1812,6 +1917,7 @@
 			dependencies: [
 				"57921DC357097515"
 				"7B2F1149E89E2AC0"
+				"170B797FE3905864"
 			]
 			size: 2.0d
 			id: "55866EF2FF2B1401"
@@ -1856,7 +1962,10 @@
 			shape: "square"
 			description: ["The Undying Module is basically a totem of undying installable on your Chest Piece."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "1DC0A51E7FCEBC11"
 			tasks: [
 				{
@@ -1888,7 +1997,10 @@
 			shape: "square"
 			description: ["The Projectile Velocity Module is used to increase the velocity of your arrow when you shoot."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "74B644520811CAA7"
 			tasks: [
 				{
@@ -1920,7 +2032,10 @@
 			shape: "square"
 			description: ["The Projectile Penetration Module is used to penetrate armor when you shoot an arrow, sometimes you can even pass through a target and potentially hit additional targets."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "6FA9040A7CA59F9F"
 			tasks: [
 				{
@@ -1952,7 +2067,10 @@
 			shape: "square"
 			description: ["The Projectile Damage Module is used to increase the damage done by your arrows."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "6D9291981EE0DFDC"
 			tasks: [
 				{
@@ -1984,7 +2102,10 @@
 			shape: "square"
 			description: ["The Projectile Gravity Compensation Module is used to make your archery straighter and therefore shoot farther."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "16F4DB40884E6267"
 			tasks: [
 				{
@@ -2016,7 +2137,10 @@
 			shape: "square"
 			description: ["The Projectile Accuracy Module is used to improve your accuracy with the bow."]
 			hide_dependency_lines: true
-			dependencies: ["55866EF2FF2B1401"]
+			dependencies: [
+				"55866EF2FF2B1401"
+				"170B797FE3905864"
+			]
 			id: "76D1023C478C1F5F"
 			tasks: [
 				{

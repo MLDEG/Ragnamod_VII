@@ -1,7 +1,7 @@
 {
 	id: "6935A012EE5813BE"
 	group: ""
-	order_index: 16
+	order_index: 15
 	filename: "spirits"
 	title: " Spirit"
 	icon: "spirit:crude_soul_crystal"
@@ -13,7 +13,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Soul Crystal Shard is used to store a Soul when you kill a mod, it can store only one soul, and you can have your crystal anywhere in your inventory."]
-			dependencies: ["2C386FCB4D66DD1F"]
+			dependencies: [
+				"2C386FCB4D66DD1F"
+				"13C41B348C636ACA"
+			]
 			id: "6C3F4C8301FB6B2C"
 			tasks: [{
 				id: "16ABBBF45A216B2D"
@@ -45,6 +48,7 @@
 			dependencies: [
 				"33BFE515CC2C6B7B"
 				"6142628451058BC0"
+				"13C41B348C636ACA"
 			]
 			id: "43E3D8B99061212D"
 			tasks: [{
@@ -72,6 +76,7 @@
 			dependencies: [
 				"2740BEE716A25BEE"
 				"6C3F4C8301FB6B2C"
+				"13C41B348C636ACA"
 			]
 			id: "6142628451058BC0"
 			tasks: [{
@@ -120,7 +125,10 @@
 				""
 				"Check JEI if you want to see the \"structure\" to make."
 			]
-			dependencies: ["2C386FCB4D66DD1F"]
+			dependencies: [
+				"2C386FCB4D66DD1F"
+				"13C41B348C636ACA"
+			]
 			id: "2346B197A80C7552"
 			tasks: [{
 				id: "6BDD0214E2D42381"
@@ -172,6 +180,7 @@
 			dependencies: [
 				"2346B197A80C7552"
 				"2740BEE716A25BEE"
+				"13C41B348C636ACA"
 			]
 			id: "7D9ACDADBB4CBD8C"
 			tasks: [
@@ -227,7 +236,10 @@
 				""
 				"Soul Reaper enchantment can also give you additional soul per kill for every level of enchantment."
 			]
-			dependencies: ["2346B197A80C7552"]
+			dependencies: [
+				"2346B197A80C7552"
+				"13C41B348C636ACA"
+			]
 			id: "08810F1B7F35C526"
 			tasks: [{
 				id: "239EC9361341CAD8"
@@ -266,7 +278,10 @@
 				""
 				"Be aware that the more souls you have to activate your Soul Cage, the better it will work."
 			]
-			dependencies: ["2346B197A80C7552"]
+			dependencies: [
+				"2346B197A80C7552"
+				"13C41B348C636ACA"
+			]
 			id: "4F2A8CF32BA4BDBD"
 			tasks: [{
 				id: "42A2B8066E34A47D"

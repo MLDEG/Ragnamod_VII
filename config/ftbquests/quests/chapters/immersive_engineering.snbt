@@ -1,7 +1,7 @@
 {
 	id: "12A72D5A79F3E4F7"
 	group: ""
-	order_index: 20
+	order_index: 17
 	filename: "immersive_engineering"
 	title: " Immersive Engineering"
 	icon: "immersiveengineering:toolbox"
@@ -219,7 +219,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Kinetic Dynamo passively generates RF with Water Wheels or Windmill."]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000696"
 			tasks: [{
 				id: "0000000000000697"
@@ -241,7 +244,10 @@
 				"The Wooden Post is four blocks tall."
 				"It's used to put your wire in high place."
 			]
-			dependencies: ["00000000000006E7"]
+			dependencies: [
+				"00000000000006E7"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000698"
 			tasks: [{
 				id: "0000000000000699"
@@ -260,7 +266,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Engineer's Workbench is used to craft items from blueprint and materials."]
-			dependencies: ["00000000000006ED"]
+			dependencies: [
+				"00000000000006ED"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "000000000000069A"
 			tasks: [{
 				id: "000000000000069B"
@@ -286,6 +295,7 @@
 			dependencies: [
 				"0000000000000696"
 				"00000000000006E7"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "000000000000069C"
 			tasks: [
@@ -322,6 +332,7 @@
 			dependencies: [
 				"0000000000000696"
 				"00000000000006E7"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "000000000000069E"
 			tasks: [{
@@ -347,7 +358,10 @@
 				"The Alloy Kiln is a 2x2x2 multiblock."
 				"It is mainly used to make alloy."
 			]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006A0"
 			tasks: [{
 				id: "00000000000006A1"
@@ -369,7 +383,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Coke Oven is a 3x3x3 multiblock that produce Coal Coke and Creosote Oil with Coal."]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006A2"
 			tasks: [{
 				id: "00000000000006A3"
@@ -391,7 +408,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["he Improved Blast Furnace is the upgraded tier of the Crude Blast Furnace, capable of automation and also of greater speeds once Blast Furnace Preheaters are added."]
-			dependencies: ["5EA80D9C3C190DA2"]
+			dependencies: [
+				"5EA80D9C3C190DA2"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006A6"
 			tasks: [{
 				id: "00000000000006A7"
@@ -475,7 +495,10 @@
 				""
 				"The LV Wire can transfer 2048 RF/t through 16 blocks distance."
 			]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006AA"
 			tasks: [
 				{
@@ -510,7 +533,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The MV Wire can transfer 8192 RF/t through 16 blocks distance."]
-			dependencies: ["00000000000006AA"]
+			dependencies: [
+				"00000000000006AA"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006AE"
 			tasks: [
 				{
@@ -545,7 +571,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The HV Wire can transfer 32 768 RF/t through 32 blocks distance."]
-			dependencies: ["00000000000006AE"]
+			dependencies: [
+				"00000000000006AE"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006B4"
 			tasks: [
 				{
@@ -580,7 +609,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The insulated wire can no longer hurt you."]
-			dependencies: ["00000000000006AA"]
+			dependencies: [
+				"00000000000006AA"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006B8"
 			tasks: [
 				{
@@ -615,7 +647,10 @@
 			shape: "square"
 			subtitle: "Crafting Components"
 			description: ["The Engineer's Blueprint is used in the Engineer's Workbench to be able to craft certain items."]
-			dependencies: ["000000000000069A"]
+			dependencies: [
+				"000000000000069A"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006BB"
 			tasks: [{
 				id: "25D33AFB147CE140"
@@ -645,7 +680,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The LV Capacitor can store 100k RF and can transfer I/O 256 RF/t"]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006BF"
 			tasks: [{
 				id: "00000000000006C0"
@@ -664,7 +702,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["The MV Capacitor can store 1M RF and can transfer I/O 1024 RF/t"]
-			dependencies: ["00000000000006BF"]
+			dependencies: [
+				"00000000000006BF"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006C1"
 			tasks: [{
 				id: "00000000000006C2"
@@ -683,7 +724,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["The HV Capacitor can store 4M RF and can transfer I/O 4096 RF/t"]
-			dependencies: ["00000000000006C1"]
+			dependencies: [
+				"00000000000006C1"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006C3"
 			tasks: [{
 				id: "00000000000006C4"
@@ -703,7 +747,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["Molds are used in the Metal Press."]
-			dependencies: ["00000000000006BB"]
+			dependencies: [
+				"00000000000006BB"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006C5"
 			tasks: [
 				{
@@ -739,7 +786,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["To make a HOP Graphite ingot, you need to smelt a HOP Graphite dust, who it's make in a squeezer with Petcoke Dust or Coke Dust."]
-			dependencies: ["000000000000071E"]
+			dependencies: [
+				"000000000000071E"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006CA"
 			tasks: [{
 				id: "00000000000006CB"
@@ -759,7 +809,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The Graphite Electrode is needed to properly function the Arc Furnace."]
-			dependencies: ["00000000000006CA"]
+			dependencies: [
+				"00000000000006CA"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006CC"
 			tasks: [{
 				id: "00000000000006CD"
@@ -795,7 +848,10 @@
 				"The Garden Cloche is used to grow crops placed in it."
 				"In this pack, it is very powerful ! It can grow crops every 50 ticks."
 			]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006CE"
 			tasks: [{
 				id: "00000000000006CF"
@@ -818,7 +874,10 @@
 				"The Faraday Armor protects against the Tesla Coil in low-power mode."
 				"In high-power mode however, it increases the damage dealt to the user."
 			]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006D0"
 			tasks: [
 				{
@@ -882,7 +941,10 @@
 				""
 				"In this pack, you have a bunch of mineral deposit, check the Engineer's Manual in the Mineral Deposits page."
 			]
-			dependencies: ["5EA80D9C3C190DA2"]
+			dependencies: [
+				"5EA80D9C3C190DA2"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006D7"
 			tasks: [{
 				id: "00000000000006D8"
@@ -909,7 +971,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Charging Station is used to charge RF."]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006D9"
 			tasks: [{
 				id: "00000000000006DA"
@@ -927,7 +992,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Floodlight creates a 32 block-long \"light cone\" in the direction it faces."]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006DB"
 			tasks: [{
 				id: "00000000000006DC"
@@ -947,7 +1015,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Collect a bucket of Crude Oil."]
-			dependencies: ["7A3DFA518103EC84"]
+			dependencies: [
+				"7A3DFA518103EC84"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006DF"
 			tasks: [{
 				id: "00000000000006E0"
@@ -966,7 +1037,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["Collect those four bucket using the distillation tower."]
-			dependencies: ["00000000000006E5"]
+			dependencies: [
+				"00000000000006E5"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006E1"
 			tasks: [
 				{
@@ -1002,7 +1076,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Collect a stack of Bitumen."]
-			dependencies: ["000000000000075D"]
+			dependencies: [
+				"000000000000075D"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006E5"
 			tasks: [{
 				id: "73760A40D6B1910D"
@@ -1024,7 +1101,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["To get treated woods use planks and Creosote Oil."]
-			dependencies: ["00000000000006A2"]
+			dependencies: [
+				"00000000000006A2"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006E7"
 			tasks: [{
 				id: "00000000000006E8"
@@ -1045,7 +1125,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Engineer's Crafting Table is basically a crafting table with an internal inventory."]
-			dependencies: ["00000000000006E7"]
+			dependencies: [
+				"00000000000006E7"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006ED"
 			tasks: [{
 				id: "00000000000006EE"
@@ -1065,7 +1148,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Diesel Generator is a 3×5×3 multiblock used to generates RF by burning Biodiesel."]
-			dependencies: ["000000000000077F"]
+			dependencies: [
+				"000000000000077F"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006EF"
 			tasks: [
 				{
@@ -1118,7 +1204,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Metal Press is a 3×1×3 multiblock used to press ingots into plates, wires or gears."]
-			dependencies: ["0000000000000789"]
+			dependencies: [
+				"0000000000000789"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "00000000000006FD"
 			tasks: [
 				{
@@ -1163,7 +1252,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Crusher is a 3×5×3 multiblock used for crushing ores into dust."]
-			dependencies: ["000000000000077D"]
+			dependencies: [
+				"000000000000077D"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000703"
 			tasks: [
 				{
@@ -1210,7 +1302,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Sawmill is a 3×5×3 multiblock used to process woods."]
-			dependencies: ["0000000000000793"]
+			dependencies: [
+				"0000000000000793"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000709"
 			tasks: [
 				{
@@ -1274,7 +1369,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Assembler is a 3x3x3 multiblock used to automatically craft items."]
-			dependencies: ["0000000000000777"]
+			dependencies: [
+				"0000000000000777"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000710"
 			tasks: [
 				{
@@ -1328,7 +1426,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Fermenter is a 3x3x3 multiblock used to make Ethanol."]
-			dependencies: ["0000000000000785"]
+			dependencies: [
+				"0000000000000785"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000717"
 			tasks: [
 				{
@@ -1381,7 +1482,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Squeezer is a 3x3x3 multiblock used to make Plant Oil or HOP Graphite Dust."]
-			dependencies: ["0000000000000791"]
+			dependencies: [
+				"0000000000000791"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "000000000000071E"
 			tasks: [
 				{
@@ -1439,7 +1543,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Refinery is a 3x5x3 multi-block used to make Biodiesel."]
-			dependencies: ["000000000000078F"]
+			dependencies: [
+				"000000000000078F"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000726"
 			tasks: [
 				{
@@ -1492,7 +1599,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Mixer is a 3x3x3 multiblock is used to mixed items and fluid to get another fluids, like potion or concrete."]
-			dependencies: ["000000000000078B"]
+			dependencies: [
+				"000000000000078B"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "000000000000072D"
 			tasks: [
 				{
@@ -1544,7 +1654,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Bottling Machine is a 3x2x3 multiblock used to fill liquid containers."]
-			dependencies: ["000000000000077B"]
+			dependencies: [
+				"000000000000077B"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000734"
 			tasks: [
 				{
@@ -1600,6 +1713,7 @@
 				"0000000000000779"
 				"000000000000069B"
 				"000000000000069A"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "000000000000073B"
 			tasks: [
@@ -1656,6 +1770,7 @@
 			dependencies: [
 				"0000000000000767"
 				"00000000000006CC"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "0000000000000742"
 			tasks: [
@@ -1729,6 +1844,7 @@
 			dependencies: [
 				"0000000000000783"
 				"00000000000006D7"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "000000000000074C"
 			tasks: [
@@ -1788,7 +1904,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Pumpjack is a 6×4×3 multiblock, It extracts the remnant fluid that the Derrick have pump."]
-			dependencies: ["000000000000078D"]
+			dependencies: [
+				"000000000000078D"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000754"
 			tasks: [
 				{
@@ -1859,6 +1978,7 @@
 			dependencies: [
 				"0000000000000781"
 				"00000000000006DF"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "000000000000075D"
 			tasks: [
@@ -1925,7 +2045,10 @@
 				"The Thermoelectric Generator can generate RF based on the temperature difference of the blocks surrounding it. Like Lava and Blue Ice."
 				"The high-temperature and low-temperature blocks need to be across from each other."
 			]
-			dependencies: ["00000000000006A8"]
+			dependencies: [
+				"00000000000006A8"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "0000000000000768"
 			tasks: [{
 				id: "0000000000000769"
@@ -2147,6 +2270,7 @@
 			dependencies: [
 				"596A0DEB2CE74CA1"
 				"00000000000006E5"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "3A09BC46905622C0"
 			tasks: [
@@ -2234,7 +2358,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Collect 16 Petcoke using the Coker."]
-			dependencies: ["3A09BC46905622C0"]
+			dependencies: [
+				"3A09BC46905622C0"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "503CE99C8A9515EA"
 			tasks: [{
 				id: "392220BDD77E5683"
@@ -2280,6 +2407,7 @@
 			dependencies: [
 				"3F99E6884DED6D94"
 				"12FE884009B0DF1A"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "7A3DFA518103EC84"
 			tasks: [
@@ -2374,6 +2502,7 @@
 			dependencies: [
 				"1EF95835215D60E0"
 				"1A2E68C15E54E1E2"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "5EA80D9C3C190DA2"
 			tasks: [{
@@ -2400,7 +2529,10 @@
 				""
 				"You can use a Hexerei Cauldron to get one in the Twilight Forest."
 			]
-			dependencies: ["3D70617228B5BE1A"]
+			dependencies: [
+				"3D70617228B5BE1A"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "1A2E68C15E54E1E2"
 			tasks: [{
 				id: "6F6B7BEF30479605"
@@ -2445,7 +2577,10 @@
 				""
 				"Be aware that a Reservoir is not only in one chunk, the reservoir has a shape, and you can see his shape with your Survey Result."
 			]
-			dependencies: ["5EA80D9C3C190DA2"]
+			dependencies: [
+				"5EA80D9C3C190DA2"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "12FE884009B0DF1A"
 			tasks: [
 				{
@@ -2472,7 +2607,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Collect a bucket of Concrete."]
-			dependencies: ["000000000000072D"]
+			dependencies: [
+				"000000000000072D"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "1C7513DE44B5D77B"
 			tasks: [{
 				id: "30F80811A94C578C"
@@ -2494,6 +2632,7 @@
 				"0000000000000726"
 				"555243266B4CB2C4"
 				"045F75513AB9B2A5"
+				"2C4EB8D4AD7073DF"
 			]
 			id: "20EC86E8567AA38A"
 			tasks: [{
@@ -2512,7 +2651,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Collect a bucket of Plant Oil."]
-			dependencies: ["000000000000071E"]
+			dependencies: [
+				"000000000000071E"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "045F75513AB9B2A5"
 			tasks: [{
 				id: "1A9DABA4DDA96777"
@@ -2530,7 +2672,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Collect a bucket of Ethanol."]
-			dependencies: ["0000000000000717"]
+			dependencies: [
+				"0000000000000717"
+				"2C4EB8D4AD7073DF"
+			]
 			id: "555243266B4CB2C4"
 			tasks: [{
 				id: "5682836C73CA68CB"

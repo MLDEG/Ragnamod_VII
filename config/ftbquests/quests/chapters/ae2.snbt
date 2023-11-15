@@ -1,7 +1,7 @@
 {
 	id: "5E5C6FD7CF30FFEA"
 	group: ""
-	order_index: 4
+	order_index: 18
 	filename: "ae2"
 	title: " AE2"
 	icon: "ae2:controller"
@@ -18,7 +18,10 @@
 				"For Example, a 1k ME DISK Drive can store 1k item even 1k different."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3E6DD455D008056B"]
+			dependencies: [
+				"3E6DD455D008056B"
+				"0B1D5E77E82B17AB"
+			]
 			id: "5B0BD0E9A592D51E"
 			tasks: [{
 				id: "1949292B8F5E0999"
@@ -42,7 +45,10 @@
 				"Without limit."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3E6DD455D008056B"]
+			dependencies: [
+				"3E6DD455D008056B"
+				"0B1D5E77E82B17AB"
+			]
 			id: "3E10BAC2982459F2"
 			tasks: [{
 				id: "6876F13D2B835AEE"
@@ -61,7 +67,10 @@
 			y: -5.5d
 			shape: "square"
 			description: ["Make a Singularity using the Matter Condenser."]
-			dependencies: ["1B4AAFAEA2CA31E6"]
+			dependencies: [
+				"1B4AAFAEA2CA31E6"
+				"0B1D5E77E82B17AB"
+			]
 			id: "394A9406419C97ED"
 			tasks: [{
 				id: "6863720315CBBC70"
@@ -86,7 +95,10 @@
 				""
 				"The Pattern Access Terminal is used to access all your pattern provider in your network."
 			]
-			dependencies: ["5043254E409494EC"]
+			dependencies: [
+				"5043254E409494EC"
+				"0B1D5E77E82B17AB"
+			]
 			id: "2259108D337977F9"
 			tasks: [
 				{
@@ -134,7 +146,10 @@
 				"P2P also works very well with Redstone, item flow, fluids, energy (like RF), light, mana and chemicals from Mekanism."
 			]
 			hide_dependency_lines: true
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "238550758D9C9137"
 			tasks: [
 				{
@@ -173,7 +188,10 @@
 				"The Wireless Access Point allows you to access your network wirelessly."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3BF49369E9042EC9"]
+			dependencies: [
+				"3BF49369E9042EC9"
+				"0B1D5E77E82B17AB"
+			]
 			id: "6B286387A0D76305"
 			tasks: [
 				{
@@ -201,7 +219,10 @@
 			shape: "square"
 			description: ["This Housing allows you to store Chemical from Mekanism."]
 			hide_dependency_lines: true
-			dependencies: ["3E6DD455D008056B"]
+			dependencies: [
+				"3E6DD455D008056B"
+				"0B1D5E77E82B17AB"
+			]
 			id: "4557E3DD011B87D6"
 			tasks: [{
 				id: "4672C51D9694D1A4"
@@ -224,7 +245,10 @@
 				"But only accept Super Storage Component."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3E6DD455D008056B"]
+			dependencies: [
+				"3E6DD455D008056B"
+				"0B1D5E77E82B17AB"
+			]
 			id: "0BD4EEABD9B307A8"
 			tasks: [{
 				id: "1033531F9C1036F0"
@@ -252,7 +276,10 @@
 				"Make sure to provide energy in your quantum ring, the one who are not connected to your network."
 			]
 			hide_dependency_lines: true
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "4E26F33BBE97D699"
 			tasks: [
 				{
@@ -284,7 +311,10 @@
 				"The Wireless Terminal allows you to access your storage from your network wirelessly."
 				"The Infinity Booster Card delete the restriction with your terminal and the Access Point."
 			]
-			dependencies: ["6B286387A0D76305"]
+			dependencies: [
+				"6B286387A0D76305"
+				"0B1D5E77E82B17AB"
+			]
 			id: "06EFF9FAB9B0B7DA"
 			tasks: [
 				{
@@ -318,7 +348,10 @@
 				""
 				"Note: Molecular Assembler don't consume a channel but need to be connected to a Network."
 			]
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "5043254E409494EC"
 			tasks: [
 				{
@@ -349,7 +382,10 @@
 				""
 				"A ME Drive use a channel."
 			]
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "3E6DD455D008056B"
 			tasks: [{
 				id: "2CCCC029B4823CDE"
@@ -379,6 +415,7 @@
 			dependencies: [
 				"0B8F6C8E01B6B604"
 				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
 			]
 			size: 2.0d
 			id: "083B921B87912253"
@@ -399,7 +436,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The ME Crafting Terminal is basically a terminal with a crafting grid."]
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "17679B2382E8387B"
 			tasks: [{
 				id: "459674949A5FF8F3"
@@ -421,7 +461,10 @@
 				""
 				"A ME Interface use a channel."
 			]
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "7DAB91211A70F683"
 			tasks: [{
 				id: "31B871EEF61A9C90"
@@ -444,7 +487,10 @@
 				"The Advanced Inscriber is more easily automatable than the Basic Inscriber."
 				"You can put stacks in the input slots."
 			]
-			dependencies: ["5B424F11CFCA332D"]
+			dependencies: [
+				"5B424F11CFCA332D"
+				"0B1D5E77E82B17AB"
+			]
 			id: "1284F563433C77DF"
 			tasks: [{
 				id: "49B617942743D75E"
@@ -466,7 +512,10 @@
 				""
 				"You can also automate the craft of Fluix Dust."
 			]
-			dependencies: ["0B8F6C8E01B6B604"]
+			dependencies: [
+				"0B8F6C8E01B6B604"
+				"0B1D5E77E82B17AB"
+			]
 			id: "3D87A1A25C91BC96"
 			tasks: [{
 				id: "7C04615BA9623DA4"
@@ -485,7 +534,10 @@
 			shape: "square"
 			description: ["This Housing allows you to store items."]
 			hide_dependency_lines: true
-			dependencies: ["3E6DD455D008056B"]
+			dependencies: [
+				"3E6DD455D008056B"
+				"0B1D5E77E82B17AB"
+			]
 			id: "2A22FE61390DDBF3"
 			tasks: [{
 				id: "0EFD94D8CB8A16E8"
@@ -509,7 +561,10 @@
 				"With a limit of 5 differents type."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3E6DD455D008056B"]
+			dependencies: [
+				"3E6DD455D008056B"
+				"0B1D5E77E82B17AB"
+			]
 			id: "365086FC853A5E9C"
 			tasks: [{
 				id: "3F6E026302822B82"
@@ -547,7 +602,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Inscriber is used to make Circuit and Processor for AE2."]
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"0B1D5E77E82B17AB"
+			]
 			id: "5B424F11CFCA332D"
 			tasks: [{
 				id: "3F7B05E9920939B7"
@@ -568,7 +626,10 @@
 				"The Matter Condenser can condense items and fluids into a Singularity or Matter Ball."
 				"You can also use it like a trash can."
 			]
-			dependencies: ["0B8F6C8E01B6B604"]
+			dependencies: [
+				"0B8F6C8E01B6B604"
+				"0B1D5E77E82B17AB"
+			]
 			id: "1B4AAFAEA2CA31E6"
 			tasks: [{
 				id: "46C50028092BBA85"
@@ -591,7 +652,10 @@
 				"The Cell Workbench doesn't have to be connected to your network."
 			]
 			hide_dependency_lines: true
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "17E877B90530E115"
 			tasks: [{
 				id: "7173833A725274BF"
@@ -610,7 +674,10 @@
 			shape: "square"
 			description: ["1K ME Storage Component can store 1024 Bytes."]
 			hide_dependency_lines: true
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "7C32C62005DE9D15"
 			tasks: [{
 				id: "74C0C0F904829701"
@@ -628,7 +695,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["4K ME Storage Component can store 4096 Bytes."]
-			dependencies: ["7C32C62005DE9D15"]
+			dependencies: [
+				"7C32C62005DE9D15"
+				"0B1D5E77E82B17AB"
+			]
 			id: "3B123F66DCAAE971"
 			tasks: [{
 				id: "085C929A9A04831D"
@@ -646,7 +716,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["16K ME Storage Component can store 16384 Bytes."]
-			dependencies: ["3B123F66DCAAE971"]
+			dependencies: [
+				"3B123F66DCAAE971"
+				"0B1D5E77E82B17AB"
+			]
 			id: "3BF49369E9042EC9"
 			tasks: [{
 				id: "13956E2BE1794FBC"
@@ -664,7 +737,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["64K ME Storage Component can store 65536 Bytes."]
-			dependencies: ["3BF49369E9042EC9"]
+			dependencies: [
+				"3BF49369E9042EC9"
+				"0B1D5E77E82B17AB"
+			]
 			id: "0DEB12EBFC1F7DCC"
 			tasks: [{
 				id: "77C083ADE6F89622"
@@ -682,7 +758,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["256K ME Storage Component can store 262144 Bytes."]
-			dependencies: ["0DEB12EBFC1F7DCC"]
+			dependencies: [
+				"0DEB12EBFC1F7DCC"
+				"0B1D5E77E82B17AB"
+			]
 			id: "0235E73C94D2E5E8"
 			tasks: [{
 				id: "734DCB2F83EA77EF"
@@ -700,7 +779,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["1024K ME Storage Component can store 1048576 Bytes."]
-			dependencies: ["0235E73C94D2E5E8"]
+			dependencies: [
+				"0235E73C94D2E5E8"
+				"0B1D5E77E82B17AB"
+			]
 			id: "6183F8C262907876"
 			tasks: [{
 				id: "6A4E9FEDF582D208"
@@ -718,7 +800,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["4096K ME Storage Component can store 4194304 Bytes."]
-			dependencies: ["6183F8C262907876"]
+			dependencies: [
+				"6183F8C262907876"
+				"0B1D5E77E82B17AB"
+			]
 			id: "676BBD010B19B2D5"
 			tasks: [{
 				id: "283A8ED9F89ACDB9"
@@ -736,7 +821,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["16384K ME Storage Component can store 16777216 Bytes."]
-			dependencies: ["676BBD010B19B2D5"]
+			dependencies: [
+				"676BBD010B19B2D5"
+				"0B1D5E77E82B17AB"
+			]
 			id: "4583FAB6A7671236"
 			tasks: [{
 				id: "6F9DDB4411BD041E"
@@ -754,7 +842,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["65536K ME Storage Component can store 67108864 Bytes."]
-			dependencies: ["4583FAB6A7671236"]
+			dependencies: [
+				"4583FAB6A7671236"
+				"0B1D5E77E82B17AB"
+			]
 			id: "33E094C77D977AB6"
 			tasks: [{
 				id: "6F9378730D901964"
@@ -772,7 +863,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["1K ME Super Storage Component can store 1024 Bytes of anything."]
-			dependencies: ["7C32C62005DE9D15"]
+			dependencies: [
+				"7C32C62005DE9D15"
+				"0B1D5E77E82B17AB"
+			]
 			id: "443C300767CCEDAF"
 			tasks: [{
 				id: "4428186CD1803B53"
@@ -790,7 +884,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["4K ME Storage Component can store 4096 Bytes of anything."]
-			dependencies: ["3B123F66DCAAE971"]
+			dependencies: [
+				"3B123F66DCAAE971"
+				"0B1D5E77E82B17AB"
+			]
 			id: "07C389F810E6198C"
 			tasks: [{
 				id: "6690B3BD7CC33B72"
@@ -808,7 +905,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["16K ME Storage Component can store 16384 Bytes of anything."]
-			dependencies: ["3BF49369E9042EC9"]
+			dependencies: [
+				"3BF49369E9042EC9"
+				"0B1D5E77E82B17AB"
+			]
 			id: "34B93263D9720FCF"
 			tasks: [{
 				id: "12394274C958252C"
@@ -826,7 +926,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["64K ME Storage Component can store 65536 Bytes of anything."]
-			dependencies: ["0DEB12EBFC1F7DCC"]
+			dependencies: [
+				"0DEB12EBFC1F7DCC"
+				"0B1D5E77E82B17AB"
+			]
 			id: "237C6ECAEA2C20FC"
 			tasks: [{
 				id: "3F04786CCD5ABF7A"
@@ -844,7 +947,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["256K ME Storage Component can store 262144 Bytes of anything."]
-			dependencies: ["0235E73C94D2E5E8"]
+			dependencies: [
+				"0235E73C94D2E5E8"
+				"0B1D5E77E82B17AB"
+			]
 			id: "48C2955FEB405F66"
 			tasks: [{
 				id: "190D52D89A53ABAE"
@@ -862,7 +968,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["1024K ME Storage Component can store 1048576 Bytes of anything."]
-			dependencies: ["6183F8C262907876"]
+			dependencies: [
+				"6183F8C262907876"
+				"0B1D5E77E82B17AB"
+			]
 			id: "7C4CC1B647E8D3C9"
 			tasks: [{
 				id: "3283052E53614310"
@@ -880,7 +989,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["4096K ME Storage Component can store 4194304 Bytes of anything."]
-			dependencies: ["676BBD010B19B2D5"]
+			dependencies: [
+				"676BBD010B19B2D5"
+				"0B1D5E77E82B17AB"
+			]
 			id: "667A4319EF44B30E"
 			tasks: [{
 				id: "0B0C8DB380D22B03"
@@ -898,7 +1010,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["16384K ME Storage Component can store 16777216 Bytes of anything."]
-			dependencies: ["4583FAB6A7671236"]
+			dependencies: [
+				"4583FAB6A7671236"
+				"0B1D5E77E82B17AB"
+			]
 			id: "4406D0BE1BA47E6B"
 			tasks: [{
 				id: "2DEE75EF77BEE1BC"
@@ -916,7 +1031,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["65536K ME Storage Component can store 67108864 Bytes of anything."]
-			dependencies: ["33E094C77D977AB6"]
+			dependencies: [
+				"33E094C77D977AB6"
+				"0B1D5E77E82B17AB"
+			]
 			id: "6B3B2C9E6064C0D9"
 			tasks: [{
 				id: "0EB97D866831444C"
@@ -946,7 +1064,10 @@
 				"You can also color your cable, so they can no longer connect to each other, except for the colorless cable (Fluix)."
 			]
 			hide_dependency_lines: true
-			dependencies: ["0B8F6C8E01B6B604"]
+			dependencies: [
+				"0B8F6C8E01B6B604"
+				"0B1D5E77E82B17AB"
+			]
 			id: "78C0ADBE2B90C059"
 			tasks: [
 				{
@@ -983,7 +1104,10 @@
 				"Place your Applicator in a ME Chest and fill it with colored matter ball."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3B123F66DCAAE971"]
+			dependencies: [
+				"3B123F66DCAAE971"
+				"0B1D5E77E82B17AB"
+			]
 			id: "525970E42BF8B0B7"
 			tasks: [{
 				id: "03D31DBAB70E0CF0"
@@ -1013,7 +1137,10 @@
 				"You can store up to 200k AE (or RF if you want) into it."
 			]
 			hide_dependency_lines: true
-			dependencies: ["0B8F6C8E01B6B604"]
+			dependencies: [
+				"0B8F6C8E01B6B604"
+				"0B1D5E77E82B17AB"
+			]
 			id: "7730BA1D9D3AA9FF"
 			tasks: [{
 				id: "252D79A25C071D50"
@@ -1040,7 +1167,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Dense Energy Cell is an upgrade to the basic Energy Cell, you can store up to 1.6M AE (or RF if you want) into it."]
-			dependencies: ["7730BA1D9D3AA9FF"]
+			dependencies: [
+				"7730BA1D9D3AA9FF"
+				"0B1D5E77E82B17AB"
+			]
 			id: "5A974E79F8E1AF71"
 			tasks: [{
 				id: "063AC11B785174BA"
@@ -1111,6 +1241,7 @@
 			dependencies: [
 				"5B424F11CFCA332D"
 				"3ED4CC577351B4DA"
+				"0B1D5E77E82B17AB"
 			]
 			id: "2DC966A4EECD0FE7"
 			tasks: [
@@ -1148,7 +1279,10 @@
 				"It's, for example, the best way to empty your cells into your storage networks if your Storage Bus has a higher priority than your Disk Drive."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3E6DD455D008056B"]
+			dependencies: [
+				"3E6DD455D008056B"
+				"0B1D5E77E82B17AB"
+			]
 			id: "5BF31E43CF8C2DE4"
 			tasks: [{
 				id: "6F6B4E091D17A4C1"
@@ -1176,7 +1310,10 @@
 				"The last is the number of items you network launch at the same time."
 			]
 			hide_dependency_lines: true
-			dependencies: ["7DAB91211A70F683"]
+			dependencies: [
+				"7DAB91211A70F683"
+				"0B1D5E77E82B17AB"
+			]
 			id: "7B72A2B03B954969"
 			tasks: [
 				{
@@ -1201,7 +1338,10 @@
 			y: -4.0d
 			shape: "square"
 			description: ["You can obtain Fluix Dust by throwing an equivalent amount of Redstone Dust, Quartz and Charged Certus Quartz in a pool of water."]
-			dependencies: ["63F57021D71CF827"]
+			dependencies: [
+				"63F57021D71CF827"
+				"0B1D5E77E82B17AB"
+			]
 			id: "0B8F6C8E01B6B604"
 			tasks: [{
 				id: "3B744AF15D402E97"
@@ -1226,7 +1366,10 @@
 				""
 				"Those storages Cell can store Mana from a Fluix Mana Pool."
 			]
-			dependencies: ["00000000000003E9"]
+			dependencies: [
+				"00000000000003E9"
+				"0B1D5E77E82B17AB"
+			]
 			id: "51CB7889C969B6E8"
 			tasks: [{
 				id: "721D1A3234FBFAB0"
@@ -1247,6 +1390,7 @@
 			dependencies: [
 				"00000000000003F9"
 				"00000000000003B9"
+				"0B1D5E77E82B17AB"
 			]
 			id: "14E07D7B57257987"
 			tasks: [{
@@ -1265,7 +1409,10 @@
 			y: -4.5d
 			shape: "square"
 			description: ["Charge a Certus Quartz using a Tesla coil of the Charger from AE2."]
-			dependencies: ["4B0024EB89A2DBC9"]
+			dependencies: [
+				"4B0024EB89A2DBC9"
+				"0B1D5E77E82B17AB"
+			]
 			id: "63F57021D71CF827"
 			tasks: [{
 				id: "5E3FC60EC498095D"
@@ -1291,7 +1438,10 @@
 				"The Crafting Storage store the amount of item needed for your demand."
 			]
 			hide_dependency_lines: true
-			dependencies: ["2DC966A4EECD0FE7"]
+			dependencies: [
+				"2DC966A4EECD0FE7"
+				"0B1D5E77E82B17AB"
+			]
 			id: "39D10873CDF6BFD7"
 			tasks: [
 				{
@@ -1323,7 +1473,10 @@
 				"The Export bus can export stuff from your network."
 			]
 			hide_dependency_lines: true
-			dependencies: ["7DAB91211A70F683"]
+			dependencies: [
+				"7DAB91211A70F683"
+				"0B1D5E77E82B17AB"
+			]
 			id: "4A447D346D239970"
 			tasks: [
 				{

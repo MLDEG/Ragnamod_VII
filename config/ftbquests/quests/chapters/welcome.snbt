@@ -68,7 +68,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -1.0d
 			y: 1.5d
 			description: [
 				"Like I said, this modpack doesn't force you to play around with the quests."
@@ -90,7 +90,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 0.0d
 			y: 1.5d
 			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
 			id: "47900538A09CE4F2"
@@ -101,8 +101,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: 1.5d
+			y: 0.5d
 			description: [
 				"Thanks to my beta tester."
 				""

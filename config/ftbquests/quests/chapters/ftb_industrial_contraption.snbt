@@ -1,7 +1,7 @@
 {
 	id: "2979D0A83D67A51F"
 	group: ""
-	order_index: 24
+	order_index: 22
 	filename: "ftb_industrial_contraption"
 	title: " FTB Industrial Contraptions"
 	icon: "ftbic:nuclear_reactor"
@@ -36,7 +36,10 @@
 				"Place a Tree Tap on the second Rubber Wood Log (from the ground up) and place a Wooden Bucket underneath."
 				"{image:ftbquests:textures/quests/ftbic_tree.png width:150 height:100 align:1}"
 			]
-			dependencies: ["33E25F3B447ED34D"]
+			dependencies: [
+				"33E25F3B447ED34D"
+				"24CEA0C30026A5BD"
+			]
 			id: "16C55EB5AAEA2FAC"
 			tasks: [
 				{
@@ -63,7 +66,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Right-click on the Wooden Bucket to recover the Latex (a minimum of 1000 mB is required to recover the Latex)."]
-			dependencies: ["16C55EB5AAEA2FAC"]
+			dependencies: [
+				"16C55EB5AAEA2FAC"
+				"24CEA0C30026A5BD"
+			]
 			id: "207C7551F52E1BC8"
 			tasks: [
 				{
@@ -89,7 +95,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Use the LV cable to transmit up to 32 EU/tick maximum to your machines! "]
-			dependencies: ["207C7551F52E1BC8"]
+			dependencies: [
+				"207C7551F52E1BC8"
+				"24CEA0C30026A5BD"
+			]
 			id: "0B34DDCEED750AAC"
 			tasks: [{
 				id: "25ABF3185284598E"
@@ -111,7 +120,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Use the HV cable to transmit up to 512 EU/tick maximum to your machines! "]
-			dependencies: ["207C7551F52E1BC8"]
+			dependencies: [
+				"207C7551F52E1BC8"
+				"24CEA0C30026A5BD"
+			]
 			id: "5FBBFC4675037876"
 			tasks: [{
 				id: "61009DCC43778B7D"
@@ -134,7 +146,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Use the EV cable to transmit up to 2048 EU/tick maximum to your machines! "]
-			dependencies: ["207C7551F52E1BC8"]
+			dependencies: [
+				"207C7551F52E1BC8"
+				"24CEA0C30026A5BD"
+			]
 			id: "6E31F1878719B0B9"
 			tasks: [{
 				id: "566BF6CA6C1A677B"
@@ -155,7 +170,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Use the EV cable to transmit up to 8192 EU/tick maximum to your machines! "]
-			dependencies: ["54E8063E7AE122CB"]
+			dependencies: [
+				"54E8063E7AE122CB"
+				"24CEA0C30026A5BD"
+			]
 			id: "5F69E6C72595000B"
 			tasks: [{
 				id: "1450FE2C36AB7787"
@@ -177,7 +195,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Machine Block is a material used to craft various components from FTB IC"]
-			dependencies: ["207C7551F52E1BC8"]
+			dependencies: [
+				"207C7551F52E1BC8"
+				"24CEA0C30026A5BD"
+			]
 			size: 2.0d
 			id: "6403C7F6E4933243"
 			tasks: [{
@@ -197,7 +218,10 @@
 			y: -5.0d
 			shape: "square"
 			description: ["Advanced Machine Block is a material used to craft various components from FTB IC"]
-			dependencies: ["6403C7F6E4933243"]
+			dependencies: [
+				"6403C7F6E4933243"
+				"24CEA0C30026A5BD"
+			]
 			size: 2.0d
 			id: "064EC198DEA45645"
 			tasks: [{
@@ -224,7 +248,10 @@
 				"Place the Quarry on the intersection of the 3 Landmarks (on the Polished Andesite block)."
 				"{image:ftbquests:textures/quests/ftbic_quarry.png width:150 height:100 align:1}"
 			]
-			dependencies: ["064EC198DEA45645"]
+			dependencies: [
+				"064EC198DEA45645"
+				"24CEA0C30026A5BD"
+			]
 			id: "3B77DDA06B1A907F"
 			tasks: [
 				{
@@ -259,7 +286,10 @@
 				"Place the Pump on the intersection of the 3 Landmarks (on the Polished Andesite block)."
 				"{image:ftbquests:textures/quests/ftbic_pump.png width:150 height:100 align:1}"
 			]
-			dependencies: ["064EC198DEA45645"]
+			dependencies: [
+				"064EC198DEA45645"
+				"24CEA0C30026A5BD"
+			]
 			id: "5DDF55425E4710D9"
 			tasks: [
 				{
@@ -286,7 +316,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Generates energy from the sun."]
-			dependencies: ["5FA9A34CBFBB54F8"]
+			dependencies: [
+				"5FA9A34CBFBB54F8"
+				"24CEA0C30026A5BD"
+			]
 			id: "42CDA98F3ED529D6"
 			tasks: [{
 				id: "302FCBA495AC87DA"
@@ -304,7 +337,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["Generates energy from the sun."]
-			dependencies: ["42CDA98F3ED529D6"]
+			dependencies: [
+				"42CDA98F3ED529D6"
+				"24CEA0C30026A5BD"
+			]
 			id: "507A6526A6D2F384"
 			tasks: [{
 				id: "294EFE6D031952AF"
@@ -322,7 +358,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["Generates energy from the sun."]
-			dependencies: ["507A6526A6D2F384"]
+			dependencies: [
+				"507A6526A6D2F384"
+				"24CEA0C30026A5BD"
+			]
 			id: "4B20EE1575B31D94"
 			tasks: [{
 				id: "3C76870C10841B85"
@@ -340,7 +379,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["Generates energy from the sun."]
-			dependencies: ["4B20EE1575B31D94"]
+			dependencies: [
+				"4B20EE1575B31D94"
+				"24CEA0C30026A5BD"
+			]
 			id: "25BCEBD2793D0C68"
 			tasks: [{
 				id: "462BAA4C32682E4C"
@@ -358,7 +400,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Carbon Plate is a material used to craft various components from FTB IC"]
-			dependencies: ["7E0E1B43FC43A851"]
+			dependencies: [
+				"7E0E1B43FC43A851"
+				"24CEA0C30026A5BD"
+			]
 			id: "00B0457819BF124B"
 			tasks: [{
 				id: "092F18A2E9F482E9"
@@ -382,6 +427,7 @@
 			dependencies: [
 				"54E8063E7AE122CB"
 				"00B0457819BF124B"
+				"24CEA0C30026A5BD"
 			]
 			id: "774A3243223043C2"
 			tasks: [
@@ -455,7 +501,10 @@
 			y: -4.0d
 			shape: "square"
 			description: ["A minimum of the Chestplate is required for the armor to work."]
-			dependencies: ["0CAB09512CD5B2A4"]
+			dependencies: [
+				"0CAB09512CD5B2A4"
+				"24CEA0C30026A5BD"
+			]
 			id: "3EB29B65C16D485B"
 			tasks: [
 				{
@@ -516,7 +565,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Mainly used in Antimatter Constructor."]
-			dependencies: ["52D50873CEC448E7"]
+			dependencies: [
+				"52D50873CEC448E7"
+				"24CEA0C30026A5BD"
+			]
 			id: "0808D3FF0A1F4194"
 			tasks: [{
 				id: "71AD25C6E8827541"
@@ -536,7 +588,10 @@
 			y: -4.5d
 			shape: "square"
 			description: ["Antimatter is a material used to craft various components from FTB IC"]
-			dependencies: ["5B425D4D027AE0E4"]
+			dependencies: [
+				"5B425D4D027AE0E4"
+				"24CEA0C30026A5BD"
+			]
 			id: "0CAB09512CD5B2A4"
 			tasks: [{
 				id: "700BF1C0204CBCAA"
@@ -557,6 +612,7 @@
 			dependencies: [
 				"54E8063E7AE122CB"
 				"0CAB09512CD5B2A4"
+				"24CEA0C30026A5BD"
 			]
 			id: "2F0EDA00D9826D53"
 			tasks: [{
@@ -579,7 +635,10 @@
 				"If you give him items in addition to energy, energy consumption will be reduced. Scrap Box are the best items to put inside."
 				"{image:ftbquests:textures/quests/ftbic_antimatter_constructor.png width:190 height:60 align:1}"
 			]
-			dependencies: ["064EC198DEA45645"]
+			dependencies: [
+				"064EC198DEA45645"
+				"24CEA0C30026A5BD"
+			]
 			id: "5B425D4D027AE0E4"
 			tasks: [{
 				id: "01151E591221E649"
@@ -601,7 +660,10 @@
 				""
 				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
 			]
-			dependencies: ["3EC042D8A562C120"]
+			dependencies: [
+				"3EC042D8A562C120"
+				"24CEA0C30026A5BD"
+			]
 			id: "4AB74A07C9E00A86"
 			tasks: [{
 				id: "028FD302135F4723"
@@ -619,7 +681,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Transforms MV energy into LV."]
-			dependencies: ["0B34DDCEED750AAC"]
+			dependencies: [
+				"0B34DDCEED750AAC"
+				"24CEA0C30026A5BD"
+			]
 			id: "1B2E42013647BD46"
 			tasks: [{
 				id: "338B1C316F2C7D09"
@@ -641,7 +706,10 @@
 				""
 				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
 			]
-			dependencies: ["73D3EC02975A74A2"]
+			dependencies: [
+				"73D3EC02975A74A2"
+				"24CEA0C30026A5BD"
+			]
 			id: "34379C67FF9A73AC"
 			tasks: [{
 				id: "1E62ED8F2676D6FF"
@@ -659,7 +727,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Transforms HV energy into MV."]
-			dependencies: ["73D3EC02975A74A2"]
+			dependencies: [
+				"73D3EC02975A74A2"
+				"24CEA0C30026A5BD"
+			]
 			id: "5D1FA34602A10883"
 			tasks: [{
 				id: "03554C473F93042C"
@@ -681,7 +752,10 @@
 				""
 				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
 			]
-			dependencies: ["34379C67FF9A73AC"]
+			dependencies: [
+				"34379C67FF9A73AC"
+				"24CEA0C30026A5BD"
+			]
 			id: "5CF0C854C38E8739"
 			tasks: [{
 				id: "77910AFE3FD7D396"
@@ -702,6 +776,7 @@
 			dependencies: [
 				"5D1FA34602A10883"
 				"5FBBFC4675037876"
+				"24CEA0C30026A5BD"
 			]
 			id: "63EC60CAFF6779FD"
 			tasks: [{
@@ -724,7 +799,10 @@
 				""
 				"/!\\ Be careful, if you break it, all the energy stored in it will be lost!"
 			]
-			dependencies: ["5CF0C854C38E8739"]
+			dependencies: [
+				"5CF0C854C38E8739"
+				"24CEA0C30026A5BD"
+			]
 			id: "0003E374D73FF87C"
 			tasks: [{
 				id: "795772F6B2CB65D2"
@@ -745,6 +823,7 @@
 			dependencies: [
 				"63EC60CAFF6779FD"
 				"6E31F1878719B0B9"
+				"24CEA0C30026A5BD"
 			]
 			id: "15EF4B0143D7581E"
 			tasks: [{
@@ -773,7 +852,10 @@
 				"  -Energy generated during its cycle."
 				"{image:ftbquests:textures/ftbic/nuclear_reactor_simu.png width:190 height:70 align:1}"
 			]
-			dependencies: ["064EC198DEA45645"]
+			dependencies: [
+				"064EC198DEA45645"
+				"24CEA0C30026A5BD"
+			]
 			size: 2.0d
 			id: "33CB37A7F08837D8"
 			tasks: [{
@@ -793,7 +875,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Centrifuge allows you to get more Rubber from Latex, Get Latex directly from a Rubberwood Log and more."]
-			dependencies: ["6403C7F6E4933243"]
+			dependencies: [
+				"6403C7F6E4933243"
+				"24CEA0C30026A5BD"
+			]
 			id: "5604FA79FD9A7196"
 			tasks: [{
 				id: "379DC319FEE7892B"
@@ -811,7 +896,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["With a Compressor, you can turn Canned Food into a Protein Bar, Compress a lot of Coal into Diamond and more."]
-			dependencies: ["6403C7F6E4933243"]
+			dependencies: [
+				"6403C7F6E4933243"
+				"24CEA0C30026A5BD"
+			]
 			id: "7E0E1B43FC43A851"
 			tasks: [{
 				id: "512DE18BE7C65C63"
@@ -829,7 +917,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Reprocessor is used to turn anything into Scrap."]
-			dependencies: ["7E0E1B43FC43A851"]
+			dependencies: [
+				"7E0E1B43FC43A851"
+				"24CEA0C30026A5BD"
+			]
 			id: "52D50873CEC448E7"
 			tasks: [{
 				id: "75A8F59F458320DC"
@@ -847,7 +938,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["With the Extruder, you can craft Gears, Rods and Wires !"]
-			dependencies: ["6403C7F6E4933243"]
+			dependencies: [
+				"6403C7F6E4933243"
+				"24CEA0C30026A5BD"
+			]
 			id: "0D1C330050EF01D2"
 			tasks: [{
 				id: "50AA43E56AF48ABF"
@@ -865,7 +959,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Canning Machine can put food into Tin Can and also craft painting spray for your machines."]
-			dependencies: ["6403C7F6E4933243"]
+			dependencies: [
+				"6403C7F6E4933243"
+				"24CEA0C30026A5BD"
+			]
 			id: "31DE564082D22F3F"
 			tasks: [{
 				id: "1D760ABAE921E248"
@@ -883,7 +980,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["You can craft plates with the Roller."]
-			dependencies: ["6403C7F6E4933243"]
+			dependencies: [
+				"6403C7F6E4933243"
+				"24CEA0C30026A5BD"
+			]
 			id: "0462A9B381073D1E"
 			tasks: [{
 				id: "07DD8E6E9BB7324C"
@@ -905,7 +1005,10 @@
 				""
 				"/!\\ The minimum height for production is Y = 64"
 			]
-			dependencies: ["5FA9A34CBFBB54F8"]
+			dependencies: [
+				"5FA9A34CBFBB54F8"
+				"24CEA0C30026A5BD"
+			]
 			id: "6138D248CDEF546B"
 			tasks: [{
 				id: "6DEB63EA3BC5F79D"
@@ -924,7 +1027,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Transforms Lava into energy."]
-			dependencies: ["5FA9A34CBFBB54F8"]
+			dependencies: [
+				"5FA9A34CBFBB54F8"
+				"24CEA0C30026A5BD"
+			]
 			id: "1C35E861F973002D"
 			tasks: [{
 				id: "705B63B0CEAC66DD"
@@ -942,7 +1048,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Creates energy from items that can burn (Exemple : Coal)."]
-			dependencies: ["3EC042D8A562C120"]
+			dependencies: [
+				"3EC042D8A562C120"
+				"24CEA0C30026A5BD"
+			]
 			id: "5FA9A34CBFBB54F8"
 			tasks: [{
 				id: "2ACAAFE0C43860CD"
@@ -961,7 +1070,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Works like the Furnace, but uses energy instead of coal."]
-			dependencies: ["5EE02F223FC5B622"]
+			dependencies: [
+				"5EE02F223FC5B622"
+				"24CEA0C30026A5BD"
+			]
 			id: "4DFF2A6635EAD395"
 			tasks: [{
 				id: "6C709DEB40B1DF53"
@@ -980,7 +1092,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Macerator is basically a Crusher, turn ingots into dusts."]
-			dependencies: ["6403C7F6E4933243"]
+			dependencies: [
+				"6403C7F6E4933243"
+				"24CEA0C30026A5BD"
+			]
 			id: "1AAF440EEB228A77"
 			tasks: [{
 				id: "2B73000F3813A74D"
@@ -999,7 +1114,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["With this Spray Paint Cans, you can recolor your machine from white to black, or vice versa."]
-			dependencies: ["31DE564082D22F3F"]
+			dependencies: [
+				"31DE564082D22F3F"
+				"24CEA0C30026A5BD"
+			]
 			id: "257EEAFACFB3AE38"
 			tasks: [
 				{
@@ -1030,7 +1148,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Electronic Circuit is a material used to craft various components from FTB IC."]
-			dependencies: ["0B34DDCEED750AAC"]
+			dependencies: [
+				"0B34DDCEED750AAC"
+				"24CEA0C30026A5BD"
+			]
 			id: "5EE02F223FC5B622"
 			tasks: [{
 				id: "0B74A1491B54E4D7"
@@ -1049,7 +1170,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Advanced Circuit is a material used to craft various components from FTB IC."]
-			dependencies: ["5EE02F223FC5B622"]
+			dependencies: [
+				"5EE02F223FC5B622"
+				"24CEA0C30026A5BD"
+			]
 			id: "61E315F49B14D7A3"
 			tasks: [{
 				id: "04E2AD199C27589F"
@@ -1068,7 +1192,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["Iridium Circuit is a material used to craft various components from FTB IC"]
-			dependencies: ["61E315F49B14D7A3"]
+			dependencies: [
+				"61E315F49B14D7A3"
+				"24CEA0C30026A5BD"
+			]
 			id: "3354ED35BB2B9A0E"
 			tasks: [{
 				id: "0233C30B2CBD1322"
@@ -1087,7 +1214,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Increase the energy storage capacity of your machines."]
-			dependencies: ["3EC042D8A562C120"]
+			dependencies: [
+				"3EC042D8A562C120"
+				"24CEA0C30026A5BD"
+			]
 			id: "3DB86674760765F9"
 			tasks: [{
 				id: "75D1E23A205479F3"
@@ -1107,7 +1237,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Canned Food and the Protein Bar can be eaten even if you haven't hungry, and can eat those fast !"]
-			dependencies: ["31DE564082D22F3F"]
+			dependencies: [
+				"31DE564082D22F3F"
+				"24CEA0C30026A5BD"
+			]
 			id: "3F31DBB7AE0D7B49"
 			tasks: [
 				{
@@ -1142,7 +1275,10 @@
 				"  The LV Battery allows you to store 4000 EU on your body and transfer it to a Battery Box (for example). "
 				"  By right-clicking on the Battery, you can recharge your stuff that requires power from the FTB IC."
 			]
-			dependencies: ["0B34DDCEED750AAC"]
+			dependencies: [
+				"0B34DDCEED750AAC"
+				"24CEA0C30026A5BD"
+			]
 			id: "3EC042D8A562C120"
 			tasks: [{
 				id: "1F32583FE30B5EE5"
@@ -1165,7 +1301,10 @@
 				""
 				"For example an Extruder who needs 32⚡/t you have to use LV Cable, but with a Transformer you can use an MV cable, with two transformers a HV Cable etc..."
 			]
-			dependencies: ["5D1FA34602A10883"]
+			dependencies: [
+				"5D1FA34602A10883"
+				"24CEA0C30026A5BD"
+			]
 			id: "55941AFE7221D2D3"
 			tasks: [{
 				id: "15EE461073DD726B"
@@ -1188,7 +1327,10 @@
 				""
 				"/!\\ Beware, this will increase the amount of energy required."
 			]
-			dependencies: ["5604FA79FD9A7196"]
+			dependencies: [
+				"5604FA79FD9A7196"
+				"24CEA0C30026A5BD"
+			]
 			id: "3A78FD65269C2D94"
 			tasks: [{
 				id: "0B31E7AE8EDE4FE0"
@@ -1207,7 +1349,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["Automatically ejects items from machines."]
-			dependencies: ["3DB86674760765F9"]
+			dependencies: [
+				"3DB86674760765F9"
+				"24CEA0C30026A5BD"
+			]
 			id: "520BE48183B58308"
 			tasks: [{
 				id: "02C6CBFB5BB5933F"
@@ -1226,7 +1371,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Energy Crystal is a material used to craft various components from FTB IC"]
-			dependencies: ["5604FA79FD9A7196"]
+			dependencies: [
+				"5604FA79FD9A7196"
+				"24CEA0C30026A5BD"
+			]
 			id: "54E8063E7AE122CB"
 			tasks: [{
 				id: "0E7E0F25A4338B05"
@@ -1244,7 +1392,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Use the MV cable to transmit up to 128 EU/tick maximum to your machines! "]
-			dependencies: ["207C7551F52E1BC8"]
+			dependencies: [
+				"207C7551F52E1BC8"
+				"24CEA0C30026A5BD"
+			]
 			id: "73D3EC02975A74A2"
 			tasks: [{
 				id: "3FB5D8A01E9D3498"
@@ -1266,7 +1417,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["  The MV Battery allows you to store 40 000 EU on your body and transfer it to a Battery Box (for example). "]
-			dependencies: ["54E8063E7AE122CB"]
+			dependencies: [
+				"54E8063E7AE122CB"
+				"24CEA0C30026A5BD"
+			]
 			id: "6766FA0101E9B2D6"
 			tasks: [{
 				id: "07B60791A0B6C827"
@@ -1284,7 +1438,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["  The HV Battery allows you to store 400 000 EU on your body and transfer it to a Battery Box (for example). "]
-			dependencies: ["6766FA0101E9B2D6"]
+			dependencies: [
+				"6766FA0101E9B2D6"
+				"24CEA0C30026A5BD"
+			]
 			id: "2FB684283AA8A659"
 			tasks: [{
 				id: "77DC37FDC88119C2"
@@ -1302,7 +1459,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["  The EV Battery allows you to store 10 000 000 EU on your body and transfer it to a Battery Box (for example). "]
-			dependencies: ["2FB684283AA8A659"]
+			dependencies: [
+				"2FB684283AA8A659"
+				"24CEA0C30026A5BD"
+			]
 			id: "787AE8CC9BEE8507"
 			tasks: [{
 				id: "3E05C8EA6E680948"
@@ -1320,7 +1480,10 @@
 			y: -6.5d
 			shape: "square"
 			description: ["Uranium Fuel Rod is used to generate energy in the nuclear reactor."]
-			dependencies: ["33CB37A7F08837D8"]
+			dependencies: [
+				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
+			]
 			id: "41B3C691A8C26006"
 			tasks: [{
 				id: "113DE86D3DB7D84A"
@@ -1354,6 +1517,7 @@
 			dependencies: [
 				"41B3C691A8C26006"
 				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
 			]
 			id: "54788B872DB155FC"
 			tasks: [{
@@ -1388,6 +1552,7 @@
 			dependencies: [
 				"54788B872DB155FC"
 				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
 			]
 			id: "73614A12C432F6C5"
 			tasks: [{
@@ -1419,7 +1584,10 @@
 			y: -5.0d
 			shape: "square"
 			description: ["Heat Vent is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["33CB37A7F08837D8"]
+			dependencies: [
+				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
+			]
 			id: "2C4F0C9F64CBEC49"
 			tasks: [{
 				id: "7B44EA6935D84B20"
@@ -1449,7 +1617,10 @@
 			y: -6.0d
 			shape: "square"
 			description: ["Advanced Heat Vent is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["2C4F0C9F64CBEC49"]
+			dependencies: [
+				"2C4F0C9F64CBEC49"
+				"24CEA0C30026A5BD"
+			]
 			id: "0279994FE9D04376"
 			tasks: [{
 				id: "3F7DB27C1323291D"
@@ -1479,7 +1650,10 @@
 			y: -5.0d
 			shape: "square"
 			description: ["Reactor Heat Vent is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["2C4F0C9F64CBEC49"]
+			dependencies: [
+				"2C4F0C9F64CBEC49"
+				"24CEA0C30026A5BD"
+			]
 			id: "47382358FC1F4909"
 			tasks: [{
 				id: "69C6999B3A1C6DD8"
@@ -1509,7 +1683,10 @@
 			y: -4.0d
 			shape: "square"
 			description: ["Component Heat Vent is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["2C4F0C9F64CBEC49"]
+			dependencies: [
+				"2C4F0C9F64CBEC49"
+				"24CEA0C30026A5BD"
+			]
 			id: "09BE190FB95A9F98"
 			tasks: [{
 				id: "6F557BE85B378B1F"
@@ -1527,7 +1704,10 @@
 			y: -5.0d
 			shape: "square"
 			description: ["Overclocked Heat Vent is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["47382358FC1F4909"]
+			dependencies: [
+				"47382358FC1F4909"
+				"24CEA0C30026A5BD"
+			]
 			id: "321547FC2CA7B9B0"
 			tasks: [{
 				id: "6E00AEC7340AED2E"
@@ -1557,7 +1737,10 @@
 			y: -6.5d
 			shape: "square"
 			description: ["Reactor Plating is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["33CB37A7F08837D8"]
+			dependencies: [
+				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
+			]
 			id: "217D8D3FEDCDB857"
 			tasks: [{
 				id: "414BF0651FFA2096"
@@ -1575,7 +1758,10 @@
 			y: -7.5d
 			shape: "square"
 			description: ["Containment Reactor Plating is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["217D8D3FEDCDB857"]
+			dependencies: [
+				"217D8D3FEDCDB857"
+				"24CEA0C30026A5BD"
+			]
 			id: "47C31AA34B5A4475"
 			tasks: [{
 				id: "25A795F6C0E0B3E9"
@@ -1593,7 +1779,10 @@
 			y: -8.5d
 			shape: "square"
 			description: ["Heat-Capacity Reactor Plating is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["217D8D3FEDCDB857"]
+			dependencies: [
+				"217D8D3FEDCDB857"
+				"24CEA0C30026A5BD"
+			]
 			id: "6C1378DA9EE10183"
 			tasks: [{
 				id: "2625EA34A3BADF37"
@@ -1611,7 +1800,10 @@
 			y: -6.5d
 			shape: "square"
 			description: ["Neutron Reflector is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["33CB37A7F08837D8"]
+			dependencies: [
+				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
+			]
 			id: "754C10F424D03607"
 			tasks: [{
 				id: "5947BACEC7DAA865"
@@ -1641,7 +1833,10 @@
 			y: -7.5d
 			shape: "square"
 			description: ["Thick Neutron Reflector is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["754C10F424D03607"]
+			dependencies: [
+				"754C10F424D03607"
+				"24CEA0C30026A5BD"
+			]
 			id: "4CA2628AA22ABF0D"
 			tasks: [{
 				id: "1A0B45A0ADD44CF4"
@@ -1671,7 +1866,10 @@
 			y: -8.5d
 			shape: "square"
 			description: ["Iridium Neutron Reflector is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["4CA2628AA22ABF0D"]
+			dependencies: [
+				"4CA2628AA22ABF0D"
+				"24CEA0C30026A5BD"
+			]
 			id: "3CC2FDBA6067940F"
 			tasks: [{
 				id: "24BC3B9422C78A56"
@@ -1689,7 +1887,10 @@
 			y: -5.0d
 			shape: "square"
 			description: ["Small Coolant Cell is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["33CB37A7F08837D8"]
+			dependencies: [
+				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
+			]
 			id: "272C58C794EC5C3C"
 			tasks: [{
 				id: "5C317FC7FB4B8071"
@@ -1719,7 +1920,10 @@
 			y: -6.5d
 			shape: "square"
 			description: ["Medium Coolant Cell is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["272C58C794EC5C3C"]
+			dependencies: [
+				"272C58C794EC5C3C"
+				"24CEA0C30026A5BD"
+			]
 			id: "1225873C59B798C4"
 			tasks: [{
 				id: "43939D5900CD047E"
@@ -1749,7 +1953,10 @@
 			y: -8.0d
 			shape: "square"
 			description: ["Large Coolant Cell is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["1225873C59B798C4"]
+			dependencies: [
+				"1225873C59B798C4"
+				"24CEA0C30026A5BD"
+			]
 			id: "572B0DB580C11CDA"
 			tasks: [{
 				id: "5BB3E2BEB78F0B4B"
@@ -1779,7 +1986,10 @@
 			y: -5.0d
 			shape: "square"
 			description: ["Heat Exchanger is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["33CB37A7F08837D8"]
+			dependencies: [
+				"33CB37A7F08837D8"
+				"24CEA0C30026A5BD"
+			]
 			id: "09EF30F571757BEA"
 			tasks: [{
 				id: "2341BAD4DDDE044B"
@@ -1809,7 +2019,10 @@
 			y: -8.0d
 			shape: "square"
 			description: ["Advanced Heat Exchanger is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["09EF30F571757BEA"]
+			dependencies: [
+				"09EF30F571757BEA"
+				"24CEA0C30026A5BD"
+			]
 			id: "5D7F3351C2986B05"
 			tasks: [{
 				id: "674D5B6E53E4CE53"
@@ -1839,7 +2052,10 @@
 			y: -7.0d
 			shape: "square"
 			description: ["Reactor Heat Exchanger is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["09EF30F571757BEA"]
+			dependencies: [
+				"09EF30F571757BEA"
+				"24CEA0C30026A5BD"
+			]
 			id: "681DA2040395D901"
 			tasks: [{
 				id: "7D19C0AEEB6F6461"
@@ -1869,7 +2085,10 @@
 			y: -6.0d
 			shape: "square"
 			description: ["Component Heat Exchanger is a material used to regulate your Nuclear Reactor."]
-			dependencies: ["09EF30F571757BEA"]
+			dependencies: [
+				"09EF30F571757BEA"
+				"24CEA0C30026A5BD"
+			]
 			id: "3EEE2E55D3E7E932"
 			tasks: [{
 				id: "545B68B9A35E04A8"
@@ -1899,7 +2118,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["Mainly used in Antimatter Constructor."]
-			dependencies: ["0808D3FF0A1F4194"]
+			dependencies: [
+				"0808D3FF0A1F4194"
+				"24CEA0C30026A5BD"
+			]
 			id: "6C7AB184E91BDD90"
 			tasks: [{
 				id: "09E3A401A5EDE2A4"

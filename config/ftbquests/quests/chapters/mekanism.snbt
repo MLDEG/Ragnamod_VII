@@ -1,7 +1,7 @@
 {
 	id: "6932D8CEAE707C22"
 	group: ""
-	order_index: 23
+	order_index: 26
 	filename: "mekanism"
 	title: " Mekanism"
 	icon: "mekanism:steel_casing"
@@ -141,7 +141,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Tier Installers are used to upgrade various machines into their Factory equivalent."]
-			dependencies: ["000000000000085E"]
+			dependencies: [
+				"000000000000085E"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000860"
 			tasks: [{
 				id: "0000000000000861"
@@ -160,7 +163,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["Tier Installers are used to upgrade various machines into their Factory equivalent."]
-			dependencies: ["0000000000000860"]
+			dependencies: [
+				"0000000000000860"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000862"
 			tasks: [{
 				id: "0000000000000863"
@@ -179,7 +185,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["Tier Installers are used to upgrade various machines into their Factory equivalent."]
-			dependencies: ["0000000000000862"]
+			dependencies: [
+				"0000000000000862"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000864"
 			tasks: [{
 				id: "0000000000000865"
@@ -216,7 +225,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["You can store 6.40MRF in the Advanced Energy Cube."]
-			dependencies: ["0000000000000866"]
+			dependencies: [
+				"0000000000000866"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000868"
 			tasks: [{
 				id: "0000000000000869"
@@ -235,7 +247,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["You can store 25.60MRF in the Elite Energy Cube."]
-			dependencies: ["0000000000000868"]
+			dependencies: [
+				"0000000000000868"
+				"24AA4048D4600331"
+			]
 			id: "000000000000086A"
 			tasks: [{
 				id: "000000000000086B"
@@ -254,7 +269,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["You can store 102.40MRF in the Ultimate Energy Cube."]
-			dependencies: ["000000000000086A"]
+			dependencies: [
+				"000000000000086A"
+				"24AA4048D4600331"
+			]
 			id: "000000000000086C"
 			tasks: [{
 				id: "000000000000086D"
@@ -318,7 +336,10 @@
 				"Advanced Pressurized Tube can transfer 2,000mB/t of gas and has an internal buffer of 16,000mB."
 				"Advanced Logistical Transporter can transfer 32 items/sec and works 2 blocks distance per second."
 			]
-			dependencies: ["000000000000086E"]
+			dependencies: [
+				"000000000000086E"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000870"
 			tasks: [
 				{
@@ -359,7 +380,10 @@
 				"Elite Pressurized Tube can transfer 64,000mB/t of gas and has an internal buffer of 256,000mB."
 				"Elite Logistical Transporter can transfer 64 items/sec and works 4 blocks distance per second."
 			]
-			dependencies: ["0000000000000870"]
+			dependencies: [
+				"0000000000000870"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000872"
 			tasks: [
 				{
@@ -400,7 +424,10 @@
 				"Ultimate Pressurized Tube can transfer 256,000mB/t of gas and has an internal buffer of 1,024,000mB."
 				"Ultimate Logistical Transporter can transfer 128 items/sec and works 10 blocks distance per second."
 			]
-			dependencies: ["0000000000000872"]
+			dependencies: [
+				"0000000000000872"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000874"
 			tasks: [
 				{
@@ -454,7 +481,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["You can store 64,000mB in the Advanced Fluid Tank."]
-			dependencies: ["0000000000000882"]
+			dependencies: [
+				"0000000000000882"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000884"
 			tasks: [{
 				id: "0000000000000885"
@@ -473,7 +503,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["You can store 128,000mB in the Elite Fluid Tank."]
-			dependencies: ["0000000000000884"]
+			dependencies: [
+				"0000000000000884"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000886"
 			tasks: [{
 				id: "0000000000000887"
@@ -492,7 +525,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["You can store 256,000mB in the Ultimate Fluid Tank."]
-			dependencies: ["0000000000000886"]
+			dependencies: [
+				"0000000000000886"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000888"
 			tasks: [{
 				id: "0000000000000889"
@@ -529,7 +565,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["You can store 256,000mB of gas in the Advanced Chemical Tank."]
-			dependencies: ["000000000000088A"]
+			dependencies: [
+				"000000000000088A"
+				"24AA4048D4600331"
+			]
 			id: "000000000000088C"
 			tasks: [{
 				id: "000000000000088D"
@@ -548,7 +587,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["You can store 1,024,000mB of gas in the Elite Chemical Tank."]
-			dependencies: ["000000000000088C"]
+			dependencies: [
+				"000000000000088C"
+				"24AA4048D4600331"
+			]
 			id: "000000000000088E"
 			tasks: [{
 				id: "000000000000088F"
@@ -567,7 +609,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["You can store 8,192,000mB of gas in the Ultimate Chemical Tank."]
-			dependencies: ["000000000000088E"]
+			dependencies: [
+				"000000000000088E"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000890"
 			tasks: [{
 				id: "0000000000000891"
@@ -654,6 +699,7 @@
 			dependencies: [
 				"0000000000000949"
 				"00000000000008CD"
+				"24AA4048D4600331"
 			]
 			size: 1.5d
 			id: "0000000000000898"
@@ -717,7 +763,10 @@
 			shape: "square"
 			description: ["Uses Powerful Magnets to draw distant items towards the player."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "000000000000089D"
 			tasks: [{
 				id: "000000000000089E"
@@ -737,7 +786,10 @@
 			shape: "square"
 			description: ["Automatically feeds the player Nutritional Paste when hungry."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "000000000000089F"
 			tasks: [{
 				id: "00000000000008A0"
@@ -757,7 +809,10 @@
 			shape: "square"
 			description: ["Displays the user's current radiation dose in the HUD."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008A1"
 			tasks: [{
 				id: "00000000000008A2"
@@ -777,7 +832,10 @@
 			shape: "square"
 			description: ["Using experimental technologies and the tremendous energy of antimatter, allows the user to defy gravity."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008A3"
 			tasks: [{
 				id: "00000000000008A4"
@@ -798,7 +856,10 @@
 			shape: "square"
 			description: ["Increases maximum energy capacity."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008A5"
 			tasks: [{
 				id: "00000000000008A6"
@@ -820,7 +881,10 @@
 			shape: "square"
 			description: ["Increases the user's sprinting speed (and jumping distance)."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008A7"
 			tasks: [{
 				id: "00000000000008A8"
@@ -841,7 +905,10 @@
 			shape: "square"
 			description: ["Allows the user to both step and jump higher."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008A9"
 			tasks: [{
 				id: "00000000000008AA"
@@ -861,7 +928,10 @@
 			shape: "square"
 			description: ["Provides thick, radiation-proof metal plating to any MekaSuit armor piece."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008AB"
 			tasks: [{
 				id: "00000000000008AC"
@@ -881,7 +951,10 @@
 			shape: "square"
 			description: ["Harness the power of the sun to charge your MekaSuit. Install multiple for faster charging. Requires Mekanism: Generators."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008AD"
 			tasks: [{
 				id: "00000000000008AE"
@@ -902,7 +975,10 @@
 			shape: "square"
 			description: ["Brightens the surrounding environment, allowing the user to see through the darkness. Install multiple for more effective night vision."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008AF"
 			tasks: [{
 				id: "00000000000008B0"
@@ -923,7 +999,10 @@
 			shape: "square"
 			description: ["Uses electrolysis to create breathable oxygen from water. Will also fill a jetpack module with hydrogen when necessary."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008B1"
 			tasks: [{
 				id: "00000000000008B2"
@@ -943,7 +1022,10 @@
 			shape: "square"
 			description: ["Evenly distributes charge throughout all worn MekaSuit armor."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008B3"
 			tasks: [{
 				id: "00000000000008B4"
@@ -1030,6 +1112,7 @@
 			dependencies: [
 				"00000000000008BD"
 				"00000000000008BB"
+				"24AA4048D4600331"
 			]
 			id: "00000000000008BF"
 			tasks: [{
@@ -1056,7 +1139,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["QIO is a way of storing large amounts of items that can be stored, searched, and accessed remotely in late game."]
-			dependencies: ["0000000000000948"]
+			dependencies: [
+				"0000000000000948"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008C1"
 			tasks: [
 				{
@@ -1083,7 +1169,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["In this basic QIO Drive, you can store 16k items for 128 different types."]
-			dependencies: ["00000000000008C1"]
+			dependencies: [
+				"00000000000008C1"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008C4"
 			tasks: [{
 				id: "00000000000008C5"
@@ -1101,7 +1190,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["In the Hyper-Dense QIO Drive, you can store 128k items for 256 different types."]
-			dependencies: ["00000000000008C4"]
+			dependencies: [
+				"00000000000008C4"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008C6"
 			tasks: [{
 				id: "00000000000008C7"
@@ -1120,7 +1212,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["In the Time-Dilating QIO Drive, you can store 1048k items for 1024 different types."]
-			dependencies: ["00000000000008C6"]
+			dependencies: [
+				"00000000000008C6"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008C8"
 			tasks: [{
 				id: "00000000000008C9"
@@ -1139,7 +1234,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["In the Supermassive QIO Drive, you can store 16 billion items for 8192 different types."]
-			dependencies: ["00000000000008C8"]
+			dependencies: [
+				"00000000000008C8"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008CA"
 			tasks: [{
 				id: "00000000000008CB"
@@ -1158,7 +1256,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["Get a stack of HDPE Sheet using Ethylene, Substrate and Oxygen."]
-			dependencies: ["000000000000090C"]
+			dependencies: [
+				"000000000000090C"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008CC"
 			tasks: [{
 				id: "00000000000008CD"
@@ -1268,7 +1369,10 @@
 			y: -4.0d
 			shape: "square"
 			description: ["QIO Importers are attached to a block with inventory and wirelessly transmit their contents to a drive array. The importer must be set to the same frequency as the drive array."]
-			dependencies: ["00000000000008C1"]
+			dependencies: [
+				"00000000000008C1"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008DC"
 			tasks: [
 				{
@@ -1300,7 +1404,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Antiprotonic Nucleosynthesizer is used to transform an item into another using Antimatter."]
-			dependencies: ["0000000000000946"]
+			dependencies: [
+				"0000000000000946"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008E2"
 			tasks: [{
 				id: "00000000000008E3"
@@ -1319,7 +1426,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The energized smelter is your basic electric furnace that uses energy instead of fuel to smelt items."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008E8"
 			tasks: [{
 				id: "00000000000008E9"
@@ -1337,7 +1447,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Purification Chamber uses oxygen to refine Ores and shards into clumps."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008EA"
 			tasks: [{
 				id: "00000000000008EB"
@@ -1356,7 +1469,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Metallurgic Infuser is a machine used to create alloys."]
-			dependencies: ["7D0BC26B33BBB358"]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
 			size: 1.5d
 			id: "00000000000008EC"
 			tasks: [{
@@ -1375,7 +1491,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Enrichment Chamber is used to turn Coal or Charcoal into Compressed Carbon, Redstone into Compressed Redstone, Diamond into Compressed Diamond and Refined Obsidian Dust into Compressed Obsidian, all for use in the Metallurgic Infuser."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008EE"
 			tasks: [{
 				id: "00000000000008EF"
@@ -1394,7 +1513,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008F0"
 			tasks: [{
 				id: "00000000000008F1"
@@ -1415,7 +1537,10 @@
 				"The Combiner allows you to create an ore block."
 				"You can use this machine to automate the production of Steel Casing."
 			]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008F2"
 			tasks: [{
 				id: "00000000000008F3"
@@ -1437,7 +1562,10 @@
 				""
 				"Yep."
 			]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008F4"
 			tasks: [{
 				id: "00000000000008F5"
@@ -1456,7 +1584,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Solar Neutron Activator directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes."]
-			dependencies: ["00000000000008CC"]
+			dependencies: [
+				"00000000000008CC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008F6"
 			tasks: [{
 				id: "00000000000008F7"
@@ -1474,7 +1605,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Quantum Entangloporter is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008F8"
 			tasks: [{
 				id: "00000000000008F9"
@@ -1495,7 +1629,10 @@
 				"The Digital Miner can be configured to mine ores only within a certain area. "
 				"It can also be set to silk touch ores, but this results in higher power consumption."
 			]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			size: 1.5d
 			id: "00000000000008FA"
 			tasks: [{
@@ -1517,7 +1654,10 @@
 				"The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds."
 				"You can obtain, for example, oxygen and hydrogen from water."
 			]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "00000000000008FE"
 			tasks: [{
 				id: "00000000000008FF"
@@ -1535,7 +1675,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000900"
 			tasks: [{
 				id: "0000000000000901"
@@ -1554,7 +1697,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Chemical Dissolution Chamber turns raw ores into slurry or Fluorite and Hydrofluoric Acid using Sulfuric Acid."]
-			dependencies: ["7D0BC26B33BBB358"]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000902"
 			tasks: [{
 				id: "0000000000000903"
@@ -1572,7 +1718,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Chemical Washer turns Slurry into Clean Slurry using Water."]
-			dependencies: ["7D0BC26B33BBB358"]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000904"
 			tasks: [{
 				id: "0000000000000905"
@@ -1595,7 +1744,10 @@
 				""
 				"You can turn Antimatter into Antimatter Pellet."
 			]
-			dependencies: ["7D0BC26B33BBB358"]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000906"
 			tasks: [{
 				id: "0000000000000907"
@@ -1615,7 +1767,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Isotopic Centrifuge is used with a Fission Reactor, wither processing Uranium Hexafluoride into Fissile Fuel, OR processing Nuclear Waste into Plutonium. "]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "000000000000090A"
 			tasks: [{
 				id: "000000000000090B"
@@ -1633,7 +1788,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Pressurized Reaction Chamber is used primarily to create Substrate, HDPE Pellets and Ethylene."]
-			dependencies: ["7D0BC26B33BBB358"]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
 			id: "000000000000090C"
 			tasks: [{
 				id: "000000000000090D"
@@ -1651,7 +1809,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Chemical Injection Chamber uses Hydrogen Chloride gas to turn ores into 4 Shards."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "000000000000090E"
 			tasks: [{
 				id: "000000000000090F"
@@ -1670,7 +1831,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Chemical Infuser combines or reacts two gases to create another gas."]
-			dependencies: ["7D0BC26B33BBB358"]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000910"
 			tasks: [{
 				id: "0000000000000911"
@@ -1688,7 +1852,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Rotary Condensentrator is used for converting substances between liquid and gaseous forms at a rate of 1:1."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000914"
 			tasks: [{
 				id: "0000000000000915"
@@ -1706,7 +1873,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Chemical Oxidizer is used for making gases from materials."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000916"
 			tasks: [{
 				id: "0000000000000917"
@@ -1761,7 +1931,10 @@
 				""
 				"The Advanced Induction Provider can transfer 819.20kRF/t."
 			]
-			dependencies: ["0000000000000918"]
+			dependencies: [
+				"0000000000000918"
+				"24AA4048D4600331"
+			]
 			id: "000000000000091B"
 			tasks: [
 				{
@@ -1790,7 +1963,10 @@
 				""
 				"The Elite Induction Provider can transfer 6.55MRF/t."
 			]
-			dependencies: ["000000000000091B"]
+			dependencies: [
+				"000000000000091B"
+				"24AA4048D4600331"
+			]
 			id: "000000000000091E"
 			tasks: [
 				{
@@ -1819,7 +1995,10 @@
 				""
 				"The Ultimate  Induction Provider can transfer 52.42MRF/t."
 			]
-			dependencies: ["000000000000091E"]
+			dependencies: [
+				"000000000000091E"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000920"
 			tasks: [
 				{
@@ -1844,7 +2023,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Solar Generator harnesses sunlight to create power."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000924"
 			tasks: [{
 				id: "0000000000000925"
@@ -1862,7 +2044,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator. Construction of an Advanced Solar Generator requires four Solar Generators, but it produces six times the power of its smaller counterpart."]
-			dependencies: ["0000000000000924"]
+			dependencies: [
+				"0000000000000924"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000926"
 			tasks: [{
 				id: "0000000000000927"
@@ -1884,7 +2069,10 @@
 				""
 				"The highest you go, the more energy you can get."
 			]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000928"
 			tasks: [{
 				id: "0000000000000929"
@@ -1902,7 +2090,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Bio-Generators produce electricity from Bio Fuel."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "000000000000092A"
 			tasks: [{
 				id: "000000000000092B"
@@ -1921,7 +2112,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Gas-Burning Generator creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "000000000000092C"
 			tasks: [{
 				id: "000000000000092D"
@@ -1939,7 +2133,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Heat Generator converts heat energy into power."]
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "000000000000092E"
 			tasks: [{
 				id: "000000000000092F"
@@ -1968,6 +2165,7 @@
 			dependencies: [
 				"0BC2A9F9DFB154D0"
 				"0000000000000918"
+				"24AA4048D4600331"
 			]
 			id: "0000000000000930"
 			tasks: [
@@ -2002,7 +2200,10 @@
 				""
 				"The structure has a 4 by 4 block base with a height of 3 blocks to a maximum height of 18."
 			]
-			dependencies: ["63F59F1FDB43CA0E"]
+			dependencies: [
+				"63F59F1FDB43CA0E"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000933"
 			tasks: [
 				{
@@ -2043,7 +2244,10 @@
 				"It requires an outside burst of energy from a charged Laser Amplifier and a small amount of D-T Fuel to begin the fusion process."
 				"Once the reaction is jump started, it will begin consuming supplied Deuterium and Tritium, creating plasma and generating power."
 			]
-			dependencies: ["36913F11C6813959"]
+			dependencies: [
+				"36913F11C6813959"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000938"
 			tasks: [
 				{
@@ -2117,7 +2321,10 @@
 				""
 				"The structure must be a cuboid of minimum outside size 3x4x3 (along X, Y and Z), up to 18x18x18."
 			]
-			dependencies: ["17114B905F1E5628"]
+			dependencies: [
+				"17114B905F1E5628"
+				"24AA4048D4600331"
+			]
 			id: "000000000000093F"
 			tasks: [
 				{
@@ -2168,7 +2375,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Get an Antimatter Pellet."]
-			dependencies: ["0000000000000906"]
+			dependencies: [
+				"0000000000000906"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000946"
 			tasks: [{
 				id: "0000000000000947"
@@ -2190,7 +2400,10 @@
 				""
 				"Be aware that this process create Spent Nuclear Waste."
 			]
-			dependencies: ["000000000000090C"]
+			dependencies: [
+				"000000000000090C"
+				"24AA4048D4600331"
+			]
 			id: "0000000000000948"
 			tasks: [{
 				id: "0000000000000949"
@@ -2211,7 +2424,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Supercritical Phase Shifter is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas,"]
-			dependencies: ["17600C24C58CBE4D"]
+			dependencies: [
+				"17600C24C58CBE4D"
+				"24AA4048D4600331"
+			]
 			id: "000000000000094B"
 			tasks: [
 				{
@@ -2314,6 +2530,7 @@
 			dependencies: [
 				"00000000000008CC"
 				"0000000000000948"
+				"24AA4048D4600331"
 			]
 			id: "36D86F3E65554DF4"
 			tasks: [{
@@ -2356,7 +2573,10 @@
 				"To make a Steel Casing, you need to get, first, a Supreme Machine Frame."
 				"Later, you can automate this casing with a combiner."
 			]
-			dependencies: ["00000000000007B9"]
+			dependencies: [
+				"00000000000007B9"
+				"24AA4048D4600331"
+			]
 			size: 2.0d
 			id: "7D0BC26B33BBB358"
 			tasks: [{
@@ -2376,7 +2596,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Collect 8 ingots of each from the Osmium Compressor."]
-			dependencies: ["00000000000008F0"]
+			dependencies: [
+				"00000000000008F0"
+				"24AA4048D4600331"
+			]
 			id: "022B48C17014A9F7"
 			tasks: [
 				{
@@ -2412,7 +2635,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The HDPE Reinforced Elytra is mainly used to craft the Elytra Unit, for your MekaSuit, but you can wear it, it has more durability than an Elytra."]
-			dependencies: ["00000000000008CC"]
+			dependencies: [
+				"00000000000008CC"
+				"24AA4048D4600331"
+			]
 			id: "4F1F15BEC0AB428B"
 			tasks: [{
 				id: "4171D45EBC771DBE"
@@ -2443,7 +2669,10 @@
 				"Install multiple for faster charging and greater protection."
 			]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "79BF5B0A24AD0FDA"
 			tasks: [{
 				id: "27EA0671878D00F6"
@@ -2463,7 +2692,10 @@
 			shape: "square"
 			description: ["Refracts and safely dissipates lasers that hit any MekaSuit armor piece."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "0DB12B262A1AC297"
 			tasks: [{
 				id: "4AB00C1AA3A11A78"
@@ -2482,7 +2714,10 @@
 			shape: "square"
 			description: ["Displays the ambient radiation level in the HUD."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "1C325F20C9A346EF"
 			tasks: [{
 				id: "7C1545525AD96F84"
@@ -2505,6 +2740,7 @@
 			dependencies: [
 				"0000000000000898"
 				"4171D45EBC771DBE"
+				"24AA4048D4600331"
 			]
 			id: "0911324582B6823E"
 			tasks: [{
@@ -2526,7 +2762,10 @@
 			shape: "square"
 			description: ["Uses liquid hydrogen to freeze any water the player walks on."]
 			hide_dependency_lines: true
-			dependencies: ["0000000000000898"]
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
 			id: "5DA1D8E371639EB5"
 			tasks: [{
 				id: "61603902FEB8892D"
@@ -2544,7 +2783,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Pigment Extractor is a machine used to extract pigments from blocks and items."]
-			dependencies: ["4C08EEB74DFC980F"]
+			dependencies: [
+				"4C08EEB74DFC980F"
+				"24AA4048D4600331"
+			]
 			id: "101CF231B6979E47"
 			tasks: [{
 				id: "6737D4D80A9393FD"
@@ -2568,7 +2810,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Pigment Mixer is a sturdy machine capable of mixing two pigments together to produce a new pigment."]
-			dependencies: ["101CF231B6979E47"]
+			dependencies: [
+				"101CF231B6979E47"
+				"24AA4048D4600331"
+			]
 			id: "2FED2D289CE88D89"
 			tasks: [{
 				id: "7373A2A69C03B1DF"
@@ -2599,7 +2844,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Painting Machine is used to color blocks and items via a careful application of a stored pigment."]
-			dependencies: ["101CF231B6979E47"]
+			dependencies: [
+				"101CF231B6979E47"
+				"24AA4048D4600331"
+			]
 			id: "6E8B8B1CA176AADC"
 			tasks: [
 				{
@@ -2675,7 +2923,10 @@
 				""
 				"For those who remember the old Draconic Evolution Armor, you're gonna love this Unit !"
 			]
-			dependencies: ["00000000000008A3"]
+			dependencies: [
+				"00000000000008A3"
+				"24AA4048D4600331"
+			]
 			id: "1A3645468745F0DE"
 			tasks: [{
 				id: "268E17E28A3E84A8"
@@ -2714,7 +2965,10 @@
 			shape: "square"
 			description: ["The Geiger Counter show you the Radiation Exposure you have."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "41E21B04835F42E2"
 			tasks: [{
 				id: "5BD30297D82762CA"
@@ -2733,7 +2987,10 @@
 			shape: "square"
 			description: ["The Configuration card can be used to copy side configurations from one machine to another machine of the same type."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "20ED92FC863DE694"
 			tasks: [{
 				id: "0EF656FF9EBD29C1"
@@ -2753,7 +3010,10 @@
 			shape: "square"
 			description: ["The Network Reader allows you to read your pipes network, it can be very useful if you have a lot of machine involved!"]
 			hide_dependency_lines: true
-			dependencies: ["00000000000008EC"]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
 			id: "3C7ED4965CD71BBA"
 			tasks: [{
 				id: "575B09D11BC6612B"
@@ -2772,7 +3032,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Electric Pump can pump fluid underneath him and can also get Heavy Water with a Filter in it!"]
-			dependencies: ["7D0BC26B33BBB358"]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
 			id: "20ADA3B1BC8ACB29"
 			tasks: [
 				{
@@ -2813,7 +3076,10 @@
 				""
 				"Be aware that most of mekanism multiblock are customizable."
 			]
-			dependencies: ["44E4BCDFA1E010CB"]
+			dependencies: [
+				"44E4BCDFA1E010CB"
+				"24AA4048D4600331"
+			]
 			id: "670B1506323F7ECB"
 			tasks: [
 				{
@@ -2894,7 +3160,10 @@
 				""
 				"Be aware that most of mekanism multiblock are customizable."
 			]
-			dependencies: ["56A02FE254BE686C"]
+			dependencies: [
+				"56A02FE254BE686C"
+				"24AA4048D4600331"
+			]
 			id: "6A15BE15348DA27D"
 			tasks: [
 				{
@@ -2944,7 +3213,10 @@
 				""
 				"The structure must be a cuboid of minimum outside size 3x3x3 (along X, Y and Z), up to 18x18x18."
 			]
-			dependencies: ["336EA2CD1428EF27"]
+			dependencies: [
+				"336EA2CD1428EF27"
+				"24AA4048D4600331"
+			]
 			id: "5B814440052D0679"
 			tasks: [
 				{

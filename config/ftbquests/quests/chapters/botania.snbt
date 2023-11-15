@@ -1,7 +1,7 @@
 {
 	id: "2045D567B9FCBCF3"
 	group: ""
-	order_index: 6
+	order_index: 9
 	filename: "botania"
 	title: " Botania"
 	icon: "botania:mana_pylon"
@@ -44,7 +44,10 @@
 				""
 				"They are all crafted with 2 elemental runes and 4 items representative of their season."
 			]
-			dependencies: ["00000000000003A2"]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
 			id: "000000000000037C"
 			tasks: [
 				{
@@ -87,6 +90,7 @@
 			dependencies: [
 				"000000000000037C"
 				"00000000000003D0"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000388"
 			tasks: [
@@ -142,7 +146,10 @@
 				""
 				"They are all crafted with an elemental rune, a season rune, a sin rune and 2 items representative of their world."
 			]
-			dependencies: ["0000000000000388"]
+			dependencies: [
+				"0000000000000388"
+				"113D3F44F9F6C45C"
+			]
 			id: "0000000000000394"
 			tasks: [
 				{
@@ -211,6 +218,7 @@
 				"00000000000003F7"
 				"00000000000003D3"
 				"11DDE2DB7C47E14E"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003A2"
 			tasks: [
@@ -261,6 +269,7 @@
 			dependencies: [
 				"00000000000003EF"
 				"000000000000041A"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003A4"
 			tasks: [
@@ -304,7 +313,10 @@
 				""
 				"To start the fight, just sneak+right-click the Beacon with the Terrasteel Ingot."
 			]
-			dependencies: ["7E165C3D21F39879"]
+			dependencies: [
+				"7E165C3D21F39879"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003A9"
 			tasks: [
 				{
@@ -356,6 +368,7 @@
 			dependencies: [
 				"00000000000003EB"
 				"00000000000003AE"
+				"113D3F44F9F6C45C"
 			]
 			size: 2.0d
 			id: "00000000000003AB"
@@ -398,6 +411,7 @@
 			dependencies: [
 				"00000000000003CF"
 				"00000000000003D4"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003AD"
 			tasks: [{
@@ -417,7 +431,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["You can upgrade your Lexica Botania by throwing your existing Lexica Botania in the Aflheim Portal (works with the Akashic Tome)"]
-			dependencies: ["00000000000003AB"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003AF"
 			tasks: [{
 				id: "00000000000003B0"
@@ -445,7 +462,10 @@
 				"The Wand of the Forest is the tool you need to manipulate mana and configure Botania stuff."
 				"Switch between Bind Mode and Function Mode by sneak+right-clicking your wand without targetting a compatible block."
 			]
-			dependencies: ["4E8017A427B96DC5"]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003B1"
 			tasks: [{
 				id: "00000000000003B2"
@@ -495,7 +515,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Petal Apothecary is used to craft generating and functional flowers."]
-			dependencies: ["00000000000003B3"]
+			dependencies: [
+				"00000000000003B3"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "00000000000003B5"
 			tasks: [{
@@ -521,6 +544,7 @@
 			dependencies: [
 				"00000000000003E9"
 				"00000000000003DC"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003B7"
 			tasks: [{
@@ -547,6 +571,7 @@
 				"00000000000003ED"
 				"00000000000003F2"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003B9"
 			tasks: [{
@@ -567,7 +592,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["With the Rod of the Seas you have an ocean in your hands, if you have mana (75 per use) on you of course!"]
-			dependencies: ["00000000000003A2"]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003BB"
 			tasks: [{
 				id: "00000000000003BC"
@@ -588,7 +616,10 @@
 				"With the Rod of the Shifting Crust, if you have mana on you (40 per use), you can swap blocks."
 				"Sneak+right-click on a block to register it in your rod, then left-click another block to swap it with the one you've registered, or right-click it to swap all identical blocks in a 7x7x7 area around it (only those on the surface)."
 			]
-			dependencies: ["0000000000000388"]
+			dependencies: [
+				"0000000000000388"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003BD"
 			tasks: [{
 				id: "00000000000003BE"
@@ -611,7 +642,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Mana Tablet is used to carry mana on you. Toss your tablet in a Mana Pool set in sending mode by right-clicking it with your Wand of the Forest to fill it, or in receive mode to fill the pool with the content of your tablet."]
-			dependencies: ["00000000000003D1"]
+			dependencies: [
+				"00000000000003D1"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003C7"
 			tasks: [{
 				id: "00000000000003C8"
@@ -641,7 +675,10 @@
 				"- a Nether Quartz to get a Mana Quartz;"
 				"- a Glass block to get a Managlass."
 			]
-			dependencies: ["00000000000003F9"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003CB"
 			tasks: [
 				{
@@ -677,7 +714,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["Get a Mana Diamond by tossing a Diamond in a Mana Pool."]
-			dependencies: ["00000000000003F9"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003CF"
 			tasks: [{
 				id: "00000000000003D0"
@@ -696,7 +736,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Get a Mana Pearl by tossing an Ender Pearl in a Mana Pool."]
-			dependencies: ["00000000000003F9"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003D1"
 			tasks: [{
 				id: "00000000000003D2"
@@ -715,7 +758,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Get a Manasteel Ingot by tossing a Steel Ingot in a Mana Pool."]
-			dependencies: ["00000000000003F9"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003D3"
 			tasks: [{
 				id: "00000000000003D4"
@@ -738,6 +784,7 @@
 			dependencies: [
 				"00000000000003D1"
 				"00000000000003D4"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003D5"
 			tasks: [{
@@ -762,7 +809,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Blacker Lotus give enormous amount of mana when throwed in a Mana Pool, 100,000 exactly."]
-			dependencies: ["00000000000003E5"]
+			dependencies: [
+				"00000000000003E5"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003D7"
 			tasks: [{
 				id: "00000000000003D8"
@@ -785,7 +835,10 @@
 				""
 				"It has an internal buffer of 1,000 mana and shoots bursts of 240 mana which can travel to up to 20 blocks at a speed of 0.25 blocks per tick (5 blocks per second)."
 			]
-			dependencies: ["00000000000003F1"]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003DB"
 			tasks: [{
 				id: "00000000000003DC"
@@ -806,7 +859,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["Use your Gaia Spirit to craft a Gaia Spirit Ingot and use it on the Beacon of your Gaia arena."]
-			dependencies: ["00000000000003E9"]
+			dependencies: [
+				"00000000000003E9"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "00000000000003DD"
 			tasks: [{
@@ -829,7 +885,10 @@
 				"Put an Elementium Ingot, a Pixie Dust and a Dragonstone on the Mana-Infuser to get an Alfsteel Ingot."
 				"As for the Terrasteel, the cost is pretty high (2,000,000 mana, 2 Mana Pools) so ensure to have the mana required for the craft before starting or all the mana sent to the infuser will be lost."
 			]
-			dependencies: ["0000000000000418"]
+			dependencies: [
+				"0000000000000418"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003DF"
 			tasks: [{
 				id: "00000000000003E0"
@@ -854,6 +913,7 @@
 			dependencies: [
 				"00000000000003EB"
 				"00000000000003C7"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003E3"
 			tasks: [{
@@ -877,7 +937,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["In this pack you can craft Black Lotus. By throwing it in a Mana Pool containing some mana, you will instantly get 8,000 more mana."]
-			dependencies: ["00000000000003F9"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003E5"
 			tasks: [{
 				id: "00000000000003E6"
@@ -903,7 +966,10 @@
 				""
 				"It has an internal buffer of 1,000 mana and shoots bursts of 160 mana which can travel to up to 12 blocks at a speed of 0.2 blocks per tick (4 blocks per second)."
 			]
-			dependencies: ["4E8017A427B96DC5"]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003E7"
 			tasks: [{
 				id: "00000000000003E8"
@@ -924,7 +990,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Defeat the Guardian of Gaia and get some Gaia Spirits as rewards."]
-			dependencies: ["00000000000003A9"]
+			dependencies: [
+				"00000000000003A9"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003E9"
 			tasks: [
 				{
@@ -954,7 +1023,10 @@
 				"Put a Manasteel Ingot, a Mana Pearl and a Mana Diamond on a Terrestrial Agglomeration Plate to get a Terrasteel Ingot. You can right-click the plate with the items or toss them on it."
 				"Items on the plate can despawn, so ensure to have the 500,000 mana (half a Mana Pool) required for the craft before starting or all the mana sent to the plate will be lost."
 			]
-			dependencies: ["0000000000000416"]
+			dependencies: [
+				"0000000000000416"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003EB"
 			tasks: [{
 				id: "00000000000003EC"
@@ -972,7 +1044,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The get a Dragonstone, throw a Mana Diamond in the Alfheim Portal."]
-			dependencies: ["00000000000003AB"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003ED"
 			tasks: [{
 				id: "00000000000003EE"
@@ -991,7 +1066,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["To get a Pixie Dust, throw a Mana Pearl in the Alfheim Portal."]
-			dependencies: ["00000000000003AB"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003EF"
 			tasks: [{
 				id: "00000000000003F0"
@@ -1010,7 +1088,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The get an Elementium Ingot, throw 2 Manasteel Ingots in the Alfheim Portal."]
-			dependencies: ["00000000000003AB"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003F1"
 			tasks: [{
 				id: "00000000000003F2"
@@ -1032,6 +1113,7 @@
 			dependencies: [
 				"00000000000003D5"
 				"00000000000003D0"
+				"113D3F44F9F6C45C"
 			]
 			id: "00000000000003F3"
 			tasks: [{
@@ -1061,7 +1143,10 @@
 				"With a Mana Splitter you can fill up to 4 Mana Pools at once."
 				"Simply point your Mana Spreader toward the Mana Splitter and place your Mana Pools next to it."
 			]
-			dependencies: ["00000000000003D3"]
+			dependencies: [
+				"00000000000003D3"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003F5"
 			tasks: [{
 				id: "00000000000003F6"
@@ -1082,7 +1167,10 @@
 				"The Runic Altar is mainly used to craft Runes."
 				"To make it work, you have to feed it with mana from Mana Spreaders."
 			]
-			dependencies: ["00000000000003D1"]
+			dependencies: [
+				"00000000000003D1"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "00000000000003F7"
 			tasks: [{
@@ -1107,7 +1195,10 @@
 				"Normal and Fabulous Mana Pools can contain up to 1,000,000 mana, while the Diluted Mana Pool can only contain up to 10,000 mana."
 				"Thus, the latter is useless for storing mana, but useful as a step for complex mana transfers with Sparks for example."
 			]
-			dependencies: ["4E8017A427B96DC5"]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "00000000000003F9"
 			tasks: [{
@@ -1131,7 +1222,10 @@
 				"With the Tiara alone, you can fly for 1 minute at the cost of 35 mana per tick. You can see a new fly gauge bar above your food bar that depletes while flying and refills at half the depleting speed when on ground."
 				"If you also have the Eye of the Flügel (a reward from the Guardian of Gaia II) in your inventory, you can fly indefinitely, but when your fly gauge is depleted, the mana cost triples to 105 per tick."
 			]
-			dependencies: ["00000000000003E9"]
+			dependencies: [
+				"00000000000003E9"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003FB"
 			tasks: [{
 				id: "00000000000003FC"
@@ -1158,7 +1252,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["An armor made of Elementium has the same properties as the one in Manasteel, but also a chance (up to 52% with the full set) to spawn Pixies each time you are hit. Pixies will fly to your opponents and apply potion effects to them."]
-			dependencies: ["00000000000003F1"]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
 			id: "00000000000003FD"
 			tasks: [
 				{
@@ -1233,7 +1330,10 @@
 				""
 				"And it's pretty cool."
 			]
-			dependencies: ["00000000000003D3"]
+			dependencies: [
+				"00000000000003D3"
+				"113D3F44F9F6C45C"
+			]
 			id: "0000000000000402"
 			tasks: [
 				{
@@ -1311,6 +1411,7 @@
 				"0000000000000404"
 				"0000000000000405"
 				"0000000000000406"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000407"
 			tasks: [
@@ -1386,6 +1487,7 @@
 				"0000000000000409"
 				"000000000000040A"
 				"000000000000040B"
+				"113D3F44F9F6C45C"
 			]
 			id: "000000000000040C"
 			tasks: [
@@ -1478,6 +1580,7 @@
 			dependencies: [
 				"4E8017A427B96DC5"
 				"00000000000003D2"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000411"
 			tasks: [
@@ -1508,7 +1611,10 @@
 				"The Terrestrial Agglomeration Plate is used to craft Terrasteel."
 				"You need to make a small structure to make it work (check the Lexica Botania to view the structure)."
 			]
-			dependencies: ["00000000000003A2"]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "0000000000000416"
 			tasks: [
@@ -1547,6 +1653,7 @@
 				"00000000000003F1"
 				"00000000000003B9"
 				"0BA79AE0B09F3F0E"
+				"113D3F44F9F6C45C"
 			]
 			size: 2.0d
 			id: "0000000000000418"
@@ -1585,7 +1692,10 @@
 				""
 				"They can send 1,000 mana per tick to every other Spark within their spherical range of 12 blocks radius."
 			]
-			dependencies: ["0000000000000416"]
+			dependencies: [
+				"0000000000000416"
+				"113D3F44F9F6C45C"
+			]
 			id: "000000000000041A"
 			tasks: [{
 				id: "000000000000041B"
@@ -1609,7 +1719,10 @@
 				"The Band of Mana can store up to 500,000 Mana (half a Mana Pool)."
 				"The Ring of Magnetization is basically a magnet, with a range of 6 blocks. It doesn't need mana to work and you can temporarily disable the magnetization by crouching."
 			]
-			dependencies: ["00000000000003F9"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
 			id: "0000000000000422"
 			tasks: [
 				{
@@ -1656,6 +1769,7 @@
 			dependencies: [
 				"0000000000000422"
 				"00000000000003EC"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000424"
 			tasks: [
@@ -1702,6 +1816,7 @@
 			dependencies: [
 				"0000000000000424"
 				"00000000000003E0"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000426"
 			tasks: [
@@ -1736,7 +1851,10 @@
 				""
 				"The flower has a range of 3x1x3 and the process takes 1 minute."
 			]
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "000000000000042C"
 			tasks: [{
@@ -1760,7 +1878,10 @@
 				"The flower has an internal buffer of 300 mana, a 7x7x7 range, and produces 3 mana every 0.1 seconds for half of the fuel's burn time."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "000000000000042E"
 			tasks: [{
 				id: "000000000000042F"
@@ -1789,6 +1910,7 @@
 				"00000000000003B5"
 				"28ABFC44933FF6D9"
 				"00000000000003A3"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000430"
 			tasks: [{
@@ -1817,6 +1939,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"58245BA9CF6838B2"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000432"
 			tasks: [{
@@ -1844,6 +1967,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000434"
 			tasks: [{
@@ -1873,6 +1997,7 @@
 				"00000000000003B5"
 				"00000000000003A3"
 				"0000000000000389"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000436"
 			tasks: [{
@@ -1901,6 +2026,7 @@
 				"00000000000003B5"
 				"060B00064AAE4FFD"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000438"
 			tasks: [{
@@ -1928,6 +2054,7 @@
 				"00000000000003B5"
 				"20BBF26689A2F152"
 				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
 			]
 			id: "000000000000043A"
 			tasks: [{
@@ -1970,6 +2097,7 @@
 				"1D9CF38B0A9E22BF"
 				"2DD691AAA99F6B30"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "000000000000043C"
 			tasks: [{
@@ -2000,6 +2128,7 @@
 				"1D9CF38B0A9E22BF"
 				"2DD691AAA99F6B30"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "000000000000043E"
 			tasks: [{
@@ -2038,6 +2167,7 @@
 				"00000000000003B5"
 				"28ABFC44933FF6D9"
 				"00000000000003A3"
+				"113D3F44F9F6C45C"
 			]
 			id: "0000000000000440"
 			tasks: [{
@@ -2064,7 +2194,10 @@
 				"The Petite variant has a smaller range of 1 block radius."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "0000000000000442"
 			tasks: [{
 				id: "0000000000000443"
@@ -2086,7 +2219,10 @@
 				"To get Livingrock you have to transform any type of stone from Blue Skies, using a Pure Daisy."
 				"For the Livingwood, transform any kind of wood from Blue Skies."
 			]
-			dependencies: ["000000000000042C"]
+			dependencies: [
+				"000000000000042C"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "4E8017A427B96DC5"
 			tasks: [
@@ -2124,7 +2260,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["Alfsteel Pylons are just a step on the path to the Gaia Pylons."]
-			dependencies: ["00000000000003DF"]
+			dependencies: [
+				"00000000000003DF"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "7E165C3D21F39879"
 			tasks: [{
@@ -2146,7 +2285,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Branch of Yggdrasil is used to fill your Gjallarhorn. Use Mana Spreaders to feed it with 6,240 mana."]
-			dependencies: ["00000000000003EB"]
+			dependencies: [
+				"00000000000003EB"
+				"113D3F44F9F6C45C"
+			]
 			id: "3C5F7AE3FA712ED6"
 			tasks: [{
 				id: "2D9AAD5C54CB3848"
@@ -2168,7 +2310,10 @@
 				""
 				"Craft the Gjallarhorn to use it on the Branch of Yggdrasil."
 			]
-			dependencies: ["3C5F7AE3FA712ED6"]
+			dependencies: [
+				"3C5F7AE3FA712ED6"
+				"113D3F44F9F6C45C"
+			]
 			id: "3B3690A73AE1221B"
 			tasks: [{
 				id: "6EFA460A87066C63"
@@ -2190,7 +2335,10 @@
 				"Put the Gjallarhorn on a Branch of Yggdrasil with enough mana and you will get the Water from the Well of Mimir."
 				"Once you have it, drink it to get some knowledge to make rituals."
 			]
-			dependencies: ["3B3690A73AE1221B"]
+			dependencies: [
+				"3B3690A73AE1221B"
+				"113D3F44F9F6C45C"
+			]
 			id: "17F4F882FBC93A4B"
 			tasks: [{
 				id: "2F06D18D19919CC9"
@@ -2225,6 +2373,7 @@
 			dependencies: [
 				"00000000000003DD"
 				"17F4F882FBC93A4B"
+				"113D3F44F9F6C45C"
 			]
 			id: "1F196D2F8EC9C7D3"
 			tasks: [
@@ -2253,7 +2402,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["You need these to perform rituals."]
-			dependencies: ["1F196D2F8EC9C7D3"]
+			dependencies: [
+				"1F196D2F8EC9C7D3"
+				"113D3F44F9F6C45C"
+			]
 			id: "0A092542A77AFA9D"
 			tasks: [
 				{
@@ -2289,6 +2441,7 @@
 				"0A092542A77AFA9D"
 				"04527CEB8BB22A79"
 				"0000000000000395"
+				"113D3F44F9F6C45C"
 			]
 			id: "5EBB91A231A640CE"
 			tasks: [{
@@ -2312,7 +2465,10 @@
 				""
 				"Note that you can only go to Alfheim from the Overworld."
 			]
-			dependencies: ["5EBB91A231A640CE"]
+			dependencies: [
+				"5EBB91A231A640CE"
+				"113D3F44F9F6C45C"
+			]
 			id: "09F4E13303AF49A3"
 			tasks: [
 				{
@@ -2338,7 +2494,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["Mjöllnir is Thor's hammer. Only those who are strong enough can carry it, so you must have Absorption Hearts in order to be blessed with its power."]
-			dependencies: ["0A092542A77AFA9D"]
+			dependencies: [
+				"0A092542A77AFA9D"
+				"113D3F44F9F6C45C"
+			]
 			size: 2.0d
 			id: "6702BC20FA6C1003"
 			tasks: [{
@@ -2363,7 +2522,10 @@
 				""
 				"If you feed them with enough Blue Orchids, they may make it rain but will become sad again..."
 			]
-			dependencies: ["00000000000003CB"]
+			dependencies: [
+				"00000000000003CB"
+				"113D3F44F9F6C45C"
+			]
 			id: "4475A45570C9CBB9"
 			tasks: [{
 				id: "76247FBD67F99F56"
@@ -2392,6 +2554,7 @@
 			dependencies: [
 				"00000000000003D3"
 				"4176DCF2028E1027"
+				"113D3F44F9F6C45C"
 			]
 			id: "170161AEFCAA46C1"
 			tasks: [{
@@ -2432,6 +2595,7 @@
 			dependencies: [
 				"00000000000003EF"
 				"444180FD972487DA"
+				"113D3F44F9F6C45C"
 			]
 			id: "1500FA008C576712"
 			tasks: [{
@@ -2457,7 +2621,10 @@
 				"- the Ring of Muspelheim makes you immune to Fire and Lava damages;"
 				"- the Ring of Niflheim makes you immune to suffocation."
 			]
-			dependencies: ["00000000000003F1"]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
 			id: "0661817CFFE04049"
 			tasks: [
 				{
@@ -2525,6 +2692,7 @@
 				"350ACAF37AD1780A"
 				"1B3EBF81C5D4EA65"
 				"0000000000000389"
+				"113D3F44F9F6C45C"
 			]
 			id: "4F69084ED286BE3D"
 			tasks: [{
@@ -2559,6 +2727,7 @@
 				"28ABFC44933FF6D9"
 				"1D9CF38B0A9E22BF"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "7D69936207D6D4B6"
 			tasks: [{
@@ -2590,6 +2759,7 @@
 				"1191C9C9939572EF"
 				"58CFB604287FFE3E"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "5F96C097913A6940"
 			tasks: [{
@@ -2622,6 +2792,7 @@
 				"00000000000003B5"
 				"00000000000003A3"
 				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
 			]
 			id: "41FD117163A5DA72"
 			tasks: [{
@@ -2651,6 +2822,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"1D9CF38B0A9E22BF"
+				"113D3F44F9F6C45C"
 			]
 			id: "0F45CD20647F5E92"
 			tasks: [{
@@ -2678,6 +2850,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"20BBF26689A2F152"
+				"113D3F44F9F6C45C"
 			]
 			id: "0635DEED6824AC7A"
 			tasks: [{
@@ -2701,7 +2874,10 @@
 				"The flower has an internal buffer of 150 mana, produces 1 mana every 0.1 seconds for 1.3 seconds per Water souce consumed within its 3x1x3 range, and decays (= disappears) after 1 hour, whether it has worked or not."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "3215785B14482E48"
 			tasks: [{
 				id: "2361C3ED9B6D094F"
@@ -2729,6 +2905,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"1191C9C9939572EF"
+				"113D3F44F9F6C45C"
 			]
 			id: "744A8A46047536E7"
 			tasks: [{
@@ -2757,6 +2934,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
 			]
 			id: "3D07911E068CE27B"
 			tasks: [{
@@ -2783,7 +2961,10 @@
 				"The Petite variant has a smaller range of 3 blocks radius."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "34B6300D053DC0D0"
 			tasks: [{
 				id: "54AE112E6AADFD1D"
@@ -2812,6 +2993,7 @@
 				"00000000000003B5"
 				"00000000000003A2"
 				"350ACAF37AD1780A"
+				"113D3F44F9F6C45C"
 			]
 			id: "222B4A0DE676E195"
 			tasks: [{
@@ -2840,6 +3022,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"060B00064AAE4FFD"
+				"113D3F44F9F6C45C"
 			]
 			id: "72C067D0A6FBBABE"
 			tasks: [{
@@ -2860,7 +3043,10 @@
 			shape: "square"
 			description: ["When placed next to Mana Pools, the Manastar checks their total amount of mana every 3 seconds to show if it is increasing by emitting blue particles or decreasing with red particles."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "17813C5BB2BE4FD2"
 			tasks: [{
 				id: "0092F93742C33D9C"
@@ -2887,6 +3073,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
 			]
 			id: "2C5D2B78B84ADDFF"
 			tasks: [{
@@ -2919,6 +3106,7 @@
 				"00000000000003B5"
 				"555D46B3277DC518"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "29EC378574FA560F"
 			tasks: [{
@@ -2956,6 +3144,7 @@
 				"00000000000003B5"
 				"1B3EBF81C5D4EA65"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "6C43771388E6DDBA"
 			tasks: [{
@@ -2982,6 +3171,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"00000000000003A3"
+				"113D3F44F9F6C45C"
 			]
 			id: "4CBDC4164637EEF3"
 			tasks: [{
@@ -3009,6 +3199,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"501048AA650BB8EF"
+				"113D3F44F9F6C45C"
 			]
 			id: "73A16187B8BF52BC"
 			tasks: [{
@@ -3037,6 +3228,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
 			]
 			id: "333C3B5342D4B8A7"
 			tasks: [{
@@ -3065,7 +3257,10 @@
 				"The Petite variant has a lower range of 3x3x3."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "1E982F1EA05B4FC3"
 			tasks: [{
 				id: "3842495B8610773D"
@@ -3089,7 +3284,10 @@
 				"The flower has a spherical range of 4 blocks radius."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "75C7BBAA46DBB6DB"
 			tasks: [{
 				id: "2A7D200CA3E3C220"
@@ -3124,6 +3322,7 @@
 				"00000000000003B5"
 				"0000000000000389"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "0168099695957982"
 			tasks: [{
@@ -3153,6 +3352,7 @@
 				"00000000000003B5"
 				"7C275C683FD97C97"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "4867C2BD1BCFC852"
 			tasks: [{
@@ -3182,6 +3382,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
 			]
 			id: "6759DB47E7294DEE"
 			tasks: [{
@@ -3225,6 +3426,7 @@
 				"1B3EBF81C5D4EA65"
 				"060B00064AAE4FFD"
 				"00000000000003F0"
+				"113D3F44F9F6C45C"
 			]
 			id: "394CE4DC82CC4EA0"
 			tasks: [{
@@ -3253,6 +3455,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"7C275C683FD97C97"
+				"113D3F44F9F6C45C"
 			]
 			id: "20BFED5C1E582E68"
 			tasks: [{
@@ -3279,6 +3482,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"7C275C683FD97C97"
+				"113D3F44F9F6C45C"
 			]
 			id: "72F22960DB7D8FB3"
 			tasks: [{
@@ -3305,6 +3509,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"2F06D18D19919CC9"
+				"113D3F44F9F6C45C"
 			]
 			id: "66B4577722BACD64"
 			tasks: [{
@@ -3337,6 +3542,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
 			]
 			id: "697036438A8D2F61"
 			tasks: [{
@@ -3362,7 +3568,10 @@
 				"The flower has an internal buffer of 1,000 mana and consumes 30 mana every 0.25 seconds to deal 4 damages (♥♥) to all passive adult mobs within its 13x13x13 range."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "63C81303E6DD4B9F"
 			tasks: [{
 				id: "64918FDC31745196"
@@ -3393,6 +3602,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"1191C9C9939572EF"
+				"113D3F44F9F6C45C"
 			]
 			id: "3A1FB6A0DAC8D4B3"
 			tasks: [{
@@ -3423,6 +3633,7 @@
 				"00000000000003B5"
 				"1191C9C9939572EF"
 				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
 			]
 			id: "4030877A1EFE6697"
 			tasks: [{
@@ -3451,6 +3662,7 @@
 				"00000000000003B5"
 				"7877B5E8469528E8"
 				"501048AA650BB8EF"
+				"113D3F44F9F6C45C"
 			]
 			id: "73CB7CBF2E1AD05D"
 			tasks: [{
@@ -3479,6 +3691,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"00000000000003A3"
+				"113D3F44F9F6C45C"
 			]
 			id: "2DC31890B7AA1B6A"
 			tasks: [{
@@ -3504,7 +3717,10 @@
 				"The flower has an internal buffer of 300 mana, consumes 2 mana to fill a container within its 7x1x7 range after a 1 second animation, and then waits for 0.25 seconds before checking for a new container."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			id: "1F09DA2A680C565F"
 			tasks: [{
 				id: "6BE312A4BBEE2D1F"
@@ -3534,6 +3750,7 @@
 			dependencies: [
 				"00000000000003B5"
 				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
 			]
 			id: "201D9AB4906D9A76"
 			tasks: [{
@@ -3554,7 +3771,10 @@
 			x: 2.0d
 			y: 3.8d
 			shape: "square"
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			size: 0.07d
 			id: "293FF6EF1E542435"
 			tasks: [{
@@ -3568,7 +3788,10 @@
 			x: 2.0d
 			y: -3.9d
 			shape: "square"
-			dependencies: ["00000000000003B5"]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
 			size: 0.07d
 			id: "4E79B855518D3EC0"
 			tasks: [{

@@ -1,7 +1,7 @@
 {
 	id: "36C695AAE1C616E4"
 	group: ""
-	order_index: 15
+	order_index: 20
 	filename: "thermal"
 	title: " Thermal"
 	icon: "thermal:machine_frame"
@@ -34,7 +34,10 @@
 			shape: "square"
 			description: ["The Cyclical Processing augment allows a machine's valid outputs to be fed back into its input slot."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "20910C3ADA12F184"
 			tasks: [{
 				id: "79C50A6ECD7638AF"
@@ -53,7 +56,10 @@
 			shape: "square"
 			description: ["The Auxiliary Process Sieve augment increases chances of secondary output by 15% but scales the energy per operation by 1.25."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "42F827F6FD787E81"
 			tasks: [{
 				id: "1F6CB60A2D6CEB71"
@@ -72,7 +78,10 @@
 			shape: "square"
 			description: ["The Expanded Tank Construction augment scales the size of all fluid storage in a machine, device, dynamo or tool by 4."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "2FB22598F8224829"
 			tasks: [{
 				id: "7332AA5F5772E1B0"
@@ -91,7 +100,10 @@
 			shape: "square"
 			description: ["The High-Flux RF Coil augment scales the RF storage by 2 and the RF transfer by 6."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "58BED0E616885E18"
 			tasks: [{
 				id: "69AF185DE0F343AA"
@@ -110,7 +122,10 @@
 			shape: "square"
 			description: ["The Stabilized RF Coil augment scales the RF storage by 6 and RF transfer by 2."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "1AEC12390923D325"
 			tasks: [{
 				id: "66D7065B019279FB"
@@ -129,7 +144,10 @@
 			shape: "square"
 			description: ["The Expanded RF Coil augment scales RF storage and transfer by 4."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "2335A3E22682F6F3"
 			tasks: [{
 				id: "092927F143189E37"
@@ -148,7 +166,10 @@
 			shape: "square"
 			description: ["The Alchemical Extended augment increases duration of potions by 100%."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "76864F49F3E3736F"
 			tasks: [{
 				id: "7B1D082E97A566D9"
@@ -173,7 +194,10 @@
 			shape: "square"
 			description: ["The Radial Enhancement Augment allows your tool or machine to affect a greater area around it."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "1878FB5308859497"
 			tasks: [{
 				id: "287F4A9C0DD07814"
@@ -192,7 +216,10 @@
 			shape: "square"
 			description: ["The Auxiliary Reaction Chamber augment increases maximum generation of dynamo by 100% but scales the efficiency by 0.9."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "78E50E07026BFF3B"
 			tasks: [{
 				id: "20B24BA457FC77B6"
@@ -212,7 +239,10 @@
 			shape: "square"
 			description: ["The Catalytic Reclamation Chamber augment scales the chance for a catalyst to be used by 0.8x but also scales the energy used per operation by 1.25x."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "532FF358EC90E595"
 			tasks: [{
 				id: "5A2CB354E390DA5E"
@@ -231,7 +261,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Flux Linkage Amplifier augment increases maximum RF usage rate by 100% but also scales the RF per operation by 1.1."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "011C6051A7077391"
 			tasks: [{
 				id: "5331759538A1E7F2"
@@ -250,7 +283,10 @@
 			shape: "square"
 			description: ["The Alchemical Amplifier augment increases the effect of the stored potion by 1 level but decreases its duration by 25%."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "66703D320BDFB42A"
 			tasks: [{
 				id: "3FD73B5EFAFFDB24"
@@ -283,7 +319,10 @@
 			shape: "square"
 			description: ["The Multi-Cycle Injectors augment scales the fuel efficiency of a dynamo by 1.1."]
 			hide_dependency_lines: true
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "7AE450688106B742"
 			tasks: [{
 				id: "0A99D24E86042A42"
@@ -304,6 +343,7 @@
 			dependencies: [
 				"4FF6CDF532386817"
 				"2C221E8FEA2D54A2"
+				"3FC86B24AC2C57A9"
 			]
 			id: "66481F46FE74054F"
 			tasks: [{
@@ -322,7 +362,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["Improves base attributes, scale factor : 3x."]
-			dependencies: ["302764D49346CE68"]
+			dependencies: [
+				"302764D49346CE68"
+				"3FC86B24AC2C57A9"
+			]
 			id: "4FF6CDF532386817"
 			tasks: [{
 				id: "051892CF0159664F"
@@ -478,7 +521,10 @@
 				""
 				"Later, you can automate this frame more easily with an Induction Smelter."
 			]
-			dependencies: ["00000000000007BD"]
+			dependencies: [
+				"00000000000007BD"
+				"3FC86B24AC2C57A9"
+			]
 			size: 2.0d
 			id: "68BFEB24DC925A5C"
 			tasks: [{
@@ -497,7 +543,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Magma Crucible is a machine that melts items into fluids."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "60E195805368EF0F"
 			tasks: [{
 				id: "0105801CDD198AAC"
@@ -515,7 +564,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Sequential Fabricator is a machine that automatically crafts items."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "5398F5D6E0C3CB28"
 			tasks: [{
 				id: "49AF58423E3537D0"
@@ -533,7 +585,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Alchemical Imbuer is a machine that brews potions."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "2C79FD0B76E3AB5E"
 			tasks: [{
 				id: "19DA915B87ACA260"
@@ -561,7 +616,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Fluid Encapsulator is a machine who can fill items that can hold fluids, such as buckets or bottles."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "1F60F78DA73569F4"
 			tasks: [{
 				id: "3D1A59EE88C4BA27"
@@ -580,7 +638,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Sawmill is a machine that cuts logs into planks more efficiently than crafting."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "0F75BA1B13389015"
 			tasks: [{
 				id: "31A8A74ACCC6692A"
@@ -599,7 +660,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Pulverizer is a machine that crushes items and ores."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "3E918C5CC15AE782"
 			tasks: [{
 				id: "0423C8FD4A2E314E"
@@ -618,7 +682,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Induction Smelter is a machine that smelts multiple item together, producing alloys."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "71305894046B0915"
 			tasks: [{
 				id: "7E13DAF840BCB28F"
@@ -636,7 +703,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Phytogenic Insolator is a machine that uses RF, water and optionally fertilizer in order to grow crops, flowers and trees."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "43709ECA1B3D3FC8"
 			tasks: [{
 				id: "15492361BCDFB5E0"
@@ -655,7 +725,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Centrifugal Separator is a machine that separates items into their components."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "3574EA0AABCEF9DF"
 			tasks: [{
 				id: "4F183B566084D806"
@@ -674,7 +747,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Multiservo Press is a machine that can accept a variety of dies in order to shape metals into different forms and pack, unpack blocks and items."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "69FA9807FFE333DA"
 			tasks: [{
 				id: "3BE5062E43BB3D8C"
@@ -692,7 +768,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Blast Chiller is a machine that cools down and crystallizes liquids such as water and molten metals into their solid forms."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "4DA3FD4824A3D06B"
 			tasks: [{
 				id: "4ACB801CA8B952E4"
@@ -711,7 +790,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Fractionating Still is a machine refines fluids such as Resin and Sap."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "132CB4C9AFC94C8F"
 			tasks: [{
 				id: "67ED1F993991B707"
@@ -729,7 +811,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Pyrolyzer is a machine that decomposes substances in a low-oxygen environment using heat."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "09C06DDEE47BEBBD"
 			tasks: [{
 				id: "36C9E3704421C0E9"
@@ -748,7 +833,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Redstone Furnace is a machine that smelts your items like a traditional furnace."]
-			dependencies: ["68BFEB24DC925A5C"]
+			dependencies: [
+				"68BFEB24DC925A5C"
+				"3FC86B24AC2C57A9"
+			]
 			id: "3F1E602216D02187"
 			tasks: [{
 				id: "5CD74789DEE4C340"
@@ -1054,7 +1142,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["Stirling Dynamo use burnable fuel to generate Energy, the more powerful the fuel is, the more energy it can produce."]
-			dependencies: ["4A5DA79BF6E7A085"]
+			dependencies: [
+				"4A5DA79BF6E7A085"
+				"3FC86B24AC2C57A9"
+			]
 			id: "4D526268420A3A58"
 			tasks: [{
 				id: "76F7414FB10E5C7F"
@@ -1074,7 +1165,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Compression Dynamo produce RF with fuels like Refined Fuel, Gasoline and many more."]
-			dependencies: ["4A5DA79BF6E7A085"]
+			dependencies: [
+				"4A5DA79BF6E7A085"
+				"3FC86B24AC2C57A9"
+			]
 			id: "098FD002C30CAEE2"
 			tasks: [{
 				id: "0A1A8D3FD68A3E97"
@@ -1092,7 +1186,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Magmatic Dynamo produce RF with Lava."]
-			dependencies: ["4A5DA79BF6E7A085"]
+			dependencies: [
+				"4A5DA79BF6E7A085"
+				"3FC86B24AC2C57A9"
+			]
 			id: "5C87FA7C4138AAC9"
 			tasks: [{
 				id: "13B1C6AA95842F58"
@@ -1110,7 +1207,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The Numismatic Dynamo produce RF with coins."]
-			dependencies: ["4A5DA79BF6E7A085"]
+			dependencies: [
+				"4A5DA79BF6E7A085"
+				"3FC86B24AC2C57A9"
+			]
 			id: "6B96354B1CB1D566"
 			tasks: [{
 				id: "7A99E9CF624E15D6"
@@ -1128,7 +1228,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Lapidary Dynamo produce RF with gems."]
-			dependencies: ["4A5DA79BF6E7A085"]
+			dependencies: [
+				"4A5DA79BF6E7A085"
+				"3FC86B24AC2C57A9"
+			]
 			id: "60B0BFF0D0DFD573"
 			tasks: [{
 				id: "2B05249CE0BEC41A"
@@ -1206,7 +1309,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Disenchantment Dynamo produce RF with enchanted books."]
-			dependencies: ["4A5DA79BF6E7A085"]
+			dependencies: [
+				"4A5DA79BF6E7A085"
+				"3FC86B24AC2C57A9"
+			]
 			id: "54793224323A2CF8"
 			tasks: [{
 				id: "09B8A60A833A805C"
@@ -1233,7 +1339,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The Gourmand Dynamo produce RF with foods."]
-			dependencies: ["4A5DA79BF6E7A085"]
+			dependencies: [
+				"4A5DA79BF6E7A085"
+				"3FC86B24AC2C57A9"
+			]
 			id: "52B3CB25F59A065C"
 			tasks: [{
 				id: "4076572D1B379BD5"
@@ -1254,6 +1363,7 @@
 			dependencies: [
 				"66481F46FE74054F"
 				"76F6A2093D86A169"
+				"3FC86B24AC2C57A9"
 			]
 			id: "315EDA52EF8AE39B"
 			tasks: [{
@@ -1272,7 +1382,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["First alloy of Thermal Extra use to make upgrade, Soul Infused ingots are made in the alloy smelter"]
-			dependencies: ["71305894046B0915"]
+			dependencies: [
+				"71305894046B0915"
+				"3FC86B24AC2C57A9"
+			]
 			id: "069171E8B30EFA2E"
 			tasks: [{
 				id: "0F27AE6422C41C3A"
@@ -1290,7 +1403,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["Final alloy of Thermal Series, Enderium ingots are made in the Induction Smelter."]
-			dependencies: ["71305894046B0915"]
+			dependencies: [
+				"71305894046B0915"
+				"3FC86B24AC2C57A9"
+			]
 			id: "2C221E8FEA2D54A2"
 			tasks: [{
 				id: "10A4C164E6821EFB"
@@ -1308,7 +1424,10 @@
 			y: 4.0d
 			shape: "square"
 			description: ["Second alloy of Thermal Extra use to make upgrade, Shellite are made in the alloy smelter"]
-			dependencies: ["71305894046B0915"]
+			dependencies: [
+				"71305894046B0915"
+				"3FC86B24AC2C57A9"
+			]
 			id: "18C15EFD9AC53DC5"
 			tasks: [{
 				id: "72D52ED03063CB6D"
@@ -1326,7 +1445,10 @@
 			y: 5.0d
 			shape: "square"
 			description: ["Final alloy on Thermal Extra, use to make upgrade, Twinite are made in the alloy smelter"]
-			dependencies: ["71305894046B0915"]
+			dependencies: [
+				"71305894046B0915"
+				"3FC86B24AC2C57A9"
+			]
 			id: "6BCBF1F51521D038"
 			tasks: [{
 				id: "7C7983413F69B4CD"
@@ -1347,7 +1469,10 @@
 				"Dragonsteel ingots are made in the alloy smelter. "
 				"From Thermal Extra it use to make the highest tier of integral component"
 			]
-			dependencies: ["71305894046B0915"]
+			dependencies: [
+				"71305894046B0915"
+				"3FC86B24AC2C57A9"
+			]
 			id: "76F6A2093D86A169"
 			tasks: [{
 				id: "5615728CC5038525"
@@ -1368,6 +1493,7 @@
 			dependencies: [
 				"011C6051A7077391"
 				"069171E8B30EFA2E"
+				"3FC86B24AC2C57A9"
 			]
 			id: "2781270187ECD83F"
 			tasks: [{
@@ -1389,6 +1515,7 @@
 			dependencies: [
 				"2781270187ECD83F"
 				"2C221E8FEA2D54A2"
+				"3FC86B24AC2C57A9"
 			]
 			id: "291C732146A9286F"
 			tasks: [{
@@ -1410,6 +1537,7 @@
 			dependencies: [
 				"291C732146A9286F"
 				"18C15EFD9AC53DC5"
+				"3FC86B24AC2C57A9"
 			]
 			id: "23059D21BC8D5D46"
 			tasks: [{
@@ -1431,6 +1559,7 @@
 			dependencies: [
 				"23059D21BC8D5D46"
 				"6BCBF1F51521D038"
+				"3FC86B24AC2C57A9"
 			]
 			id: "2EE95C1176BCB8E2"
 			tasks: [{
@@ -1449,7 +1578,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["Sunflower oil is made in the Multiservo press."]
-			dependencies: ["69FA9807FFE333DA"]
+			dependencies: [
+				"69FA9807FFE333DA"
+				"3FC86B24AC2C57A9"
+			]
 			id: "68F5CD80BE1D30F8"
 			tasks: [{
 				id: "5F306D0E07164F34"
@@ -1467,7 +1599,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Crystalizd Sunflower Oil is made in the Alchemical Imbuer with Amethyst."]
-			dependencies: ["2C79FD0B76E3AB5E"]
+			dependencies: [
+				"2C79FD0B76E3AB5E"
+				"3FC86B24AC2C57A9"
+			]
 			id: "53282F13A2CB254E"
 			tasks: [{
 				id: "2ECD71BD7EE11940"
@@ -1485,7 +1620,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Refined Sunflower Oil is made in the Fractionating Still."]
-			dependencies: ["132CB4C9AFC94C8F"]
+			dependencies: [
+				"132CB4C9AFC94C8F"
+				"3FC86B24AC2C57A9"
+			]
 			id: "5A92197FC0E04A31"
 			tasks: [{
 				id: "2D5267A78179266A"

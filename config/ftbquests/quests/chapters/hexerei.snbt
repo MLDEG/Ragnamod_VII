@@ -1,7 +1,7 @@
 {
 	id: "5BFC3BEE30EAEBFE"
 	group: ""
-	order_index: 18
+	order_index: 11
 	filename: "hexerei"
 	title: " Hexerei"
 	icon: {
@@ -27,7 +27,10 @@
 				"{image:ftbquests:textures/quests/hexerei_candles.png width:150 height:100 align:1}"
 				"If you have Tallow in your cauldron, right-click your string and wait."
 			]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "0A5E91F6FDAEE9EF"
 			tasks: [{
 				id: "6A5F0BDF72E6D6AF"
@@ -84,7 +87,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Altar is mainly used to read your guidebook, you can also put stuff on it."]
-			dependencies: ["1FEFB53D452355D1"]
+			dependencies: [
+				"1FEFB53D452355D1"
+				"17F1675D9744D1DE"
+			]
 			id: "4FFB53CB5468C75A"
 			tasks: [{
 				id: "09021EBA87672D2C"
@@ -113,7 +119,10 @@
 				"{image:ftbquests:textures/quests/hexerei_mahoganybroom.png width:150 height:100 align:1}"
 				"The Mahogany is quicker and it's fire resistance."
 			]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "5EE8C827D067ED06"
 			tasks: [{
 				id: "131A2CC2B2BB9B83"
@@ -146,7 +155,10 @@
 				"{image:ftbquests:textures/quests/hexerei_willowbroom.png width:150 height:100 align:1}"
 				"The Willow one is the cheapest one."
 			]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "7C0951CA1B3F214F"
 			tasks: [{
 				id: "7CAEB2BFDF91034E"
@@ -182,7 +194,10 @@
 				""
 				"And on top of that, you look absolutely cool !"
 			]
-			dependencies: ["17C55C73B8D8106D"]
+			dependencies: [
+				"17C55C73B8D8106D"
+				"17F1675D9744D1DE"
+			]
 			id: "5D02F4028B66F7E7"
 			tasks: [
 				{
@@ -236,7 +251,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Pestle and Mortar is mainly used to get Seed Mixture."]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "2CE01A1BB21AD817"
 			tasks: [{
 				id: "6A1E7A586BD8B527"
@@ -255,7 +273,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Craft some Seed Mixture and give them to a Crow."]
-			dependencies: ["2CE01A1BB21AD817"]
+			dependencies: [
+				"2CE01A1BB21AD817"
+				"17F1675D9744D1DE"
+			]
 			id: "327E14E8EA88152B"
 			tasks: [{
 				id: "60FB083984C21C57"
@@ -278,7 +299,10 @@
 				""
 				"The other type of Drying Rack is purely for decoration."
 			]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "4F651994273D3B6A"
 			tasks: [
 				{
@@ -307,7 +331,10 @@
 				"The Coffer is pretty cool, it's work like a shulker box, has 36 slots, you can even make your Crow work with the inventory with the button en the bottom right."
 				"You can dye it."
 			]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "0CF42CD001F7B9E6"
 			tasks: [{
 				id: "223EEAFE03836ADE"
@@ -527,7 +554,10 @@
 				""
 				"Type $herbs in JEI to see all the items."
 			]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "592AB2506CBCBAC7"
 			tasks: [{
 				id: "110A87F24EDB51D2"
@@ -563,7 +593,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Blood Sigil is made in your Cauldron, and it is used to produce Blood."]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "7AF425FB03F28C21"
 			tasks: [{
 				id: "317A841FFD3AAF60"
@@ -582,7 +615,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["To obtain Blood from Hexerei you need to step in your cauldron with the Blood Sigil in it."]
-			dependencies: ["7AF425FB03F28C21"]
+			dependencies: [
+				"7AF425FB03F28C21"
+				"17F1675D9744D1DE"
+			]
 			id: "57AA2DEC43481852"
 			tasks: [{
 				id: "03E17A9596E17393"
@@ -601,7 +637,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Use your Cauldron to make some Infused Fabric."]
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "17C55C73B8D8106D"
 			tasks: [{
 				id: "4B6C5CE5B50C1802"
@@ -655,7 +694,10 @@
 				"Shift right-click to see the GUI of your flute and select whatever you want to do with your Crow."
 				"{image:ftbquests:textures/quests/hexerei_crow.png width:150 height:100 align:1}"
 			]
-			dependencies: ["327E14E8EA88152B"]
+			dependencies: [
+				"327E14E8EA88152B"
+				"17F1675D9744D1DE"
+			]
 			id: "3E48A2D64D4C123D"
 			tasks: [{
 				id: "0DA259410816DB66"
@@ -686,7 +728,10 @@
 			shape: "square"
 			description: ["Reading glasses let you zoom in with the press of a button on the keyboard (w by default)"]
 			hide_dependency_lines: true
-			dependencies: ["68DB6565A81015C2"]
+			dependencies: [
+				"68DB6565A81015C2"
+				"17F1675D9744D1DE"
+			]
 			id: "7B49ED3BC1FD6452"
 			tasks: [{
 				id: "39CBEEBC66A26364"
@@ -706,7 +751,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["Just craft a candle."]
-			dependencies: ["0A5E91F6FDAEE9EF"]
+			dependencies: [
+				"0A5E91F6FDAEE9EF"
+				"17F1675D9744D1DE"
+			]
 			id: "53DE6EE50B2E4F45"
 			tasks: [{
 				id: "3FC7DC59CE2728B0"
@@ -732,7 +780,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Broom Chain allow you to use any item or block to decorate your Broom !"]
-			dependencies: ["7C0951CA1B3F214F"]
+			dependencies: [
+				"7C0951CA1B3F214F"
+				"17F1675D9744D1DE"
+			]
 			id: "052E4DCC8C765816"
 			tasks: [{
 				id: "22AC18472420A0DE"

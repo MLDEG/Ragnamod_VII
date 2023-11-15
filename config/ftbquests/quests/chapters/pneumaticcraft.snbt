@@ -1,7 +1,7 @@
 {
 	id: "0CEA4981B3B0DFEB"
 	group: ""
-	order_index: 27
+	order_index: 23
 	filename: "pneumaticcraft"
 	title: " Pneumaticcraft"
 	icon: "pneumaticcraft:air_compressor"
@@ -18,7 +18,10 @@
 				"It is made by creating a hollow cube out of Pressure Chamber Walls/Windows.The size of the cube can vary from 3x3x3 to 5x5x5."
 				"The Pressure Chamber also requires a Valve, which has to connect to the air blocks in the Pressure Chamber."
 			]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			size: 2.0d
 			id: "0000000000000956"
 			tasks: [
@@ -62,7 +65,10 @@
 				"The Pressure Tube is used to transfer pressurized air around all your machine connected."
 				"Max pressure 5.0 bar"
 			]
-			dependencies: ["5E490F7D44E6FF57"]
+			dependencies: [
+				"5E490F7D44E6FF57"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "000000000000095B"
 			tasks: [{
 				id: "000000000000095C"
@@ -90,6 +96,7 @@
 			dependencies: [
 				"0000000000000975"
 				"0000000000000973"
+				"4ECF8A0985D2EC5D"
 			]
 			id: "000000000000095D"
 			tasks: [{
@@ -111,7 +118,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Charging Station is used to charge an item that need pressurized air in it."]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000961"
 			tasks: [{
 				id: "0000000000000962"
@@ -129,7 +139,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Air Compressor is the foundation of PneumaticCraft and it's used to create compressed air from items that burn in a Furnace."]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000963"
 			tasks: [{
 				id: "0000000000000964"
@@ -150,7 +163,10 @@
 				"The Advanced Air Compressor works like the Air Compressor, but it produces more pressure and also produce heat."
 				"You need to dissipate the heat for more efficiency."
 			]
-			dependencies: ["000000000000095D"]
+			dependencies: [
+				"000000000000095D"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000965"
 			tasks: [{
 				id: "0000000000000966"
@@ -172,7 +188,10 @@
 				"If this happens in such a way that only a part of the PCB gets exposed, this part will hold it's copper traces when etched in an Etching tank."
 				"The longer you expose a PCB, the higher the chance that the PCB will be successfully etched."
 			]
-			dependencies: ["0000000000000969"]
+			dependencies: [
+				"0000000000000969"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000967"
 			tasks: [{
 				id: "0000000000000968"
@@ -192,7 +211,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["Principally you have to buy a PCB Blueprint with an Amadron Tablet, but you can, also, buy it with a villager."]
-			dependencies: ["0000000000000971"]
+			dependencies: [
+				"0000000000000971"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000969"
 			tasks: [{
 				id: "000000000000096A"
@@ -212,7 +234,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Empty PCB is used in the fabrication of a Printed Circuit Board, an essential part of the mods assembly line machines."]
-			dependencies: ["0000000000000967"]
+			dependencies: [
+				"0000000000000967"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "000000000000096B"
 			tasks: [{
 				id: "000000000000096C"
@@ -234,6 +259,7 @@
 				"00000000000009BA"
 				"000000000000098F"
 				"000000000000096B"
+				"4ECF8A0985D2EC5D"
 			]
 			id: "000000000000096D"
 			tasks: [{
@@ -256,6 +282,7 @@
 				"000000000000098D"
 				"000000000000098B"
 				"000000000000096D"
+				"4ECF8A0985D2EC5D"
 			]
 			id: "000000000000096F"
 			tasks: [{
@@ -277,7 +304,10 @@
 				"The Amadron Tablet is used to order items and fluids, similar to Villager trading, except items and fluids are picked up and delivered via Drones."
 				"A pick-up, drop-up location must be specified by right-clicking an inventory and/or tank with your tablet."
 			]
-			dependencies: ["00000000000009B3"]
+			dependencies: [
+				"00000000000009B3"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000971"
 			tasks: [{
 				id: "0000000000000972"
@@ -298,7 +328,10 @@
 				"Simply buy the program with your Amadron Tablet."
 				"This program is used in the Assembly multiblock."
 			]
-			dependencies: ["0000000000000971"]
+			dependencies: [
+				"0000000000000971"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000973"
 			tasks: [{
 				id: "0000000000000974"
@@ -327,7 +360,10 @@
 				"Put a chest or other form of storage right next to your two IO Units."
 				"Now you can place your Assembly Controller to inject the compressed air you need and a program."
 			]
-			dependencies: ["000000000000096F"]
+			dependencies: [
+				"000000000000096F"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000975"
 			tasks: [
 				{
@@ -376,7 +412,10 @@
 				"The Thermopneumatic Processing Plant is used to process liquids into other liquids."
 				"For example, LGP and Coal together can produce liquid plastic."
 			]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "000000000000097C"
 			tasks: [{
 				id: "000000000000097D"
@@ -398,7 +437,10 @@
 				"The Refinery can process Crude Oil or Oil to produce Diesel, Kerosene, Light Fuel and LPG."
 				"It needs Heat to function !"
 			]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "000000000000097E"
 			tasks: [
 				{
@@ -427,7 +469,10 @@
 				"The Flux Compressor is used to convert RF into compressed air."
 				"The Compressor generates heat, which must be dissipated to avoid efficiency loss."
 			]
-			dependencies: ["000000000000096F"]
+			dependencies: [
+				"000000000000096F"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000980"
 			tasks: [{
 				id: "0000000000000981"
@@ -447,7 +492,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Heat Sink is used to disperses heat and cold into the air."]
-			dependencies: ["5E490F7D44E6FF57"]
+			dependencies: [
+				"5E490F7D44E6FF57"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000982"
 			tasks: [{
 				id: "0000000000000983"
@@ -470,7 +518,10 @@
 				"The Liquid Hopper is a hopper which you can use to transfer liquids. "
 				"Like the Omnidirectional Hopper it's omnidirectional."
 			]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000984"
 			tasks: [{
 				id: "0000000000000985"
@@ -493,7 +544,10 @@
 				"You can hold Shift on Upgrade to see what kind of upgrade can be put on your armor."
 				"It's used to the End Game armor."
 			]
-			dependencies: ["000000000000096F"]
+			dependencies: [
+				"000000000000096F"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000986"
 			tasks: [
 				{
@@ -552,7 +606,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Capacitor is a component used in the fabrication process of a Printed Circuit Board."]
-			dependencies: ["0000000000000956"]
+			dependencies: [
+				"0000000000000956"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "000000000000098B"
 			tasks: [{
 				id: "000000000000098C"
@@ -571,7 +628,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The Transistor is a component used in the fabrication process of a Printed Circuit Board."]
-			dependencies: ["0000000000000956"]
+			dependencies: [
+				"0000000000000956"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "000000000000098D"
 			tasks: [{
 				id: "000000000000098E"
@@ -590,7 +650,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Etching Tank is used, with Etching Acid and optionally heat to get faster, to transform an Empty PCB into an Unassembly PCB previously exposed in a UV Light Box."]
-			dependencies: ["00000000000009BA"]
+			dependencies: [
+				"00000000000009BA"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "000000000000098F"
 			tasks: [{
 				id: "0000000000000990"
@@ -611,7 +674,10 @@
 				"Pneumatic Wrench is used to rotate blocs or toggle the corresponding side of a tube open/closed."
 				"Sneak-right-click PneumaticCraft blocks, to instantly dismantle the block, dropping it as an item."
 			]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000991"
 			tasks: [{
 				id: "0000000000000992"
@@ -636,7 +702,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["You can craft Lego blocks with your plastic sheets."]
-			dependencies: ["00000000000009B3"]
+			dependencies: [
+				"00000000000009B3"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0000000000000993"
 			tasks: [
 				{
@@ -830,7 +899,10 @@
 				"You can also use a Heat Frame on a storage to automate this process without putting your molten plastic in the world."
 				"You have to cool this storage to transform this plastic."
 			]
-			dependencies: ["1E15EC50AD722C8B"]
+			dependencies: [
+				"1E15EC50AD722C8B"
+				"4ECF8A0985D2EC5D"
+			]
 			size: 2.0d
 			id: "00000000000009B3"
 			tasks: [{
@@ -852,7 +924,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Fluid Mixer is used to mix two fluids together, producing a fluid and/or item output."]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "00000000000009B6"
 			tasks: [{
 				id: "00000000000009B7"
@@ -877,7 +952,10 @@
 				""
 				"Mind that heat will slowly leak between the hot and cold sides, so it's more efficient to vent the cold side, with compressed Iron or/and Heat Sink, when you want to utilize the heat, and vice versa if you want to use the cold."
 			]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "00000000000009B8"
 			tasks: [{
 				id: "00000000000009B9"
@@ -898,7 +976,10 @@
 				"Craft a bucket of Etching Acid using your Pressure Chamber."
 				"The Etching Acid is used in the Etching Tank to transform an Empty PCB to an Unassembled PCB, or a Failed PCB if your Empty PCB has not previously passed through the UV Light Box."
 			]
-			dependencies: ["0000000000000956"]
+			dependencies: [
+				"0000000000000956"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "00000000000009BA"
 			tasks: [{
 				id: "00000000000009BB"
@@ -916,7 +997,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Collect a bucket of Biodiesel."]
-			dependencies: ["00000000000009B6"]
+			dependencies: [
+				"00000000000009B6"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "39DEAD6995C04E5F"
 			tasks: [{
 				id: "71A8F3AFCA94E0DA"
@@ -934,7 +1018,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["Collect a bucket of LPG."]
-			dependencies: ["000000000000097E"]
+			dependencies: [
+				"000000000000097E"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "79132090A91F6877"
 			tasks: [{
 				id: "68617F051EC846C3"
@@ -957,6 +1044,7 @@
 				"000000000000097C"
 				"79132090A91F6877"
 				"39DEAD6995C04E5F"
+				"4ECF8A0985D2EC5D"
 			]
 			dependency_requirement: "one_completed"
 			id: "1E15EC50AD722C8B"
@@ -1002,7 +1090,10 @@
 				"The Pneumatic Dynamo is used to convert compressed air into RF."
 				"The Pneumatic Dynamo generates heat, which must be dissipated to avoid efficiency loss."
 			]
-			dependencies: ["000000000000096F"]
+			dependencies: [
+				"000000000000096F"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "1423FA9CCB755359"
 			tasks: [{
 				id: "6B37E9A74940F446"
@@ -1022,7 +1113,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Pressure Gauge Tube Module allows you to see the pressure in your tubes and also can provide a redstone signal depending on the pressure."]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "3C1A52E363797D63"
 			tasks: [{
 				id: "48A58AF2EC5FE694"
@@ -1040,7 +1134,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Get some Glycerol using the Fluid Mixer, It's used to craft Speed Upgrade but also a Singularity in the end game !"]
-			dependencies: ["00000000000009B6"]
+			dependencies: [
+				"00000000000009B6"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "5FCA7CBFD5D77D47"
 			tasks: [{
 				id: "0EDA1B244F639099"
@@ -1106,7 +1203,10 @@
 				""
 				"Right-click a bloc to get this texture, then, with pressure, right-click on a tube to apply the facade at the cost of a block."
 			]
-			dependencies: ["000000000000095B"]
+			dependencies: [
+				"000000000000095B"
+				"4ECF8A0985D2EC5D"
+			]
 			id: "0D9B76B4955185A0"
 			tasks: [{
 				id: "0929ED4D3743F114"

@@ -1,7 +1,7 @@
 {
 	id: "525F2BEC4ECAE9ED"
 	group: ""
-	order_index: 26
+	order_index: 21
 	filename: "powah"
 	title: " Powah"
 	icon: "powah:energizing_rod_nitro"
@@ -15,7 +15,10 @@
 			shape: "square"
 			description: ["Solar Panel generate RF with the sun, you can use on it a Lens Of Ender to see through blocks."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009D0"
 			tasks: [{
 				id: "00000000000009D1"
@@ -48,7 +51,10 @@
 				"You just need to right-click on the ground with your 36 blocks in your inventory for the multiblock to form by itself."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009D2"
 			tasks: [{
 				id: "00000000000009D3"
@@ -78,7 +84,10 @@
 			shape: "square"
 			description: ["The Energy Cell is used to store RF."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009D4"
 			tasks: [{
 				id: "00000000000009D5"
@@ -107,7 +116,10 @@
 			shape: "square"
 			description: ["The Ender Cell is a block used to store energy to a specific channel of the Ender Network of the owner."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009D6"
 			tasks: [{
 				id: "00000000000009D7"
@@ -136,7 +148,10 @@
 			shape: "square"
 			description: ["Energy Cables are used to transfer energy."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009D8"
 			tasks: [{
 				id: "00000000000009D9"
@@ -166,7 +181,10 @@
 			shape: "square"
 			description: ["Energizing Rods are used to provide energy to the Orb for crafting various things."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009DA"
 			tasks: [{
 				id: "00000000000009DB"
@@ -195,7 +213,10 @@
 			shape: "square"
 			description: ["The Thermo Generator can generate power using a liquid coolant and by sitting on top of a heat source."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009DC"
 			tasks: [{
 				id: "00000000000009DD"
@@ -224,7 +245,10 @@
 			shape: "square"
 			description: ["The Magmator generate RF with Lava."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009DE"
 			tasks: [{
 				id: "00000000000009DF"
@@ -253,7 +277,10 @@
 			shape: "square"
 			description: ["The Furnator generate RF with furnace fuel."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009E0"
 			tasks: [{
 				id: "00000000000009E1"
@@ -280,7 +307,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Energizing Orb is used to energize items, require at least one Energized Rod in range of 9x9 to work."]
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			size: 2.0d
 			id: "00000000000009E2"
 			tasks: [{
@@ -299,7 +329,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Binding Card is used to link you with a Player Transmitter in the same dimension."]
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009E4"
 			tasks: [{
 				id: "00000000000009E5"
@@ -321,7 +354,10 @@
 				""
 				"The Dimensional Binding Card is used like the Binding Card, but it's interdimensional."
 			]
-			dependencies: ["00000000000009E4"]
+			dependencies: [
+				"00000000000009E4"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009E6"
 			tasks: [{
 				id: "00000000000009E7"
@@ -367,7 +403,10 @@
 				"Link Mode: used to link linkable blocks like energizing and rods."
 				"Rotate Mode: used to rotate blocks horizontally."
 			]
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009EA"
 			tasks: [{
 				id: "00000000000009EB"
@@ -393,7 +432,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Dry Ice is mainly used to cool down reactors, it can be found underground in cold biomes, or you can craft it with 2 Blue Ice in the Energizing Orb."]
-			dependencies: ["00000000000009E2"]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009EC"
 			tasks: [{
 				id: "00000000000009ED"
@@ -441,6 +483,7 @@
 			dependencies: [
 				"00000000000009D8"
 				"00000000000009EE"
+				"46019F50846AAFD0"
 			]
 			id: "00000000000009F0"
 			tasks: [{
@@ -470,7 +513,10 @@
 			shape: "square"
 			description: ["The Player Transmitter is used to charge items wirelessly in linked player inventory, including armor slots and off-hand anywhere."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "00000000000009F2"
 			tasks: [{
 				id: "00000000000009F3"
@@ -501,7 +547,10 @@
 				"The Energized Steel is made with Gold and Iron."
 				"It's used to make hardened stuff."
 			]
-			dependencies: ["00000000000009E2"]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
 			id: "1C0EE50619DE24B2"
 			tasks: [{
 				id: "22F9B375A9295687"
@@ -526,7 +575,10 @@
 				"The Blazing Crystal is made with Blaze Rod or Blaze Powder."
 				"It's used to make Blazing stuff."
 			]
-			dependencies: ["00000000000009E2"]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
 			id: "1329A2E89B6FEF59"
 			tasks: [{
 				id: "46823E09C403A9E5"
@@ -551,7 +603,10 @@
 				"The Niotic Crystal is made with a Diamond."
 				"It's used to make Niotic stuff."
 			]
-			dependencies: ["00000000000009E2"]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
 			id: "4383AF63E5E6FC8D"
 			tasks: [{
 				id: "0751E13E35FB3150"
@@ -576,7 +631,10 @@
 				"The Spirited Crystal is made with an Emerald."
 				"It's used to make Spirited stuff."
 			]
-			dependencies: ["00000000000009E2"]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
 			id: "3267C71EB8176867"
 			tasks: [{
 				id: "0B1E153B0C325C83"
@@ -601,7 +659,10 @@
 				"The Nitro Crystal is made with an Nether Star, two block of Redstone and a Blazing Crystal Block."
 				"It's used to make Nitro stuff."
 			]
-			dependencies: ["00000000000009E2"]
+			dependencies: [
+				"00000000000009E2"
+				"46019F50846AAFD0"
+			]
 			id: "2EFACC7A03425555"
 			tasks: [{
 				id: "4EB22198AC3AFB20"
@@ -626,7 +687,10 @@
 				""
 				"When applied on a Solar Panel, it will make the panel see through blocks."
 			]
-			dependencies: ["747456C7DC9E9028"]
+			dependencies: [
+				"747456C7DC9E9028"
+				"46019F50846AAFD0"
+			]
 			id: "59646D1520A512AA"
 			tasks: [{
 				id: "217A9A42880C828F"
@@ -644,7 +708,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Photoelectric Pane is used to craft solar panel but also Lens Of Ender !"]
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "747456C7DC9E9028"
 			tasks: [{
 				id: "2EAB90A26913379F"
@@ -668,7 +735,10 @@
 				"For example, connect your hopper (facing a chest) with energy and every item in your chest that can be charge, will be charge."
 			]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "53210BA3505E7E13"
 			tasks: [{
 				id: "162A9F4E66222755"
@@ -697,7 +767,10 @@
 			shape: "square"
 			description: ["The Energy Discharger is used to drain RF out of items."]
 			hide_dependency_lines: true
-			dependencies: ["00000000000009EE"]
+			dependencies: [
+				"00000000000009EE"
+				"46019F50846AAFD0"
+			]
 			id: "5A1DD668DC3E22EE"
 			tasks: [{
 				id: "14B09DC852B25C51"

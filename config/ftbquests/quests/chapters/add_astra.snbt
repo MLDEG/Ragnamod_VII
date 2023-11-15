@@ -1,7 +1,7 @@
 {
 	id: "4A4847E98CD1AF15"
 	group: ""
-	order_index: 12
+	order_index: 7
 	filename: "add_astra"
 	title: " Beyond Earth"
 	icon: "beyond_earth:nasa_workbench"
@@ -14,7 +14,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
-			dependencies: ["3C884020904C1B6C"]
+			dependencies: [
+				"3C884020904C1B6C"
+				"480EEAEC65D24F9E"
+			]
 			id: "48064C635531A631"
 			tasks: [{
 				id: "3833BFF53CF03014"
@@ -34,7 +37,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["With some Desh you can craft the Tier 2 Rocket and go on Mars !"]
-			dependencies: ["2FE44372B1A4621B"]
+			dependencies: [
+				"2FE44372B1A4621B"
+				"480EEAEC65D24F9E"
+			]
 			id: "750E35A4164FD632"
 			tasks: [{
 				id: "2F3ED0BFD0D42A5F"
@@ -57,7 +63,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["With some Ostrum you can craft the Tier 3 Rocket and go on Venus !"]
-			dependencies: ["2FE44372B1A4621B"]
+			dependencies: [
+				"2FE44372B1A4621B"
+				"480EEAEC65D24F9E"
+			]
 			id: "56F322FA5F1624FF"
 			tasks: [{
 				id: "013E6AD9F46615EC"
@@ -83,7 +92,10 @@
 				"With some Calorite you can craft the Tier 4 Rocket and go to Glacio."
 				"A planet on a other Galaxy !"
 			]
-			dependencies: ["2FE44372B1A4621B"]
+			dependencies: [
+				"2FE44372B1A4621B"
+				"480EEAEC65D24F9E"
+			]
 			id: "18A1D97836E02C11"
 			tasks: [{
 				id: "10E37CC3F46D393F"
@@ -117,7 +129,10 @@
 				"To infinity and beyond !"
 				"Before going in space, don't forget to craft your space suit !"
 			]
-			dependencies: ["3C884020904C1B6C"]
+			dependencies: [
+				"3C884020904C1B6C"
+				"480EEAEC65D24F9E"
+			]
 			id: "041A331D89F49672"
 			tasks: [
 				{
@@ -185,7 +200,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Upgraded version of your space suit to have more defense against enemies on those hostile planets."]
-			dependencies: ["041A331D89F49672"]
+			dependencies: [
+				"041A331D89F49672"
+				"480EEAEC65D24F9E"
+			]
 			id: "78B8CD9BEE64E6D2"
 			tasks: [
 				{
@@ -248,7 +266,10 @@
 				"Compressor can be used to make compressed form of Beyond Earth materials."
 				"Those compressed materials can be used to craft rockets"
 			]
-			dependencies: ["3C884020904C1B6C"]
+			dependencies: [
+				"3C884020904C1B6C"
+				"480EEAEC65D24F9E"
+			]
 			id: "74FF38D124915175"
 			tasks: [{
 				id: "623407F092FA13DA"
@@ -267,7 +288,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Oxygen Loader can produce oxygen to fill your space chestplate using water and RF."]
-			dependencies: ["3C884020904C1B6C"]
+			dependencies: [
+				"3C884020904C1B6C"
+				"480EEAEC65D24F9E"
+			]
 			id: "588578911ADB8C19"
 			tasks: [{
 				id: "314EBA3AFF7FF907"
@@ -286,7 +310,10 @@
 			shape: "square"
 			description: ["The Oxygen Bubble Distributor can provide air on other planet to get a safe environment."]
 			hide_dependency_lines: true
-			dependencies: ["588578911ADB8C19"]
+			dependencies: [
+				"588578911ADB8C19"
+				"480EEAEC65D24F9E"
+			]
 			id: "0FFAABB442DDAB23"
 			tasks: [{
 				id: "073CBF1537D242EF"
@@ -308,7 +335,10 @@
 				"Fuel Refinery can convert Oil into Fuel"
 				"With Shift + Right Click on your rocket you can fill it with your recently obtain fuel"
 			]
-			dependencies: ["3C884020904C1B6C"]
+			dependencies: [
+				"3C884020904C1B6C"
+				"480EEAEC65D24F9E"
+			]
 			id: "75EBB234AA4AE868"
 			tasks: [{
 				id: "0918CD020CC681F2"
@@ -328,7 +358,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Desh Ore can be found on the depth of the Moon."]
-			dependencies: ["3B6C6DD31C4A522B"]
+			dependencies: [
+				"3B6C6DD31C4A522B"
+				"480EEAEC65D24F9E"
+			]
 			id: "03F04C5F7BAED6A3"
 			tasks: [
 				{
@@ -355,7 +388,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Ostrum Ore can be found on the depth of Mars"]
-			dependencies: ["750E35A4164FD632"]
+			dependencies: [
+				"750E35A4164FD632"
+				"480EEAEC65D24F9E"
+			]
 			id: "3A4863E1B2ED2E36"
 			tasks: [
 				{
@@ -382,7 +418,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Calorite Ore can be found on the depth of Venus"]
-			dependencies: ["56F322FA5F1624FF"]
+			dependencies: [
+				"56F322FA5F1624FF"
+				"480EEAEC65D24F9E"
+			]
 			id: "2149E5AE3CDE8DBE"
 			tasks: [
 				{
@@ -409,7 +448,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Unknown Ore can be found on the depth of Glacio."]
-			dependencies: ["18A1D97836E02C11"]
+			dependencies: [
+				"18A1D97836E02C11"
+				"480EEAEC65D24F9E"
+			]
 			id: "6C436170FB69A8C1"
 			tasks: [
 				{
@@ -442,6 +484,7 @@
 				"366106157FB5459C"
 				"3C884020904C1B6C"
 				"6013E9708A7B59E9"
+				"480EEAEC65D24F9E"
 			]
 			size: 2.0d
 			id: "239CC623DE2460E8"
@@ -465,7 +508,10 @@
 				"With your Nasa Workbench, you can now make your first rocket."
 				"This will allow you to go to the overworld and therefore have access to the Nether and to the end!"
 			]
-			dependencies: ["2FE44372B1A4621B"]
+			dependencies: [
+				"2FE44372B1A4621B"
+				"480EEAEC65D24F9E"
+			]
 			id: "3B6C6DD31C4A522B"
 			tasks: [{
 				id: "461C8C520B42EC34"

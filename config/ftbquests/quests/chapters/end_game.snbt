@@ -1,0 +1,1707 @@
+{
+	id: "5443C3DB1D83DA16"
+	group: ""
+	order_index: 31
+	filename: "end_game"
+	title: " End Game"
+	icon: "ragnamod_seven:sphere"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Craft a Sphere Of All Things using the BLACK SPHERE OF DOOM !"
+				""
+				"This sphere is used to craft Avaritia stuff and Creatif stuff."
+			]
+			dependencies: [
+				"794FC8543CCB9C7B"
+				"585C0D194FA83A73"
+				"73E1914751EEA5EA"
+				"273E5AEC93D8A5C4"
+				"5297052C3503826D"
+			]
+			size: 2.0d
+			id: "55406F7249F6C73D"
+			tasks: [{
+				id: "0257BB270E9AB930"
+				type: "item"
+				item: "ragnamod_seven:sphere"
+			}]
+			rewards: [{
+				id: "02968FD9E4D11B51"
+				type: "item"
+				item: "ragnamod_seven:condensed_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"Combined every Neutronium Food in the Energizing Orb to obtain the Nutritious Compound of Neutronium."
+				""
+				"It's mainly used in the Sphere Of All Things."
+			]
+			dependencies: [
+				"1763A6F52F126BB4"
+				"64FC6BFD91D2C192"
+				"7C7B4CEDC5800CE0"
+				"5057FE4D8FF156B7"
+				"49E9D5C13FABA55E"
+				"5297052C3503826D"
+			]
+			id: "273E5AEC93D8A5C4"
+			tasks: [{
+				id: "278064E2B02C1AAF"
+				type: "item"
+				item: "ragnamod_seven:neutronium_nutritious_compound"
+			}]
+			rewards: [{
+				id: "05CC5F66817D7E0F"
+				type: "item"
+				item: "ragnamod_seven:neutronium_nutritious_compound"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Transform a Deluxe Cheeseburger into a Neutron Burger using the top tier Fusion Crafting of Draconic Evolution."]
+			dependencies: [
+				"5297052C3503826D"
+				"60FD4D8FA17A53D7"
+			]
+			id: "1763A6F52F126BB4"
+			tasks: [{
+				id: "2ED05576E8217B53"
+				type: "item"
+				item: "avaritia:neutron_burger"
+			}]
+			rewards: [{
+				id: "596655017543F18B"
+				type: "item"
+				item: "avaritia:neutron_burger"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Transform a Pecan Pie into a Neutron Pecan Pie using the top tier Fusion Crafting of Draconic Evolution."]
+			dependencies: [
+				"60FD4D8FA17A53D7"
+				"5297052C3503826D"
+			]
+			id: "49E9D5C13FABA55E"
+			tasks: [{
+				id: "06D786A8A1BC17DB"
+				type: "item"
+				item: "avaritia:neutron_pecan_pie"
+			}]
+			rewards: [{
+				id: "2EAF5E3EED7C5C73"
+				type: "item"
+				item: "avaritia:neutron_pecan_pie"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Transform a Taco into a Neutron Taco using the top tier Fusion Crafting of Draconic Evolution."]
+			dependencies: [
+				"60FD4D8FA17A53D7"
+				"5297052C3503826D"
+			]
+			id: "64FC6BFD91D2C192"
+			tasks: [{
+				id: "156FC19766D0CF80"
+				type: "item"
+				item: "avaritia:neutron_taco"
+			}]
+			rewards: [{
+				id: "7E899BEB0155F2BF"
+				type: "item"
+				item: "avaritia:neutron_taco"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Transform a Doughnut into a Neutron Doughnut using the top tier Fusion Crafting of Draconic Evolution."]
+			dependencies: [
+				"60FD4D8FA17A53D7"
+				"5297052C3503826D"
+			]
+			id: "7C7B4CEDC5800CE0"
+			tasks: [{
+				id: "7E1443BE0F7A3B5F"
+				type: "item"
+				item: "avaritia:neutron_doughnut"
+			}]
+			rewards: [{
+				id: "1014925AD3F59921"
+				type: "item"
+				item: "avaritia:neutron_doughnut"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Transform a Salmon Roll into a Neutron Sushi using the top tier Fusion Crafting of Draconic Evolution."]
+			dependencies: [
+				"60FD4D8FA17A53D7"
+				"5297052C3503826D"
+			]
+			id: "5057FE4D8FF156B7"
+			tasks: [{
+				id: "73FDA430F802E9A9"
+				type: "item"
+				item: "avaritia:neutron_sushi"
+			}]
+			rewards: [{
+				id: "49EF274D2057BDF6"
+				type: "item"
+				item: "avaritia:neutron_sushi"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "square"
+			description: ["Use the Hephaestus Forge to combined Sculk ingot, Chemical Draconium Ingot, Shub Niggurath Ingot, Ignitium Ingot, Witherite Ingot, Enderite Ingot and a Stable Ingot to get a Condensed Ingot, mainly used to craft the Sphere Of All Things."]
+			dependencies: [
+				"4E2B181F09508CB7"
+				"17F7C5A61072C5BA"
+				"55E5143BFE012461"
+				"0129563AD98630DF"
+				"174474928CDADF9D"
+				"0C06FD6FDBB829A9"
+				"5297052C3503826D"
+			]
+			id: "585C0D194FA83A73"
+			tasks: [{
+				id: "386CEF097BF47FC8"
+				type: "item"
+				item: "ragnamod_seven:condensed_ingot"
+			}]
+			rewards: [{
+				id: "03BFAADB9E195117"
+				type: "item"
+				item: "ragnamod_seven:condensed_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			shape: "square"
+			description: ["Use the Focus Entangled to craft the Block of Shub Niggurath Ingot, with 4 Block of Unknown, a Focus of Summoning and a Box of Eternal Closure with a Shub Niggurath Spirit inside !"]
+			dependencies: [
+				"26925430D2D6853C"
+				"5297052C3503826D"
+			]
+			id: "4E2B181F09508CB7"
+			tasks: [{
+				id: "29DC7D74C7689FB1"
+				type: "item"
+				item: "ragnamod_seven:shub_niggurath_ingot"
+			}]
+			rewards: [{
+				id: "70E5DB4F25242BE3"
+				type: "item"
+				item: "ragnamod_seven:shub_niggurath_ingot_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Use the Focus Entangled to craft the Block of Sculk Ingot, with 4 Block of Unknown, a Focus of Summoning and a Box of Eternal Closure with a Warden Spirit inside !"]
+			dependencies: [
+				"26925430D2D6853C"
+				"5297052C3503826D"
+			]
+			id: "17F7C5A61072C5BA"
+			tasks: [{
+				id: "78E6672D5E05E77E"
+				type: "item"
+				item: "ragnamod_seven:sculk_ingot"
+			}]
+			rewards: [{
+				id: "5F98D8F7137A9751"
+				type: "item"
+				item: "ragnamod_seven:sculk_metal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			description: ["Chemical Draconium Ingot is craft in the Fusion Crafting Core with 6 chemical Core, 4 Awakened Draconium Block and a Ghast Cow Star !"]
+			dependencies: [
+				"37B83B8E2BF368C1"
+				"0261622EB8EBE419"
+				"5297052C3503826D"
+			]
+			id: "55E5143BFE012461"
+			tasks: [{
+				id: "36882B3BDC3EC031"
+				type: "item"
+				item: "ragnamod_seven:chemical_draconium_ingot"
+			}]
+			rewards: [{
+				id: "1B8E5693EC54352A"
+				type: "item"
+				item: "ragnamod_seven:ghast_cow_tear"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Combined every gems to obtain an Infinity Gem, mainly used in the Sphere Of All Things."]
+			dependencies: [
+				"0C4F359B153DD1A0"
+				"5297052C3503826D"
+			]
+			id: "73E1914751EEA5EA"
+			tasks: [{
+				id: "5798719DFE2809CD"
+				type: "item"
+				item: "ragnamod_seven:infinity_gem"
+			}]
+			rewards: [{
+				id: "5EE3C481EB24D449"
+				type: "item"
+				item: "ragnamod_seven:infinity_gem"
+			}]
+		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:focus_entangled"
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Focus Entangled is a multiblock used to craft certain blocks using Unknown Ingot Blocks, a Focus of Summoning and a Box of Eternal Closure with a specifics spirit trap inside !"
+				"{image:ftbquests:textures/quests/focus_entangled.png width:150 height:100 align:1}"
+			]
+			dependencies: ["5297052C3503826D"]
+			id: "26925430D2D6853C"
+			tasks: [
+				{
+					id: "183E95FF3CEA6F50"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:focus_entangled"
+						}
+					}
+				}
+				{
+					id: "27CCBB342680B519"
+					type: "item"
+					item: "gemsnjewels:kunzite_block"
+					count: 13L
+				}
+				{
+					id: "50071A54BDDCD4CF"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+					count: 3L
+				}
+				{
+					id: "57908C95A0301C71"
+					type: "item"
+					item: "forbidden_arcanus:arcane_golden_glass"
+					count: 10L
+				}
+			]
+			rewards: [{
+				id: "05B2AC62A0BF7F2E"
+				type: "item"
+				item: "ragnamod_seven:unknown_ore"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "square"
+			description: ["The Chemical Core is the evolution of the Chaos Core using Francium."]
+			dependencies: [
+				"3E54BAB0CF6B4E75"
+				"324526C4C41DC51B"
+				"5297052C3503826D"
+			]
+			id: "0261622EB8EBE419"
+			tasks: [{
+				id: "6B69C0E6ABA5DCD4"
+				type: "item"
+				item: "ragnamod_seven:chemical_core"
+			}]
+			rewards: [{
+				id: "58E9E3DAE670B3CE"
+				type: "item"
+				item: "chemlib:francium_metal_block"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Ghast Cow Tear is dropped by the Ghast Cow."
+				""
+				"You can summon this weird boss in the Summoning Altar !"
+				""
+				"But you need, before, to defeat the Four Horsemen in the Final Castle in the Twilight Forest."
+				""
+				"To summon the Ghast Cow it needs to be nighttime and thunder weather."
+			]
+			dependencies: [
+				"2786D4CA2DDAE3A3"
+				"1128CB67C1938B4C"
+				"4031994E43228C99"
+				"2774828C945DFCB0"
+				"03B3688617179FB7"
+				"5297052C3503826D"
+			]
+			id: "2B6132DD904B4A20"
+			tasks: [{
+				id: "648EB115647A97AA"
+				type: "item"
+				item: "ragnamod_seven:ghast_cow_tear"
+			}]
+			rewards: [{
+				id: "114EE8769CCE8240"
+				type: "item"
+				item: "ragnamod_seven:ghast_cow_tear"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			description: ["Combined 4 ghast cow into a Star !"]
+			dependencies: [
+				"2B6132DD904B4A20"
+				"5297052C3503826D"
+			]
+			id: "37B83B8E2BF368C1"
+			tasks: [{
+				id: "0B4C9BDBA7BB903E"
+				type: "item"
+				item: "ragnamod_seven:ghast_cow_star"
+			}]
+			rewards: [{
+				id: "63AF70E3A31B4687"
+				type: "item"
+				item: "ragnamod_seven:ghast_cow_tear"
+			}]
+		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:singularity_catalyst"
+				}
+			}
+			x: 12.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The Singularity Catalyst is a multiblock that combine 5 Singularities into an Agglomerate Matter."
+				"{image:ftbquests:textures/quests/singularity_catalyst.png width:150 height:100 align:1}"
+				"You need to make a Black Hole from Forbidden Arcanus in the center of the structure (remember, throw a Dark Matter and a Corrupti Dust together)."
+				""
+				"Also, the 4 Eternal Obsidian Skull are not shown in the hologram of the multiblock, but you can place facing where you want."
+			]
+			dependencies: ["5297052C3503826D"]
+			size: 2.0d
+			id: "38512A09C28B8098"
+			tasks: [
+				{
+					id: "39A519E627E8F1E3"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:singularity_catalyst"
+						}
+					}
+				}
+				{
+					id: "4414438AA86BB676"
+					type: "item"
+					item: "architects_palette:unobtanium_block"
+					count: 7L
+				}
+				{
+					id: "7364DDA440DEA07E"
+					type: "item"
+					item: "ragnamod_seven:singularity_silent"
+					count: 2L
+				}
+				{
+					id: "067C85F0A4892110"
+					type: "item"
+					item: "quark:myalite_crystal"
+					count: 4L
+				}
+				{
+					id: "3F06EF7AED40C104"
+					type: "item"
+					item: "simplylight:illuminant_magenta_block_on"
+				}
+				{
+					id: "7C7A3EAE82B7CCE3"
+					type: "item"
+					item: "forbidden_arcanus:arcane_polished_darkstone_rod"
+					count: 14L
+				}
+				{
+					id: "6574D705907EC225"
+					type: "item"
+					item: "forbidden_arcanus:eternal_obsidian_skull"
+					count: 4L
+				}
+				{
+					id: "65D4755A8575FA38"
+					type: "item"
+					item: "forbidden_arcanus:dark_matter"
+				}
+				{
+					id: "63EBC3E4840B492B"
+					type: "item"
+					item: "forbidden_arcanus:corrupti_dust"
+				}
+			]
+			rewards: [{
+				id: "6F64AC700F8AEAA2"
+				type: "item"
+				item: "warden_and_sculk:sculk_shrieker"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Thermal!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"0E8179AAF84D9986"
+				"014BD323EFE70ECE"
+				"699A3CCB6FB11AC4"
+				"4ED24E24DA70048E"
+				"34D9796D28D39969"
+				"5297052C3503826D"
+			]
+			id: "2A2A2DBE8E417E23"
+			tasks: [{
+				id: "7FBFD2387111C48A"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_thermal"
+			}]
+			rewards: [{
+				id: "79B9DAAB907C2347"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_thermal"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Space!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"085A0DF6E2E87B85"
+				"251E6A1B45026493"
+				"0402B431707FC404"
+				"18DBA8924B949C76"
+				"44349A99105AFD28"
+				"5297052C3503826D"
+			]
+			id: "452B3BFA2B7AB92F"
+			tasks: [{
+				id: "13367A635A177DF1"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_space"
+			}]
+			rewards: [{
+				id: "5A842D2F7398B69A"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_space"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of PSI!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"2A18E291D184701D"
+				"5ED7BEB66A4B0FD8"
+				"1C637914E1B073BE"
+				"7F656F74823B8201"
+				"769E8396EC469A33"
+				"5297052C3503826D"
+			]
+			id: "183C120EA2428D78"
+			tasks: [{
+				id: "11888458B7F51AD8"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_psi"
+			}]
+			rewards: [{
+				id: "2911AF16756C5430"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_psi"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Evil Craft!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"3B247C4D19D7763F"
+				"108908EF890A02C5"
+				"266832DCE491FD9E"
+				"2E80AC6915DEB4A8"
+				"79753127C6D7FA9A"
+				"5297052C3503826D"
+			]
+			id: "02148983D2A8BFE1"
+			tasks: [{
+				id: "63E498947C36544E"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_evil_craft"
+			}]
+			rewards: [{
+				id: "5706586A6450E386"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_evil_craft"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Tech!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"29772D0B95C39C2F"
+				"62258E132AB71313"
+				"4BBB4E4DBE78CA37"
+				"6C78396355D8B098"
+				"0C82B3ECB472A177"
+				"5297052C3503826D"
+			]
+			id: "0AE31B324B5C8C8C"
+			tasks: [{
+				id: "32C31EE442CAE8C7"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_tech"
+			}]
+			rewards: [{
+				id: "0A0AA3E6FA9BF1CA"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_tech"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Pneumaticcraft!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"763CA0E80C8AC96A"
+				"0B4EFE18C192CF2C"
+				"0E5CA033F7D0DEB5"
+				"4DA4C8DC392E5A99"
+				"07FF2975596D6998"
+				"5297052C3503826D"
+			]
+			id: "23679277982E8281"
+			tasks: [{
+				id: "59861856F72CF8EE"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_pneumaticcraft"
+			}]
+			rewards: [{
+				id: "74267DB207BDAF1C"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_pneumaticcraft"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Blue Skies!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"0FCA4B369B8794DB"
+				"5A50C366408F47EA"
+				"3AE25FC89DA6D458"
+				"1D2E7BB67858314A"
+				"7C68E956E31DA57F"
+				"5297052C3503826D"
+			]
+			id: "61677ECCC9BEF3D1"
+			tasks: [{
+				id: "3EAD2D4EDA42B87A"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_blue_skies"
+			}]
+			rewards: [{
+				id: "5271A6DEE22AC5D8"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_blue_skies"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Powah!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"33089F28776AF3AB"
+				"1E2619AA4A231C5B"
+				"01FD06A6CCB9CCBB"
+				"3F95A9734789F444"
+				"7C4B96E4CBD1CA93"
+				"5297052C3503826D"
+			]
+			id: "197550DC15B2300B"
+			tasks: [{
+				id: "6B866AD60CBEC854"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_powah"
+			}]
+			rewards: [{
+				id: "04CCD60230B46F21"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_powah"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Create!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"4DFEE7117FA2478C"
+				"408DF0125CC4AB09"
+				"0B70CEDC56448D5A"
+				"4B91CE7668FEAE30"
+				"0DABD0C008C25433"
+				"5297052C3503826D"
+			]
+			id: "655DEE40F0A4D2C7"
+			tasks: [{
+				id: "4F0BCF9CA07556C2"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_create"
+			}]
+			rewards: [{
+				id: "353D37DDD26D9060"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_create"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Twilight Forest!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"17CA5C2A71516EC3"
+				"7784DEC5D14A4C9C"
+				"7A408773F40CBA18"
+				"7112819DE6BE8DB6"
+				"0824B31B72419973"
+				"5297052C3503826D"
+			]
+			id: "556488E94B4E8358"
+			tasks: [{
+				id: "2AD5A866D4F39B0B"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_twilight"
+			}]
+			rewards: [{
+				id: "2ECFCC3376A6ED6C"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_twilight"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of AE2!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"59E1B3EAC3180117"
+				"6DDFE3BB69DD94CC"
+				"0C40A79394EAD14F"
+				"65687FF8AA44C6C8"
+				"38C9F8725E326986"
+				"5297052C3503826D"
+			]
+			id: "44C32DD4FCABDA86"
+			tasks: [{
+				id: "26933137A9F38D7E"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_ae2"
+			}]
+			rewards: [{
+				id: "26164940F123C1A0"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_ae2"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Forbidden Arcanus!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"27BDD1B9FE670C31"
+				"28C56D2A0BFB5B8D"
+				"2656F8578D8F9452"
+				"3FBD938547453C93"
+				"46F30243449B2734"
+				"5297052C3503826D"
+			]
+			id: "73145BA04969F2F6"
+			tasks: [{
+				id: "051FB73C5C5FEA44"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_forbidden_arcanus"
+			}]
+			rewards: [{
+				id: "0617540E8AF44387"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_forbidden_arcanus"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Blood Magic!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"5AD86BB162BA9DB7"
+				"01B72F4CDD6D178D"
+				"4D1E682B88492490"
+				"0BF496992EEC702D"
+				"57BD06CFF2AC1201"
+				"5297052C3503826D"
+			]
+			id: "50F28A1D5C5DA600"
+			tasks: [{
+				id: "14E06FFCD767896F"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_blood_magic"
+			}]
+			rewards: [{
+				id: "2B54D7204221DC27"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_blood_magic"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Mekanism!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"77276EB31CEB0E2E"
+				"69F42B5F95A4027A"
+				"52C8729064F15DFE"
+				"04F36C203898D280"
+				"4E7796B4E0D73019"
+				"5297052C3503826D"
+			]
+			id: "0FE5826EF73016C9"
+			tasks: [{
+				id: "41BD662CF305A3E5"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_mekanism"
+			}]
+			rewards: [{
+				id: "6E5EE3513C039CBE"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_mekanism"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Botania!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"29895C7F5B8CAC2A"
+				"0AD430735024B6E1"
+				"2436EC8D54F4E3DA"
+				"090668C0C2DEC41F"
+				"11A2CC2E71F0F784"
+				"5297052C3503826D"
+			]
+			id: "1538DD01548BFA03"
+			tasks: [{
+				id: "5CC5B46CDB28D9C7"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_botania"
+			}]
+			rewards: [{
+				id: "7B71768FA11759D4"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_botania"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Architect Pallet Bricks!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"5E60E3F6A8C20064"
+				"1749B3AF2FD75C51"
+				"2713F06E8F8AF835"
+				"7F46D3DE352C0E73"
+				"6E444598963DA21C"
+				"5297052C3503826D"
+			]
+			id: "0661B67E5766285A"
+			tasks: [{
+				id: "2F172B80832BEDB1"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_blocky"
+			}]
+			rewards: [{
+				id: "09F63CCCB15846A9"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_blocky"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Undergarden!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"17D1E6F0DF180588"
+				"2A4FFF1775E7FCBD"
+				"2B862C765AF954FB"
+				"2049D2DC86D14172"
+				"691BF4905A1C0E70"
+				"5297052C3503826D"
+			]
+			id: "07A22CCF436DCC21"
+			tasks: [{
+				id: "7612B8D409D53023"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_undergarden"
+			}]
+			rewards: [{
+				id: "2062360C6D484CBC"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_undergarden"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of FTBIC!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"6E04994156C28E24"
+				"6BAF2DCA4960D912"
+				"15DDC7BE86249770"
+				"7619F461E6D406A0"
+				"20F138A5251E47C7"
+				"5297052C3503826D"
+			]
+			id: "6D705AA6096B2CB7"
+			tasks: [{
+				id: "55B0A997A619CEB1"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_ftbic"
+			}]
+			rewards: [{
+				id: "75807B2A6962BE08"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_ftbic"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Mobs!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"7B8173F63F7606F4"
+				"12630ACDE5D39D4A"
+				"1EFEFCFFC1A290D9"
+				"1435312BA63D7FD9"
+				"3F98B2679DC5D3F4"
+				"5297052C3503826D"
+			]
+			id: "0770EBE159CC71A6"
+			tasks: [{
+				id: "634755B35C083495"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_mobs"
+			}]
+			rewards: [{
+				id: "2C28EABED88D6D22"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_mobs"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Minecraft!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"30DFE7E284C06FDE"
+				"1B3D5C53950D5796"
+				"3D049D87660F2DCA"
+				"6706AE0D7D6F644D"
+				"6CB08321856228EF"
+				"5297052C3503826D"
+			]
+			id: "588EED7AE212681F"
+			tasks: [{
+				id: "2C4904C08CE80E83"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_minecraft3"
+			}]
+			rewards: [{
+				id: "7E79970886F0E7EF"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_minecraft3"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Minecraft!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"2E53598EC55D2500"
+				"41578C6A39AD5F85"
+				"06ED39CC5960DD3B"
+				"1312E20AFD8592B6"
+				"43230420E37AE1A5"
+				"5297052C3503826D"
+			]
+			id: "16CCA97BC51A23D5"
+			tasks: [{
+				id: "17BC07A381F45417"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_minecraft1"
+			}]
+			rewards: [{
+				id: "332EBFE8EA6FFD3C"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_minecraft1"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Minecraft!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"27D4FF14FE6C71CD"
+				"28D3011A0113E011"
+				"4FF15EB458E5D19E"
+				"73F951AFBDA8C471"
+				"1EA4F5C586A4113A"
+				"5297052C3503826D"
+			]
+			id: "5A95B8EECF3397CC"
+			tasks: [{
+				id: "49072D8966EFAFE0"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_minecraft2"
+			}]
+			rewards: [{
+				id: "07447B201BE0B022"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_minecraft2"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Tinkers Construct!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"56F2D8CA8C36CFCE"
+				"1BCE74D74D232568"
+				"036AC0377E9323DA"
+				"4D4A8F0DEE3C62E5"
+				"6E201DECA0A191A3"
+				"5297052C3503826D"
+			]
+			id: "04A47B26DF36ED80"
+			tasks: [{
+				id: "62A82AEA10208366"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_tconstruct"
+			}]
+			rewards: [{
+				id: "4AD31F838C5A8EE2"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_tconstruct"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			shape: "square"
+			description: ["Craft this Agglomerate Matter using 5 singularities of Ars Nouveau!"]
+			dependencies: [
+				"38512A09C28B8098"
+				"52B0536331A75724"
+				"021987D90305FE25"
+				"34589012DCDDB476"
+				"33DFC2112543973C"
+				"530061D68B9C36ED"
+				"5297052C3503826D"
+			]
+			id: "0AD0CAC4641EB9A7"
+			tasks: [{
+				id: "0C0FAB9DC9E3B5D3"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_ars"
+			}]
+			rewards: [{
+				id: "3B1D2E2315AC76C9"
+				type: "item"
+				item: "ragnamod_seven:agglomerate_matter_ars"
+			}]
+		}
+		{
+			title: "BLACK SPHERE OF DOOM"
+			icon: "ragnamod_seven:black_sphere"
+			x: -5.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"The BLACK SPHERE is a huge multiblock structure needed to craft the Sphere of All Things !"
+				"{image:ftbquests:textures/quests/black_sphere.png width:150 height:100 align:1}"
+				"It's a 21x21x21 black sphere with on the inside another small sphere full of stuff and the interface to craft the thing."
+				"{image:ftbquests:textures/quests/black_sphere_inside.png width:150 height:100 align:1}"
+				"{image:ftbquests:textures/quests/black_sphere_nucleus.png width:150 height:100 align:1}"
+				""
+				"You can build it with the Schematiccanon (that's nice) =)"
+			]
+			dependencies: [
+				"1ACEEE78E66C87E1"
+				"5297052C3503826D"
+			]
+			size: 5.0d
+			id: "794FC8543CCB9C7B"
+			tasks: [
+				{
+					id: "1613F6B800185917"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:black_sphere"
+						}
+					}
+				}
+				{
+					id: "55A713172B1518B2"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "7EAEA051B44DEA7D"
+					type: "item"
+					item: "avaritia:crystal_matrix_block"
+					count: 26L
+				}
+				{
+					id: "4D4A5014B2309EE6"
+					type: "item"
+					item: "avaritia:infinity_block"
+					count: 54L
+				}
+				{
+					id: "10EB26E2D04B457A"
+					type: "item"
+					item: "ragnamod_seven:noisy_neutronium"
+					count: 89L
+				}
+				{
+					id: "52F8E776A8F50AAE"
+					type: "item"
+					item: "miniutilities:black_lapis_caelestis"
+					count: 1082L
+				}
+			]
+			rewards: [{
+				id: "4C1209370CE424C2"
+				type: "item"
+				item: "farmersdelight:chocolate_pie_slice"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			shape: "square"
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			dependencies: [
+				"7DB05A733E518A2C"
+				"5297052C3503826D"
+			]
+			id: "1128CB67C1938B4C"
+			tasks: [{
+				id: "5E1E9BFE9E1C9E12"
+				type: "item"
+				item: "ragnamod_seven:war_ingot"
+			}]
+			rewards: [{
+				id: "73B7CD552DFD1DB1"
+				type: "item"
+				item: "ragnamod_seven:war_ingot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "square"
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			dependencies: [
+				"0DBBC8BED56B6724"
+				"5297052C3503826D"
+			]
+			id: "03B3688617179FB7"
+			tasks: [{
+				id: "329FA5FF44F0D2F1"
+				type: "item"
+				item: "ragnamod_seven:famine_ingot"
+			}]
+			rewards: [{
+				id: "0A16D88E9AF95E0A"
+				type: "item"
+				item: "ragnamod_seven:famine_ingot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "square"
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			dependencies: [
+				"23FE6CC4C99BC123"
+				"5297052C3503826D"
+			]
+			id: "2774828C945DFCB0"
+			tasks: [{
+				id: "468FCE5DD2A61BC8"
+				type: "item"
+				item: "ragnamod_seven:death_ingot"
+			}]
+			rewards: [{
+				id: "084956AA7F026F97"
+				type: "item"
+				item: "ragnamod_seven:death_ingot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			dependencies: [
+				"7CF652CE23323DEB"
+				"5297052C3503826D"
+			]
+			id: "4031994E43228C99"
+			tasks: [{
+				id: "773843ED8B482160"
+				type: "item"
+				item: "ragnamod_seven:conquest_ingot"
+			}]
+			rewards: [{
+				id: "31BD777EFBF4E647"
+				type: "item"
+				item: "ragnamod_seven:conquest_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			shape: "square"
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			dependencies: [
+				"7378AC5DC34DC7FA"
+				"5297052C3503826D"
+			]
+			id: "7CF652CE23323DEB"
+			tasks: [{
+				id: "47913E9902D3340B"
+				type: "item"
+				item: "ragnamod_seven:conquest_essence_materialized"
+			}]
+			rewards: [{
+				id: "00DF3F255D9693A4"
+				type: "item"
+				item: "ragnamod_seven:conquest_essence_materialized"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "square"
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			dependencies: [
+				"463778EA15DBED66"
+				"5297052C3503826D"
+			]
+			id: "7DB05A733E518A2C"
+			tasks: [{
+				id: "42435D4987C00CCB"
+				type: "item"
+				item: "ragnamod_seven:war_essence_materialized"
+			}]
+			rewards: [{
+				id: "38020D90E659BED7"
+				type: "item"
+				item: "ragnamod_seven:war_essence_materialized"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "square"
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			dependencies: [
+				"78A87D7F58A02BA8"
+				"5297052C3503826D"
+			]
+			id: "0DBBC8BED56B6724"
+			tasks: [{
+				id: "52AD89DD188DF78D"
+				type: "item"
+				item: "ragnamod_seven:famine_essence_materialized"
+			}]
+			rewards: [{
+				id: "78F575FFD6202F84"
+				type: "item"
+				item: "ragnamod_seven:famine_essence_materialized"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			shape: "square"
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			dependencies: [
+				"6B762DC0D8C1CDB5"
+				"5297052C3503826D"
+			]
+			id: "23FE6CC4C99BC123"
+			tasks: [{
+				id: "7122172812962B2A"
+				type: "item"
+				item: "ragnamod_seven:death_essence_materialized"
+			}]
+			rewards: [{
+				id: "1A1EDC510A8F9CDB"
+				type: "item"
+				item: "ragnamod_seven:death_essence_materialized"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
+				"{image:ftbquests:textures/quests/twilight_conquest.png width:150 height:100 align:1}"
+				"Beat Conquest to get his Essence !"
+			]
+			dependencies: ["5297052C3503826D"]
+			id: "7378AC5DC34DC7FA"
+			tasks: [{
+				id: "59CD7AF465B2CCFF"
+				type: "item"
+				item: "ragnamod_seven:conquest_essence"
+			}]
+			rewards: [{
+				id: "7CE2778835EF594A"
+				type: "item"
+				item: "farmersdelight:apple_pie_slice"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
+				"{image:ftbquests:textures/quests/twilight_war.png width:150 height:100 align:1}"
+				"Beat War to get his Essence !"
+			]
+			dependencies: ["5297052C3503826D"]
+			id: "463778EA15DBED66"
+			tasks: [{
+				id: "4F76E98B0D119AF8"
+				type: "item"
+				item: "ragnamod_seven:war_essence"
+			}]
+			rewards: [{
+				id: "70E788FA8A86C8CB"
+				type: "item"
+				item: "farmersdelight:apple_pie_slice"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
+				"{image:ftbquests:textures/quests/twilight_famine.png width:150 height:100 align:1}"
+				"Beat Famine to get his Essence !"
+			]
+			dependencies: ["5297052C3503826D"]
+			id: "78A87D7F58A02BA8"
+			tasks: [{
+				id: "65D7B9800021E7A5"
+				type: "item"
+				item: "ragnamod_seven:famine_essence"
+			}]
+			rewards: [{
+				id: "04FBB9C2B2370AC1"
+				type: "item"
+				item: "farmersdelight:apple_pie_slice"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
+				"{image:ftbquests:textures/quests/twilight_death.png width:150 height:100 align:1}"
+				"Beat Death to get his Essence !"
+			]
+			dependencies: ["5297052C3503826D"]
+			id: "6B762DC0D8C1CDB5"
+			tasks: [{
+				id: "15A999A45BB70942"
+				type: "item"
+				item: "ragnamod_seven:death_essence"
+			}]
+			rewards: [{
+				id: "0749552CF2292A67"
+				type: "item"
+				item: "farmersdelight:apple_pie_slice"
+			}]
+		}
+		{
+			title: "Death Armor"
+			x: 5.5d
+			y: -2.5d
+			shape: "square"
+			description: ["Craft the Death armor, it's used to the End Game armor."]
+			dependencies: [
+				"2774828C945DFCB0"
+				"5297052C3503826D"
+			]
+			id: "74184BAAF91ED14E"
+			tasks: [
+				{
+					id: "6BB6C746A7A8C5B8"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:death_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6EAFD50C881E0EA2"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:death_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A8AC2E22F824986"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:death_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E4D305711247D91"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:death_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "51A70472DB5F4848"
+				type: "item"
+				item: "ragnamod_seven:death_block"
+			}]
+		}
+		{
+			title: "Conquest Armor"
+			x: 5.5d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft the Conquest armor, it's used to the End Game armor."]
+			dependencies: [
+				"4031994E43228C99"
+				"5297052C3503826D"
+			]
+			id: "3E78A0BB34A8A67F"
+			tasks: [
+				{
+					id: "0B4108C150A38CC4"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:conquest_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BF22FDE3B28A505"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:conquest_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E51A33FD21EA0CF"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:conquest_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "281BC9070DBFB24D"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:conquest_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1EE812F3777B0E55"
+				type: "item"
+				item: "ragnamod_seven:conquest_block"
+			}]
+		}
+		{
+			title: "Famine Armor"
+			x: 5.0d
+			y: -1.0d
+			shape: "square"
+			description: ["Craft the Famine armor, it's used to the End Game armor."]
+			dependencies: [
+				"03B3688617179FB7"
+				"5297052C3503826D"
+			]
+			id: "0D2A58ABA29B4D31"
+			tasks: [
+				{
+					id: "27D1ABB0805E01C2"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:famine_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4893650E2F180F73"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:famine_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EEB80006CC7B315"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:famine_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4954551E1B3D2534"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:famine_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4DD7A571F7D1B175"
+				type: "item"
+				item: "ragnamod_seven:famine_block"
+			}]
+		}
+		{
+			title: "War Armor"
+			x: 5.0d
+			y: 1.0d
+			shape: "square"
+			description: ["Craft the War armor, it's used to the End Game armor."]
+			dependencies: [
+				"1128CB67C1938B4C"
+				"5297052C3503826D"
+			]
+			id: "501B92E11DD9C598"
+			tasks: [
+				{
+					id: "27CD798676D7E9AC"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:war_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3443306EE3DA6CCC"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:war_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E0A649426A1F335"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:war_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36383F67ED5E65C8"
+					type: "item"
+					item: {
+						id: "ragnamod_seven:war_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4B21F9EDD9CC9996"
+				type: "item"
+				item: "ragnamod_seven:war_block"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

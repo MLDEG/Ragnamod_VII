@@ -1,7 +1,7 @@
 {
 	id: "67B9CFBCE02F42D2"
 	group: ""
-	order_index: 21
+	order_index: 19
 	filename: "psi"
 	title: " PSI"
 	icon: {
@@ -35,7 +35,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Iron and Gold Rod Frame are used to craft Psidusts and Psimetal Ingots."]
-			dependencies: ["0000000000000AAB"]
+			dependencies: [
+				"0000000000000AAB"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A7E"
 			tasks: [
 				{
@@ -60,7 +63,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Psimetal Rod Frame is used to craft Psigems."]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A82"
 			tasks: [{
 				id: "0000000000000A83"
@@ -78,7 +84,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Craft an Invory Psimetal Rod Frame using Ivory Psimetal Ingots."]
-			dependencies: ["0000000000000A8E"]
+			dependencies: [
+				"0000000000000A8E"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A84"
 			tasks: [{
 				id: "0000000000000A85"
@@ -96,7 +105,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["Craft an Ebony Psimetal Rod Frame using Ebony Psimetal Ingots."]
-			dependencies: ["0000000000000A90"]
+			dependencies: [
+				"0000000000000A90"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A86"
 			tasks: [{
 				id: "0000000000000A87"
@@ -115,7 +127,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["To get Psidust you have to shoot Redstone Dust with your Focusing Rod, and to get your Focusing Rod simply put your Iron or Gold Rod Frame in your Rod Constructor."]
-			dependencies: ["0000000000000A7E"]
+			dependencies: [
+				"0000000000000A7E"
+				"6C08FEEEC41D0620"
+			]
 			size: 1.5d
 			id: "0000000000000A88"
 			tasks: [{
@@ -142,7 +157,10 @@
 				"{image:ftbquests:textures/quests/psi_psimetal.png width:150 height:100 align:1}"
 				"For that, go to your Spell Inscriber, select any square and search \"Trick:Infusion\". Now simply right-click the Spell Inscriber with a Node and put this in your Rod Constructor."
 			]
-			dependencies: ["0000000000000A7E"]
+			dependencies: [
+				"0000000000000A7E"
+				"6C08FEEEC41D0620"
+			]
 			size: 1.5d
 			id: "0000000000000A8A"
 			tasks: [{
@@ -165,7 +183,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["To get your Psigem, same deal than the Psimetal Ingots, but you're going to need another spell, The \"Greater Infusion\". But be careful, this time you need another Focusing Rod, make one with your Psimetal Ingots."]
-			dependencies: ["0000000000000A82"]
+			dependencies: [
+				"0000000000000A82"
+				"6C08FEEEC41D0620"
+			]
 			size: 1.5d
 			id: "0000000000000A8C"
 			tasks: [{
@@ -188,7 +209,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Ivory Psimetal Ingot is made with Ivory substance, those are made with another spell, \"Trick: Ebony and Ivory\", performed in the End dimension."]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A8E"
 			tasks: [{
 				id: "0000000000000A8F"
@@ -210,7 +234,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Ebony Psimetal Ingot is made with Ebony substance, those are made with another spell, \"Trick: Ebony and Ivory\", performed in the End dimension."]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A90"
 			tasks: [{
 				id: "0000000000000A91"
@@ -235,7 +262,10 @@
 				"Craft a Psimetal Exosuit."
 				"It's used to the End Game armor."
 			]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A92"
 			tasks: [
 				{
@@ -309,7 +339,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Minor Rod Notch can hold up to four Spell Nodes at a time, and can transfer Spells up to 5x5 in size."]
-			dependencies: ["0000000000000A88"]
+			dependencies: [
+				"0000000000000A88"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A97"
 			tasks: [{
 				id: "0000000000000A98"
@@ -327,7 +360,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The Flashing Rod Notch can hold up to six Spell Nodes at a time, and can transfer Spells up to 7x7 in size."]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A99"
 			tasks: [{
 				id: "0000000000000A9A"
@@ -345,7 +381,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["The Medium Rod Notch can hold up to eight Spell Nodes at a time, and can transfer Spells up to 6x6 in size."]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A9B"
 			tasks: [{
 				id: "0000000000000A9C"
@@ -363,7 +402,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The Beaming Rod Notch can hold up to ten Spells Nodes at a time, and can transfer Spells up to 9x9 in size."]
-			dependencies: ["0000000000000A8C"]
+			dependencies: [
+				"0000000000000A8C"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A9D"
 			tasks: [{
 				id: "0000000000000A9E"
@@ -381,7 +423,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Major Rod Notch can hold up to twelve Spells Nodes at a time, and can transfer Spells up to 8x8 in size."]
-			dependencies: ["0000000000000A8C"]
+			dependencies: [
+				"0000000000000A8C"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000A9F"
 			tasks: [{
 				id: "0000000000000AA0"
@@ -403,7 +448,10 @@
 				""
 				"It's not fantastic, but it's quite sufficient for a beginner's needs."
 			]
-			dependencies: ["0000000000000A88"]
+			dependencies: [
+				"0000000000000A88"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AA1"
 			tasks: [{
 				id: "0000000000000AA2"
@@ -421,7 +469,10 @@
 			y: 4.5d
 			shape: "square"
 			description: ["The Quick Rod Crux has twice the complexity of its Basic predecessor, and thrice the projection."]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AA3"
 			tasks: [{
 				id: "0000000000000AA4"
@@ -439,7 +490,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The Bright Rod Crux has less complexity than the Quick Rod Crux, but can handle four tricks at once."]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AA5"
 			tasks: [{
 				id: "0000000000000AA6"
@@ -457,7 +511,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Swift Rod Crux has double the complexity of a Bright Rod Crux and double the projection of a Quick Rod Crux."]
-			dependencies: ["0000000000000A8C"]
+			dependencies: [
+				"0000000000000A8C"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AA7"
 			tasks: [{
 				id: "0000000000000AA8"
@@ -475,7 +532,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Radiant Rod Crux has less projection than the Swift Rod Crux, but has the capability to execute a staggering seven tricks per cast."]
-			dependencies: ["0000000000000A8C"]
+			dependencies: [
+				"0000000000000A8C"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AA9"
 			tasks: [{
 				id: "0000000000000AAA"
@@ -513,7 +573,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Spell Inscriber is used to write and compile spells, and copied into Spell Nodes to be cast."]
-			dependencies: ["0000000000000A88"]
+			dependencies: [
+				"0000000000000A88"
+				"6C08FEEEC41D0620"
+			]
 			size: 2.0d
 			id: "0000000000000AAD"
 			tasks: [{
@@ -534,7 +597,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Mindful Scroll can store a single Spell for later use."]
-			dependencies: ["0000000000000A8C"]
+			dependencies: [
+				"0000000000000A8C"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AAF"
 			tasks: [{
 				id: "0000000000000AB0"
@@ -566,7 +632,10 @@
 				""
 				"The Glowing Rod Source has an overflow of 100."
 			]
-			dependencies: ["0000000000000A88"]
+			dependencies: [
+				"0000000000000A88"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AB1"
 			tasks: [{
 				id: "0000000000000AB2"
@@ -590,7 +659,10 @@
 				""
 				"The Sparkling Rod Source has an overflow of 200."
 			]
-			dependencies: ["0000000000000A8A"]
+			dependencies: [
+				"0000000000000A8A"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AB3"
 			tasks: [{
 				id: "0000000000000AB4"
@@ -614,7 +686,10 @@
 				""
 				"The Bursting Rod Source has an overflow of 400."
 			]
-			dependencies: ["0000000000000A8C"]
+			dependencies: [
+				"0000000000000A8C"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AB5"
 			tasks: [{
 				id: "0000000000000AB6"
@@ -638,7 +713,10 @@
 				"The Focal Point for this type of Node is just the caster."
 				"Its cost of casting is exactly what the Spell Inscriber says it is."
 			]
-			dependencies: ["0000000000000AAD"]
+			dependencies: [
+				"0000000000000AAD"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AB7"
 			tasks: [{
 				id: "0000000000000AB8"
@@ -670,7 +748,10 @@
 				""
 				"This projectile acts as the Focal Point for its Spell, executing it when the projectile collides with something."
 			]
-			dependencies: ["0000000000000AAD"]
+			dependencies: [
+				"0000000000000AAD"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AB9"
 			tasks: [{
 				id: "0000000000000ABA"
@@ -702,7 +783,10 @@
 				""
 				"A Spell cast from one of these Node is executed over and over nonstop, four times a second, until the Rod it was cast from stops being held in the same hand, or a different Spell is selected."
 			]
-			dependencies: ["0000000000000AAD"]
+			dependencies: [
+				"0000000000000AAD"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000ABB"
 			tasks: [{
 				id: "0000000000000ABC"
@@ -733,7 +817,10 @@
 				"When the Spell is first cast, a Spell Circle is conjured at the point the caster is looking at, which acts as the Focal Point for the Spell."
 				"This circle executes the Spell four times a second until it runs out of Psi energy, five seconds later."
 			]
-			dependencies: ["0000000000000AAD"]
+			dependencies: [
+				"0000000000000AAD"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000ABD"
 			tasks: [{
 				id: "0000000000000ABE"
@@ -765,7 +852,10 @@
 				""
 				"It executes its contained Spell after exactly three seconds, no sooner and no later."
 			]
-			dependencies: ["0000000000000AAD"]
+			dependencies: [
+				"0000000000000AAD"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000ABF"
 			tasks: [{
 				id: "0000000000000AC0"
@@ -795,7 +885,10 @@
 				""
 				"A Mine Spell obeys gravity and has a five-minute lifespan, and only executes its stored Spell once stepped on by someone (or something)."
 			]
-			dependencies: ["0000000000000AAD"]
+			dependencies: [
+				"0000000000000AAD"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AC1"
 			tasks: [{
 				id: "0000000000000AC2"
@@ -825,7 +918,10 @@
 				""
 				"However, unlike a Spell Grenade, a Spell Charge can last up to five minutes, and only executes its Spell when specially told to do so by a Spell Detonator."
 			]
-			dependencies: ["0000000000000AAD"]
+			dependencies: [
+				"0000000000000AAD"
+				"6C08FEEEC41D0620"
+			]
 			id: "0000000000000AC3"
 			tasks: [{
 				id: "0000000000000AC4"
@@ -861,7 +957,10 @@
 				"The PSI Stabilizer is a multiblock that farm for you the stuff you put inside from PSI."
 				"{image:ftbquests:textures/quests/psi_stabilizer.png width:150 height:100 align:1}"
 			]
-			dependencies: ["0000000000000AAB"]
+			dependencies: [
+				"0000000000000AAB"
+				"6C08FEEEC41D0620"
+			]
 			id: "5CBDB0076EFB07B9"
 			tasks: [
 				{

@@ -303,7 +303,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Infinity Ingot is a combination of a lot of ingots."]
-			dependencies: ["0C4F359B153DD1A0"]
+			dependencies: [
+				"0C4F359B153DD1A0"
+				"124C6442CC789FCA"
+			]
 			id: "1ACEEE78E66C87E1"
 			tasks: [{
 				id: "3B9730ADC1B828BF"
@@ -357,6 +360,7 @@
 				"02148983D2A8BFE1"
 				"655DEE40F0A4D2C7"
 				"23679277982E8281"
+				"124C6442CC789FCA"
 			]
 			size: 2.0d
 			id: "4BB16AAE2B3D988C"
@@ -376,7 +380,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["Craft an ingot of Neutronium."]
-			dependencies: ["29BC70C23160F467"]
+			dependencies: [
+				"29BC70C23160F467"
+				"124C6442CC789FCA"
+			]
 			id: "60FD4D8FA17A53D7"
 			tasks: [{
 				id: "43E33A028784C1A8"
@@ -400,7 +407,10 @@
 				""
 				"Also, its use in the Sphere of All Things."
 			]
-			dependencies: ["0C4F359B153DD1A0"]
+			dependencies: [
+				"0C4F359B153DD1A0"
+				"124C6442CC789FCA"
+			]
 			id: "44FA34508B9165D3"
 			tasks: [{
 				id: "23B27C9C700ED3DC"
@@ -421,6 +431,7 @@
 			dependencies: [
 				"7AC685304D600112"
 				"17F7C5A61072C5BA"
+				"124C6442CC789FCA"
 			]
 			id: "29BC70C23160F467"
 			tasks: [{
@@ -448,6 +459,7 @@
 			dependencies: [
 				"0C4F359B153DD1A0"
 				"4E2B181F09508CB7"
+				"124C6442CC789FCA"
 			]
 			size: 2.0d
 			id: "7C4CE07814F3CD94"
@@ -498,7 +510,10 @@
 				""
 				"So the table do the craft automatically when you place all the component inside."
 			]
-			dependencies: ["7AC685304D600112"]
+			dependencies: [
+				"7AC685304D600112"
+				"124C6442CC789FCA"
+			]
 			size: 2.0d
 			id: "0C4F359B153DD1A0"
 			tasks: [{
@@ -528,7 +543,10 @@
 				""
 				"Also, its use in the Sphere of All Things."
 			]
-			dependencies: ["0C4F359B153DD1A0"]
+			dependencies: [
+				"0C4F359B153DD1A0"
+				"124C6442CC789FCA"
+			]
 			id: "62DC11B5E2D8D158"
 			tasks: [{
 				id: "318384ABAEFA1C50"
@@ -546,7 +564,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Sword of the Cosmos can one shot every mob, even a Creative player !"]
-			dependencies: ["4BB16AAE2B3D988C"]
+			dependencies: [
+				"4BB16AAE2B3D988C"
+				"124C6442CC789FCA"
+			]
 			id: "7B1E28049CF2BB91"
 			tasks: [{
 				id: "55DE00D19650992E"
@@ -571,7 +592,10 @@
 				""
 				"It can also one shot a tree."
 			]
-			dependencies: ["4BB16AAE2B3D988C"]
+			dependencies: [
+				"4BB16AAE2B3D988C"
+				"124C6442CC789FCA"
+			]
 			id: "0BC50A2F30D2979D"
 			tasks: [{
 				id: "79241B3DACB809C6"
@@ -590,7 +614,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Hoe of the Green Earth can till your dirt in a large area."]
-			dependencies: ["4BB16AAE2B3D988C"]
+			dependencies: [
+				"4BB16AAE2B3D988C"
+				"124C6442CC789FCA"
+			]
 			id: "0D410CE5633E3C8B"
 			tasks: [{
 				id: "18AF819E49A411EC"
@@ -614,7 +641,10 @@
 				""
 				"note: It can't break Bedrock unfortunately."
 			]
-			dependencies: ["4BB16AAE2B3D988C"]
+			dependencies: [
+				"4BB16AAE2B3D988C"
+				"124C6442CC789FCA"
+			]
 			id: "1CD8FCD368167EC0"
 			tasks: [{
 				id: "6ED22CB6BE9D81D0"
@@ -637,7 +667,10 @@
 				""
 				"You can shift right-click to do a huge hole in the ground, like the World Breaker in hammer form."
 			]
-			dependencies: ["4BB16AAE2B3D988C"]
+			dependencies: [
+				"4BB16AAE2B3D988C"
+				"124C6442CC789FCA"
+			]
 			id: "673E7BBEA85FAE5B"
 			tasks: [{
 				id: "506F729B86B972DF"
@@ -656,7 +689,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Longbow of the Heavens shoot explosive arrow and target entities nearby !"]
-			dependencies: ["4BB16AAE2B3D988C"]
+			dependencies: [
+				"4BB16AAE2B3D988C"
+				"124C6442CC789FCA"
+			]
 			id: "33C6F163371F26D1"
 			tasks: [{
 				id: "6D3B174124199283"
@@ -679,6 +715,7 @@
 			dependencies: [
 				"55406F7249F6C73D"
 				"4BB16AAE2B3D988C"
+				"124C6442CC789FCA"
 			]
 			id: "618E3E54728B3C47"
 			tasks: [
@@ -716,7 +753,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "251E6A1B45026493"
 			tasks: [{
@@ -736,7 +776,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2713F06E8F8AF835"
 			tasks: [{
@@ -756,7 +799,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6E444598963DA21C"
 			tasks: [{
@@ -776,7 +822,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "5E60E3F6A8C20064"
 			tasks: [{
@@ -796,7 +845,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1749B3AF2FD75C51"
 			tasks: [{
@@ -816,7 +868,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "59E1B3EAC3180117"
 			tasks: [{
@@ -836,7 +891,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4DFEE7117FA2478C"
 			tasks: [{
@@ -856,7 +914,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "408DF0125CC4AB09"
 			tasks: [{
@@ -876,7 +937,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4B91CE7668FEAE30"
 			tasks: [{
@@ -896,7 +960,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0B70CEDC56448D5A"
 			tasks: [{
@@ -916,7 +983,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "29772D0B95C39C2F"
 			tasks: [{
@@ -936,7 +1006,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0AD430735024B6E1"
 			tasks: [{
@@ -956,7 +1029,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2436EC8D54F4E3DA"
 			tasks: [{
@@ -976,7 +1052,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "29895C7F5B8CAC2A"
 			tasks: [{
@@ -996,7 +1075,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "11A2CC2E71F0F784"
 			tasks: [{
@@ -1016,7 +1098,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "3AE25FC89DA6D458"
 			tasks: [{
@@ -1036,7 +1121,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0FCA4B369B8794DB"
 			tasks: [{
@@ -1056,7 +1144,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7C68E956E31DA57F"
 			tasks: [{
@@ -1076,7 +1167,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "5A50C366408F47EA"
 			tasks: [{
@@ -1096,7 +1190,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blue Skies's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1D2E7BB67858314A"
 			tasks: [{
@@ -1116,7 +1213,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "18DBA8924B949C76"
 			tasks: [{
@@ -1136,7 +1236,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "44349A99105AFD28"
 			tasks: [{
@@ -1156,7 +1259,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6E04994156C28E24"
 			tasks: [{
@@ -1176,7 +1282,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "46F30243449B2734"
 			tasks: [{
@@ -1196,7 +1305,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2656F8578D8F9452"
 			tasks: [{
@@ -1216,7 +1328,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "28C56D2A0BFB5B8D"
 			tasks: [{
@@ -1236,7 +1351,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "266832DCE491FD9E"
 			tasks: [{
@@ -1256,7 +1374,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2E80AC6915DEB4A8"
 			tasks: [{
@@ -1276,7 +1397,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Create's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0DABD0C008C25433"
 			tasks: [{
@@ -1296,7 +1420,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "28D3011A0113E011"
 			tasks: [{
@@ -1316,7 +1443,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1312E20AFD8592B6"
 			tasks: [{
@@ -1336,7 +1466,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "41578C6A39AD5F85"
 			tasks: [{
@@ -1356,7 +1489,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "43230420E37AE1A5"
 			tasks: [{
@@ -1376,7 +1512,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6CB08321856228EF"
 			tasks: [{
@@ -1396,7 +1535,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4FF15EB458E5D19E"
 			tasks: [{
@@ -1416,7 +1558,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6706AE0D7D6F644D"
 			tasks: [{
@@ -1436,7 +1581,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "3D049D87660F2DCA"
 			tasks: [{
@@ -1456,7 +1604,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "73F951AFBDA8C471"
 			tasks: [{
@@ -1476,7 +1627,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1EA4F5C586A4113A"
 			tasks: [{
@@ -1496,7 +1650,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2E53598EC55D2500"
 			tasks: [{
@@ -1516,7 +1673,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6C78396355D8B098"
 			tasks: [{
@@ -1536,7 +1696,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0C82B3ECB472A177"
 			tasks: [{
@@ -1556,7 +1719,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "62258E132AB71313"
 			tasks: [{
@@ -1576,7 +1742,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4BBB4E4DBE78CA37"
 			tasks: [{
@@ -1596,7 +1765,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "69F42B5F95A4027A"
 			tasks: [{
@@ -1616,7 +1788,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4E7796B4E0D73019"
 			tasks: [{
@@ -1636,7 +1811,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "52C8729064F15DFE"
 			tasks: [{
@@ -1656,7 +1834,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "77276EB31CEB0E2E"
 			tasks: [{
@@ -1676,7 +1857,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6BAF2DCA4960D912"
 			tasks: [{
@@ -1696,7 +1880,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1B3D5C53950D5796"
 			tasks: [{
@@ -1716,7 +1903,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "04F36C203898D280"
 			tasks: [{
@@ -1736,7 +1926,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7619F461E6D406A0"
 			tasks: [{
@@ -1756,7 +1949,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "20F138A5251E47C7"
 			tasks: [{
@@ -1776,7 +1972,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4DA4C8DC392E5A99"
 			tasks: [{
@@ -1796,7 +1995,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "07FF2975596D6998"
 			tasks: [{
@@ -1816,7 +2018,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7C4B96E4CBD1CA93"
 			tasks: [{
@@ -1836,7 +2041,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1E2619AA4A231C5B"
 			tasks: [{
@@ -1856,7 +2064,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "3F95A9734789F444"
 			tasks: [{
@@ -1876,7 +2087,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "33089F28776AF3AB"
 			tasks: [{
@@ -1896,7 +2110,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Powah's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "01FD06A6CCB9CCBB"
 			tasks: [{
@@ -1916,7 +2133,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "5ED7BEB66A4B0FD8"
 			tasks: [{
@@ -1936,7 +2156,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0E8179AAF84D9986"
 			tasks: [{
@@ -1956,7 +2179,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4ED24E24DA70048E"
 			tasks: [{
@@ -1976,7 +2202,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "699A3CCB6FB11AC4"
 			tasks: [{
@@ -1996,7 +2225,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "34D9796D28D39969"
 			tasks: [{
@@ -2016,7 +2248,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "014BD323EFE70ECE"
 			tasks: [{
@@ -2036,7 +2271,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1BCE74D74D232568"
 			tasks: [{
@@ -2056,7 +2294,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1EFEFCFFC1A290D9"
 			tasks: [{
@@ -2076,7 +2317,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "3F98B2679DC5D3F4"
 			tasks: [{
@@ -2096,7 +2340,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7B8173F63F7606F4"
 			tasks: [{
@@ -2116,7 +2363,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1435312BA63D7FD9"
 			tasks: [{
@@ -2136,7 +2386,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "12630ACDE5D39D4A"
 			tasks: [{
@@ -2156,7 +2409,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "06ED39CC5960DD3B"
 			tasks: [{
@@ -2176,7 +2432,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2A18E291D184701D"
 			tasks: [{
@@ -2196,7 +2455,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "1C637914E1B073BE"
 			tasks: [{
@@ -2216,7 +2478,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "763CA0E80C8AC96A"
 			tasks: [{
@@ -2236,7 +2501,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0824B31B72419973"
 			tasks: [{
@@ -2256,7 +2524,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7784DEC5D14A4C9C"
 			tasks: [{
@@ -2276,7 +2547,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "17CA5C2A71516EC3"
 			tasks: [{
@@ -2296,7 +2570,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7A408773F40CBA18"
 			tasks: [{
@@ -2316,7 +2593,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7112819DE6BE8DB6"
 			tasks: [{
@@ -2336,7 +2616,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "691BF4905A1C0E70"
 			tasks: [{
@@ -2356,7 +2639,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2A4FFF1775E7FCBD"
 			tasks: [{
@@ -2376,7 +2662,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "30DFE7E284C06FDE"
 			tasks: [{
@@ -2396,7 +2685,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Botania's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "090668C0C2DEC41F"
 			tasks: [{
@@ -2416,7 +2708,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "085A0DF6E2E87B85"
 			tasks: [{
@@ -2436,7 +2731,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0402B431707FC404"
 			tasks: [{
@@ -2456,7 +2754,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "27D4FF14FE6C71CD"
 			tasks: [{
@@ -2476,7 +2777,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blocky's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7F46D3DE352C0E73"
 			tasks: [{
@@ -2496,7 +2800,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "7F656F74823B8201"
 			tasks: [{
@@ -2516,7 +2823,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "769E8396EC469A33"
 			tasks: [{
@@ -2536,7 +2846,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "79753127C6D7FA9A"
 			tasks: [{
@@ -2556,7 +2869,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "108908EF890A02C5"
 			tasks: [{
@@ -2576,7 +2892,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Craft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "3B247C4D19D7763F"
 			tasks: [{
@@ -2596,7 +2915,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "65687FF8AA44C6C8"
 			tasks: [{
@@ -2616,7 +2938,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6DDFE3BB69DD94CC"
 			tasks: [{
@@ -2636,7 +2961,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "38C9F8725E326986"
 			tasks: [{
@@ -2656,7 +2984,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the AE2's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0C40A79394EAD14F"
 			tasks: [{
@@ -2676,7 +3007,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "27BDD1B9FE670C31"
 			tasks: [{
@@ -2696,7 +3030,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "3FBD938547453C93"
 			tasks: [{
@@ -2716,7 +3053,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "17D1E6F0DF180588"
 			tasks: [{
@@ -2736,7 +3076,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2B862C765AF954FB"
 			tasks: [{
@@ -2756,7 +3099,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "2049D2DC86D14172"
 			tasks: [{
@@ -2776,7 +3122,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "15DDC7BE86249770"
 			tasks: [{
@@ -2796,7 +3145,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4D4A8F0DEE3C62E5"
 			tasks: [{
@@ -2816,7 +3168,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "56F2D8CA8C36CFCE"
 			tasks: [{
@@ -2836,7 +3191,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "6E201DECA0A191A3"
 			tasks: [{
@@ -2856,7 +3214,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "036AC0377E9323DA"
 			tasks: [{
@@ -2876,7 +3237,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "52B0536331A75724"
 			tasks: [{
@@ -2896,7 +3260,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "530061D68B9C36ED"
 			tasks: [{
@@ -2916,7 +3283,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "34589012DCDDB476"
 			tasks: [{
@@ -2936,7 +3306,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "33DFC2112543973C"
 			tasks: [{
@@ -2956,7 +3329,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Ars Nouveau's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "021987D90305FE25"
 			tasks: [{
@@ -2976,7 +3352,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0B4EFE18C192CF2C"
 			tasks: [{
@@ -2996,7 +3375,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0E5CA033F7D0DEB5"
 			tasks: [{
@@ -3016,7 +3398,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "4D1E682B88492490"
 			tasks: [{
@@ -3036,7 +3421,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "57BD06CFF2AC1201"
 			tasks: [{
@@ -3056,7 +3444,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "5AD86BB162BA9DB7"
 			tasks: [{
@@ -3076,7 +3467,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "01B72F4CDD6D178D"
 			tasks: [{
@@ -3096,7 +3490,10 @@
 			shape: "square"
 			description: ["This singularity is used to craft the Blood Magic's Agglomerate Matter."]
 			hide_dependency_lines: true
-			dependencies: ["7C4CE07814F3CD94"]
+			dependencies: [
+				"7C4CE07814F3CD94"
+				"124C6442CC789FCA"
+			]
 			size: 0.5d
 			id: "0BF496992EEC702D"
 			tasks: [{

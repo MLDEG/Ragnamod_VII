@@ -172,7 +172,10 @@
 			y: 5.0d
 			shape: "square"
 			description: ["The Elite Version grow yours seeds and saplings faster with more output."]
-			dependencies: ["66CC292233105671"]
+			dependencies: [
+				"66CC292233105671"
+				"577D6202E19B2599"
+			]
 			id: "050A2CD317C300A8"
 			tasks: [{
 				id: "69AF1172472D89FC"
@@ -190,7 +193,10 @@
 			y: 5.5d
 			shape: "square"
 			description: ["The Ultra Version grow yours seeds and saplings even faster with more output."]
-			dependencies: ["050A2CD317C300A8"]
+			dependencies: [
+				"050A2CD317C300A8"
+				"577D6202E19B2599"
+			]
 			id: "02D769726E83C8E8"
 			tasks: [{
 				id: "7A8D1FDE850EDC44"
@@ -208,7 +214,10 @@
 			y: 6.5d
 			shape: "square"
 			description: ["The Creative Version grow yours seeds and saplings very very fast with a lot of output !"]
-			dependencies: ["02D769726E83C8E8"]
+			dependencies: [
+				"02D769726E83C8E8"
+				"577D6202E19B2599"
+			]
 			id: "3E72D0D5D73F385A"
 			tasks: [{
 				id: "29C926FFBB865FC0"
@@ -230,7 +239,10 @@
 				""
 				"The dank 1 can store up to 256 item and have 9 slots."
 			]
-			dependencies: ["178FE177270B3065"]
+			dependencies: [
+				"178FE177270B3065"
+				"577D6202E19B2599"
+			]
 			id: "59BAC70CFBA8811F"
 			tasks: [{
 				id: "36FF4966A119B3E8"
@@ -249,7 +261,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The dank 2 can store up to 1024 item and have 18 slots."]
-			dependencies: ["59BAC70CFBA8811F"]
+			dependencies: [
+				"59BAC70CFBA8811F"
+				"577D6202E19B2599"
+			]
 			id: "2317EF6D7592EDC6"
 			tasks: [{
 				id: "31430EED1123CBF8"
@@ -268,7 +283,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The dank 3 can store up to 4096 item and have 27 slots."]
-			dependencies: ["2317EF6D7592EDC6"]
+			dependencies: [
+				"2317EF6D7592EDC6"
+				"577D6202E19B2599"
+			]
 			id: "7B1B4BB8E83181B0"
 			tasks: [{
 				id: "1154381A316BABC9"
@@ -287,7 +305,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The dank 4 can store up to 16384 item and have 36 slots."]
-			dependencies: ["7B1B4BB8E83181B0"]
+			dependencies: [
+				"7B1B4BB8E83181B0"
+				"577D6202E19B2599"
+			]
 			id: "210B3504443B45BA"
 			tasks: [{
 				id: "623B7908101A95C2"
@@ -306,7 +327,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The dank 5 can store up to 65536 item and have 45 slots."]
-			dependencies: ["210B3504443B45BA"]
+			dependencies: [
+				"210B3504443B45BA"
+				"577D6202E19B2599"
+			]
 			id: "3E885DC660C9F10B"
 			tasks: [{
 				id: "4F8B96B0602FD0E3"
@@ -325,7 +349,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The dank 6 can store up to 262144 item and have 54 slots."]
-			dependencies: ["3E885DC660C9F10B"]
+			dependencies: [
+				"3E885DC660C9F10B"
+				"577D6202E19B2599"
+			]
 			id: "2D12BB615977C500"
 			tasks: [{
 				id: "5437A7DA1D988676"
@@ -344,7 +371,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The dank 7 can store up to near infinite item and have 81 slots."]
-			dependencies: ["2D12BB615977C500"]
+			dependencies: [
+				"2D12BB615977C500"
+				"577D6202E19B2599"
+			]
 			id: "6C58F245F608D715"
 			tasks: [{
 				id: "674271BEFF4A6F9E"
@@ -416,7 +446,10 @@
 			y: 6.5d
 			shape: "square"
 			description: ["The Iron Backpack have 54 slots to put things and have 2 upgrade slots."]
-			dependencies: ["269D21923CB857A7"]
+			dependencies: [
+				"269D21923CB857A7"
+				"577D6202E19B2599"
+			]
 			id: "5378CA948429B7B3"
 			tasks: [{
 				id: "1138047A7103B267"
@@ -448,7 +481,10 @@
 			y: 6.5d
 			shape: "square"
 			description: ["The Gold Backpack have 81 slots to put things and have 3 upgrade slots."]
-			dependencies: ["5378CA948429B7B3"]
+			dependencies: [
+				"5378CA948429B7B3"
+				"577D6202E19B2599"
+			]
 			id: "71FDCBC2A8D9BD0E"
 			tasks: [{
 				id: "48CBDAFCD1C6176C"
@@ -480,7 +516,10 @@
 			y: 6.5d
 			shape: "square"
 			description: ["The Diamond Backpack have 108 slots to put things and have 5 upgrade slots."]
-			dependencies: ["71FDCBC2A8D9BD0E"]
+			dependencies: [
+				"71FDCBC2A8D9BD0E"
+				"577D6202E19B2599"
+			]
 			id: "65E3040EFE9F7C72"
 			tasks: [{
 				id: "5A94BF7066954988"
@@ -512,7 +551,10 @@
 			y: 6.5d
 			shape: "square"
 			description: ["The Netherite Backpack have 120 slots to put things and have 7 upgrade slots."]
-			dependencies: ["65E3040EFE9F7C72"]
+			dependencies: [
+				"65E3040EFE9F7C72"
+				"577D6202E19B2599"
+			]
 			id: "083C4D3950305289"
 			tasks: [{
 				id: "564ED070DA385A29"
@@ -591,7 +633,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["The Iron Furnace use 160 ticks to smelt something."]
-			dependencies: ["61F78EE2BCF65B54"]
+			dependencies: [
+				"61F78EE2BCF65B54"
+				"577D6202E19B2599"
+			]
 			id: "3354A2490DC664E7"
 			tasks: [{
 				id: "2F96BAEF6BB6387A"
@@ -610,7 +655,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["The Silver Furnace use 140 ticks to smelt something."]
-			dependencies: ["3354A2490DC664E7"]
+			dependencies: [
+				"3354A2490DC664E7"
+				"577D6202E19B2599"
+			]
 			id: "0BFEA039B42AF17A"
 			tasks: [{
 				id: "5E1082C9C3DC337B"
@@ -648,7 +696,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["The Gold Furnace use 120 ticks to smelt something."]
-			dependencies: ["0BFEA039B42AF17A"]
+			dependencies: [
+				"0BFEA039B42AF17A"
+				"577D6202E19B2599"
+			]
 			id: "1794B0912FC32133"
 			tasks: [{
 				id: "4EE53FD344D1DF8A"
@@ -667,7 +718,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["The Diamond Furnace use 80 ticks to smelt something."]
-			dependencies: ["1794B0912FC32133"]
+			dependencies: [
+				"1794B0912FC32133"
+				"577D6202E19B2599"
+			]
 			id: "38F21B6D8A3F4500"
 			tasks: [{
 				id: "0F2926D6D6E69CF8"
@@ -686,7 +740,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["The Emerald Furnace use 40 ticks to smelt something."]
-			dependencies: ["38F21B6D8A3F4500"]
+			dependencies: [
+				"38F21B6D8A3F4500"
+				"577D6202E19B2599"
+			]
 			id: "4879AC817FF297B3"
 			tasks: [{
 				id: "03AC5E2B8B839265"
@@ -708,6 +765,7 @@
 			dependencies: [
 				"5BF2042F87D0C6BD"
 				"4879AC817FF297B3"
+				"577D6202E19B2599"
 			]
 			dependency_requirement: "one_completed"
 			id: "09A85D028D01FE97"
@@ -728,7 +786,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["The Crystal Furnace use 40 ticks to smelt something."]
-			dependencies: ["38F21B6D8A3F4500"]
+			dependencies: [
+				"38F21B6D8A3F4500"
+				"577D6202E19B2599"
+			]
 			id: "5BF2042F87D0C6BD"
 			tasks: [{
 				id: "62FC46007643C2EC"
@@ -747,7 +808,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["The Netherite Furnace use 5 ticks to smelt something."]
-			dependencies: ["09A85D028D01FE97"]
+			dependencies: [
+				"09A85D028D01FE97"
+				"577D6202E19B2599"
+			]
 			id: "5A0B2E850F12BCB8"
 			tasks: [{
 				id: "1EE85CF6F0F01D0A"
@@ -775,6 +839,7 @@
 				"3354A2490DC664E7"
 				"5A0B2E850F12BCB8"
 				"09A85D028D01FE97"
+				"577D6202E19B2599"
 			]
 			id: "3F41EAF341742964"
 			tasks: [
@@ -809,7 +874,10 @@
 			y: 8.5d
 			shape: "square"
 			description: ["You can smelt with RF using a Heat Transmitter and Receiver."]
-			dependencies: ["61F78EE2BCF65B54"]
+			dependencies: [
+				"61F78EE2BCF65B54"
+				"577D6202E19B2599"
+			]
 			id: "6DABD2C542566176"
 			tasks: [
 				{
@@ -859,7 +927,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Iron Barrel have 54 slots to put things and have 2 upgrade slots."]
-			dependencies: ["1C896A52A86D60C9"]
+			dependencies: [
+				"1C896A52A86D60C9"
+				"577D6202E19B2599"
+			]
 			id: "3CA7C6E4B90E7E2F"
 			tasks: [{
 				id: "34243CF6B3D2CE48"
@@ -884,7 +955,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Gold Barrel have 81 slots to put things and have 3 upgrade slots."]
-			dependencies: ["3CA7C6E4B90E7E2F"]
+			dependencies: [
+				"3CA7C6E4B90E7E2F"
+				"577D6202E19B2599"
+			]
 			id: "008A107C0932CD2A"
 			tasks: [{
 				id: "5B09A5128EA27847"
@@ -909,7 +983,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Diamond Barrel have 108 slots to put things and have 5 upgrade slots."]
-			dependencies: ["008A107C0932CD2A"]
+			dependencies: [
+				"008A107C0932CD2A"
+				"577D6202E19B2599"
+			]
 			id: "04DCA1D5DF2CC988"
 			tasks: [{
 				id: "05B8684D3E806BD7"
@@ -934,7 +1011,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Netherite Barrel have 120 slots to put things and have 7 upgrade slots."]
-			dependencies: ["04DCA1D5DF2CC988"]
+			dependencies: [
+				"04DCA1D5DF2CC988"
+				"577D6202E19B2599"
+			]
 			id: "59FC629EB4799552"
 			tasks: [{
 				id: "6D6D377959049F05"
@@ -1050,7 +1130,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Iron chest have 54 slots to put things and have 2 upgrade slots."]
-			dependencies: ["1BA882F4CA682BAB"]
+			dependencies: [
+				"1BA882F4CA682BAB"
+				"577D6202E19B2599"
+			]
 			id: "30C701AF99006157"
 			tasks: [{
 				id: "695D2BAD3AB9B7A6"
@@ -1075,7 +1158,10 @@
 			y: -1.0d
 			shape: "square"
 			description: ["The Gold Chest have 81 slots to put things and have 3 upgrade slots."]
-			dependencies: ["30C701AF99006157"]
+			dependencies: [
+				"30C701AF99006157"
+				"577D6202E19B2599"
+			]
 			id: "4D369390E12BA60B"
 			tasks: [{
 				id: "1882AB65D44C4312"
@@ -1100,7 +1186,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["The Diamond Chest have 108 slots to put things and have 5 upgrade slots."]
-			dependencies: ["4D369390E12BA60B"]
+			dependencies: [
+				"4D369390E12BA60B"
+				"577D6202E19B2599"
+			]
 			id: "7ED79876EE4D0011"
 			tasks: [{
 				id: "64D24C51DAFC55D8"
@@ -1125,7 +1214,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Netherite Chest have 120 slots to put things and have 7 upgrade slots."]
-			dependencies: ["7ED79876EE4D0011"]
+			dependencies: [
+				"7ED79876EE4D0011"
+				"577D6202E19B2599"
+			]
 			id: "672189D3F78BFD00"
 			tasks: [{
 				id: "4A4202166CC1EDA3"
@@ -1173,7 +1265,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["The Iron Shulker have 54 slots to put things and have 2 upgrade slots."]
-			dependencies: ["118BC2A083BED6DE"]
+			dependencies: [
+				"118BC2A083BED6DE"
+				"577D6202E19B2599"
+			]
 			id: "14233AF80B6A7FE4"
 			tasks: [{
 				id: "0BCD84E415ABA3AF"
@@ -1192,7 +1287,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Gold Shulker have 81 slots to put things and have 3 upgrade slots."]
-			dependencies: ["14233AF80B6A7FE4"]
+			dependencies: [
+				"14233AF80B6A7FE4"
+				"577D6202E19B2599"
+			]
 			id: "279F0BD79453ED79"
 			tasks: [{
 				id: "135154F10BF9EB22"
@@ -1211,7 +1309,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["The Diamond Shulker have 108 slots to put things and have 5 upgrade slots."]
-			dependencies: ["279F0BD79453ED79"]
+			dependencies: [
+				"279F0BD79453ED79"
+				"577D6202E19B2599"
+			]
 			id: "14CEE4611690CC5B"
 			tasks: [{
 				id: "428CFF8ADE4C4168"
@@ -1230,7 +1331,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The Netherite Shulker have 120 slots to put things and have 7 upgrade slots."]
-			dependencies: ["14CEE4611690CC5B"]
+			dependencies: [
+				"14CEE4611690CC5B"
+				"577D6202E19B2599"
+			]
 			id: "45A412519D59BA1A"
 			tasks: [{
 				id: "28AE51DEE6941640"
@@ -1571,7 +1675,10 @@
 				"This magnet can attract items and xp within 11 blocks and can be filtered."
 				"The Demagnetization Coil prevents items up to 5 blocks away from being attracted by magnets and can be filtered."
 			]
-			dependencies: ["60084A07702ED036"]
+			dependencies: [
+				"60084A07702ED036"
+				"577D6202E19B2599"
+			]
 			id: "3C5AFD231EBB2CE1"
 			tasks: [
 				{
@@ -1714,7 +1821,10 @@
 				""
 				"Glowstone Exciter is just a randomizer block."
 			]
-			dependencies: ["2F8E7AD3E6652C2E"]
+			dependencies: [
+				"2F8E7AD3E6652C2E"
+				"577D6202E19B2599"
+			]
 			id: "5E7690D081B65E83"
 			tasks: [
 				{
@@ -1799,7 +1909,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["The name of the upgrade speak for themselves."]
-			dependencies: ["1A43259950E5D127"]
+			dependencies: [
+				"1A43259950E5D127"
+				"577D6202E19B2599"
+			]
 			id: "6597083F5B64A768"
 			tasks: [
 				{
@@ -1840,7 +1953,10 @@
 				""
 				"Sender Module is used exactly the same has the Puller, but it can Send."
 			]
-			dependencies: ["6597083F5B64A768"]
+			dependencies: [
+				"6597083F5B64A768"
+				"577D6202E19B2599"
+			]
 			id: "1EBADA59296E8911"
 			tasks: [
 				{
@@ -2677,7 +2793,10 @@
 			y: 5.5d
 			shape: "square"
 			description: ["The yellow heart is dropped by any boss."]
-			dependencies: ["269CAFF56F143159"]
+			dependencies: [
+				"269CAFF56F143159"
+				"577D6202E19B2599"
+			]
 			id: "2DDCECF0F7CFA5BC"
 			tasks: [{
 				id: "7F64F3359C0AB5B3"
@@ -2698,7 +2817,10 @@
 			y: 5.5d
 			shape: "square"
 			description: ["The green heart is dropped by trading with Piglins."]
-			dependencies: ["2DDCECF0F7CFA5BC"]
+			dependencies: [
+				"2DDCECF0F7CFA5BC"
+				"577D6202E19B2599"
+			]
 			id: "626D604E31FD5FCC"
 			tasks: [{
 				id: "14A36CFE458DB059"
@@ -2719,7 +2841,10 @@
 			y: 5.5d
 			shape: "square"
 			description: ["The blue heart is dropped by pixies from Alfheim."]
-			dependencies: ["626D604E31FD5FCC"]
+			dependencies: [
+				"626D604E31FD5FCC"
+				"577D6202E19B2599"
+			]
 			id: "3FD5AA7FBAE18876"
 			tasks: [{
 				id: "03AB67373389ABBE"
@@ -2787,7 +2912,10 @@
 				"Field Projectors are used to miniaturize your compact machines and other craft."
 				"You don't have to make the biggest size, just a 5x5 is sufficient for all crafts."
 			]
-			dependencies: ["03F04C5F7BAED6A3"]
+			dependencies: [
+				"03F04C5F7BAED6A3"
+				"577D6202E19B2599"
+			]
 			id: "06013B4C80F9419B"
 			tasks: [
 				{
@@ -2812,7 +2940,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Tiny Compact Machine is a 3x3x3 space."]
-			dependencies: ["06013B4C80F9419B"]
+			dependencies: [
+				"06013B4C80F9419B"
+				"577D6202E19B2599"
+			]
 			id: "467D9A00FCA89933"
 			tasks: [{
 				id: "4F523E64CFF0036E"
@@ -2830,7 +2961,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Small Compact Machine is a 5x5x5 space."]
-			dependencies: ["06013B4C80F9419B"]
+			dependencies: [
+				"06013B4C80F9419B"
+				"577D6202E19B2599"
+			]
 			id: "5D82993EB509E820"
 			tasks: [{
 				id: "11543B43E60D01CF"
@@ -2848,7 +2982,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Normal Compact Machine is a 7x7x7 space."]
-			dependencies: ["06013B4C80F9419B"]
+			dependencies: [
+				"06013B4C80F9419B"
+				"577D6202E19B2599"
+			]
 			id: "5B0F26FC2CEA0CB4"
 			tasks: [{
 				id: "09D4A311C166422F"
@@ -2866,7 +3003,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Large Compact Machine is a 9x9x9 space."]
-			dependencies: ["06013B4C80F9419B"]
+			dependencies: [
+				"06013B4C80F9419B"
+				"577D6202E19B2599"
+			]
 			id: "7891DB25222C0D71"
 			tasks: [{
 				id: "435EB4979ECEBC83"
@@ -2884,7 +3024,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The Giant Compact Machine is a 11x11x11 space."]
-			dependencies: ["06013B4C80F9419B"]
+			dependencies: [
+				"06013B4C80F9419B"
+				"577D6202E19B2599"
+			]
 			id: "3864916135A1E193"
 			tasks: [{
 				id: "60EC5008CFD25A29"
@@ -2902,7 +3045,10 @@
 			y: -2.0d
 			shape: "square"
 			description: ["The Maximum Compact Machine is a 13x13x13 space."]
-			dependencies: ["06013B4C80F9419B"]
+			dependencies: [
+				"06013B4C80F9419B"
+				"577D6202E19B2599"
+			]
 			id: "6EF4A108C56230E1"
 			tasks: [{
 				id: "3F62DCB91EB57D4F"
@@ -3125,7 +3271,10 @@
 			y: 5.5d
 			shape: "square"
 			description: ["Here are some Cards to play with your Laser Nodes."]
-			dependencies: ["13D80F7212A60AA6"]
+			dependencies: [
+				"13D80F7212A60AA6"
+				"577D6202E19B2599"
+			]
 			id: "2C8B1F0DE7322D32"
 			tasks: [
 				{
@@ -3193,7 +3342,10 @@
 				"A Laser Node can connect to another Laser Node from 8 blocks."
 				"The Laser Connector can increase the range of your network."
 			]
-			dependencies: ["06B022181A43AF7A"]
+			dependencies: [
+				"06B022181A43AF7A"
+				"577D6202E19B2599"
+			]
 			id: "13D80F7212A60AA6"
 			tasks: [
 				{
@@ -3219,7 +3371,10 @@
 			y: 6.5d
 			shape: "square"
 			description: ["Overclockers can overclock your Laser Nodes and your cards."]
-			dependencies: ["13D80F7212A60AA6"]
+			dependencies: [
+				"13D80F7212A60AA6"
+				"577D6202E19B2599"
+			]
 			id: "2F2E0A3803ABA25C"
 			tasks: [
 				{
@@ -3250,7 +3405,10 @@
 				""
 				"You can build is with the Schematicannon."
 			]
-			dependencies: ["06013B4C80F9419B"]
+			dependencies: [
+				"06013B4C80F9419B"
+				"577D6202E19B2599"
+			]
 			id: "177C695B8960EB77"
 			tasks: [{
 				id: "1BED3C32CB39B5AD"
@@ -3306,7 +3464,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["You can store 4096000mb in the Reinforced Drum."]
-			dependencies: ["2BAB39B9C800849F"]
+			dependencies: [
+				"2BAB39B9C800849F"
+				"577D6202E19B2599"
+			]
 			id: "215F85255D964EE5"
 			tasks: [{
 				id: "09404F9EA9D44A10"
@@ -3325,7 +3486,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["You can store 65536000mb in the Netherite Drum."]
-			dependencies: ["215F85255D964EE5"]
+			dependencies: [
+				"215F85255D964EE5"
+				"577D6202E19B2599"
+			]
 			id: "03E2D45D274F9372"
 			tasks: [{
 				id: "44C1A22BC64933AC"
@@ -3344,7 +3508,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["You can store an incredible amount of millibuckets in an Unstable Drum."]
-			dependencies: ["03E2D45D274F9372"]
+			dependencies: [
+				"03E2D45D274F9372"
+				"577D6202E19B2599"
+			]
 			id: "3F090233207036EA"
 			tasks: [{
 				id: "348909436297B3B3"
@@ -3503,7 +3670,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Here is the loot from the Netherite Monstrosity."]
-			dependencies: ["47D8E8B55FF99B6D"]
+			dependencies: [
+				"47D8E8B55FF99B6D"
+				"577D6202E19B2599"
+			]
 			id: "0129563AD98630DF"
 			tasks: [
 				{
@@ -3570,7 +3740,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Ignited Revenant drop Burning Ashes."]
-			dependencies: ["798D0AE8EBF9261A"]
+			dependencies: [
+				"798D0AE8EBF9261A"
+				"577D6202E19B2599"
+			]
 			id: "5626BD70366E11F4"
 			tasks: [{
 				id: "51865F94196290A0"
@@ -3590,7 +3763,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Ignitium ingot is drop from the Ignis."]
-			dependencies: ["71E0554F5655BF9D"]
+			dependencies: [
+				"71E0554F5655BF9D"
+				"577D6202E19B2599"
+			]
 			id: "174474928CDADF9D"
 			tasks: [{
 				id: "5708FBED5A0E6331"
@@ -3613,7 +3789,10 @@
 				"To summon the Ignis you need to use a Burning Ashes on the Altar Of Fire."
 				"{image:ftbquests:textures/quests/cataclysm_ignis.png width:150 height:100 align:1}"
 			]
-			dependencies: ["5626BD70366E11F4"]
+			dependencies: [
+				"5626BD70366E11F4"
+				"577D6202E19B2599"
+			]
 			id: "71E0554F5655BF9D"
 			tasks: [
 				{
@@ -3639,7 +3818,10 @@
 			y: 2.5d
 			shape: "square"
 			description: ["The Void Core is a drop from the Ender Golem."]
-			dependencies: ["7D8021B85F81245F"]
+			dependencies: [
+				"7D8021B85F81245F"
+				"577D6202E19B2599"
+			]
 			id: "2C5F566350C9FCAD"
 			tasks: [{
 				id: "698F871F1787D75D"
@@ -3691,7 +3873,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Gauntlet Of Guard is drop from the Ender Guardian."]
-			dependencies: ["72D8DA800637B9A0"]
+			dependencies: [
+				"72D8DA800637B9A0"
+				"577D6202E19B2599"
+			]
 			id: "0C06FD6FDBB829A9"
 			tasks: [
 				{
@@ -4023,7 +4208,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["There are more upgrades but here is the most usefull in my opinion."]
-			dependencies: ["3D9CC8C29F834DBC"]
+			dependencies: [
+				"3D9CC8C29F834DBC"
+				"577D6202E19B2599"
+			]
 			id: "64C4EF83CA2A48A2"
 			tasks: [
 				{

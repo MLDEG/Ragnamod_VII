@@ -1,7 +1,7 @@
 {
 	id: "7C5D25D8C536BCF5"
 	group: ""
-	order_index: 5
+	order_index: 8
 	filename: "nature_aura"
 	title: " Nature's Aura"
 	icon: "naturesaura:gold_leaf"
@@ -18,7 +18,10 @@
 				"{image:ftbquests:textures/quests/natureaura_golden_leaves.png width:150 height:100 align:1}"
 				"You can see that the conversion is complete when the foliage emits small particles."
 			]
-			dependencies: ["03F04C5F7BAED6A3"]
+			dependencies: [
+				"03F04C5F7BAED6A3"
+				"52D6BB5F13D719A4"
+			]
 			size: 1.5d
 			id: "6C96FE0695C6B11E"
 			tasks: [{
@@ -39,7 +42,10 @@
 			y: 0.0d
 			shape: "square"
 			description: ["When you break Golden Leaves, you may get a Gold Leaf that you can then turn into powder."]
-			dependencies: ["6C96FE0695C6B11E"]
+			dependencies: [
+				"6C96FE0695C6B11E"
+				"52D6BB5F13D719A4"
+			]
 			id: "21BC6CA6EEB95BC6"
 			tasks: [
 				{
@@ -70,7 +76,10 @@
 				"{image:ftbquests:textures/quests/natureaura_natural_altar.png width:150 height:100 align:1}"
 				"The Altar works by absorbing aura from the atmosphere to transfer it to your craft."
 			]
-			dependencies: ["68383BED1EA06D9F"]
+			dependencies: [
+				"68383BED1EA06D9F"
+				"52D6BB5F13D719A4"
+			]
 			id: "27A25E88696A2CE0"
 			tasks: [
 				{
@@ -190,7 +199,10 @@
 				"To get an Infused Iron Ingot, use an Iron Ingot in the Natural Altar."
 				"This ingot is used to make tools, aura cache and other stuff."
 			]
-			dependencies: ["27A25E88696A2CE0"]
+			dependencies: [
+				"27A25E88696A2CE0"
+				"52D6BB5F13D719A4"
+			]
 			id: "29BEFD73AFC63136"
 			tasks: [{
 				id: "6A412B9CB37C2230"
@@ -209,7 +221,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Transform a Gold Ingot in a Crimson Altar to obtain the Tainted Gold Ingot."]
-			dependencies: ["7C8755271F338DCB"]
+			dependencies: [
+				"7C8755271F338DCB"
+				"52D6BB5F13D719A4"
+			]
 			id: "691F0E989EEE474C"
 			tasks: [{
 				id: "30EDBB2A75B3BA3B"
@@ -228,7 +243,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["Use the Offering Table to get this ingot."]
-			dependencies: ["72BB33D21B770DCE"]
+			dependencies: [
+				"72BB33D21B770DCE"
+				"52D6BB5F13D719A4"
+			]
 			id: "27DA3EEF9DF78B7A"
 			tasks: [{
 				id: "3750E76B1F664FAF"
@@ -247,7 +265,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["The Environmental Eye allows you to see the amount of aura in the chunk you are in."]
-			dependencies: ["118CF1B7418B3CC4"]
+			dependencies: [
+				"118CF1B7418B3CC4"
+				"52D6BB5F13D719A4"
+			]
 			id: "25EF9CEF662A2F45"
 			tasks: [{
 				id: "7F1050D2BEAD9870"
@@ -266,7 +287,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["This upgrade allows you to see more than the aura in the chunk: you can see the positive and negative effects as well."]
-			dependencies: ["25EF9CEF662A2F45"]
+			dependencies: [
+				"25EF9CEF662A2F45"
+				"52D6BB5F13D719A4"
+			]
 			id: "0FA9880BDFC97633"
 			tasks: [{
 				id: "3CA627F5CAB1F6C6"
@@ -285,7 +309,10 @@
 			y: 1.0d
 			shape: "square"
 			description: ["Use the Ritual of the Forest to get the Token of Joy."]
-			dependencies: ["118CF1B7418B3CC4"]
+			dependencies: [
+				"118CF1B7418B3CC4"
+				"52D6BB5F13D719A4"
+			]
 			id: "68383BED1EA06D9F"
 			tasks: [{
 				id: "6D0DCE436BA87093"
@@ -315,6 +342,7 @@
 				"29BEFD73AFC63136"
 				"6D3F6DB72B2FBEB1"
 				"68383BED1EA06D9F"
+				"52D6BB5F13D719A4"
 			]
 			id: "7118A69FCEF7E54D"
 			tasks: [
@@ -352,7 +380,10 @@
 				""
 				"The less aura there is in the chunk, the more leaves disappear until you have to grow a sapling again!"
 			]
-			dependencies: ["118CF1B7418B3CC4"]
+			dependencies: [
+				"118CF1B7418B3CC4"
+				"52D6BB5F13D719A4"
+			]
 			id: "6D3F6DB72B2FBEB1"
 			tasks: [{
 				id: "7B82ECF64ED9FB64"
@@ -380,6 +411,7 @@
 			dependencies: [
 				"29BEFD73AFC63136"
 				"0BDC79CB920BA817"
+				"52D6BB5F13D719A4"
 			]
 			id: "237C80E9ED2EF157"
 			tasks: [{
@@ -399,7 +431,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The Aura Trove is just a bigger version of the Aura Cache."]
-			dependencies: ["237C80E9ED2EF157"]
+			dependencies: [
+				"237C80E9ED2EF157"
+				"52D6BB5F13D719A4"
+			]
 			id: "7504ADD9756D5D39"
 			tasks: [{
 				id: "6F3ADDF4EA4312E6"
@@ -423,7 +458,10 @@
 				""
 				"These powders are used for Botania in this modpack."
 			]
-			dependencies: ["27DA3EEF9DF78B7A"]
+			dependencies: [
+				"27DA3EEF9DF78B7A"
+				"52D6BB5F13D719A4"
+			]
 			id: "761F1776ADC5E9F1"
 			tasks: [
 				{
@@ -468,7 +506,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["Catalysts are used to craft several items in the Natural or Crimson Altar!"]
-			dependencies: ["27A25E88696A2CE0"]
+			dependencies: [
+				"27A25E88696A2CE0"
+				"52D6BB5F13D719A4"
+			]
 			id: "0BE8AC98FA9A5F89"
 			tasks: [
 				{
@@ -497,7 +538,10 @@
 				"To get some Spirit of Birthing you need to breed animals in a chunk with an excess of Aura !"
 				"You have a chance of getting Spirit of Birthing that way."
 			]
-			dependencies: ["25EF9CEF662A2F45"]
+			dependencies: [
+				"25EF9CEF662A2F45"
+				"52D6BB5F13D719A4"
+			]
 			id: "41426E66714F1FD8"
 			tasks: [{
 				id: "5EDCD196B66E146C"
@@ -520,7 +564,10 @@
 				"This altar allows you to summon mobs. For example, by using the Spirit of Birthing, Raw Beef and Leather you can summon a Cow, with a little bit of aura around."
 				"{image:ftbquests:textures/quests/natureaura_altar_of_birthing.png width:150 height:100 align:1}"
 			]
-			dependencies: ["41426E66714F1FD8"]
+			dependencies: [
+				"41426E66714F1FD8"
+				"52D6BB5F13D719A4"
+			]
 			id: "322FC9ECB2ECC680"
 			tasks: [
 				{
@@ -559,7 +606,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["You can transform a stone block into infused rock using the Natural Altar."]
-			dependencies: ["27A25E88696A2CE0"]
+			dependencies: [
+				"27A25E88696A2CE0"
+				"52D6BB5F13D719A4"
+			]
 			id: "0BDC79CB920BA817"
 			tasks: [
 				{
@@ -591,7 +641,10 @@
 				"{image:ftbquests:textures/quests/natureaura_crimson_altar.png width:150 height:100 align:1}"
 				"The Altar works by absorbing aura from the atmosphere to transfer it to your craft."
 			]
-			dependencies: ["68383BED1EA06D9F"]
+			dependencies: [
+				"68383BED1EA06D9F"
+				"52D6BB5F13D719A4"
+			]
 			id: "7C8755271F338DCB"
 			tasks: [
 				{
@@ -644,7 +697,10 @@
 				""
 				"Wait a few seconds and it's ready!"
 			]
-			dependencies: ["21BC6CA6EEB95BC6"]
+			dependencies: [
+				"21BC6CA6EEB95BC6"
+				"52D6BB5F13D719A4"
+			]
 			id: "118CF1B7418B3CC4"
 			tasks: [
 				{
@@ -683,7 +739,10 @@
 				"The offering table allows you to appeal to the gods, with a spirit of calling, to obtain new powerful items!"
 				"{image:ftbquests:textures/quests/natureaura_offering_table.png width:150 height:100 align:1}"
 			]
-			dependencies: ["29BEFD73AFC63136"]
+			dependencies: [
+				"29BEFD73AFC63136"
+				"52D6BB5F13D719A4"
+			]
 			id: "72BB33D21B770DCE"
 			tasks: [
 				{

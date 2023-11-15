@@ -1,7 +1,7 @@
 {
 	id: "6E7D92AE133EA961"
 	group: ""
-	order_index: 10
+	order_index: 12
 	filename: "blue_skies"
 	title: " Blue Skies"
 	icon: "blue_skies:soul_fragment"
@@ -67,7 +67,10 @@
 				"Like the blinding dungeon, you need to find four keys to unlock the boss door."
 				"Be aware that the dungeon is a huge maze."
 			]
-			dependencies: ["66D6AF0995355087"]
+			dependencies: [
+				"66D6AF0995355087"
+				"7AD83BC20D2742C4"
+			]
 			id: "7B3715CF8D754765"
 			tasks: [{
 				id: "4AE1CFB89067D058"
@@ -92,7 +95,10 @@
 				"Like the blinding dungeon, you need to find four keys to unlock the boss door."
 				"Be aware that the dungeon is a huge maze."
 			]
-			dependencies: ["64B294A73A4BF758"]
+			dependencies: [
+				"64B294A73A4BF758"
+				"7AD83BC20D2742C4"
+			]
 			id: "29A50EFD07FFC0CB"
 			tasks: [{
 				id: "2AC878DFBFFF9950"
@@ -117,7 +123,10 @@
 				"You can find, inside, a Nature Arc and some goodies."
 				"To kill this boss, you need to destroy its wooden wall with an axe, then throw a soulbound spear to stun it and attack it with your axe."
 			]
-			dependencies: ["7B3715CF8D754765"]
+			dependencies: [
+				"7B3715CF8D754765"
+				"7AD83BC20D2742C4"
+			]
 			id: "464528B160DE150C"
 			tasks: [
 				{
@@ -186,6 +195,7 @@
 			dependencies: [
 				"5431F0C9860D36AD"
 				"25C16DAF79CEB2AC"
+				"7AD83BC20D2742C4"
 			]
 			id: "66D6AF0995355087"
 			tasks: [
@@ -255,6 +265,7 @@
 			dependencies: [
 				"5431F0C9860D36AD"
 				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
 			]
 			id: "64B294A73A4BF758"
 			tasks: [
@@ -321,7 +332,10 @@
 				"It will drop a trophy and a loot bag."
 				"You can find, inside, a Poisonous Arc and some goodies."
 			]
-			dependencies: ["29A50EFD07FFC0CB"]
+			dependencies: [
+				"29A50EFD07FFC0CB"
+				"7AD83BC20D2742C4"
+			]
 			id: "3642FEFA14E5B577"
 			tasks: [
 				{
@@ -383,7 +397,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Find a portal frame made of Turquoise Stone Bricks, light it with your Zeal Lighter and go into the Everbright !"]
-			dependencies: ["5D41E955B2B0A532"]
+			dependencies: [
+				"5D41E955B2B0A532"
+				"7AD83BC20D2742C4"
+			]
 			id: "25C16DAF79CEB2AC"
 			tasks: [{
 				id: "32FAAB37F070EB63"
@@ -428,7 +445,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Find a portal frame made of Lunar Stone Bricks, light it with your Zeal Lighter and go into the Everdawn!"]
-			dependencies: ["5D41E955B2B0A532"]
+			dependencies: [
+				"5D41E955B2B0A532"
+				"7AD83BC20D2742C4"
+			]
 			id: "12AB66D0233C13DD"
 			tasks: [{
 				id: "2AC402E52323CCEC"
@@ -478,7 +498,10 @@
 				"Searing Grassland"
 				"Generally below level 25"
 			]
-			dependencies: ["12AB66D0233C13DD"]
+			dependencies: [
+				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
+			]
 			id: "0F3871DA957D1676"
 			tasks: [{
 				id: "79C0B77D476512FD"
@@ -506,7 +529,10 @@
 				"Brisk Meadow"
 				"Brumble Forest"
 			]
-			dependencies: ["25C16DAF79CEB2AC"]
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"7AD83BC20D2742C4"
+			]
 			id: "5087D7633FD14915"
 			tasks: [{
 				id: "6C89DCC6F99FA697"
@@ -534,7 +560,10 @@
 				"Brisk Meadow"
 				"Brumble Forest"
 			]
-			dependencies: ["25C16DAF79CEB2AC"]
+			dependencies: [
+				"25C16DAF79CEB2AC"
+				"7AD83BC20D2742C4"
+			]
 			id: "5E6F7485DE77D2BF"
 			tasks: [{
 				id: "5D2305AC2AA2E761"
@@ -554,7 +583,10 @@
 			shape: "square"
 			description: ["The Warding Pearl block the spawn of hostile mob in a large radius."]
 			hide_dependency_lines: true
-			dependencies: ["5E6F7485DE77D2BF"]
+			dependencies: [
+				"5E6F7485DE77D2BF"
+				"7AD83BC20D2742C4"
+			]
 			id: "6EF85A594ED56AF6"
 			tasks: [{
 				id: "06101496ED8707AE"
@@ -577,6 +609,7 @@
 			dependencies: [
 				"25C16DAF79CEB2AC"
 				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
 			]
 			dependency_requirement: "one_completed"
 			id: "7E6B4F17B0F46590"
@@ -601,6 +634,7 @@
 			dependencies: [
 				"25C16DAF79CEB2AC"
 				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
 			]
 			dependency_requirement: "one_completed"
 			id: "0DA2467A22F6D309"
@@ -621,7 +655,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["Craft the Charoite armor set, you'll gonna need it for the End Game."]
-			dependencies: ["0DA2467A22F6D309"]
+			dependencies: [
+				"0DA2467A22F6D309"
+				"7AD83BC20D2742C4"
+			]
 			id: "47F04F195DE192F9"
 			tasks: [
 				{
@@ -681,7 +718,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Craft the Charoite toolset, you'll gonna need it for the end of the game."]
-			dependencies: ["0DA2467A22F6D309"]
+			dependencies: [
+				"0DA2467A22F6D309"
+				"7AD83BC20D2742C4"
+			]
 			id: "1019A0B35E3CCF27"
 			tasks: [
 				{
@@ -741,7 +781,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["Craft the Diopside armor set, you'll gonna need it for the End Game."]
-			dependencies: ["3ED4894CC5603845"]
+			dependencies: [
+				"3ED4894CC5603845"
+				"7AD83BC20D2742C4"
+			]
 			id: "5812E71E54C1398A"
 			tasks: [
 				{
@@ -801,7 +844,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Craft the Diopsite toolset, you'll gonna need it for the end of the game."]
-			dependencies: ["3ED4894CC5603845"]
+			dependencies: [
+				"3ED4894CC5603845"
+				"7AD83BC20D2742C4"
+			]
 			id: "6080D26507C6D50B"
 			tasks: [
 				{
@@ -861,7 +907,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["Craft the Pyrope armor set, you'll gonna need it for the End Game."]
-			dependencies: ["7805AD446625B4BD"]
+			dependencies: [
+				"7805AD446625B4BD"
+				"7AD83BC20D2742C4"
+			]
 			id: "2BBF8DBC515DA045"
 			tasks: [
 				{
@@ -921,7 +970,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Craft the Pyrope toolset, you'll gonna need it for the end of the game."]
-			dependencies: ["7805AD446625B4BD"]
+			dependencies: [
+				"7805AD446625B4BD"
+				"7AD83BC20D2742C4"
+			]
 			id: "26C9072836B7441D"
 			tasks: [
 				{
@@ -981,7 +1033,10 @@
 			y: -0.5d
 			shape: "square"
 			description: ["Craft the Aquite armor set, you'll gonna need it for the End Game."]
-			dependencies: ["7E6B4F17B0F46590"]
+			dependencies: [
+				"7E6B4F17B0F46590"
+				"7AD83BC20D2742C4"
+			]
 			id: "7D75138C480894E3"
 			tasks: [
 				{
@@ -1041,7 +1096,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["Craft the Aquite toolset, you'll gonna need it for the end of the game."]
-			dependencies: ["7E6B4F17B0F46590"]
+			dependencies: [
+				"7E6B4F17B0F46590"
+				"7AD83BC20D2742C4"
+			]
 			id: "2CAD18360359759B"
 			tasks: [
 				{
@@ -1102,7 +1160,10 @@
 			shape: "square"
 			description: ["The Tool Box allow you to put Falsite on your tools to get a bonus temporary durability."]
 			hide_dependency_lines: true
-			dependencies: ["5087D7633FD14915"]
+			dependencies: [
+				"5087D7633FD14915"
+				"7AD83BC20D2742C4"
+			]
 			id: "534F929E63557D43"
 			tasks: [{
 				id: "3EE9B513579D9448"
@@ -1131,7 +1192,10 @@
 				"The Astrolabe allows you to teleport to a Star Emitter."
 			]
 			hide_dependency_lines: true
-			dependencies: ["5E6F7485DE77D2BF"]
+			dependencies: [
+				"5E6F7485DE77D2BF"
+				"7AD83BC20D2742C4"
+			]
 			id: "3B89725E5E56A8CF"
 			tasks: [
 				{
@@ -1156,7 +1220,10 @@
 			y: 3.5d
 			shape: "square"
 			description: ["Craft the Horizonite armor set, you'll gonna need it for the End Game."]
-			dependencies: ["0F3871DA957D1676"]
+			dependencies: [
+				"0F3871DA957D1676"
+				"7AD83BC20D2742C4"
+			]
 			id: "1CE0851610DB9220"
 			tasks: [
 				{
@@ -1216,7 +1283,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["Craft the Horizonite toolset, you'll gonna need it for the end of the game."]
-			dependencies: ["0F3871DA957D1676"]
+			dependencies: [
+				"0F3871DA957D1676"
+				"7AD83BC20D2742C4"
+			]
 			id: "701C945DBA3DF5CD"
 			tasks: [
 				{
@@ -1284,6 +1354,7 @@
 			dependencies: [
 				"25C16DAF79CEB2AC"
 				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
 			]
 			dependency_requirement: "one_completed"
 			id: "5431F0C9860D36AD"
@@ -1307,6 +1378,7 @@
 			dependencies: [
 				"25C16DAF79CEB2AC"
 				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
 			]
 			dependency_requirement: "one_completed"
 			id: "3ED4894CC5603845"
@@ -1331,6 +1403,7 @@
 			dependencies: [
 				"25C16DAF79CEB2AC"
 				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
 			]
 			dependency_requirement: "one_completed"
 			id: "7805AD446625B4BD"
@@ -1355,6 +1428,7 @@
 			dependencies: [
 				"25C16DAF79CEB2AC"
 				"12AB66D0233C13DD"
+				"7AD83BC20D2742C4"
 			]
 			dependency_requirement: "one_completed"
 			id: "46DDDC9A17FF9E16"

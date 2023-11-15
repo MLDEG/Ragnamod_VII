@@ -1,7 +1,7 @@
 {
 	id: "6AEDA2F9BEB57759"
 	group: ""
-	order_index: 14
+	order_index: 4
 	filename: "ars_nouveau"
 	title: " Ars Nouveau"
 	icon: "ars_nouveau:novice_spell_book"
@@ -46,7 +46,10 @@
 				""
 				"Check the Worn notebook to get all the information you need to play with it !"
 			]
-			dependencies: ["1D86B2E553503E53"]
+			dependencies: [
+				"1D86B2E553503E53"
+				"10F31028FC893ADE"
+			]
 			id: "48D5D9D9AD98409F"
 			tasks: [{
 				id: "1624D71379FBBDA6"
@@ -77,7 +80,10 @@
 				""
 				"Check the Worn notebook to get all the information you need to play with it !"
 			]
-			dependencies: ["1D86B2E553503E53"]
+			dependencies: [
+				"1D86B2E553503E53"
+				"10F31028FC893ADE"
+			]
 			id: "34A173721735401B"
 			tasks: [{
 				id: "7CB3845C4BCA9F0E"
@@ -100,7 +106,10 @@
 				""
 				"These are used to craft multiple items, including your first set of magic tunic !"
 			]
-			dependencies: ["58EC47584C773B82"]
+			dependencies: [
+				"58EC47584C773B82"
+				"10F31028FC893ADE"
+			]
 			id: "542C6D76B579886C"
 			tasks: [{
 				id: "561CAB97C346BD65"
@@ -131,7 +140,10 @@
 				""
 				"{image:ftbquests:textures/quests/ars_enchanting.png width:150 height:100 align:1}"
 			]
-			dependencies: ["40BC67BDEE15D1DE"]
+			dependencies: [
+				"40BC67BDEE15D1DE"
+				"10F31028FC893ADE"
+			]
 			size: 1.5d
 			id: "3D862A3D3F83CA26"
 			tasks: [
@@ -159,7 +171,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The arcane piedestal is used full different way! It is used for Imbuement Chamber, Enchanting Apparatus and even the Ritual Brazierl!"]
-			dependencies: ["40BC67BDEE15D1DE"]
+			dependencies: [
+				"40BC67BDEE15D1DE"
+				"10F31028FC893ADE"
+			]
 			id: "18A2FBE2D4133FA2"
 			tasks: [{
 				id: "5B80C1EF5D85EA64"
@@ -190,6 +205,7 @@
 			dependencies: [
 				"33682F4B44950123"
 				"64D0E66CB4FBEC82"
+				"10F31028FC893ADE"
 			]
 			size: 1.5d
 			id: "3D4D88B8BE881351"
@@ -218,7 +234,10 @@
 				""
 				"Check the Worn notebook to get all the information you need to play with it !"
 			]
-			dependencies: ["1D86B2E553503E53"]
+			dependencies: [
+				"1D86B2E553503E53"
+				"10F31028FC893ADE"
+			]
 			id: "2C47C9B566A63135"
 			tasks: [{
 				id: "5646241FF2CF806B"
@@ -245,7 +264,10 @@
 				"This spell book allows you to create spells with &etier 1 glyphs&r. To create better spells you will need to increase your spell book."
 			]
 			hide_dependency_lines: false
-			dependencies: ["6E0E13806F388D7E"]
+			dependencies: [
+				"6E0E13806F388D7E"
+				"10F31028FC893ADE"
+			]
 			id: "64D0E66CB4FBEC82"
 			tasks: [{
 				id: "6988873450238F30"
@@ -268,7 +290,10 @@
 				""
 				"This will increase your overall mana and mana regeneration, and unlock the ability to create and use &eTier 2 glyphs&r."
 			]
-			dependencies: ["64D0E66CB4FBEC82"]
+			dependencies: [
+				"64D0E66CB4FBEC82"
+				"10F31028FC893ADE"
+			]
 			id: "0D330FAD6C993DBC"
 			tasks: [{
 				id: "0BCFC6422BBF539C"
@@ -291,7 +316,10 @@
 				""
 				"This is a ritual that you need to do and use in the &9ritual brazier&r."
 			]
-			dependencies: ["0D330FAD6C993DBC"]
+			dependencies: [
+				"0D330FAD6C993DBC"
+				"10F31028FC893ADE"
+			]
 			id: "17D7D34F519F7E5F"
 			tasks: [{
 				id: "5E7DBDDD97BA8F13"
@@ -314,7 +342,10 @@
 				""
 				"To perform rituals, you will also need arcane bases. As there are so many rituals to launch, be sure to check each of them using the &6Worn Notebook&r!"
 			]
-			dependencies: ["18A2FBE2D4133FA2"]
+			dependencies: [
+				"18A2FBE2D4133FA2"
+				"10F31028FC893ADE"
+			]
 			id: "457DE8C154641437"
 			tasks: [{
 				id: "1E0B9FBF5319CEF6"
@@ -338,7 +369,10 @@
 				"The &6Imbuement Chamber&r needs the Source to permeate the objects. It produces a small amount of Source by itself, but can also use Source Jar as an energy source."
 			]
 			hide_dependency_lines: false
-			dependencies: ["33682F4B44950123"]
+			dependencies: [
+				"33682F4B44950123"
+				"10F31028FC893ADE"
+			]
 			id: "5766C8B9E850C186"
 			tasks: [{
 				id: "78B5B8F9CE9EC702"
@@ -362,7 +396,10 @@
 				"&dArchwood&r trees are found in the world."
 			]
 			hide_dependency_lines: false
-			dependencies: ["6E0E13806F388D7E"]
+			dependencies: [
+				"6E0E13806F388D7E"
+				"10F31028FC893ADE"
+			]
 			id: "33682F4B44950123"
 			tasks: [{
 				id: "163A6E303D6F419D"
@@ -393,7 +430,10 @@
 				""
 				"Source can also be moved with buckets, or by breaking and picking up Source Jars."
 			]
-			dependencies: ["33682F4B44950123"]
+			dependencies: [
+				"33682F4B44950123"
+				"10F31028FC893ADE"
+			]
 			size: 1.5d
 			id: "227DBA8836021B0B"
 			tasks: [{
@@ -422,7 +462,10 @@
 				""
 				"Check the Worn notebook to get all the information you need to play with it !"
 			]
-			dependencies: ["1D86B2E553503E53"]
+			dependencies: [
+				"1D86B2E553503E53"
+				"10F31028FC893ADE"
+			]
 			id: "04987E54ADC2C057"
 			tasks: [{
 				id: "3BFC384D0B963E6E"
@@ -447,7 +490,10 @@
 				""
 				"Check the Worn notebook to get all the information you need to play with it !"
 			]
-			dependencies: ["1D86B2E553503E53"]
+			dependencies: [
+				"1D86B2E553503E53"
+				"10F31028FC893ADE"
+			]
 			id: "6CEAA86EEAAC1203"
 			tasks: [{
 				id: "751B3A47FE592B2F"
@@ -471,7 +517,10 @@
 				""
 				"This will be used to create magical clothes for us !"
 			]
-			dependencies: ["3D862A3D3F83CA26"]
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"10F31028FC893ADE"
+			]
 			id: "58EC47584C773B82"
 			tasks: [{
 				id: "6CB12C3C6401287A"
@@ -498,7 +547,10 @@
 				"{image:ftbquests:textures/quests/ars_volcano.png width:150 height:100 align:1}"
 				"This also generates Lava Lilys."
 			]
-			dependencies: ["227DBA8836021B0B"]
+			dependencies: [
+				"227DBA8836021B0B"
+				"10F31028FC893ADE"
+			]
 			id: "19D02325579F2AA8"
 			tasks: [{
 				id: "273385666F3DBB43"
@@ -532,7 +584,10 @@
 				"Select a shape and effect, name it, and click on &dcreate&r !"
 				"{image:ftbquests:textures/ars_nouveau/spellbook.png width:192 height:129 align:1}"
 			]
-			dependencies: ["3D4D88B8BE881351"]
+			dependencies: [
+				"3D4D88B8BE881351"
+				"10F31028FC893ADE"
+			]
 			id: "5CFBA24B3E0CDEDD"
 			tasks: [{
 				id: "1B916AE67F84E6D7"
@@ -558,7 +613,10 @@
 				""
 				"{image:ftbquests:textures/ars_nouveau/mana_bar.png width:218 height:36 align:1}"
 			]
-			dependencies: ["64D0E66CB4FBEC82"]
+			dependencies: [
+				"64D0E66CB4FBEC82"
+				"10F31028FC893ADE"
+			]
 			id: "6B511C8B572E8940"
 			tasks: [{
 				id: "01FD75641E5EA5E4"
@@ -572,7 +630,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["To create source gems, we will need to place fragments of lapis or amethyst in the impregnation chamber. Over time, these will become source gems !"]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			size: 1.5d
 			id: "40BC67BDEE15D1DE"
 			tasks: [{
@@ -592,7 +653,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["This allows you to see the magical creatures nearby as well as help you find amethyst !"]
-			dependencies: ["33682F4B44950123"]
+			dependencies: [
+				"33682F4B44950123"
+				"10F31028FC893ADE"
+			]
 			id: "3142A40E1EAEBAA3"
 			tasks: [{
 				id: "07469C1ABB23F686"
@@ -616,7 +680,10 @@
 			y: 2.0d
 			shape: "square"
 			description: ["The &9Vitalic Sourcelink&r produces Source from mob deaths and animal breeding."]
-			dependencies: ["227DBA8836021B0B"]
+			dependencies: [
+				"227DBA8836021B0B"
+				"10F31028FC893ADE"
+			]
 			id: "295C77EEC89000FC"
 			tasks: [{
 				id: "33072A37F4A28A77"
@@ -634,7 +701,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["The &9Alchemical Sourcelink&r produces Source from adjacent potion jars."]
-			dependencies: ["227DBA8836021B0B"]
+			dependencies: [
+				"227DBA8836021B0B"
+				"10F31028FC893ADE"
+			]
 			id: "41A0BE357C8A74E1"
 			tasks: [{
 				id: "2D08E66F6D607676"
@@ -656,7 +726,10 @@
 				""
 				"This will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty."
 			]
-			dependencies: ["227DBA8836021B0B"]
+			dependencies: [
+				"227DBA8836021B0B"
+				"10F31028FC893ADE"
+			]
 			id: "77145113CD5B26FB"
 			tasks: [{
 				id: "3F5621FA53258210"
@@ -680,7 +753,10 @@
 				"{image:ftbquests:textures/quests/ars_agro.png width:150 height:100 align:1}"
 				"Bonemealing does not produce Source."
 			]
-			dependencies: ["227DBA8836021B0B"]
+			dependencies: [
+				"227DBA8836021B0B"
+				"10F31028FC893ADE"
+			]
 			id: "2D0CF18C8B2ABB7D"
 			tasks: [{
 				id: "7CEAACDBB77206CC"
@@ -700,7 +776,10 @@
 			y: -1.5d
 			shape: "square"
 			description: ["The Dominion Wand is used to control the creatures you might encounter in the world! Each being reacts differently to the wand, so be sure to read in the &eworn notebook&r !"]
-			dependencies: ["3D862A3D3F83CA26"]
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"10F31028FC893ADE"
+			]
 			id: "1D86B2E553503E53"
 			tasks: [{
 				id: "259C1D84AD3996AF"
@@ -720,7 +799,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["The Ring of Discount provides a small bonus to mana max and mana regen. It also reduces the total cost to cast a spell."]
-			dependencies: ["3D862A3D3F83CA26"]
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"10F31028FC893ADE"
+			]
 			id: "0A1ABE9CF7740AAA"
 			tasks: [
 				{
@@ -746,7 +828,10 @@
 			y: 0.5d
 			shape: "square"
 			description: ["This belt will give random positive potion effects for a short duration. These will vary in strength. "]
-			dependencies: ["3D862A3D3F83CA26"]
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"10F31028FC893ADE"
+			]
 			id: "088FCB5267CB7A89"
 			tasks: [{
 				id: "28D8B81E947FCB97"
@@ -769,7 +854,10 @@
 				""
 				"The Amulet of Mana Regen increase mana regeneration."
 			]
-			dependencies: ["3D862A3D3F83CA26"]
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"10F31028FC893ADE"
+			]
 			id: "6A1C0B17B22CE50F"
 			tasks: [
 				{
@@ -796,7 +884,10 @@
 			y: -3.5d
 			shape: "square"
 			description: ["The Blaze Fiber is used to make an advanced mage tunic."]
-			dependencies: ["542C6D76B579886C"]
+			dependencies: [
+				"542C6D76B579886C"
+				"10F31028FC893ADE"
+			]
 			id: "113AD73FF719CCFC"
 			tasks: [{
 				id: "085C27C676DB56AD"
@@ -817,7 +908,10 @@
 			y: -3.0d
 			shape: "square"
 			description: ["The End Fiber is used to make the last Mage Tunic."]
-			dependencies: ["113AD73FF719CCFC"]
+			dependencies: [
+				"113AD73FF719CCFC"
+				"10F31028FC893ADE"
+			]
 			id: "250075C5711B314D"
 			tasks: [{
 				id: "4F9133916DDB5BD1"
@@ -838,7 +932,10 @@
 			y: -2.5d
 			shape: "square"
 			description: ["This is the last Mage Tunic in Ars Nouveau, it's used to the End Game armor."]
-			dependencies: ["250075C5711B314D"]
+			dependencies: [
+				"250075C5711B314D"
+				"10F31028FC893ADE"
+			]
 			id: "350E94CFB430DEF6"
 			tasks: [
 				{
@@ -902,7 +999,10 @@
 				""
 				"It's also used to craft Rune of Mana."
 			]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "75FB086E46ED4C56"
 			tasks: [{
 				id: "61A30A17DB06DC66"
@@ -927,7 +1027,10 @@
 				""
 				"Right-click your tablet on a Brazier to ignite it, then throw a Wilden Horn, a Wilden Wing and a Wilden Spike to finally right-click the Brazier to activate the Ritual and summon this boss."
 			]
-			dependencies: ["457DE8C154641437"]
+			dependencies: [
+				"457DE8C154641437"
+				"10F31028FC893ADE"
+			]
 			id: "7417915BB5B548DA"
 			tasks: [{
 				id: "40A7B73D5A23A72D"
@@ -945,7 +1048,10 @@
 			y: 3.0d
 			shape: "square"
 			description: ["This Conjuration Essence is made in the Imbuement Chamber and is used to make divers things."]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "678BE11A95D2E8D8"
 			tasks: [{
 				id: "2CD199ECF3344917"
@@ -968,7 +1074,10 @@
 				""
 				"It's also used to craft Rune of Air."
 			]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "7010DB233C85694C"
 			tasks: [{
 				id: "3E7D28DC3113F9AB"
@@ -991,7 +1100,10 @@
 				""
 				"It's also used to craft Rune of Earth."
 			]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "6D501E10A37B61B2"
 			tasks: [{
 				id: "07C98A4FAF941DE5"
@@ -1014,7 +1126,10 @@
 				""
 				"It's also used to craft Rune of Fire."
 			]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "5DE55ABE8942E5C4"
 			tasks: [{
 				id: "452011424F085863"
@@ -1033,7 +1148,10 @@
 			y: 4.0d
 			shape: "square"
 			description: ["This Manipulation Essence is made in the Imbuement Chamber and is used to make divers things."]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "2871565D6C051F15"
 			tasks: [{
 				id: "31665385355F4438"
@@ -1056,7 +1174,10 @@
 				""
 				"It's also used to craft Rune of Water."
 			]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "5CAF0E219DA3BF6F"
 			tasks: [{
 				id: "42EDE9A1980F3AB1"
@@ -1082,7 +1203,10 @@
 				"{image:ftbquests:textures/quests/ars_bookwyrm.png width:150 height:100 align:1}"
 				"Check the Worn notebook to get all the information you need to play with it !"
 			]
-			dependencies: ["1D86B2E553503E53"]
+			dependencies: [
+				"1D86B2E553503E53"
+				"10F31028FC893ADE"
+			]
 			id: "0C16FE248FCFF328"
 			tasks: [{
 				id: "598834996EED7EB9"
@@ -1100,7 +1224,10 @@
 			y: 1.5d
 			shape: "square"
 			description: ["Craft a Focus of Summoning, this item, in this modpack, is used for the end game."]
-			dependencies: ["7417915BB5B548DA"]
+			dependencies: [
+				"7417915BB5B548DA"
+				"10F31028FC893ADE"
+			]
 			id: "3FFD119628A674BD"
 			tasks: [{
 				id: "12A2D367E03FF215"
@@ -1135,7 +1262,10 @@
 				""
 				"And yes, Imprégnation is the French word to say Imbuement. =)"
 			]
-			dependencies: ["5766C8B9E850C186"]
+			dependencies: [
+				"5766C8B9E850C186"
+				"10F31028FC893ADE"
+			]
 			id: "2A66C125626239D0"
 			tasks: [
 				{
