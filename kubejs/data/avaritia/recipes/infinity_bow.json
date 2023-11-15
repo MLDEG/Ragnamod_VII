@@ -5,28 +5,20 @@
   "requirements": [
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_3","item": "avaritia:infinity_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_4","item": "avaritia:infinity_catalyst","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_11","item": "avaritia:infinity_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_13","item": "minecraft:white_wool","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_19","item": "avaritia:infinity_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_22","item": "minecraft:white_wool","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_27","item": "avaritia:crystal_matrix_block","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_31","item": "miningmaster:air_malachite_bow","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_36","item": "ragnamod_seven:sphere","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_40","item": "draconicevolution:chaotic_bow","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_45","item": "avaritia:crystal_matrix_block","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_49","item": "botania:crystal_bow","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_55","item": "avaritia:infinity_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_58","item": "minecraft:white_wool","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_65","item": "avaritia:infinity_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_67","item": "minecraft:white_wool","amount": 1},
-
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_75","item": "avaritia:infinity_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_76","item": "avaritia:infinity_catalyst","amount": 1},
   {
