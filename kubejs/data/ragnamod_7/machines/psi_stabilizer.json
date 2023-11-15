@@ -4,7 +4,7 @@
     "block": "ragnamod_seven:machine/psi_stabilizer_idle_model",
     "item": "ragnamod_seven:machine/psi_stabilizer_idle_model",
     "ambient_sound": "",
-    "interaction_sound": "minecraft:netherite_block",
+    "interaction_sound": "minecraft:stone_block",
     "light": 0,
     "color": 16711680,
     "hardness": 3.5,
