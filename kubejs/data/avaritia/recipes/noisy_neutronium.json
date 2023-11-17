@@ -66,7 +66,7 @@
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_60","item": "avaritia:neutron_nugget","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_61","item": "avaritia:neutronium_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_62","item": "avaritia:neutronium_block","amount": 1},
-    {"type": "custommachinery:item","mode": "input","slot": "ect_input_63","item": "avaritia:neutronium_ingot","amount": 1},
+    {"type": "custommachinery:item","mode": "input","slot": "ect_input_63","item": "avaritia:neutronium_block","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_64","item": "avaritia:neutronium_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_65","item": "avaritia:neutronium_ingot","amount": 1},
     {"type": "custommachinery:item","mode": "input","slot": "ect_input_66","item": "avaritia:neutronium_ingot","amount": 1},
