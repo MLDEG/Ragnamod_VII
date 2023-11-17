@@ -133,7 +133,7 @@ onEvent('recipes', e => {
     summonChicken('draconicevolution:draconium_ingot', 'draconicevolution:draconium_core', 'draconium')
     summonChicken('thermal_extra:twinite_ingot', 'thermal_extra:twinite_block', 'twinite')
     summonChicken('thermal_extra:shellite_ingot', 'thermal_extra:shellite_block', 'shellite')
-    summonChicken('avaritia:neutronium_ingot', 'avaritia:neutronium_block', 'neutronium')
+    summonChicken('avaritia:neutronium_ingot', 'ragnamod_seven:noisy_neutronium', 'neutronium')
     summonChicken('thermal_extra:dragonsteel_ingot', 'thermal_extra:dragonsteel_block', 'dragonsteel')
     summonChicken('draconicevolution:awakened_draconium_ingot', 'draconicevolution:dragon_heart', 'draconic')
     summonChicken('draconicevolution:large_chaos_frag', 'draconicevolution:chaotic_core', 'chaotic')
