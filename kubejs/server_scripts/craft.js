@@ -1,7 +1,9 @@
 onEvent('recipes', e => {
 
-  //Ice Shard
+  //Creative Tank Fluid Meka Reset
   e.shapeless('mekanism:creative_fluid_tank', 'mekanism:creative_fluid_tank')
+  //Creative Tank Gaz Meka Reset
+  e.shapeless('mekanism:creative_chemical_tank', 'mekanism:creative_chemical_tank')
   //Ice Shard
   e.shapeless('4x beyond_earth:ice_shard', 'minecraft:packed_ice')
   //Beyond Heart Cheese
@@ -319,5 +321,11 @@ onEvent('recipes', e => {
     "ingredients": [{ "item": "evilcraft:dark_tank" }, { "item": "create:creative_fluid_tank" }],
     "results": [{ "item": "mekanism:creative_fluid_tank", "count": 1 }],
     "keepHeldItem": true
+  })
+  //Creative Energy Cell Wormhole
+  e.custom({
+    "type": "create:deploying",
+    "ingredients": [{ "item": "wormhole:advanced_energy_cell" }, { "item": "avaritia:infinity_ingot" }],
+    "results": [{ "item": "wormhole:creative_energy_cell", "count": 1 }]
   })
 })
