@@ -1,6 +1,8 @@
 onEvent('recipes', e => {
 
   //Ice Shard
+  e.shapeless('mekanism:creative_fluid_tank', 'mekanism:creative_fluid_tank')
+  //Ice Shard
   e.shapeless('4x beyond_earth:ice_shard', 'minecraft:packed_ice')
   //Beyond Heart Cheese
   e.shapeless('beyond_earth:cheese', 'croptopia:cheese')
@@ -291,47 +293,31 @@ onEvent('recipes', e => {
   e.custom({
     "type": "occultism:ritual",
     "ritual_type": "occultism:craft",
-    "activation_item": {
-      "item": "occultism:book_of_binding_bound_marid"
-    },
+    "activation_item": { "item": "occultism:book_of_binding_bound_marid" },
     "pentacle_id": "occultism:craft_marid",
     "duration": 240,
-    "ritual_dummy": {
-      "item": "occultism:ritual_dummy/craft_stabilizer_tier4"
-    },
+    "ritual_dummy": { "item": "occultism:ritual_dummy/craft_stabilizer_tier4" },
     "ingredients": [
-      {
-        "item": "occultism:storage_stabilizer_tier4"
-      },
-      {
-        "item": "psi:psigem_block"
-      },
-      {
-        "item": "botania:gaia_head"
-      },
-      {
-        "item": "forbidden_arcanus:arcane_crystal_obelisk"
-      },
-      {
-        "item": "forbidden_arcanus:arcane_crystal_obelisk"
-      }
+      { "item": "occultism:storage_stabilizer_tier4" },
+      { "item": "psi:psigem_block" },
+      { "item": "botania:gaia_head" },
+      { "item": "forbidden_arcanus:arcane_crystal_obelisk" },
+      { "item": "forbidden_arcanus:arcane_crystal_obelisk" }
     ],
-    "result": {
-      "item": "ragnamod_seven:psi_stabilizer"
-    }
+    "result": { "item": "ragnamod_seven:psi_stabilizer" }
   })
   //Rune Forbidden Arcanus
   e.custom({
     "type": "create:deploying",
-    "ingredients": [
-      { "item": "undergarden:depthrock_pebble" },
-      { "item": "ars_nouveau:glyph_rune" }
-    ],
-    "results": [
-      {
-        "item": "forbidden_arcanus:rune",
-        "count": 1
-      }],
+    "ingredients": [{ "item": "undergarden:depthrock_pebble" }, { "item": "ars_nouveau:glyph_rune" }],
+    "results": [{ "item": "forbidden_arcanus:rune", "count": 1 }],
+    "keepHeldItem": true
+  })
+  //Creative Tank Mekanism
+  e.custom({
+    "type": "create:deploying",
+    "ingredients": [{ "item": "evilcraft:dark_tank" }, { "item": "create:creative_fluid_tank" }],
+    "results": [{ "item": "mekanism:creative_fluid_tank", "count": 1 }],
     "keepHeldItem": true
   })
 })
