@@ -31,7 +31,6 @@
 			}
 		}
 	}
-	subtitle: ["DRAKONIK"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [{
