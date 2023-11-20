@@ -1,0 +1,50 @@
+  {
+    "type": "custommachinery:custom_machine",
+    "machine": "ragnamod_7:extreme_table",
+    "time": 1,
+    "requirements": [
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_0","item": "psi:ivory_psimetal_block","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_1","item": "psi:ivory_psimetal_block","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_2","item": "psi:ivory_psimetal_block","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_9","item": "psi:ivory_psimetal_block","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_10","item": "ragnamod_seven:agglomerate_matter_psi","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_11","item": "ragnamod_seven:ivory_singularity","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_12","item": "psi:ivory_psimetal_block","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_18","item": "psi:ivory_psimetal_block","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_19","item": "ragnamod_seven:ivory_singularity","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_20","item": "ragnamod_seven:agglomerate_matter_psi","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_21","item": "psi:lit_white_psimetal_plate","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_28","item": "psi:ivory_psimetal_block","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_29","item": "psi:lit_white_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_30","item": "psi:lit_black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_31","item": "psi:black_psimetal_plate","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_39","item": "psi:black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_40","item": "psi:lit_black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_41","item": "psi:black_psimetal_plate","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_49","item": "psi:black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_50","item": "psi:lit_black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_51","item": "psi:black_psimetal_plate","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_59","item": "psi:black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_60","item": "psi:lit_black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_61","item": "psi:black_psimetal_plate","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_69","item": "psi:black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_70","item": "psi:lit_black_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_71","item": "psi:white_psimetal_plate","amount": 1},
+
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_79","item": "psi:white_psimetal_plate","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_80","item": "psi:lit_white_psimetal_plate","amount": 1},
+    {
+      "type": "custommachinery:item",
+      "mode": "output",
+      "item": "psi:cad_assembly_creative",
+      "amount": 1
+    }
+  ]
+  }
