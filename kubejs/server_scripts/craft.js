@@ -328,4 +328,32 @@ onEvent('recipes', e => {
     "ingredients": [{ "item": "wormhole:advanced_energy_cell" }, { "item": "avaritia:infinity_ingot" }],
     "results": [{ "item": "wormhole:creative_energy_cell", "count": 1 }]
   })
+  //Creative Activation Crystal
+  e.custom({
+    "type": "create:deploying",
+    "ingredients": [{ "item": "bloodmagic:activationcrystalawakened" }, { "item": "ragnamod_seven:agglomerate_matter_blood_magic" }],
+    "results": [{ "item": "bloodmagic:activationcrystalcreative", "count": 1 }]
+  })
+  //Creative Capacitor
+  e.custom({
+    "type": "draconicevolution:fusion_crafting",
+    "result": { "item": "draconicevolution:creative_capacitor", "count": 1 },
+    "catalyst": {
+      "count": 1,
+      "items": [{ "item": "draconicevolution:creative_op_capacitor" }],
+      "type": "draconicevolution:ingredient_stack"
+    },
+    "total_energy": 10240000000,
+    "tier": "CHAOTIC",
+    "ingredients": [
+      { "item": "draconicevolution:chaotic_capacitor" },
+      { "item": "draconicevolution:chaotic_capacitor" },
+      { "item": "ragnamod_seven:chemical_draconium_block" },
+      { "item": "ragnamod_seven:chemical_draconium_block" },
+      { "item": "ragnamod_seven:chemical_draconium_block" },
+      { "item": "ragnamod_seven:chemical_draconium_block" },
+      { "item": "draconicevolution:chaotic_capacitor" },
+      { "item": "draconicevolution:chaotic_capacitor" }
+    ]
+  })
 })
