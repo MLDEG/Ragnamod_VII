@@ -98,7 +98,7 @@
       "type": "custommachinery:energy"
     },
     {
-      "id": "inout",
+      "id": "output",
       "x": 70,
       "y": 30,
       "type": "custommachinery:slot"
