@@ -356,4 +356,44 @@ onEvent('recipes', e => {
       { "item": "draconicevolution:chaotic_capacitor" }
     ]
   })
+  //Creative Mana Tablet
+  e.custom({
+    "type": "mythicbotany:infusion",
+    "group": "infuser",
+    "output": { "item": "botania:mana_tablet", "count": 1, "nbt": "{creative:1b,mana:500000}" },
+    "mana": 50000000,
+    "ingredients": [
+      { "item": "botania:creative_pool" },
+      { "item": "botania:mana_tablet" }
+    ],
+    "fromColor": 15380659,
+    "toColor": 50154
+  })
+  //Infinity Pipe Upgrade
+  e.smithing('pipez:infinity_upgrade', 'pipez:ultimate_upgrade', 'avaritia:infinity_catalyst')
+  //Creative Tank Construction
+  e.shaped('thermal:rf_coil_creative_augment', ['ABA', 'BCB', 'ABA'], {
+    A: 'ragnamod_seven:agglomerate_matter_thermal',
+    B: 'ragnamod_seven:infinity_gear',
+    C: 'thermal_extra:rf_coil_augment_5'
+  })
+  //Creative Tank Construction
+  e.shaped('thermal:fluid_tank_creative_augment', ['ABA', 'BCB', 'ABA'], {
+    A: 'ragnamod_seven:agglomerate_matter_thermal',
+    B: 'ragnamod_seven:infinity_gear',
+    C: 'thermal_extra:fluid_tank_augment_6'
+  })
+  //Creative Tank Construction
+  e.shaped('thermal:machine_efficiency_creative_augment', ['ABA', 'BCB', 'ABA'], {
+    A: 'ragnamod_seven:agglomerate_matter_thermal',
+    B: 'ragnamod_seven:infinity_gear',
+    C: 'thermal_extra:machine_efficiency_augment_4'
+  })
+  //Creative Tank Construction
+  e.shaped('thermal:machine_catalyst_creative_augment', ['ABA', 'BCB', 'ABA'], {
+    A: 'ragnamod_seven:agglomerate_matter_thermal',
+    B: 'ragnamod_seven:infinity_gear',
+    C: 'thermal_extra:machine_catalyst_augment_3'
+  })
+
 })
