@@ -395,5 +395,9 @@ onEvent('recipes', e => {
     B: 'ragnamod_seven:infinity_gear',
     C: 'thermal_extra:machine_catalyst_augment_3'
   })
-
+  //Creative AE2 Cells
+  e.shapeless(Item.of('appbot:creative_mana_cell', '{list:[{"#":0L,"#c":"appbot:mana"}]}'), ['appbot:mana_cell_housing', Item.of('botania:mana_tablet', '{creative:1b,mana:500000}')])
+  e.shapeless('appmek:creative_chemical_cell', ['appmek:chemical_cell_housing', 'mekanism:creative_chemical_tank'])
+  e.shapeless('ae2:creative_fluid_cell', ['ae2:fluid_cell_housing', 'mekanism:creative_fluid_tank'])
+  e.shapeless('ae2:creative_item_cell', ['ae2:item_cell_housing', 'functionalstorage:creative_vending_upgrade'])
 })
