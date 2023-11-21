@@ -331,7 +331,9 @@ onEvent('jei.hide.items', e => {
 		'avaritia:extreme_crafting_table',
 		'ragnamod_seven:black_sphere',
 		'ftbquests:missing_item',
-
+		'pneumaticcraft:creative_upgrade',
+		'modularrouters:creative_module',
+		'create:creative_crate',
 	])
 })
 
@@ -366,7 +368,10 @@ onEvent('jei.add.items', e => {
 		'cataclysm:witherite_ingot',
 		'cataclysm:enderite_ingot',
 		'cataclysm:witherite_block',
-		'cataclysm:enderite_block'
+		'cataclysm:enderite_block',
+		'create:chromatic_compound',
+		'create:shadow_steel',
+		'create:refined_radiance'
 	])
 })
 
@@ -389,6 +394,9 @@ onEvent('jei.information', e => {
 	e.add('bhc:yellow_heart', ['Drop from bosses'])
 	e.add('bhc:green_heart', ['Drop from Piglin Bathering'])
 	e.add('bhc:blue_heart', ['Drop from Pixies from Alfeim'])
+
+	e.add('create:refined_radiance', ['Throw a Chromatic Compound through a beacon beam.'])
+	e.add('create:shadow_steel', ['Throw a Chromatic Compound into the End void.'])
 })
 
 //Tooltips ChemLib
