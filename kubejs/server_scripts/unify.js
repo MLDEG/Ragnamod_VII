@@ -452,6 +452,7 @@ onEvent('recipes', function (e) {
     ['#forge:gears/iron', 'ftbic:iron_gear', 'industrialforegoing:iron_gear'].forEach(I => { replaceIO(I, 'thermal:iron_gear') });
     ['#forge:gears/gold', 'ftbic:gold_gear', 'industrialforegoing:gold_gear'].forEach(I => { replaceIO(I, 'thermal:gold_gear') });
     //CRAFTS
+    multiPress('avaritia:infinity_ingot', 4, 'thermal:press_gear_die', 'ragnamod_seven:infinity_gear');
     multiPress('tinkers_reforged:aluminum_ingot', 4, 'thermal:press_gear_die', 'ftbic:aluminum_gear');
     multiPress('ftbic:iridium_ingot', 4, 'thermal:press_gear_die', 'ftbic:iridium_gear');
     multiPress('mekanism:ingot_uranium', 4, 'thermal:press_gear_die', 'ftbic:uranium_gear');
@@ -461,6 +462,7 @@ onEvent('recipes', function (e) {
     multiPress('minecraft:emerald', 4, 'thermal:press_gear_die', 'thermal:emerald_gear');
     multiPress('minecraft:quartz', 4, 'thermal:press_gear_die', 'thermal:quartz_gear');
     multiPress('minecraft:lapis_lazuli', 4, 'thermal:press_gear_die', 'thermal:lapis_gear');
+    extrudingFTB('avaritia:infinity_ingot', 4, 'ragnamod_seven:infinity_gear', 1);
     extrudingFTB('minecraft:diamond', 4, 'thermal:diamond_gear', 1);
     extrudingFTB('pneumaticcraft:ingot_iron_compressed', 4, 'pneumaticcraft:compressed_iron_gear', 1);
     extrudingFTB('thermal:signalum_plate', 4, 'thermal:signalum_gear', 1);
@@ -479,6 +481,7 @@ onEvent('recipes', function (e) {
     extrudingFTB('thermal:silver_plate', 4, 'thermal:silver_gear', 1);
     extrudingFTB('redstone_arsenal:flux_ingot', 4, 'redstone_arsenal:flux_gear', 1);
     extrudingFTB('thermal_extra:dragonsteel_plate', 4, 'thermal_extra:dragonsteel_gear', 1);
+    metalPress('immersiveengineering:mold_gear', 'avaritia:infinity_ingot', 4, 'ragnamod_seven:infinity_gear', 1);
     metalPress('immersiveengineering:mold_gear', 'thermal:enderium_ingot', 4, 'thermal:enderium_gear', 1);
     metalPress('immersiveengineering:mold_gear', 'ftbic:iridium_ingot', 4, 'ftbic:iridium_gear', 1);
     metalPress('immersiveengineering:mold_gear', 'minecraft:diamond', 4, 'thermal:diamond_gear', 1);

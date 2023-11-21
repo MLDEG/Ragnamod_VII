@@ -7,6 +7,7 @@ onEvent('item.registry', e => {
     e.create('chickens:nether_star_shard').displayName('§eNether Star Shard').glow(true)
     e.create('chemlib:draconium_compound').displayName('Draconium Compound')
     e.create('ragnamod_seven:infinity_gem').displayName('§cInfinity Gem')
+    e.create('ragnamod_seven:infinity_gear').displayName('§cInfinity Gear')
     e.create('ragnamod_seven:sphere').displayName('Sphere Of All Things')
     e.create('ragnamod_seven:ignis_soul').displayName('Ignis Soul')
     e.create('ragnamod_seven:revenant_soul').displayName('Revanant Soul')
