@@ -334,6 +334,8 @@ onEvent('jei.hide.items', e => {
 		'pneumaticcraft:creative_upgrade',
 		'modularrouters:creative_module',
 		'create:creative_crate',
+		'ragnamod_seven:creative_augment_base',
+		'ragnamod_seven:ae2'
 	])
 })
 
