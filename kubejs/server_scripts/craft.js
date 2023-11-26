@@ -400,4 +400,63 @@ onEvent('recipes', e => {
   e.shapeless('appmek:creative_chemical_cell', ['appmek:chemical_cell_housing', 'mekanism:creative_chemical_tank'])
   e.shapeless('ae2:creative_fluid_cell', ['ae2:fluid_cell_housing', 'mekanism:creative_fluid_tank'])
   e.shapeless('ae2:creative_item_cell', ['ae2:item_cell_housing', 'functionalstorage:creative_vending_upgrade'])
+  //Creative WorldShaper
+  e.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": { "item": "create:potato_cannon" },
+    "transitionalItem": { "item": "create:potato_cannon" },
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          { "item": "create:potato_cannon" },
+          { "fluid": "create_confectionery:ruby_chocolate", "nbt": {}, "amount": 1000 }
+        ],
+        "results": [{ "item": "create:potato_cannon" }]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          { "item": "create:potato_cannon" },
+          { "item": "create:extendo_grip" }
+        ],
+        "results": [{ "item": "create:potato_cannon" }]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          { "item": "create:potato_cannon" },
+          { "fluid": "materialis:molten_refined_radiance", "nbt": {}, "amount": 1000 }
+        ],
+        "results": [{ "item": "create:potato_cannon" }]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          { "item": "create:potato_cannon" }
+        ],
+        "results": [{ "item": "create:potato_cannon" }]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          { "item": "create:potato_cannon" },
+          { "fluid": "materialis:molten_shadow_steel", "nbt": {}, "amount": 1000 }
+        ],
+        "results": [{ "item": "create:potato_cannon" }]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          { "item": "create:potato_cannon" },
+          { "item": "ragnamod_seven:sphere" }
+        ],
+        "results": [{ "item": "create:potato_cannon" }]
+      }
+    ],
+    "results": [
+      { "item": "create:handheld_worldshaper" }
+    ],
+    "loops": 1
+  })
 })
