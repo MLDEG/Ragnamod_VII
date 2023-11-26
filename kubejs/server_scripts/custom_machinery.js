@@ -277,6 +277,8 @@ onEvent('recipes', e => {
   arsImpre(5, 'ars_nouveau:source_gem')
   arsImpre(40, 'ars_nouveau:source_gem_block')
 
+  //Black Sphere Block
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:black_sphere"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'ragnamod_seven:noisy_neutronium', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //Black Sphere
   e.custom({
     "type": "custommachinery:custom_machine",
