@@ -301,7 +301,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Infinity Ingot is a combination of a lot of ingots."]
 			dependencies: [
 				"0C4F359B153DD1A0"
@@ -328,7 +328,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"In this pack, to craft an Infinity Catalyst, you need to combine every singularity in Agglomerate Matter form and combine again in an Extreme Crafting Table to get finally your Infinity Catalyst !"
 				""
@@ -401,7 +401,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Ultimate Stew is a huge stew with a lot of fruits and vegetables in it !"
 				""
@@ -562,7 +562,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["The Sword of the Cosmos can one shot every mob, even a Creative player !"]
 			dependencies: [
 				"4BB16AAE2B3D988C"
@@ -584,7 +584,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Nature's Ruin lives up to its name."
 				""
@@ -612,7 +612,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Hoe of the Green Earth can till your dirt in a large area."]
 			dependencies: [
 				"4BB16AAE2B3D988C"
@@ -633,7 +633,7 @@
 		{
 			x: 4.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The World Breaker destroy everything."
 				""
@@ -661,7 +661,7 @@
 		{
 			x: 4.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Planet Eater can mine very fast every dirt, sand, gravel type of blocks."
 				""
@@ -687,7 +687,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Longbow of the Heavens shoot explosive arrow and target entities nearby !"]
 			dependencies: [
 				"4BB16AAE2B3D988C"

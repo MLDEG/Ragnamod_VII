@@ -443,6 +443,19 @@
 				"2F831E3421874107"
 			]
 			id: "1FA6721FE1D91AC0"
+			rewards: [{
+				id: "5C269A7E2B87E92C"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:miscellaneous"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Draconic Evolution Quests"
@@ -455,6 +468,19 @@
 				"4EC9036AA204C433"
 			]
 			id: "714282AAC1313C4C"
+			rewards: [{
+				id: "359B50385D3C9217"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:draconic_evolution"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of AE2 Quests"
@@ -467,6 +493,19 @@
 				"5E5C6FD7CF30FFEA"
 			]
 			id: "00C636511238EEB8"
+			rewards: [{
+				id: "59026B9B6FEA170C"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ae2"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Create Quests"
@@ -479,6 +518,19 @@
 				"5CD29C53E589AD7F"
 			]
 			id: "3B3A799F1B75AE8D"
+			rewards: [{
+				id: "1B61A3EBBDC681F9"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:create"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Botania Quests"
@@ -491,6 +543,19 @@
 				"2045D567B9FCBCF3"
 			]
 			id: "0F52D023446A5774"
+			rewards: [{
+				id: "032512618DD0FD18"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:botania"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Chickens Quests"
@@ -503,6 +568,19 @@
 				"4CF41C801751BB53"
 			]
 			id: "5FD678D3209DCC4B"
+			rewards: [{
+				id: "5541492A5CA4907C"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:chickens"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of EvilCraft Quests"
@@ -515,6 +593,19 @@
 				"346297BE5BDEC10F"
 			]
 			id: "1D3E40D087710248"
+			rewards: [{
+				id: "26A82D3BF505FC65"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:evil_craft"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Blue Skies Quests"
@@ -527,6 +618,19 @@
 				"6E7D92AE133EA961"
 			]
 			id: "61533A3766658ACA"
+			rewards: [{
+				id: "5570DEA3AF7E9888"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:blueskies"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Blood Magic Quests"
@@ -539,6 +643,19 @@
 				"7E4BC42F36B0917D"
 			]
 			id: "300626B04E2E1A0F"
+			rewards: [{
+				id: "2FA36BD6CFEF2625"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:blood_magic"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Beyond Earth Quests"
@@ -551,6 +668,19 @@
 				"4A4847E98CD1AF15"
 			]
 			id: "4426E6FD93B6633E"
+			rewards: [{
+				id: "6F9A70BE71E7E889"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:beyond_earth"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Alchemistry Quests"
@@ -563,6 +693,19 @@
 				"1B98F9043CEFF5C1"
 			]
 			id: "4570DDAED84143FE"
+			rewards: [{
+				id: "012FBE8CBF3431BF"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:alchemistry"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Ars Nouveau Quests"
@@ -575,6 +718,19 @@
 				"6AEDA2F9BEB57759"
 			]
 			id: "3A5EF4E424C3FCD2"
+			rewards: [{
+				id: "52EA3E98C4809BC2"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ars_nouveau"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Thermal Quests"
@@ -587,6 +743,19 @@
 				"36C695AAE1C616E4"
 			]
 			id: "553749A87395453B"
+			rewards: [{
+				id: "02CD95A89B440DF5"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:thermal"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Spirit Quests"
@@ -599,6 +768,19 @@
 				"6935A012EE5813BE"
 			]
 			id: "273F753DD5046AC1"
+			rewards: [{
+				id: "605EBF61F8B43DC8"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:spirit"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Forbidden and Arcanus Quests"
@@ -611,6 +793,19 @@
 				"4C310F9E6915E56F"
 			]
 			id: "5AE38E6B372BFD65"
+			rewards: [{
+				id: "55333DEE37E6C7B7"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:forbidden_arcanus"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Hexerei Quests"
@@ -623,6 +818,19 @@
 				"5BFC3BEE30EAEBFE"
 			]
 			id: "035F22543F085D4C"
+			rewards: [{
+				id: "0F5789207EFD6304"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:hexerei"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Hostile Neural Network Quests"
@@ -635,6 +843,19 @@
 				"0252CFF73D2F4C90"
 			]
 			id: "79B059567011CA3E"
+			rewards: [{
+				id: "3F339EAED4687DEA"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:hostile_neural_networks"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Immersive Engineering Quests"
@@ -647,6 +868,19 @@
 				"12A72D5A79F3E4F7"
 			]
 			id: "60812A72691AE76E"
+			rewards: [{
+				id: "34635F4767CB0C63"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:immersive"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Industrial Foregoing Quests"
@@ -659,6 +893,19 @@
 				"282378CE555D3359"
 			]
 			id: "485D5ECED2F6996A"
+			rewards: [{
+				id: "4F2D19EA75CC3993"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:industrial_foregoing"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Mekanism Quests"
@@ -671,6 +918,19 @@
 				"6932D8CEAE707C22"
 			]
 			id: "12C5FFD5AAE65BBD"
+			rewards: [{
+				id: "2D7288E56CB00499"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:mekanism"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Narute's Aura Quests"
@@ -683,6 +943,19 @@
 				"7C5D25D8C536BCF5"
 			]
 			id: "2E158F57698EB663"
+			rewards: [{
+				id: "24BE332F329F1E83"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:nature_aura"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Avaritia Quests"
@@ -695,6 +968,19 @@
 				"72541E35A3B494D6"
 			]
 			id: "0EBF3455DC47F112"
+			rewards: [{
+				id: "48BEF6B0A90BDF2A"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:avaritia"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of FTB Industrial Contraptions Quests"
@@ -707,6 +993,19 @@
 				"2979D0A83D67A51F"
 			]
 			id: "5DC6CDB2146D749A"
+			rewards: [{
+				id: "781C6BFE3179B899"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ftbic"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of RFTool and Co Quests"
@@ -719,6 +1018,19 @@
 				"58253107FB138B0D"
 			]
 			id: "66473AFD28BA9C16"
+			rewards: [{
+				id: "10F489DA92DE0A1B"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:rftools"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Powah Quests"
@@ -731,6 +1043,19 @@
 				"525F2BEC4ECAE9ED"
 			]
 			id: "0BD32B73FB445994"
+			rewards: [{
+				id: "355C9B182D1917F6"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:powah"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Pneumaticcraft Quests"
@@ -743,6 +1068,19 @@
 				"0CEA4981B3B0DFEB"
 			]
 			id: "1ACD5D1757C62A7F"
+			rewards: [{
+				id: "3346B8A35B4689FE"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:pneumaticcraft"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "End of Occultism Quests"
@@ -755,6 +1093,19 @@
 				"4E9F718F175FD8F5"
 			]
 			id: "790FA14F1CFBE005"
+			rewards: [{
+				id: "40C602C6E8EB9897"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:occultism"
+						}
+					}
+				}
+			}]
 		}
 		{
 			icon: {
@@ -806,6 +1157,19 @@
 				"67B9CFBCE02F42D2"
 			]
 			id: "7F8D203B2DBDE286"
+			rewards: [{
+				id: "6FADDA5DD8E5018B"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:psi"
+						}
+					}
+				}
+			}]
 		}
 		{
 			icon: "ragnamod_seven:sphere"
@@ -829,6 +1193,19 @@
 				"5443C3DB1D83DA16"
 			]
 			id: "3EF525880EBABE1A"
+			rewards: [{
+				id: "60430F722512297D"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:end_game"
+						}
+					}
+				}
+			}]
 		}
 	]
 	quest_links: [ ]

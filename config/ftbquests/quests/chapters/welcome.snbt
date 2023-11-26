@@ -60,6 +60,7 @@
 				"If you want to join an already existing team you just have to type the command:"
 				"/ftbteams party join TEAM NAME"
 			]
+			dependencies: ["2C8AB1F55FB366FF"]
 			id: "56716F5436571867"
 			tasks: [{
 				id: "1092D040F7A11D5A"
@@ -77,6 +78,7 @@
 				""
 				"Be aware, however, that some quests give you explanations."
 			]
+			dependencies: ["2C8AB1F55FB366FF"]
 			id: "7FCC8E5807B336D5"
 			tasks: [{
 				id: "44CD1AE4C463D342"
@@ -93,6 +95,7 @@
 			x: 0.0d
 			y: 1.5d
 			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
+			dependencies: ["2C8AB1F55FB366FF"]
 			id: "47900538A09CE4F2"
 			tasks: [{
 				id: "43845AD1FF4F31E7"
@@ -108,6 +111,7 @@
 				""
 				"Without them, this modpack would not be what it is today."
 			]
+			dependencies: ["2C8AB1F55FB366FF"]
 			id: "57765685D5C57FA7"
 			tasks: [{
 				id: "002A236FDD31BC2B"
