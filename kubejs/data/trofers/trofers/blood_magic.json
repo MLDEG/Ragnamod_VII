@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#7e0300",
+    "text": "Blood Magic Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"bloodmagic:livingboots\", Count: 1b, tag: {Damage: 0}}, {id: \"bloodmagic:livingleggings\", Count: 1b, tag: {Damage: 0}}, {id: \"bloodmagic:livingplate\", Count: 1b, tag: {Damage: 0}}, {id: \"bloodmagic:livinghelmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#7e0300"
+  }
+}

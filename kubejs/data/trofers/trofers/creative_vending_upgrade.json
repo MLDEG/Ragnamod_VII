@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#8f36ff",
+    "text": "Creative Vending Upgrade Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "functionalstorage:creative_vending_upgrade"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#8f36ff"
+  }
+}

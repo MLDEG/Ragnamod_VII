@@ -1,0 +1,23 @@
+{
+  "name": {
+    "color": "#6f6f6f",
+    "text": "Creative Fluid Tank Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "offset": {
+      "y": 2
+    },
+    "scale": 0.5
+  },
+  "item": {
+    "item": "mekanism:creative_fluid_tank"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#202020"
+  }
+}

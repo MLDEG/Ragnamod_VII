@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#bababa",
+    "text": "Thermal Trophy"
+  },
+  "display": {
+    "scale": 1.2
+  },
+  "item": {
+    "item": "thermal:machine_frame"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#bababa"
+  }
+}

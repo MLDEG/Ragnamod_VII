@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#e274c0",
+    "text": "Creative Compressor Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "pneumaticcraft:creative_compressor"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#e274c0"
+  }
+}

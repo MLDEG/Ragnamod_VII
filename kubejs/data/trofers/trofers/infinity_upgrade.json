@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#6524a3",
+    "text": "Infinity Upgrade Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "pipez:infinity_upgrade"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#6524a3"
+  }
+}

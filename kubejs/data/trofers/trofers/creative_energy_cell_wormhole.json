@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#04b7e0",
+    "text": "Creative Energy Cell Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "wormhole:creative_energy_cell"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#04b7e0"
+  }
+}

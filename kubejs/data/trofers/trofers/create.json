@@ -1,0 +1,18 @@
+{
+  "name": {
+    "color": "#d6c575",
+    "text": "Create Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"create_sa:brass_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"create_sa:brass_leggings\", Count: 1b, tag: {Damage: 0}}, {id: \"create_sa:brass_exoskeleton_chestplate\", Count: 1b, tag: {Damage: 0}}, {id: \"create_sa:brass_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#d6c575"
+  }
+}
+

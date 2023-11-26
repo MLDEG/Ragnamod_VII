@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#07b7c3",
+    "text": "Nature's Aura Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"naturesaura:sky_shoes\", Count: 1b, tag: {Damage: 0}}, {id: \"naturesaura:sky_pants\", Count: 1b, tag: {Damage: 0}}, {id: \"naturesaura:sky_chest\", Count: 1b, tag: {Damage: 0}}, {id: \"naturesaura:sky_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#07b7c3"
+  }
+}

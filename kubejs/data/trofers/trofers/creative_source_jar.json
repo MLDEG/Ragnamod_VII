@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#faf25e",
+    "text": "Creative Source Jar Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "ars_nouveau:creative_source_jar"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#faf25e"
+  }
+}

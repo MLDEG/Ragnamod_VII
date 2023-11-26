@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#90813c",
+    "text": "PSI Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"psi:psimetal_exosuit_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"psi:psimetal_exosuit_leggings\", Count: 1b, tag: {Damage: 0}}, {id: \"psi:psimetal_exosuit_chestplate\", Count: 1b, tag: {Damage: 0}}, {id: \"psi:psimetal_exosuit_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#90813c"
+  }
+}

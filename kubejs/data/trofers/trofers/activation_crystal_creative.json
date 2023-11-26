@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#c3709d",
+    "text": "Activation Crystal Creative Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "bloodmagic:activationcrystalcreative"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#c3709d"
+  }
+}

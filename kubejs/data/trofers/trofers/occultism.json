@@ -1,0 +1,19 @@
+{
+  "name": {
+    "color": "#a166bd",
+    "text": "Occultism Trophy"
+  },
+  "display": {
+    "offset": {
+      "z": 2.5
+    },
+    "scale": 2
+  },
+  "item": {
+    "item": "occultism:spirit_attuned_crystal"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#a166bd"
+  }
+}

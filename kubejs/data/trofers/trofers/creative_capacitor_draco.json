@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#fc830d",
+    "text": "Creative Capacitor Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "draconicevolution:creative_capacitor"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#fc830d"
+  }
+}

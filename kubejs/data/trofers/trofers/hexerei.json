@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#262a25",
+    "text": "Hexerei Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"hexerei:witch_boots\", Count: 1b, tag: {Damage: 0}}, {}, {id: \"hexerei:witch_chestplate\", Count: 1b, tag: {Damage: 0}}, {id: \"hexerei:witch_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#262a25"
+  }
+}

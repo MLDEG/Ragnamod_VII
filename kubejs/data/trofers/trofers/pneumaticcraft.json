@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#969696",
+    "text": "Pneumaticcraft Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"pneumaticcraft:pneumatic_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"pneumaticcraft:pneumatic_leggings\", Count: 1b, tag: {Damage: 0}}, {id: \"pneumaticcraft:pneumatic_chestplate\", Count: 1b, tag: {Damage: 0}}, {id: \"pneumaticcraft:pneumatic_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#969696"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#9d5c9d",
+    "text": "Creative Generator Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "createaddition:creative_energy"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#9d5c9d"
+  }
+}

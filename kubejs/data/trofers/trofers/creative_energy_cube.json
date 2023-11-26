@@ -1,0 +1,23 @@
+{
+  "name": {
+    "color": "#3cfe9a",
+    "text": "Creative Energy Cube Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "offset": {
+      "y": 2
+    },
+    "scale": 0.51
+  },
+  "item": {
+    "item": "mekanism:creative_energy_cube"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#3cfe9a"
+  }
+}

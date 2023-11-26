@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#bababa",
+    "text": "Mekanism Trophy"
+  },
+  "display": {
+    "scale": 0.6
+  },
+  "entity": {
+    "type": "minecraft:skeleton",
+    "nbt": "{HandItems: [{id: \"mekanism:meka_tool\", Count: 1b, tag: {}}, {}], ArmorItems: [{id: \"mekanism:mekasuit_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"mekanism:mekasuit_pants\", Count: 1b, tag: {Damage: 0}}, {id: \"mekanism:mekasuit_bodyarmor\", Count: 1b, tag: {Damage: 0}}, {id: \"mekanism:mekasuit_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#bababa"
+  }
+}

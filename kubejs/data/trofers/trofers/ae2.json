@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#fc9b44",
+    "text": "Applied Energistics 2 Trophy"
+  },
+  "display": {
+    "scale": 1.2
+  },
+  "item": {
+    "item": "ragnamod_seven:ae2"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#fc9b44"
+  }
+}

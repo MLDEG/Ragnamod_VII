@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#c654bf",
+    "text": "Creative Worldshaper Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 0.8
+  },
+  "item": {
+    "item": "create:handheld_worldshaper"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#c654bf"
+  }
+}

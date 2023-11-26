@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#7a9196",
+    "text": "Blue Skies Trophy"
+  },
+  "display": {
+    "scale": 0.25
+  },
+  "entity": {
+    "type": "blue_skies:starlit_crusher"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#7a9196"
+  }
+}

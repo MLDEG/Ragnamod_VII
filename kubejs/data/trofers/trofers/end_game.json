@@ -1,0 +1,19 @@
+{
+  "name": {
+    "color": "#570707",
+    "text": "End Game Trophy"
+  },
+  "display": {
+    "scale": 1.2
+  },
+  "animation": {
+    "type": "tumbling"
+  },
+  "item": {
+    "item": "ragnamod_seven:sphere"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#570707"
+  }
+}

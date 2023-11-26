@@ -1,0 +1,21 @@
+{
+  "name": {
+    "color": "#00c3ea",
+    "text": "Creative Mana Tablet Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "botania:mana_tablet",
+    "nbt": "{creative:1b,mana:500000}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#00c3ea"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "color": "#ca9157",
+    "text": "Creative Rod Frame Trophy"
+  },
+  "animation":{
+      "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "offset": {
+        "y": 3, 
+        "x": 2.75
+    },
+    "scale": 1,
+    "rotation": {
+      "z": 45
+    }
+  },
+  "item": {
+    "item": "psi:cad_assembly_creative"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#ca9157"
+  }
+}

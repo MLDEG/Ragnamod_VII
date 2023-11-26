@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#de5300",
+    "text": "Creative Power Source Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "draconicevolution:creative_op_capacitor"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#de5300"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": {
+    "color": "#c49e3f",
+    "text": "Alchemistry Trophy"
+  },
+  "display": {
+    "offset": {
+      "y": 2.9
+    },
+    "scale": 0.7
+  },
+  "item": {
+    "item": "alchemistry:combiner"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#c49e3f"
+  }
+}

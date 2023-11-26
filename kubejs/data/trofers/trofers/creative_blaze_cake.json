@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#df64cf",
+    "text": "Creative Blaze Cake Trophy"
+  },
+  "animation":{
+      "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "create:creative_blaze_cake"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#df64cf"
+  }
+}

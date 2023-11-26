@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#ec3ffc",
+    "text": "Creative Energy Cell Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "ae2:creative_energy_cell"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#ec3ffc"
+  }
+}

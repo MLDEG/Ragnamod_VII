@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#5a32b9",
+    "text": "Creative Energy Cell Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "powah:energy_cell_creative"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#5a32b9"
+  }
+}

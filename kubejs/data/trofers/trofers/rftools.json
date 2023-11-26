@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#bababa",
+    "text": "RFTools Trophy"
+  },
+  "display": {
+    "scale": 1.2
+  },
+  "item": {
+    "item": "xnet:controller"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#bababa"
+  }
+}

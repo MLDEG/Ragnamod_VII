@@ -1,0 +1,19 @@
+{
+  "name": {
+    "color": "#ffffff",
+    "text": "Powah Trophy"
+  },
+  "display": {
+    "offset": {
+      "y": 9.5
+    },
+    "scale": 1.2
+  },
+  "item": {
+    "item": "powah:energizing_rod_nitro"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#ffffff"
+  }
+}

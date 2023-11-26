@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#772212",
+    "text": "Evil Craft Trophy"
+  },
+  "display": {
+    "scale": 1.2
+  },
+  "item": {
+    "item": "evilcraft:sanguinary_environmental_accumulator"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#772212"
+  }
+}

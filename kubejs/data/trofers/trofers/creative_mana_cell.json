@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#3287fc",
+    "text": "Creative Mana Cell Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "appbot:creative_mana_cell"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#3287fc"
+  }
+}

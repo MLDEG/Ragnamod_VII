@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#cbd4da",
+    "text": "Creative Item Cell Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1
+  },
+  "item": {
+    "item": "ae2:creative_item_cell"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#cbd4da"
+  }
+}

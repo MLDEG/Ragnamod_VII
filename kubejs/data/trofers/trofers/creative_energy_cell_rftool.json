@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#969531",
+    "text": "Dimentional Cell Creative Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "rftoolspower:dimensionalcell_creative"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#969531"
+  }
+}

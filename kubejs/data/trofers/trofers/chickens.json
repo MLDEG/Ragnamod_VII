@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#6abeb9",
+    "text": "Chickens Trophy"
+  },
+  "display": {
+    "scale": 1
+  },
+  "entity": {
+    "type": "chickens:infinity_chicken"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#6abeb9"
+  }
+}

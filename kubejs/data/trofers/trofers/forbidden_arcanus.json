@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#132346",
+    "text": "Forbidden Arcanus Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"forbidden_arcanus:tyr_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"forbidden_arcanus:tyr_leggings\", Count: 1b, tag: {Damage: 0}}, {id: \"forbidden_arcanus:tyr_chestplate\", Count: 1b, tag: {Damage: 0}}, {id: \"forbidden_arcanus:tyr_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#132346"
+  }
+}

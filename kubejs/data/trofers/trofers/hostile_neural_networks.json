@@ -1,0 +1,24 @@
+{
+  "name": {
+    "color": "#009093",
+    "text": "Hostile Neural Network Trophy"
+  },
+  "display": {
+    "offset": {
+      "z": 5
+    },
+    "scale": 1.2,
+    "rotation": {
+      "x": -90,
+      "y": 180
+    }
+  },
+  "item": {
+    "item": "hostilenetworks:data_model",
+    "nbt": "{data_model:{id:\"hostilenetworks:warden\"}}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#009093"
+  }
+}

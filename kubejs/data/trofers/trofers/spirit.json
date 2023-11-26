@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#44adb4",
+    "text": "Spirit Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{Corrupted: 1b}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#44adb4"
+  }
+}

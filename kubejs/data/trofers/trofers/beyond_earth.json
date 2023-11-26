@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#c84148",
+    "text": "Beyond Earth Trophy"
+  },
+  "display": {
+    "scale": 0.2
+  },
+  "entity": {
+    "type": "beyond_earth:rocket_t4"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#c84148"
+  }
+}

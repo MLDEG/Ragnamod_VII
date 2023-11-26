@@ -1,0 +1,27 @@
+{
+  "name": {
+    "color": "#f7d349",
+    "text": "Creative Spell Book Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "offset": {
+      "y": 2
+    },
+    "rotation": {
+      "x": 35,
+      "y": -20
+    },
+    "scale": 0.80
+  },
+  "item": {
+    "item": "ars_nouveau:creative_spell_book"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#f7d349"
+  }
+}

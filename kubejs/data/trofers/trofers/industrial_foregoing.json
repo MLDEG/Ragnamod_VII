@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#64c3d2",
+    "text": "Industrial Foregoing Trophy"
+  },
+  "display": {
+    "scale": 1.2
+  },
+  "item": {
+    "item": "industrialforegoing:mycelial_reactor"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#64c3d2"
+  }
+}

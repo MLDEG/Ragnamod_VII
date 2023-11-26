@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#6f6f6f",
+    "text": "Botania Trophy"
+  },
+  "display": {
+    "scale": 0.5
+  },
+  "entity": {
+    "type": "botania:doppleganger"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#202020"
+  }
+}

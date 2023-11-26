@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#653824",
+    "text": "Creative Capacitor Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "immersiveengineering:capacitor_creative"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#653824"
+  }
+}

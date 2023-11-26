@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#4ac532",
+    "text": "FTB Idustrial Contraptions Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"ftbic:quantum_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"ftbic:quantum_leggings\", Count: 1b, tag: {Damage: 0}}, {id: \"ftbic:quantum_chestplate\", Count: 1b, tag: {Damage: 0}}, {id: \"ftbic:quantum_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#4ac532"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#8f4db1",
+    "text": "Ars Nouveau Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"ars_nouveau:archmage_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"ars_nouveau:archmage_leggings\", Count: 1b, tag: {Damage: 0}}, {id: \"ars_nouveau:archmage_robes\", Count: 1b, tag: {Damage: 0}}, {id: \"ars_nouveau:archmage_hood\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#8f4db1"
+  }
+}

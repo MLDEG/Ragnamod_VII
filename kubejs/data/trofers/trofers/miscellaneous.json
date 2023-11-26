@@ -1,0 +1,21 @@
+{
+  "name": {
+    "color": "#bababa",
+    "text": "Miscellaneous Trophy"
+  },
+  "display": {
+    "offset": {
+      "y": 2,
+      "z": 3
+    },
+    "scale": 1
+  },
+  "item": {
+    "item": "sophisticatedbackpacks:netherite_backpack",
+    "nbt": "{borderColor:16383998,clothColor:16383998,renderInfo:{battery:{chargeRatio:0.0f},tanks:[{info:{fillRatio:1.0f,fluid:{Amount:40000,FluidName:\"materialis:molten_starmetal\"}},position:\"left\"},{info:{fillRatio:1.0f,fluid:{Amount:40000,FluidName:\"tinkers_reforged:molten_redstone\"}},position:\"right\"}],upgradeItems:[{Count:1b,id:\"sophisticatedbackpacks:tank_upgrade\"},{Count:1b,id:\"sophisticatedbackpacks:battery_upgrade\"}]}}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#bababa"
+  }
+}
