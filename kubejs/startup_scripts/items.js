@@ -80,4 +80,5 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:agglomerate_matter_ars').displayName('§bArs Nouveau\'s Agglomerate Matter')
     e.create('ragnamod_seven:agglomerate_matter_pneumaticcraft').displayName('§bPneumaticcraft\'s Agglomerate Matter')
     e.create('ragnamod_seven:agglomerate_matter_tech').displayName('§bTech\'s Agglomerate Matter')
+    e.create('ragnamod_seven:creative_augment_base').displayName('Creative Augmente Base')
 })

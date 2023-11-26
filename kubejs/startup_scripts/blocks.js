@@ -17,6 +17,7 @@ onEvent('block.registry', e => {
     e.create('ragnamod_seven:chemical_draconium_block').displayName('Chemical Draconium Block').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
     e.create('miniutilities:stable_block').displayName('Stable Block').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
     e.create('ragnamod_seven:singularity_silent').displayName('Singularity silent').material('portal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe').notSolid().renderType('cutout').defaultTranslucent().redstoneConductor(false).waterlogged()
+    e.create('ragnamod_seven:ae2').displayName('Controller Online').material('stone')
     e.create('ragnamod_seven:psi_stabilizer').displayName('PSI Stabilizer').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe').notSolid().renderType('cutout').defaultTranslucent().redstoneConductor(false).waterlogged()
 
 
