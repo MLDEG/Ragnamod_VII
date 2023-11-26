@@ -1689,6 +1689,7 @@
 				"3EF525880EBABE1A"
 				"10792CBBE7D201BB"
 			]
+			hide: true
 			id: "13F3520B038EEB2E"
 			tasks: [{
 				id: "291FDE18DE01C936"
@@ -1753,6 +1754,7 @@
 				"3EF525880EBABE1A"
 				"226DE9F1866723FA"
 			]
+			hide: true
 			id: "11AB8B8A4B8591A6"
 			tasks: [{
 				id: "6FEF4ACB6830D909"
@@ -1808,6 +1810,7 @@
 				"3EF525880EBABE1A"
 				"4F4568C31ADF1B89"
 			]
+			hide: true
 			id: "4BFE0EA0E7C60E33"
 			tasks: [{
 				id: "2B8FEF711B5387E7"
@@ -1862,6 +1865,7 @@
 				"0EBF3455DC47F112"
 				"3EF525880EBABE1A"
 			]
+			hide: true
 			id: "2E5FA514DCF114FE"
 			tasks: [{
 				id: "561D0D3197F813A9"
