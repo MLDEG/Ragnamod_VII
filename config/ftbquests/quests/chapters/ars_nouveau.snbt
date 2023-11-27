@@ -582,7 +582,7 @@
 				"To start, you have &bHarm&r and &bBreak&r !"
 				""
 				"Select a shape and effect, name it, and click on &dcreate&r !"
-				"{image:ftbquests:textures/ars_nouveau/spellbook.png width:192 height:129 align:1}"
+				"{image:ftbquests:textures/quests/spellbook.png width:192 height:129 align:1}"
 			]
 			dependencies: [
 				"3D4D88B8BE881351"
@@ -611,7 +611,7 @@
 				""
 				"There are several ways to increase your mana reserve through this mod. Improving your spell book will increase your mana !"
 				""
-				"{image:ftbquests:textures/ars_nouveau/mana_bar.png width:218 height:36 align:1}"
+				"{image:ftbquests:textures/quests/mana_bar.png width:218 height:36 align:1}"
 			]
 			dependencies: [
 				"64D0E66CB4FBEC82"

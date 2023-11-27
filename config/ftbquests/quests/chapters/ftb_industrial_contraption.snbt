@@ -843,14 +843,14 @@
 			shape: "square"
 			description: [
 				"Here's an example of a configuration for your nuclear reactor."
-				"{image:ftbquests:textures/ftbic/nuclear_reactor_gui.png width:150 height:125 align:1}"
+				"{image:ftbquests:textures/quests/ftbic_nuclear_reactor_gui.png width:150 height:125 align:1}"
 				""
 				"Click on the \"?\" button to find information about your nuclear reactor:"
 				"  -Your reactor's operating time."
 				"  -Whether or not your nuclear reactor explodes, and the explosion radius."
 				"  -Energy generated per tick."
 				"  -Energy generated during its cycle."
-				"{image:ftbquests:textures/ftbic/nuclear_reactor_simu.png width:190 height:70 align:1}"
+				"{image:ftbquests:textures/quests/ftbic_nuclear_reactor_simu.png width:190 height:70 align:1}"
 			]
 			dependencies: [
 				"064EC198DEA45645"
