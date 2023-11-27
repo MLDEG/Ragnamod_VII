@@ -767,7 +767,6 @@
 				"4879AC817FF297B3"
 				"577D6202E19B2599"
 			]
-			dependency_requirement: "one_completed"
 			id: "09A85D028D01FE97"
 			tasks: [{
 				id: "67FDEB9FA5AF6BBC"
