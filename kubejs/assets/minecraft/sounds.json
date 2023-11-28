@@ -1,0 +1,8 @@
+{
+	"block.will_factory.ambient":
+	{
+		"sounds":[
+			"custom/will_factory"
+		]
+	}
+}

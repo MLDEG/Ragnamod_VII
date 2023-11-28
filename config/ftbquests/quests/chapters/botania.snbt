@@ -38,7 +38,7 @@
 			title: "Runes of seasons"
 			x: 11.0d
 			y: 2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"These are the second tier runes."
 				""
@@ -81,7 +81,7 @@
 			title: "Runes of Sins"
 			x: 10.0d
 			y: 2.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"These are the third tier runes."
 				""
@@ -140,7 +140,7 @@
 			title: "Runes of Yggdrasil"
 			x: 9.0d
 			y: 3.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"These are the fourth tier runes."
 				""
@@ -208,7 +208,7 @@
 			title: "Elemental Runes"
 			x: 11.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"These are the first tier runes."
 				""
@@ -258,7 +258,7 @@
 			title: "Spark Augments"
 			x: 13.0d
 			y: 2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Put a Spark Augment on your Sparks to grant them a specific behavior:"
 				"- Recessive will send its mana to all other Sparks in range;"
@@ -307,7 +307,7 @@
 			icon: "botania:gaia_pylon"
 			x: 19.5d
 			y: 2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"To fight the Guardian of Gaia you need to setup an arena using the stuff of this quest. Check the Lexica Botania to view how to build the arena."
 				""
@@ -354,7 +354,7 @@
 			icon: "botania:natura_pylon"
 			x: 14.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Alfheim portal is mainly used for trading overworld stuff for Alfheim stuff."
 				"Check the Lexica Botania to see the structure you need to make."
@@ -406,7 +406,7 @@
 		{
 			x: 9.0d
 			y: -3.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Mana Pylons are used to boost up Enchanting Tables like Bookshelves. They give 8 Eterna each so you just need 2 to reach an enchanting level of 30."]
 			dependencies: [
 				"00000000000003CF"
@@ -429,7 +429,7 @@
 		{
 			x: 14.0d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["You can upgrade your Lexica Botania by throwing your existing Lexica Botania in the Aflheim Portal (works with the Akashic Tome)"]
 			dependencies: [
 				"00000000000003AB"
@@ -457,7 +457,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Wand of the Forest is the tool you need to manipulate mana and configure Botania stuff."
 				"Switch between Bind Mode and Function Mode by sneak+right-clicking your wand without targetting a compatible block."
@@ -489,7 +489,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Floral Fertilizer is used to spawn Mystical Flowers by right-clicking Grass Blocks with it."]
 			dependencies: [
 				"113D3F44F9F6C45C"
@@ -513,7 +513,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Petal Apothecary is used to craft generating and functional flowers."]
 			dependencies: [
 				"00000000000003B3"
@@ -535,7 +535,7 @@
 		{
 			x: 19.5d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Gaia Mana Spreader can burst even more mana and much faster than the elven one."
 				""
@@ -562,7 +562,7 @@
 		{
 			x: 16.0d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"By right-clicking with the Rod of the Bifrost you can build a temporary rainbow road in the direction you are looking at."
 				"You need to have mana on you to use the rod, but using it doesn't cost any mana. Built roads can be up to 100 blocks long and last for 30 seconds."
@@ -590,7 +590,7 @@
 		{
 			x: 10.0d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["With the Rod of the Seas you have an ocean in your hands, if you have mana (75 per use) on you of course!"]
 			dependencies: [
 				"00000000000003A2"
@@ -611,7 +611,7 @@
 		{
 			x: 9.0d
 			y: 2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"With the Rod of the Shifting Crust, if you have mana on you (40 per use), you can swap blocks."
 				"Sneak+right-click on a block to register it in your rod, then left-click another block to swap it with the one you've registered, or right-click it to swap all identical blocks in a 7x7x7 area around it (only those on the surface)."
@@ -640,7 +640,7 @@
 		{
 			x: 11.0d
 			y: -2.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Mana Tablet is used to carry mana on you. Toss your tablet in a Mana Pool set in sending mode by right-clicking it with your Wand of the Forest to fill it, or in receive mode to fill the pool with the content of your tablet."]
 			dependencies: [
 				"00000000000003D1"
@@ -667,7 +667,7 @@
 			title: "Mana materials"
 			x: 7.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"In a Mana Pool, Toss:"
 				"- a String to get a Mana Infused String;"
@@ -712,7 +712,7 @@
 		{
 			x: 8.0d
 			y: -2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Get a Mana Diamond by tossing a Diamond in a Mana Pool."]
 			dependencies: [
 				"00000000000003F9"
@@ -734,7 +734,7 @@
 		{
 			x: 9.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Get a Mana Pearl by tossing an Ender Pearl in a Mana Pool."]
 			dependencies: [
 				"00000000000003F9"
@@ -756,7 +756,7 @@
 		{
 			x: 9.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Get a Manasteel Ingot by tossing a Steel Ingot in a Mana Pool."]
 			dependencies: [
 				"00000000000003F9"
@@ -779,7 +779,7 @@
 		{
 			x: 10.0d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["The Assembly Halo is a portable Crafting Table with the ability to register up to 11 crafts."]
 			dependencies: [
 				"00000000000003D1"
@@ -807,7 +807,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Blacker Lotus give enormous amount of mana when throwed in a Mana Pool, 100,000 exactly."]
 			dependencies: [
 				"00000000000003E5"
@@ -829,7 +829,7 @@
 		{
 			x: 14.0d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Elven Mana Spreader can burst more mana and a bit faster than the basic one."
 				""
@@ -857,7 +857,7 @@
 			icon: "botania:gaia_ingot"
 			x: 18.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Use your Gaia Spirit to craft a Gaia Spirit Ingot and use it on the Beacon of your Gaia arena."]
 			dependencies: [
 				"00000000000003E9"
@@ -880,7 +880,7 @@
 		{
 			x: 17.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Put an Elementium Ingot, a Pixie Dust and a Dragonstone on the Mana-Infuser to get an Alfsteel Ingot."
 				"As for the Terrasteel, the cost is pretty high (2,000,000 mana, 2 Mana Pools) so ensure to have the mana required for the craft before starting or all the mana sent to the infuser will be lost."
@@ -905,7 +905,7 @@
 		{
 			x: 12.0d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Bind a Mana Mirror to a Mana Pool by right-clicking it to have mana on you, like a remote Mana Tablet."
 				"The chunk in which the Mana Pool is doesn't need to be loaded to access its mana, but of course it needs to be loaded if you want your mana generating setup to constantly refill the pool."
@@ -935,7 +935,7 @@
 		{
 			x: 7.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["In this pack you can craft Black Lotus. By throwing it in a Mana Pool containing some mana, you will instantly get 8,000 more mana."]
 			dependencies: [
 				"00000000000003F9"
@@ -957,7 +957,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"With the Mana Spreader you can transfer the mana generated by flowers wherever you want."
 				"Simply use a Wand of the Forest to make the Mana Spreader point where you want."
@@ -988,7 +988,7 @@
 			icon: "botania:life_essence"
 			x: 19.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Defeat the Guardian of Gaia and get some Gaia Spirits as rewards."]
 			dependencies: [
 				"00000000000003A9"
@@ -1018,7 +1018,7 @@
 		{
 			x: 13.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Put a Manasteel Ingot, a Mana Pearl and a Mana Diamond on a Terrestrial Agglomeration Plate to get a Terrasteel Ingot. You can right-click the plate with the items or toss them on it."
 				"Items on the plate can despawn, so ensure to have the 500,000 mana (half a Mana Pool) required for the craft before starting or all the mana sent to the plate will be lost."
@@ -1042,7 +1042,7 @@
 		{
 			x: 15.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The get a Dragonstone, throw a Mana Diamond in the Alfheim Portal."]
 			dependencies: [
 				"00000000000003AB"
@@ -1064,7 +1064,7 @@
 		{
 			x: 13.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["To get a Pixie Dust, throw a Mana Pearl in the Alfheim Portal."]
 			dependencies: [
 				"00000000000003AB"
@@ -1086,7 +1086,7 @@
 		{
 			x: 15.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The get an Elementium Ingot, throw 2 Manasteel Ingots in the Alfheim Portal."]
 			dependencies: [
 				"00000000000003AB"
@@ -1108,7 +1108,7 @@
 		{
 			x: 11.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Factory Halo is an Assembly Halo, but it will automatically performs the crafts you've registered as soon as their ingredients are in your inventory!"]
 			dependencies: [
 				"00000000000003D5"
@@ -1138,7 +1138,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"With a Mana Splitter you can fill up to 4 Mana Pools at once."
 				"Simply point your Mana Spreader toward the Mana Splitter and place your Mana Pools next to it."
@@ -1162,7 +1162,7 @@
 		{
 			x: 10.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Runic Altar is mainly used to craft Runes."
 				"To make it work, you have to feed it with mana from Mana Spreaders."
@@ -1188,7 +1188,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Mana Pool is your primary method of storing mana."
 				""
@@ -1215,7 +1215,7 @@
 		{
 			x: 20.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Flügel Tiara allows you to fly temporarily as in creative, but with a twist: press your run key to get an incredible speed boost! You are also immune to fall damage."
 				""
@@ -1250,7 +1250,7 @@
 			title: "Elementium Armor"
 			x: 16.0d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["An armor made of Elementium has the same properties as the one in Manasteel, but also a chance (up to 52% with the full set) to spawn Pixies each time you are hit. Pixies will fly to your opponents and apply potion effects to them."]
 			dependencies: [
 				"00000000000003F1"
@@ -1321,7 +1321,7 @@
 			title: "Manasteel Armor"
 			x: 8.0d
 			y: 2.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Pieces or armor made of Manasteel provide a defense equivalent to an iron armor. But it also have the following advantages:"
 				"- its enchantability is twice as good as that of iron armor (18 instead of 9);"
@@ -1393,7 +1393,7 @@
 			title: "Terrasteel Armor"
 			x: 13.0d
 			y: -2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Terrasteel armor is a very good set. It provides as much protection as the Netherite set, but with the Manasteel armor advantages and many more:"
 				"- its enchantability is much better than Netherite armor (26 instead of 15);"
@@ -1472,7 +1472,7 @@
 			title: "Alfsteel Armor"
 			x: 16.0d
 			y: 2.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Alfsteel armor is an upgraded version of the Terrasteel set and a very strong set. In addition to the Terrasteel set bonuses, this one has the following advantages:"
 				"- the helmet increases your reach by 2 blocks;"
@@ -1571,7 +1571,7 @@
 			title: "Catalysts"
 			x: 5.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Alchemy Catalyst allows you to infuse items with mana to transmute them, like Gunpowder into Flint or Quartz into Prismarine Shard."
 				""
@@ -1606,7 +1606,7 @@
 			icon: "botania:terra_plate"
 			x: 12.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Terrestrial Agglomeration Plate is used to craft Terrasteel."
 				"You need to make a small structure to make it work (check the Lexica Botania to view the structure)."
@@ -1647,7 +1647,7 @@
 			icon: "mythicbotany:mana_infuser"
 			x: 16.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: ["The Mana-Infuser is an upgraded version of the Terrestrial Agglomeration Plate, but it requires its Spark to have a Dominant Augment."]
 			dependencies: [
 				"00000000000003F1"
@@ -1686,7 +1686,7 @@
 		{
 			x: 12.0d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Sparks are used to move mana between Mana Pools but also to feed the Terrestrial Agglomeration Plate with mana."
 				""
@@ -1713,7 +1713,7 @@
 			title: "Basic Rings"
 			x: 8.0d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Band of Aura slowly generates Mana, at a rate of 5 mana every 2.5 seconds."
 				"The Band of Mana can store up to 500,000 Mana (half a Mana Pool)."
@@ -1760,7 +1760,7 @@
 			title: "Greater Rings"
 			x: 9.0d
 			y: -2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Greater Band of Aura generates Mana, at a rate of 5 mana every 0.5 seconds."
 				"The Greater Band of Mana can store up to 2,000,000 Mana (2 Mana Pools)."
@@ -1808,7 +1808,7 @@
 			title: "Greatest Rings"
 			x: 10.0d
 			y: -2.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Greatest Band of Aura fastly generates Mana, at a rate of 20 mana every tick."
 				"The Greatest Band of Mana can store up to 4,000,000 Mana (4 Mana Pools)."
@@ -1845,7 +1845,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Pure Daisy is used to transmute blocks or fluids into other blocks or fluids."
 				""
@@ -2214,7 +2214,7 @@
 			title: "Living Blocks"
 			x: 6.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"To get Livingrock you have to transform any type of stone from Blue Skies, using a Pure Daisy."
 				"For the Livingwood, transform any kind of wood from Blue Skies."
@@ -2258,7 +2258,7 @@
 			title: "Alfsteel Pylons"
 			x: 18.0d
 			y: 2.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Alfsteel Pylons are just a step on the path to the Gaia Pylons."]
 			dependencies: [
 				"00000000000003DF"
@@ -2283,7 +2283,7 @@
 		{
 			x: 14.0d
 			y: -2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["The Branch of Yggdrasil is used to fill your Gjallarhorn. Use Mana Spreaders to feed it with 6,240 mana."]
 			dependencies: [
 				"00000000000003EB"
@@ -2305,7 +2305,7 @@
 		{
 			x: 15.0d
 			y: -2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				""
 				"Craft the Gjallarhorn to use it on the Branch of Yggdrasil."
@@ -2330,7 +2330,7 @@
 		{
 			x: 16.0d
 			y: -2.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Put the Gjallarhorn on a Branch of Yggdrasil with enough mana and you will get the Water from the Well of Mimir."
 				"Once you have it, drink it to get some knowledge to make rituals."
@@ -2365,7 +2365,7 @@
 			icon: "mythicbotany:fimbultyr_tablet"
 			x: 17.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Fight the Guardian of Gaia again. But be careful because this one is more powerful."
 				"If you drank the Water from the Well of Mimir, you should get a Rune Tablet of Fimbultyr by defeating them."
@@ -2400,7 +2400,7 @@
 			title: "Rune Holders"
 			x: 19.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["You need these to perform rituals."]
 			dependencies: [
 				"1F196D2F8EC9C7D3"
@@ -2431,7 +2431,7 @@
 		{
 			x: 19.5d
 			y: -2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Create the Blood of Kvasir by performing the ritual in the image below."
 				"{image:ftbquests:textures/quests/mythicbotany_bloodofkvasir.png width:150 height:100 align:1}"
@@ -2459,7 +2459,7 @@
 			icon: "mythicbotany:kvasir_mead"
 			x: 20.0d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"Drink the Mead of Kvasir to get the ability to go in the Alfheim dimension."
 				""
@@ -2492,7 +2492,7 @@
 		{
 			x: 18.0d
 			y: -2.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Mjöllnir is Thor's hammer. Only those who are strong enough can carry it, so you must have Absorption Hearts in order to be blessed with its power."]
 			dependencies: [
 				"0A092542A77AFA9D"
@@ -2515,7 +2515,7 @@
 		{
 			x: 7.0d
 			y: -2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Teru Teru Bozu becomes sad when it rains and smiles again if you feed them with a Sunflower."
 				"When you make them happy the sunlight comes back!"
@@ -2542,7 +2542,7 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Hovering Hourglass is a timer whose delay can be configured using sand!"
 				"It emits a redstone signal when it flips to reset its timer."
@@ -2586,7 +2586,7 @@
 		{
 			x: 14.0d
 			y: 2.5d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The Cocoon of Caprice will turn into a baby animal after 2 minutes."
 				"You can get aquatic mobs by waterlogging the cocoon, rarer mobs with a Gaia Spirit, or special mobs by right clicking some items on it, like a Shulker (with Chorus Fruits) or a Villager (with Emeralds)."
@@ -2613,7 +2613,7 @@
 			title: "Elementium Rings"
 			x: 15.0d
 			y: 2.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"These rings grant you several abilities:"
 				"- the Great Fairy Ring increases your chance to spawn a Pixie when hit by 25%, for a total of 77% with the full elementium armor set;"
