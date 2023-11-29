@@ -136,7 +136,7 @@
 			rewards: [{
 				id: "4B3FE0AB11C117B6"
 				type: "item"
-				item: "minecraft:lava_bucket"
+				item: "minecraft:bucket"
 			}]
 		}
 		{
