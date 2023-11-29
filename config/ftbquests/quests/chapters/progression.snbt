@@ -64,6 +64,7 @@
 			y: 0.0d
 			shape: "gear"
 			description: ["Unlock the page for Miscellaneous."]
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "577D6202E19B2599"
 			tasks: [{
 				id: "615FD1FA032837B9"
@@ -75,6 +76,7 @@
 			icon: "ae2:controller"
 			x: 5.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "0B1D5E77E82B17AB"
 			tasks: [{
 				id: "46C1CBA682D028E3"
@@ -86,6 +88,7 @@
 			icon: "create:wrench"
 			x: 2.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "298A3F9171009D45"
 			tasks: [{
 				id: "3BDE64E2434E3BB0"
@@ -97,6 +100,7 @@
 			icon: "botania:mana_pylon"
 			x: 6.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "113D3F44F9F6C45C"
 			tasks: [{
 				id: "2D992EAEBD3BBAE4"
@@ -129,6 +133,7 @@
 			}
 			x: 3.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "4C886CE89FF0AF52"
 			tasks: [{
 				id: "19E1A2245AF1D2D4"
@@ -140,6 +145,7 @@
 			icon: "evilcraft:condensed_blood"
 			x: 7.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "48D9C1D7730F18CD"
 			tasks: [{
 				id: "6B5E0170D6AB9B1B"
@@ -151,6 +157,7 @@
 			icon: "blue_skies:soul_fragment"
 			x: 9.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "7AD83BC20D2742C4"
 			tasks: [{
 				id: "05F9E556CBCDF9E3"
@@ -162,6 +169,7 @@
 			icon: "bloodmagic:altar"
 			x: 1.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "1BEEC705CE150D00"
 			tasks: [{
 				id: "77A8BC8468F48613"
@@ -173,6 +181,7 @@
 			icon: "beyond_earth:nasa_workbench"
 			x: 4.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "480EEAEC65D24F9E"
 			tasks: [{
 				id: "0A6364AF5E4AE035"
@@ -184,6 +193,7 @@
 			icon: "alchemistry:combiner"
 			x: 6.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "30B80CCC4A8FD6C7"
 			tasks: [{
 				id: "66A0B977D60B2E29"
@@ -195,6 +205,7 @@
 			icon: "ars_nouveau:novice_spell_book"
 			x: 1.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "10F31028FC893ADE"
 			tasks: [{
 				id: "13D54B02E5A6DA74"
@@ -206,6 +217,7 @@
 			icon: "thermal:machine_frame"
 			x: 7.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "3FC86B24AC2C57A9"
 			tasks: [{
 				id: "31D081C51FC42F1A"
@@ -217,6 +229,7 @@
 			icon: "spirit:crude_soul_crystal"
 			x: 2.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "13C41B348C636ACA"
 			tasks: [{
 				id: "7F787ED4B6110469"
@@ -228,6 +241,7 @@
 			icon: "forbidden_arcanus:hephaestus_forge"
 			x: 3.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "49566F6C3DE4A0A0"
 			tasks: [{
 				id: "251F6C9785E7F07E"
@@ -248,6 +262,7 @@
 			}
 			x: 8.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "17F1675D9744D1DE"
 			tasks: [{
 				id: "0B06B1C1DA77F76E"
@@ -259,6 +274,7 @@
 			icon: "hostilenetworks:sim_chamber"
 			x: 5.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "5CF931657DFA41A5"
 			tasks: [{
 				id: "0D6F1E4B854E42AF"
@@ -279,6 +295,7 @@
 			}
 			x: 4.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "2C4EB8D4AD7073DF"
 			tasks: [{
 				id: "3AFDFB99D9226CE6"
@@ -290,6 +307,7 @@
 			icon: "industrialforegoing:mob_imprisonment_tool"
 			x: 3.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "594B09B9BA7FD7C3"
 			tasks: [{
 				id: "47DC3A6D83E4D094"
@@ -301,6 +319,7 @@
 			icon: "mekanism:steel_casing"
 			x: 4.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "24AA4048D4600331"
 			tasks: [{
 				id: "00A31355828E5F0C"
@@ -312,6 +331,7 @@
 			icon: "naturesaura:gold_leaf"
 			x: 5.0d
 			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "52D6BB5F13D719A4"
 			tasks: [{
 				id: "2EF38A8E3A5ED007"
@@ -334,6 +354,7 @@
 			icon: "avaritia:infinity_catalyst"
 			x: 8.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "124C6442CC789FCA"
 			tasks: [{
 				id: "236FCCEF44A9E3A2"
@@ -345,6 +366,7 @@
 			icon: "ftbic:nuclear_reactor"
 			x: 0.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "24CEA0C30026A5BD"
 			tasks: [{
 				id: "15439CE3A1083306"
@@ -356,6 +378,7 @@
 			icon: "rftoolsbase:machine_frame"
 			x: 2.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "6BAADB4B4E44097C"
 			tasks: [{
 				id: "09E1A4D86EC8CD58"
@@ -367,6 +390,7 @@
 			icon: "powah:energizing_rod_nitro"
 			x: 8.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "46019F50846AAFD0"
 			tasks: [{
 				id: "687A4227F5922079"
@@ -378,6 +402,7 @@
 			icon: "pneumaticcraft:air_compressor"
 			x: 1.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "4ECF8A0985D2EC5D"
 			tasks: [{
 				id: "7ED184EA4AF3D72D"
@@ -389,6 +414,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 0.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "112B0AEF7EDDDE6A"
 			tasks: [{
 				id: "7CC7E8CB85106E1E"
@@ -425,6 +451,7 @@
 			}
 			x: 7.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "170B797FE3905864"
 			tasks: [{
 				id: "0E67185F8B547723"
