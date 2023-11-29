@@ -19,5 +19,12 @@
       "beyond_earth:venu_orbits"
     ],
     "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:bat", "minecraft:creeper", "minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:witch"
+    ],
+    "biome": "evilcraft:degraded",
+    "result": "deny"
   }
 ]
