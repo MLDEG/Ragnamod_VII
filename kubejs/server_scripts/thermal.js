@@ -2,7 +2,7 @@ onEvent('recipes', e => {
     function igneousExtruder(fluid, bottom, output) { e.custom({ "type": "thermal:rock_gen", "adjacent": fluid, "below": bottom, "result": { "item": output } }) }
     function chillerBlock(fluid, qty, block) { e.custom({ "type": "thermal:chiller", "ingredient": { "fluid": fluid, "amount": qty }, "result": [{ "item": block }], "energy": 1000 }) }
     function chillerIngot(fluid, qty, ingot) { e.custom({ "type": "thermal:chiller", "ingredients": [{ "fluid": fluid, "amount": qty }, { "item": "thermal:chiller_ingot_cast" }], "result": [{ "item": ingot, "count": 1 }], "energy": 250 }) }
-    function fluidEncap(input, fluid, amount, output){e.custom({"type": "thermal:bottler","ingredients": [{"item": input},{"fluid": fluid,"amount": amount}],"result": [{"item": output}]})}
+    function fluidEncap(input, fluid, amount, output) { e.custom({ "type": "thermal:bottler", "ingredients": [{ "item": input }, { "fluid": fluid, "amount": amount }], "result": [{ "item": output }] }) }
 
 
     //Igneous Extruder
@@ -61,6 +61,7 @@ onEvent('recipes', e => {
     igneousExtruder('minecraft:water', 'blue_skies:crystal_sandstone', 'blue_skies:crystal_sand')
     igneousExtruder('minecraft:water', 'blue_skies:lunar_stonebrick', 'blue_skies:lunar_stone')
     igneousExtruder('minecraft:water', 'blue_skies:polished_umber', 'blue_skies:umber')
+    igneousExtruder('minecraft:water', 'darkerdepths:polished_shale', 'darkerdepths:shale')
 
     //Corundrum
     fluidEncap('quark:red_shard', "thermal_extra:crystallized_sunflower_oil", 1000, 'quark:red_corundum_cluster')
