@@ -21,6 +21,7 @@
 				""
 				"Tips: You can find Vanilla Ores in hills."
 			]
+			dependencies: ["375F4C25F6B07F8C"]
 			size: 1.5d
 			id: "7DCDDC6CA278A7C5"
 			tasks: [{

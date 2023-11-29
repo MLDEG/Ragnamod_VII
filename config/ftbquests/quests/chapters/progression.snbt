@@ -1156,16 +1156,10 @@
 						Count: 1b
 					}
 				}
-				ForgeCaps: {
-					Parent: {
-						Memory: [ ]
-						Battery: 400
-						Time: 2345
-					}
-				}
 			}
 			x: 6.0d
 			y: 2.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "6C08FEEEC41D0620"
 			tasks: [{
 				id: "747CB20BEF4C4988"
@@ -1202,6 +1196,7 @@
 			icon: "ragnamod_seven:sphere"
 			x: 9.0d
 			y: 4.0d
+			dependencies: ["375F4C25F6B07F8C"]
 			id: "5297052C3503826D"
 			tasks: [{
 				id: "71209B4CD5B54414"
