@@ -1334,6 +1334,7 @@
 			}]
 		}
 		{
+			title: "Fluix Dusts"
 			x: -1.5d
 			y: -4.0d
 			shape: "square"
