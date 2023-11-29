@@ -717,7 +717,7 @@
 			x: 2.0d
 			y: -1.5d
 			shape: "square"
-			description: ["Craft the Charoite toolset, you'll gonna need it for the end of the game."]
+			description: ["Craft the Charoite toolset."]
 			dependencies: [
 				"0DA2467A22F6D309"
 				"7AD83BC20D2742C4"
@@ -843,7 +843,7 @@
 			x: 3.0d
 			y: -1.5d
 			shape: "square"
-			description: ["Craft the Diopsite toolset, you'll gonna need it for the end of the game."]
+			description: ["Craft the Diopsite toolset."]
 			dependencies: [
 				"3ED4894CC5603845"
 				"7AD83BC20D2742C4"
@@ -969,7 +969,7 @@
 			x: -3.0d
 			y: -1.5d
 			shape: "square"
-			description: ["Craft the Pyrope toolset, you'll gonna need it for the end of the game."]
+			description: ["Craft the Pyrope toolset."]
 			dependencies: [
 				"7805AD446625B4BD"
 				"7AD83BC20D2742C4"
@@ -1095,7 +1095,7 @@
 			x: -2.0d
 			y: -1.5d
 			shape: "square"
-			description: ["Craft the Aquite toolset, you'll gonna need it for the end of the game."]
+			description: ["Craft the Aquite toolset."]
 			dependencies: [
 				"7E6B4F17B0F46590"
 				"7AD83BC20D2742C4"
@@ -1282,7 +1282,7 @@
 			x: 3.0d
 			y: 3.0d
 			shape: "square"
-			description: ["Craft the Horizonite toolset, you'll gonna need it for the end of the game."]
+			description: ["Craft the Horizonite toolset."]
 			dependencies: [
 				"0F3871DA957D1676"
 				"7AD83BC20D2742C4"
