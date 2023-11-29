@@ -16,7 +16,7 @@
 	xpCostPerLeashed = 1
 	#The base xp level cost when travelling between dimensions. Ignores block distance.
 	#Range: > -2147483648
-	dimensionalWarpXpCost = 3
+	dimensionalWarpXpCost = 0
 	#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	globalWaystoneXpCostMultiplier = 1.0
