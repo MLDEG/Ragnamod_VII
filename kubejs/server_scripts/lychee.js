@@ -30,4 +30,20 @@ onEvent('recipes', e => {
         ]
     })
 
+    //Liveroot
+    e.custom({
+        "type": "lychee:block_interacting",
+        "item_in": {
+            "item": "minecraft:emerald"
+        },
+        "block_in": "twilightforest:root",
+        "post": [
+            {
+                "type": "place",
+                "block": "twilightforest:liveroot_block"
+            }
+        ]
+    })
+
+
 })
