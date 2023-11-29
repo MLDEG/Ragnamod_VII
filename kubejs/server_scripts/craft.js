@@ -8,6 +8,8 @@ onEvent('recipes', e => {
   e.shapeless('4x beyond_earth:ice_shard', 'minecraft:packed_ice')
   //Beyond Heart Cheese
   e.shapeless('beyond_earth:cheese', 'croptopia:cheese')
+  //Clay Ball
+  e.shapeless('4x minecraft:clay_ball', 'minecraft:clay')
   //Silicon Block
   e.shapeless('9x ftbic:silicon', 'ftbic:silicon_block')
   e.shapeless('ftbic:silicon_block', '9x ftbic:silicon')
