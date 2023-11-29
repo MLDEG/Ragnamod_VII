@@ -5,6 +5,7 @@ onEvent('tags.items', e => {
     e.remove('forge:ingots/osmium', 'chemlib:osmium_ingot')
     e.remove('forge:ingots/enderium', 'ftbic:enderium_ingot')
     e.remove('forge:ingots/iridium', 'chemlib:iridium_ingot')
+    e.remove('forge:ingots/cobalt', 'chemlib:cobalt_ingot')
     e.remove('forge:ingots/zinc', 'chemlib:zinc_ingot')
     e.remove('forge:ingots/electrum', ['immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot'])
     e.remove('forge:ingots/constantan', 'immersiveengineering:ingot_constantan')
@@ -24,6 +25,7 @@ onEvent('tags.items', e => {
     e.remove('forge:nuggets/zinc', 'chemlib:zinc_nugget')
     e.remove('forge:nuggets/iridium', 'chemlib:iridium_nugget')
     e.remove('forge:nuggets/enderium', 'ftbic:enderium_nugget')
+    e.remove('forge:nuggets/cobalt', 'chemlib:cobalt_nugget')
     e.remove('forge:nuggets/copper', ['tconstruct:copper_nugget', 'thermal:copper_nugget', 'immersiveengineering:nugget_copper', 'ftbic:copper_nugget'])
     e.remove('forge:nuggets/uranium', ['chemlib:uranium_nugget', 'ftbic:uranium_nugget', 'immersiveengineering:nugget_uranium'])
     e.remove('forge:nuggets/tin', ['chemlib:tin_nugget', 'ftbic:tin_nugget', 'mekanism:nugget_tin'])
@@ -148,6 +150,7 @@ onEvent('tags.items', e => {
     e.remove('forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel')
     e.remove('forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum')
     e.remove('forge:storage_blocks/coal_coke', 'immersiveengineering:coke')
+    e.remove('forge:storage_blocks/cobalt', 'chemlib:cobalt_metal_block')
 
     //Remove Other
     e.remove('forge:silicon', 'ae2:silicon')

@@ -603,6 +603,11 @@ onEvent('recipes', e => {
         'miniutilities:blessed_earth',
         'miniutilities:blursed_earth',
         'avaritia:extreme_crafting_table',
+        "minecraft:bread",
+        "chemlib:cobalt_nugget_to_ingot",
+        "chemlib:cobalt_block_to_ingot",
+        "chemlib:cobalt_ingot_to_nugget",
+        "chemlib:cobalt_ingot_to_block",
     ]
     removeId.forEach(C => { r(C) })
 })

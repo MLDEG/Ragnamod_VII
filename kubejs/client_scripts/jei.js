@@ -335,7 +335,9 @@ onEvent('jei.hide.items', e => {
 		'modularrouters:creative_module',
 		'create:creative_crate',
 		'ragnamod_seven:creative_augment_base',
-		'ragnamod_seven:ae2'
+		'ragnamod_seven:ae2',
+		'chemlib:cobalt_nugget',
+		'chemlib:cobalt_ingot'
 	])
 })
 
@@ -422,6 +424,7 @@ onEvent('item.tooltip', tooltip => {
 	chemLib('gold', 'Au (79)', 'Transition Metals')
 	chemLib('copper', 'Cu (29)', 'Transition Metals')
 	chemLib('sulfur', 'S (16)', 'Reactive Non-Metals')
+	chemLib('cobalt', 'Co (27)', 'Transition Metals')
 
 	tooltip.addAdvanced('chickens:chicken_item', (item, advanced, text) => {
 		if (!item.nbt?.ChickenType?.id.match(/chickens:(red|orange|yellow|lime|green|blue|light_blue|cyan|pink|magenta|purple|brown|black|white|light_gray|gray)_chicken/)) {

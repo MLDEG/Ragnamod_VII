@@ -60,6 +60,7 @@ onEvent('recipes', function (e) {
     ['#forge:ingots/nickel', 'chemlib:nickel_ingot', 'immersiveengineering:ingot_nickel'].forEach(I => { replaceIO(I, 'thermal:nickel_ingot') });
     ['#forge:ingots/constantan', 'immersiveengineering:ingot_constantan'].forEach(I => { replaceIO(I, 'thermal:constantan_ingot') });
     ['#forge:ingots/electrum', 'immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot'].forEach(I => { replaceIO(I, 'thermal:electrum_ingot') });
+    ['#forge:ingots/cobalt', 'chemlib:cobalt_ingot'].forEach(I => { replaceIO(I, 'tconstruct:cobalt_ingot') });
     /**********************Nuggets*************************/
     ['#forge:nuggets/copper', 'tconstruct:copper_nugget', 'thermal:copper_nugget', 'immersiveengineering:nugget_copper', 'ftbic:copper_nugget'].forEach(I => { replaceIO(I, 'create:copper_nugget') });
     ['#forge:nuggets/lead', 'chemlib:lead_nugget', 'ftbic:lead_nugget', 'mekanism:nugget_lead', 'immersiveengineering:nugget_lead'].forEach(I => { replaceIO(I, 'thermal:lead_nugget') });
@@ -78,6 +79,7 @@ onEvent('recipes', function (e) {
     ['#forge:nuggets/silver', 'chemlib:silver_nugget', 'immersiveengineering:nugget_silver', 'occultism:silver_nugget'].forEach(I => { replaceIO(I, 'thermal:silver_nugget') });
     ['#forge:nuggets/tin', 'chemlib:tin_nugget', 'ftbic:tin_nugget', 'mekanism:nugget_tin'].forEach(I => { replaceIO(I, 'thermal:tin_nugget') });
     ['#forge:nuggets/uranium', 'chemlib:uranium_nugget', 'ftbic:uranium_nugget', 'immersiveengineering:nugget_uranium'].forEach(I => { replaceIO(I, 'mekanism:nugget_uranium') });
+    ['#forge:nuggets/cobalt', 'chemlib:cobalt_nugget'].forEach(I => { replaceIO(I, 'tconstruct:cobalt_nugget') });
     /**********************Blocks*************************/
     ['#forge:storage_blocks/lead', 'ftbic:lead_block', 'mekanism:block_lead', 'immersiveengineering:storage_lead'].forEach(I => { replaceIO(I, 'thermal:lead_block') });
     ['#forge:storage_blocks/silver', 'darkerdepths:silver_block', 'occultism:silver_block', 'immersiveengineering:storage_silver'].forEach(I => { replaceIO(I, 'thermal:silver_block') });
@@ -91,6 +93,7 @@ onEvent('recipes', function (e) {
     ['#forge:storage_blocks/enderium', 'ftbic:enderium_block'].forEach(I => { replaceIO(I, 'thermal:enderium_block') });
     ['#forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel'].forEach(I => { replaceIO(I, 'thermal:nickel_block') });
     ['#forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum'].forEach(I => { replaceIO(I, 'thermal:electrum_block') });
+    ['#forge:storage_blocks/cobalt', 'chemlib:cobalt_metal_block'].forEach(I => { replaceIO(I, 'tconstruct:cobalt_block') });
     /**********************Dusts*************************/
     ['#forge:dusts/ender_pearl', '#forge:dusts/ender', 'ftbic:ender_dust', 'miniutilities:ender_dust', 'thermal:ender_pearl_dust'].forEach(I => { replaceIO(I, 'ae2:ender_dust') });
     ['#forge:dusts/obsidian', 'ftbic:obsidian_dust', 'mekanism:dust_obsidian', 'occultism:obsidian_dust'].forEach(I => { replaceIO(I, 'create:powdered_obsidian') });
