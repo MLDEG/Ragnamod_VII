@@ -4124,7 +4124,7 @@
 		}
 		{
 			icon: "torchmaster:megatorch"
-			x: -1.0d
+			x: -1.5d
 			y: -0.5d
 			shape: "square"
 			description: [
@@ -4278,6 +4278,24 @@
 				type: "item"
 				item: "toolbelt:pouch"
 				random_bonus: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			shape: "square"
+			description: ["The Rain Shield is used to mask the rain from the sky within 80 blocks."]
+			dependencies: ["577D6202E19B2599"]
+			id: "1E7BAF6E5CBDBD44"
+			tasks: [{
+				id: "4A778D72A11F16F2"
+				type: "item"
+				item: "rainshield:rain_shield"
+			}]
+			rewards: [{
+				id: "2F2ECBD64B633790"
+				type: "item"
+				item: "rainshield:rain_shield"
 			}]
 		}
 	]
