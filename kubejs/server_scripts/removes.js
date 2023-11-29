@@ -72,6 +72,7 @@ onEvent('recipes', e => {
         'immersiveengineering:crafting/raw_aluminum_to_raw_block_aluminum',
         'immersiveengineering:crafting/raw_block_lead_to_raw_lead',
         'immersiveengineering:crafting/raw_lead_to_raw_block_lead',
+        'mekanism:processing/lead/storage_blocks/from_ingots',
         'mekanism:processing/lead/raw/from_raw_block',
         'mekanism:processing/lead/raw_storage_blocks/from_raw',
         'mekanism:processing/tin/raw/from_raw_block',
@@ -97,6 +98,7 @@ onEvent('recipes', e => {
         'chemlib:silver_ingot_to_block',
         'darkerdepths:silver_block',
         'occultism:crafting/silver_block',
+        'ftbic:shaped/lead_ingot_to_lead_block',
         'ftbic:shaped/enderium_ingot_to_enderium_block',
         'ftbic:shaped/aluminum_ingot_to_aluminum_block',
         'ftbic:shaped/bronze_ingot_to_bronze_block',
@@ -158,6 +160,7 @@ onEvent('recipes', e => {
         'mekanism:nuggets/bronze',
         'mekanism:processing/lead/nugget/from_ingot',
         'mekanism:processing/tin/nugget/from_ingot',
+        'immersiveengineering:crafting/ingot_lead_to_storage_lead',
         'immersiveengineering:crafting/ingot_lead_to_nugget_lead',
         'immersiveengineering:crafting/ingot_steel_to_nugget_steel',
         'immersiveengineering:crafting/ingot_nickel_to_nugget_nickel',
@@ -193,7 +196,6 @@ onEvent('recipes', e => {
         'ftbic:shaped/enderium_ingot',
         'ftbic:shaped/nuggets/enderium_to_enderium_ingot',
         'ftbic:shaped/nuggets/copper_to_copper_ingot',
-        'ftbic:shaped/nuggets/iridium_to_iridium_ingot',
         'ftbic:shaped/nuggets/aluminum_to_aluminum_ingot',
         'ftbic:shaped/nuggets/uranium_to_uranium_ingot',
         'ftbic:shaped/nuggets/lead_to_lead_ingot',
@@ -608,6 +610,9 @@ onEvent('recipes', e => {
         "chemlib:cobalt_block_to_ingot",
         "chemlib:cobalt_ingot_to_nugget",
         "chemlib:cobalt_ingot_to_block",
+        'chemlib:iridium_ingot_to_block',
+        'chemlib:osmium_ingot_to_block',
+        'chemlib:lead_ingot_to_block',
     ]
     removeId.forEach(C => { r(C) })
 })

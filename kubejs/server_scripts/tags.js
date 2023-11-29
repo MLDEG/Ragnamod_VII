@@ -137,20 +137,22 @@ onEvent('tags.items', e => {
     e.remove('forge:storage_blocks/raw_tin', 'mekanism:block_raw_tin')
 
     //Remove Block Storage
-    e.remove('forge:storage_blocks/lead', ['ftbic:lead_block', 'mekanism:block_lead', 'immersiveengineering:storage_lead'])
-    e.remove('forge:storage_blocks/silver', ['darkerdepths:silver_block', 'occultism:silver_block', 'immersiveengineering:storage_silver'])
-    e.remove('forge:storage_blocks/uranium', ['ftbic:uranium_block', 'immersiveengineering:storage_uranium'])
-    e.remove('forge:storage_blocks/tin', ['ftbic:tin_block', 'mekanism:block_tin'])
+    e.remove('forge:storage_blocks/lead', ['ftbic:lead_block', 'mekanism:block_lead', 'immersiveengineering:storage_lead', 'chemlib:lead_metal_block'])
+    e.remove('forge:storage_blocks/silver', ['darkerdepths:silver_block', 'occultism:silver_block', 'immersiveengineering:storage_silver', 'chemlib:silver_metal_block'])
+    e.remove('forge:storage_blocks/uranium', ['ftbic:uranium_block', 'immersiveengineering:storage_uranium', 'chemlib:uranium_metal_block'])
+    e.remove('forge:storage_blocks/tin', ['ftbic:tin_block', 'mekanism:block_tin', 'chemlib:tin_metal_block'])
     e.remove('forge:storage_blocks/steel', ['mekanism:block_steel', 'immersiveengineering:storage_steel'])
     e.remove('forge:storage_blocks/charcoal', ['mekanism:block_charcoal', 'quark:charcoal_block'])
     e.remove('forge:storage_blocks/bronze', ['ftbic:bronze_block', 'mekanism:block_bronze'])
-    e.remove('forge:storage_blocks/aluminum', ['ftbic:aluminum_block', 'immersiveengineering:storage_aluminum'])
+    e.remove('forge:storage_blocks/aluminum', ['ftbic:aluminum_block', 'immersiveengineering:storage_aluminum', 'chemlib:aluminum_metal_block'])
     e.remove('forge:storage_blocks/constantan', 'immersiveengineering:storage_constantan')
     e.remove('forge:storage_blocks/enderium', 'ftbic:enderium_block')
-    e.remove('forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel')
+    e.remove('forge:storage_blocks/nickel', ['immersiveengineering:storage_nickel', 'chemlib:nickel_metal_block'])
     e.remove('forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum')
     e.remove('forge:storage_blocks/coal_coke', 'immersiveengineering:coke')
     e.remove('forge:storage_blocks/cobalt', 'chemlib:cobalt_metal_block')
+    e.remove('forge:storage_blocks/iridium', 'chemlib:iridium_metal_block')
+    e.remove('forge:storage_blocks/osmium', 'chemlib:osmium_metal_block')
 
     //Remove Other
     e.remove('forge:silicon', 'ae2:silicon')

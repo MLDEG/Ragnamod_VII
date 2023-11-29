@@ -407,7 +407,7 @@ onEvent('jei.information', e => {
 onEvent('item.tooltip', tooltip => {
 
 	function chemLib(name, text1, text2) {
-		tooltip.addAdvanced(['#forge:ingots/' + name, '#forge:nuggets/' + name, '#forge:dusts/' + name, '#forge:plates/' + name], (item, advanced, text) => {
+		tooltip.addAdvanced(['#forge:ingots/' + name, '#forge:nuggets/' + name, '#forge:dusts/' + name, '#forge:plates/' + name, '#forge:storage_blocks/' + name], (item, advanced, text) => {
 			text.add(1, Text.of('§3' + text1))
 			text.add(2, Text.of('§7' + text2))
 		})
