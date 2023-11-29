@@ -63,7 +63,7 @@
               "add": false
             }
           ],
-          "name": "immersiveengineering:coal_coke"
+          "name": "thermal:coal_coke"
         },
         {
           "type": "minecraft:item",
