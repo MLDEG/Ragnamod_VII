@@ -640,7 +640,7 @@
 			shape: "square"
 			subtitle: "Look at a Spiritfire"
 			description: [
-				"Throw a Demon's Fruit in Fire to transform this fire into Spiritfire."
+				"Throw a Demon's Fruit on the ground and lit it with a flint and steel."
 				""
 				"This fire is used to transform items into another items."
 			]
