@@ -1,6 +1,21 @@
 {
   "shapes": [
     {
+      "name": "1x1",
+      "depth": -1,
+      "reverse": 0,
+      "reticle": 12,
+      "stride": 0,
+      "elevation": 0,
+      "mask": [
+        "OOOOO",
+        "OOOOO",
+        "OOXOO",
+        "OOOOO",
+        "OOOOO"
+      ]
+    },
+    {
       "name": "1x2",
       "depth": -1,
       "reverse": 0,
