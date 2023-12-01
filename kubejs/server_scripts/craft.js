@@ -463,4 +463,38 @@ onEvent('recipes', e => {
     ],
     "loops": 1
   })
+  //Creative Crystal Tinker'
+  e.custom({
+    "type": "mythicbotany:infusion",
+    "group": "infuser",
+    "output": {
+      "item": "ragnamod_seven:creative_tc_crystal",
+      "count": 1
+    },
+    "mana": 1000000,
+    "ingredients": [
+      {
+        "item": "tconstruct:ender_slime_crystal"
+      },
+      {
+        "item": "tconstruct:sky_slime_crystal"
+      },
+      {
+        "item": "tconstruct:earth_slime_crystal"
+      },
+      {
+        "item": "tconstruct:ichor_slime_crystal"
+      }
+    ],
+    "fromColor": 3124192,
+    "toColor": 16734176
+  })
+  //Creative Tinkers'
+  function arsTC(input, output) { e.custom({ "type": "ars_nouveau:enchanting_apparatus", "reagent": [{ "item": input }], "pedestalItems": [{ "item": { "item": "ragnamod_seven:creative_tc_crystal" } }], "output": { "type": "forge:nbt", "item": "tconstruct:creative_slot", "count": 1, "nbt": "{slot:" + output + "}" }, "sourceCost": 500, "keepNbtOfReagent": false }) }
+  arsTC('minecraft:anvil', 'upgrades')
+  arsTC('minecraft:nether_star', 'abilities')
+  arsTC('minecraft:golden_chestplate', 'defense')
+  arsTC('minecraft:emerald', 'souls')
+  arsTC('psi:exosuit_sensor_light', 'sensor')
+
 })

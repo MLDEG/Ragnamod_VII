@@ -81,4 +81,5 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:agglomerate_matter_pneumaticcraft').displayName('§bPneumaticcraft\'s Agglomerate Matter')
     e.create('ragnamod_seven:agglomerate_matter_tech').displayName('§bTech\'s Agglomerate Matter')
     e.create('ragnamod_seven:creative_augment_base').displayName('Creative Augmente Base')
+    e.create('ragnamod_seven:creative_tc_crystal').displayName("Creative Tinkers' Crystal").glow(true).maxStackSize(1)
 })
