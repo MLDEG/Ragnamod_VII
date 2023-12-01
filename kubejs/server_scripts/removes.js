@@ -613,6 +613,7 @@ onEvent('recipes', e => {
         'chemlib:iridium_ingot_to_block',
         'chemlib:osmium_ingot_to_block',
         'chemlib:lead_ingot_to_block',
+        'minecraft:comparator'
     ]
     removeId.forEach(C => { r(C) })
 })
