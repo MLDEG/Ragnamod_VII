@@ -2688,6 +2688,29 @@
 				item: "immersiveengineering:ethanol_bucket"
 			}]
 		}
+		{
+			title: "Caution"
+			icon: "engineersdecor:sign_caution"
+			x: 5.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Be careful when building your multiblocks, make sure they stay in a single chunk."
+				""
+				"This is strongly not recommended, as there may be problems, such as crashes or disconnection of your cables on the structures."
+			]
+			dependencies: ["2C4EB8D4AD7073DF"]
+			id: "7C8D973D3EDE53E8"
+			tasks: [{
+				id: "234F3FCFA490F485"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2879CEF349DB315B"
+				type: "item"
+				item: "croptopia:coffee"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
