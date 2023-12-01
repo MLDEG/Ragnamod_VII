@@ -6,6 +6,8 @@ onEvent('recipes', e => {
         e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": input1 }, { "item": input1 }, { "item": input1 }, { "item": input2 }, { "item": input1 }, { "item": input1 }, { "item": input1 }], "entityOutput": "chickens:" + output + "_chicken", "duration": 100, "shouldSummonMob": true })
     }
 
+    e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "croptopia:lemon" }, { "item": "croptopia:coconut" }, { "item": "croptopia:strawberry" }, { "item": "croptopia:grapefruit" }, { "item": "croptopia:kiwi" }, { "item": "croptopia:mango" }, { "item": "croptopia:blueberry" }], "entityOutput": "chickens:holy_chicken", "duration": 100, "shouldSummonMob": true })
+
     summonChicken('tinkers_reforged:duralumin_ingot', 'tinkers_reforged:duralumin_block', 'duralumin')
     summonChicken('tinkers_reforged:qivium_ingot', 'tinkers_reforged:qivium_block', 'qivium')
     summonChicken('minecraft:dirt', 'minecraft:dirt', 'dirt')
