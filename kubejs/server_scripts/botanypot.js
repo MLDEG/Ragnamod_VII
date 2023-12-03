@@ -1,6 +1,6 @@
 onEvent('recipes', e => {
 
-    //New Soil
+    //Botany pot
     function soilPot(block, categories, growth) {
         e.custom({ "type": "botanypots:soil", "input": { "item": block }, "display": { "block": block }, "categories": categories, "growthModifier": growth })
     }
@@ -19,5 +19,25 @@ onEvent('recipes', e => {
     color.forEach(C => { corumudm(C) })
 
     e.custom({ "type": "botanypots:crop", "seed": { "item": "forbidden_arcanus:nipa" }, "categories": ["dirt"], "growthTicks": 600, "display": { "type": "botanypots:aging", "block": "forbidden_arcanus:nipa" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_crystal_dust_speck" }, "minRolls": 1, "maxRolls": 1 }] })
+
+    //Botany pot Tier
+    function soilPottier(block, categories, growth) {
+        e.custom({ "type": "botanypotstiers:soil", "input": { "item": block }, "display": { "block": block }, "categories": categories, "growthModifier": growth })
+    }
+    soilPottier('quark:red_corundum', 'red_corundum', 1)
+    soilPottier('quark:orange_corundum', 'orange_corundum', 1)
+    soilPottier('quark:yellow_corundum', 'yellow_corundum', 1)
+    soilPottier('quark:green_corundum', 'green_corundum', 1)
+    soilPottier('quark:blue_corundum', 'blue_corundum', 1)
+    soilPottier('quark:indigo_corundum', 'indigo_corundum', 1)
+    soilPottier('quark:violet_corundum', 'violet_corundum', 1)
+    soilPottier('quark:white_corundum', 'white_corundum', 1)
+    soilPottier('quark:black_corundum', 'black_corundum', 1)
+
+    function corumudmtier(colortier) { e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "quark:" + colortier + "_corundum_cluster" }, "categories": [colortier + "_corundum"], "growthTicks": 600, "display": { "type": "botanypotstiers:simple", "block": "quark:" + colortier + "_corundum_cluster" }, "drops": [{ "chance": 1.00, "output": { "item": "quark:" + colortier + "_corundum_cluster" }, "minRolls": 1, "maxRolls": 2 }, { "chance": 1.00, "output": { "item": "quark:" + colortier + "_corundum" }, "minRolls": 1, "maxRolls": 2 }] }) }
+    var colortier = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "white", "black"]
+    colortier.forEach(C => { corumudmtier(C) })
+
+    e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "forbidden_arcanus:nipa" }, "categories": ["dirt"], "growthTicks": 600, "display": { "type": "botanypotstiers:aging", "block": "forbidden_arcanus:nipa" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_crystal_dust_speck" }, "minRolls": 1, "maxRolls": 1 }] })
 
 })
