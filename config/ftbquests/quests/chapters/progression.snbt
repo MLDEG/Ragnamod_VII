@@ -338,17 +338,6 @@
 				type: "checkmark"
 				title: "Nature's Aura Quests"
 			}]
-			rewards: [{
-				id: "10651E68DA112216"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "naturesaura:book"
-					}
-				}
-			}]
 		}
 		{
 			icon: "avaritia:infinity_catalyst"
