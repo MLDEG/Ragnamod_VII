@@ -474,6 +474,7 @@
 							effect: "naturesaura:animal"
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "7BAEFD0E19FB1DFC"
@@ -485,6 +486,7 @@
 							effect: "naturesaura:plant_boost"
 						}
 					}
+					match_nbt: true
 				}
 			]
 			rewards: [{
