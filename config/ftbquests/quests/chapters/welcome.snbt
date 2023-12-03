@@ -41,8 +41,9 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.5d
+			icon: "create_sa:steam_engine"
+			x: -2.0d
+			y: 1.0d
 			description: [
 				"To share your quests with your friends, you need to create a team."
 				""
@@ -69,7 +70,8 @@
 			}]
 		}
 		{
-			x: -1.0d
+			icon: "computercraft:printed_pages"
+			x: -0.5d
 			y: 1.5d
 			description: [
 				"Like I said, this modpack doesn't force you to play around with the quests."
@@ -92,8 +94,17 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			icon: {
+				id: "modularrouters:creative_module"
+				Count: 1b
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+			x: 1.0d
+			y: 1.0d
 			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
 			dependencies: ["2C8AB1F55FB366FF"]
 			id: "47900538A09CE4F2"
@@ -101,22 +112,6 @@
 				id: "43845AD1FF4F31E7"
 				type: "checkmark"
 				title: "Creative Quests"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 0.5d
-			description: [
-				"Thanks to my beta tester."
-				""
-				"Without them, this modpack would not be what it is today."
-			]
-			dependencies: ["2C8AB1F55FB366FF"]
-			id: "57765685D5C57FA7"
-			tasks: [{
-				id: "002A236FDD31BC2B"
-				type: "checkmark"
-				title: "Thanks"
 			}]
 		}
 	]
