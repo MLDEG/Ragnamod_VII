@@ -469,7 +469,13 @@
 				"577D6202E19B2599"
 				"2F831E3421874107"
 			]
+			ignore_reward_blocking: true
 			id: "1FA6721FE1D91AC0"
+			tasks: [{
+				id: "3484E47A844C4B61"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "5C269A7E2B87E92C"
 				type: "item"
@@ -495,6 +501,11 @@
 				"4EC9036AA204C433"
 			]
 			id: "714282AAC1313C4C"
+			tasks: [{
+				id: "2F8D80823FB28B68"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "359B50385D3C9217"
 				type: "item"
@@ -520,6 +531,11 @@
 				"5E5C6FD7CF30FFEA"
 			]
 			id: "00C636511238EEB8"
+			tasks: [{
+				id: "72214B68C39B3F4C"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "59026B9B6FEA170C"
 				type: "item"
@@ -545,6 +561,11 @@
 				"5CD29C53E589AD7F"
 			]
 			id: "3B3A799F1B75AE8D"
+			tasks: [{
+				id: "50C629092216CD9D"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "1B61A3EBBDC681F9"
 				type: "item"
@@ -570,6 +591,11 @@
 				"2045D567B9FCBCF3"
 			]
 			id: "0F52D023446A5774"
+			tasks: [{
+				id: "5741C128BDB66220"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "032512618DD0FD18"
 				type: "item"
@@ -595,6 +621,11 @@
 				"4CF41C801751BB53"
 			]
 			id: "5FD678D3209DCC4B"
+			tasks: [{
+				id: "440AE1BAAB8F18BE"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "5541492A5CA4907C"
 				type: "item"
@@ -620,6 +651,11 @@
 				"346297BE5BDEC10F"
 			]
 			id: "1D3E40D087710248"
+			tasks: [{
+				id: "73E58C9D030937F6"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "26A82D3BF505FC65"
 				type: "item"
@@ -645,6 +681,11 @@
 				"6E7D92AE133EA961"
 			]
 			id: "61533A3766658ACA"
+			tasks: [{
+				id: "043AED747FDE2E4D"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "5570DEA3AF7E9888"
 				type: "item"
@@ -670,6 +711,11 @@
 				"7E4BC42F36B0917D"
 			]
 			id: "300626B04E2E1A0F"
+			tasks: [{
+				id: "5A4281379B53DE77"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "2FA36BD6CFEF2625"
 				type: "item"
@@ -695,6 +741,11 @@
 				"4A4847E98CD1AF15"
 			]
 			id: "4426E6FD93B6633E"
+			tasks: [{
+				id: "6427449498B3566C"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "6F9A70BE71E7E889"
 				type: "item"
@@ -720,6 +771,11 @@
 				"1B98F9043CEFF5C1"
 			]
 			id: "4570DDAED84143FE"
+			tasks: [{
+				id: "7FC7294AB7976810"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "012FBE8CBF3431BF"
 				type: "item"
@@ -745,6 +801,11 @@
 				"6AEDA2F9BEB57759"
 			]
 			id: "3A5EF4E424C3FCD2"
+			tasks: [{
+				id: "61F8C03A96025136"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "52EA3E98C4809BC2"
 				type: "item"
@@ -770,6 +831,11 @@
 				"36C695AAE1C616E4"
 			]
 			id: "553749A87395453B"
+			tasks: [{
+				id: "4218EBDB3AC1AC91"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "02CD95A89B440DF5"
 				type: "item"
@@ -795,6 +861,11 @@
 				"6935A012EE5813BE"
 			]
 			id: "273F753DD5046AC1"
+			tasks: [{
+				id: "50DB133DD6D208C2"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "605EBF61F8B43DC8"
 				type: "item"
@@ -820,6 +891,11 @@
 				"4C310F9E6915E56F"
 			]
 			id: "5AE38E6B372BFD65"
+			tasks: [{
+				id: "05A41DC17B9BC5D7"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "55333DEE37E6C7B7"
 				type: "item"
@@ -845,6 +921,11 @@
 				"5BFC3BEE30EAEBFE"
 			]
 			id: "035F22543F085D4C"
+			tasks: [{
+				id: "143E0A7C7AB36E11"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "0F5789207EFD6304"
 				type: "item"
@@ -870,6 +951,11 @@
 				"0252CFF73D2F4C90"
 			]
 			id: "79B059567011CA3E"
+			tasks: [{
+				id: "37EB85091860837A"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "3F339EAED4687DEA"
 				type: "item"
@@ -895,6 +981,11 @@
 				"12A72D5A79F3E4F7"
 			]
 			id: "60812A72691AE76E"
+			tasks: [{
+				id: "093AFBA7FD2C3603"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "34635F4767CB0C63"
 				type: "item"
@@ -920,6 +1011,11 @@
 				"282378CE555D3359"
 			]
 			id: "485D5ECED2F6996A"
+			tasks: [{
+				id: "38D7ADF5C53DB52A"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "4F2D19EA75CC3993"
 				type: "item"
@@ -945,6 +1041,11 @@
 				"6932D8CEAE707C22"
 			]
 			id: "12C5FFD5AAE65BBD"
+			tasks: [{
+				id: "1E80EC11ACF7B293"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "2D7288E56CB00499"
 				type: "item"
@@ -970,6 +1071,11 @@
 				"7C5D25D8C536BCF5"
 			]
 			id: "2E158F57698EB663"
+			tasks: [{
+				id: "4BD53544068E6EB1"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "24BE332F329F1E83"
 				type: "item"
@@ -995,6 +1101,11 @@
 				"72541E35A3B494D6"
 			]
 			id: "0EBF3455DC47F112"
+			tasks: [{
+				id: "0BDF390E3A4ECFF9"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "48BEF6B0A90BDF2A"
 				type: "item"
@@ -1020,6 +1131,11 @@
 				"2979D0A83D67A51F"
 			]
 			id: "5DC6CDB2146D749A"
+			tasks: [{
+				id: "65D43F1EA46E494F"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "781C6BFE3179B899"
 				type: "item"
@@ -1045,6 +1161,11 @@
 				"58253107FB138B0D"
 			]
 			id: "66473AFD28BA9C16"
+			tasks: [{
+				id: "152D6ADE6634CA34"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "10F489DA92DE0A1B"
 				type: "item"
@@ -1070,6 +1191,11 @@
 				"525F2BEC4ECAE9ED"
 			]
 			id: "0BD32B73FB445994"
+			tasks: [{
+				id: "1D5AA4EC7F9CC4FF"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "355C9B182D1917F6"
 				type: "item"
@@ -1095,6 +1221,11 @@
 				"0CEA4981B3B0DFEB"
 			]
 			id: "1ACD5D1757C62A7F"
+			tasks: [{
+				id: "4A93AE58F9F50C2C"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "3346B8A35B4689FE"
 				type: "item"
@@ -1120,6 +1251,11 @@
 				"4E9F718F175FD8F5"
 			]
 			id: "790FA14F1CFBE005"
+			tasks: [{
+				id: "09E08083235B0E6D"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "40C602C6E8EB9897"
 				type: "item"
@@ -1178,6 +1314,11 @@
 				"67B9CFBCE02F42D2"
 			]
 			id: "7F8D203B2DBDE286"
+			tasks: [{
+				id: "3F22CF33C01A816F"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "6FADDA5DD8E5018B"
 				type: "item"
@@ -1215,6 +1356,11 @@
 				"5443C3DB1D83DA16"
 			]
 			id: "3EF525880EBABE1A"
+			tasks: [{
+				id: "0EFEE59027EC429F"
+				type: "checkmark"
+				title: "GG"
+			}]
 			rewards: [{
 				id: "60430F722512297D"
 				type: "item"
