@@ -1,4 +1,4 @@
 {
 "criteria": { "ragnamod_7:first_connection": { "trigger": "minecraft:tick" } },
-"rewards": { "function": "ragnamod_7:first_connection" }
+"rewards": { "function": "ragnamod_7:first_connection/spawn" }
 }

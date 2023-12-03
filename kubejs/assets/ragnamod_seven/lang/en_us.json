@@ -1,0 +1,11 @@
+{
+	"ragnamod_7.first_connection.spawn_device": "Spawn Area Observation Device",
+	"ragnamod_7.first_connection.welcome_1": "Welcome to Ragnamod VII!",
+	"ragnamod_7.first_connection.welcome_2": "You are currently in the Twilight Forest sky. Wait for your JourneyMap to load the terrain around you and look around for a good place to land (press %s to open the map in full screen). Once you are ready, you will slowly fall to the ground.",
+	"ragnamod_7.first_connection.welcome_3": "The place where the first player touches down will set the world spawn point. Avoid landing on top of a tree or a dungeon!",
+	"ragnamod_7.first_connection.descend": "Click here to start the descent.",
+	"ragnamod_7.first_connection.accelerate": "Click here to accelerate your descent.",
+	"ragnamod_7.first_connection.fall": "Click here to fall without further wait (you won't take any damage).",
+	"ragnamod_7.first_connection.spawn_set": "%s has landed at [%s; %s; %s], it is now the world spawn point.",
+	"ragnamod_7.first_connection.land": "You can now press the %s key to open you quests screen. Have fun!"
+}

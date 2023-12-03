@@ -1,0 +1,11 @@
+{
+	"ragnamod_7.first_connection.spawn_device": "Dispositif d'Observation de la Zone de Départ",
+	"ragnamod_7.first_connection.welcome_1": "Bienvenue sur Ragnamod VII !",
+	"ragnamod_7.first_connection.welcome_2": "Vous vous trouvez actuellement dans le ciel de la Twilight Forest. Attendez que votre JourneyMap charge le terrain aux alentours et inspectez la zone à la recherche d'un endroit propice où atterrir (appuyez sur %s pour ouvrir la carte en plein écran). Lorsque vous serez prêt(e), vous chuterez lentement vers le sol.",
+	"ragnamod_7.first_connection.welcome_3": "L'endroit où atterrira le premier joueur définira le point d'apparition du monde. Évitez de vous posez au sommet d'un arbre ou d'un donjon !",
+	"ragnamod_7.first_connection.descend": "Cliquez ici pour démarrer la descente.",
+	"ragnamod_7.first_connection.accelerate": "Cliquez ici pour accélérer votre descente.",
+	"ragnamod_7.first_connection.fall": "Cliquez ici pour tomber sans plus attendre (vous ne subirez pas de dégâts).",
+	"ragnamod_7.first_connection.spawn_set": "%s a atterri en [%s; %s; %s], ce sera désormais le point d'apparition du monde.",
+	"ragnamod_7.first_connection.land": "Vous pouvez maintenant appuyer sur la touche %s pour ouvrir votre écran de quêtes. Amusez-vous bien !"
+}
