@@ -88,7 +88,7 @@
 				title: "Quests"
 			}]
 			rewards: [{
-				id: "2FD22A2667507DDD"
+				id: "7C6ECD9A89730417"
 				type: "item"
 				item: "ftbquests:book"
 			}]
