@@ -208,7 +208,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
+			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small basin of water surrounded by flowers and throw it in. This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
 			dependencies: [
 				"5CFDD2C9BF21A177"
 				"22556496826ED6BF"
