@@ -192,7 +192,7 @@
 				""
 				"With three pieces, on top of the previous benefice, you inflict 25% more magic damage and 15% of the damage you make is convert into health."
 				""
-				"And on top of that, you look absolutely cool !"
+				"And on top of that, you look absolutely cool!"
 			]
 			dependencies: [
 				"17C55C73B8D8106D"
@@ -295,7 +295,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"The Drying Rack is used to dry items, it can turn rotten flesh into Leather YAY !"
+				"The Drying Rack is used to dry items, it can turn rotten flesh into Leather YAY!"
 				""
 				"The other type of Drying Rack is purely for decoration."
 			]
@@ -779,7 +779,7 @@
 			x: 2.5d
 			y: -1.0d
 			shape: "square"
-			description: ["The Broom Chain allow you to use any item or block to decorate your Broom !"]
+			description: ["The Broom Chain allow you to use any item or block to decorate your Broom!"]
 			dependencies: [
 				"7C0951CA1B3F214F"
 				"17F1675D9744D1DE"
