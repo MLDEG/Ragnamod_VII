@@ -869,7 +869,7 @@
 			y: -3.0d
 			shape: "square"
 			description: [
-				"The dimensional mineshaft is a block that you can place a Spirit Miner in it to mine stuff !"
+				"The dimensional mineshaft is a block that you can place a Spirit Miner in it to mine stuff!"
 				""
 				"You can automate it with hopper and pipes."
 			]
@@ -1148,7 +1148,7 @@
 			y: 1.5d
 			shape: "square"
 			description: [
-				"To craft Candles, you're going to need tallow, and to get Tallow you have to kill a cow, pig, sheep, horse or a llama with a Butcher Knife !"
+				"To craft Candles, you're going to need tallow, and to get Tallow you have to kill a cow, pig, sheep, horse or a llama with a Butcher Knife!"
 				"Candles are very important for your ritual, you're gonna need those in bulk."
 			]
 			dependencies: [
@@ -1221,7 +1221,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"The Abras' Commanding Conjure allows you to summon a Guardian Familiar !"
+				"The Abras' Commanding Conjure allows you to summon a Guardian Familiar!"
 				""
 				"This Familiar sacrifices a limb everytime you are going to die."
 				"It's spawns with a random amount of limbs."
@@ -1753,7 +1753,7 @@
 			shape: "square"
 			description: [
 				"Use the Ophyx Calling to summon a Djinni Machine Operator."
-				"This guy is used to perform automation with your Dimensional Storage Actuator !"
+				"This guy is used to perform automation with your Dimensional Storage Actuator!"
 				""
 				"You can also summon a Crusher, Clear Weather or Time Magic."
 				""
@@ -1791,7 +1791,7 @@
 			x: 4.0d
 			y: -6.0d
 			shape: "square"
-			description: ["With the Osorin's Unbound Calling you can perform only one ritual, It's consists of spawning a horde of skeleton with 3 wither skeleton who drop 100% their heads !"]
+			description: ["With the Osorin's Unbound Calling you can perform only one ritual, It's consists of spawning a horde of skeleton with 3 wither skeleton who drop 100% their heads!"]
 			hide_dependency_lines: false
 			dependencies: [
 				"410A2EE927762E89"
@@ -1871,7 +1871,7 @@
 				"Using the Fatma's Incentivized Attraction, summon a Marid Crusher."
 				""
 				"This guy is fast and can crush your Ores into Dusts."
-				"You can do a 6x ore processing with him !"
+				"You can do a 6x ore processing with him!"
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -1945,7 +1945,7 @@
 			y: -3.0d
 			shape: "square"
 			description: [
-				"Iesnium Ore can be found in the Nether, only with the effect Third eyes !"
+				"Iesnium Ore can be found in the Nether, only with the effect Third eyes!"
 				"But, if you cant to mine it, you're going to need an Infused Pickaxe."
 			]
 			hide_dependency_lines: false
@@ -1980,7 +1980,7 @@
 				""
 				"For the placement of the bowls in your ritual, know that you can place them wherever you want provided that it is not more than 8 blocks from the golden bowl."
 				""
-				"Finally, the rituals take quite a long time to perform, so if you have a time in a bottle, don't hesitate to do some right-click shift !"
+				"Finally, the rituals take quite a long time to perform, so if you have a time in a bottle, don't hesitate to do some right-click shift!"
 			]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -2069,7 +2069,7 @@
 			x: 7.5d
 			y: 1.0d
 			shape: "square"
-			description: ["The Sevira's Permanent Confinement allows you to craft the Tier 3 Storage Stabilizer and the Deep Ore Miner !"]
+			description: ["The Sevira's Permanent Confinement allows you to craft the Tier 3 Storage Stabilizer and the Deep Ore Miner!"]
 			hide_dependency_lines: false
 			dependencies: [
 				"75F2C1307F759954"
@@ -2099,7 +2099,7 @@
 			x: 6.5d
 			y: 4.0d
 			shape: "square"
-			description: ["The Uphyxes Inverted Tower allows you to craft the Tier 4 Storage Stabilizer and the Master Miner !"]
+			description: ["The Uphyxes Inverted Tower allows you to craft the Tier 4 Storage Stabilizer and the Master Miner!"]
 			hide_dependency_lines: false
 			dependencies: [
 				"74A6B535D678ADD9"
