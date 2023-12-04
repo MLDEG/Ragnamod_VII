@@ -208,7 +208,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
+			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small basin of water surrounded by flowers and throw it in. This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
 			dependencies: [
 				"5CFDD2C9BF21A177"
 				"22556496826ED6BF"
@@ -468,7 +468,7 @@
 			x: 8.0d
 			y: 3.0d
 			shape: "octagon"
-			subtitle: "The adventure begin !"
+			subtitle: "The adventure begin!"
 			description: ["Land safely on Earth."]
 			dependencies: ["6F5B1AE2E73664A7"]
 			size: 2.0d
@@ -685,7 +685,7 @@
 			x: 5.0d
 			y: 3.0d
 			shape: "square"
-			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
+			description: ["Rocket Launch Pad is mandatory to go on space! Make a 3x3 square on the floor with it, then put your rocket on it."]
 			dependencies: ["3C884020904C1B6C"]
 			id: "2196A221FBC8BDF3"
 			tasks: [{
