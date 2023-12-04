@@ -707,7 +707,7 @@
 			x: 1.0d
 			y: 1.5d
 			shape: "square"
-			description: ["The Photoelectric Pane is used to craft solar panel but also Lens Of Ender !"]
+			description: ["The Photoelectric Pane is used to craft solar panel but also Lens Of Ender!"]
 			dependencies: [
 				"00000000000009EE"
 				"46019F50846AAFD0"
