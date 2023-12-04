@@ -25,7 +25,7 @@
 				"You can find these houses on a Mountain, a Plains or a Snowy biome."
 				"{image:ftbquests:textures/quests/bs_gatekeeper.png width:150 height:100 align:1}"
 				"You need, next, to trade with the Gatekeeper to get a Zeal Lighter and a Blue Journal."
-				"Then, find a portal frame in the house and light it !"
+				"Then, find a portal frame in the house and light it!"
 			]
 			dependencies: ["7AD83BC20D2742C4"]
 			size: 2.0d
@@ -396,7 +396,7 @@
 			x: -1.5d
 			y: 1.5d
 			shape: "square"
-			description: ["Find a portal frame made of Turquoise Stone Bricks, light it with your Zeal Lighter and go into the Everbright !"]
+			description: ["Find a portal frame made of Turquoise Stone Bricks, light it with your Zeal Lighter and go into the Everbright!"]
 			dependencies: [
 				"5D41E955B2B0A532"
 				"7AD83BC20D2742C4"
