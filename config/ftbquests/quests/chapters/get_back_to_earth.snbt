@@ -685,7 +685,7 @@
 			x: 5.0d
 			y: 3.0d
 			shape: "square"
-			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
+			description: ["Rocket Launch Pad is mandatory to go on space! Make a 3x3 square on the floor with it, then put your rocket on it."]
 			dependencies: ["3C884020904C1B6C"]
 			id: "2196A221FBC8BDF3"
 			tasks: [{
