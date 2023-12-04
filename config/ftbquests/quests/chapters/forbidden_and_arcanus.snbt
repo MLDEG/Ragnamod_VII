@@ -525,7 +525,7 @@
 			x: 3.0d
 			y: 0.5d
 			shape: "square"
-			description: ["Arcane Gold Ingot can be craft using Gold, charcoal, Arcane Crystal Dust and Mundabitur Dust !"]
+			description: ["Arcane Gold Ingot can be craft using Gold, charcoal, Arcane Crystal Dust and Mundabitur Dust!"]
 			dependencies: [
 				"0000000000000612"
 				"000000000000060C"
