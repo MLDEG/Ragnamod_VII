@@ -15,7 +15,7 @@
 			description: [
 				"Welcome to &dArs Nouveau&r !"
 				""
-				"Ars Nouveau is a magical mod allowing you to create &byour own spell&r !"
+				"Ars Nouveau is a magical mod allowing you to create &byour own spell&r!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["10F31028FC893ADE"]
@@ -44,7 +44,7 @@
 				"{image:ftbquests:textures/quests/ars_starbuncle.png width:150 height:100 align:1}"
 				"To get a Starbuncle Shard you need to give a Starbuncle a Gold Nuggets."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -78,7 +78,7 @@
 				"{image:ftbquests:textures/quests/ars_wixies.png width:150 height:100 align:1}"
 				"To get a Wixie Shard you need to cast a Dispel spell on a Witch who has half her life left."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -104,7 +104,7 @@
 			description: [
 				"When your Magebloom seeds, bloom, you can use Magebloom to create fiber."
 				""
-				"These are used to craft multiple items, including your first set of magic tunic !"
+				"These are used to craft multiple items, including your first set of magic tunic!"
 			]
 			dependencies: [
 				"58EC47584C773B82"
@@ -232,7 +232,7 @@
 				"{image:ftbquests:textures/quests/ars_whirlisprig.png width:150 height:100 align:1}"
 				"To get a Whirlisprig Shard you need to grow a tree near a wild Whirlisprig."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -257,7 +257,7 @@
 			description: [
 				"For starters, you need to make yourself a &dNovice Spellbook&r."
 				""
-				"It is in this book that you can create and store your spells !"
+				"It is in this book that you can create and store your spells!"
 				""
 				"Do not forget to set the key to open the book on the spell creation page (default \"&3C&r\")"
 				""
@@ -460,7 +460,7 @@
 				"{image:ftbquests:textures/quests/ars_drygmy.png width:150 height:100 align:1}"
 				"To get a Drygmy Shard you need to give a Wilden Horn to a wild Drygmy."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -488,7 +488,7 @@
 				"{image:ftbquests:textures/quests/ars_amethyst.png width:150 height:100 align:1}"
 				"To get this Charm you need to perform the Ritual of Awakening near a Budding Amethyst."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -515,7 +515,7 @@
 			description: [
 				"Using our enchanting device structure, we will want to make our first seed, the &5Magebloom Seed&r."
 				""
-				"This will be used to create magical clothes for us !"
+				"This will be used to create magical clothes for us!"
 			]
 			dependencies: [
 				"3D862A3D3F83CA26"
@@ -579,9 +579,9 @@
 				""
 				"For effects, this determines what happens when you cast a spell. You can have 9 effects per spell."
 				""
-				"To start, you have &bHarm&r and &bBreak&r !"
+				"To start, you have &bHarm&r and &bBreak&r!"
 				""
-				"Select a shape and effect, name it, and click on &dcreate&r !"
+				"Select a shape and effect, name it, and click on &dcreate&r!"
 				"{image:ftbquests:textures/quests/spellbook.png width:192 height:129 align:1}"
 			]
 			dependencies: [
@@ -609,7 +609,7 @@
 			description: [
 				"At the bottom left of your screen you can see a bar. This bar is your mana reserve."
 				""
-				"There are several ways to increase your mana reserve through this mod. Improving your spell book will increase your mana !"
+				"There are several ways to increase your mana reserve through this mod. Improving your spell book will increase your mana!"
 				""
 				"{image:ftbquests:textures/quests/mana_bar.png width:218 height:36 align:1}"
 			]
@@ -629,7 +629,7 @@
 			x: 3.5d
 			y: -1.5d
 			shape: "square"
-			description: ["To create source gems, we will need to place fragments of lapis or amethyst in the impregnation chamber. Over time, these will become source gems !"]
+			description: ["To create source gems, we will need to place fragments of lapis or amethyst in the impregnation chamber. Over time, these will become source gems!"]
 			dependencies: [
 				"5766C8B9E850C186"
 				"10F31028FC893ADE"
@@ -652,7 +652,7 @@
 			x: 1.5d
 			y: -1.5d
 			shape: "square"
-			description: ["This allows you to see the magical creatures nearby as well as help you find amethyst !"]
+			description: ["This allows you to see the magical creatures nearby as well as help you find amethyst!"]
 			dependencies: [
 				"33682F4B44950123"
 				"10F31028FC893ADE"
@@ -749,7 +749,7 @@
 			shape: "square"
 			description: [
 				"The &9Agronomic Sourcelink&r produces Source from plants growth."
-				"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source !"
+				"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source!"
 				"{image:ftbquests:textures/quests/ars_agro.png width:150 height:100 align:1}"
 				"Bonemealing does not produce Source."
 			]
@@ -775,7 +775,7 @@
 			x: 10.5d
 			y: -1.5d
 			shape: "square"
-			description: ["The Dominion Wand is used to control the creatures you might encounter in the world! Each being reacts differently to the wand, so be sure to read in the &eworn notebook&r !"]
+			description: ["The Dominion Wand is used to control the creatures you might encounter in the world! Each being reacts differently to the wand, so be sure to read in the &eworn notebook&r!"]
 			dependencies: [
 				"3D862A3D3F83CA26"
 				"10F31028FC893ADE"
@@ -1201,7 +1201,7 @@
 				""
 				"You can also dye it."
 				"{image:ftbquests:textures/quests/ars_bookwyrm.png width:150 height:100 align:1}"
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -1256,7 +1256,7 @@
 				"{image:ftbquests:textures/quests/ars_impregnation.png width:150 height:100 align:1}"
 				"In order to start a craft with this multiblock, you need to place 3 items available to farm in the multiblock, on the pedestals."
 				""
-				"So, for example, if you want to farm Air Essence, you need to put 3 air essence on the 3 pedestals to start the craft !"
+				"So, for example, if you want to farm Air Essence, you need to put 3 air essence on the 3 pedestals to start the craft!"
 				""
 				"This multiblock don't consume anything, but it needs a source jar full of source on top of it to work."
 				""
