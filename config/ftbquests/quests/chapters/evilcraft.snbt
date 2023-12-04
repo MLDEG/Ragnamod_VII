@@ -332,7 +332,7 @@
 			description: [
 				"The Box of Eternal Closure is used to capture a Vengeance Spirit."
 				""
-				"In this pack you need to capture certain mobs to get the end game !"
+				"In this pack you need to capture certain mobs to get the end game!"
 			]
 			dependencies: [
 				"1577635AA4E66A66"
@@ -474,7 +474,7 @@
 			description: [
 				"The Blood Extractor can drain blood stains by shift right-clicking the stain."
 				"It can, also, store blood when you kill mods with your Extractor in your inventory."
-				"You can upgrade is internal inventory by combining other blood extractor or a blood tank !"
+				"You can upgrade is internal inventory by combining other blood extractor or a blood tank!"
 			]
 			dependencies: [
 				"1577635AA4E66A66"
@@ -696,7 +696,7 @@
 			y: 1.5d
 			shape: "square"
 			description: [
-				"To get the Hardened Blood you need to wait until your bucket of blood, place in the world, dry !"
+				"To get the Hardened Blood you need to wait until your bucket of blood, place in the world, dry!"
 				"Or you can use Integrated Dynamics."
 				""
 				"You need also Silk Touched."
@@ -936,7 +936,7 @@
 			shape: "square"
 			description: [
 				"Condensed Blood is used in the Blood Infuser to give you 500mb of Blood."
-				"In this pack, if you have a honeycomb farm, you can get Blood for free with it !"
+				"In this pack, if you have a honeycomb farm, you can get Blood for free with it!"
 			]
 			dependencies: [
 				"7DA9A918079760B1"
