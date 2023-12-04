@@ -36,7 +36,7 @@
 			x: -1.5d
 			y: -1.0d
 			shape: "square"
-			description: ["With some Desh you can craft the Tier 2 Rocket and go on Mars !"]
+			description: ["With some Desh you can craft the Tier 2 Rocket and go on Mars!"]
 			dependencies: [
 				"2FE44372B1A4621B"
 				"480EEAEC65D24F9E"
@@ -62,7 +62,7 @@
 			x: 1.5d
 			y: -1.0d
 			shape: "square"
-			description: ["With some Ostrum you can craft the Tier 3 Rocket and go on Venus !"]
+			description: ["With some Ostrum you can craft the Tier 3 Rocket and go on Venus!"]
 			dependencies: [
 				"2FE44372B1A4621B"
 				"480EEAEC65D24F9E"
@@ -90,7 +90,7 @@
 			shape: "square"
 			description: [
 				"With some Calorite you can craft the Tier 4 Rocket and go to Glacio."
-				"A planet on a other Galaxy !"
+				"A planet on a other Galaxy!"
 			]
 			dependencies: [
 				"2FE44372B1A4621B"
@@ -127,7 +127,7 @@
 			shape: "square"
 			description: [
 				"To infinity and beyond !"
-				"Before going in space, don't forget to craft your space suit !"
+				"Before going in space, don't forget to craft your space suit!"
 			]
 			dependencies: [
 				"3C884020904C1B6C"
