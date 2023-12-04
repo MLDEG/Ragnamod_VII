@@ -13,7 +13,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"Craft a Sphere Of All Things using the BLACK SPHERE OF DOOM !"
+				"Craft a Sphere Of All Things using the BLACK SPHERE OF DOOM!"
 				""
 				"This sphere is used to craft Avaritia stuff and Creatif stuff."
 			]
@@ -202,7 +202,7 @@
 			x: 1.0d
 			y: -1.0d
 			shape: "square"
-			description: ["Use the Focus Entangled to craft the Block of Shub Niggurath Ingot, with 4 Block of Unknown, a Focus of Summoning and a Box of Eternal Closure with a Shub Niggurath Spirit inside !"]
+			description: ["Use the Focus Entangled to craft the Block of Shub Niggurath Ingot, with 4 Block of Unknown, a Focus of Summoning and a Box of Eternal Closure with a Shub Niggurath Spirit inside!"]
 			dependencies: [
 				"26925430D2D6853C"
 				"5297052C3503826D"
@@ -223,7 +223,7 @@
 			x: 1.0d
 			y: 1.0d
 			shape: "square"
-			description: ["Use the Focus Entangled to craft the Block of Sculk Ingot, with 4 Block of Unknown, a Focus of Summoning and a Box of Eternal Closure with a Warden Spirit inside !"]
+			description: ["Use the Focus Entangled to craft the Block of Sculk Ingot, with 4 Block of Unknown, a Focus of Summoning and a Box of Eternal Closure with a Warden Spirit inside!"]
 			dependencies: [
 				"26925430D2D6853C"
 				"5297052C3503826D"
@@ -244,7 +244,7 @@
 			x: 3.0d
 			y: 0.0d
 			shape: "square"
-			description: ["Chemical Draconium Ingot is craft in the Fusion Crafting Core with 6 chemical Core, 4 Awakened Draconium Block and a Ghast Cow Star !"]
+			description: ["Chemical Draconium Ingot is craft in the Fusion Crafting Core with 6 chemical Core, 4 Awakened Draconium Block and a Ghast Cow Star!"]
 			dependencies: [
 				"37B83B8E2BF368C1"
 				"0261622EB8EBE419"
@@ -295,7 +295,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"The Focus Entangled is a multiblock used to craft certain blocks using Unknown Ingot Blocks, a Focus of Summoning and a Box of Eternal Closure with a specifics spirit trap inside !"
+				"The Focus Entangled is a multiblock used to craft certain blocks using Unknown Ingot Blocks, a Focus of Summoning and a Box of Eternal Closure with a specifics spirit trap inside!"
 				"{image:ftbquests:textures/quests/focus_entangled.png width:150 height:100 align:1}"
 			]
 			dependencies: ["5297052C3503826D"]
@@ -368,7 +368,7 @@
 			description: [
 				"The Ghast Cow Tear is dropped by the Ghast Cow."
 				""
-				"You can summon this weird boss in the Summoning Altar !"
+				"You can summon this weird boss in the Summoning Altar!"
 				""
 				"But you need, before, to defeat the Four Horsemen in the Final Castle in the Twilight Forest."
 				""
@@ -1198,7 +1198,7 @@
 			x: 6.0d
 			y: 0.5d
 			shape: "square"
-			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot!"]
 			dependencies: [
 				"7DB05A733E518A2C"
 				"5297052C3503826D"
@@ -1219,7 +1219,7 @@
 			x: 6.0d
 			y: -0.5d
 			shape: "square"
-			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot!"]
 			dependencies: [
 				"0DBBC8BED56B6724"
 				"5297052C3503826D"
@@ -1240,7 +1240,7 @@
 			x: 6.0d
 			y: -1.5d
 			shape: "square"
-			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot!"]
 			dependencies: [
 				"23FE6CC4C99BC123"
 				"5297052C3503826D"
@@ -1261,7 +1261,7 @@
 			x: 6.0d
 			y: 1.5d
 			shape: "square"
-			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot !"]
+			description: ["Use the Blood Infuser to transform the Materialized Essence into an Ingot!"]
 			dependencies: [
 				"7CF652CE23323DEB"
 				"5297052C3503826D"
@@ -1282,7 +1282,7 @@
 			x: 7.0d
 			y: 1.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence!"]
 			dependencies: [
 				"7378AC5DC34DC7FA"
 				"5297052C3503826D"
@@ -1303,7 +1303,7 @@
 			x: 7.0d
 			y: 0.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence!"]
 			dependencies: [
 				"463778EA15DBED66"
 				"5297052C3503826D"
@@ -1324,7 +1324,7 @@
 			x: 7.0d
 			y: -0.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence!"]
 			dependencies: [
 				"78A87D7F58A02BA8"
 				"5297052C3503826D"
@@ -1345,7 +1345,7 @@
 			x: 7.0d
 			y: -1.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence!"]
 			dependencies: [
 				"6B762DC0D8C1CDB5"
 				"5297052C3503826D"
@@ -1369,7 +1369,7 @@
 			description: [
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_conquest.png width:150 height:100 align:1}"
-				"Beat Conquest to get his Essence !"
+				"Beat Conquest to get his Essence!"
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "7378AC5DC34DC7FA"
@@ -1391,7 +1391,7 @@
 			description: [
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_war.png width:150 height:100 align:1}"
-				"Beat War to get his Essence !"
+				"Beat War to get his Essence!"
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "463778EA15DBED66"
@@ -1413,7 +1413,7 @@
 			description: [
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_famine.png width:150 height:100 align:1}"
-				"Beat Famine to get his Essence !"
+				"Beat Famine to get his Essence!"
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "78A87D7F58A02BA8"
@@ -1435,7 +1435,7 @@
 			description: [
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_death.png width:150 height:100 align:1}"
-				"Beat Death to get his Essence !"
+				"Beat Death to get his Essence!"
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "6B762DC0D8C1CDB5"
