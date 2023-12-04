@@ -468,7 +468,7 @@
 			x: 8.0d
 			y: 3.0d
 			shape: "octagon"
-			subtitle: "The adventure begin !"
+			subtitle: "The adventure begin!"
 			description: ["Land safely on Earth."]
 			dependencies: ["6F5B1AE2E73664A7"]
 			size: 2.0d
