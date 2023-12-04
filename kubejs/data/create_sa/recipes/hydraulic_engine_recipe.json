@@ -1,0 +1,70 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/copper"
+  },
+  "transitionalItem": {
+    "item": "create_sa:incomplete_hydraulic_engine"
+  },
+  "sequence": [
+     {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_sa:hydraulic_engine",
+      "chance": 120.0
+    },
+    {
+      "item": "ftbic:copper_plate",
+      "chance": 8.0
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 4.0
+    }
+  ],
+  "loops": 3
+}
