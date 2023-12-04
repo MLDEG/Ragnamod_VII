@@ -579,7 +579,7 @@
 			shape: "square"
 			description: [
 				"Upgraded version of Andesite Funnel."
-				"You can put a filter on this funnel, and it can extract a stack at a time !"
+				"You can put a filter on this funnel, and it can extract a stack at a time!"
 			]
 			dependencies: [
 				"16B1F60A0D8DAD6D"
@@ -608,7 +608,7 @@
 			description: [
 				"The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through."
 				""
-				"You can put a filter on this funnel, and it can extract a stack at a time !"
+				"You can put a filter on this funnel, and it can extract a stack at a time!"
 			]
 			dependencies: [
 				"16B1F60A0D8DAD6D"
