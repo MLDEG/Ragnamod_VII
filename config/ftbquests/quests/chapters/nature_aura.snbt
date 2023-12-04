@@ -537,7 +537,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"To get some Spirit of Birthing you need to breed animals in a chunk with an excess of Aura !"
+				"To get some Spirit of Birthing you need to breed animals in a chunk with an excess of Aura!"
 				"You have a chance of getting Spirit of Birthing that way."
 			]
 			dependencies: [
