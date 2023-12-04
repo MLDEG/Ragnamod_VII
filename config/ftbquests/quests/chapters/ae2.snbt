@@ -141,7 +141,7 @@
 				"A shift right click with a memory card on your P2P Tunnel will make them inputs with a unique frequency."
 				""
 				"Then, on your left, you have a single cable with two channels used for your two P2Ps."
-				"With a right click and your memory card already configured, you will transform your P2P into output, and therefore be able to transfer 64 channels through your small cable with your two P2P !!"
+				"With a right click and your memory card already configured, you will transform your P2P into output, and therefore be able to transfer 64 channels through your small cable with your two P2P!!"
 				""
 				"P2P also works very well with Redstone, item flow, fluids, energy (like RF), light, mana and chemicals from Mekanism."
 			]
@@ -1196,7 +1196,7 @@
 			x: -3.5d
 			y: -4.0d
 			shape: "square"
-			description: ["You can find those press only inside a meteorite on the Moon !"]
+			description: ["You can find those press only inside a meteorite on the Moon!"]
 			dependencies: ["0B1D5E77E82B17AB"]
 			id: "3ED4CC577351B4DA"
 			tasks: [
@@ -1236,7 +1236,7 @@
 			shape: "square"
 			description: [
 				"Craft some Processors using your Inscriber."
-				"Those Processors are used everywhere in AE2 !"
+				"Those Processors are used everywhere in AE2!"
 			]
 			dependencies: [
 				"5B424F11CFCA332D"
