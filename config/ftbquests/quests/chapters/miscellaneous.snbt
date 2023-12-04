@@ -119,7 +119,7 @@
 			y: -2.5d
 			shape: "square"
 			description: [
-				"The Hammer can break a 3x3x1 block in one swing !"
+				"The Hammer can break a 3x3x1 block in one swing!"
 				""
 				"Useful before Tinkers Construct."
 			]
@@ -213,7 +213,7 @@
 			x: -6.0d
 			y: 6.5d
 			shape: "square"
-			description: ["The Creative Version grow yours seeds and saplings very very fast with a lot of output !"]
+			description: ["The Creative Version grow yours seeds and saplings very very fast with a lot of output!"]
 			dependencies: [
 				"02D769726E83C8E8"
 				"577D6202E19B2599"
@@ -586,7 +586,7 @@
 			x: 1.5d
 			y: -2.5d
 			shape: "square"
-			description: ["The Tempad is a device who can save locations and teleport to them from anywhere !"]
+			description: ["The Tempad is a device who can save locations and teleport to them from anywhere!"]
 			dependencies: ["577D6202E19B2599"]
 			id: "4089614E2DF3FC07"
 			tasks: [{
@@ -604,7 +604,7 @@
 			x: 0.5d
 			y: 1.5d
 			shape: "square"
-			description: ["The Target Dummy can calculate your DPS (damage per second), useful to prepare a difficult fight or just for fun !"]
+			description: ["The Target Dummy can calculate your DPS (damage per second), useful to prepare a difficult fight or just for fun!"]
 			dependencies: ["577D6202E19B2599"]
 			id: "62444318505D0ECF"
 			tasks: [{
@@ -3159,7 +3159,7 @@
 			description: [
 				"Function Storage works like Storage Drawer, but it's more powerful, in my opinion."
 				""
-				"The Storage Controller is your controller who you can connect all your drawer (item or fluid) on it !"
+				"The Storage Controller is your controller who you can connect all your drawer (item or fluid) on it!"
 				""
 				"The Ender Drawer is very useful if you need to connect a resource you farm far away from your Functional Network."
 			]
@@ -3424,7 +3424,7 @@
 			x: -4.5d
 			y: 7.0d
 			shape: "square"
-			description: ["Classic angel ring, you can fly like creative !"]
+			description: ["Classic angel ring, you can fly like creative!"]
 			dependencies: ["577D6202E19B2599"]
 			id: "483B83B5CDF55541"
 			tasks: [{
@@ -3976,7 +3976,7 @@
 			y: 1.0d
 			shape: "square"
 			description: [
-				"Functional Storage as some upgrade for upgrading your content and voiding them, but that not it !"
+				"Functional Storage as some upgrade for upgrading your content and voiding them, but that not it!"
 				""
 				"The Collector Upgrade can suck up an item into your drawer."
 				"The Puller Upgrade can pull the content in any direction you choose."
@@ -4164,7 +4164,7 @@
 			y: 2.5d
 			shape: "square"
 			description: [
-				"The Storage Controller is, like his name said, a Controller.You can connect multiple inventory (chests, barrels, backpacks, etc...) with a Storage Link and a Storage Tool."
+				"The Storage Controller is, like his name said, a Controller. You can connect multiple inventory (chests, barrels, backpacks, etc...) with a Storage Link and a Storage Tool."
 				""
 				"Simply right-click your controller, then your Storage Link, adjacent to an inventory, to connect this inventory with the Controller."
 				"Really useful to combine with a storage bus from AE2 for example."
