@@ -330,7 +330,7 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"In this pack, to craft an Infinity Catalyst, you need to combine every singularity in Agglomerate Matter form and combine again in an Extreme Crafting Table to get finally your Infinity Catalyst !"
+				"In this pack, to craft an Infinity Catalyst, you need to combine every singularity in Agglomerate Matter form and combine again in an Extreme Crafting Table to get finally your Infinity Catalyst!"
 				""
 				"Also, its use in the Sphere of All Things."
 			]
@@ -403,7 +403,7 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"The Ultimate Stew is a huge stew with a lot of fruits and vegetables in it !"
+				"The Ultimate Stew is a huge stew with a lot of fruits and vegetables in it!"
 				""
 				"Also, its use in the Sphere of All Things."
 			]
@@ -454,7 +454,7 @@
 			description: [
 				"The job of the Neutronium Compressor is to compress a bunch of items into a Singularity."
 				""
-				"And yep, there is a lot of singularity here ! Good Luck"
+				"And yep, there is a lot of singularity here! Good Luck"
 			]
 			dependencies: [
 				"0C4F359B153DD1A0"
@@ -479,7 +479,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"The Crystal Matrix is craft in the Alchemy Table with a Gaia Spirit, a Charge Snowball, some Diamond Lattice and Nether Stars !"
+				"The Crystal Matrix is craft in the Alchemy Table with a Gaia Spirit, a Charge Snowball, some Diamond Lattice and Nether Stars!"
 				""
 				"You also need to get an Archmage's Blood Orb to do the craft."
 			]
@@ -504,7 +504,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"The Extreme Crafting Table is used to craft Extreme Craft !"
+				"The Extreme Crafting Table is used to craft Extreme Craft!"
 				""
 				"In this pack, this is a Custom Machine and not the original Crafting table, because the original is SO laggy ..."
 				""
@@ -563,7 +563,7 @@
 			x: 3.0d
 			y: -1.5d
 			shape: "circle"
-			description: ["The Sword of the Cosmos can one shot every mob, even a Creative player !"]
+			description: ["The Sword of the Cosmos can one shot every mob, even a Creative player!"]
 			dependencies: [
 				"4BB16AAE2B3D988C"
 				"124C6442CC789FCA"
@@ -688,7 +688,7 @@
 			x: 2.0d
 			y: -1.0d
 			shape: "circle"
-			description: ["The Longbow of the Heavens shoot explosive arrow and target entities nearby !"]
+			description: ["The Longbow of the Heavens shoot explosive arrow and target entities nearby!"]
 			dependencies: [
 				"4BB16AAE2B3D988C"
 				"124C6442CC789FCA"
@@ -711,7 +711,7 @@
 			x: 3.0d
 			y: -2.5d
 			shape: "square"
-			description: ["The Infinity Armor combined a lot of armors and make you INVINCIBLE !"]
+			description: ["The Infinity Armor combined a lot of armors and make you INVINCIBLE!"]
 			dependencies: [
 				"55406F7249F6C73D"
 				"4BB16AAE2B3D988C"
