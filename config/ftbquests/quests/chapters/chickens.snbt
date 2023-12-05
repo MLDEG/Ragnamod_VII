@@ -4722,9 +4722,9 @@
 				item: "chickens:smashed_chicken"
 			}]
 			rewards: [{
-				id: "00CB806EE435E6D8"
+				id: "0DE69DF20A858B56"
 				type: "item"
-				item: "evilcraft:bucket_blood"
+				item: "chickens:smashed_chicken"
 			}]
 		}
 		{
