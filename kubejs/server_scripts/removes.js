@@ -613,7 +613,9 @@ onEvent('recipes', e => {
         'chemlib:iridium_ingot_to_block',
         'chemlib:osmium_ingot_to_block',
         'chemlib:lead_ingot_to_block',
-        'minecraft:comparator'
+        'minecraft:comparator',
+        'tinkers_reforged:smeltery/melting/coal/gem',
+        'twilightforest:smeltery/melting/metal/fiery/nugget'
     ]
     removeId.forEach(C => { r(C) })
 })

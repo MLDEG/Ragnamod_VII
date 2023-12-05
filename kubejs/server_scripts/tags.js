@@ -178,6 +178,17 @@ onEvent('tags.items', e => {
     e.add('forge:wires/gold', 'ftbic:gold_wire')
     e.add('forge:wires/copper', 'ftbic:copper_wire')
     e.add('forge:wires/aluminum', 'ftbic:aluminum_wire')
+    e.add('forge:cheese', ['thermal:cheese_wedge', 'croptopia:cheese', 'beyond_earth:cheese'])
+    e.add('minecraft:wool_carpets', ['minecraft:black_carpet', 'minecraft:green_carpet', 'minecraft:blue_carpet', 'minecraft:cyan_carpet', 'minecraft:gray_carpet', 'minecraft:lime_carpet', 'minecraft:light_blue_carpet', 'minecraft:orange_carpet', 'minecraft:red_carpet', 'minecraft:brown_carpet', 'minecraft:purple_carpet', 'minecraft:light_gray_carpet', 'minecraft:pink_carpet', 'minecraft:yellow_carpet', 'minecraft:magenta_carpet', 'minecraft:white_carpet'])
+    e.add('forge:nuggets/knightmetal', 'twilightforest:armor_shard')
+    e.add('forge:ingots/knightmetal', 'twilightforest:armor_shard_cluster')
+    e.add('forge:raw_materials/kepu', 'tinkers_reforged:raw_kepu')
+    e.add('forge:raw_materials/falsite', 'blue_skies:raw_falsite')
+    e.add('forge:raw_materials/horizonite', 'blue_skies:raw_horizonite')
+    e.add('forge:raw_materials/ventium', 'blue_skies:raw_ventium')
+    e.add('forge:storage_blocks/raw_falsite', 'blue_skies:raw_falsite_block')
+    e.add('forge:storage_blocks/raw_horizonite', 'blue_skies:raw_horizonite_block')
+    e.add('forge:storage_blocks/raw_ventium', 'blue_skies:raw_ventium_block')
 
     //Tag for more revertable chests
     e.add('quark:revertable_chests', ['blue_skies:bluebright_chest', 'ars_nouveau:archwood_chest', 'blue_skies:starlit_chest', 'blue_skies:frostbright_chest', 'blue_skies:lunar_chest', 'blue_skies:dusk_chest', 'blue_skies:maple_chest', 'blue_skies:cherry_chest', 'twilightforest:sorting_chest', 'twilightforest:mining_chest', 'twilightforest:transformation_chest', 'twilightforest:time_chest', 'twilightforest:darkwood_chest', 'twilightforest:mangrove_chest', 'twilightforest:canopy_chest', 'twilightforest:twilight_oak_chest'])
