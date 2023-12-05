@@ -18,7 +18,12 @@ onEvent('recipes', e => {
     var color = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "white", "black"]
     color.forEach(C => { corumudm(C) })
 
+    //Nipa Botany Pot
     e.custom({ "type": "botanypots:crop", "seed": { "item": "forbidden_arcanus:nipa" }, "categories": ["dirt"], "growthTicks": 600, "display": { "type": "botanypots:aging", "block": "forbidden_arcanus:nipa" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_crystal_dust_speck" }, "minRolls": 1, "maxRolls": 1 }] })
+
+    //Golden Orchid Seeds Botany Pot Tiers
+    e.custom({ "type": "botanypots:soil", "input": { "item": "forbidden_arcanus:magical_farmland" }, "display": { "block": "forbidden_arcanus:magical_farmland" }, "categories": "magical_farmland", "growthModifier": 1 })
+    e.custom({ "type": "botanypots:crop", "seed": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "categories": ["magical_farmland"], "growthTicks": 1200, "display": { "type": "botanypots:aging", "block": "forbidden_arcanus:golden_orchid" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.15, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.05, "output": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "minRolls": 1, "maxRolls": 2 }] })
 
     //Botany pot Tier
     function soilPottier(block, categories, growth) {
@@ -38,6 +43,11 @@ onEvent('recipes', e => {
     var colortier = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "white", "black"]
     colortier.forEach(C => { corumudmtier(C) })
 
+    //Nipa Botany Pot Tiers
     e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "forbidden_arcanus:nipa" }, "categories": ["dirt"], "growthTicks": 600, "display": { "type": "botanypotstiers:aging", "block": "forbidden_arcanus:nipa" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_crystal_dust_speck" }, "minRolls": 1, "maxRolls": 1 }] })
+
+    //Golden Orchid Seeds Botany Pot Tiers
+    e.custom({ "type": "botanypotstiers:soil", "input": { "item": "forbidden_arcanus:magical_farmland" }, "display": { "block": "forbidden_arcanus:magical_farmland" }, "categories": "magical_farmland", "growthModifier": 1 })
+    e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "categories": ["magical_farmland"], "growthTicks": 1200, "display": { "type": "botanypotstiers:aging", "block": "forbidden_arcanus:golden_orchid" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.15, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.05, "output": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "minRolls": 1, "maxRolls": 2 }] })
 
 })
