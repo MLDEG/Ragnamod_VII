@@ -2884,20 +2884,10 @@
 				}
 			]
 			rewards: [{
-				id: "0C9FB3A376B3CA65"
+				id: "63256AE7C5491594"
 				type: "item"
-				item: {
-					id: "camera:image"
-					Count: 1b
-					tag: {
-						image: {
-							image_time: 1694380363466L
-							owner: "MrMLDEG"
-							image_id_least: -9028971440914443110L
-							image_id_most: -1089687803662219142L
-						}
-					}
-				}
+				item: "camera:image_frame"
+				random_bonus: 4
 			}]
 		}
 		{
