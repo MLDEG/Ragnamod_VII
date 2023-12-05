@@ -162,6 +162,12 @@ onEvent('tags.items', e => {
     e.remove('minecraft:coals', 'immersiveengineering:coal_coke')
     e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal'])
 
+    //Remove Ore from Boon Drops Enchant
+    e.remove('forge:ores_in_ground/stone', ['mekanism:lead_ore', 'mekanism:tin_ore', 'immersiveengineering:ore_uranium', 'immersiveengineering:ore_nickel', 'immersiveengineering:ore_silver', 'immersiveengineering:ore_lead', 'immersiveengineering:ore_aluminum'])
+
+    //Add Ore for Boon Drops Enchant
+    e.add('apotheosis:boon_drops', ['ftbic:iridium_ore', 'forbidden_arcanus:arcane_crystal_ore', 'evilcraft:dark_ore', 'ae2:quartz_ore', 'miniutilities:ender_ore', 'thermal:lead_ore', 'thermal:silver_ore', 'thermal:tin_ore', 'tinkers_reforged:red_beryl_ore', 'tinkers_reforged:aluminum_ore', 'powah:uraninite_ore_poor', 'thermal:apatite_ore', 'thermal:cinnabar_ore', 'thermal:sulfur_ore', 'thermal:niter_ore', 'thermal:nickel_ore'])
+
     //Tag for Metamorphic Stone (Botania)
     e.add('botania:metamorphic_stone', ['botania:metamorphic_desert_stone', 'botania:metamorphic_forest_stone', 'botania:metamorphic_fungal_stone', 'botania:metamorphic_mesa_stone', 'botania:metamorphic_mountain_stone', 'botania:metamorphic_plains_stone', 'botania:metamorphic_swamp_stone', 'botania:metamorphic_taiga_stone'])
 
