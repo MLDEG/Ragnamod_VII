@@ -51,6 +51,9 @@ onEvent('recipes', e => {
   //Bright Opal
   e.blasting('gemsnjewels:opal', 'gemsnjewels:bright_opal_ore_block')
   e.smelting('gemsnjewels:opal', 'gemsnjewels:bright_opal_ore_block')
+  //Pal Diamond
+  e.blasting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
+  e.smelting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
   /***************************Horsmen Stuff***************************/
   /***************************Death***************************/
   e.shapeless('9x ragnamod_seven:death_nugget', 'ragnamod_seven:death_ingot')
