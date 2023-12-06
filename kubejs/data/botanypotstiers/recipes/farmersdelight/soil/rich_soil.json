@@ -1,0 +1,1 @@
+{"bookshelf:load_conditions":[{"type":"bookshelf:item_exists","values":["farmersdelight:rich_soil"]}],"type":"botanypotstiers:soil","input":{"item":"farmersdelight:rich_soil"},"display":{"block":"farmersdelight:rich_soil"},"categories":["dirt","grass","podzol","mushroom"],"growthModifier":1.10}
