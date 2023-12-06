@@ -543,24 +543,12 @@
 			tasks: [{
 				id: "108092E56DA73F22"
 				type: "item"
-				item: {
-					id: "evilcraft:weather_container"
-					Count: 1b
-					tag: {
-						weather: "EMPTY"
-					}
-				}
+				item: "evilcraft:weather_container"
 			}]
 			rewards: [{
 				id: "7003DA7B9DA17E39"
 				type: "item"
-				item: {
-					id: "evilcraft:weather_container"
-					Count: 1b
-					tag: {
-						weather: "EMPTY"
-					}
-				}
+				item: "evilcraft:weather_container"
 				random_bonus: 7
 			}]
 		}
