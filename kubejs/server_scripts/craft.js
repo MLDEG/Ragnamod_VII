@@ -500,4 +500,9 @@ onEvent('recipes', e => {
   arsTC('minecraft:emerald', 'souls')
   arsTC('psi:exosuit_sensor_light', 'sensor')
 
+  //Matrix Alloy
+  e.custom(
+    { "type": "mekanism:metallurgic_infusing", "itemInput": { "ingredient": { "item": "mekanism:alloy_atomic" } }, "chemicalInput": { "amount": 100, "tag": "mekanism:gold" }, "output": { "item": "ragnamod_seven:alloy_matrix" } }
+  )
+
 })

@@ -546,7 +546,7 @@
 			description: [
 				"The Simulation matrix is a multiblock who can farm for your Mob Simulation very fast !"
 				"{image:ftbquests:textures/quests/simulation_matrix.png width:150 height:100 align:1}"
-				"You need, before, to craft a Complete Prediction using a Data Model \"Self-Aware\" and an Atomic Alloy to get one."
+				"You need, before, to craft a Complete Prediction using a Data Model \"Self-Aware\" and a Matrix Alloy to get one."
 				""
 				"Then, put this Complete Prediction on the Pedestal to start the machine to farm Mob Prediction."
 			]

@@ -111,6 +111,7 @@ onEvent('item.registry', e => {
     completePrediction("skeleton_druid", "Skeleton Druid", "#415329")
     completePrediction("snow_queen", "Snow Queen", "#363990")
     completePrediction("twilight_ice", "Twilight Ice Elemental", "#55FF55")
+    completePrediction("mimic", "Mimic", "#55FF55")
     completePrediction("towerwood_borer", "Towerwood Borer", "#6F3327")
     completePrediction("troll", "Cave Troll", "#A0A791")
     completePrediction("ur_ghast", "Ur-Ghast", "#F0F0F0")
