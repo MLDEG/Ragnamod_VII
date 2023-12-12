@@ -4,7 +4,7 @@ onEvent('recipes', e => {
   e.custom({
     "type": "mekanism:combining",
     "mainInput": { "amount": 1, "ingredient": { "item": "industrialforegoing:machine_frame_supreme" } },
-    "extraInput": { "ingredient": { "item": "mekanism:block_steel" } },
+    "extraInput": { "ingredient": { "item": "beyond_earth:steel_block" } },
     "output": { "item": "mekanism:steel_casing" }
   })
 
