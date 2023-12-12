@@ -2278,30 +2278,30 @@
 					id: "3D705582E6BB10A0"
 					type: "item"
 					item: "immersiveengineering:concrete"
-					count: 12L
+					count: 18L
 				}
 				{
 					id: "63F610B39599240E"
 					type: "item"
 					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 98L
+					count: 29L
 				}
 				{
 					id: "25FA79AE5DA825C6"
 					type: "item"
 					item: "immersiveengineering:heavy_engineering"
-					count: 5L
+					count: 4L
 				}
 				{
 					id: "65C6295435B3EEAD"
 					type: "item"
-					item: "immersiveengineering:sheetmetal_steel"
+					item: "immersiveengineering:storage_steel"
 				}
 				{
 					id: "021BDDF530EFD92F"
 					type: "item"
 					item: "immersiveengineering:light_engineering"
-					count: 5L
+					count: 7L
 				}
 				{
 					id: "66BEC09B60CC965C"
@@ -2312,37 +2312,42 @@
 					id: "2C563DCD71B05A74"
 					type: "item"
 					item: "immersiveengineering:concrete_tile"
-					count: 45L
+					count: 27L
 				}
 				{
 					id: "71A3B5A969072FFA"
 					type: "item"
 					item: "immersiveengineering:steel_fence"
-					count: 88L
+					count: 193L
 				}
 				{
 					id: "08EF4DF2B025E31F"
 					type: "item"
 					item: "immersiveengineering:sheetmetal_iron"
-					count: 162L
+					count: 182L
 				}
 				{
 					id: "45B4CA8C955E1E66"
 					type: "item"
 					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
-					count: 46L
+					count: 82L
 				}
 				{
 					id: "650FFFD3DB0EA298"
 					type: "item"
 					item: "immersiveengineering:fluid_pipe"
-					count: 47L
+					count: 51L
 				}
 				{
 					id: "6659039C09D09C77"
 					type: "item"
-					item: "immersiveengineering:steel_slope"
-					count: 3L
+					item: "immersiveengineering:treated_wood_horizontal"
+				}
+				{
+					id: "1C620EAF8E15DA0D"
+					type: "item"
+					item: "immersiveengineering:slab_storage_steel"
+					count: 16L
 				}
 			]
 			rewards: [{
