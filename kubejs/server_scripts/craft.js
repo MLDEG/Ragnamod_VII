@@ -181,37 +181,37 @@ onEvent('recipes', e => {
   //Oak Log
   e.shaped('16x minecraft:oak_log', ['AAA', '   ', '   '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Spruce Log
   e.shaped('16x minecraft:spruce_log', ['  A', ' A ', 'A  '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Birch Log
   e.shaped('16x minecraft:birch_log', ['A  ', ' A ', '  A'], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Jungle Log
   e.shaped('16x minecraft:jungle_log', [' A ', ' A ', ' A '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Acacia Log
   e.shaped('16x minecraft:acacia_log', [' A ', 'A  ', ' A '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Dark Oak Log
   e.shaped('16x minecraft:dark_oak_log', [' A ', '  A', ' A '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Crimson Leg
   e.shaped('16x minecraft:crimson_stem', ['NA ', 'AA ', '   '], {
     A: 'ragnamod_seven:log_egg_component',
     N: 'minecraft:netherrack'
-  })
+  }).noMirror().noShrink()
   //Warped Leg
   e.shaped('16x minecraft:warped_stem', ['AN ', 'AA ', '   '], {
     A: 'ragnamod_seven:log_egg_component',
     N: 'minecraft:netherrack'
-  })
+  }).noMirror().noShrink()
   //Summoning Table
   e.shaped('summoningrituals:altar', ['ABA', 'CDC', 'DED'], {
     A: 'minecraft:candle',
