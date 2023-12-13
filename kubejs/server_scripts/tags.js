@@ -249,5 +249,7 @@ onEvent('tags.blocks', e => {
     e.add('minecraft:mineable/axe', ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs'])
     e.add('avaritia:mineable/infinity_axe', ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs'])
     e.add('tconstruct:mineable/hand_axe', ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs'])
+    e.add('minecraft:mineable/shovel', ['snad:suol_snad', 'snad:red_snad', 'snad:snad'])
+
 
 })
