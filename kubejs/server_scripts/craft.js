@@ -1,5 +1,9 @@
 onEvent('recipes', e => {
 
+  //Neutronium Ingot
+  e.shapeless('9x avaritia:neutronium_ingot', 'avaritia:neutronium_block')
+  //Pendorite Ingot
+  e.shapeless('9x byg:pendorite_ingot', 'byg:pendorite_block')
   //Creative Tank Fluid Meka Reset
   e.shapeless('mekanism:creative_fluid_tank', 'mekanism:creative_fluid_tank')
   //Creative Tank Gaz Meka Reset
