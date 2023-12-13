@@ -616,7 +616,8 @@ onEvent('recipes', e => {
         'minecraft:comparator',
         'tinkers_reforged:smeltery/melting/coal/gem',
         'twilightforest:smeltery/melting/metal/fiery/nugget',
-        'minecraft:magma_cream'
+        'minecraft:magma_cream',
+        'infernalexp:smelting/basalt_cobbled'
     ]
     removeId.forEach(C => { r(C) })
 })
