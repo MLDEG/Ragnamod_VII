@@ -1,11 +1,11 @@
 
 ["General Settings"]
 	#Should Cursed Earth be Obtainable?
-	"Obtain Cursed" = true
+	"Obtain Cursed" = false
 	#Should Blessed Earth be Obtainable?
-	"Obtain Blessed" = true
+	"Obtain Blessed" = false
 	#Should Blursed Earth be Obtainable?
-	"Obtain Blursed" = true
+	"Obtain Blursed" = false
 	#What Should the Max Multiplier of Kikoku Enchant be?
 	#Range: 1 ~ 5000
 	"Kikoku Max" = 2
