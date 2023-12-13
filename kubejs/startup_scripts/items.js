@@ -1,9 +1,9 @@
 onEvent('item.registry', e => {
 
     e.create('ragnamod_seven:portal_activator').displayName('Portal Activator').maxStackSize(1)
-    e.create('chickens:smashed_chicken').displayName('Smashed Chicken').maxStackSize(1)
-    e.create('chickens:chicken_skin').displayName('Chicken Skin').maxStackSize(1)
-    e.create('chickens:chicken_shell').displayName('Chicken Shell').maxStackSize(1)
+    e.create('chickens:smashed_chicken').displayName('Smashed Chicken')
+    e.create('chickens:chicken_skin').displayName('Chicken Skin')
+    e.create('chickens:chicken_shell').displayName('Chicken Shell')
     e.create('chickens:nether_star_shard').displayName('§eNether Star Shard').glow(true)
     e.create('chemlib:draconium_compound').displayName('Draconium Compound')
     e.create('ragnamod_seven:infinity_gem').displayName('§cInfinity Gem')
