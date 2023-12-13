@@ -508,5 +508,11 @@ onEvent('recipes', e => {
   e.custom(
     { "type": "mekanism:metallurgic_infusing", "itemInput": { "ingredient": { "item": "mekanism:alloy_atomic" } }, "chemicalInput": { "amount": 100, "tag": "mekanism:gold" }, "output": { "item": "ragnamod_seven:alloy_matrix" } }
   )
+  //Add Facade AE2
+  function facade(block) {
+    e.shaped(Item.of('ae2:facade', 4, '{item:"' + block + '"}'), [' A ', 'ABA', ' A '], { A: 'ae2:cable_anchor', B: block })
+  }
+  var block = ['pneumaticcraft:smooth_plastic_brick_gray', 'pneumaticcraft:smooth_plastic_brick_pink', 'pneumaticcraft:smooth_plastic_brick_lime', 'pneumaticcraft:smooth_plastic_brick_yellow', 'pneumaticcraft:smooth_plastic_brick_light_blue', 'pneumaticcraft:smooth_plastic_brick_magenta', 'pneumaticcraft:smooth_plastic_brick_orange', 'pneumaticcraft:smooth_plastic_brick_white', 'pneumaticcraft:smooth_plastic_brick_black', 'pneumaticcraft:smooth_plastic_brick_red', 'pneumaticcraft:smooth_plastic_brick_green', 'pneumaticcraft:smooth_plastic_brick_brown', 'pneumaticcraft:smooth_plastic_brick_blue', 'pneumaticcraft:smooth_plastic_brick_purple', 'pneumaticcraft:smooth_plastic_brick_cyan', 'pneumaticcraft:smooth_plastic_brick_light_gray']
+  block.forEach(B => { facade(B) })
 
 })
