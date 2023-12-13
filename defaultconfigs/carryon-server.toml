@@ -139,7 +139,8 @@ forbiddenTiles = [
 	"iceandfire:*",
 	"ftbquests:*",
 	"waystones:*",
-	"naturesaura:offering_table"
+	"naturesaura:offering_table",
+	"ars_nouveau:scribes_table"
 ]
 #Entities that cannot be picked up
 forbiddenEntities = [
@@ -161,7 +162,7 @@ forbiddenEntities = [
 	"pixelmon:*",
 	"mocreatures:*",
 	"quark:totem",
-	"vehicle:*"
+	"vehicle:*",
 ]
 #Entities that cannot have other entities stacked on top of them
 forbiddenStacking = ["minecraft:horse"]
