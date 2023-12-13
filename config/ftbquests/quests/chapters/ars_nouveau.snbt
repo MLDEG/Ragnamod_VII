@@ -11,11 +11,11 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
-				"Welcome to &dArs Nouveau&r !"
+				"Welcome to &dArs Nouveau&r!"
 				""
-				"Ars Nouveau is a magical mod allowing you to create &byour own spell&r !"
+				"Ars Nouveau is a magical mod allowing you to create &byour own spells&r!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["10F31028FC893ADE"]
@@ -34,17 +34,17 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -3.0d
-			shape: "square"
+			x: 10.75d
+			y: -1.5d
+			shape: "pentagon"
 			description: [
-				"The Starbuncle Charm can summon a Starbuncle who can pickup nearby items and can move items between inventories. It can also harvest source berry."
+				"The Starbuncle Charm will summon a Starbuncle by right-clicking it on the ground, which can pickup nearby items and move items between inventories. It can also harvest Sourceberries."
 				""
-				"You can also dye it."
+				"You can also dye it in purple, red, yellow, orange, blue or green."
 				"{image:ftbquests:textures/quests/ars_starbuncle.png width:150 height:100 align:1}"
-				"To get a Starbuncle Shard you need to give a Starbuncle a Gold Nuggets."
+				"To get a Starbuncle Shard you need to give a wild Starbuncle a Gold Nugget."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn Notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -67,18 +67,18 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -3.0d
-			shape: "square"
+			x: 9.75d
+			y: -1.5d
+			shape: "pentagon"
 			description: [
-				"The Wixie Charm can craft items automatically for you at the cost of Source."
+				"The Wixie Charm will summon a Wixie which can craft items automatically for you at the cost of Source."
 				"You need to right-click your Charm on a cauldron."
 				""
-				"You can also dye it."
+				"You can also dye the Wixie (not the Cauldron) in red, white, black, blue or green."
 				"{image:ftbquests:textures/quests/ars_wixies.png width:150 height:100 align:1}"
-				"To get a Wixie Shard you need to cast a Dispel spell on a Witch who has half her life left."
+				"To get a Wixie Shard you need to cast a Dispel spell on a Witch having half her life left."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn Notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -98,13 +98,13 @@
 		}
 		{
 			title: "Magebloom Fiber"
-			x: 6.5d
-			y: -4.0d
+			x: 8.5d
+			y: -1.5d
 			shape: "square"
 			description: [
-				"When your Magebloom seeds, bloom, you can use Magebloom to create fiber."
+				"When your Magebloom Seeds bloom, you can get Magebloom to create fibers."
 				""
-				"These are used to craft multiple items, including your first set of magic tunic !"
+				"These are used to craft multiple items, including your first set of magic tunic!"
 			]
 			dependencies: [
 				"58EC47584C773B82"
@@ -128,15 +128,15 @@
 		{
 			title: "Enchanting Apparatus"
 			icon: "ars_nouveau:enchanting_apparatus"
-			x: 6.5d
-			y: -1.5d
+			x: 8.0d
+			y: 0.0d
 			shape: "square"
 			description: [
 				"The &9Enchanting Apparatus&r is used to make various items in the mod. It requires Source to work."
 				""
-				"It's also a multiblock structure that uses arcane bases to make."
+				"It's also a multiblock structure which needs arcane bases to build."
 				""
-				"Start by placing an Arcane Core in the ground, then place the Enchanting Device on top. Surround the Device with arcane pedestals."
+				"Start by placing an Arcane Core in the ground, then place the Enchanting Device on top, and then surround the device with Arcane Pedestals."
 				""
 				"{image:ftbquests:textures/quests/ars_enchanting.png width:150 height:100 align:1}"
 			]
@@ -167,10 +167,10 @@
 		}
 		{
 			title: "Arcane Pedestals"
-			x: 5.0d
-			y: -1.5d
+			x: 5.5d
+			y: 1.5d
 			shape: "square"
-			description: ["The arcane piedestal is used full different way! It is used for Imbuement Chamber, Enchanting Apparatus and even the Ritual Brazierl!"]
+			description: ["The Arcane Pedestal has many different uses! It is used for Imbuement Chamber, Enchanting Apparatus and even the Ritual Brazierl!"]
 			dependencies: [
 				"40BC67BDEE15D1DE"
 				"10F31028FC893ADE"
@@ -190,17 +190,17 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: 0.0d
+			y: -1.5d
 			shape: "square"
 			description: [
-				"If you want to cast better spells, you’ll need a &bscribe table&r to unlock new glyphs for your spell book."
+				"If you want to cast better spells, you’ll need a &bScribe Table&r to unlock new glyphs for your spell book."
 				""
-				"There are 3 &eTier of glyphs&r to unlock, and each requires experience and items."
+				"There are 3 &eglyph tiers&r to unlock, and each requires experience and items."
 				""
 				"The scribe table is also used to attach spells to spell scrolls. To do this, place a spell scroll on the table, select the spell in your spell book, and then right-click the book on the table."
 				""
-				"To create a glyph, right-click on the scribe table with your spell book. Find the glyph you want to create, and then click Select at the bottom. Right-click the table with the required elements, and the glyph will be created. Use the glyph to learn it."
+				"To create a glyph, right-click on the Scribe Table with your spell book. Find the glyph you want to create, and then click Select at the bottom. Right-click the table with the required elements, and the glyph will be created. Use the glyph to learn it."
 			]
 			dependencies: [
 				"33682F4B44950123"
@@ -221,18 +221,18 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -2.0d
-			shape: "square"
+			x: 11.25d
+			y: -0.5d
+			shape: "pentagon"
 			description: [
-				"The Whirlisprig Charm can summon a Whirlisprig, by right-clicking on a flower, and consider their home in a 21x21 around the flower you right-click on."
-				"It can produce resource using Source if a chest is sitting next to his flower. (for example, it can produce dandelion if there is dandelion nearby)"
+				"The Whirlisprig Charm will summon a Whirlisprig by right-clicking it on a flower. It will then consider the 21x21x21 area around it as its home."
+				"It can produce resources using Source if a chest is sitting next to his flower. For example, it can produce Dandelions if there is a Dandelion nearby."
 				""
-				"You can also dye it."
+				"You can also dye it in orange, yellow, white or green."
 				"{image:ftbquests:textures/quests/ars_whirlisprig.png width:150 height:100 align:1}"
 				"To get a Whirlisprig Shard you need to grow a tree near a wild Whirlisprig."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn Notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -251,17 +251,17 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -1.5d
 			y: -1.5d
 			shape: "square"
 			description: [
 				"For starters, you need to make yourself a &dNovice Spellbook&r."
 				""
-				"It is in this book that you can create and store your spells !"
+				"It is in this book that you can create and store your spells!"
 				""
-				"Do not forget to set the key to open the book on the spell creation page (default \"&3C&r\")"
+				"Do not forget to set the key to open the book on the spell creation page (default [&3C&r])."
 				""
-				"This spell book allows you to create spells with &etier 1 glyphs&r. To create better spells you will need to increase your spell book."
+				"This spell book allows you to create spells with &etier 1 glyphs&r. To create better spells you will need to upgrade your spell book."
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -282,11 +282,11 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
+			x: -1.5d
+			y: 0.0d
 			shape: "square"
 			description: [
-				"This is the next increase in your spell book !"
+				"This is the next level of your spell book!"
 				""
 				"This will increase your overall mana and mana regeneration, and unlock the ability to create and use &eTier 2 glyphs&r."
 			]
@@ -309,12 +309,12 @@
 		}
 		{
 			x: -1.5d
-			y: 0.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"To make the last tier of your spell book, you need to kill the &cWilden Chimera&r."
 				""
-				"This is a ritual that you need to do and use in the &9ritual brazier&r."
+				"This is a ritual that you need to do and use in the &9Ritual Brazier&r."
 			]
 			dependencies: [
 				"0D330FAD6C993DBC"
@@ -334,8 +334,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -1.5d
+			x: 6.5d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"The &9Ritual Brazier&r is used to initiate rituals. It can also be used for decoration. If you want to light the fire, use a light spell."
@@ -360,13 +360,13 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.25d
 			y: 0.0d
 			shape: "square"
 			description: [
-				"To create one of the main crafts in Ars Nouveau, the &dsource gem&r, we will need to make an Imbuement Chamber."
+				"To create one of the main crafts in Ars Nouveau, the &dSource Gem&r, you will need to make an Imbuement Chamber."
 				"{image:ftbquests:textures/quests/ars_imbuement.png width:150 height:100 align:1}"
-				"The &6Imbuement Chamber&r needs the Source to permeate the objects. It produces a small amount of Source by itself, but can also use Source Jar as an energy source."
+				"The &6Imbuement Chamber&r needs Source to permeate objects. It produces a small amount of Source by itself, but can also use Source Jar as an energy source."
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -391,9 +391,9 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"To know the spells better, we will need a specific type of magic wood! &dArchwood&r!"
+				"To learn more spells, you will need a specific type of magic wood: &dArchwood&r!"
 				""
-				"&dArchwood&r trees are found in the world."
+				"&dArchwood&r trees can be found in the world."
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -421,14 +421,14 @@
 		}
 		{
 			x: 1.5d
-			y: 3.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"In Ars Nouveau, the power system for machines is called &dSource&r."
 				""
 				"To start collecting some Source, we'll need a Source Jar."
 				""
-				"Source can also be moved with buckets, or by breaking and picking up Source Jars."
+				"Source can be moved with Buckets, or by breaking and picking up Source Jars."
 			]
 			dependencies: [
 				"33682F4B44950123"
@@ -449,18 +449,18 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 0.0d
-			shape: "square"
+			x: 10.75d
+			y: 1.5d
+			shape: "pentagon"
 			description: [
-				"The Drygmy Charm can summon a Drygmy by right-clicking a Mossy Cobblestone, and consider their home in a 21x21 around his henge."
-				"It can produce resource using Source if an inventories is sitting next to his henge. (for example, it can produce raw beef and leather if there are cows nearby) \"Also works with bosses\""
+				"The Drygmy Charm will summon a Drygmy by right-clicking it on a Mossy Cobblestone. It will then consider the 21x21x21 area around its Henge as its home."
+				"It can produce resources using Source if an inventory is sitting next to its Henge. For example, it can produce Raw Beef and Leather if there are Cows nearby. \"Also works with bosses.\""
 				""
-				"You can also dye it."
+				"You can also dye it in cyan, orange or brown."
 				"{image:ftbquests:textures/quests/ars_drygmy.png width:150 height:100 align:1}"
 				"To get a Drygmy Shard you need to give a Wilden Horn to a wild Drygmy."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn Notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -479,16 +479,16 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 0.0d
-			shape: "square"
+			x: 9.75d
+			y: 1.5d
+			shape: "pentagon"
 			description: [
-				"The Amethyst Golem Charm can summon an Amethyst Golem.It can harvest, grow and collect Amethyst near its home (using your Dominion Wand to do so)."
-				"Before it begins to work, it will transform Amethyst Blocks into Budding Amethyst to harvest the shards they grow on."
+				"The Amethyst Golem Charm will summon an Amethyst Golem. It can harvest, grow and collect Amethyst near its home, using your Dominion Wand to set it."
+				"Before it begins to work, it will transform Amethyst Blocks into Budding Amethyst to harvest the Shards they grow on."
 				"{image:ftbquests:textures/quests/ars_amethyst.png width:150 height:100 align:1}"
-				"To get this Charm you need to perform the Ritual of Awakening near a Budding Amethyst."
+				"To get this charm you need to perform the Ritual of Awakening near a Budding Amethyst."
 				""
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn Notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -509,13 +509,13 @@
 		}
 		{
 			title: "Magebloom Seed"
-			x: 6.5d
-			y: -3.0d
+			x: 7.5d
+			y: -1.5d
 			shape: "square"
 			description: [
-				"Using our enchanting device structure, we will want to make our first seed, the &5Magebloom Seed&r."
+				"Using your enchanting device structure, you will make your first seed, the &5Magebloom Seed&r."
 				""
-				"This will be used to create magical clothes for us !"
+				"This will be used to create yourself magical clothes!"
 			]
 			dependencies: [
 				"3D862A3D3F83CA26"
@@ -535,13 +535,13 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: 2.75d
+			y: 2.75d
 			shape: "square"
 			description: [
 				"The &9Volcanic Sourcelink&r produces Source from burnable items."
 				""
-				"Archwood logs will generate bonus Source."
+				"Archwood Logs will generate bonus Source."
 				""
 				"As it burns items, it will convert nearby stone into lava."
 				"{image:ftbquests:textures/quests/ars_volcano.png width:150 height:100 align:1}"
@@ -569,7 +569,7 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 3.0d
+			x: 0.0d
 			y: -3.0d
 			shape: "square"
 			description: [
@@ -577,11 +577,11 @@
 				""
 				"Each spell has a shape. You start with 3 basic shapes: Projectile, Self Cast and Touch."
 				""
-				"For effects, this determines what happens when you cast a spell. You can have 9 effects per spell."
+				"Effects determine what happens when you cast a spell. You can have 9 effects per spell."
 				""
-				"To start, you have &bHarm&r and &bBreak&r !"
+				"To start, you have &bHarm&r and &bBreak&r!"
 				""
-				"Select a shape and effect, name it, and click on &dcreate&r !"
+				"Select a shape and an effect, name your spell, and click on &dCreate&r!"
 				"{image:ftbquests:textures/quests/spellbook.png width:192 height:129 align:1}"
 			]
 			dependencies: [
@@ -603,13 +603,13 @@
 					Potion: "ars_nouveau:mana_regen_potion"
 				}
 			}
-			x: 0.0d
+			x: -1.5d
 			y: -3.0d
 			shape: "square"
 			description: [
-				"At the bottom left of your screen you can see a bar. This bar is your mana reserve."
+				"At the bottom left of your screen you can see a bar: this is your mana pool."
 				""
-				"There are several ways to increase your mana reserve through this mod. Improving your spell book will increase your mana !"
+				"There are several ways to increase your mana pool through this mod. Improving your spell book will increase your mana!"
 				""
 				"{image:ftbquests:textures/quests/mana_bar.png width:218 height:36 align:1}"
 			]
@@ -626,10 +626,10 @@
 		}
 		{
 			title: "&5Source Gems"
-			x: 3.5d
-			y: -1.5d
-			shape: "square"
-			description: ["To create source gems, we will need to place fragments of lapis or amethyst in the impregnation chamber. Over time, these will become source gems !"]
+			x: 6.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["To create Source Gems, you will need to place fragments of Lapis Lazuli or Amethyst in the Impregnation Chamber. Over time, these will become Source Gems!"]
 			dependencies: [
 				"5766C8B9E850C186"
 				"10F31028FC893ADE"
@@ -652,7 +652,7 @@
 			x: 1.5d
 			y: -1.5d
 			shape: "square"
-			description: ["This allows you to see the magical creatures nearby as well as help you find amethyst !"]
+			description: ["This allows you to see the magical creatures nearby as well as help you to find Amethyst!"]
 			dependencies: [
 				"33682F4B44950123"
 				"10F31028FC893ADE"
@@ -676,10 +676,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 2.0d
+			x: 3.0d
+			y: 1.5d
 			shape: "square"
-			description: ["The &9Vitalic Sourcelink&r produces Source from mob deaths and animal breeding."]
+			description: ["The &9Vitalic Sourcelink&r produces Source from mobs dying and animals breeding."]
 			dependencies: [
 				"227DBA8836021B0B"
 				"10F31028FC893ADE"
@@ -698,9 +698,9 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
+			y: 1.5d
 			shape: "square"
-			description: ["The &9Alchemical Sourcelink&r produces Source from adjacent potion jars."]
+			description: ["The &9Alchemical Sourcelink&r produces Source from adjacent Potion Jars."]
 			dependencies: [
 				"227DBA8836021B0B"
 				"10F31028FC893ADE"
@@ -719,12 +719,12 @@
 		}
 		{
 			x: 1.5d
-			y: 4.5d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"The &9Mycelial Sourcelink&r produces Source from foods."
 				""
-				"This will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty."
+				"This will also convert Grass or Dirt into Mycelium in a 3x3 area around it. It will also grow Mushrooms around it if the space is empty."
 			]
 			dependencies: [
 				"227DBA8836021B0B"
@@ -744,12 +744,12 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.0d
+			x: 0.25d
+			y: 2.75d
 			shape: "square"
 			description: [
 				"The &9Agronomic Sourcelink&r produces Source from plants growth."
-				"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source !"
+				"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source!"
 				"{image:ftbquests:textures/quests/ars_agro.png width:150 height:100 align:1}"
 				"Bonemealing does not produce Source."
 			]
@@ -772,10 +772,10 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -1.5d
-			shape: "square"
-			description: ["The Dominion Wand is used to control the creatures you might encounter in the world! Each being reacts differently to the wand, so be sure to read in the &eworn notebook&r !"]
+			x: 9.75d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["The Dominion Wand is used to control the creatures you might encounter in the world! Each being reacts differently to the wand, so be sure to read the relevant chapter in the &eWorn Notebook&r!"]
 			dependencies: [
 				"3D862A3D3F83CA26"
 				"10F31028FC893ADE"
@@ -794,11 +794,11 @@
 			}]
 		}
 		{
-			title: "Mana Discount Rings"
-			x: 6.5d
-			y: 1.5d
+			title: "Rings of mana Discount"
+			x: 8.0d
+			y: 2.375d
 			shape: "square"
-			description: ["The Ring of Discount provides a small bonus to mana max and mana regen. It also reduces the total cost to cast a spell."]
+			description: ["The Rings of Discount provide a small bonus to your max mana and mana regeneration. It also reduces the total cost to cast a spell."]
 			dependencies: [
 				"3D862A3D3F83CA26"
 				"10F31028FC893ADE"
@@ -824,8 +824,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.5d
+			x: 8.0d
+			y: 3.25d
 			shape: "square"
 			description: ["This belt will give random positive potion effects for a short duration. These will vary in strength. "]
 			dependencies: [
@@ -845,14 +845,14 @@
 			}]
 		}
 		{
-			title: "The Amulets"
-			x: 6.0d
-			y: 0.5d
+			title: "Amulets"
+			x: 8.0d
+			y: 1.5d
 			shape: "square"
 			description: [
-				"The Amulet of Mana Boost increase the max mana by a moderate amount."
+				"The Amulet of Mana Boost increases your max mana by a moderate amount."
 				""
-				"The Amulet of Mana Regen increase mana regeneration."
+				"The Amulet of Mana Regen increases your mana regeneration."
 			]
 			dependencies: [
 				"3D862A3D3F83CA26"
@@ -880,8 +880,8 @@
 		}
 		{
 			title: "Blaze Fiber"
-			x: 7.5d
-			y: -3.5d
+			x: 8.0d
+			y: -2.5d
 			shape: "square"
 			description: ["The Blaze Fiber is used to make an advanced mage tunic."]
 			dependencies: [
@@ -904,10 +904,10 @@
 		}
 		{
 			title: "End Fiber"
-			x: 8.5d
-			y: -3.0d
+			x: 7.5d
+			y: -3.5d
 			shape: "square"
-			description: ["The End Fiber is used to make the last Mage Tunic."]
+			description: ["The End Fiber is used to make the last mage tunic."]
 			dependencies: [
 				"113AD73FF719CCFC"
 				"10F31028FC893ADE"
@@ -928,10 +928,10 @@
 		}
 		{
 			title: "Archmage Tunic"
-			x: 9.5d
-			y: -2.5d
+			x: 8.5d
+			y: -3.5d
 			shape: "square"
-			description: ["This is the last Mage Tunic in Ars Nouveau, it's used to the End Game armor."]
+			description: ["This is the last mage tunic in Ars Nouveau, it's used in the end game armor."]
 			dependencies: [
 				"250075C5711B314D"
 				"10F31028FC893ADE"
@@ -991,13 +991,13 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
-			shape: "square"
+			x: 4.79235467389695d
+			y: -1.3737889151219802d
+			shape: "circle"
 			description: [
-				"This Abjuration Essence is made in the Imbuement Chamber and is used to make divers things."
+				"The Abjuration Essence is made in the Imbuement Chamber and is used to make various things."
 				""
-				"It's also used to craft Rune of Mana."
+				"It's also used to craft Botania's Rune of Mana."
 			]
 			dependencies: [
 				"5766C8B9E850C186"
@@ -1017,15 +1017,15 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.0d
+			x: 5.5d
+			y: 2.5d
 			shape: "square"
 			description: [
-				"Obtained by defeating &cThe Wilden Chimera&r !"
+				"Obtained by defeating the &cWilden Chimera&r!"
 				""
-				"To summon the Wilden Chimera you need to perform the Wilden Summon Ritual using a Tablet of summon Wilden."
+				"To summon the Wilden Chimera you need to perform the Wilden Summon Ritual using a Tablet of Summon Wilden."
 				""
-				"Right-click your tablet on a Brazier to ignite it, then throw a Wilden Horn, a Wilden Wing and a Wilden Spike to finally right-click the Brazier to activate the Ritual and summon this boss."
+				"Right-click your tablet on a Brazier to ignite it, then throw a Wilden Horn, a Wilden Wing and a Wilden Spike, and finally right-click the Brazier to activate the Ritual and summon this boss."
 			]
 			dependencies: [
 				"457DE8C154641437"
@@ -1044,10 +1044,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
-			shape: "square"
-			description: ["This Conjuration Essence is made in the Imbuement Chamber and is used to make divers things."]
+			x: 3.03134010977272d
+			y: -2.2218488325546097d
+			shape: "circle"
+			description: ["The Conjuration Essence is made in the Imbuement Chamber and is used to make various things."]
 			dependencies: [
 				"5766C8B9E850C186"
 				"10F31028FC893ADE"
@@ -1066,13 +1066,13 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
-			shape: "square"
+			x: 4.25d
+			y: -3.75d
+			shape: "circle"
 			description: [
-				"This Air Essence is made in the Imbuement Chamber and is used to make divers things."
+				"The Air Essence is made in the Imbuement Chamber and is used to make various things."
 				""
-				"It's also used to craft Rune of Air."
+				"It's also used to craft Botania's Rune of Air."
 			]
 			dependencies: [
 				"5766C8B9E850C186"
@@ -1092,13 +1092,13 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
-			shape: "square"
+			x: 3.27271064691496d
+			y: -3.27936225232342d
+			shape: "circle"
 			description: [
-				"This Earth Essence is made in the Imbuement Chamber and is used to make divers things."
+				"The Earth Essence is made in the Imbuement Chamber and is used to make various things."
 				""
-				"It's also used to craft Rune of Earth."
+				"It's also used to craft Botania's Rune of Earth."
 			]
 			dependencies: [
 				"5766C8B9E850C186"
@@ -1118,13 +1118,13 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
-			shape: "square"
+			x: 5.46865989022728d
+			y: -2.2218488325546097d
+			shape: "circle"
 			description: [
-				"This Fire Essence is made in the Imbuement Chamber and is used to make divers things."
+				"The Fire Essence is made in the Imbuement Chamber and is used to make various things."
 				""
-				"It's also used to craft Rune of Fire."
+				"It's also used to craft Botania's Rune of Fire."
 			]
 			dependencies: [
 				"5766C8B9E850C186"
@@ -1144,10 +1144,10 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.0d
-			shape: "square"
-			description: ["This Manipulation Essence is made in the Imbuement Chamber and is used to make divers things."]
+			x: 5.22728935308504d
+			y: -3.27936225232342d
+			shape: "circle"
+			description: ["The Manipulation Essence is made in the Imbuement Chamber and is used to make various things."]
 			dependencies: [
 				"5766C8B9E850C186"
 				"10F31028FC893ADE"
@@ -1166,13 +1166,13 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
-			shape: "square"
+			x: 3.7076453261030498d
+			y: -1.3737889151219802d
+			shape: "circle"
 			description: [
-				"This Water Essence is made in the Imbuement Chamber and is used to make divers things."
+				"The Water Essence is made in the Imbuement Chamber and is used to make various things."
 				""
-				"It's also used to craft Rune of Water."
+				"It's also used to craft Botania's Rune of Water."
 			]
 			dependencies: [
 				"5766C8B9E850C186"
@@ -1192,16 +1192,16 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -1.0d
-			shape: "square"
+			x: 11.25d
+			y: 0.5d
+			shape: "pentagon"
 			description: [
-				"The Bookwyrm Charm can summon a Bookwyrm, by right-clicking on a lectern."
-				"It can cast spells using source by giving him a Spell Parchment only using a spell who starts by Touch or Projectile."
+				"The Bookwyrm Charm will summon a Bookwyrm by right-clicking it on a Lectern."
+				"It can cast spells using Source by giving him a Spell Parchment only if the spell starts by Touch or Projectile."
 				""
-				"You can also dye it."
+				"You can also dye it in white, black, blue, green, red or purple."
 				"{image:ftbquests:textures/quests/ars_bookwyrm.png width:150 height:100 align:1}"
-				"Check the Worn notebook to get all the information you need to play with it !"
+				"Check the Worn Notebook to get all the information you need to play with it!"
 			]
 			dependencies: [
 				"1D86B2E553503E53"
@@ -1220,10 +1220,10 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 1.5d
+			x: 6.5d
+			y: 3.0d
 			shape: "square"
-			description: ["Craft a Focus of Summoning, this item, in this modpack, is used for the end game."]
+			description: ["Craft a Focus of Summoning, which is used for the end game in this modpack."]
 			dependencies: [
 				"7417915BB5B548DA"
 				"10F31028FC893ADE"
@@ -1248,19 +1248,19 @@
 					machine: "ragnamod_7:ars_impregnation"
 				}
 			}
-			x: 5.0d
-			y: 0.0d
-			shape: "square"
+			x: 4.25d
+			y: 1.25d
+			shape: "rsquare"
 			description: [
-				"The Ars Imprégnation is a multiblock who can craft more quickly the stuff from the Imbuement Chamber."
+				"The Ars Imprégnation is a multiblock that can craft the stuff from the Imbuement Chamber quicker."
 				"{image:ftbquests:textures/quests/ars_impregnation.png width:150 height:100 align:1}"
-				"In order to start a craft with this multiblock, you need to place 3 items available to farm in the multiblock, on the pedestals."
+				"In order to start a craft with this multiblock, you need to place on the pedestals 3 copies of the item you want to farm in the multiblock."
 				""
-				"So, for example, if you want to farm Air Essence, you need to put 3 air essence on the 3 pedestals to start the craft !"
+				"So, for example, if you want to farm Air Essence, you need to put 3 Air Essences on the 3 pedestals to start the craft!"
 				""
-				"This multiblock don't consume anything, but it needs a source jar full of source on top of it to work."
+				"This multiblock doesn't consume anything, but it needs a Source Jar full of Source on top of it to work."
 				""
-				"And yes, Imprégnation is the French word to say Imbuement. =)"
+				"And yes, \"Imprégnation\" is the french word for \"Imbuement\". =)"
 			]
 			dependencies: [
 				"5766C8B9E850C186"
