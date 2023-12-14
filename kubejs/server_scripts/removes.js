@@ -617,7 +617,10 @@ onEvent('recipes', e => {
         'tinkers_reforged:smeltery/melting/coal/gem',
         'twilightforest:smeltery/melting/metal/fiery/nugget',
         'minecraft:magma_cream',
-        'infernalexp:smelting/basalt_cobbled'
+        'infernalexp:smelting/basalt_cobbled',
+        'twilightforest:giant_log_to_oak_planks',
+        'twilightforest:giant_leaves_to_oak_leaves',
+        'twilightforest:giant_cobblestone_to_cobblestone',
     ]
     removeId.forEach(C => { r(C) })
 })
