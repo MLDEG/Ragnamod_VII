@@ -1,0 +1,77 @@
+{
+  "name": "Advanced Neutron Collector",
+  "appearance": {
+    "block": "ragnamod_seven:machine/advanced_neutron_collector_idle_model",
+    "item": "ragnamod_seven:machine/advanced_neutron_collector_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/advanced_neutron_collector_running_model",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/advanced_neutron_collector.png",
+      "x": 40,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 64,
+      "y": 33
+    },
+    {
+      "text": "Advanced Neutron Collector",
+      "alignment": "center",
+      "color": 16729156,
+      "x": 128,
+      "y": 7,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 83,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/anc_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/anc_progress_full.png",
+      "type": "custommachinery:progress",
+      "x": 68,
+      "y": 63
+    },
+    {
+      "id": "output",
+      "texture": "ragnamod_seven:textures/gui/output_box_huge.png",
+      "x": 115,
+      "y": 30,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "jei": [
+    {
+      "id": "output",
+      "x": 119,
+      "y": 52,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "catalysts": []
+}

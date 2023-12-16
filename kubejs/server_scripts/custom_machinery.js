@@ -278,6 +278,9 @@ onEvent('recipes', e => {
   arsImpre(5, 'ars_nouveau:source_gem')
   arsImpre(40, 'ars_nouveau:source_gem_block')
 
+  //Advanced Neutron Collector
+  e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:advanced_neutron_collector", "time": 20, "requirements": [{ "type": "custommachinery:item", "mode": "output", "item": 'avaritia:neutron_pile', "amount": 1 }] })
+
   //Black Sphere Block
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:black_sphere"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'ragnamod_seven:noisy_neutronium', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //Black Sphere
