@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "Introduction"
-			x: -1.5d
-			y: 0.0d
+			x: 3.0d
+			y: 1.5d
 			shape: "octagon"
 			subtitle: "Your goal is to leave the Twilight with a rocket to return to earth and truly begin your adventure!"
 			description: [
@@ -32,7 +32,7 @@
 		}
 		{
 			x: 3.0d
-			y: 3.0d
+			y: -5.5d
 			description: [
 				"The Nasa Workbench combines all the technology you have created!"
 				"Use the Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
@@ -57,8 +57,8 @@
 		{
 			title: "Naga Fight"
 			icon: "twilightforest:naga_trophy"
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: -0.5d
 			subtitle: "You need to beat the Naga to get some Naga Scales."
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "5CFDD2C9BF21A177"
@@ -123,8 +123,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: 4.0d
+			y: -3.5d
 			description: ["The Mixing Cauldron is simply a cauldron from Hexerei, light a fire below and you can craft in it!"]
 			dependencies: ["608B0D64957C2EC8"]
 			id: "3D70617228B5BE1A"
@@ -142,8 +142,8 @@
 		{
 			title: "Blast Furnace"
 			icon: "immersiveengineering:blast_furnace"
-			x: 1.0d
-			y: 3.0d
+			x: 4.0d
+			y: -4.5d
 			subtitle: "The steel road"
 			description: [
 				"To get Steel, you're going to need to make a Blast Furnace."
@@ -168,8 +168,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: 2.0d
+			y: -5.5d
 			description: ["Right now your mechanical arm you'll use it in the craft of the Nasa Workbench, but this one can be useful in automation of Create devices!"]
 			dependencies: ["5836EBA421A25364"]
 			id: "6013E9708A7B59E9"
@@ -186,7 +186,7 @@
 		}
 		{
 			x: 3.0d
-			y: 2.0d
+			y: -4.5d
 			description: [
 				"The Utherium Crystal is used to craft the Nasa Workbench."
 				"You can find it in the form of ore or get shard by killing rotten mobs"
@@ -206,8 +206,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: 3.0d
+			y: -2.5d
 			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
 			dependencies: [
 				"5CFDD2C9BF21A177"
@@ -219,6 +219,7 @@
 				"03912F8EED303C9E"
 				"29582A190DD0E266"
 				"3D70617228B5BE1A"
+				"5A7AE75E4AF0003F"
 			]
 			id: "0A1BC75F350F8C54"
 			tasks: [{
@@ -243,7 +244,7 @@
 		{
 			title: "The Undergarden"
 			x: 3.0d
-			y: 0.0d
+			y: -3.5d
 			description: ["Simply visit the undergarden."]
 			dependencies: ["0A1BC75F350F8C54"]
 			id: "769AFAB1B0F353E0"
@@ -269,10 +270,13 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 3.5d
+			y: -0.5d
 			subtitle: "You can use it to make a map to guide you through the Twilight Forest."
-			description: ["You'll have to kill a crow to get its feathers.Once obtained, you must combine it with glowstone (obtainable in large hollow hills) and torcheberries (obtainable by killing a Skeleton Druid or finding them in caves)"]
+			description: [
+				"You'll have to kill a crow to get its feathers."
+				"Once obtained, you must combine it with glowstone (obtainable in large hollow hills) and torcheberries (obtainable by killing a Skeleton Druid or finding them in caves)."
+			]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "572A921A6E34907B"
 			tasks: [{
@@ -287,8 +291,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: -0.5d
 			subtitle: "Borer Essence can be find in the Ur-Ghast tower."
 			description: ["You can either collect some from the top of the tower or kill a Towerwood Borers who are themselves hidden in infested towerwoods, like silverfish."]
 			dependencies: ["7DCDDC6CA278A7C5"]
@@ -306,8 +310,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 2.5d
+			y: -0.5d
 			description: ["To get your Bottled Darkness you need to right-click in the air with a Bottle and Cork."]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "731DC23E85B1A666"
@@ -330,8 +334,8 @@
 		}
 		{
 			title: "Raw Insect"
-			x: 0.0d
-			y: -1.0d
+			x: 0.5d
+			y: -0.5d
 			subtitle: "Chop Chop !"
 			description: ["You just have to cut some insects with a cutting board and a knife."]
 			dependencies: ["7DCDDC6CA278A7C5"]
@@ -349,8 +353,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 6.5d
+			y: -0.5d
 			subtitle: "Great for keeping you warm."
 			description: ["To get Arctic Furs, you need to go to the Snowy Forest and kill a Yeti or a Winter Wolf."]
 			dependencies: ["7DCDDC6CA278A7C5"]
@@ -373,8 +377,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 4.5d
+			y: -0.5d
 			subtitle: "A shiny magic crystal."
 			description: ["You can find them in caves."]
 			dependencies: ["7DCDDC6CA278A7C5"]
@@ -391,8 +395,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 5.5d
+			y: -0.5d
 			subtitle: "Great for an early armor and tools set."
 			description: ["You can amalgamate raw iron, gold nuggets and Liveroot to obtain a ball of Raw Ironwood."]
 			dependencies: ["7DCDDC6CA278A7C5"]
@@ -419,8 +423,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: 4.0d
+			y: -5.5d
 			description: ["In the Blast Furnace you need to put Ironwood to obtain Steel."]
 			dependencies: ["1EF95835215D60E0"]
 			id: "3C884020904C1B6C"
@@ -436,8 +440,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.0d
+			x: 3.0d
+			y: -6.5d
 			subtitle: "Liftoff"
 			description: [
 				"With your Nasa Workbench, you can now make your first rocket."
@@ -465,8 +469,8 @@
 		{
 			title: "Overworld"
 			icon: "beyond_earth:earth_globe"
-			x: 8.0d
-			y: 3.0d
+			x: 3.0d
+			y: -9.0d
 			shape: "octagon"
 			subtitle: "The adventure begin !"
 			description: ["Land safely on Earth."]
@@ -481,7 +485,7 @@
 		}
 		{
 			x: 2.0d
-			y: 4.0d
+			y: -6.5d
 			subtitle: "Precision"
 			description: [
 				"The Precision Mechanism is mainly used to make Mechanical Arms or Rotation Speed Controller."
@@ -503,12 +507,12 @@
 		}
 		{
 			x: 1.0d
-			y: 4.0d
+			y: -5.5d
 			subtitle: "autoclicker"
 			description: ["The deployer will be useful for making assembly crafts."]
 			dependencies: [
 				"4C6AA93A91E04FBB"
-				"5CA38B103AB4469B"
+				"27709AD99F715F2C"
 			]
 			id: "6234A8C99DAEDBF1"
 			tasks: [{
@@ -523,8 +527,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: 1.0d
+			y: -6.5d
 			description: [
 				"In this pack to make Rose Quartz you will need Fluorite and Redstone."
 				"There will be a way to make Rose Quartz with Quartz later."
@@ -549,8 +553,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: 1.0d
+			y: -4.5d
 			subtitle: "The age of Brass"
 			description: ["With your alloy kiln, made Brass ingots to enter the age of brass with Create!"]
 			dependencies: ["5B7594939BB7C888"]
@@ -575,8 +579,8 @@
 		{
 			title: "Alloy Kiln"
 			icon: "immersiveengineering:alloy_smelter"
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: -4.5d
 			subtitle: "a primitive alloy smelter"
 			description: ["The alloy kiln is a simple way to make your first alloy!"]
 			dependencies: ["608B0D64957C2EC8"]
@@ -595,11 +599,11 @@
 		}
 		{
 			title: "How to return in the Undergarden and Twilight Forest."
-			x: 8.0d
-			y: 1.0d
+			x: 3.0d
+			y: -11.0d
 			shape: "circle"
 			description: [
-				"With this catalyst, you can return, from the overworld, to the Undergarden and therefore by definition return to the Twilight Forest by making a portal and using this same catalyst to open a new portal."
+				"With this catalyst you can return, from the overworld, to the Undergarden and therefore by definition return to the Twilight Forest by making a portal and using this same catalyst to open a new portal."
 				""
 				"After that, I recommend you to craft a Tempad to easily in and out from any dimension."
 			]
@@ -617,8 +621,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 5.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"In order to make a fuel for your rocket, you need to find some Crude Oil, like this oil well."
@@ -639,8 +643,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: 5.0d
+			y: -6.5d
 			shape: "square"
 			description: ["Process your crude oil in the Fuel Refinery to obtain fuel for your rocket."]
 			dependencies: ["1E65C40447A8DAC9"]
@@ -657,8 +661,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 5.0d
+			y: -5.5d
 			description: [
 				"Fuel Refinery can convert Oil into Fuel"
 				"With Shift + Right Click on your rocket you can fill it with your recently obtain fuel"
@@ -682,8 +686,8 @@
 		}
 		{
 			title: "Launch Pad"
-			x: 5.0d
-			y: 3.0d
+			x: 4.0d
+			y: -6.5d
 			shape: "square"
 			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
 			dependencies: ["3C884020904C1B6C"]
@@ -703,7 +707,7 @@
 		}
 		{
 			x: 2.0d
-			y: 2.0d
+			y: -3.5d
 			description: ["You can find Lava in Fire Swamp, underneath Fire Jet and smoker or in the Minoshroom Maze."]
 			hide_dependency_lines: true
 			dependencies: ["7DCDDC6CA278A7C5"]
