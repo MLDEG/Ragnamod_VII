@@ -31,6 +31,7 @@ onEvent('jei.hide.items', e => {
 		/evilcraft:dark_tank/,
 		/ae2:facade/,
 		/titanium:/,
+		/trofers:/,
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"tconstruct:honey"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"cofh_core:honey"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"beyond_earth:oil"}}]}}'),
@@ -375,7 +376,8 @@ onEvent('jei.add.items', e => {
 		'cataclysm:enderite_block',
 		'create:chromatic_compound',
 		'create:shadow_steel',
-		'create:refined_radiance'
+		'create:refined_radiance',
+		'minecraft:dragon_egg'
 	])
 })
 
