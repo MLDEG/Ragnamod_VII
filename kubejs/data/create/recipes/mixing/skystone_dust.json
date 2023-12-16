@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "occultism:burnt_otherstone"
+    },
+    {
+      "item": "tconstruct:sky_slime_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:sky_dust"
+    }
+  ]
+}
