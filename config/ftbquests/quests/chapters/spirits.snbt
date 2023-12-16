@@ -12,7 +12,7 @@
 			x: -0.5d
 			y: 0.0d
 			shape: "square"
-			description: ["The Soul Crystal Shard is used to store a Soul when you kill a mod, it can store only one soul, and you can have your crystal anywhere in your inventory."]
+			description: ["The Soul Crystal Shard is used to store a Soul when you kill a mob, it can store only one soul, and you can have your crystal anywhere in your inventory."]
 			dependencies: [
 				"2C386FCB4D66DD1F"
 				"13C41B348C636ACA"
