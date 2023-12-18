@@ -1938,7 +1938,7 @@
 			x: 9.0d
 			y: -1.0d
 			shape: "square"
-			description: ["You need to defeat the Chaos Guardian, located in every 10k distance, to can grab the Chaotic Shards inside the Chaotic Island."]
+			description: ["You need to defeat the Chaos Guardian, located in every 10k distance, to be able to grab the Chaotic Shards inside the Chaotic Island."]
 			dependencies: ["170B797FE3905864"]
 			id: "410C369B33532099"
 			tasks: [{

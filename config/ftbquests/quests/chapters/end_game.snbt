@@ -463,7 +463,7 @@
 				{
 					id: "067C85F0A4892110"
 					type: "item"
-					item: "quark:myalite_crystal"
+					item: { id: "byg:purple_bulbis_shell", Count: 4b }
 					count: 4L
 				}
 				{

@@ -21,15 +21,14 @@ onEvent('recipes', e => {
     "type": "mythicbotany:infusion",
     "group": "infuser",
     "output": { "item": "solarflux:sp_custom_alfsteel", "count": 1 },
-    "mana": 1000000,
+    "mana": 2000000,
     "ingredients": [
-      { "item": "solarflux:photovoltaic_cell_8" },
-      { "item": "solarflux:photovoltaic_cell_8" },
+      { "item": "mythicbotany:alfsteel_block" },
       { "item": "solarflux:sp_custom_psi" },
       { "item": "solarflux:photovoltaic_cell_8" }
     ],
-    "fromColor": 16711821,
-    "toColor": 16750080
+    "fromColor": 16096479,
+    "toColor": 16296225
   })
   //Wyvern Solar
   e.custom({

@@ -844,10 +844,7 @@
 			x: -2.5d
 			y: 1.0d
 			shape: "square"
-			description: [
-				"The Garden Cloche is used to grow crops placed in it."
-				"In this pack, it is very powerful ! It can grow crops every 50 ticks."
-			]
+			description: ["The Garden Cloche is used to grow crops placed in it."]
 			dependencies: [
 				"00000000000006A8"
 				"2C4EB8D4AD7073DF"

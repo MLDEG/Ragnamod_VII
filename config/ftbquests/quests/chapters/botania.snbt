@@ -358,7 +358,7 @@
 			description: [
 				"The Alfheim portal is mainly used for trading overworld stuff for Alfheim stuff."
 				"Check the Lexica Botania to see the structure you need to make."
-				"The portal needs 100,000 mana in §nboth§r pools under the Natura Pylons to be opened but then uses mana only when trading, at a rate of 500 mana per trade."
+				"The portal needs 100,000 mana in &nboth&r pools under the Natura Pylons to be opened but then uses mana only when trading, at a rate of 500 mana per trade."
 				""
 				"Later, with Mystic Botany, you will be able to enter the Alfheim dimension, follow the quests."
 				""
@@ -511,6 +511,7 @@
 			}]
 		}
 		{
+			title: "Petal Apothecary"
 			x: 2.0d
 			y: 0.0d
 			shape: "circle"
@@ -524,7 +525,14 @@
 			tasks: [{
 				id: "00000000000003B6"
 				type: "item"
-				item: "botania:apothecary_default"
+				title: "Petal Apothecary"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:apothecary"
+					}
+				}
 			}]
 			rewards: [{
 				id: "609058DB2E1BD713"
@@ -2045,7 +2053,7 @@
 			y: -4.5d
 			shape: "square"
 			description: [
-				"The Narslimmus produces mana by killing §nnaturally§r spawned Slimes."
+				"The Narslimmus produces mana by killing &nnaturally&r spawned Slimes."
 				""
 				"The flower has an internal buffer of 19,200 mana and, when killing a Slime within its 5x3x5 range, produces 1,200 mana for a small one, 2,400 for a medium, and 9,600 for a big."
 			]
@@ -2713,7 +2721,7 @@
 			description: [
 				"The Rafflowsia is a cannibal: it produces mana by eating other flowers!"
 				"The more different flowers it eats, the more mana is produced. But if it eats the same flower continuously, its production will lessen."
-				"Only generating and functional flowers will work, mystical or glimering won't. Floating and MythicBotany won't ether, but petites will, and they are considered as different from their big sisters."
+				"Only generating and functional flowers will work, mystical or glimmering won't. Floating and MythicBotany won't ether, but petites will, and they are considered as different from their big sisters."
 				""
 				"The flower has an internal buffer of 638,554 mana and will eat a flower within its 11x11x11 range every 2 seconds."
 				"The mana production is... arbitrary. The first flower will produce 2,000 mana, then if you alternate between 2 flowers they will produce 2,100 mana each. If you loop through 3 different flowers, they will produce 2,200 mana each. For each additional flower in the loop, the mana production will raise as follow: 2,300; 3,280; 4,033; 4,657; 5,150; 6,622; 7,860; 10,418; 12,600; 14,769; 16,671; 19,000; 25,400; 33,471; 40,900; 47,579; 53,600; 59,057; 64,264; 69,217; 74,483; 79,352; 83,869; 88,059; 92,129; 96,669; 100,940; 105,239; 112,044; 118,442; 124,612; 130,583; 136,228; 141,703; 178,442; 213,959; 247,725; 279,956; 313,671; 345,833; 377,227; 437,689; 495,526; 553,702; 638,554."
@@ -2747,7 +2755,7 @@
 			shape: "square"
 			description: [
 				"The Spectrolus generates mana by eating wool. But only in a specific order of colors, always the same:"
-				"§fwhite§r > §6orange§r > §dmagenta§r > §blight blue§r > §alime§r > §dpink§r > §8gray§r > §7light gray§r > §3cyan§r > §5purple§r > §1blue§r > §4brown§r > §2green§r > §cred§r > §0black§r."
+				"&fwhite&r > &6orange&r > &dmagenta&r > &blight blue&r > &alime&r > &dpink&r > &8gray&r > &7light gray&r > &3cyan&r > &5purple&r > &1blue&r > &4brown&r > &2green&r > &cred&r > &0black&r."
 				"If you give any other color than the one it's expecting, the wool will still be eaten but without producing any mana."
 				"You can also feed it with living Sheeps of the good color to produce more mana, but the poor thing will be killed without laying any loot nor XP."
 				""
@@ -3099,7 +3107,7 @@
 				""
 				"The Petite variant has a smaller maximum range of 6 blocks radius."
 				""
-				"§4§lWARNING:§r This flower is known to cause crashes when placed and removed too often and/or too fast, so use it with care."
+				"&4&lWARNING:&r This flower is known to cause crashes when placed and removed too often and/or too fast, so use it with care."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3137,7 +3145,7 @@
 				""
 				"The flower has an internal buffer of 16,000 mana and consumes 24 mana per item (1,536 for a full stack) dropped within its 5x5x5 central area to teleport them to the destination bound in its spherical range of 12 blocks radius."
 				""
-				"§6§lNOTE:§r Due to a bug, even if the destination range is displayed as a square, it's actually a sphere."
+				"&6&lNOTE:&r Due to a bug, even if the destination range is displayed as a square, it's actually a sphere."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3446,7 +3454,7 @@
 			shape: "square"
 			description: [
 				"The Hyacidus poisons any nearby entity, allowing you to one hit kill them."
-				"Note that players aren't affected and §msteel§r undead mobs are immune to poison."
+				"Note that players aren't affected and &msteel&r undead mobs are immune to poison."
 				"You can disable the flower by applying a redstone signal to it."
 				""
 				"The flower has an internal buffer of 180 mana and consumes 20 mana to apply a Poison I effect for 3 seconds to any living entity within its 13x13x13 range."
@@ -3655,7 +3663,7 @@
 				"The Vinculotus hijacks Endermen's teleportations to redirect them to the flower."
 				"You can disable the flower by applying a redstone signal to it."
 				""
-				"The flower has an internal buffer of 500 mana and consumes 50 mana to redirect any Enderman teleporting §nto§r within its spherical range of 64 blocks radius."
+				"The flower has an internal buffer of 500 mana and consumes 50 mana to redirect any Enderman teleporting &nto&r within its spherical range of 64 blocks radius."
 			]
 			hide_dependency_lines: true
 			dependencies: [

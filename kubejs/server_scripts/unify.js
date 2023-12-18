@@ -123,6 +123,7 @@ onEvent('recipes', function (e) {
     ['#forge:dusts/gold', 'bloodmagic:goldsand', 'occultism:gold_dust', 'ftbic:gold_dust', 'chemlib:gold_dust', 'immersiveengineering:dust_gold', 'mekanism:dust_gold'].forEach(I => { replaceIO(I, 'thermal:gold_dust') });
     ['#forge:dusts/iron', 'bloodmagic:ironsand', 'occultism:iron_dust', 'ftbic:iron_dust', 'chemlib:iron_dust', 'immersiveengineering:dust_iron', 'mekanism:dust_iron'].forEach(I => { replaceIO(I, 'thermal:iron_dust') });
     ['#forge:dusts/lithium', 'chemlib:lithium_dust'].forEach(I => { replaceIO(I, 'mekanism:dust_lithium') });
+    crusherMeka('minecraft:basalt', 'infernalexp:basalt_cobbled', 1);
     crusherMeka('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherMeka('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherMeka('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
@@ -164,6 +165,7 @@ onEvent('recipes', function (e) {
     crusherMeka('chemlib:lithium_ingot', 'mekanism:dust_lithium', 1);
     crusherMeka('thermal:niter', 'thermal:niter_dust', 1);
     crusherMekaTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1);
+    crusherOccu('minecraft:basalt', 'infernalexp:basalt_cobbled', 1, true);
     crusherOccu('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1, true);
     crusherOccu('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1, true);
     crusherOccu('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust', 1, true);
@@ -209,6 +211,7 @@ onEvent('recipes', function (e) {
     crusherOccuTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1, true);
     crusherOccuTag('forge:gems/diamond', 'thermal:diamond_dust', 1, true);
     crusherOccuTag('forge:gems/emerald', 'thermal:emerald_dust', 1, true);
+    crusherThermal('minecraft:basalt', 'infernalexp:basalt_cobbled', 1);
     crusherThermal('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherThermal('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherThermal('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
@@ -249,6 +252,7 @@ onEvent('recipes', function (e) {
     crusherThermal('create:zinc_ingot', 'chemlib:zinc_dust', 1);
     crusherThermal('mekanism:ingot_uranium', 'mekanism:dust_uranium', 1);
     crusherThermalTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1);
+    crusherFTB('minecraft:basalt', 1, 'infernalexp:basalt_cobbled', 1);
     crusherFTB('occultism:iesnium_ingot', 1, 'occultism:iesnium_dust', 1);
     crusherFTB('evilcraft:dark_gem', 1, 'evilcraft:dark_gem_crushed', 1);
     crusherFTB('draconicevolution:draconium_ingot', 1, 'draconicevolution:draconium_dust', 1);
@@ -299,6 +303,7 @@ onEvent('recipes', function (e) {
     crusherFTBTag('forge:gems/emerald', 1, 'thermal:emerald_dust', 1);
     crusherFTBTag('forge:gems/certus_quartz', 1, 'ae2:certus_quartz_dust', 1);
     crusherFTBTag('forge:gems/amethyst', 1, 'thermal_extra:amethyst_dust', 1);
+    crusherCreate('minecraft:basalt', 'infernalexp:basalt_cobbled');
     crusherCreate('occultism:iesnium_ingot', 'occultism:iesnium_dust');
     crusherCreate('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
     crusherCreate('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust');
@@ -354,6 +359,7 @@ onEvent('recipes', function (e) {
     crusherCreate('mekanism:fluorite_gem', 'mekanism:dust_fluorite');
     crusherCreateTag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherCreateTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
+    crusherIE('minecraft:basalt', 'infernalexp:basalt_cobbled');
     crusherIE('occultism:iesnium_ingot', 'occultism:iesnium_dust');
     crusherIE('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
     crusherIE('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust');

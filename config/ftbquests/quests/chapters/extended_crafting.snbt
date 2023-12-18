@@ -440,11 +440,9 @@
 				item: "avaritia:neutron_collector"
 			}]
 			rewards: [{
-				id: "49E5345130FFF63A"
+				id: "4ADC6C57EF2E72AC"
 				type: "item"
-				item: "ftbic:iridium_neutron_reflector"
-				count: 8
-				random_bonus: 8
+				item: "avaritia:neutron_collector"
 			}]
 		}
 		{
@@ -3505,6 +3503,36 @@
 				id: "284AFD15844138D5"
 				type: "item"
 				item: "ragnamod_seven:corrosivewill_singularity"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			shape: "square"
+			description: ["The Advanced Neutron Collector works in the same way as a Neutron collector but collects 1 pile of Neutron every second!"]
+			dependencies: ["60FD4D8FA17A53D7"]
+			id: "2BF92CD171D1B01A"
+			tasks: [{
+				id: "584B834A7E57EEE6"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:advanced_neutron_collector"
+					}
+				}
+			}]
+			rewards: [{
+				id: "12FC9E5863135D3B"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:advanced_neutron_collector"
+					}
+				}
 			}]
 		}
 	]

@@ -1,5 +1,11 @@
 onEvent('recipes', e => {
 
+  //Enderpearl Block
+  e.shapeless('9x minecraft:ender_pearl', 'miniutilities:ender_pearl_block')
+  //Neutronium Ingot
+  e.shapeless('9x avaritia:neutronium_ingot', 'avaritia:neutronium_block')
+  //Pendorite Ingot
+  e.shapeless('9x byg:pendorite_ingot', 'byg:pendorite_block')
   //Creative Tank Fluid Meka Reset
   e.shapeless('mekanism:creative_fluid_tank', 'mekanism:creative_fluid_tank')
   //Creative Tank Gaz Meka Reset
@@ -181,37 +187,37 @@ onEvent('recipes', e => {
   //Oak Log
   e.shaped('16x minecraft:oak_log', ['AAA', '   ', '   '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Spruce Log
   e.shaped('16x minecraft:spruce_log', ['  A', ' A ', 'A  '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Birch Log
   e.shaped('16x minecraft:birch_log', ['A  ', ' A ', '  A'], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Jungle Log
   e.shaped('16x minecraft:jungle_log', [' A ', ' A ', ' A '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Acacia Log
   e.shaped('16x minecraft:acacia_log', [' A ', 'A  ', ' A '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Dark Oak Log
   e.shaped('16x minecraft:dark_oak_log', [' A ', '  A', ' A '], {
     A: 'ragnamod_seven:log_egg_component'
-  })
+  }).noMirror().noShrink()
   //Crimson Leg
   e.shaped('16x minecraft:crimson_stem', ['NA ', 'AA ', '   '], {
     A: 'ragnamod_seven:log_egg_component',
     N: 'minecraft:netherrack'
-  })
+  }).noMirror().noShrink()
   //Warped Leg
   e.shaped('16x minecraft:warped_stem', ['AN ', 'AA ', '   '], {
     A: 'ragnamod_seven:log_egg_component',
     N: 'minecraft:netherrack'
-  })
+  }).noMirror().noShrink()
   //Summoning Table
   e.shaped('summoningrituals:altar', ['ABA', 'CDC', 'DED'], {
     A: 'minecraft:candle',
@@ -504,5 +510,11 @@ onEvent('recipes', e => {
   e.custom(
     { "type": "mekanism:metallurgic_infusing", "itemInput": { "ingredient": { "item": "mekanism:alloy_atomic" } }, "chemicalInput": { "amount": 100, "tag": "mekanism:gold" }, "output": { "item": "ragnamod_seven:alloy_matrix" } }
   )
+  //Add Facade AE2
+  function facade(block) {
+    e.shaped(Item.of('ae2:facade', 4, '{item:"' + block + '"}'), [' A ', 'ABA', ' A '], { A: 'ae2:cable_anchor', B: block })
+  }
+  var block = ['pneumaticcraft:smooth_plastic_brick_gray', 'pneumaticcraft:smooth_plastic_brick_pink', 'pneumaticcraft:smooth_plastic_brick_lime', 'pneumaticcraft:smooth_plastic_brick_yellow', 'pneumaticcraft:smooth_plastic_brick_light_blue', 'pneumaticcraft:smooth_plastic_brick_magenta', 'pneumaticcraft:smooth_plastic_brick_orange', 'pneumaticcraft:smooth_plastic_brick_white', 'pneumaticcraft:smooth_plastic_brick_black', 'pneumaticcraft:smooth_plastic_brick_red', 'pneumaticcraft:smooth_plastic_brick_green', 'pneumaticcraft:smooth_plastic_brick_brown', 'pneumaticcraft:smooth_plastic_brick_blue', 'pneumaticcraft:smooth_plastic_brick_purple', 'pneumaticcraft:smooth_plastic_brick_cyan', 'pneumaticcraft:smooth_plastic_brick_light_gray']
+  block.forEach(B => { facade(B) })
 
 })

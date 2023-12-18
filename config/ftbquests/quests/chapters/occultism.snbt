@@ -1006,7 +1006,6 @@
 				"160551369B2D3DD7"
 				"4DF6B5FAF20A7360"
 				"40DC6014B8542DF8"
-				"0646054B9C984677"
 				"6AEA8EAB317F6A30"
 				"6FB44ED0D3BD0999"
 				"112B0AEF7EDDDE6A"
@@ -1148,7 +1147,7 @@
 			y: 1.5d
 			shape: "square"
 			description: [
-				"To craft Candles, you're going to need tallow, and to get Tallow you have to kill a cow, pig, sheep, horse or a llama with a Butcher Knife !"
+				"To craft Candles, you're going to need tallow, and to get Tallow you have to kill a cow, pig, sheep, horse or a llama with a Butcher Knife!"
 				"Candles are very important for your ritual, you're gonna need those in bulk."
 			]
 			dependencies: [
@@ -1945,7 +1944,7 @@
 			y: -3.0d
 			shape: "square"
 			description: [
-				"Iesnium Ore can be found in the Nether, only with the effect Third eyes !"
+				"Iesnium Ore can be found in the Nether, only with the effect Third eyes!"
 				"But, if you cant to mine it, you're going to need an Infused Pickaxe."
 			]
 			hide_dependency_lines: false
