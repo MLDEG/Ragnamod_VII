@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "modid": "twilightforest",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "twilightforest:towerwood_borer",
+  "subtypes": [],
+  "name": "entity.twilightforest.towerwood_borer",
+  "name_color": "0x6F3327",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:empty_prediction",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:twilight_prediction",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.towerwood_borer",
+  "fabricator_drops": [
+    {
+      "item": "twilightforest:borer_essence",
+      "count": 8
+    }
+  ],
+  "tier_data": [1,2,3,4],
+  "data_per_kill": [0,0,0,0]
+}

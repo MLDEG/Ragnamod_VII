@@ -30,5 +30,7 @@
 			"item": "reliquary:slime_pearl",
 			"count": 2
 		}
-	]
+	],
+	"tier_data": [1,2,3,4],
+	"data_per_kill": [0,0,0,0]
 }

@@ -27,5 +27,7 @@
             "item": "minecraft:glow_ink_sac",
             "count": 16
         }
-    ]
+    ],
+    "tier_data": [1,2,3,4],
+    "data_per_kill": [0,0,0,0]
 }

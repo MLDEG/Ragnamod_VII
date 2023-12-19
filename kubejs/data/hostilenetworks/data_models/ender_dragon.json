@@ -28,10 +28,6 @@
 			"count": 1
 		}
 	],
-	"data_per_kill": [
-		3,
-		12,
-		30,
-		45
-	]
+	"tier_data": [1,2,3,4],
+	"data_per_kill": [0,0,0,0]
 }
