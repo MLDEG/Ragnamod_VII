@@ -246,6 +246,12 @@ onEvent('recipes', e => {
     A: 'ragnamod_seven:ghast_cow_tear',
     B: 'forbidden_arcanus:dark_nether_star'
   })
+  //Polymer Clay
+  e.shaped('hostilenetworks:polymer_clay', ['AB ', 'BCB', ' BA'], {
+    A: 'thermal:enderium_ingot',
+    B: 'minecraft:clay_ball',
+    C: 'undergarden:froststeel_ingot'
+  })
   //Blood Magic Ritual Stone
   function ritualStone(input, output, catalyst) { e.custom({ "type": "create:item_application", "ingredients": [{ "item": input }, { "item": catalyst }], "results": [{ "item": output }] }) }
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:airritualstone', 'bloodmagic:airscribetool')

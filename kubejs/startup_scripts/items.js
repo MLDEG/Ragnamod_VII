@@ -27,6 +27,7 @@ onEvent('item.registry', e => {
     e.create('solarflux:photovoltaic_cell_13').displayName('Photovoltaic Cell XIII')
     e.create('hostilenetworks:blueskies_prediction').displayName('Generalized Blue Skies Prediction')
     e.create('hostilenetworks:undergarden_prediction').displayName('Generalized Undergarden Prediction')
+    e.create('hostilenetworks:polymer_clay').displayName('Polymer Clay')
     e.create('ragnamod_seven:war_essence').displayName('War Essence')
     e.create('ragnamod_seven:famine_essence').displayName('Famine Essence')
     e.create('ragnamod_seven:death_essence').displayName('Death Essence')
