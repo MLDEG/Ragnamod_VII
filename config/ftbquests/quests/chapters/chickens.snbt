@@ -5343,6 +5343,30 @@
 				random_bonus: 7
 			}]
 		}
+		{
+			x: 12.0d
+			y: 0.0d
+			id: "73C3E51A4BE4D1D5"
+			tasks: [{
+				id: "5AB805A724E59AB1"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:regalium_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "30CAC5F7D6D9CB6A"
+				type: "item"
+				item: "undergarden:regalium_block"
+				random_bonus: 3
+			}]
+		}
 	]
 	quest_links: [ ]
 }

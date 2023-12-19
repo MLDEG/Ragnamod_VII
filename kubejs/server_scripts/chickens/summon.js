@@ -144,6 +144,7 @@ onEvent('recipes', e => {
     summonChicken('thermal:apatite', 'thermal:apatite_block', 'apatite')
     summonChicken('thermal:niter', 'thermal:niter_block', 'niter')
     summonChicken('mekanism:fluorite_gem', 'mekanism:block_fluorite', 'fluorite')
+    summonChicken('undergarden:regalium_crystal', 'undergarden:regalium_block', 'regalium')
     summonChicken('farmersdelight:egg_sandwich', 'farmersdelight:egg_sandwich', 'therealreivax')
     summonChicken('croptopia:pineapple_pepperoni_pizza', 'croptopia:pineapple_pepperoni_pizza', 'thorak83')
     summonChicken('farmersdelight:melon_juice', 'farmersdelight:melon_juice', 'mrchiro33')
