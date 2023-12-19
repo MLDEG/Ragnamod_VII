@@ -24,12 +24,17 @@ onEvent('recipes', e => {
   //Cataclysm
   //Ignitium
   e.shapeless('9x cataclysm:ignitium_ingot', 'cataclysm:ignitium_block')
-  //Ignitium
+  //Witherite
   e.shapeless('9x cataclysm:witherite_ingot', 'cataclysm:witherite_block')
   e.shapeless('cataclysm:witherite_block', '9x cataclysm:witherite_ingot')
-  //Ignitium
+  //Enderite
   e.shapeless('9x cataclysm:enderite_ingot', 'cataclysm:enderite_block')
   e.shapeless('cataclysm:enderite_block', '9x cataclysm:enderite_ingot')
+  //Blazing Copper
+  e.shapeless('9x tinkers_reforged:blazing_copper_ingot', 'tinkers_reforged:blazing_copper_block')
+  e.shapeless('tinkers_reforged:blazing_copper_block', '9x tinkers_reforged:blazing_copper_ingot')
+  e.shapeless('9x tinkers_reforged:blazing_copper_nugget', 'tinkers_reforged:blazing_copper_ingot')
+  e.shapeless('tinkers_reforged:blazing_copper_ingot', '9x tinkers_reforged:blazing_copper_nugget')
   //Stable Ingot
   e.shapeless('9x miniutilities:stable_ingot', 'miniutilities:stable_block')
   e.shapeless('miniutilities:stable_block', '9x miniutilities:stable_ingot')
