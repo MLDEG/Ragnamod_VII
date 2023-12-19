@@ -338,7 +338,8 @@ onEvent('jei.hide.items', e => {
 		'ragnamod_seven:creative_augment_base',
 		'ragnamod_seven:ae2',
 		'chemlib:cobalt_nugget',
-		'chemlib:cobalt_ingot'
+		'chemlib:cobalt_ingot',
+		'hostilenetworks:deep_learner'
 	])
 })
 

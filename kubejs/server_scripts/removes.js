@@ -621,6 +621,7 @@ onEvent('recipes', e => {
         'twilightforest:giant_log_to_oak_planks',
         'twilightforest:giant_leaves_to_oak_leaves',
         'twilightforest:giant_cobblestone_to_cobblestone',
+        'hostilenetworks:deep_learner',
     ]
     removeId.forEach(C => { r(C) })
 })
