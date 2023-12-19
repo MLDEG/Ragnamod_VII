@@ -800,4 +800,7 @@ onEvent('recipes', e => {
     ]
   })
 
+  //Model Evolution
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:model_evolution"}'), [' A ', 'BCB', 'DED'], { A: '#forge:glass_panes', B: 'hostilenetworks:polymer_clay', C: 'hostilenetworks:sim_chamber', D: 'redstone_arsenal:flux_plating', E: 'thermal:redstone_servo' })
+
 })
