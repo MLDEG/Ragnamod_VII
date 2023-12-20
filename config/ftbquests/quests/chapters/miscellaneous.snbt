@@ -1452,24 +1452,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
-			shape: "square"
-			description: ["The Smithing Table (auto) is simply an auto Smithing Table."]
-			dependencies: ["577D6202E19B2599"]
-			id: "394ECC129D2E7EB1"
-			tasks: [{
-				id: "367FFC8151CA8D14"
-				type: "item"
-				item: "autosmithingtable:auto_smithing_table"
-			}]
-			rewards: [{
-				id: "5C2D6BFF00FDC5C9"
-				type: "item"
-				item: "autosmithingtable:auto_smithing_table"
-			}]
-		}
-		{
 			title: "Useful tools"
 			icon: "akashictome:tome"
 			x: -1.0d
@@ -1534,7 +1516,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.5d
 			y: -0.5d
 			shape: "square"
 			description: ["The Nature's Compass can help you find a specific biome you want."]
@@ -4114,7 +4096,7 @@
 		}
 		{
 			icon: "torchmaster:megatorch"
-			x: -1.5d
+			x: -1.0d
 			y: -0.5d
 			shape: "square"
 			description: [
@@ -4271,7 +4253,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 0.5d
 			y: -0.5d
 			shape: "square"
 			description: ["The Rain Shield is used to mask the rain from the sky within 80 blocks."]
