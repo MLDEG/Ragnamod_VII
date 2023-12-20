@@ -4,9 +4,44 @@ onEvent('recipes', e => {
 
     function summonChicken(input1, input2, output) {
         e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": input1 }, { "item": input1 }, { "item": input1 }, { "item": input2 }, { "item": input1 }, { "item": input1 }, { "item": input1 }], "entityOutput": "chickens:" + output + "_chicken", "duration": 100, "shouldSummonMob": true })
+        e.custom({
+            "type": "custommachinery:custom_machine",
+            "machine": "ragnamod_7:soul_pedestal",
+            "time": 0,
+            "requirements": [
+                { "type": "custommachinery:item", "mode": "input", "item": "chickens:chicken_shell", "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "item": input1, "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "item": input1, "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "item": input1, "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "item": input2, "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "item": input1, "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "item": input1, "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "item": input1, "amount": 1 },
+                { "type": "custommachinery:item", "mode": "input", "slot": "input9", "item": "chickens:soul_chicken", "amount": 1 },
+                { "type": "custommachinery:item", "mode": "output", "item": "chickens:chicken_item", "nbt": "{ChickenType:{id:'chickens:" + output + "_chicken'}}", "amount": 1 }
+            ]
+        })
+
     }
 
     e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "croptopia:lemon" }, { "item": "croptopia:coconut" }, { "item": "croptopia:strawberry" }, { "item": "croptopia:grapefruit" }, { "item": "croptopia:kiwi" }, { "item": "croptopia:mango" }, { "item": "croptopia:blueberry" }], "entityOutput": "chickens:holy_chicken", "duration": 100, "shouldSummonMob": true })
+    e.custom({
+        "type": "custommachinery:custom_machine",
+        "machine": "ragnamod_7:soul_pedestal",
+        "time": 0,
+        "requirements": [
+            { "type": "custommachinery:item", "mode": "input", "item": "chickens:chicken_shell", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:lemon', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:coconut', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:strawberry', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:grapefruit', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:kiwi', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:mango', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:blueberry', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "slot": "input9", "item": "chickens:soul_chicken", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "output", "item": "chickens:chicken_item", "nbt": "{ChickenType:{id:\"chickens:holy_chicken\"}}", "amount": 1 }
+        ]
+    })
 
     summonChicken('tinkers_reforged:duralumin_ingot', 'tinkers_reforged:duralumin_block', 'duralumin')
     summonChicken('tinkers_reforged:qivium_ingot', 'tinkers_reforged:qivium_block', 'qivium')
@@ -151,4 +186,5 @@ onEvent('recipes', e => {
     summonChicken('croptopia:fajitas', 'croptopia:fajitas', 'peonlambdaa')
     summonChicken('croptopia:toast_with_jam', 'croptopia:toast_with_jam', 'samnes')
     summonChicken('croptopia:beer', 'croptopia:beer', 'mr_bidou')
+
 })

@@ -339,7 +339,8 @@ onEvent('jei.hide.items', e => {
 		'ragnamod_seven:ae2',
 		'chemlib:cobalt_nugget',
 		'chemlib:cobalt_ingot',
-		'hostilenetworks:deep_learner'
+		'hostilenetworks:deep_learner',
+		'chickens:soul_chicken'
 	])
 })
 
@@ -432,7 +433,6 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.addAdvanced('chickens:chicken_item', (item, advanced, text) => {
 		if (!item.nbt?.ChickenType?.id.match(/chickens:(red|orange|yellow|lime|green|blue|light_blue|cyan|pink|magenta|purple|brown|black|white|light_gray|gray)_chicken/)) {
 			text.add(1, Text.of('§3Made in the "Spirit" Soul Pedestal'))
-			text.add(2, Text.of('§6Check the Chicken Shell or material usages to see the recipes'))
 		}
 	})
 
@@ -453,6 +453,11 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.addAdvanced(['create:zinc_ingot', 'create:zinc_nugget', 'createaddition:zinc_sheet'], (item, advanced, text) => {
 		text.add(1, Text.of('§3Zn (30)'))
 		text.add(2, Text.of('§7Transition Metals'))
+	})
+
+	//Soul Pedestal Fake
+	tooltip.addAdvanced(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:soul_pedestal"}'), (item, advanced, text) => {
+		text.add(1, Text.of('§cUse the Soul Pedestal from Spirit.'))
 	})
 
 	//Horsmen Essence

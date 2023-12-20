@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "spirit:block/soul_pedestal",
+		"particle": "spirit:block/soul_cage_particle"
+	},
+	"elements": [
+		{
+			"from": [0, 5, 0],
+			"to": [16, 10, 16],
+			"faces": {
+				"north": {"uv": [6, 8, 14, 10.5], "texture": "#0"},
+				"east": {"uv": [6, 8, 14, 10.5], "texture": "#0"},
+				"south": {"uv": [6, 8, 14, 10.5], "texture": "#0"},
+				"west": {"uv": [6, 8, 14, 10.5], "texture": "#0"},
+				"up": {"uv": [6, 0, 14, 8], "texture": "#0"},
+				"down": {"uv": [6, 0, 14, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 10, 3],
+			"to": [13, 11, 13],
+			"faces": {
+				"north": {"uv": [7.5, 1.5, 12.5, 2], "texture": "#0"},
+				"east": {"uv": [7.5, 6, 12.5, 6.5], "texture": "#0"},
+				"south": {"uv": [7.5, 1.5, 12.5, 2], "texture": "#0"},
+				"west": {"uv": [7.5, 6, 12.5, 6.5], "texture": "#0"},
+				"up": {"uv": [7.5, 1.5, 12.5, 6.5], "texture": "#0"},
+				"down": {"uv": [7.5, 1.5, 12.5, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 3, 4],
+			"to": [12, 5, 12],
+			"faces": {
+				"north": {"uv": [1, 9, 5, 10], "texture": "#0"},
+				"east": {"uv": [1, 9, 5, 10], "texture": "#0"},
+				"south": {"uv": [1, 9, 5, 10], "texture": "#0"},
+				"west": {"uv": [1, 9, 5, 10], "texture": "#0"},
+				"up": {"uv": [1, 4.5, 5, 8.5], "texture": "#0"},
+				"down": {"uv": [1, 4.5, 5, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 0, 2],
+			"to": [14, 3, 14],
+			"faces": {
+				"north": {"uv": [0, 9, 6, 10.5], "texture": "#0"},
+				"east": {"uv": [0, 9, 6, 10.5], "texture": "#0"},
+				"south": {"uv": [0, 9, 6, 10.5], "texture": "#0"},
+				"west": {"uv": [0, 9, 6, 10.5], "texture": "#0"},
+				"up": {"uv": [0, 3, 6, 9], "texture": "#0"},
+				"down": {"uv": [0, 3, 6, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

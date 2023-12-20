@@ -5346,6 +5346,12 @@
 		{
 			x: 12.0d
 			y: 0.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_regalium.png width:150 height:100 align:1}"]
+			dependencies: [
+				"7D9ACDADBB4CBD8C"
+				"4C886CE89FF0AF52"
+			]
 			id: "73C3E51A4BE4D1D5"
 			tasks: [{
 				id: "5AB805A724E59AB1"
