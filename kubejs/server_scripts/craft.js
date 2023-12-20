@@ -21,6 +21,8 @@ onEvent('recipes', e => {
   //Silicon Block
   e.shapeless('9x ftbic:silicon', 'ftbic:silicon_block')
   e.shapeless('ftbic:silicon_block', '9x ftbic:silicon')
+  //Glowstone
+  e.shapeless('4x minecraft:glowstone_dust', 'minecraft:glowstone')
   //Cataclysm
   //Ignitium
   e.shapeless('9x cataclysm:ignitium_ingot', 'cataclysm:ignitium_block')
