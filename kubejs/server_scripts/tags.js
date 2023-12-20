@@ -231,6 +231,10 @@ onEvent('tags.items', e => {
     e.add('powah:player_transmitter', ['powah:player_transmitter_nitro', 'powah:player_transmitter_spirited', 'powah:player_transmitter_niotic', 'powah:player_transmitter_blazing', 'powah:player_transmitter_hardened', 'powah:player_transmitter_basic', 'powah:player_transmitter_starter'])
     e.add('powah:energy_hopper', ['powah:energy_hopper_nitro', 'powah:energy_hopper_spirited', 'powah:energy_hopper_niotic', 'powah:energy_hopper_blazing', 'powah:energy_hopper_hardened', 'powah:energy_hopper_basic', 'powah:energy_hopper_starter'])
     e.add('powah:energy_discharger', ['powah:energy_discharger_nitro', 'powah:energy_discharger_spirited', 'powah:energy_discharger_niotic', 'powah:energy_discharger_blazing', 'powah:energy_discharger_hardened', 'powah:energy_discharger_basic', 'powah:energy_discharger_starter'])
+
+    //Unknown tag
+    e.add('forge:ores', 'ragnamod_seven:unknown_ore')
+    e.add('forge:ores/unknown', 'ragnamod_seven:unknown_ore')
 })
 onEvent('tags.blocks', e => {
 
@@ -253,6 +257,10 @@ onEvent('tags.blocks', e => {
     e.add('avaritia:mineable/infinity_axe', ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs'])
     e.add('tconstruct:mineable/hand_axe', ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs'])
     e.add('minecraft:mineable/shovel', ['snad:suol_snad', 'snad:red_snad', 'snad:snad'])
+
+    //Unknown tag
+    e.add('forge:ores', 'ragnamod_seven:unknown_ore')
+    e.add('forge:ores/unknown', 'ragnamod_seven:unknown_ore')
 
 
 })
