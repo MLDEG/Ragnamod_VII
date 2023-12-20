@@ -23,6 +23,8 @@ onEvent('recipes', e => {
   e.shapeless('ftbic:silicon_block', '9x ftbic:silicon')
   //Glowstone
   e.shapeless('4x minecraft:glowstone_dust', 'minecraft:glowstone')
+  //Utheric shard
+  e.shapeless('9x undergarden:utheric_shard', 'undergarden:utherium_crystal')
   //Cataclysm
   //Ignitium
   e.shapeless('9x cataclysm:ignitium_ingot', 'cataclysm:ignitium_block')
