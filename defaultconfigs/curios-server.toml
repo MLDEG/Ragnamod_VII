@@ -31,47 +31,53 @@ size = 1
 priority = 5
 
 [[curiosSettings]]
-identifier = "hands"
+identifier = "oxygen_can"
+icon = "curios:slot/empty_oxygen_can"
 size = 2
 priority = 6
 
 [[curiosSettings]]
+identifier = "hands"
+size = 2
+priority = 7
+
+[[curiosSettings]]
 identifier = "ring"
 size = 10
-priority = 7
+priority = 8
 
 [[curiosSettings]]
 identifier = "belt"
 size = 4
-priority = 8
+priority = 9
 
 [[curiosSettings]]
 identifier = "terminal"
 icon = "curios:slot/empty_terminal"
 size = 1
-priority = 9
+priority = 10
 
 [[curiosSettings]]
 identifier = "bundle"
 size = 1
-priority = 10
+priority = 11
 
 [[curiosSettings]]
 identifier = "an_focus"
 size = 1
-priority = 11
+priority = 12
 
 [[curiosSettings]]
 identifier = "curio"
 size = 4
-priority = 12
+priority = 13
 
 [[curiosSettings]]
 identifier = "charm"
 size = 8
-priority = 13
+priority = 14
 
 [[curiosSettings]]
 identifier = "magic_book"
 size = 1
-priority = 14
+priority = 15

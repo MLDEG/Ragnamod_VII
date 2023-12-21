@@ -160,7 +160,7 @@ onEvent('tags.items', e => {
     e.remove('forge:slag', 'immersiveengineering:slag')
     e.remove('forge:coal_coke', 'immersiveengineering:coal_coke')
     e.remove('minecraft:coals', 'immersiveengineering:coal_coke')
-    e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal'])
+    e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal', 'beyond_earth_giselle_addon:oxygen_can'])
 
     //Remove Ore from Boon Drops Enchant
     e.remove('forge:ores_in_ground/stone', ['mekanism:lead_ore', 'mekanism:tin_ore', 'immersiveengineering:ore_uranium', 'immersiveengineering:ore_nickel', 'immersiveengineering:ore_silver', 'immersiveengineering:ore_lead', 'immersiveengineering:ore_aluminum'])
