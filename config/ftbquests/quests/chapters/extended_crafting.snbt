@@ -1639,7 +1639,7 @@
 			rewards: [{
 				id: "4B4E486C8BF98EF8"
 				type: "item"
-				item: "ragnamod_seven:manadiamond_singularity"
+				item: "ragnamod_seven:diamond_singularity"
 			}]
 		}
 		{
