@@ -2879,7 +2879,7 @@
 			description: [
 				"The Hydroangeas simply produces mana by consuming Water sources. It's very simple to setup but it has 2 major downsides: the production is really low and the flower will decay after a while."
 				""
-				"The flower has an internal buffer of 150 mana, produces 1 mana every 0.1 seconds for 1.3 seconds per Water souce consumed within its 3x1x3 range, and decays (= disappears) after 1 hour, whether it has worked or not."
+				"The flower has an internal buffer of 150 mana, produces 1 mana every 0.1 seconds for 1.3 seconds per Water source consumed within its 3x1x3 range, and decays (= disappears) after 1 hour, whether it has worked or not."
 			]
 			hide_dependency_lines: true
 			dependencies: [
