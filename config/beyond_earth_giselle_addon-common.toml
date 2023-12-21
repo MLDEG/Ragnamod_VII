@@ -1,0 +1,144 @@
+
+[items]
+
+	[items.oxygen_can]
+		oxygenCapacity = 100000
+		oxygenTransfer = 256
+
+[machines]
+
+	[machines.fuel_loader]
+		fluidCapacity = 8000
+		fluidTransfer = 256
+		#blocks from FuelLoader to each direction
+		workingRange = 2
+
+	[machines.gravity_normalizer]
+		#final energy usage = 'base' + range * 'perRange'
+		energyUsingBase = 0
+		energyUsingPerRange = 1
+
+[enchantments]
+
+	[enchantments.common]
+		#To enchantment applying and working, Item should be have defence points equals or greater than Iron Armors
+		work_least_iron = false
+		#To enchantment working, Player should be need equip all parts of armors
+		#If 'work_least_iron' is enabled, that armors should be least iron armors
+		work_full_parts = false
+
+		[enchantments.common.tooltip]
+			#Show tooltip on THIS mod's enchanted book
+			enabled = true
+			#Tooltip will don't show when 'Enchantment Descriptions' or 'CoFH Core' installed
+			#But, if this set 'true' show tooltip with ignore that mods
+			ignore = false
+
+	[enchantments.space_breathing]
+		#Energy usage for space breathing
+		energyUsing = 10
+		#Space breathing duration using energy
+		oxygenDuration = 4
+		#Oxygen usage using energy
+		energyOxygen = 1
+		#Durability usage for space breathing
+		durabilityUsing = 0
+		#Space breathing duration using durability
+		oxygenDurationUsingDurability = 60
+		#Oxygen usage using durability
+		durabilityOxygen = 15
+
+	[enchantments.gravity_normalizing]
+		#Energy usage for gravity normalizing
+		energyUsing = 10
+		#Gravity Normalizing duration using energy
+		energyDuration = 1
+		#Durability usage for gravity normalizing
+		durabilityUsing = 1
+		#Gravity Normalizing duration using durability
+		durabilityDuration = 60
+
+	[enchantments.space_fire_proof]
+		#Energy usage for space fire proof
+		energyUsing = 10
+		#Space fire proof duration using energy
+		energyDuration = 1
+		#Durability usage for space fire proof
+		durabilityUsing = 1
+		#Space fire proof duration using durability
+		durabilityDuration = 60
+
+	[enchantments.venus_acid_proof]
+		#Energy usage for venus acid proof
+		energyUsing = 10
+		#Venus acid proof duration using energy
+		energyDuration = 1
+		#Durability usage for venus acid proof
+		durabilityUsing = 1
+		#Venus acid proof duration using durability
+		durabilityDuration = 60
+
+[recipes]
+	tagPreferences = ["minecraft", "tconstruct", "tmechworks", "create", "immersiveengineering", "mekanism", "thermal"]
+
+	[recipes.recycling]
+		#Compressed and plate items can restore into be each ingot (a.k.a recycling)
+		#1. Minecraft - Smelting
+		#2. Minecraft - Blasting
+		#3. Immersive Enginering - Recycling
+		enabled = true
+
+[compats]
+
+	[compats.mekanism]
+		#Modules to work, Player should be need equip all parts of Meka-Suit
+		modules_work_full_parts = false
+
+		[compats.mekanism.module_space_breathing_unit]
+			#Duration of provided oxygen (oxygen provide interval)
+			oxygenDuration = 4
+			#Energy usage when provide Beyond Earth oxygen to player in space
+			energyUsing = 10
+			#Energy usage per mb when produce Mekanism oxygen to player in water, rain
+			energyUsingProduce = 200
+
+		[compats.mekanism.module_space_fire_proof_unit]
+			#Energy usage when prevent fire every tick in Beyond Earth hot planets (e.g. Venus, Mercury)
+			energyUsing = 10
+
+		[compats.mekanism.module_venus_acid_proof_unit]
+			#Energy usage when prevent acid rain damage every tick in Beyond Earth venus
+			energyUsing = 10
+
+		[compats.mekanism.module_space_gravity_normalizing_unit]
+			#Energy usage when normalizing gravity every tick in Beyond Earth dimensions
+			energyUsing = 10
+
+		[compats.mekanism.module_gravitational_modulating_unit]
+			#Can normalize gravity instead module_space_gravity_normalizing_unit
+			normalizable = true
+			#Energy usage when normalizing gravity every tick in Beyond Earth dimensions
+			energyUsing = 10
+
+	[compats.pneumaticcraft]
+		#Upgrades to work, Player should be need equip all parts of Pneumatic-Armor
+		upgrades_work_full_parts = false
+
+		[compats.pneumaticcraft.space_breating_upgrade]
+			#Duration of provided oxygen (oxygen provide interval)
+			oxygenDuration = 4
+			#Air usage when provide Beyond Earth oxygen to player in space
+			airUsing = 20
+
+		[compats.pneumaticcraft.space_fire_proof_upgrade]
+			#Air usage when prevent fire every tick in Beyond Earth hot planets (e.g. Venus, Mercury)
+			airUsing = 5
+
+		[compats.pneumaticcraft.venus_acid_proof_upgrade]
+			#Aire usage when prevent acid rain damage every tick in Beyond Earth venus
+			airUsing = 5
+
+		[compats.pneumaticcraft.gravity_normalizing_upgrade]
+			#Air usage when normalizing gravity every tick in Beyond Earth dimensions
+			airUsing = 5
+
