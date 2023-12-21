@@ -456,8 +456,10 @@ onEvent('item.tooltip', tooltip => {
 	})
 
 	//Soul Pedestal Fake
-	tooltip.addAdvanced(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:soul_pedestal"}'), (item, advanced, text) => {
-		text.add(1, Text.of('§cUse the Soul Pedestal from Spirit.'))
+	tooltip.addAdvanced('custommachinery:custom_machine_item', (item, advanced, text) => {
+		if (item.nbt?.machine.match("ragnamod_7:soul_pedestal")) {
+			text.add(1, Text.of('§cUse the Soul Pedestal from Spirit.'))
+		}
 	})
 
 	//Horsmen Essence
