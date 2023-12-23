@@ -18,6 +18,8 @@ onEvent('recipes', e => {
   e.shapeless('4x minecraft:clay_ball', 'minecraft:clay')
   //Roots Block
   e.shapeless('twilightforest:root', '4x rootsclassic:old_root')
+  //Tiny Dry Rubber
+  e.shapeless('9x industrialforegoing:tinydryrubber', 'industrialforegoing:dryrubber')
   //Silicon Block
   e.shapeless('9x ftbic:silicon', 'ftbic:silicon_block')
   e.shapeless('ftbic:silicon_block', '9x ftbic:silicon')
