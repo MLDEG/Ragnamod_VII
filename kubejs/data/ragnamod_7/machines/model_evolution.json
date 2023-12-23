@@ -1,0 +1,135 @@
+{
+  "name": "Model Evolution",
+  "appearance": {
+    "block": "ragnamod_seven:machine/model_evolution_idle_model",
+    "item": "ragnamod_seven:machine/model_evolution_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/model_evolution_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/model_evolution_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 10000000,
+      "maxInput": 1000000,
+      "maxOutput": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "in1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "in2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "in3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 10000,
+      "id": "tank",
+      "maxInput": 10000,
+      "maxOutput": 10000
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/model_evolution.png",
+      "x": 40,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/model_evolution_slot_model.png",
+      "id": "input",
+      "x": 101,
+      "y": 9,
+      "type": "custommachinery:slot"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/model_evolution_slot_model.png",
+      "id": "output",
+      "x": 137,
+      "y": 9,
+      "type": "custommachinery:slot"
+    },
+    {
+        "texture": "ragnamod_seven:textures/gui/model_evolution_slot_input.png",
+      "id": "in1",
+      "x": 84,
+      "y": 44,
+      "type": "custommachinery:slot"
+    },
+    {
+        "texture": "ragnamod_seven:textures/gui/model_evolution_slot_input.png",
+      "id": "in2",
+      "x": 119,
+      "y": 44,
+      "type": "custommachinery:slot"
+    },
+    {
+        "texture": "ragnamod_seven:textures/gui/model_evolution_slot_input.png",
+      "id": "in3",
+      "x": 155,
+      "y": 44,
+      "type": "custommachinery:slot"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/model_evolution_container_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/model_evolution_energy_storage_filled.png",
+      "x": 43,
+      "y": 9,
+      "type": "custommachinery:energy"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/model_evolution_container_empty.png",
+      "type": "custommachinery:fluid",
+      "x": 204,
+      "y": 9,
+      "id": "tank"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/model_evolution_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/model_evolution_progress_full.png",
+      "type": "custommachinery:progress",
+      "x": 84,
+      "y": 89
+    },
+    {
+      "x": 47,
+      "y": 118,
+      "type": "custommachinery:player_inventory"
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

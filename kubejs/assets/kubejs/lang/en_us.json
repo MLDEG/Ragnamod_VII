@@ -1,4 +1,8 @@
 {
-  "ritual.occultism.kjs_37bxt54r37ls64njwjwng8px5.started": "Started Chicken Head",
-  "ritual.occultism.kjs_37bxt54r37ls64njwjwng8px5.interrupted": "Chicken Head Interrupted"
+  "ritual.occultism.kjs_37bxt54r37ls64njwjwng8px5.started": "Started Chicken Head craft.",
+  "ritual.occultism.kjs_37bxt54r37ls64njwjwng8px5.interrupted": "Chicken Head craft Interrupted.",
+  "ritual.occultism.kjs_37bxt54r37ls64njwjwng8px5.finished": "Craft Chicken Head successfully.",
+  "ritual.occultism.kjs_74ouyq8836k0yi5a7w2dmqika.started": "Started PSI Stabilizer craft.",
+  "ritual.occultism.kjs_74ouyq8836k0yi5a7w2dmqika.interrupted": "PSI Stabilizer craft Interrupted.",
+  "ritual.occultism.kjs_74ouyq8836k0yi5a7w2dmqika.finished": "Craft PSI Stabilizer successfully."
 }

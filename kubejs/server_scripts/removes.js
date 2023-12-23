@@ -621,6 +621,9 @@ onEvent('recipes', e => {
         'twilightforest:giant_log_to_oak_planks',
         'twilightforest:giant_leaves_to_oak_leaves',
         'twilightforest:giant_cobblestone_to_cobblestone',
+        'hostilenetworks:deep_learner',
+        'beyond_earth_giselle_addon:compat/thermal/refinery/refinery_oil',
+        'beyond_earth_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil'
     ]
     removeId.forEach(C => { r(C) })
 })

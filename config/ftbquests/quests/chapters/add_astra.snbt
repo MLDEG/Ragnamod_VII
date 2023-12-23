@@ -122,8 +122,8 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"To infinity and beyond !"
@@ -196,7 +196,7 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
+			x: 0.5d
 			y: 2.5d
 			shape: "square"
 			description: ["Upgraded version of your space suit to have more defense against enemies on those hostile planets."]
@@ -259,8 +259,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.5d
+			x: -1.0d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"Compressor can be used to make compressed form of Beyond Earth materials."
@@ -284,7 +284,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.0d
 			y: -3.5d
 			shape: "square"
 			description: ["The Oxygen Loader can produce oxygen to fill your space chestplate using water and RF."]
@@ -305,7 +305,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -2.0d
 			y: -3.5d
 			shape: "square"
 			description: ["The Oxygen Bubble Distributor can provide air on other planet to get a safe environment."]
@@ -328,8 +328,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.5d
+			x: 1.0d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"Fuel Refinery can convert Oil into Fuel"
@@ -475,7 +475,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: [
 				"The Nasa Workbench combines all the technology you have created!"
 				"Use the Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
@@ -526,6 +526,54 @@
 				id: "2EEC338A38599831"
 				type: "item"
 				item: "beyond_earth:earth_globe"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"Oxygen Cans can give you back oxygen if you have the Space Breathing enchantment or the corresponding addons for Mekanism or Pneumaticcraft."
+				""
+				"You can have your Oxygen Cans in your inventory or in the two dedicated slot curios."
+			]
+			dependencies: ["480EEAEC65D24F9E"]
+			id: "28245882E1F5B29A"
+			tasks: [{
+				id: "11FB6EE1A225C760"
+				type: "item"
+				item: "beyond_earth_giselle_addon:oxygen_can"
+			}]
+			rewards: [{
+				id: "0DD6508D7B5FB1C7"
+				type: "item"
+				item: "beyond_earth_giselle_addon:oxygen_can"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"The fuel loader can load your fuel into vehicles or rockets from two blocks away."
+				""
+				"So if you place the Fuel loader right next to the Launch Pad it can automatically charge your rocket or vehicle."
+			]
+			dependencies: [
+				"3C884020904C1B6C"
+				"480EEAEC65D24F9E"
+			]
+			id: "7EF68097DB58813B"
+			tasks: [{
+				id: "4A47675810A79C45"
+				type: "item"
+				item: "beyond_earth_giselle_addon:fuel_loader"
+			}]
+			rewards: [{
+				id: "637A8493ED546A21"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+				random_bonus: 7
 			}]
 		}
 	]

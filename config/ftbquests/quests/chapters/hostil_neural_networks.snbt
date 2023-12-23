@@ -75,32 +75,6 @@
 		}
 		{
 			x: 5.5d
-			y: -2.0d
-			shape: "square"
-			description: [
-				"The Deep Learner is used to collect data on your Data Model."
-				"When you have a data model, place in the GUI of your Deep Learner."
-				"You don't need to have your Learner in your hotbar, you can just have in your inventory."
-				"You can put 4 Data Model in your Learner."
-			]
-			dependencies: [
-				"0C53882CCAF972DC"
-				"5CF931657DFA41A5"
-			]
-			id: "219FE5C2C142EC17"
-			tasks: [{
-				id: "5639718242E03C86"
-				type: "item"
-				item: "hostilenetworks:deep_learner"
-			}]
-			rewards: [{
-				id: "1A9CA75E198B0390"
-				type: "item"
-				item: "farmersdelight:sweet_berry_cheesecake"
-			}]
-		}
-		{
-			x: 5.5d
 			y: -1.0d
 			shape: "square"
 			description: ["The Model Framework is used to get a Data Model from mobs."]
@@ -596,6 +570,60 @@
 				type: "item"
 				item: "spirit:pedestal"
 				random_bonus: 7
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: [
+				"Model Evolution allows you to evolve your data models."
+				""
+				"When you look at the crafts available on a data model in JEI, you must Shift on your model to see his tier and therefore find the right craft to upgrade your Faulty models to Basic, from Basic to Advanced, Advanced to Superior and finally from Superior to Self Aware."
+			]
+			dependencies: ["055A2F4251CEB8F4"]
+			id: "1BDE6D8CEFF8F4A9"
+			tasks: [{
+				id: "5B9DC44604452460"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:model_evolution"
+					}
+				}
+			}]
+			rewards: [{
+				id: "655DE7BA114A8454"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:model_evolution"
+					}
+				}
+			}]
+		}
+		{
+			icon: "architects_palette:hazard_sign"
+			x: 5.5d
+			y: -2.0d
+			shape: "octagon"
+			description: [
+				"Important message regarding the Hostile Neural Networks mod."
+				""
+				"As you can see, we are on a “TS Edition” made by Veydiz."
+				"This version allows me to control the evolution of your data models and therefore change the way in which you will be able to upgrade your data models."
+				""
+				"To understand how to upgrade your data models, read the quest “Model Evolution”."
+			]
+			dependencies: ["5CF931657DFA41A5"]
+			id: "535EA082789466C9"
+			tasks: [{
+				id: "5CDF32525BDAB244"
+				type: "checkmark"
+				title: "Attention"
 			}]
 		}
 	]

@@ -18,18 +18,29 @@ onEvent('recipes', e => {
   e.shapeless('4x minecraft:clay_ball', 'minecraft:clay')
   //Roots Block
   e.shapeless('twilightforest:root', '4x rootsclassic:old_root')
+  //Tiny Dry Rubber
+  e.shapeless('9x industrialforegoing:tinydryrubber', 'industrialforegoing:dryrubber')
   //Silicon Block
   e.shapeless('9x ftbic:silicon', 'ftbic:silicon_block')
   e.shapeless('ftbic:silicon_block', '9x ftbic:silicon')
+  //Glowstone
+  e.shapeless('4x minecraft:glowstone_dust', 'minecraft:glowstone')
+  //Utheric shard
+  e.shapeless('9x undergarden:utheric_shard', 'undergarden:utherium_crystal')
   //Cataclysm
   //Ignitium
   e.shapeless('9x cataclysm:ignitium_ingot', 'cataclysm:ignitium_block')
-  //Ignitium
+  //Witherite
   e.shapeless('9x cataclysm:witherite_ingot', 'cataclysm:witherite_block')
   e.shapeless('cataclysm:witherite_block', '9x cataclysm:witherite_ingot')
-  //Ignitium
+  //Enderite
   e.shapeless('9x cataclysm:enderite_ingot', 'cataclysm:enderite_block')
   e.shapeless('cataclysm:enderite_block', '9x cataclysm:enderite_ingot')
+  //Blazing Copper
+  e.shapeless('9x tinkers_reforged:blazing_copper_ingot', 'tinkers_reforged:blazing_copper_block')
+  e.shapeless('tinkers_reforged:blazing_copper_block', '9x tinkers_reforged:blazing_copper_ingot')
+  e.shapeless('9x tinkers_reforged:blazing_copper_nugget', 'tinkers_reforged:blazing_copper_ingot')
+  e.shapeless('tinkers_reforged:blazing_copper_ingot', '9x tinkers_reforged:blazing_copper_nugget')
   //Stable Ingot
   e.shapeless('9x miniutilities:stable_ingot', 'miniutilities:stable_block')
   e.shapeless('miniutilities:stable_block', '9x miniutilities:stable_ingot')
@@ -245,6 +256,12 @@ onEvent('recipes', e => {
   e.shaped('ragnamod_seven:ghast_cow_star', [' A ', 'ABA', ' A '], {
     A: 'ragnamod_seven:ghast_cow_tear',
     B: 'forbidden_arcanus:dark_nether_star'
+  })
+  //Polymer Clay
+  e.shaped('hostilenetworks:polymer_clay', ['AB ', 'BCB', ' BA'], {
+    A: 'thermal:enderium_ingot',
+    B: 'minecraft:clay_ball',
+    C: 'undergarden:froststeel_ingot'
   })
   //Blood Magic Ritual Stone
   function ritualStone(input, output, catalyst) { e.custom({ "type": "create:item_application", "ingredients": [{ "item": input }, { "item": catalyst }], "results": [{ "item": output }] }) }

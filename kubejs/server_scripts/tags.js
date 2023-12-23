@@ -160,7 +160,7 @@ onEvent('tags.items', e => {
     e.remove('forge:slag', 'immersiveengineering:slag')
     e.remove('forge:coal_coke', 'immersiveengineering:coal_coke')
     e.remove('minecraft:coals', 'immersiveengineering:coal_coke')
-    e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal'])
+    e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal', 'beyond_earth_giselle_addon:oxygen_can'])
 
     //Remove Ore from Boon Drops Enchant
     e.remove('forge:ores_in_ground/stone', ['mekanism:lead_ore', 'mekanism:tin_ore', 'immersiveengineering:ore_uranium', 'immersiveengineering:ore_nickel', 'immersiveengineering:ore_silver', 'immersiveengineering:ore_lead', 'immersiveengineering:ore_aluminum'])
@@ -231,6 +231,10 @@ onEvent('tags.items', e => {
     e.add('powah:player_transmitter', ['powah:player_transmitter_nitro', 'powah:player_transmitter_spirited', 'powah:player_transmitter_niotic', 'powah:player_transmitter_blazing', 'powah:player_transmitter_hardened', 'powah:player_transmitter_basic', 'powah:player_transmitter_starter'])
     e.add('powah:energy_hopper', ['powah:energy_hopper_nitro', 'powah:energy_hopper_spirited', 'powah:energy_hopper_niotic', 'powah:energy_hopper_blazing', 'powah:energy_hopper_hardened', 'powah:energy_hopper_basic', 'powah:energy_hopper_starter'])
     e.add('powah:energy_discharger', ['powah:energy_discharger_nitro', 'powah:energy_discharger_spirited', 'powah:energy_discharger_niotic', 'powah:energy_discharger_blazing', 'powah:energy_discharger_hardened', 'powah:energy_discharger_basic', 'powah:energy_discharger_starter'])
+
+    //Unknown tag
+    e.add('forge:ores', 'ragnamod_seven:unknown_ore')
+    e.add('forge:ores/unknown', 'ragnamod_seven:unknown_ore')
 })
 onEvent('tags.blocks', e => {
 
@@ -253,6 +257,10 @@ onEvent('tags.blocks', e => {
     e.add('avaritia:mineable/infinity_axe', ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs'])
     e.add('tconstruct:mineable/hand_axe', ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs'])
     e.add('minecraft:mineable/shovel', ['snad:suol_snad', 'snad:red_snad', 'snad:snad'])
+
+    //Unknown tag
+    e.add('forge:ores', 'ragnamod_seven:unknown_ore')
+    e.add('forge:ores/unknown', 'ragnamod_seven:unknown_ore')
 
 
 })

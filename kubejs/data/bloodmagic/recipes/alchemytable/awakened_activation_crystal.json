@@ -1,0 +1,29 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "bloodmagic:activationcrystalweak"
+    },
+    {
+      "item": "bloodmagic:ingot_hellforged"
+    },
+    {
+      "item": "bloodmagic:reagentgrowth"
+    },
+    {
+      "item": "bloodmagic:reagentlava"
+    },
+    {
+      "item": "bloodmagic:reagentwater"
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    }
+  ],
+  "output": {
+    "item": "bloodmagic:activationcrystalawakened"
+  },
+  "syphon": 10000,
+  "ticks": 200,
+  "upgradeLevel": 4
+}

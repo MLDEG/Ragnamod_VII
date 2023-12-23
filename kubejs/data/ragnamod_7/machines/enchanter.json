@@ -1,0 +1,158 @@
+{
+  "name": "Enchanter NYI",
+  "appearance": {
+    "block": "ragnamod_seven:machine/will_factory_idle_model",
+    "item": "ragnamod_seven:machine/will_factory_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]]
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 100000,
+      "id": "xp_tank",
+      "maxInput": 10000,
+      "maxOutput": 10000,
+      "filter": ["#forge:experience"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "book",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "lapis",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "ingredient",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "enchanted_book",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 151,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/plus.png",
+      "filledtexture": "ragnamod_seven:textures/gui/plus.png",
+      "x": 82,
+      "y": 32
+    },
+    {
+      "id": "book",
+      "x": 55,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "ghost": "minecraft:writable_book"
+    },
+    {
+      "id": "lapis",
+      "x": 104,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "ghost": "minecraft:lapis_lazuli"
+    },
+    {
+      "id": "ingredient",
+      "x": 124,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "enchanted_book",
+      "x": 183,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage.png",
+      "type": "custommachinery:fluid",
+      "x": 15,
+      "y": 30,
+      "id": "xp_tank"
+    }
+  ],
+  "jei": [
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 151,
+      "y": 32
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/plus.png",
+      "filledtexture": "ragnamod_seven:textures/gui/plus.png",
+      "x": 80,
+      "y": 32
+    },
+    {
+      "id": "book",
+      "x": 55,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "ghost": "minecraft:writable_book"
+    },
+    {
+      "id": "lapis",
+      "x": 104,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "ghost": "minecraft:lapis_lazuli"
+    },
+    {
+      "id": "ingredient",
+      "x": 124,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "enchanted_book",
+      "x": 183,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage_jei.png",
+      "type": "custommachinery:fluid",
+      "x": 35,
+      "y": 30,
+      "id": "xp_tank"
+    }],
+  "catalysts": []
+}

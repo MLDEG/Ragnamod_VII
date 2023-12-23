@@ -1,1 +1,10 @@
-{}
+{
+    "customEntries": [
+      {
+        "output": {
+          "item": "croptopia:soybean_seed"
+        },
+        "category": "farmingforblockheads:seeds"
+      }
+    ]
+  }

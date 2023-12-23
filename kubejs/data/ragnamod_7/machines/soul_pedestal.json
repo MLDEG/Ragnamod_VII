@@ -1,0 +1,161 @@
+{
+  "name": "Soul Pedestal",
+  "appearance": {
+    "block": "ragnamod_seven:machine/soul_pedestal",
+    "item": "ragnamod_seven:machine/soul_pedestal",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]]
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input9",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 120,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/soul_pedestal_progression.png",
+      "filledtexture": "ragnamod_seven:textures/gui/soul_pedestal_progression.png",
+      "type": "custommachinery:progress",
+      "x": 141,
+      "y": 43
+    },
+    {
+      "id": "input1",
+      "x": 84,
+      "y": 13,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input2",
+      "x": 107,
+      "y": 20,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input3",
+      "x": 114,
+      "y": 43,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input4",
+      "x": 107,
+      "y": 66,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input5",
+      "x": 84,
+      "y": 73,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input6",
+      "x": 61,
+      "y": 66,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input7",
+      "x": 54,
+      "y": 43,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input8",
+      "x": 61,
+      "y": 20,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    },
+    {
+      "id": "input9",
+      "x": 84,
+      "y": 44,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_soul.png"
+    },
+    {
+      "id": "output",
+      "x": 180,
+      "y": 43,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/soul_pedestal_input_slot.png"
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

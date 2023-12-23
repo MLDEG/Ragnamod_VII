@@ -90,7 +90,7 @@ onEvent('recipes', e => {
     Singularity('twilightforest:alpha_yeti_fur', 'ragnamod_seven:alphayeti_singularity', 4269)
     Singularity('twilightforest:carminite', 'ragnamod_seven:carminite_singularity', 4269)
     Singularity('twilightforest:magic_beans', 'ragnamod_seven:magicbeans_singularity', 4269)
-    Singularity('twilightforest:raw_ironwood', 'ragnamod_seven:ironwood_singularity', 4269)
+    Singularity('twilightforest:ironwood_ingot', 'ragnamod_seven:ironwood_singularity', 4269)
     Singularity('twilightforest:steeleaf_ingot', 'ragnamod_seven:steeleaf_singularity', 4269)
     Singularity('undergarden:raw_cloggrum', 'ragnamod_seven:cloggrum_singularity', 4269)
     Singularity('undergarden:raw_froststeel', 'ragnamod_seven:froststeel_singularity', 4269)

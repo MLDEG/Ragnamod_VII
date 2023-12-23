@@ -106,9 +106,9 @@
 		}
 		{
 			x: -3.0d
-			y: 4.386904761904759d
+			y: 4.839285714285715d
 			width: 4.0d
-			height: 8.0d
+			height: 9.0d
 			rotation: 0.0d
 			image: "ftbquests:textures/background/mekasuite_upgrades.png"
 			hover: [ ]
@@ -3243,6 +3243,46 @@
 				type: "item"
 				item: "thermal:pbj_sandwich"
 				random_bonus: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: 8.0d
+			shape: "square"
+			description: ["The Space Breathing Unit can, using Oxygen Cans, charge you with oxygen."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000898"]
+			id: "22D59BB30C473651"
+			tasks: [{
+				id: "2CB730E482120317"
+				type: "item"
+				item: "beyond_earth_giselle_addon:module_space_breathing_unit"
+			}]
+			rewards: [{
+				id: "77BE0819A43EB54D"
+				type: "item"
+				item: "beyond_earth_giselle_addon:module_space_breathing_unit"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.0d
+			shape: "square"
+			description: ["The Gravity Normalizing Unit allows you to cancel all gravity effects."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000898"]
+			id: "7101C2FB6460FD9D"
+			tasks: [{
+				id: "09FC09DDD516B60A"
+				type: "item"
+				item: "beyond_earth_giselle_addon:module_gravity_normalizing_unit"
+			}]
+			rewards: [{
+				id: "69DE407409A56788"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+				random_bonus: 2
 			}]
 		}
 	]
