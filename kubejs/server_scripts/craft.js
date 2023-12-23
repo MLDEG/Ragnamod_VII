@@ -263,6 +263,11 @@ onEvent('recipes', e => {
     B: 'minecraft:clay_ball',
     C: 'undergarden:froststeel_ingot'
   })
+  //Quiver
+  e.shaped('supplementaries:quiver', ['BAB', ' B '], {
+    A: 'minecraft:string',
+    B: 'minecraft:leather'
+  })
   //Blood Magic Ritual Stone
   function ritualStone(input, output, catalyst) { e.custom({ "type": "create:item_application", "ingredients": [{ "item": input }, { "item": catalyst }], "results": [{ "item": output }] }) }
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:airritualstone', 'bloodmagic:airscribetool')
