@@ -37,6 +37,8 @@ onEvent('jei.hide.items', e => {
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"beyond_earth:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"pneumaticcraft:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:crude_oil"}}]}}'),
+		Item.of('twilightdelight:ironwood_knife', '{Damage:0}').enchant('minecraft:knockback', 1),
+		Item.of('twilightdelight:steeleaf_knife', '{Damage:0}').enchant('minecraft:looting', 2),
 		'thermal:crude_oil_bucket',
 		'pneumaticcraft:oil_bucket',
 		'tconstruct:honey_bucket',
@@ -340,7 +342,9 @@ onEvent('jei.hide.items', e => {
 		'chemlib:cobalt_nugget',
 		'chemlib:cobalt_ingot',
 		'hostilenetworks:deep_learner',
-		'chickens:soul_chicken'
+		'chickens:soul_chicken',
+		'twilightdelight:fiery_knife',
+		'twilightdelight:knightmetal_knife',
 	])
 })
 
