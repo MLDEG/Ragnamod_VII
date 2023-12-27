@@ -157,7 +157,7 @@ onEvent('jei.hide.items', e => {
 		'mekanism:dust_charcoal',
 		'immersiveengineering:dust_steel',
 		'chemlib:osmium_dust',
-		'ae2:ender_dust',
+		'thermal:ender_pearl_dust',
 		'ftbic:ender_dust',
 		'miniutilities:ender_dust',
 		'ftbic:obsidian_dust',
@@ -345,6 +345,7 @@ onEvent('jei.hide.items', e => {
 		'chickens:soul_chicken',
 		'twilightdelight:fiery_knife',
 		'twilightdelight:knightmetal_knife',
+		'ae2additions:disk_item_256k',
 	])
 })
 

@@ -632,6 +632,8 @@ onEvent('recipes', e => {
         'create_sa:quartz_gem_crushing',
         'thermal:rockwool/white_rockwool_from_smelting',
         'blue_skies:furnace_compat',
+        'ae2additions:cells/item/disk-256-casing',
+        'ae2additions:cells/item/disk-256',
     ]
     removeId.forEach(C => { r(C) })
 })
