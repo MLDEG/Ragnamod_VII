@@ -564,7 +564,6 @@ onEvent('recipes', function (e) {
     metalPress('immersiveengineering:mold_plate', 'thermal:signalum_ingot', 1, 'thermal:signalum_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal:lumium_ingot', 1, 'thermal:lumium_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'minecraft:netherite_ingot', 1, 'thermal:netherite_plate', 1);
-    metalPress('immersiveengineering:mold_plate', 'beyond_earth:desh_ingot', 1, 'beyond_earth:desh_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal_extra:shellite_ingot', 1, 'thermal_extra:shellite_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal_extra:dragonsteel_ingot', 1, 'thermal_extra:dragonsteel_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal:enderium_ingot', 1, 'ftbic:enderium_plate', 1);
@@ -574,7 +573,6 @@ onEvent('recipes', function (e) {
     multiPressPlate('beyond_earth:steel_ingot', 1, 'immersiveengineering:plate_steel');
     multiPressPlate('create:brass_ingot', 1, 'create:brass_sheet');
     multiPressPlate('create:zinc_ingot', 1, 'createaddition:zinc_sheet');
-    multiPressPlate('beyond_earth:desh_ingot', 1, 'beyond_earth:desh_plate');
     multiPressPlate('mekanism:ingot_uranium', 1, 'ftbic:uranium_plate');
     multiPressPlate('tinkers_reforged:aluminum_ingot', 1, 'ftbic:aluminum_plate');
     multiPressPlate('ftbic:iridium_ingot', 1, 'ftbic:iridium_plate');

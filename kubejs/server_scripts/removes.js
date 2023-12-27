@@ -630,6 +630,7 @@ onEvent('recipes', e => {
         'twilightdelight:ironwood_knife',
         'twilightdelight:knightmetal_knife',
         'create_sa:quartz_gem_crushing',
+        'thermal:rockwool/white_rockwool_from_smelting',
     ]
     removeId.forEach(C => { r(C) })
 })
