@@ -629,6 +629,7 @@ onEvent('recipes', e => {
         'twilightdelight:fiery_knife_1',
         'twilightdelight:ironwood_knife',
         'twilightdelight:knightmetal_knife',
+        'create_sa:quartz_gem_crushing',
     ]
     removeId.forEach(C => { r(C) })
 })

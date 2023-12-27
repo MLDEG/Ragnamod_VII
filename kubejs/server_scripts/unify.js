@@ -164,6 +164,8 @@ onEvent('recipes', function (e) {
     crusherMeka('immersiveengineering:ingot_hop_graphite', 'immersiveengineering:dust_hop_graphite', 1);
     crusherMeka('chemlib:lithium_ingot', 'mekanism:dust_lithium', 1);
     crusherMeka('thermal:niter', 'thermal:niter_dust', 1);
+    crusherMeka('thermal:apatite', 'thermal:apatite_dust', 1);
+    crusherMeka('thermal:cinnabar', 'thermal:cinnabar_dust', 1);
     crusherMekaTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1);
     crusherOccu('minecraft:basalt', 'infernalexp:basalt_cobbled', 1, true);
     crusherOccu('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1, true);
@@ -206,11 +208,14 @@ onEvent('recipes', function (e) {
     crusherOccu('immersivepetroleum:petcoke', 'immersivepetroleum:petcoke_dust', 1, true);
     crusherOccu('mekanism:fluorite_gem', 'mekanism:dust_fluorite', 1, true);
     crusherOccu('thermal:niter', 'thermal:niter_dust', 1, true);
+    crusherOccu('thermal:apatite', 'thermal:apatite_dust', 1, true);
+    crusherOccu('thermal:cinnabar', 'thermal:cinnabar_dust', 1, true);
     crusherOccu('miniutilities:ender_ore', 'ae2:ender_dust', 2, false);
     crusherOccuTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1, true);
     crusherOccuTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1, true);
     crusherOccuTag('forge:gems/diamond', 'thermal:diamond_dust', 1, true);
     crusherOccuTag('forge:gems/emerald', 'thermal:emerald_dust', 1, true);
+    crusherOccuTag('forge:ores/niter', 'thermal:niter_dust', 2, false);
     crusherThermal('minecraft:basalt', 'infernalexp:basalt_cobbled', 1);
     crusherThermal('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherThermal('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
@@ -300,6 +305,8 @@ onEvent('recipes', function (e) {
     crusherFTB('immersiveengineering:ingot_hop_graphite', 1, 'immersiveengineering:dust_hop_graphite', 1);
     crusherFTB('chemlib:lithium_ingot', 1, 'mekanism:dust_lithium', 1);
     crusherFTB('thermal:niter', 1, 'thermal:niter_dust', 1);
+    crusherFTB('thermal:apatite', 1, 'thermal:apatite_dust', 1);
+    crusherFTB('thermal:cinnabar', 1, 'thermal:cinnabar_dust', 1);
     crusherFTBTag('forge:gems/emerald', 1, 'thermal:emerald_dust', 1);
     crusherFTBTag('forge:gems/certus_quartz', 1, 'ae2:certus_quartz_dust', 1);
     crusherFTBTag('forge:gems/amethyst', 1, 'thermal_extra:amethyst_dust', 1);
@@ -357,6 +364,9 @@ onEvent('recipes', function (e) {
     crusherCreate('immersiveengineering:ingot_hop_graphite', 'immersiveengineering:dust_hop_graphite');
     crusherCreate('immersivepetroleum:petcoke', 'immersivepetroleum:petcoke_dust');
     crusherCreate('mekanism:fluorite_gem', 'mekanism:dust_fluorite');
+    crusherCreate('thermal:apatite', 'thermal:apatite_dust');
+    crusherCreate('thermal:cinnabar', 'thermal:cinnabar_dust');
+    crusherCreate('minecraft:quartz', 'thermal:quartz_dust');
     crusherCreateTag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherCreateTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
     crusherIE('minecraft:basalt', 'infernalexp:basalt_cobbled');
@@ -401,6 +411,9 @@ onEvent('recipes', function (e) {
     crusherIE('minecraft:ender_pearl', 'ae2:ender_dust');
     crusherIE('minecraft:charcoal', 'ftbic:charcoal_dust');
     crusherIE('minecraft:lapis_lazuli', 'thermal:lapis_dust');
+    crusherIE('thermal:apatite', 'thermal:apatite_dust');
+    crusherIE('thermal:cinnabar', 'thermal:cinnabar_dust');
+    crusherIE('thermal:niter', 'thermal:niter_dust');
     crusherIETag('forge:gems/diamond', 'thermal:diamond_dust');
     crusherIETag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherIETag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust');
