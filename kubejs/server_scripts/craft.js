@@ -271,8 +271,8 @@ onEvent('recipes', e => {
   //Blood Magic Ritual Stone
   function ritualStone(input, output, catalyst) { e.custom({ "type": "create:item_application", "ingredients": [{ "item": input }, { "item": catalyst }], "results": [{ "item": output }] }) }
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:airritualstone', 'bloodmagic:airscribetool')
-  ritualStone('bloodmagic:ritualstone', 'bloodmagic:waterritualstone', 'bloodmagic:firescribetool')
-  ritualStone('bloodmagic:ritualstone', 'bloodmagic:fireritualstone', 'bloodmagic:waterscribetool')
+  ritualStone('bloodmagic:ritualstone', 'bloodmagic:fireritualstone', 'bloodmagic:firescribetool')
+  ritualStone('bloodmagic:ritualstone', 'bloodmagic:waterritualstone', 'bloodmagic:waterscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:earthritualstone', 'bloodmagic:earthscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:duskritualstone', 'bloodmagic:duskscribetool')
   //Chemical Core
