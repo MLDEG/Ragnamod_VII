@@ -631,6 +631,7 @@ onEvent('recipes', e => {
         'twilightdelight:knightmetal_knife',
         'create_sa:quartz_gem_crushing',
         'thermal:rockwool/white_rockwool_from_smelting',
+        'blue_skies:furnace_compat',
     ]
     removeId.forEach(C => { r(C) })
 })
