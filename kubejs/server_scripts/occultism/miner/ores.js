@@ -76,6 +76,7 @@ onEvent('recipes', e => {
   occultismMiner('basic_resources', 'mekanism:uranium_ore', 550)
   occultismMiner('basic_resources', 'mekanism:osmium_ore', 650)
   occultismMiner('basic_resources', 'ftbic:iridium_ore', 250)
+  occultismMiner('basic_resources', 'ae2:quartz_ore', 250)
   occultismMiner('basic_resources', 'rftoolsbase:dimensionalshard_overworld', 100)
   occultismMiner('basic_resources', 'miniutilities:ender_ore', 500)
   occultismMiner('basic_resources', 'forbidden_arcanus:xpetrified_ore', 150)
@@ -113,6 +114,7 @@ onEvent('recipes', e => {
   occultismMiner('deeps', 'tinkers_reforged:deepslate_red_beryl_ore', 400)
   occultismMiner('deeps', 'forbidden_arcanus:deepslate_arcane_crystal_ore', 500)
   occultismMiner('deeps', 'ftbic:deepslate_iridium_ore', 250)
+  occultismMiner('deeps', 'ae2:deepslate_quartz_ore', 250)
   occultismMiner('deeps', 'evilcraft:dark_ore_deepslate', 300)
 
 })
