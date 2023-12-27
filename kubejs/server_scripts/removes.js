@@ -623,7 +623,12 @@ onEvent('recipes', e => {
         'twilightforest:giant_cobblestone_to_cobblestone',
         'hostilenetworks:deep_learner',
         'beyond_earth_giselle_addon:compat/thermal/refinery/refinery_oil',
-        'beyond_earth_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil'
+        'beyond_earth_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil',
+        'twilightdelight:steeleaf_knife',
+        'twilightdelight:fiery_knife',
+        'twilightdelight:fiery_knife_1',
+        'twilightdelight:ironwood_knife',
+        'twilightdelight:knightmetal_knife',
     ]
     removeId.forEach(C => { r(C) })
 })
