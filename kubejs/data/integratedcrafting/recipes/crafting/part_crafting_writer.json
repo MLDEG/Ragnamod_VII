@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CVC"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:workbenches"
+    },
+    "V": {
+      "item": "integrateddynamics:variable_transformer_output"
+    }
+  },
+  "result": {
+    "item": "integratedcrafting:part_crafting_writer"
+  }
+}

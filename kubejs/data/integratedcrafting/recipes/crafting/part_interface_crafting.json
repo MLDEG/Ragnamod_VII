@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "VMW",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "tag": "forge:workbenches"
+    },
+    "V": {
+      "item": "integrateddynamics:variable_transformer_output"
+    },
+    "M": {
+      "item": "integrateddynamics:crystalized_menril_block"
+    },
+    "W": {
+      "item": "integrateddynamics:variable_transformer_input"
+    }
+  },
+  "result": {
+    "item": "integratedcrafting:part_interface_crafting"
+  }
+}
