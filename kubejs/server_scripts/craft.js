@@ -2,6 +2,8 @@ onEvent('recipes', e => {
 
   //Enderpearl Block
   e.shapeless('9x minecraft:ender_pearl', 'miniutilities:ender_pearl_block')
+  //Enderpearl Block
+  e.shapeless('4x minecraft:snowball', 'minecraft:snow_block')
   //Neutronium Ingot
   e.shapeless('9x avaritia:neutronium_ingot', 'avaritia:neutronium_block')
   //Pendorite Ingot
