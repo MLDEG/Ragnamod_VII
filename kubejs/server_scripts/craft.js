@@ -343,6 +343,29 @@ onEvent('recipes', e => {
     ],
     "result": { "item": "ragnamod_seven:psi_stabilizer" }
   })
+  //Rune Castle Twilight Forest
+  function runeCastle(input, output) { e.custom({ "type": "create:deploying", "ingredients": [{ "item": 'twilightforest:castle_brick' }, { "item": input }], "results": [{ "item": output, "count": 1 }], "keepHeldItem": true }) }
+  runeCastle('quark:pink_rune', 'twilightforest:pink_castle_rune_brick')
+  runeCastle('quark:yellow_rune', 'twilightforest:yellow_castle_rune_brick')
+  runeCastle('quark:cyan_rune', 'twilightforest:blue_castle_rune_brick')
+  runeCastle('quark:purple_rune', 'twilightforest:violet_castle_rune_brick')
+  //Castle Roof Tile
+  e.shaped('8x twilightforest:castle_roof_tile', ['AAA', 'ABA', 'AAA'], {
+    A: 'twilightforest:thick_castle_brick',
+    B: '#forge:dyes/black'
+  })
+  //Castle Block
+  e.shaped('8x ragnamod_seven:castle_block', ['AAA', 'ABA', 'AAA'], {
+    A: 'twilightforest:castle_brick',
+    B: '#forge:dyes/cyan'
+  })
+  //Castle Doors
+  function doorCastle(input, output) { e.custom({ "type": "create:deploying", "ingredients": [{ "item": 'ragnamod_seven:castle_block' }, { "item": input }], "results": [{ "item": output, "count": 1 }], "keepHeldItem": true }) }
+  doorCastle('quark:pink_rune', 'twilightforest:pink_castle_door')
+  doorCastle('quark:yellow_rune', 'twilightforest:yellow_castle_door')
+  doorCastle('quark:cyan_rune', 'twilightforest:blue_castle_door')
+  doorCastle('quark:purple_rune', 'twilightforest:violet_castle_door')
+
   //Rune Forbidden Arcanus
   e.custom({
     "type": "create:deploying",
