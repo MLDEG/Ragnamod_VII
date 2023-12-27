@@ -155,6 +155,7 @@ onEvent('tags.items', e => {
     e.remove('forge:storage_blocks/osmium', 'chemlib:osmium_metal_block')
 
     //Remove Other
+    e.remove('forge:rods/treated_wood', 'immersiveengineering:stick_treated')
     e.remove('forge:silicon', 'ae2:silicon')
     e.remove('forge:bitumen', 'immersivepetroleum:bitumen')
     e.remove('forge:slag', 'immersiveengineering:slag')
@@ -216,6 +217,9 @@ onEvent('tags.items', e => {
 
     //Tag for FTBQuests and Petal Apotechary
     e.add('botania:apothecary', ['botania:apothecary_mesa', 'botania:apothecary_taiga', 'botania:apothecary_desert', 'botania:apothecary_swamp', 'botania:apothecary_fungal', 'botania:apothecary_mountain', 'botania:apothecary_plains', 'botania:apothecary_forest', 'botania:apothecary_default', 'botania:apothecary_mossy'])
+
+    //Forge Furnace
+    e.add('forge:basic_furnaces', ['minecraft:furnace', 'quark:deepslate_furnace', 'quark:blackstone_furnace'])
 
     //Tags for Powah Items
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
