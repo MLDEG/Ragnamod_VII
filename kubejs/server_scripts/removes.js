@@ -641,6 +641,7 @@ onEvent('recipes', e => {
         'quark:building/crafting/furnaces/deepslate_blast_furnace',
         'infernalexp:crafting/crafting_shaped/blast_furnace_from_smooth_stones',
         'infernalexp:smelting/soul_stone',
+        'minecraft:end_crystal',
     ]
     removeId.forEach(C => { r(C) })
 })
