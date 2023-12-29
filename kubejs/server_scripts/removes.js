@@ -635,7 +635,12 @@ onEvent('recipes', e => {
         'ae2additions:cells/item/disk-256-casing',
         'ae2additions:cells/item/disk-256',
         'sebastrnlib:sebastrn_mods_guide_book_recipe_shapeless',
-        'packagedavaritia:extreme_crafter_ae'
+        'packagedavaritia:extreme_crafter_ae',
+        'tconstruct:common/basalt_blast_furnace',
+        'quark:building/crafting/furnaces/blackstone_blast_furnace',
+        'quark:building/crafting/furnaces/deepslate_blast_furnace',
+        'infernalexp:crafting/crafting_shaped/blast_furnace_from_smooth_stones',
+        'infernalexp:smelting/soul_stone',
     ]
     removeId.forEach(C => { r(C) })
 })
