@@ -803,96 +803,174 @@ onEvent('recipes', e => {
   //Model Evolution
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:model_evolution"}'), [' A ', 'BCB', 'DED'], { A: '#forge:glass_panes', B: 'hostilenetworks:polymer_clay', C: 'hostilenetworks:sim_chamber', D: 'redstone_arsenal:flux_plating', E: 'thermal:redstone_servo' })
 
-  // //Enchanter
-  // function enchanter(input, inputamount, lvl, enchant) {
-  //   const xp_array = [3160, 6240, 10760, 17760, 26780]
-  //   const xp = xp_array[lvl - 1]
-  //   e.custom({
-  //     "type": "custommachinery:custom_machine",
-  //     "machine": "ragnamod_7:enchanter",
-  //     "time": 1,
-  //     "requirements": [
-  //       {
-  //         "type": "custommachinery:fluid",
-  //         "mode": "input",
-  //         "fluid": "#forge:experience",
-  //         "amount": xp,
-  //       },
-  //       {
-  //         "type": "custommachinery:item",
-  //         "mode": "input",
-  //         "slot": "book",
-  //         "item": "minecraft:writable_book",
-  //         "amount": 1
-  //       },
-  //       {
-  //         "type": "custommachinery:item",
-  //         "mode": "input",
-  //         "slot": "lapis",
-  //         "item": "minecraft:lapis_lazuli",
-  //         "amount": lvl * 9
-  //       },
-  //       {
-  //         "type": "custommachinery:item",
-  //         "mode": "input",
-  //         "slot": "ingredient",
-  //         "item": input,
-  //         "amount": inputamount
-  //       },
-  //       {
-  //         "type": "custommachinery:item",
-  //         "mode": "output",
-  //         "slot": "enchanted_book",
-  //         "item": "minecraft:enchanted_book",
-  //         "nbt": `{StoredEnchantments:[{lvl: ${lvl}s, id:"${enchant}"}]}`,
-  //         "amount": 1
-  //       }
-  //     ],
-  //     "priority": lvl,
-  //     "jeiPriority": lvl
-  //   })
-  // }
-  // function enchanterAll(input, inputamount, lvlmax, enchant) {
-  //   for (let i = 1; i <= lvlmax; i++)
-  //     enchanter(input, inputamount * i, i, enchant)
-  // }
-  // enchanterAll("minecraft:magma_cream", 4, 4, "minecraft:fire_protection")
-  // enchanterAll("minecraft:feather", 4, 4, "minecraft:feather_falling")
-  // enchanterAll("minecraft:gunpowder", 4, 4, "minecraft:blast_protection")
-  // enchanterAll("minecraft:leather", 4, 4, "minecraft:projectile_protection")
-  // enchanterAll("minecraft:netherite_ingot", 1, 4, "minecraft:protection")
-  // enchanterAll("minecraft:glass_bottle", 3, 3, "minecraft:respiration")
-  // enchanterAll("minecraft:lily_pad", 1, 1, "minecraft:aqua_affinity")
-  // enchanterAll("minecraft:prismarine_shard", 3, 3, "minecraft:depth_strider")
-  // enchanterAll("minecraft:ice", 5, 2, "minecraft:frost_walker")
-  // enchanterAll("minecraft:rose_bush", 3, 3, "minecraft:thorns")
-  // enchanterAll("minecraft:quartz", 10, 5, "minecraft:sharpness")
-  // enchanterAll("minecraft:rotten_flesh", 10, 5, "minecraft:smite")
-  // enchanterAll("minecraft:spider_eye", 10, 5, "minecraft:bane_of_arthropods")
-  // enchanterAll("minecraft:piston", 1, 2, "minecraft:knockback")
-  // enchanterAll("minecraft:blaze_rod", 4, 2, "minecraft:fire_aspect")
-  // enchanterAll("#forge:heads", 1, 3, "minecraft:looting")
-  // enchanterAll("minecraft:redstone", 10, 5, "minecraft:efficiency")
-  // enchanterAll("tconstruct:silky_cloth", 5, 1, "minecraft:silk_touch")
-  // enchanterAll("minecraft:obsidian", 15, 3, "minecraft:unbreaking")
-  // enchanterAll("minecraft:emerald", 10, 3, "minecraft:fortune")
-  // enchanterAll("minecraft:flint", 10, 5, "minecraft:power")
-  // enchanterAll("minecraft:string", 15, 2, "minecraft:punch")
-  // enchanterAll("minecraft:fire_charge", 5, 1, "minecraft:flame")
-  // enchanterAll("minecraft:lapis_lazuli", 7, 3, "minecraft:luck_of_the_sea")
-  // enchanterAll("minecraft:soul_sand", 5, 3, "minecraft:soul_speed")
-  // enchanterAll("minecraft:lead", 1, 3, "minecraft:loyalty")
-  // enchanterAll("minecraft:firework_rocket", 3, 3, "minecraft:riptide")
-  // enchanterAll("minecraft:sugar", 5, 3, "minecraft:quick_charge")
-  // enchanterAll("minecraft:lightning_rod", 1, 1, "minecraft:channeling")
-  // enchanterAll("minecraft:arrow", 15, 1, "minecraft:multishot")
-  // enchanterAll("create:super_glue", 1, 1, "minecraft:binding_curse")
-  // enchanterAll("forbidden_arcanus:xpetrified_orb", 42, 1, "minecraft:mending")
-  // enchanterAll("supplementaries:quiver", 1, 1, "minecraft:infinity")
-  // enchanterAll("minecraft:chain", 5, 3, "minecraft:sweeping")
-  // enchanterAll("minecraft:end_rod", 3, 5, "minecraft:impaling")
-  // enchanterAll("minecraft:cactus", 6, 4, "minecraft:piercing")
-  // enchanterAll("trashcans:item_trash_can", 1, 1, "minecraft:vanishing_curse")
-  // enchanterAll("thermal:aquachow", 3, 3, "minecraft:lure")
+  //Enchanter
+  let enchanterPriority = 0;
+  function enchanter(input, inputamount, lvl, enchant) {
+    enchanterPriority++;
+    const xp_array = [3160, 6240, 10760, 17760, 26780]
+    const xp = xp_array[lvl - 1]
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:enchanter",
+      "time": 1,
+      "requirements": [
+        {
+          "type": "custommachinery:fluid",
+          "mode": "input",
+          "fluid": "#forge:experience",
+          "amount": xp,
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "book",
+          "item": "minecraft:writable_book",
+          "amount": 1
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "lapis",
+          "item": "minecraft:lapis_lazuli",
+          "amount": lvl * 9
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "ingredient",
+          "item": input,
+          "amount": inputamount
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "output",
+          "slot": "enchanted_book",
+          "item": "minecraft:enchanted_book",
+          "nbt": `{StoredEnchantments:[{lvl: ${lvl}s, id:"${enchant}"}]}`,
+          "amount": 1
+        }
+      ],
+      "priority": enchanterPriority,
+      "jeiPriority": enchanterPriority
+    })
+  }
+  function enchanterAll(input, inputamount, lvlmax, enchant) {
+    for (let i = 1; i <= lvlmax; i++)
+      enchanter(input, inputamount * i, i, enchant)
+  }
+  enchanterAll("minecraft:magma_cream", 4, 4, "minecraft:fire_protection")
+  enchanterAll("minecraft:feather", 4, 4, "minecraft:feather_falling")
+  enchanterAll("minecraft:gunpowder", 4, 4, "minecraft:blast_protection")
+  enchanterAll("minecraft:leather", 4, 4, "minecraft:projectile_protection")
+  enchanterAll("minecraft:netherite_ingot", 1, 4, "minecraft:protection")
+  enchanterAll("minecraft:glass_bottle", 3, 3, "minecraft:respiration")
+  enchanterAll("minecraft:lily_pad", 1, 1, "minecraft:aqua_affinity")
+  enchanterAll("minecraft:prismarine_shard", 3, 3, "minecraft:depth_strider")
+  enchanterAll("minecraft:ice", 5, 2, "minecraft:frost_walker")
+  enchanterAll("minecraft:rose_bush", 3, 3, "minecraft:thorns")
+  enchanterAll("minecraft:quartz", 10, 5, "minecraft:sharpness")
+  enchanterAll("minecraft:rotten_flesh", 10, 5, "minecraft:smite")
+  enchanterAll("minecraft:spider_eye", 10, 5, "minecraft:bane_of_arthropods")
+  enchanterAll("minecraft:piston", 1, 2, "minecraft:knockback")
+  enchanterAll("minecraft:blaze_rod", 4, 2, "minecraft:fire_aspect")
+  enchanterAll("#forge:heads", 1, 3, "minecraft:looting")
+  enchanterAll("minecraft:redstone", 10, 5, "minecraft:efficiency")
+  enchanterAll("tconstruct:silky_cloth", 5, 1, "minecraft:silk_touch")
+  enchanterAll("minecraft:obsidian", 15, 3, "minecraft:unbreaking")
+  enchanterAll("minecraft:emerald", 10, 3, "minecraft:fortune")
+  enchanterAll("minecraft:flint", 10, 5, "minecraft:power")
+  enchanterAll("minecraft:string", 15, 2, "minecraft:punch")
+  enchanterAll("minecraft:fire_charge", 5, 1, "minecraft:flame")
+  enchanterAll("minecraft:lapis_lazuli", 7, 3, "minecraft:luck_of_the_sea")
+  enchanterAll("minecraft:soul_sand", 5, 3, "minecraft:soul_speed")
+  enchanterAll("minecraft:lead", 1, 3, "minecraft:loyalty")
+  enchanterAll("minecraft:firework_rocket", 3, 3, "minecraft:riptide")
+  enchanterAll("minecraft:sugar", 5, 3, "minecraft:quick_charge")
+  enchanterAll("minecraft:lightning_rod", 1, 1, "minecraft:channeling")
+  enchanterAll("minecraft:arrow", 15, 1, "minecraft:multishot")
+  enchanterAll("create:super_glue", 1, 1, "minecraft:binding_curse")
+  enchanterAll("forbidden_arcanus:xpetrified_orb", 42, 1, "minecraft:mending")
+  enchanterAll("supplementaries:quiver", 1, 1, "minecraft:infinity")
+  enchanterAll("minecraft:chain", 5, 3, "minecraft:sweeping")
+  enchanterAll("minecraft:end_rod", 3, 5, "minecraft:impaling")
+  enchanterAll("minecraft:cactus", 6, 4, "minecraft:piercing")
+  enchanterAll("trashcans:item_trash_can", 1, 1, "minecraft:vanishing_curse")
+  enchanterAll("thermal:aquachow", 3, 3, "minecraft:lure")
+  enchanterAll("minecraft:mushroom_stew", 1, 5, 'apotheosis:miners_fervor')
+  enchanterAll("forbidden_arcanus:golden_feather", 1, 1, 'apotheosis:stable_footing')
+  enchanterAll("minecraft:diamond", 2, 3, 'apotheosis:scavenger')
+  enchanterAll("apotheosis:common_material", 1, 3, 'apotheosis:life_mending')
+  enchanterAll("minecraft:blue_ice", 3, 3, 'apotheosis:icy_thorns')
+  enchanterAll("minecraft:wheat", 5, 1, 'apotheosis:tempting')
+  enchanterAll("beyond_earth:steel_ingot", 3, 4, 'apotheosis:shield_bash')
+  enchanterAll("solarflux:mirror", 3, 5, 'apotheosis:reflective')
+  enchanterAll("minecraft:blaze_powder", 5, 3, 'apotheosis:berserkers_fury')
+  enchanterAll("create:experience_nugget", 5, 3, 'apotheosis:knowledge')
+  enchanterAll("create:piston_extension_pole", 3, 3, 'apotheosis:rebounding')
+  enchanterAll("minecraft:bone_meal", 5, 3, 'apotheosis:natures_blessing')
+  enchanterAll("minecraft:gold_ingot", 2, 5, 'apotheosis:bane_of_illagers')
+  enchanterAll("minecraft:anvil", 1, 1, 'apotheosis:splitting')
+  enchanterAll("minecraft:iron_block", 1, 1, 'apotheosis:obliteration')
+  enchanterAll("savage_and_ravage:mischief_arrow", 2, 5, 'apotheosis:crescendo')
+  enchanterAll("minecraft:spectral_arrow", 1, 1, 'apotheosis:endless_quiver')
+  enchanterAll("minecraft:tropical_fish", 1, 5, 'apotheosis:spearfishing')
+  enchanterAll("minecraft:shulker_shell", 1, 3, 'miningmaster:floatation')
+  enchanterAll("immersiveengineering:sawblade", 1, 1, 'apotheosis:chainsaw')
+  enchanterAll("#forge:ores", 10, 3, 'apotheosis:earths_boon')
+  enchanterAll("botania:manasteel_shears", 1, 1, 'apotheosis:growth_serum')
+  enchanterAll("reliquary:shears_of_winter", 1, 1, 'apotheosis:exploitation')
+  enchanterAll("minecraft:shears", 1, 1, 'apotheosis:chromatic')
+  enchanterAll("minecraft:egg", 3, 5, 'apotheosis:capturing')
+  enchanterAll("ars_nouveau:source_berry_pie", 2, 3, 'ars_nouveau:mana_regen')
+  enchanterAll("ars_nouveau:source_berry_roll", 2, 3, 'ars_nouveau:mana_boost')
+  enchanterAll("ars_nouveau:warp_scroll", 1, 3, 'ars_nouveau:reactive')
+  enchanterAll("minecraft:polished_andesite", 5, 5, 'mythicbotany:hammer_mobility')
+  enchanterAll("minecraft:chest", 10, 4, 'cofh_core:holding')
+  enchanterAll("create:shadow_steel", 2, 5, 'tombstone:shadow_step')
+  enchanterAll("twilightforest:charm_of_keeping_1", 1, 1, 'tombstone:soulbound')
+  enchanterAll("minecraft:hopper", 4, 5, 'tombstone:magic_siphon')
+  enchanterAll("minecraft:poisonous_potato", 5, 5, 'tombstone:plague_bringer')
+  enchanterAll("minecraft:bone", 5, 5, 'tombstone:curse_of_bones')
+  enchanterAll("minecraft:golden_apple", 3, 3, 'tombstone:blessing')
+  enchanterAll("minecraft:snow_block", 3, 5, 'tombstone:frostbite')
+  enchanterAll("minecraft:potato", 5, 3, 'create:potato_recovery')
+  enchanterAll("create:fluid_tank", 3, 3, 'create:capacity')
+  enchanterAll("bhc:red_heart_canister", 1, 2, 'miningmaster:heartfelt')
+  enchanterAll("miniutilities:speed_upgrade", 1, 3, 'miningmaster:runner')
+  enchanterAll("functionalstorage:void_upgrade", 1, 1, 'miningmaster:stonebreaker')
+  enchanterAll("minecraft:furnace", 1, 1, 'miningmaster:smelting')
+  enchanterAll("draconicevolution:draconium_block", 10, 5, 'draconicevolution:reaper_enchantment')
+  enchanterAll("pneumaticcraft:bandage", 1, 1, 'evilcraft:unusing')
+  enchanterAll("quark:clear_shard", 5, 3, 'evilcraft:breaking')
+  enchanterAll("bhc:red_heart", 5, 3, 'evilcraft:life_stealing')
+  enchanterAll("evilcraft:poison_sac", 3, 3, 'evilcraft:poison_tip')
+  enchanterAll("evilcraft:vengeance_essence", 1, 3, 'evilcraft:vengeance')
+  enchanterAll("evilcraft:condensed_blood", 1, 3, 'farmersdelight:backstabbing')
+  enchanterAll("forbidden_arcanus:edelwood_powder_snow_bucket", 1, 1, 'forbidden_arcanus:permafrost')
+  enchanterAll("ars_nouveau:experience_gem", 1, 5, 'miniutilities:experience_harvester')
+  enchanterAll("minecraft:snowball", 5, 3, 'miningmaster:freezing')
+  enchanterAll("miningmaster:heart_rhodonite", 16, 1, 'miningmaster:leeching')
+  enchanterAll("minecraft:slime_block", 3, 3, 'miningmaster:knight_jump')
+  enchanterAll("minecraft:packed_ice", 1, 1, 'miningmaster:snowpiercer')
+  enchanterAll("minecraft:kelp", 8, 5, 'miningmaster:grace')
+  enchanterAll("naturesaura:gold_leaf", 1, 1, 'naturesaura:aura_mending')
+  enchanterAll("reliquary:fertile_essence", 2, 5, 'reliquary:severing')
+  enchanterAll("spirit:soul_steel_ingot", 1, 3, 'spirit:soul_reaper')
+  enchanterAll("ars_nouveau:glyph_gravity", 1, 1, 'supplementaries:stasis')
+  enchanterAll("ars_nouveau:fire_essence", 2, 3, 'twilightforest:fire_react')
+  enchanterAll("twilightforest:ice_bomb", 1, 3, 'twilightforest:chill_aura')
+  enchanterAll("twilightforest:block_and_chain", 1, 1, 'twilightforest:preservation')
+  enchanterAll("twilightforest:armor_shard_cluster", 2, 3, 'twilightforest:block_strength')
+  enchanterAll("twilightforest:knightmetal_block", 1, 2, 'twilightforest:destruction')
+  enchanterAll("tconstruct:earth_congealed_slime", 2, 3, 'undergarden:ricochet')
+  enchanterAll("botania:mana_string", 3, 3, 'undergarden:longevity')
+  enchanterAll("undergarden:slingshot", 1, 1, 'undergarden:self_sling')
+  enchanterAll("minecraft:ender_pearl", 1, 1, 'travel_anchors:teleportation')
+  enchanterAll("travel_anchors:travel_anchor", 1, 3, 'travel_anchors:range')
+  enchanterAll("warden_and_sculk:sculk_block", 5, 3, 'warden_and_sculk:swift_sneak')
+  enchanterAll("beyond_earth_giselle_addon:oxygen_can", 1, 1, 'beyond_earth_giselle_addon:space_breathing')
+  enchanterAll("beyond_earth:space_boots", 1, 1, 'beyond_earth_giselle_addon:gravity_normalizing')
+  enchanterAll("beyond_earth:mercury_stone", 1, 1, 'beyond_earth_giselle_addon:space_fire_proof')
+  enchanterAll("beyond_earth:venus_stone", 1, 1, 'beyond_earth_giselle_addon:venus_acid_proof')
 
 })

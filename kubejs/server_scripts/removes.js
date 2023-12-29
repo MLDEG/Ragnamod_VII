@@ -634,6 +634,8 @@ onEvent('recipes', e => {
         'blue_skies:furnace_compat',
         'ae2additions:cells/item/disk-256-casing',
         'ae2additions:cells/item/disk-256',
+        'sebastrnlib:sebastrn_mods_guide_book_recipe_shapeless',
+        'packagedavaritia:extreme_crafter_ae'
     ]
     removeId.forEach(C => { r(C) })
 })

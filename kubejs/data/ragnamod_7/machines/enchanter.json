@@ -1,8 +1,8 @@
 {
   "name": "Enchanter NYI",
   "appearance": {
-    "block": "ragnamod_seven:machine/will_factory_idle_model",
-    "item": "ragnamod_seven:machine/will_factory_idle_model",
+    "block": "ragnamod_seven:machine/enchanter",
+    "item": "ragnamod_seven:machine/enchanter",
     "ambient_sound": "",
     "interaction_sound": "minecraft:stone_block",
     "light": 0,
@@ -27,12 +27,16 @@
     {
       "type": "custommachinery:item",
       "id": "book",
-      "mode": "input"
+      "mode": "input",
+      "filter": "minecraft:writable_book",
+      "whitelist": true
     },
     {
       "type": "custommachinery:item",
       "id": "lapis",
-      "mode": "input"
+      "mode": "input",
+      "filter": "minecraft:lapis_lazuli",
+      "whitelist": true
     },
     {
       "type": "custommachinery:item",
