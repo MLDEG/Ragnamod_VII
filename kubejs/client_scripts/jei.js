@@ -39,6 +39,7 @@ onEvent('jei.hide.items', e => {
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:crude_oil"}}]}}'),
 		Item.of('twilightdelight:ironwood_knife', '{Damage:0}').enchant('minecraft:knockback', 1),
 		Item.of('twilightdelight:steeleaf_knife', '{Damage:0}').enchant('minecraft:looting', 2),
+		Item.of('patchouli:guide_book', '{"patchouli:book":"sebastrnlib:sebastrn_mods_guide_book"}'),
 		'thermal:crude_oil_bucket',
 		'pneumaticcraft:oil_bucket',
 		'tconstruct:honey_bucket',
@@ -331,7 +332,6 @@ onEvent('jei.hide.items', e => {
 		'miniutilities:cursed_earth',
 		'miniutilities:blessed_earth',
 		'miniutilities:blursed_earth',
-		'avaritia:extreme_crafting_table',
 		'ragnamod_seven:black_sphere',
 		'ftbquests:missing_item',
 		'pneumaticcraft:creative_upgrade',
@@ -346,6 +346,10 @@ onEvent('jei.hide.items', e => {
 		'twilightdelight:fiery_knife',
 		'twilightdelight:knightmetal_knife',
 		'ae2additions:disk_item_256k',
+		'appmek:creative_chemical_cell',
+		'ae2:creative_fluid_cell',
+		'appbot:creative_mana_cell',
+		'avaritia:extreme_crafting_table',
 	])
 })
 
@@ -397,8 +401,8 @@ onEvent('jei.hide.fluids', event => {
 })
 
 onEvent('jei.remove.categories', e => {
-	// console.log(e.getCategoryIds())	
 	e.remove('twilightforest:uncrafting')
+	e.remove('avaritia:extreme_crafting')
 })
 
 onEvent('jei.information', e => {
