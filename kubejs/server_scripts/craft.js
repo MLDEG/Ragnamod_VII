@@ -73,6 +73,8 @@ onEvent('recipes', e => {
   //Pal Diamond
   e.blasting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
   e.smelting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
+  //Soul Stone
+  e.blasting('infernalexp:soul_stone', 'minecraft:soul_sand')
   /***************************Horsmen Stuff***************************/
   /***************************Death***************************/
   e.shapeless('9x ragnamod_seven:death_nugget', 'ragnamod_seven:death_ingot')
