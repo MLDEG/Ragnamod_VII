@@ -221,6 +221,9 @@ onEvent('tags.items', e => {
     //Forge Furnace
     e.add('forge:basic_furnaces', ['minecraft:furnace', 'quark:deepslate_furnace', 'quark:blackstone_furnace'])
 
+    //colored runes Quark
+    e.add('quark:colored_runes', ['quark:rainbow_rune', 'quark:red_rune', 'quark:brown_rune', 'quark:purple_rune', 'quark:light_gray_rune', 'quark:pink_rune', 'quark:yellow_rune', 'quark:magenta_rune', 'quark:white_rune', 'quark:black_rune', 'quark:green_rune', 'quark:blue_rune', 'quark:cyan_rune', 'quark:gray_rune', 'quark:lime_rune', 'quark:light_blue_rune', 'quark:orange_rune'])
+
     //Tags for Powah Items
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
     e.add('powah:energy_cell', ['powah:energy_cell_nitro', 'powah:energy_cell_spirited', 'powah:energy_cell_niotic', 'powah:energy_cell_blazing', 'powah:energy_cell_hardened', 'powah:energy_cell_basic', 'powah:energy_cell_starter'])
