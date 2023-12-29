@@ -155,6 +155,8 @@ onEvent('tags.items', e => {
     e.remove('forge:storage_blocks/osmium', 'chemlib:osmium_metal_block')
 
     //Remove Other
+    e.remove('forge:mushrooms', 'byg:white_puffball_cap')
+    e.remove('byg:mushrooms', 'byg:white_puffball_cap')
     e.remove('forge:rods/treated_wood', 'immersiveengineering:stick_treated')
     e.remove('forge:silicon', 'ae2:silicon')
     e.remove('forge:bitumen', 'immersivepetroleum:bitumen')
