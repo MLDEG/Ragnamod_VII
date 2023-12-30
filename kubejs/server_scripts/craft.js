@@ -489,7 +489,7 @@ onEvent('recipes', e => {
         "type": "create:deploying",
         "ingredients": [
           { "item": "create:potato_cannon" },
-          { "item": "create:extendo_grip" }
+          { "item": "create:creative_motor" }
         ],
         "results": [{ "item": "create:potato_cannon" }]
       },
@@ -520,7 +520,7 @@ onEvent('recipes', e => {
         "type": "create:deploying",
         "ingredients": [
           { "item": "create:potato_cannon" },
-          { "item": "ragnamod_seven:sphere" }
+          { "item": "create:creative_fluid_tank" }
         ],
         "results": [{ "item": "create:potato_cannon" }]
       }
