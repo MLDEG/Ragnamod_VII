@@ -1,7 +1,7 @@
 {
   "name": {
     "color": "#cbd4da",
-    "text": "Creative Item Cell Trophy"
+    "text": "Ultimate Creative ME Cell Trophy"
   },
   "animation":{
     "type": "spinning",
@@ -15,6 +15,6 @@
   },
   "colors": {
     "base": "#312c36",
-    "accent": "#cbd4da"
+    "accent": "#902528"
   }
 }
