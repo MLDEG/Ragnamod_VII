@@ -458,7 +458,7 @@ onEvent('recipes', e => {
     C: 'thermal_extra:machine_catalyst_augment_3'
   })
   //Creative AE2 Cells
-  e.shapeless('ae2:creative_item_cell', ['ae2:item_cell_housing', 'functionalstorage:creative_vending_upgrade'])
+  e.shapeless('ae2:creative_item_cell', ['ae2additions:super_cell_housing', 'functionalstorage:creative_vending_upgrade'])
   //Extreme Crafter
   e.shaped('packagedavaritia:extreme_crafter', [
     "MCM",
