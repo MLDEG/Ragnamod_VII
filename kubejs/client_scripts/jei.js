@@ -349,7 +349,51 @@ onEvent('jei.hide.items', e => {
 		'appmek:creative_chemical_cell',
 		'ae2:creative_fluid_cell',
 		'appbot:creative_mana_cell',
-		'avaritia:extreme_crafting_table',
+		// 'avaritia:extreme_crafting_table',
+		'gemsnjewels:peridot_deepslate_ore_block',
+		'gemsnjewels:topaz_deepslate_ore_block',
+		'gemsnjewels:garnet_deepslate_ore_block',
+		'gemsnjewels:opal_deepslate_ore_block',
+		'gemsnjewels:amethyst_deepslate_ore_block',
+		'gemsnjewels:sapphire_deepslate_ore_block',
+		'gemsnjewels:ruby_deepslate_ore_block',
+		'gemsnjewels:emerald_deepslate_ore_block',
+		'gemsnjewels:pale_diamond_deepslate_ore_block',
+		'gemsnjewels:iolite_deepslate_ore_block',
+		'gemsnjewels:kunzite_deepslate_ore_block',
+		'gemsnjewels:ametrine_deepslate_ore_block',
+		'gemsnjewels:morganite_deepslate_ore_block',
+		'gemsnjewels:citrine_deepslate_ore_block',
+		'gemsnjewels:black_opal_deepslate_ore_block',
+		'gemsnjewels:spinel_deepslate_ore_block',
+		'gemsnjewels:tourmaline_deepslate_ore_block',
+		'gemsnjewels:tanzanite_deepslate_ore_block',
+		'gemsnjewels:alexandrite_deepslate_ore_block',
+		'gemsnjewels:zircon_deepslate_ore_block',
+		'gemsnjewels:aquamarine_deepslate_ore_block',
+		'gemsnjewels:topaz_nether_ore_block',
+		'gemsnjewels:garnet_nether_ore_block',
+		'gemsnjewels:opal_nether_ore_block',
+		'gemsnjewels:amethyst_nether_ore_block',
+		'gemsnjewels:sapphire_nether_ore_block',
+		'gemsnjewels:ruby_nether_ore_block',
+		'gemsnjewels:emerald_nether_ore_block',
+		'gemsnjewels:diamond_nether_ore_block',
+		'gemsnjewels:pale_diamond_nether_ore_block',
+		'gemsnjewels:v_emerald_nether_ore_block',
+		'gemsnjewels:iolite_nether_ore_block',
+		'gemsnjewels:kunzite_nether_ore_block',
+		'gemsnjewels:ametrine_nether_ore_block',
+		'gemsnjewels:morganite_nether_ore_block',
+		'gemsnjewels:citrine_nether_ore_block',
+		'gemsnjewels:black_opal_nether_ore_block',
+		'gemsnjewels:spinel_nether_ore_block',
+		'gemsnjewels:tourmaline_nether_ore_block',
+		'gemsnjewels:tanzanite_nether_ore_block',
+		'gemsnjewels:alexandrite_nether_ore_block',
+		'gemsnjewels:zircon_nether_ore_block',
+		'gemsnjewels:aquamarine_nether_ore_block',
+		'gemsnjewels:peridot_nether_ore_block',
 	])
 })
 
@@ -402,7 +446,7 @@ onEvent('jei.hide.fluids', event => {
 
 onEvent('jei.remove.categories', e => {
 	e.remove('twilightforest:uncrafting')
-	e.remove('avaritia:extreme_crafting')
+	// e.remove('avaritia:extreme_crafting')
 })
 
 onEvent('jei.information', e => {
@@ -469,6 +513,10 @@ onEvent('item.tooltip', tooltip => {
 		if (item.nbt?.machine.match("ragnamod_7:soul_pedestal")) {
 			text.add(1, Text.of('§cUse the Soul Pedestal from Spirit.'))
 		}
+	})
+	//Gems and Jewels
+	tooltip.addAdvanced(['gemsnjewels:peridot_ore_block', 'gemsnjewels:topaz_ore_block', 'gemsnjewels:garnet_ore_block', 'gemsnjewels:opal_ore_block', 'gemsnjewels:amethyst_ore_block', 'gemsnjewels:sapphire_ore_block', 'gemsnjewels:ruby_ore_block', 'gemsnjewels:emerald_ore_block', 'gemsnjewels:pale_diamond_ore_block', 'gemsnjewels:bright_opal_ore_block', 'gemsnjewels:iolite_ore_block', 'gemsnjewels:kunzite_ore_block', 'gemsnjewels:ametrine_ore_block', 'gemsnjewels:morganite_ore_block', 'gemsnjewels:citrine_ore_block', 'gemsnjewels:black_opal_ore_block', 'gemsnjewels:spinel_ore_block', 'gemsnjewels:tourmaline_ore_block', 'gemsnjewels:tanzanite_ore_block', 'gemsnjewels:alexandrite_ore_block', 'gemsnjewels:zircon_ore_block', 'gemsnjewels:aquamarine_ore_block'], (item, advanced, text) => {
+		text.add(1, Text.of('§5§oGet it in Occultism Miners'))
 	})
 
 	//Horsmen Essence
