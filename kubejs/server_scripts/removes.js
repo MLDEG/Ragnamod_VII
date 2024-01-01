@@ -683,6 +683,8 @@ onEvent('recipes', e => {
         'gemsnjewels:nether_iolite_from_blasting',
         'gemsnjewels:nether_iolite_from_smelting',
         'beyond_earth_giselle_addon:compat/immersiveengineering/crafting/plate_desh_hammering',
+        'beyond_earth_giselle_addon:blasting/iron_ingot_from_plate',
+        'beyond_earth_giselle_addon:smelting/iron_ingot_from_plate',
     ]
     removeId.forEach(C => { r(C) })
 })
