@@ -776,6 +776,7 @@
 			dependencies: [
 				"09FB1CFAC203AC1F"
 				"49566F6C3DE4A0A0"
+				"4D4C800B96F8F4A7"
 			]
 			id: "0ADE37DDA117E17E"
 			tasks: [{
@@ -788,6 +789,17 @@
 				type: "item"
 				item: "forbidden_arcanus:arcane_gold_nugget"
 				random_bonus: 7
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["49566F6C3DE4A0A0"]
+			id: "4D4C800B96F8F4A7"
+			tasks: [{
+				id: "483888E722AC7FE9"
+				type: "item"
+				item: "forbidden_arcanus:yellow_orchid"
 			}]
 		}
 	]

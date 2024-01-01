@@ -166,10 +166,11 @@
 			}]
 		}
 		{
+			title: "IV Cable"
 			x: 18.0d
 			y: -1.5d
 			shape: "square"
-			description: ["Use the EV cable to transmit up to 8192 EU/tick maximum to your machines! "]
+			description: ["Use the IV cable to transmit up to 8192 EU/tick maximum to your machines! "]
 			dependencies: [
 				"54E8063E7AE122CB"
 				"24CEA0C30026A5BD"
@@ -632,7 +633,7 @@
 			shape: "square"
 			description: [
 				"The Antimatter Construction transforms EUs and items to generate Antimatter."
-				"If you give him items in addition to energy, energy consumption will be reduced. Scrap Box are the best items to put inside."
+				"If you give it items in addition to energy, energy consumption will be reduced. Scrap Box are the best items to put inside."
 				"{image:ftbquests:textures/quests/ftbic_antimatter_constructor.png width:190 height:60 align:1}"
 			]
 			dependencies: [
@@ -819,7 +820,7 @@
 			x: 9.5d
 			y: -1.5d
 			shape: "square"
-			description: ["Transforms 8192 EU into 2048 EU."]
+			description: ["Transforms IV energy into EV."]
 			dependencies: [
 				"63EC60CAFF6779FD"
 				"6E31F1878719B0B9"

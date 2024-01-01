@@ -1298,8 +1298,8 @@
 		}
 		{
 			icon: "merequester:requester"
-			x: -2.0d
-			y: -1.5d
+			x: -2.5d
+			y: -2.0d
 			shape: "square"
 			description: [
 				"The ME Requester is, like his name said, can request items that learn previously with a pattern."
@@ -1384,8 +1384,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -4.5d
+			y: -2.0d
 			shape: "square"
 			description: ["The Fluix Mana Pool work like a Mana Pool but when it's connect to your network you can store the Mana into ME Mana Storage Cell."]
 			dependencies: [
@@ -1501,6 +1501,73 @@
 				type: "item"
 				item: "ae2:storage_bus"
 				random_bonus: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"The ME Kitchen Station is all you need to connect CFB with AE2."
+				""
+				"Once you have it, you'll need to configure it in an AE2 ME Security Terminal as if it were a Wireless Terminal."
+				""
+				"Then, place it as a part of your CFB kitchen multi-block and that's all."
+				"You can craft items in your cooking table using your AE2 Network inventory!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6B286387A0D76305"
+				"3BF49369E9042EC9"
+				"2DC966A4EECD0FE7"
+			]
+			id: "06C7935CED4DEBE3"
+			tasks: [{
+				id: "2FCF73FCA06196F7"
+				type: "item"
+				item: "appliedcooking:kitchen_station"
+			}]
+			rewards: [{
+				id: "3ED4A63DB7E774BD"
+				type: "item"
+				item: "cookingforblockheads:black_kitchen_floor"
+				count: 64
+			}]
+		}
+		{
+			title: "Packeged Auto"
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["0B1D5E77E82B17AB"]
+			id: "2F7F6C489C187AAB"
+			tasks: [
+				{
+					id: "3ABCD75162672E45"
+					type: "item"
+					item: "packagedauto:encoder"
+				}
+				{
+					id: "33C76DFB2C577D2C"
+					type: "item"
+					item: "packagedauto:packager"
+				}
+				{
+					id: "0705FF8013307B5D"
+					type: "item"
+					item: "packagedauto:unpackager"
+				}
+				{
+					id: "3F33AF4077E55074"
+					type: "item"
+					item: "packagedauto:recipe_holder"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "449C22184A2DF57C"
+				type: "item"
+				item: "packagedauto:recipe_holder"
+				count: 2
 			}]
 		}
 	]

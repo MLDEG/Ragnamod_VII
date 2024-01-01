@@ -10,8 +10,8 @@
 	hide_quest_details_until_startable: true
 	quests: [
 		{
-			x: 0.0d
-			y: -7.5d
+			x: -0.5d
+			y: -6.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -69,8 +69,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -2.5d
+			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -124,8 +124,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -4.5d
+			x: 1.5d
+			y: -4.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -180,8 +180,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: -2.5d
+			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -236,7 +236,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: 1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -293,7 +293,7 @@
 		}
 		{
 			x: 1.0d
-			y: -5.5d
+			y: -5.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -348,8 +348,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
+			x: 1.5d
+			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -421,7 +421,7 @@
 		}
 		{
 			x: -3.0d
-			y: -2.0d
+			y: -1.0d
 			dependencies: [
 				"28AA8CD36B2B9558"
 				"1FA6721FE1D91AC0"
@@ -477,7 +477,7 @@
 		}
 		{
 			x: 0.0d
-			y: -5.5d
+			y: -5.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -533,7 +533,7 @@
 		}
 		{
 			x: 0.0d
-			y: -4.5d
+			y: -4.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -588,8 +588,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -6.5d
+			x: 0.5d
+			y: -6.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -644,8 +644,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: -1.5d
+			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -717,7 +717,7 @@
 		}
 		{
 			x: -3.5d
-			y: -3.0d
+			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -772,7 +772,7 @@
 		}
 		{
 			x: 3.5d
-			y: -3.0d
+			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -827,7 +827,7 @@
 		}
 		{
 			x: 2.5d
-			y: -3.0d
+			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -881,8 +881,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
+			x: -3.5d
+			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -937,8 +937,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.5d
+			x: -1.0d
+			y: -3.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1005,7 +1005,7 @@
 		}
 		{
 			x: -1.0d
-			y: -5.5d
+			y: -5.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1098,7 +1098,7 @@
 		}
 		{
 			x: 3.5d
-			y: -1.0d
+			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1153,7 +1153,7 @@
 		}
 		{
 			x: 0.0d
-			y: -2.0d
+			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1209,7 +1209,7 @@
 		}
 		{
 			x: 3.0d
-			y: -2.0d
+			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1263,7 +1263,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: 2.0d
 			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1318,8 +1318,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
+			x: 1.5d
+			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1381,8 +1381,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -4.5d
+			x: -1.5d
+			y: -4.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1438,7 +1438,7 @@
 		}
 		{
 			x: 2.5d
-			y: -1.0d
+			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1492,8 +1492,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: 0.0d
+			y: -2.5d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1547,8 +1547,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: -1.5d
+			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1602,8 +1602,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.5d
+			x: 1.0d
+			y: -3.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1658,7 +1658,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1690,183 +1690,8 @@
 				"714282AAC1313C4C"
 				"0EBF3455DC47F112"
 				"3EF525880EBABE1A"
-				"10792CBBE7D201BB"
-			]
-			hide: true
-			id: "13F3520B038EEB2E"
-			tasks: [{
-				id: "291FDE18DE01C936"
-				type: "item"
-				item: {
-					id: "appbot:creative_mana_cell"
-					Count: 1b
-					tag: {
-						list: [{
-							"#c": "appbot:mana"
-							"#": 0L
-						}]
-					}
-				}
-			}]
-			rewards: [{
-				id: "52F090AB1586EA5E"
-				type: "item"
-				item: {
-					id: "trofers:large_pillar"
-					Count: 1b
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:creative_mana_cell"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -2.0d
-			y: -2.0d
-			dependencies: [
-				"1FA6721FE1D91AC0"
-				"3A5EF4E424C3FCD2"
-				"3B3A799F1B75AE8D"
-				"5FD678D3209DCC4B"
-				"4426E6FD93B6633E"
-				"2E158F57698EB663"
-				"0F52D023446A5774"
-				"1D3E40D087710248"
-				"035F22543F085D4C"
-				"61533A3766658ACA"
-				"0BD32B73FB445994"
-				"553749A87395453B"
-				"7F8D203B2DBDE286"
-				"00C636511238EEB8"
-				"60812A72691AE76E"
-				"5AE38E6B372BFD65"
-				"273F753DD5046AC1"
-				"300626B04E2E1A0F"
-				"790FA14F1CFBE005"
-				"5DC6CDB2146D749A"
-				"1ACD5D1757C62A7F"
-				"66473AFD28BA9C16"
-				"485D5ECED2F6996A"
-				"12C5FFD5AAE65BBD"
-				"79B059567011CA3E"
-				"4570DDAED84143FE"
-				"714282AAC1313C4C"
-				"0EBF3455DC47F112"
-				"3EF525880EBABE1A"
-				"226DE9F1866723FA"
-			]
-			hide: true
-			id: "11AB8B8A4B8591A6"
-			tasks: [{
-				id: "6FEF4ACB6830D909"
-				type: "item"
-				item: "ae2:creative_fluid_cell"
-			}]
-			rewards: [{
-				id: "74F57D23B9FFE558"
-				type: "item"
-				item: {
-					id: "trofers:large_pillar"
-					Count: 1b
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:creative_fluid_cell"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.0d
-			dependencies: [
-				"1FA6721FE1D91AC0"
-				"3A5EF4E424C3FCD2"
-				"3B3A799F1B75AE8D"
-				"5FD678D3209DCC4B"
-				"4426E6FD93B6633E"
-				"2E158F57698EB663"
-				"0F52D023446A5774"
-				"1D3E40D087710248"
-				"035F22543F085D4C"
-				"61533A3766658ACA"
-				"0BD32B73FB445994"
-				"553749A87395453B"
-				"7F8D203B2DBDE286"
-				"00C636511238EEB8"
-				"60812A72691AE76E"
-				"5AE38E6B372BFD65"
-				"273F753DD5046AC1"
-				"300626B04E2E1A0F"
-				"790FA14F1CFBE005"
-				"5DC6CDB2146D749A"
-				"1ACD5D1757C62A7F"
-				"66473AFD28BA9C16"
-				"485D5ECED2F6996A"
-				"12C5FFD5AAE65BBD"
-				"79B059567011CA3E"
-				"4570DDAED84143FE"
-				"714282AAC1313C4C"
-				"0EBF3455DC47F112"
-				"3EF525880EBABE1A"
-				"4F4568C31ADF1B89"
-			]
-			hide: true
-			id: "4BFE0EA0E7C60E33"
-			tasks: [{
-				id: "2B8FEF711B5387E7"
-				type: "item"
-				item: "appmek:creative_chemical_cell"
-			}]
-			rewards: [{
-				id: "311A45F0FD3DF946"
-				type: "item"
-				item: {
-					id: "trofers:large_pillar"
-					Count: 1b
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:creative_chemical_cell"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 2.0d
-			y: -2.0d
-			dependencies: [
-				"1FA6721FE1D91AC0"
-				"3A5EF4E424C3FCD2"
-				"3B3A799F1B75AE8D"
-				"5FD678D3209DCC4B"
-				"4426E6FD93B6633E"
-				"2E158F57698EB663"
-				"0F52D023446A5774"
-				"1D3E40D087710248"
-				"035F22543F085D4C"
-				"61533A3766658ACA"
-				"0BD32B73FB445994"
-				"553749A87395453B"
-				"7F8D203B2DBDE286"
-				"00C636511238EEB8"
-				"60812A72691AE76E"
-				"5AE38E6B372BFD65"
-				"273F753DD5046AC1"
-				"300626B04E2E1A0F"
-				"790FA14F1CFBE005"
-				"5DC6CDB2146D749A"
-				"1ACD5D1757C62A7F"
-				"66473AFD28BA9C16"
-				"485D5ECED2F6996A"
-				"12C5FFD5AAE65BBD"
-				"79B059567011CA3E"
-				"4570DDAED84143FE"
-				"714282AAC1313C4C"
-				"0EBF3455DC47F112"
-				"3EF525880EBABE1A"
+				"0FEA7D2300B7DE02"
+				"28AA8CD36B2B9558"
 			]
 			hide: true
 			id: "2E5FA514DCF114FE"

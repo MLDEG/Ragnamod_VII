@@ -3535,6 +3535,22 @@
 				}
 			}]
 		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["0C4F359B153DD1A0"]
+			id: "7505DED394ECD671"
+			tasks: [{
+				id: "432E3D61DF762A57"
+				type: "item"
+				item: "packagedavaritia:extreme_crafter"
+			}]
+			rewards: [{
+				id: "0DE7568A68708B0C"
+				type: "item"
+				item: "packagedavaritia:extreme_crafter"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
