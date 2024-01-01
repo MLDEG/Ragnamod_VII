@@ -518,6 +518,10 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.addAdvanced(['gemsnjewels:peridot_ore_block', 'gemsnjewels:topaz_ore_block', 'gemsnjewels:garnet_ore_block', 'gemsnjewels:opal_ore_block', 'gemsnjewels:amethyst_ore_block', 'gemsnjewels:sapphire_ore_block', 'gemsnjewels:ruby_ore_block', 'gemsnjewels:emerald_ore_block', 'gemsnjewels:pale_diamond_ore_block', 'gemsnjewels:bright_opal_ore_block', 'gemsnjewels:iolite_ore_block', 'gemsnjewels:kunzite_ore_block', 'gemsnjewels:ametrine_ore_block', 'gemsnjewels:morganite_ore_block', 'gemsnjewels:citrine_ore_block', 'gemsnjewels:black_opal_ore_block', 'gemsnjewels:spinel_ore_block', 'gemsnjewels:tourmaline_ore_block', 'gemsnjewels:tanzanite_ore_block', 'gemsnjewels:alexandrite_ore_block', 'gemsnjewels:zircon_ore_block', 'gemsnjewels:aquamarine_ore_block'], (item, advanced, text) => {
 		text.add(1, Text.of('§5§oGet it in Occultism Miners'))
 	})
+	//Dimensional Shard Ore
+	tooltip.addAdvanced(['rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_end'], (item, advanced, text) => {
+		text.add(1, Text.of('§5§oDon\'t spawn in world'))
+	})
 
 	//Horsmen Essence
 	tooltip.addAdvanced('ragnamod_seven:conquest_essence', (item, advanced, text) => {
