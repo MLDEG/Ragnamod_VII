@@ -349,7 +349,7 @@ onEvent('jei.hide.items', e => {
 		'appmek:creative_chemical_cell',
 		'ae2:creative_fluid_cell',
 		'appbot:creative_mana_cell',
-		// 'avaritia:extreme_crafting_table',
+		'avaritia:extreme_crafting_table',
 		'gemsnjewels:peridot_deepslate_ore_block',
 		'gemsnjewels:topaz_deepslate_ore_block',
 		'gemsnjewels:garnet_deepslate_ore_block',
@@ -446,7 +446,7 @@ onEvent('jei.hide.fluids', event => {
 
 onEvent('jei.remove.categories', e => {
 	e.remove('twilightforest:uncrafting')
-	// e.remove('avaritia:extreme_crafting')
+	e.remove('avaritia:extreme_crafting')
 })
 
 onEvent('jei.information', e => {

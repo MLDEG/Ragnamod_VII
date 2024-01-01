@@ -471,6 +471,13 @@ onEvent('recipes', e => {
     M: 'avaritia:crystal_matrix_ingot',
     R: '#forge:dusts/redstone'
   })
+  //Enchanter
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:enchanter"}'), ['ABA', ' C ', 'DDD'], {
+    A: 'ftbic:iridium_alloy',
+    B: 'minecraft:writable_book',
+    C: 'psi:psigem_block',
+    D: 'ftbic:advanced_alloy'
+  })
   //Creative WorldShaper
   e.custom({
     "type": "create:sequenced_assembly",
