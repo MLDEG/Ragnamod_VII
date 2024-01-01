@@ -682,6 +682,7 @@ onEvent('recipes', e => {
         'gemsnjewels:nether_kunzite_from_smelting',
         'gemsnjewels:nether_iolite_from_blasting',
         'gemsnjewels:nether_iolite_from_smelting',
+        'beyond_earth_giselle_addon:compat/immersiveengineering/crafting/plate_desh_hammering',
     ]
     removeId.forEach(C => { r(C) })
 })
