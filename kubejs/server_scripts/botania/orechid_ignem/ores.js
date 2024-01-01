@@ -6,6 +6,7 @@ onEvent('recipes', e => {
     orechidIgnem('minecraft:netherrack', 'byg:emeraldite_ore', 500)
     orechidIgnem('minecraft:netherrack', 'byg:pendorite_ore', 150)
     orechidIgnem('minecraft:netherrack', 'tconstruct:cobalt_ore', 750)
+    orechidIgnem('minecraft:netherrack', 'rftoolsbase:dimensionalshard_nether', 750)
 
     orechidIgnem('minecraft:obsidian', 'armorplus:ore_lava_crystal_obsidian', 10)
     orechidIgnem('minecraft:obsidian', 'armorplus:ore_frost_crystal_obsidian', 5)

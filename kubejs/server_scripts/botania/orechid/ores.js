@@ -43,6 +43,7 @@ onEvent('recipes', e => {
     orechid('minecraft:stone', 'tinkers_reforged:aluminum_ore', 29350)
     orechid('minecraft:stone', 'ae2:quartz_ore', 15000)
     orechid('minecraft:stone', 'thermal:tin_ore', 29350)
+    orechid('minecraft:stone', 'rftoolsbase:dimensionalshard_overworld', 750)
 
     orechid('minecraft:end_stone', 'byg:end_sand', 85)
     orechid('minecraft:end_stone', 'tinkers_reforged:kepu_ore', 5)

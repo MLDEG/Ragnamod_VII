@@ -59,6 +59,7 @@ onEvent('recipes', e => {
     oreNether('byg:pendorite_ore', 0, 64, 1, 10)
     oreNether('byg:emeraldite_ore', 0, 64, 1, 13)
     oreNether('tconstruct:cobalt_ore', 0, 64, 3, 11)
+    oreNether('rftoolsbase:dimensionalshard_nether', 0, 64, 3, 0)
     oreEnd('tinkers_reforged:kepu_ore', 30, 64, 3, 11)
     oreEnd('rftoolsbase:dimensionalshard_end', 0, 30, 1, 0)
     oreOverworld('ftbic:iridium_ore', -30, 0, 3, 0)
@@ -90,6 +91,7 @@ onEvent('recipes', e => {
     oreOverworld('deepresonance:resonating_ore_stone', -10, 40, 5, 14)
     oreOverworld('miniutilities:ender_ore', 0, 45, 20, 9)
     oreOverworld('powah:uraninite_ore', -40, 30, 5, 5)
+    oreOverworld('rftoolsbase:dimensionalshard_overworld', -64, 30, 3, 0)
 
 
 })
