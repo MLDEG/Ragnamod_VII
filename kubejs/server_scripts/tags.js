@@ -223,6 +223,9 @@ onEvent('tags.items', e => {
     //Forge Furnace
     e.add('forge:basic_furnaces', ['minecraft:furnace', 'quark:deepslate_furnace', 'quark:blackstone_furnace'])
 
+    //Logs that burn
+    e.add('minecraft:logs_that_burn', ['twilightforest:dark_log', 'twilightforest:dark_wood', 'twilightforest:stripped_dark_wood', 'twilightforest:stripped_dark_log'])
+
     //colored runes Quark
     e.add('quark:colored_runes', ['quark:rainbow_rune', 'quark:red_rune', 'quark:brown_rune', 'quark:purple_rune', 'quark:light_gray_rune', 'quark:pink_rune', 'quark:yellow_rune', 'quark:magenta_rune', 'quark:white_rune', 'quark:black_rune', 'quark:green_rune', 'quark:blue_rune', 'quark:cyan_rune', 'quark:gray_rune', 'quark:lime_rune', 'quark:light_blue_rune', 'quark:orange_rune'])
 
@@ -270,6 +273,9 @@ onEvent('tags.blocks', e => {
     //Unknown tag
     e.add('forge:ores', 'ragnamod_seven:unknown_ore')
     e.add('forge:ores/unknown', 'ragnamod_seven:unknown_ore')
+
+    //Candles tag
+    e.add('minecraft:candles', ['hexerei:candle_cyan', 'hexerei:candle_red', 'hexerei:candle_purple', 'hexerei:candle_pink', 'hexerei:candle_orange', 'hexerei:candle_lime', 'hexerei:candle_black', 'hexerei:candle_blue', 'supplementaries:candle_holder', 'supplementaries:candle_holder_black', 'supplementaries:candle_holder_red', 'supplementaries:candle_holder_green', 'supplementaries:candle_holder_brown', 'supplementaries:candle_holder_blue', 'supplementaries:candle_holder_purple', 'supplementaries:candle_holder_cyan', 'supplementaries:candle_holder_light_gray', 'hexerei:candle', 'supplementaries:candle_holder_pink', 'supplementaries:candle_holder_lime', 'supplementaries:candle_holder_yellow', 'supplementaries:candle_holder_light_blue', 'supplementaries:candle_holder_magenta', 'supplementaries:candle_holder_orange', 'supplementaries:candle_holder_white', 'supplementaries:candle_holder_gray', 'hexerei:candle_yellow'])
 
 
 })
