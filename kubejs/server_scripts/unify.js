@@ -45,6 +45,14 @@ onEvent('recipes', function (e) {
     function crusherIE(input, output) { e.custom({ "type": "immersiveengineering:crusher", "secondaries": [], "result": { "item": output }, "input": { "item": input }, "energy": 3000 }) }
     //Crusher Immersive
     function crusherIETag(input, output) { e.custom({ "type": "immersiveengineering:crusher", "secondaries": [], "result": { "item": output }, "input": { "tag": input }, "energy": 3000 }) }
+    //Fermenter
+    function fermenter(input, output, outamount) { e.custom({ "type": "immersiveengineering:fermenter", "fluid": { "fluid": output, "amount": outamount }, "input": { "item": input }, "energy": 6400 }) }
+    //Squeezer
+    function squeezer(input, output, outamount) { e.custom({ "type": "immersiveengineering:squeezer", "fluid": { "fluid": output, "amount": outamount }, "input": { "tag": input }, "energy": 6400 }) }
+    //Thermopneumatic Proccesing Plant
+    function thermo_plant(input, output, outamount) { e.custom({ "type": "pneumaticcraft:thermo_plant", "item_input": { "item": input }, "fluid_input": { "type": "pneumaticcraft:fluid", "tag": "pneumaticcraft:yeast_culture", "amount": 100 }, "fluid_output": { "fluid": output, "amount": outamount }, "temperature": { "min_temp": 303, "max_temp": 333 }, "exothermic": true }) }
+    //Thermopneumatic Proccesing Plant tag
+    function thermo_planttag(input, output, outamount) { e.custom({ "type": "pneumaticcraft:thermo_plant", "item_input": { "tag": input }, "fluid_output": { "fluid": output, "amount": outamount }, "temperature": { "min_temp": 303, "max_temp": 333 }, "exothermic": true }) }
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
@@ -618,6 +626,30 @@ onEvent('recipes', function (e) {
     ['reliquary:bat_wing'].forEach(I => { replaceIO(I, 'forbidden_arcanus:bat_wing') });
     ['architects_palette:withered_bone', 'tconstruct:necrotic_bone'].forEach(I => { replaceIO(I, 'bhc:wither_bone') });
     ['forge:silicon', 'ae2:silicon'].forEach(I => { replaceIO(I, 'ftbic:silicon') });
+    /**********************Ethanol Unify*************************/
+    fermenter('minecraft:potato', 'immersiveengineering:ethanol', 80)
+    fermenter('minecraft:melon_slice', 'immersiveengineering:ethanol', 20)
+    fermenter('minecraft:sweet_berries', 'immersiveengineering:ethanol', 50)
+    fermenter('minecraft:apple', 'immersiveengineering:ethanol', 80)
+    fermenter('minecraft:sugar_cane', 'immersiveengineering:ethanol', 80)
+    fermenter('minecraft:honey_bottle', 'immersiveengineering:ethanol', 250)
+    fermenter('minecraft:glow_berries', 'immersiveengineering:ethanol', 100)
+    fermenter('minecraft:beetroot', 'immersiveengineering:ethanol', 40)
+    fermenter('minecraft:poisonous_potato', 'immersiveengineering:ethanol', 160)
+    thermo_plant('minecraft:potato', 'pneumaticcraft:ethanol', 100)
+    thermo_plant('minecraft:melon_slice', 'pneumaticcraft:ethanol', 40)
+    thermo_plant('minecraft:sweet_berries', 'pneumaticcraft:ethanol', 70)
+    thermo_plant('minecraft:apple', 'pneumaticcraft:ethanol', 100)
+    thermo_plant('minecraft:sugar_cane', 'pneumaticcraft:ethanol', 100)
+    thermo_plant('minecraft:honey_bottle', 'pneumaticcraft:ethanol', 270)
+    thermo_plant('minecraft:glow_berries', 'pneumaticcraft:ethanol', 120)
+    thermo_plant('minecraft:beetroot', 'pneumaticcraft:ethanol', 60)
+    thermo_plant('minecraft:poisonous_potato', 'pneumaticcraft:ethanol', 180)
+    /**********************Seed/Vegetable Oil  Unify*************************/
+    squeezer('forge:seeds', 'immersiveengineering:plantoil', 100)
+    squeezer('forge:crops', 'immersiveengineering:plantoil', 50)
+    thermo_planttag('forge:seeds', 'pneumaticcraft:vegetable_oil', 120)
+    thermo_planttag('forge:crops', 'pneumaticcraft:vegetable_oil', 70)
 
 
 })
