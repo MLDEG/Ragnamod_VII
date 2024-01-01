@@ -21,7 +21,7 @@ onEvent('item.registry', e => {
     e.create('gateways:catalyst_large_pearl_gate').displayName('Large Gate Catalyst')
     e.create('solarflux:photovoltaic_cell_7').displayName('Photovoltaic Cell VII')
     e.create('solarflux:photovoltaic_cell_8').displayName('Photovoltaic Cell VIII')
-    e.create('solarflux:photovoltaic_cell_9').displayName('Photovoltaic Cell XI')
+    e.create('solarflux:photovoltaic_cell_9').displayName('Photovoltaic Cell IX')
     e.create('solarflux:photovoltaic_cell_10').displayName('Photovoltaic Cell X')
     e.create('solarflux:photovoltaic_cell_11').displayName('Photovoltaic Cell XI')
     e.create('solarflux:photovoltaic_cell_12').displayName('Photovoltaic Cell XII')

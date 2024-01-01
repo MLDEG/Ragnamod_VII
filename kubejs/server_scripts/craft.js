@@ -2,6 +2,8 @@ onEvent('recipes', e => {
 
   //Enderpearl Block
   e.shapeless('9x minecraft:ender_pearl', 'miniutilities:ender_pearl_block')
+  //Snowblock Block
+  e.shapeless('4x minecraft:snowball', 'minecraft:snow_block')
   //Neutronium Ingot
   e.shapeless('9x avaritia:neutronium_ingot', 'avaritia:neutronium_block')
   //Pendorite Ingot
@@ -27,6 +29,10 @@ onEvent('recipes', e => {
   e.shapeless('4x minecraft:glowstone_dust', 'minecraft:glowstone')
   //Utheric shard
   e.shapeless('9x undergarden:utheric_shard', 'undergarden:utherium_crystal')
+  //Reset Shard from Spirit
+  e.shapeless('spirit:soul_crystal_shard', 'spirit:soul_crystal_shard')
+  e.shapeless('spirit:crude_soul_crystal', 'spirit:crude_soul_crystal')
+  e.shapeless('spirit:soul_crystal', 'spirit:soul_crystal')
   //Cataclysm
   //Ignitium
   e.shapeless('9x cataclysm:ignitium_ingot', 'cataclysm:ignitium_block')
@@ -71,6 +77,8 @@ onEvent('recipes', e => {
   //Pal Diamond
   e.blasting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
   e.smelting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
+  //Soul Stone
+  e.blasting('infernalexp:soul_stone', 'minecraft:soul_sand')
   /***************************Horsmen Stuff***************************/
   /***************************Death***************************/
   e.shapeless('9x ragnamod_seven:death_nugget', 'ragnamod_seven:death_ingot')
@@ -263,11 +271,16 @@ onEvent('recipes', e => {
     B: 'minecraft:clay_ball',
     C: 'undergarden:froststeel_ingot'
   })
+  //Quiver
+  e.shaped('supplementaries:quiver', ['BAB', ' B '], {
+    A: 'minecraft:string',
+    B: 'minecraft:leather'
+  })
   //Blood Magic Ritual Stone
   function ritualStone(input, output, catalyst) { e.custom({ "type": "create:item_application", "ingredients": [{ "item": input }, { "item": catalyst }], "results": [{ "item": output }] }) }
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:airritualstone', 'bloodmagic:airscribetool')
-  ritualStone('bloodmagic:ritualstone', 'bloodmagic:waterritualstone', 'bloodmagic:firescribetool')
-  ritualStone('bloodmagic:ritualstone', 'bloodmagic:fireritualstone', 'bloodmagic:waterscribetool')
+  ritualStone('bloodmagic:ritualstone', 'bloodmagic:fireritualstone', 'bloodmagic:firescribetool')
+  ritualStone('bloodmagic:ritualstone', 'bloodmagic:waterritualstone', 'bloodmagic:waterscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:earthritualstone', 'bloodmagic:earthscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:duskritualstone', 'bloodmagic:duskscribetool')
   //Chemical Core
@@ -338,6 +351,29 @@ onEvent('recipes', e => {
     ],
     "result": { "item": "ragnamod_seven:psi_stabilizer" }
   })
+  //Rune Castle Twilight Forest
+  function runeCastle(input, output) { e.custom({ "type": "create:deploying", "ingredients": [{ "item": 'twilightforest:castle_brick' }, { "item": input }], "results": [{ "item": output, "count": 1 }], "keepHeldItem": true }) }
+  runeCastle('quark:pink_rune', 'twilightforest:pink_castle_rune_brick')
+  runeCastle('quark:yellow_rune', 'twilightforest:yellow_castle_rune_brick')
+  runeCastle('quark:cyan_rune', 'twilightforest:blue_castle_rune_brick')
+  runeCastle('quark:purple_rune', 'twilightforest:violet_castle_rune_brick')
+  //Castle Roof Tile
+  e.shaped('8x twilightforest:castle_roof_tile', ['AAA', 'ABA', 'AAA'], {
+    A: 'twilightforest:thick_castle_brick',
+    B: '#forge:dyes/black'
+  })
+  //Castle Block
+  e.shaped('8x ragnamod_seven:castle_block', ['AAA', 'ABA', 'AAA'], {
+    A: 'twilightforest:castle_brick',
+    B: '#forge:dyes/cyan'
+  })
+  //Castle Doors
+  function doorCastle(input, output) { e.custom({ "type": "create:deploying", "ingredients": [{ "item": 'ragnamod_seven:castle_block' }, { "item": input }], "results": [{ "item": output, "count": 1 }], "keepHeldItem": true }) }
+  doorCastle('quark:pink_rune', 'twilightforest:pink_castle_door')
+  doorCastle('quark:yellow_rune', 'twilightforest:yellow_castle_door')
+  doorCastle('quark:cyan_rune', 'twilightforest:blue_castle_door')
+  doorCastle('quark:purple_rune', 'twilightforest:violet_castle_door')
+
   //Rune Forbidden Arcanus
   e.custom({
     "type": "create:deploying",
@@ -426,10 +462,26 @@ onEvent('recipes', e => {
     C: 'thermal_extra:machine_catalyst_augment_3'
   })
   //Creative AE2 Cells
-  e.shapeless(Item.of('appbot:creative_mana_cell', '{list:[{"#":0L,"#c":"appbot:mana"}]}'), ['appbot:mana_cell_housing', Item.of('botania:mana_tablet', '{creative:1b,mana:500000}')])
-  e.shapeless('appmek:creative_chemical_cell', ['appmek:chemical_cell_housing', 'mekanism:creative_chemical_tank'])
-  e.shapeless('ae2:creative_fluid_cell', ['ae2:fluid_cell_housing', 'mekanism:creative_fluid_tank'])
-  e.shapeless('ae2:creative_item_cell', ['ae2:item_cell_housing', 'functionalstorage:creative_vending_upgrade'])
+  e.shapeless('ae2:creative_item_cell', ['ae2additions:super_cell_housing', 'functionalstorage:creative_vending_upgrade'])
+  //Extreme Crafter
+  e.shaped('packagedavaritia:extreme_crafter', [
+    "MCM",
+    "RTR",
+    "MHM"
+  ], {
+    C: 'packagedauto:me_package_component',
+    T: Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:extreme_table"}'),
+    H: 'minecraft:hopper',
+    M: 'avaritia:crystal_matrix_ingot',
+    R: '#forge:dusts/redstone'
+  })
+  //Enchanter
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:enchanter"}'), ['ABA', ' C ', 'DDD'], {
+    A: 'ftbic:iridium_alloy',
+    B: 'minecraft:writable_book',
+    C: 'psi:psigem_block',
+    D: 'ftbic:advanced_alloy'
+  })
   //Creative WorldShaper
   e.custom({
     "type": "create:sequenced_assembly",
@@ -448,7 +500,7 @@ onEvent('recipes', e => {
         "type": "create:deploying",
         "ingredients": [
           { "item": "create:potato_cannon" },
-          { "item": "create:extendo_grip" }
+          { "item": "create:creative_motor" }
         ],
         "results": [{ "item": "create:potato_cannon" }]
       },
@@ -479,7 +531,7 @@ onEvent('recipes', e => {
         "type": "create:deploying",
         "ingredients": [
           { "item": "create:potato_cannon" },
-          { "item": "ragnamod_seven:sphere" }
+          { "item": "create:creative_fluid_tank" }
         ],
         "results": [{ "item": "create:potato_cannon" }]
       }

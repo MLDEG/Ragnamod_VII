@@ -5365,6 +5365,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "30CAC5F7D6D9CB6A"

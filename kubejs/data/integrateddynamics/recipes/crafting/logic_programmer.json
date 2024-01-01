@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "integrateddynamics:logic_programmer",
+  "ingredients": [
+    {
+      "item": "integrateddynamics:crystalized_menril_block"
+    },
+    {
+      "tag": "forge:workbenches"
+    }
+  ],
+  "result": {
+    "item": "integrateddynamics:logic_programmer"
+  }
+}

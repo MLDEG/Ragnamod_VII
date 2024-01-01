@@ -232,7 +232,7 @@
 			rewards: [{
 				id: "3BC2D181C57C58DF"
 				type: "item"
-				item: "createaddition:copper_wire"
+				item: "ftbic:copper_wire"
 				random_bonus: 7
 			}]
 		}

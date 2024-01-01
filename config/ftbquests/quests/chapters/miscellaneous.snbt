@@ -767,6 +767,7 @@
 				"4879AC817FF297B3"
 				"577D6202E19B2599"
 			]
+			dependency_requirement: "one_completed"
 			id: "09A85D028D01FE97"
 			tasks: [{
 				id: "67FDEB9FA5AF6BBC"
@@ -4096,7 +4097,7 @@
 		}
 		{
 			icon: "torchmaster:megatorch"
-			x: -1.0d
+			x: -0.5d
 			y: -0.5d
 			shape: "square"
 			description: [
@@ -4268,6 +4269,34 @@
 				id: "2F2ECBD64B633790"
 				type: "item"
 				item: "rainshield:rain_shield"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"Enchanter allows you to select the enchantment you want, but will not give you an enchantment with a level higher than vanilla."
+				""
+				"If you want an Unbreaking VIII, for example, you are going to need to use the enchantment table with Apotheosis or combine Unbreaking in an anvil."
+			]
+			dependencies: ["577D6202E19B2599"]
+			id: "350943FF5B63515D"
+			tasks: [{
+				id: "5964BBC2FAC3507D"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:enchanter"
+					}
+				}
+			}]
+			rewards: [{
+				id: "586636FA4CC7CEC8"
+				type: "item"
+				item: "minecraft:writable_book"
 			}]
 		}
 	]

@@ -45,6 +45,14 @@ onEvent('recipes', function (e) {
     function crusherIE(input, output) { e.custom({ "type": "immersiveengineering:crusher", "secondaries": [], "result": { "item": output }, "input": { "item": input }, "energy": 3000 }) }
     //Crusher Immersive
     function crusherIETag(input, output) { e.custom({ "type": "immersiveengineering:crusher", "secondaries": [], "result": { "item": output }, "input": { "tag": input }, "energy": 3000 }) }
+    //Fermenter
+    function fermenter(input, output, outamount) { e.custom({ "type": "immersiveengineering:fermenter", "fluid": { "fluid": output, "amount": outamount }, "input": { "item": input }, "energy": 6400 }) }
+    //Squeezer
+    function squeezer(input, output, outamount) { e.custom({ "type": "immersiveengineering:squeezer", "fluid": { "fluid": output, "amount": outamount }, "input": { "tag": input }, "energy": 6400 }) }
+    //Thermopneumatic Proccesing Plant
+    function thermo_plant(input, output, outamount) { e.custom({ "type": "pneumaticcraft:thermo_plant", "item_input": { "item": input }, "fluid_input": { "type": "pneumaticcraft:fluid", "tag": "pneumaticcraft:yeast_culture", "amount": 100 }, "fluid_output": { "fluid": output, "amount": outamount }, "temperature": { "min_temp": 303, "max_temp": 333 }, "exothermic": true }) }
+    //Thermopneumatic Proccesing Plant tag
+    function thermo_planttag(input, output, outamount) { e.custom({ "type": "pneumaticcraft:thermo_plant", "item_input": { "tag": input }, "fluid_output": { "fluid": output, "amount": outamount }, "temperature": { "min_temp": 303, "max_temp": 333 }, "exothermic": true }) }
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
@@ -164,6 +172,8 @@ onEvent('recipes', function (e) {
     crusherMeka('immersiveengineering:ingot_hop_graphite', 'immersiveengineering:dust_hop_graphite', 1);
     crusherMeka('chemlib:lithium_ingot', 'mekanism:dust_lithium', 1);
     crusherMeka('thermal:niter', 'thermal:niter_dust', 1);
+    crusherMeka('thermal:apatite', 'thermal:apatite_dust', 1);
+    crusherMeka('thermal:cinnabar', 'thermal:cinnabar_dust', 1);
     crusherMekaTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1);
     crusherOccu('minecraft:basalt', 'infernalexp:basalt_cobbled', 1, true);
     crusherOccu('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1, true);
@@ -206,11 +216,14 @@ onEvent('recipes', function (e) {
     crusherOccu('immersivepetroleum:petcoke', 'immersivepetroleum:petcoke_dust', 1, true);
     crusherOccu('mekanism:fluorite_gem', 'mekanism:dust_fluorite', 1, true);
     crusherOccu('thermal:niter', 'thermal:niter_dust', 1, true);
+    crusherOccu('thermal:apatite', 'thermal:apatite_dust', 1, true);
+    crusherOccu('thermal:cinnabar', 'thermal:cinnabar_dust', 1, true);
     crusherOccu('miniutilities:ender_ore', 'ae2:ender_dust', 2, false);
     crusherOccuTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1, true);
     crusherOccuTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1, true);
     crusherOccuTag('forge:gems/diamond', 'thermal:diamond_dust', 1, true);
     crusherOccuTag('forge:gems/emerald', 'thermal:emerald_dust', 1, true);
+    crusherOccuTag('forge:ores/niter', 'thermal:niter_dust', 2, false);
     crusherThermal('minecraft:basalt', 'infernalexp:basalt_cobbled', 1);
     crusherThermal('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherThermal('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
@@ -300,6 +313,8 @@ onEvent('recipes', function (e) {
     crusherFTB('immersiveengineering:ingot_hop_graphite', 1, 'immersiveengineering:dust_hop_graphite', 1);
     crusherFTB('chemlib:lithium_ingot', 1, 'mekanism:dust_lithium', 1);
     crusherFTB('thermal:niter', 1, 'thermal:niter_dust', 1);
+    crusherFTB('thermal:apatite', 1, 'thermal:apatite_dust', 1);
+    crusherFTB('thermal:cinnabar', 1, 'thermal:cinnabar_dust', 1);
     crusherFTBTag('forge:gems/emerald', 1, 'thermal:emerald_dust', 1);
     crusherFTBTag('forge:gems/certus_quartz', 1, 'ae2:certus_quartz_dust', 1);
     crusherFTBTag('forge:gems/amethyst', 1, 'thermal_extra:amethyst_dust', 1);
@@ -357,6 +372,9 @@ onEvent('recipes', function (e) {
     crusherCreate('immersiveengineering:ingot_hop_graphite', 'immersiveengineering:dust_hop_graphite');
     crusherCreate('immersivepetroleum:petcoke', 'immersivepetroleum:petcoke_dust');
     crusherCreate('mekanism:fluorite_gem', 'mekanism:dust_fluorite');
+    crusherCreate('thermal:apatite', 'thermal:apatite_dust');
+    crusherCreate('thermal:cinnabar', 'thermal:cinnabar_dust');
+    crusherCreate('minecraft:quartz', 'thermal:quartz_dust');
     crusherCreateTag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherCreateTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
     crusherIE('minecraft:basalt', 'infernalexp:basalt_cobbled');
@@ -401,6 +419,9 @@ onEvent('recipes', function (e) {
     crusherIE('minecraft:ender_pearl', 'ae2:ender_dust');
     crusherIE('minecraft:charcoal', 'ftbic:charcoal_dust');
     crusherIE('minecraft:lapis_lazuli', 'thermal:lapis_dust');
+    crusherIE('thermal:apatite', 'thermal:apatite_dust');
+    crusherIE('thermal:cinnabar', 'thermal:cinnabar_dust');
+    crusherIE('thermal:niter', 'thermal:niter_dust');
     crusherIETag('forge:gems/diamond', 'thermal:diamond_dust');
     crusherIETag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherIETag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust');
@@ -551,7 +572,6 @@ onEvent('recipes', function (e) {
     metalPress('immersiveengineering:mold_plate', 'thermal:signalum_ingot', 1, 'thermal:signalum_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal:lumium_ingot', 1, 'thermal:lumium_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'minecraft:netherite_ingot', 1, 'thermal:netherite_plate', 1);
-    metalPress('immersiveengineering:mold_plate', 'beyond_earth:desh_ingot', 1, 'beyond_earth:desh_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal_extra:shellite_ingot', 1, 'thermal_extra:shellite_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal_extra:dragonsteel_ingot', 1, 'thermal_extra:dragonsteel_plate', 1);
     metalPress('immersiveengineering:mold_plate', 'thermal:enderium_ingot', 1, 'ftbic:enderium_plate', 1);
@@ -561,7 +581,6 @@ onEvent('recipes', function (e) {
     multiPressPlate('beyond_earth:steel_ingot', 1, 'immersiveengineering:plate_steel');
     multiPressPlate('create:brass_ingot', 1, 'create:brass_sheet');
     multiPressPlate('create:zinc_ingot', 1, 'createaddition:zinc_sheet');
-    multiPressPlate('beyond_earth:desh_ingot', 1, 'beyond_earth:desh_plate');
     multiPressPlate('mekanism:ingot_uranium', 1, 'ftbic:uranium_plate');
     multiPressPlate('tinkers_reforged:aluminum_ingot', 1, 'ftbic:aluminum_plate');
     multiPressPlate('ftbic:iridium_ingot', 1, 'ftbic:iridium_plate');
@@ -607,6 +626,30 @@ onEvent('recipes', function (e) {
     ['reliquary:bat_wing'].forEach(I => { replaceIO(I, 'forbidden_arcanus:bat_wing') });
     ['architects_palette:withered_bone', 'tconstruct:necrotic_bone'].forEach(I => { replaceIO(I, 'bhc:wither_bone') });
     ['forge:silicon', 'ae2:silicon'].forEach(I => { replaceIO(I, 'ftbic:silicon') });
+    /**********************Ethanol Unify*************************/
+    fermenter('minecraft:potato', 'immersiveengineering:ethanol', 80)
+    fermenter('minecraft:melon_slice', 'immersiveengineering:ethanol', 20)
+    fermenter('minecraft:sweet_berries', 'immersiveengineering:ethanol', 50)
+    fermenter('minecraft:apple', 'immersiveengineering:ethanol', 80)
+    fermenter('minecraft:sugar_cane', 'immersiveengineering:ethanol', 80)
+    fermenter('minecraft:honey_bottle', 'immersiveengineering:ethanol', 250)
+    fermenter('minecraft:glow_berries', 'immersiveengineering:ethanol', 100)
+    fermenter('minecraft:beetroot', 'immersiveengineering:ethanol', 40)
+    fermenter('minecraft:poisonous_potato', 'immersiveengineering:ethanol', 160)
+    thermo_plant('minecraft:potato', 'pneumaticcraft:ethanol', 100)
+    thermo_plant('minecraft:melon_slice', 'pneumaticcraft:ethanol', 40)
+    thermo_plant('minecraft:sweet_berries', 'pneumaticcraft:ethanol', 70)
+    thermo_plant('minecraft:apple', 'pneumaticcraft:ethanol', 100)
+    thermo_plant('minecraft:sugar_cane', 'pneumaticcraft:ethanol', 100)
+    thermo_plant('minecraft:honey_bottle', 'pneumaticcraft:ethanol', 270)
+    thermo_plant('minecraft:glow_berries', 'pneumaticcraft:ethanol', 120)
+    thermo_plant('minecraft:beetroot', 'pneumaticcraft:ethanol', 60)
+    thermo_plant('minecraft:poisonous_potato', 'pneumaticcraft:ethanol', 180)
+    /**********************Seed/Vegetable Oil  Unify*************************/
+    squeezer('forge:seeds', 'immersiveengineering:plantoil', 100)
+    squeezer('forge:crops', 'immersiveengineering:plantoil', 50)
+    thermo_planttag('forge:seeds', 'pneumaticcraft:vegetable_oil', 120)
+    thermo_planttag('forge:crops', 'pneumaticcraft:vegetable_oil', 70)
 
 
 })

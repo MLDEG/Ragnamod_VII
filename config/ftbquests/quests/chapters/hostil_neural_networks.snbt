@@ -150,7 +150,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 6
 							id: "hostilenetworks:creeper"
 						}
 					}
@@ -193,7 +192,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 6
 							id: "hostilenetworks:zombified_piglin"
 						}
 					}
@@ -324,7 +322,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 6
 							id: "hostilenetworks:shulker"
 						}
 					}
@@ -367,7 +364,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 54
 							id: "hostilenetworks:twilightforest/death_tome"
 						}
 					}
@@ -440,7 +436,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 54
 							id: "hostilenetworks:undergarden_rotbeast"
 						}
 					}
@@ -455,7 +450,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 54
 							id: "hostilenetworks:undergarden_gloomper"
 						}
 					}
@@ -484,7 +478,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 1254
 							id: "hostilenetworks:blue_skies_stonelet"
 						}
 					}
@@ -499,7 +492,6 @@
 					Count: 1b
 					tag: {
 						data_model: {
-							data: 54
 							id: "hostilenetworks:blue_skies_cosmic_fox"
 						}
 					}

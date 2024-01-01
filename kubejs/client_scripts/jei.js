@@ -37,6 +37,9 @@ onEvent('jei.hide.items', e => {
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"beyond_earth:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"pneumaticcraft:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:crude_oil"}}]}}'),
+		Item.of('twilightdelight:ironwood_knife', '{Damage:0}').enchant('minecraft:knockback', 1),
+		Item.of('twilightdelight:steeleaf_knife', '{Damage:0}').enchant('minecraft:looting', 2),
+		Item.of('patchouli:guide_book', '{"patchouli:book":"sebastrnlib:sebastrn_mods_guide_book"}'),
 		'thermal:crude_oil_bucket',
 		'pneumaticcraft:oil_bucket',
 		'tconstruct:honey_bucket',
@@ -155,7 +158,7 @@ onEvent('jei.hide.items', e => {
 		'mekanism:dust_charcoal',
 		'immersiveengineering:dust_steel',
 		'chemlib:osmium_dust',
-		'ae2:ender_dust',
+		'thermal:ender_pearl_dust',
 		'ftbic:ender_dust',
 		'miniutilities:ender_dust',
 		'ftbic:obsidian_dust',
@@ -329,7 +332,6 @@ onEvent('jei.hide.items', e => {
 		'miniutilities:cursed_earth',
 		'miniutilities:blessed_earth',
 		'miniutilities:blursed_earth',
-		'avaritia:extreme_crafting_table',
 		'ragnamod_seven:black_sphere',
 		'ftbquests:missing_item',
 		'pneumaticcraft:creative_upgrade',
@@ -340,7 +342,58 @@ onEvent('jei.hide.items', e => {
 		'chemlib:cobalt_nugget',
 		'chemlib:cobalt_ingot',
 		'hostilenetworks:deep_learner',
-		'chickens:soul_chicken'
+		'chickens:soul_chicken',
+		'twilightdelight:fiery_knife',
+		'twilightdelight:knightmetal_knife',
+		'ae2additions:disk_item_256k',
+		'appmek:creative_chemical_cell',
+		'ae2:creative_fluid_cell',
+		'appbot:creative_mana_cell',
+		'avaritia:extreme_crafting_table',
+		'gemsnjewels:peridot_deepslate_ore_block',
+		'gemsnjewels:topaz_deepslate_ore_block',
+		'gemsnjewels:garnet_deepslate_ore_block',
+		'gemsnjewels:opal_deepslate_ore_block',
+		'gemsnjewels:amethyst_deepslate_ore_block',
+		'gemsnjewels:sapphire_deepslate_ore_block',
+		'gemsnjewels:ruby_deepslate_ore_block',
+		'gemsnjewels:emerald_deepslate_ore_block',
+		'gemsnjewels:pale_diamond_deepslate_ore_block',
+		'gemsnjewels:iolite_deepslate_ore_block',
+		'gemsnjewels:kunzite_deepslate_ore_block',
+		'gemsnjewels:ametrine_deepslate_ore_block',
+		'gemsnjewels:morganite_deepslate_ore_block',
+		'gemsnjewels:citrine_deepslate_ore_block',
+		'gemsnjewels:black_opal_deepslate_ore_block',
+		'gemsnjewels:spinel_deepslate_ore_block',
+		'gemsnjewels:tourmaline_deepslate_ore_block',
+		'gemsnjewels:tanzanite_deepslate_ore_block',
+		'gemsnjewels:alexandrite_deepslate_ore_block',
+		'gemsnjewels:zircon_deepslate_ore_block',
+		'gemsnjewels:aquamarine_deepslate_ore_block',
+		'gemsnjewels:topaz_nether_ore_block',
+		'gemsnjewels:garnet_nether_ore_block',
+		'gemsnjewels:opal_nether_ore_block',
+		'gemsnjewels:amethyst_nether_ore_block',
+		'gemsnjewels:sapphire_nether_ore_block',
+		'gemsnjewels:ruby_nether_ore_block',
+		'gemsnjewels:emerald_nether_ore_block',
+		'gemsnjewels:diamond_nether_ore_block',
+		'gemsnjewels:pale_diamond_nether_ore_block',
+		'gemsnjewels:v_emerald_nether_ore_block',
+		'gemsnjewels:iolite_nether_ore_block',
+		'gemsnjewels:kunzite_nether_ore_block',
+		'gemsnjewels:ametrine_nether_ore_block',
+		'gemsnjewels:morganite_nether_ore_block',
+		'gemsnjewels:citrine_nether_ore_block',
+		'gemsnjewels:black_opal_nether_ore_block',
+		'gemsnjewels:spinel_nether_ore_block',
+		'gemsnjewels:tourmaline_nether_ore_block',
+		'gemsnjewels:tanzanite_nether_ore_block',
+		'gemsnjewels:alexandrite_nether_ore_block',
+		'gemsnjewels:zircon_nether_ore_block',
+		'gemsnjewels:aquamarine_nether_ore_block',
+		'gemsnjewels:peridot_nether_ore_block',
 	])
 })
 
@@ -392,8 +445,8 @@ onEvent('jei.hide.fluids', event => {
 })
 
 onEvent('jei.remove.categories', e => {
-	// console.log(e.getCategoryIds())	
 	e.remove('twilightforest:uncrafting')
+	e.remove('avaritia:extreme_crafting')
 })
 
 onEvent('jei.information', e => {
@@ -460,6 +513,14 @@ onEvent('item.tooltip', tooltip => {
 		if (item.nbt?.machine.match("ragnamod_7:soul_pedestal")) {
 			text.add(1, Text.of('§cUse the Soul Pedestal from Spirit.'))
 		}
+	})
+	//Gems and Jewels
+	tooltip.addAdvanced(['gemsnjewels:peridot_ore_block', 'gemsnjewels:topaz_ore_block', 'gemsnjewels:garnet_ore_block', 'gemsnjewels:opal_ore_block', 'gemsnjewels:amethyst_ore_block', 'gemsnjewels:sapphire_ore_block', 'gemsnjewels:ruby_ore_block', 'gemsnjewels:emerald_ore_block', 'gemsnjewels:pale_diamond_ore_block', 'gemsnjewels:bright_opal_ore_block', 'gemsnjewels:iolite_ore_block', 'gemsnjewels:kunzite_ore_block', 'gemsnjewels:ametrine_ore_block', 'gemsnjewels:morganite_ore_block', 'gemsnjewels:citrine_ore_block', 'gemsnjewels:black_opal_ore_block', 'gemsnjewels:spinel_ore_block', 'gemsnjewels:tourmaline_ore_block', 'gemsnjewels:tanzanite_ore_block', 'gemsnjewels:alexandrite_ore_block', 'gemsnjewels:zircon_ore_block', 'gemsnjewels:aquamarine_ore_block'], (item, advanced, text) => {
+		text.add(1, Text.of('§5§oGet it in Occultism Miners'))
+	})
+	//Dimensional Shard Ore
+	tooltip.addAdvanced(['rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_end'], (item, advanced, text) => {
+		text.add(1, Text.of('§5§oDon\'t spawn in world'))
 	})
 
 	//Horsmen Essence

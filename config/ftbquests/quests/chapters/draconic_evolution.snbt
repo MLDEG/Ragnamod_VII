@@ -194,7 +194,7 @@
 			description: [
 				"The Dislocator is used to teleport you."
 				""
-				"Shift right-click to set the teleportation position, then you can just right-click it to teleport you to the location (work in any dimension) or you can put it on a Dislocator Pedestal to not don't use the durability."
+				"Shift right-click to set the teleportation position, then you can just right-click it to teleport you to the location (work in any dimension) or you can put it on a Dislocator Pedestal to not use the durability."
 			]
 			dependencies: [
 				"57F807CF8460DB9D"

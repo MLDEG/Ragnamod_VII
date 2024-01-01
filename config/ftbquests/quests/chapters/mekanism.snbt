@@ -323,7 +323,7 @@
 			rewards: [{
 				id: "45F63E4BBA9D5303"
 				type: "item"
-				item: "mekanism:block_steel"
+				item: "beyond_earth:steel_block"
 			}]
 		}
 		{

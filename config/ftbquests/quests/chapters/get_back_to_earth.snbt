@@ -603,8 +603,8 @@
 			y: -11.0d
 			shape: "circle"
 			description: [
-				"With this catalyst you can return, from the overworld, to the Undergarden and therefore by definition return to the Twilight Forest by making a portal and using this same catalyst to open a new portal."
-				""
+				"With this catalyst you can return, from the overworld, to the Undergarden, by making a portal like the image below, and therefore by definition return to the Twilight Forest by making a twilight portal (the one with flower around a 2x2 pool of water) and using this same catalyst to open a new portal."
+				"{image:ftbquests:textures/quests/undergarden_portal.png width:150 height:100 align:1}"
 				"After that, I recommend you to craft a Tempad to easily in and out from any dimension."
 			]
 			dependencies: ["4543AD330BD0A901"]

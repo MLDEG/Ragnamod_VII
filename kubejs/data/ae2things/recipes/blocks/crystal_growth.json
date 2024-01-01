@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["aba", "aca", "ada"],
+  "key": {
+    "a": {
+      "item": "ae2:quartz_growth_accelerator"
+    },
+    "b": {
+      "item": "minecraft:hopper"
+    },
+    "c": {
+      "tag": "forge:chests/wooden"
+    },
+    "d": {
+      "item": "ae2:fluix_glass_cable"
+    }
+  },
+  "result": {
+    "item": "ae2things:crystal_growth"
+  }
+}

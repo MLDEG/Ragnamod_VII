@@ -1,0 +1,21 @@
+#IMPORTANT NOTICE:
+#THIS IS ONLY THE COMMON CONFIG. It does not contain all the values adjustable for More Immersive Wires
+#The settings have been moved to more_immersive_wires-server.toml
+#That file is PER WORLD, meaning you have to go into 'saves/<world name>/serverconfig' to adjust it. Those changes will then only apply for THAT WORLD.
+#You can then take that config file and put it in the 'defaultconfigs' folder to make it apply automatically to all NEW worlds you generate FROM THERE ON.
+#This may appear confusing to many of you, but it is a new sensible way to handle configuration, because the server configuration is synced when playing multiplayer.
+importantInfo = true
+
+["FTBIC TOP"]
+	#How to display FTBIC Zaps: 0 = do not show, 1 = show in a bar, 2 = show as text
+	#Range: 0 ~ 2
+	showZaps = 1
+	#Format for displaying Zaps
+	zapFormat = "COMPACT"
+	#Color for the Zap bar
+	zapbarFilledColor = "ffdd0000"
+	#Alternate color for the Zap bar
+	zapbarAlternateFilledColor = "ff430000"
+	#Color for the Zap bar border
+	zapbarBorderColor = "ff555555"
+

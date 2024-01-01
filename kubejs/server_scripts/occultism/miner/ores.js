@@ -1,7 +1,7 @@
 onEvent('recipes', e => {
 
   //Miner "ores" "master" "basic_resources" "deeps"
-  function occultismMiner(type, ore, weight){e.custom({"type": "occultism:miner","ingredient": {"tag": "occultism:miners/"+type},"result": {"item": ore},"weight": weight})}
+  function occultismMiner(type, ore, weight) { e.custom({ "type": "occultism:miner", "ingredient": { "tag": "occultism:miners/" + type }, "result": { "item": ore }, "weight": weight }) }
 
   occultismMiner('ores', 'gemsnjewels:pale_diamond_ore_block', 100)
   occultismMiner('ores', 'gemsnjewels:aquamarine_ore_block', 400)
@@ -36,6 +36,7 @@ onEvent('recipes', e => {
   occultismMiner('ores', 'undergarden:shiverstone_froststeel_ore', 100)
   occultismMiner('ores', 'undergarden:depthrock_utherium_ore', 100)
   occultismMiner('ores', 'undergarden:depthrock_regalium_ore', 100)
+  occultismMiner('ores', 'minecraft:ancient_debris', 50)
   occultismMiner('master', 'miningmaster:air_malachite_ore', 200)
   occultismMiner('master', 'miningmaster:fire_ruby_ore', 300)
   occultismMiner('master', 'miningmaster:ice_sapphire_ore', 300)
@@ -75,6 +76,7 @@ onEvent('recipes', e => {
   occultismMiner('basic_resources', 'mekanism:uranium_ore', 550)
   occultismMiner('basic_resources', 'mekanism:osmium_ore', 650)
   occultismMiner('basic_resources', 'ftbic:iridium_ore', 250)
+  occultismMiner('basic_resources', 'ae2:quartz_ore', 250)
   occultismMiner('basic_resources', 'rftoolsbase:dimensionalshard_overworld', 100)
   occultismMiner('basic_resources', 'miniutilities:ender_ore', 500)
   occultismMiner('basic_resources', 'forbidden_arcanus:xpetrified_ore', 150)
@@ -112,6 +114,7 @@ onEvent('recipes', e => {
   occultismMiner('deeps', 'tinkers_reforged:deepslate_red_beryl_ore', 400)
   occultismMiner('deeps', 'forbidden_arcanus:deepslate_arcane_crystal_ore', 500)
   occultismMiner('deeps', 'ftbic:deepslate_iridium_ore', 250)
+  occultismMiner('deeps', 'ae2:deepslate_quartz_ore', 250)
   occultismMiner('deeps', 'evilcraft:dark_ore_deepslate', 300)
 
-  })
+})

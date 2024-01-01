@@ -101,7 +101,7 @@
 			x: -3.0d
 			y: 0.0d
 			shape: "square"
-			description: ["Craft or Find a stack of Dimensional Shard."]
+			description: ["Craft a stack of Dimensional Shard."]
 			dependencies: ["6BAADB4B4E44097C"]
 			size: 1.5d
 			id: "0000000000000AF5"
