@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube",
+  "loader": "forge:obj",
+  "model": "xnet:models/block/antenna_dish.obj",
+  "textures": {
+    "particle": "xnet:block/antenna"
+  },
+  "flip-v": true
+}
