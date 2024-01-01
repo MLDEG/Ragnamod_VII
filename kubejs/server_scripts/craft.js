@@ -29,6 +29,10 @@ onEvent('recipes', e => {
   e.shapeless('4x minecraft:glowstone_dust', 'minecraft:glowstone')
   //Utheric shard
   e.shapeless('9x undergarden:utheric_shard', 'undergarden:utherium_crystal')
+  //Reset Shard from Spirit
+  e.shapeless('spirit:soul_crystal_shard', 'spirit:soul_crystal_shard')
+  e.shapeless('spirit:crude_soul_crystal', 'spirit:crude_soul_crystal')
+  e.shapeless('spirit:soul_crystal', 'spirit:soul_crystal')
   //Cataclysm
   //Ignitium
   e.shapeless('9x cataclysm:ignitium_ingot', 'cataclysm:ignitium_block')
