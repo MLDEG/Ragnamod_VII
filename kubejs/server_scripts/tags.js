@@ -157,7 +157,7 @@ onEvent('tags.items', e => {
     //Remove Other
     e.remove('forge:mushrooms', 'byg:white_puffball_cap')
     e.remove('byg:mushrooms', 'byg:white_puffball_cap')
-    e.remove('forge:rods/treated_wood', 'immersiveengineering:stick_treated')
+    e.remove('forge:rods/wooden', 'immersiveengineering:stick_treated')
     e.remove('forge:silicon', 'ae2:silicon')
     e.remove('forge:bitumen', 'immersivepetroleum:bitumen')
     e.remove('forge:slag', 'immersiveengineering:slag')
