@@ -54,7 +54,7 @@
 		#Gravity Normalizing duration using energy
 		energyDuration = 1
 		#Durability usage for gravity normalizing
-		durabilityUsing = 1
+		durabilityUsing = 0
 		#Gravity Normalizing duration using durability
 		durabilityDuration = 60
 
@@ -64,7 +64,7 @@
 		#Space fire proof duration using energy
 		energyDuration = 1
 		#Durability usage for space fire proof
-		durabilityUsing = 1
+		durabilityUsing = 0
 		#Space fire proof duration using durability
 		durabilityDuration = 60
 
@@ -74,7 +74,7 @@
 		#Venus acid proof duration using energy
 		energyDuration = 1
 		#Durability usage for venus acid proof
-		durabilityUsing = 1
+		durabilityUsing = 0
 		#Venus acid proof duration using durability
 		durabilityDuration = 60
 
