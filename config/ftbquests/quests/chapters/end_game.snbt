@@ -293,10 +293,13 @@
 			}
 			x: 2.0d
 			y: 0.0d
-			shape: "square"
+			shape: "gear"
 			description: [
-				"The Focus Entangled is a multiblock used to craft certain blocks using Unknown Ingot Blocks, a Focus of Summoning and a Box of Eternal Closure with a specifics spirit trap inside !"
+				"The Focus Entangled is a multiblock used to craft certain blocks using Unknown Blocks, a Focus of Summoning and a Box of Eternal Closure with a specifics spirit trap inside !"
 				"{image:ftbquests:textures/quests/focus_entangled.png width:150 height:100 align:1}"
+				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "26925430D2D6853C"
@@ -425,13 +428,17 @@
 			}
 			x: 12.0d
 			y: 0.0d
-			shape: "square"
+			shape: "gear"
 			description: [
 				"The Singularity Catalyst is a multiblock that combine 5 Singularities into an Agglomerate Matter."
 				"{image:ftbquests:textures/quests/singularity_catalyst.png width:150 height:100 align:1}"
 				"You need to make a Black Hole from Forbidden Arcanus in the center of the structure (remember, throw a Dark Matter and a Corrupti Dust together)."
 				""
 				"Also, the 4 Eternal Obsidian Skull are not shown in the hologram of the multiblock, but you can place facing where you want."
+				""
+				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: ["5297052C3503826D"]
 			size: 2.0d
@@ -504,7 +511,7 @@
 		{
 			x: 11.0d
 			y: 2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Thermal!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -530,7 +537,7 @@
 		{
 			x: 13.5d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Space!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -556,7 +563,7 @@
 		{
 			x: 13.5d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of PSI!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -582,7 +589,7 @@
 		{
 			x: 13.0d
 			y: -2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Evil Craft!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -608,7 +615,7 @@
 		{
 			x: 10.5d
 			y: 0.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Tech!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -634,7 +641,7 @@
 		{
 			x: 10.5d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Pneumaticcraft!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -660,7 +667,7 @@
 		{
 			x: 12.0d
 			y: 2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Blue Skies!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -686,7 +693,7 @@
 		{
 			x: 11.5d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Powah!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -712,7 +719,7 @@
 		{
 			x: 13.5d
 			y: -0.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Create!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -738,7 +745,7 @@
 		{
 			x: 12.0d
 			y: -2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Twilight Forest!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -764,7 +771,7 @@
 		{
 			x: 9.5d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of AE2!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -790,7 +797,7 @@
 		{
 			x: 11.0d
 			y: -2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Forbidden Arcanus!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -816,7 +823,7 @@
 		{
 			x: 11.5d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Blood Magic!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -842,7 +849,7 @@
 		{
 			x: 12.5d
 			y: -1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Mekanism!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -868,7 +875,7 @@
 		{
 			x: 12.5d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Botania!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -894,7 +901,7 @@
 		{
 			x: 9.5d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Architect Pallet Bricks!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -920,7 +927,7 @@
 		{
 			x: 13.0d
 			y: 2.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Undergarden!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -946,7 +953,7 @@
 		{
 			x: 10.5d
 			y: -0.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of FTBIC!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -972,7 +979,7 @@
 		{
 			x: 13.5d
 			y: 0.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Mobs!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -998,7 +1005,7 @@
 		{
 			x: 14.5d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Minecraft!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -1024,7 +1031,7 @@
 		{
 			x: 14.5d
 			y: -1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Minecraft!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -1050,7 +1057,7 @@
 		{
 			x: 14.5d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Minecraft!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -1076,7 +1083,7 @@
 		{
 			x: 9.5d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Tinkers Construct!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -1102,7 +1109,7 @@
 		{
 			x: 10.5d
 			y: 1.5d
-			shape: "square"
+			shape: "circle"
 			description: ["Craft this Agglomerate Matter using 5 singularities of Ars Nouveau!"]
 			dependencies: [
 				"38512A09C28B8098"
@@ -1130,7 +1137,7 @@
 			icon: "ragnamod_seven:black_sphere"
 			x: -5.0d
 			y: 0.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"The BLACK SPHERE is a huge multiblock structure needed to craft the Sphere of All Things !"
 				"{image:ftbquests:textures/quests/black_sphere.png width:150 height:100 align:1}"

@@ -1535,9 +1535,20 @@
 			}]
 		}
 		{
-			title: "Packeged Auto"
+			title: "Packaged Auto"
 			x: -2.0d
 			y: -1.0d
+			shape: "square"
+			description: [
+				"The PackagedAuto mod allows you to create patterns for Applied with 81 different items."
+				""
+				"The Packaged Recipe Encoder is used to encode your pattern (using Package Recipe Holder)."
+				"You need to encode 2 Recipe Holder, one for your Packager, the other for the Unpackager, you don't need to connect this block to your ME System."
+				""
+				"The Packager need to be on your ME System, it will collect item from your network to packaged them."
+				""
+				"The Unpackager need also to be connected to your ME System and it will unload packeged to the machine or inventory it connect (like the Pattern Encoder)"
+			]
 			dependencies: ["0B1D5E77E82B17AB"]
 			id: "2F7F6C489C187AAB"
 			tasks: [

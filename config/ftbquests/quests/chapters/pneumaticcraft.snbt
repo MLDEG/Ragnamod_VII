@@ -12,7 +12,7 @@
 			title: "Pressure Chamber"
 			x: 8.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: [
 				"The Pressure Chamber is a multiblock structure mainly used to compress various materials into others."
 				"It is made by creating a hollow cube out of Pressure Chamber Walls/Windows.The size of the cube can vary from 3x3x3 to 5x5x5."
@@ -892,7 +892,7 @@
 			title: "Plastic Sheet"
 			x: 5.0d
 			y: -3.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"To get plastic sheet you have to put your molten plastic in the world, and it will instantly turn into plastic sheeting."
 				""
@@ -1063,7 +1063,7 @@
 			title: "Compressed Iron Ingot"
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Compressed Iron Ingot is made by exploding Iron Ingots with TNT."]
 			dependencies: ["4ECF8A0985D2EC5D"]
 			size: 2.0d

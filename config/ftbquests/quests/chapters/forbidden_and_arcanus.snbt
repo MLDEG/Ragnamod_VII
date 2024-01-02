@@ -794,6 +794,12 @@
 		{
 			x: 2.5d
 			y: 2.0d
+			shape: "square"
+			description: [
+				"You can find Yellow Orchid in Flower Forest biome."
+				""
+				"Use your Nature's Compass."
+			]
 			dependencies: ["49566F6C3DE4A0A0"]
 			id: "4D4C800B96F8F4A7"
 			tasks: [{

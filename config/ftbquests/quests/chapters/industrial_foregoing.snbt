@@ -11,7 +11,7 @@
 		{
 			x: 12.5d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["When all the other Mycelial Generator are working, this Reactor produce 25M RF/t"]
 			dependencies: [
 				"00000000000007BA"
@@ -569,7 +569,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["The pity Machine Frame is the first tier of Machine frame in Industrial Foregoing."]
 			dependencies: ["594B09B9BA7FD7C3"]
 			size: 1.5d
@@ -796,7 +796,7 @@
 			title: "Plastic"
 			x: 5.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["Collect Plastics."]
 			dependencies: [
 				"00000000000007DC"

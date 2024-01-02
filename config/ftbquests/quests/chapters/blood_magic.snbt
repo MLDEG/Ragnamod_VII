@@ -1751,6 +1751,10 @@
 				"The Will Factory allows you to quickly farm Will Crystals."
 				"{image:ftbquests:textures/quests/custom_will_factory.png width:150 height:100 align:1}"
 				"You can either use an existing Resonance of the Faceted Crystal ritual and build the multiblock needed to operate the Factory, or build the multiblock yourself using the requested blocks from the quest book"
+				""
+				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: [
 				"0221387E12A17F19"

@@ -1261,6 +1261,10 @@
 				"This multiblock doesn't consume anything, but it needs a Source Jar full of Source on top of it to work."
 				""
 				"And yes, \"Imprégnation\" is the french word for \"Imbuement\". =)"
+				""
+				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: [
 				"5766C8B9E850C186"

@@ -125,7 +125,7 @@
 			title: "Psidust"
 			x: 2.0d
 			y: -1.5d
-			shape: "square"
+			shape: "octagon"
 			description: ["To get Psidust you have to shoot Redstone Dust with your Focusing Rod, and to get your Focusing Rod simply put your Iron or Gold Rod Frame in your Rod Constructor."]
 			dependencies: [
 				"0000000000000A7E"
@@ -151,7 +151,7 @@
 			title: "Psimetal"
 			x: 2.0d
 			y: 1.5d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"To get Psimetal Ingots you need to put the \"Trick:Infusion\" on a Node and insert them in your Focusing Rod."
 				"{image:ftbquests:textures/quests/psi_psimetal.png width:150 height:100 align:1}"
@@ -181,7 +181,7 @@
 			title: "Psigem"
 			x: 8.0d
 			y: 1.5d
-			shape: "square"
+			shape: "octagon"
 			description: ["To get your Psigem, same deal than the Psimetal Ingots, but you're going to need another spell, The \"Greater Infusion\". But be careful, this time you need another Focusing Rod, make one with your Psimetal Ingots."]
 			dependencies: [
 				"0000000000000A82"
@@ -257,7 +257,7 @@
 			title: "Psimetal Exosuit"
 			x: 2.0d
 			y: 4.0d
-			shape: "square"
+			shape: "rsquare"
 			description: [
 				"Craft a Psimetal Exosuit."
 				"It's used to the End Game armor."
@@ -551,7 +551,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Rod Constructor is used to construct a Rod from its component parts, and it loads non-empty Spell Nodes into Rods."]
 			dependencies: ["6C08FEEEC41D0620"]
 			size: 2.0d
@@ -571,7 +571,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Spell Inscriber is used to write and compile spells, and copied into Spell Nodes to be cast."]
 			dependencies: [
 				"0000000000000A88"
@@ -952,10 +952,13 @@
 			}
 			x: -1.5d
 			y: 0.0d
-			shape: "square"
+			shape: "gear"
 			description: [
 				"The PSI Stabilizer is a multiblock that farm for you the stuff you put inside from PSI."
 				"{image:ftbquests:textures/quests/psi_stabilizer.png width:150 height:100 align:1}"
+				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: [
 				"0000000000000AAB"
