@@ -1370,6 +1370,8 @@
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_conquest.png width:150 height:100 align:1}"
 				"Beat Conquest to get his Essence !"
+				""
+				"§cBe sure to enable Command blocks on server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "7378AC5DC34DC7FA"
@@ -1392,6 +1394,8 @@
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_war.png width:150 height:100 align:1}"
 				"Beat War to get his Essence !"
+				""
+				"§cBe sure to enable Command blocks on server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "463778EA15DBED66"
@@ -1414,6 +1418,8 @@
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_famine.png width:150 height:100 align:1}"
 				"Beat Famine to get his Essence !"
+				""
+				"§cBe sure to enable Command blocks on server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "78A87D7F58A02BA8"
@@ -1436,6 +1442,8 @@
 				"In the Final Castle of the Twilight Forest, you can find the Four Horsemen."
 				"{image:ftbquests:textures/quests/twilight_death.png width:150 height:100 align:1}"
 				"Beat Death to get his Essence !"
+				""
+				"§cBe sure to enable Command blocks on server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "6B762DC0D8C1CDB5"
