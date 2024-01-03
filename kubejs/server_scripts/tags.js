@@ -226,8 +226,11 @@ onEvent('tags.items', e => {
     //Logs that burn
     e.add('minecraft:logs_that_burn', ['twilightforest:dark_log', 'twilightforest:dark_wood', 'twilightforest:stripped_dark_wood', 'twilightforest:stripped_dark_log'])
 
-    //colored runes Quark
+    //Colored runes Quark
     e.add('quark:colored_runes', ['quark:rainbow_rune', 'quark:red_rune', 'quark:brown_rune', 'quark:purple_rune', 'quark:light_gray_rune', 'quark:pink_rune', 'quark:yellow_rune', 'quark:magenta_rune', 'quark:white_rune', 'quark:black_rune', 'quark:green_rune', 'quark:blue_rune', 'quark:cyan_rune', 'quark:gray_rune', 'quark:lime_rune', 'quark:light_blue_rune', 'quark:orange_rune'])
+
+    //Plastic
+    e.add('forge:plastic', 'pneumaticcraft:plastic')
 
     //Tags for Powah Items
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
@@ -247,6 +250,7 @@ onEvent('tags.items', e => {
     //Unknown tag
     e.add('forge:ores', 'ragnamod_seven:unknown_ore')
     e.add('forge:ores/unknown', 'ragnamod_seven:unknown_ore')
+
 })
 onEvent('tags.blocks', e => {
 
