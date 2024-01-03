@@ -43,7 +43,7 @@
 		{
 			icon: "create_sa:steam_engine"
 			x: -2.0d
-			y: 0.5d
+			y: 0.0d
 			description: [
 				"To share your quests with your friends, you need to create a team."
 				""
@@ -71,8 +71,8 @@
 		}
 		{
 			icon: "computercraft:printed_pages"
-			x: -1.0d
-			y: 1.5d
+			x: -1.5d
+			y: 1.0d
 			description: [
 				"Like I said, this modpack doesn't force you to play around with the quests."
 				""
@@ -104,7 +104,7 @@
 				}
 			}
 			x: 1.0d
-			y: 0.5d
+			y: 0.0d
 			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
 			dependencies: ["2C8AB1F55FB366FF"]
 			id: "47900538A09CE4F2"
@@ -117,8 +117,8 @@
 		{
 			title: "Fake Player"
 			icon: "computercraft:turtle_advanced"
-			x: 0.0d
-			y: 1.5d
+			x: 0.5d
+			y: 1.0d
 			description: [
 				"On this pack you have the FTB Chunks, which allows you to claim your chunks and protect them from any potential griefs."
 				""
@@ -135,6 +135,15 @@
 			id: "508A8EDCA5271990"
 			tasks: [{
 				id: "26A31CBD381D7BA3"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			id: "1CCB446F49264C47"
+			tasks: [{
+				id: "4594366B54D5BC86"
 				type: "checkmark"
 			}]
 		}
