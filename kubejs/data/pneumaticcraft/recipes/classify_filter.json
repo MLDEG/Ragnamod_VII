@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:logistics_core"
+    },
+    {
+      "tag": "forge:plastic"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:classify_filter"
+  }
+}

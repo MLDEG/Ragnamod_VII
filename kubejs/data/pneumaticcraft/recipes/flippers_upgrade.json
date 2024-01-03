@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LXL",
+    "XCX",
+    "LXL"
+  ],
+  "key": {
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "X": {
+      "tag": "forge:plastic"
+    },
+    "C": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:flippers_upgrade"
+  }
+}
