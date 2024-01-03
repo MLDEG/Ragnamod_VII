@@ -684,6 +684,7 @@ onEvent('recipes', e => {
         'gemsnjewels:nether_iolite_from_smelting',
         'beyond_earth_giselle_addon:compat/immersiveengineering/crafting/plate_desh_hammering',
         'beyond_earth_giselle_addon:blasting/iron_ingot_from_plate',
+        'beyond_earth_giselle_addon:smelting/iron_ingot_from_plate',
         'immersiveengineering:fermenter/apple',
         'immersiveengineering:fermenter/beetroot',
         'immersiveengineering:fermenter/glow_berries',

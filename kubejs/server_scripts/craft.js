@@ -1,8 +1,12 @@
 onEvent('recipes', e => {
 
+  //Red Beryl Block
+  e.shapeless('9x tinkers_reforged:red_beryl_gem', 'tinkers_reforged:red_beryl_block')
+  //Hureaulite Block
+  e.shapeless('9x tinkers_reforged:hureaulite_gem', 'tinkers_reforged:hureaulite_block')
   //Enderpearl Block
   e.shapeless('9x minecraft:ender_pearl', 'miniutilities:ender_pearl_block')
-  //Snowblock Block
+  //Snowblock
   e.shapeless('4x minecraft:snowball', 'minecraft:snow_block')
   //Neutronium Ingot
   e.shapeless('9x avaritia:neutronium_ingot', 'avaritia:neutronium_block')
