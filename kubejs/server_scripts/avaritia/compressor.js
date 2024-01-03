@@ -1,6 +1,7 @@
 onEvent('recipes', e => {
 
     function Singularity(input, output, amount) { e.custom({ "type": "avaritia:compressor", "result": { "item": output }, "cost": amount, "ingredients": [{ "item": input }] }) }
+    function Singularitytag(input, output, amount) { e.custom({ "type": "avaritia:compressor", "result": { "item": output }, "cost": amount, "ingredients": [{ "tag": input }] }) }
 
     // Singularity('in', 'out', 4269)
 
@@ -43,7 +44,6 @@ onEvent('recipes', e => {
     Singularity('ftbic:protein_bar', 'ragnamod_seven:ftbroteinbar_singularity', 4269)
     Singularity('ftbic:scrap', 'ragnamod_seven:scrap_singularity', 4269)
     Singularity('industrialforegoing:fertilizer', 'ragnamod_seven:fertilizer_singularity', 4269)
-    Singularity('industrialforegoing:plastic', 'ragnamod_seven:plastic_singularity', 4269)
     Singularity('integrateddynamics:logic_director', 'ragnamod_seven:logicdirector_singularity', 4269)
     Singularity('integrateddynamics:variable', 'ragnamod_seven:variablecard_singularity', 4269)
     Singularity('mekanism:electrolytic_core', 'ragnamod_seven:electrolytic_singularity', 4269)
@@ -125,5 +125,6 @@ onEvent('recipes', e => {
     Singularity('ars_nouveau:abjuration_essence', 'ragnamod_seven:abjuration_essence_singularity', 4269)
     Singularity('pneumaticcraft:programming_puzzle', 'ragnamod_seven:programming_puzzle_singularity', 4269)
     Singularity('pneumaticcraft:ingot_iron_compressed', 'ragnamod_seven:iron_compressed_singularity', 4269)
+    Singularitytag('forge:plastic', 'ragnamod_seven:plastic_singularity', 4269)
 
 })
