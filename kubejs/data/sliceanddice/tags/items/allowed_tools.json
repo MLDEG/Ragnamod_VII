@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
-    "#forge:tools/knives"
+    "#forge:tools/knives",
+    "occultism:butcher_knife"
   ]
 }
