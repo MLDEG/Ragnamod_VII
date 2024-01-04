@@ -1,5 +1,6 @@
 onEvent('recipes', e => {
-
+  //Crystal Matrix Block
+  e.shapeless('9x avaritia:crystal_matrix_ingot', 'avaritia:crystal_matrix_block')
   //Red Beryl Block
   e.shapeless('9x tinkers_reforged:red_beryl_gem', 'tinkers_reforged:red_beryl_block')
   //Hureaulite Block
