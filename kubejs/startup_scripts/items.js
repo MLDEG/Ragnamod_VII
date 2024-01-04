@@ -86,4 +86,5 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:holy_powders').displayName('Holy Magic Powders')
     e.create('ragnamod_seven:creative_tc_crystal').displayName("Creative Tinkers' Crystal").glow(true).maxStackSize(1)
     e.create('ragnamod_seven:alloy_matrix').displayName("§cMatrix Alloy").glow(true).maxStackSize(1)
+    e.create('ragnamod_seven:solid_nuclear_waste').displayName("Solid Nuclear Waste")
 })
