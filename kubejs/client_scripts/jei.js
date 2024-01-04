@@ -447,6 +447,7 @@ onEvent('jei.hide.fluids', event => {
 onEvent('jei.remove.categories', e => {
 	e.remove('twilightforest:uncrafting')
 	e.remove('avaritia:extreme_crafting')
+	e.remove('chickens:chicken_laying')
 })
 
 onEvent('jei.information', e => {
