@@ -2252,5 +2252,117 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:cake_chicken": {
+    "name": "cake_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "farmersdelight:cake_slice"
+    },
+    "drop_item": {
+      "itemID": "farmersdelight:cake_slice"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:icy_chicken": {
+    "name": "icy_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "beyond_earth:ice_shard"
+    },
+    "drop_item": {
+      "itemID": "beyond_earth:ice_shard"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:plastic_chicken": {
+    "name": "plastic_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "pneumaticcraft:plastic"
+    },
+    "drop_item": {
+      "itemID": "pneumaticcraft:plastic"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:iesnium_chicken": {
+    "name": "iesnium_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "occultism:raw_iesnium"
+    },
+    "drop_item": {
+      "itemID": "occultism:raw_iesnium"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:rune_chicken": {
+    "name": "rune_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "forbidden_arcanus:rune"
+    },
+    "drop_item": {
+      "itemID": "forbidden_arcanus:rune"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:demonite_chicken": {
+    "name": "demonite_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "bloodmagic:rawdemonite"
+    },
+    "drop_item": {
+      "itemID": "bloodmagic:rawdemonite"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:xp_chicken": {
+    "name": "xp_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "create:experience_nugget"
+    },
+    "drop_item": {
+      "itemID": "create:experience_nugget"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:decay_chicken": {
+    "name": "decay_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ragnamod_seven:solid_nuclear_waste"
+    },
+    "drop_item": {
+      "itemID": "ragnamod_seven:solid_nuclear_waste"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }
