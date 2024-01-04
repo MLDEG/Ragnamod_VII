@@ -5374,6 +5374,240 @@
 				random_bonus: 3
 			}]
 		}
+		{
+			x: 18.0d
+			y: -1.0d
+			shape: "square"
+			dependencies: [
+				"7C51CC7CD794A537"
+				"4C886CE89FF0AF52"
+			]
+			id: "41DE8DA55C926923"
+			tasks: [{
+				id: "5DE6BE0A73468515"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:demonite_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "7F1E470910721A41"
+				type: "item"
+				item: "bloodmagic:rawdemonite"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 19.5d
+			y: -3.5d
+			shape: "square"
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"0000000000000604"
+			]
+			id: "79D22AD58F40C67D"
+			tasks: [{
+				id: "23A50859C5BF92CB"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:rune_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "3A9A20C2A83B17D6"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 19.5d
+			y: 3.5d
+			shape: "square"
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"1558BE6E860A8770"
+			]
+			id: "2587F25E20EE116B"
+			tasks: [{
+				id: "34F21F9D599F2F6D"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:iesnium_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "54BBA9F0BD03165A"
+				type: "item"
+				item: "occultism:iesnium_ingot"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 18.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "1D30DE1DDD3FFE90"
+			tasks: [{
+				id: "7AF1835275B9BA20"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:xp_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "082E7E8E52F487F2"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"00000000000007DA"
+			]
+			id: "0B3E39F6091CE32C"
+			tasks: [{
+				id: "15AF5493314C3F37"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:plastic_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "41BF3EDED098813A"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "3A71C007F6C7658A"
+			tasks: [{
+				id: "0F2ED18BD9BB9230"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cake_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "0B1981CFF1590E54"
+				type: "item"
+				item: "farmersdelight:cake_slice"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "54A15229640EB5D2"
+			tasks: [{
+				id: "026F7413EDB7E55B"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:icy_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "50AC1783810A587F"
+				type: "item"
+				item: "beyond_earth:ice_shard"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 24.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"0000000000000948"
+			]
+			id: "3B4BE9B6C813222B"
+			tasks: [{
+				id: "171A8C2BEAB6833E"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:decay_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "6D14DB61F5E689EE"
+				type: "item"
+				item: "ragnamod_seven:solid_nuclear_waste"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

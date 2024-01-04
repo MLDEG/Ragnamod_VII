@@ -24,6 +24,7 @@ onEvent('recipes', e => {
 
     }
 
+    //Holy Chicken
     e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "croptopia:lemon" }, { "item": "croptopia:coconut" }, { "item": "croptopia:strawberry" }, { "item": "croptopia:grapefruit" }, { "item": "croptopia:kiwi" }, { "item": "croptopia:mango" }, { "item": "croptopia:blueberry" }], "entityOutput": "chickens:holy_chicken", "duration": 100, "shouldSummonMob": true })
     e.custom({
         "type": "custommachinery:custom_machine",
@@ -40,6 +41,25 @@ onEvent('recipes', e => {
             { "type": "custommachinery:item", "mode": "input", "item": 'croptopia:blueberry', "amount": 1 },
             { "type": "custommachinery:item", "mode": "input", "slot": "input9", "item": "chickens:soul_chicken", "amount": 1 },
             { "type": "custommachinery:item", "mode": "output", "item": "chickens:chicken_item", "nbt": "{ChickenType:{id:\"chickens:holy_chicken\"}}", "amount": 1 }
+        ]
+    })
+    //Plastic Bertrand
+    e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "pneumaticcraft:plastic_brick_red" }, { "item": "pneumaticcraft:plastic_brick_orange" }, { "item": "pneumaticcraft:plastic_brick_yellow" }, { "item": "pneumaticcraft:plastic_brick_green" }, { "item": "pneumaticcraft:plastic_brick_blue" }, { "item": "pneumaticcraft:plastic_brick_purple" }, { "item": "pneumaticcraft:plastic_brick_pink" }], "entityOutput": "chickens:plastic_chicken", "duration": 100, "shouldSummonMob": true })
+    e.custom({
+        "type": "custommachinery:custom_machine",
+        "machine": "ragnamod_7:soul_pedestal",
+        "time": 0,
+        "requirements": [
+            { "type": "custommachinery:item", "mode": "input", "item": "chickens:chicken_shell", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'pneumaticcraft:plastic_brick_red', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'pneumaticcraft:plastic_brick_orange', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'pneumaticcraft:plastic_brick_yellow', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'pneumaticcraft:plastic_brick_green', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'pneumaticcraft:plastic_brick_blue', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'pneumaticcraft:plastic_brick_purple', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'pneumaticcraft:plastic_brick_pink', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "slot": "input9", "item": "chickens:soul_chicken", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "output", "item": "chickens:chicken_item", "nbt": "{ChickenType:{id:\"chickens:plastic_chicken\"}}", "amount": 1 }
         ]
     })
 
@@ -180,6 +200,13 @@ onEvent('recipes', e => {
     summonChicken('thermal:niter', 'thermal:niter_block', 'niter')
     summonChicken('mekanism:fluorite_gem', 'mekanism:block_fluorite', 'fluorite')
     summonChicken('undergarden:regalium_crystal', 'undergarden:regalium_block', 'regalium')
+    summonChicken('bloodmagic:ingot_hellforged', 'bloodmagic:dungeon_metal', 'demonite')
+    summonChicken('forbidden_arcanus:rune', 'forbidden_arcanus:rune_block', 'rune')
+    summonChicken('occultism:iesnium_ingot', 'occultism:iesnium_block', 'iesnium')
+    summonChicken('create_sa:heap_of_experience', 'create:experience_block', 'xp')
+    summonChicken('minecraft:cake', 'minecraft:cake', 'cake')
+    summonChicken('minecraft:packed_ice', 'minecraft:blue_ice', 'icy')
+    summonChicken('mekanism:reprocessed_fissile_fragment', 'mekanism:pellet_polonium', 'decay')
     summonChicken('farmersdelight:egg_sandwich', 'farmersdelight:egg_sandwich', 'therealreivax')
     summonChicken('croptopia:pineapple_pepperoni_pizza', 'croptopia:pineapple_pepperoni_pizza', 'thorak83')
     summonChicken('farmersdelight:melon_juice', 'farmersdelight:melon_juice', 'mrchiro33')
