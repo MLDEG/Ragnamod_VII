@@ -709,6 +709,8 @@ onEvent('recipes', e => {
         'pneumaticcraft:thermo_plant/ethanol_from_sugar',
         'pneumaticcraft:thermo_plant/vegetable_oil_from_crops',
         'pneumaticcraft:thermo_plant/vegetable_oil_from_seeds',
+        'tinkers_reforged:smeltery/melting/lapis_block',
+        'tinkers_reforged:smeltery/melting/lapis_gem',
     ]
     removeId.forEach(C => { r(C) })
 })
