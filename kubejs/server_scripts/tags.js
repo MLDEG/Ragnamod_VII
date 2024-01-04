@@ -283,3 +283,10 @@ onEvent('tags.blocks', e => {
 
 
 })
+onEvent('tags.fluids', e => {
+
+    //Add
+    e.add('forge:experience', 'create_enchantment_industry:experience')
+
+
+})
