@@ -713,6 +713,8 @@ onEvent('recipes', e => {
         'tinkers_reforged:smeltery/melting/lapis_gem',
         'tinkers_reforged:smeltery/alloy/crusteel',
         'chemlib:zinc_ingot_to_block',
+        'byg:purple_dye',
+        'byg:pink_dye',
     ]
     removeId.forEach(C => { r(C) })
 })
