@@ -1,0 +1,35 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "forge:dusts/copper"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 1
+    },
+    {
+      "value": [
+        {
+          "tag": "forge:dusts/amethyst"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "tinkers_reforged:crusteel_ingot",
+      "count": 3
+    }
+  ],
+  "energy": 16000
+}
