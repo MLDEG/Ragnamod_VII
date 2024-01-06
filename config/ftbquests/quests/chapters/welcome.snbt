@@ -139,8 +139,17 @@
 			}]
 		}
 		{
+			title: "Be prepared"
+			icon: "ragnamod_seven:sculk_singularity"
 			x: -0.5d
 			y: 1.5d
+			description: [
+				"In this modpack, you'll need to passively farm some resources for singularities."
+				""
+				"Take the reflex to look at the singularities by mods to see what you need to farm in advance."
+				"This way you won't have to wait for the end game."
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
 			id: "1CCB446F49264C47"
 			tasks: [{
 				id: "4594366B54D5BC86"
