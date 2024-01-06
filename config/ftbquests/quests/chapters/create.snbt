@@ -2194,6 +2194,68 @@
 				item: "minecraft:lava_bucket"
 			}]
 		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The Disenchanter allows you to disenchant enchanted items as well as players experience into Liquid Experience."]
+			dependencies: ["0EF14F0D3E9267D6"]
+			id: "0A0D8693EEC50094"
+			tasks: [{
+				id: "4934EE5D704F0F67"
+				type: "item"
+				item: "create_enchantment_industry:disenchanter"
+			}]
+			rewards: [{
+				id: "69F1D632FA35133A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 8
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "square"
+			description: ["The printer allows you to copy enchanted book, copy written book as well as copy the Train Schedule and name tag."]
+			dependencies: ["0EF14F0D3E9267D6"]
+			id: "277E2786F6E832C2"
+			tasks: [{
+				id: "3202CF5EF310C3B2"
+				type: "item"
+				item: "create_enchantment_industry:printer"
+			}]
+			rewards: [{
+				id: "1602C888995D35B7"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 8
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"The Slicer is used to automate Farmer's Delight cutting board crafts. "
+				""
+				"Be careful that your Slicer turns in the right direction so that the crafts work on a belt."
+			]
+			dependencies: ["39718B6A5A7BEC15"]
+			id: "37007948ACB367AE"
+			tasks: [{
+				id: "3B99027D6E08F548"
+				type: "item"
+				item: "sliceanddice:slicer"
+			}]
+			rewards: [{
+				id: "13B403B74A988E55"
+				type: "item"
+				item: "sliceanddice:slicer"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
