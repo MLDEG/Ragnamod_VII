@@ -807,15 +807,8 @@
 			tasks: [{
 				id: "00000000000007DB"
 				type: "item"
-				title: "Any #forge:plastic"
-				tags: ["plastic"]
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:plastic"
-					}
-				}
+				title: "Plastic"
+				item: "industrialforegoing:plastic"
 				count: 8L
 			}]
 			rewards: [{

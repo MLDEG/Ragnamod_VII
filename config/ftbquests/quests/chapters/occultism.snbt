@@ -1268,7 +1268,7 @@
 				"_Parrot Familiar (summon just a Parrot but can fail and summon a chicken)"
 				"_Greedy Familiar (will pick up nearby items for you)"
 				"_Deer Familiar (When upgrade with a Blacksmith Familiar, it will attack nearby enemies with a HAMMER / Also give you Jump Boost.)"
-				"_Blacksmith Familiar (wan upgrade other Familiar)"
+				"_Blacksmith Familiar (can upgrade other Familiar)"
 				"_Beaver Familiar (will chop down nearby trees when they grow from a sapling / Can also increase wood break speed.)"
 			]
 			hide_dependency_lines: false
