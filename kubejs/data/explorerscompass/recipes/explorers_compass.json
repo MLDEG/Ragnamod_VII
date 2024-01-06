@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    "S":{
+      "item": "beyond_earth:calorite_ingot"
+    },
+    "C":{
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "explorerscompass:explorerscompass"
+  }
+}
