@@ -54,9 +54,9 @@
 		#Gravity Normalizing duration using energy
 		energyDuration = 1
 		#Durability usage for gravity normalizing
-		durabilityUsing = 0
+		durabilityUsing = 1
 		#Gravity Normalizing duration using durability
-		durabilityDuration = 60
+		durabilityDuration = 2000
 
 	[enchantments.space_fire_proof]
 		#Energy usage for space fire proof
@@ -64,9 +64,9 @@
 		#Space fire proof duration using energy
 		energyDuration = 1
 		#Durability usage for space fire proof
-		durabilityUsing = 0
+		durabilityUsing = 1
 		#Space fire proof duration using durability
-		durabilityDuration = 60
+		durabilityDuration = 2000
 
 	[enchantments.venus_acid_proof]
 		#Energy usage for venus acid proof
@@ -74,9 +74,9 @@
 		#Venus acid proof duration using energy
 		energyDuration = 1
 		#Durability usage for venus acid proof
-		durabilityUsing = 0
+		durabilityUsing = 1
 		#Venus acid proof duration using durability
-		durabilityDuration = 60
+		durabilityDuration = 2000
 
 [recipes]
 	tagPreferences = ["minecraft", "tconstruct", "tmechworks", "create", "immersiveengineering", "mekanism", "thermal"]
