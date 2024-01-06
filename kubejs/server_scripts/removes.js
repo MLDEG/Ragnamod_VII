@@ -711,6 +711,8 @@ onEvent('recipes', e => {
         'pneumaticcraft:thermo_plant/vegetable_oil_from_seeds',
         'tinkers_reforged:smeltery/melting/lapis_block',
         'tinkers_reforged:smeltery/melting/lapis_gem',
+        'tinkers_reforged:smeltery/alloy/crusteel',
+        'chemlib:zinc_ingot_to_block',
     ]
     removeId.forEach(C => { r(C) })
 })
