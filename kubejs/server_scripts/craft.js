@@ -1,4 +1,6 @@
 onEvent('recipes', e => {
+  //Nether Wart
+  e.shapeless('4x minecraft:nether_wart', 'minecraft:nether_wart_block')
   //Crystal Matrix Block
   e.shapeless('9x avaritia:crystal_matrix_ingot', 'avaritia:crystal_matrix_block')
   //Red Beryl Block
