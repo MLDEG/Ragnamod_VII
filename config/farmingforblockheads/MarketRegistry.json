@@ -1,12 +1,18 @@
 {
-"customCategories": {
-  "croptopia_saplings": {
-    "name": "Croptopia Saplings",
-    "icon": {
-      "item": "croptopia:apple_sapling"
+  "customCategories": {
+    "croptopia_saplings": {
+      "name": "Croptopia Saplings",
+      "icon": {
+        "item": "croptopia:apple_sapling"
+      }
+    }, 
+    "holy": {
+      "name": "HOLY®",
+      "icon": {
+        "item": "ragnamod_seven:iced_tea_red_grapes_hibiscus"
+      }
     }
-  }
-},
+  },
 "customEntries": [
   {
     "output": {
@@ -544,6 +550,231 @@
       "item": "byg:yellow_spruce_sapling"
     },
     "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_blackberry_black_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_peach_black_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_white_peach"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_lime_matcha_mint_green_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_raspberry_vanilla"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_strawberry_kiwi"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_apple_green_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_mango_passion_fruit"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_red_grapes_hibiscus"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_pink_grapefruit"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_apple_alligator"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_blueberry_bear"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_cactus_camel"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_cherry_cheetah"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_citrus_cobra"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_fruity_frog"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_gorrillas_grape"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_lemon_lizard"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_peach_panther"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_peacock_punch"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_pomegranate_piranha"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_raspberry_raptor"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_strawberry_shark"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_tropical_tiger"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_lions_lemonade"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
   }
 ]
 }
