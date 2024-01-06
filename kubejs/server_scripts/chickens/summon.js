@@ -206,7 +206,7 @@ onEvent('recipes', e => {
     summonChicken('create_sa:heap_of_experience', 'create:experience_block', 'xp')
     summonChicken('minecraft:cake', 'minecraft:cake', 'cake')
     summonChicken('minecraft:packed_ice', 'minecraft:blue_ice', 'icy')
-    summonChicken('mekanism:reprocessed_fissile_fragment', 'mekanism:pellet_polonium', 'decay')
+    summonChicken('ragnamod_seven:solid_nuclear_waste', 'mekanism:reprocessed_fissile_fragment', 'decay')
     summonChicken('farmersdelight:egg_sandwich', 'farmersdelight:egg_sandwich', 'therealreivax')
     summonChicken('croptopia:pineapple_pepperoni_pizza', 'croptopia:pineapple_pepperoni_pizza', 'thorak83')
     summonChicken('farmersdelight:melon_juice', 'farmersdelight:melon_juice', 'mrchiro33')
