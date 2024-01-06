@@ -715,6 +715,7 @@ onEvent('recipes', e => {
         'chemlib:zinc_ingot_to_block',
         'byg:purple_dye',
         'byg:pink_dye',
+        'minecraft:nether_wart_block',
     ]
     removeId.forEach(C => { r(C) })
 })
