@@ -897,7 +897,7 @@ onEvent('recipes', e => {
             "item": "avaritia:infinity_sword"
         },
         "pattern": [
-            "       AB",
+            "       AA",
             "      ABA",
             "     ABA ",
             "    ABA  ",
