@@ -447,6 +447,7 @@ onEvent('jei.hide.fluids', event => {
 onEvent('jei.remove.categories', e => {
 	e.remove('twilightforest:uncrafting')
 	e.remove('avaritia:extreme_crafting')
+	e.remove('chickens:chicken_laying')
 })
 
 onEvent('jei.information', e => {
@@ -520,7 +521,7 @@ onEvent('item.tooltip', tooltip => {
 	})
 	//Dimensional Shard Ore
 	tooltip.addAdvanced(['rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_end'], (item, advanced, text) => {
-		text.add(1, Text.of('§5§oDon\'t spawn in world'))
+		text.add(1, Text.of('§5§oDoesn\'t spawn spawn in world'))
 	})
 
 	//Horsmen Essence

@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Machine Frame is the base of all RFTools machines."]
 			dependencies: [
 				"6BAADB4B4E44097C"
@@ -100,7 +100,7 @@
 			title: "Dimensional Shard"
 			x: -3.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["Craft a stack of Dimensional Shard."]
 			dependencies: ["6BAADB4B4E44097C"]
 			size: 1.5d

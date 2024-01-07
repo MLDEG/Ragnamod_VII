@@ -88,5 +88,7 @@ onEvent('recipes', e => {
     //Coal Coke
     stoneCutter('thermal:coal_coke_block', { "item": 'immersiveengineering:coke' })
     stoneCutter('immersiveengineering:coke', { "item": 'thermal:coal_coke_block' })
-
+    //Zinc
+    stoneCutter('create:zinc_block', { "item": 'chemlib:zinc_metal_block' })
+    stoneCutter('chemlib:zinc_metal_block', { "item": 'create:zinc_block' })
 })

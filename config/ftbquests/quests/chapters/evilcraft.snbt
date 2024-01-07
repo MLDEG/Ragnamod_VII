@@ -106,7 +106,7 @@
 			y: -1.0d
 			shape: "square"
 			description: [
-				"The Vengeance Focus is used to freeze Cengeance Spirit."
+				"The Vengeance Focus is used to freeze Vengeance Spirit."
 				""
 				"It's useful if you need to capture a spirit in a Box of Eternal Closure."
 			]
@@ -473,8 +473,8 @@
 			shape: "square"
 			description: [
 				"The Blood Extractor can drain blood stains by shift right-clicking the stain."
-				"It can, also, store blood when you kill mods with your Extractor in your inventory."
-				"You can upgrade is internal inventory by combining other blood extractor or a blood tank !"
+				"It can, also, store blood when you kill mobs with your Extractor in your inventory."
+				"You can upgrade his internal inventory by combining other blood extractor or a blood tank !"
 			]
 			dependencies: [
 				"1577635AA4E66A66"

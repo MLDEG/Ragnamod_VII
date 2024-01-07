@@ -1,8 +1,15 @@
 onEvent('recipes', e => {
-
+  //Nether Wart
+  e.shapeless('4x minecraft:nether_wart', 'minecraft:nether_wart_block')
+  //Crystal Matrix Block
+  e.shapeless('9x avaritia:crystal_matrix_ingot', 'avaritia:crystal_matrix_block')
+  //Red Beryl Block
+  e.shapeless('9x tinkers_reforged:red_beryl_gem', 'tinkers_reforged:red_beryl_block')
+  //Hureaulite Block
+  e.shapeless('9x tinkers_reforged:hureaulite_gem', 'tinkers_reforged:hureaulite_block')
   //Enderpearl Block
   e.shapeless('9x minecraft:ender_pearl', 'miniutilities:ender_pearl_block')
-  //Snowblock Block
+  //Snowblock
   e.shapeless('4x minecraft:snowball', 'minecraft:snow_block')
   //Neutronium Ingot
   e.shapeless('9x avaritia:neutronium_ingot', 'avaritia:neutronium_block')
@@ -574,7 +581,6 @@ onEvent('recipes', e => {
   arsTC('minecraft:golden_chestplate', 'defense')
   arsTC('minecraft:emerald', 'souls')
   arsTC('psi:exosuit_sensor_light', 'sensor')
-
   //Matrix Alloy
   e.custom(
     { "type": "mekanism:metallurgic_infusing", "itemInput": { "ingredient": { "item": "mekanism:alloy_atomic" } }, "chemicalInput": { "amount": 100, "tag": "mekanism:gold" }, "output": { "item": "ragnamod_seven:alloy_matrix" } }
@@ -585,5 +591,32 @@ onEvent('recipes', e => {
   }
   var block = ['pneumaticcraft:smooth_plastic_brick_gray', 'pneumaticcraft:smooth_plastic_brick_pink', 'pneumaticcraft:smooth_plastic_brick_lime', 'pneumaticcraft:smooth_plastic_brick_yellow', 'pneumaticcraft:smooth_plastic_brick_light_blue', 'pneumaticcraft:smooth_plastic_brick_magenta', 'pneumaticcraft:smooth_plastic_brick_orange', 'pneumaticcraft:smooth_plastic_brick_white', 'pneumaticcraft:smooth_plastic_brick_black', 'pneumaticcraft:smooth_plastic_brick_red', 'pneumaticcraft:smooth_plastic_brick_green', 'pneumaticcraft:smooth_plastic_brick_brown', 'pneumaticcraft:smooth_plastic_brick_blue', 'pneumaticcraft:smooth_plastic_brick_purple', 'pneumaticcraft:smooth_plastic_brick_cyan', 'pneumaticcraft:smooth_plastic_brick_light_gray']
   block.forEach(B => { facade(B) })
+  //Holy Bottle Crafts
+  e.shapeless('ragnamod_seven:hydration_white_peach_bottle', ['ragnamod_seven:hydration_white_peach', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:hydration_strawberry_kiwi_bottle', ['ragnamod_seven:hydration_strawberry_kiwi', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:hydration_pink_grapefruit_bottle', ['ragnamod_seven:hydration_pink_grapefruit', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_acai_hibiscus_tea_bottle', ['ragnamod_seven:iced_tea_acai_hibiscus_tea', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_apple_green_tea_bottle', ['ragnamod_seven:iced_tea_apple_green_tea', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_blackberry_black_tea_bottle', ['ragnamod_seven:iced_tea_blackberry_black_tea', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_lime_matcha_mint_green_tea_bottle', ['ragnamod_seven:iced_tea_lime_matcha_mint_green_tea', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_mango_passion_fruit_bottle', ['ragnamod_seven:iced_tea_mango_passion_fruit', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_peach_black_tea_bottle', ['ragnamod_seven:iced_tea_peach_black_tea', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_raspberry_vanilla_bottle', ['ragnamod_seven:iced_tea_raspberry_vanilla', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:iced_tea_red_grapes_hibiscus_bottle', ['ragnamod_seven:iced_tea_red_grapes_hibiscus', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_apple_alligator_bottle', ['ragnamod_seven:energy_apple_alligator', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_blueberry_bear_bottle', ['ragnamod_seven:energy_blueberry_bear', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_cactus_camel_bottle', ['ragnamod_seven:energy_cactus_camel', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_cherry_cheetah_bottle', ['ragnamod_seven:energy_cherry_cheetah', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_citrus_cobra_bottle', ['ragnamod_seven:energy_citrus_cobra', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_fruity_frog_bottle', ['ragnamod_seven:energy_fruity_frog', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_gorrillas_grape_bottle', ['ragnamod_seven:energy_gorrillas_grape', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_lemon_lizard_bottle', ['ragnamod_seven:energy_lemon_lizard', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_lions_lemonade_bottle', ['ragnamod_seven:energy_lions_lemonade', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_peach_panther_bottle', ['ragnamod_seven:energy_peach_panther', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_peacock_punch_bottle', ['ragnamod_seven:energy_peacock_punch', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_pomegranate_piranha_bottle', ['ragnamod_seven:energy_pomegranate_piranha', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_raspberry_raptor_bottle', ['ragnamod_seven:energy_raspberry_raptor', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_strawberry_shark_bottle', ['ragnamod_seven:energy_strawberry_shark', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_tropical_tiger_bottle', ['ragnamod_seven:energy_tropical_tiger', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
 
 })

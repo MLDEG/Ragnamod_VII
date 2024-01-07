@@ -1455,8 +1455,8 @@
 		{
 			title: "Useful tools"
 			icon: "akashictome:tome"
-			x: -1.0d
-			y: -2.5d
+			x: -0.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"Akashic tome allows you to store all kinds of books in a single book."
@@ -1517,8 +1517,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
+			x: -1.5d
+			y: -2.5d
 			shape: "square"
 			description: ["The Nature's Compass can help you find a specific biome you want."]
 			dependencies: ["577D6202E19B2599"]
@@ -4220,8 +4220,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -1.0d
-			y: -1.5d
+			x: 1.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"The Tool Belt allows you to store your equipment in a radial menu that you can open with a key (r by default)."
@@ -4297,6 +4297,47 @@
 				id: "586636FA4CC7CEC8"
 				type: "item"
 				item: "minecraft:writable_book"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "square"
+			description: ["The market is a block that allows you to buy seeds and saplings and even those from Croptopia."]
+			dependencies: ["577D6202E19B2599"]
+			id: "04B5F234D6CE4FDD"
+			tasks: [{
+				id: "6D7786BA3919E8AA"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "1D48539E2FC33FEA"
+				type: "item"
+				item: "reliquary:fortune_coin"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			shape: "square"
+			description: ["The Explorer's Compass allows you to find structures in the world!"]
+			dependencies: ["577D6202E19B2599"]
+			id: "1F123AF9CE7481F7"
+			tasks: [{
+				id: "325A6472FCD07640"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5E49606ABE1E9DB0"
+				type: "item"
+				item: "croptopia:beef_wellington"
+				random_bonus: 7
 			}]
 		}
 	]

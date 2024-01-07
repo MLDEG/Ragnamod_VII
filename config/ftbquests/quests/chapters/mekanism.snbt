@@ -2568,7 +2568,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"To make a Steel Casing, you need to get, first, a Supreme Machine Frame."
 				"Later, you can automate this casing with a combiner."

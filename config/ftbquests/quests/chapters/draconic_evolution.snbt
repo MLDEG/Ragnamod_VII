@@ -252,7 +252,7 @@
 			title: "Draconium Dust"
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["You can get Draconium dust using the Compactor and 4 Draconium Compound !"]
 			dependencies: [
 				"2EF42D4157A674AF"
@@ -445,7 +445,7 @@
 			title: "Dragon Ball"
 			x: 0.0d
 			y: -2.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"The Energy Core is in the center of your ball, The Energy Pylons are used to insert or extract energy (you need to put a glass block on top or below the Pylon to activate it), and the Energy Core Stabilizer are here to stabilize your ball."
 				""
@@ -492,7 +492,7 @@
 		{
 			x: 3.0d
 			y: 2.0d
-			shape: "square"
+			shape: "hexagon"
 			description: [
 				"The Fusion Crafting Core is the center of the multi-block Fusion Crafting setup, its purpose is to hold the item to be transformed."
 				""
@@ -1911,7 +1911,7 @@
 		{
 			x: 11.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Module Core is the base of every Module for your Draconic Evolution Stuff."]
 			dependencies: [
 				"57921DC357097515"

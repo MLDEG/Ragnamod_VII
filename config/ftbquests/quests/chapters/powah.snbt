@@ -305,7 +305,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["The Energizing Orb is used to energize items, require at least one Energized Rod in range of 9x9 to work."]
 			dependencies: [
 				"00000000000009EE"
@@ -454,7 +454,7 @@
 			title: "Dielectric Paste"
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Dielectric Paste is the core of every craft in Powah."]
 			dependencies: ["46019F50846AAFD0"]
 			size: 2.0d

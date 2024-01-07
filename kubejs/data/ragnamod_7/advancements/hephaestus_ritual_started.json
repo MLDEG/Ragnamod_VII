@@ -1,0 +1,22 @@
+{
+"criteria":
+	{
+	"hephaestus_ritual_started":
+		{
+		"trigger": "minecraft:item_used_on_block",
+		"conditions":
+			{
+			"item": { "tag": "forbidden_arcanus:blacksmith_gavel" },
+			"location":
+				{
+				"block":
+					{
+					"blocks": [ "forbidden_arcanus:hephaestus_forge" ],
+					"nbt": "{ Items: [ { Slot: 4b, Count: 1b } ] }"
+					}
+				}
+			}
+		}
+	},
+"rewards": { "function": "ragnamod_7:hephaestus_ritual/started" }
+}

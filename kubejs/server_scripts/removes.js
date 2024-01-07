@@ -684,6 +684,7 @@ onEvent('recipes', e => {
         'gemsnjewels:nether_iolite_from_smelting',
         'beyond_earth_giselle_addon:compat/immersiveengineering/crafting/plate_desh_hammering',
         'beyond_earth_giselle_addon:blasting/iron_ingot_from_plate',
+        'beyond_earth_giselle_addon:smelting/iron_ingot_from_plate',
         'immersiveengineering:fermenter/apple',
         'immersiveengineering:fermenter/beetroot',
         'immersiveengineering:fermenter/glow_berries',
@@ -708,6 +709,13 @@ onEvent('recipes', e => {
         'pneumaticcraft:thermo_plant/ethanol_from_sugar',
         'pneumaticcraft:thermo_plant/vegetable_oil_from_crops',
         'pneumaticcraft:thermo_plant/vegetable_oil_from_seeds',
+        'tinkers_reforged:smeltery/melting/lapis_block',
+        'tinkers_reforged:smeltery/melting/lapis_gem',
+        'tinkers_reforged:smeltery/alloy/crusteel',
+        'chemlib:zinc_ingot_to_block',
+        'byg:purple_dye',
+        'byg:pink_dye',
+        'minecraft:nether_wart_block',
     ]
     removeId.forEach(C => { r(C) })
 })

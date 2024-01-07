@@ -11,7 +11,7 @@
 		{
 			x: 16.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Crescent Hammer is the Wrench of Thermal."]
 			dependencies: ["3FC86B24AC2C57A9"]
 			size: 2.0d
@@ -515,7 +515,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: [
 				"In this pack, you need to advance in Pneumaticcraft and Industrial Foregoing to unlock the basic Machine Frame."
 				""

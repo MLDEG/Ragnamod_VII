@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["This Machine Frame was made for this modpack, and it's used to craft Hostile Neural Machines."]
 			dependencies: [
 				"7D0BC26B33BBB358"
@@ -508,13 +508,17 @@
 			}
 			x: 10.0d
 			y: 0.0d
-			shape: "square"
+			shape: "gear"
 			description: [
 				"The Simulation matrix is a multiblock who can farm for your Mob Simulation very fast !"
 				"{image:ftbquests:textures/quests/simulation_matrix.png width:150 height:100 align:1}"
 				"You need, before, to craft a Complete Prediction using a Data Model \"Self-Aware\" and a Matrix Alloy to get one."
 				""
 				"Then, put this Complete Prediction on the Pedestal to start the machine to farm Mob Prediction."
+				""
+				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: [
 				"5CF931657DFA41A5"

@@ -1,0 +1,11 @@
+{
+  "type": "mantle:empty_item",
+  "input": {
+    "item": "minecraft:honey_bottle"
+  },
+  "filled": "minecraft:glass_bottle",
+  "fluid": {
+    "fluid": "create:honey",
+    "amount": 250
+  }
+}

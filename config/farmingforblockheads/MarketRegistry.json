@@ -1,10 +1,780 @@
 {
-    "customEntries": [
-      {
-        "output": {
-          "item": "croptopia:soybean_seed"
-        },
-        "category": "farmingforblockheads:seeds"
+  "customCategories": {
+    "croptopia_saplings": {
+      "name": "Croptopia Saplings",
+      "icon": {
+        "item": "croptopia:apple_sapling"
       }
-    ]
+    }, 
+    "holy": {
+      "name": "HOLY®",
+      "icon": {
+        "item": "ragnamod_seven:iced_tea_red_grapes_hibiscus"
+      }
+    }
+  },
+"customEntries": [
+  {
+    "output": {
+      "item": "croptopia:soybean_seed"
+    },
+    "category": "farmingforblockheads:seeds"
+  },
+  {
+    "output": {
+      "item": "croptopia:almond_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:apple_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:apricot_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:avocado_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:banana_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:cashew_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:cherry_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:coconut_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:date_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:dragonfruit_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:fig_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:grapefruit_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:kumquat_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:lemon_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:lime_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:mango_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:nectarine_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:nutmeg_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:orange_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:peach_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:pear_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:pecan_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:persimmon_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:plum_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:starfruit_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:walnut_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "croptopia:cinnamon_sapling"
+    },
+    "payment": {
+      "item": "reliquary:fortune_coin"
+    },
+    "category": "croptopia_saplings"
+  },
+  {
+    "output": {
+      "item": "byg:pine_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:rainbow_eucalyptus_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:redwood_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:skyris_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:willow_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:witch_hazel_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:zelkova_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:embur_wart"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:aspen_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:baobab_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:blue_enchanted_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:pink_cherry_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:white_cherry_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:cika_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:cypress_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:ebony_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:ether_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:fir_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:green_enchanted_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:holly_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:fungal_imparius"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:jacaranda_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:indigo_jacaranda_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:lament_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:mahogany_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:mangrove_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:maple_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:red_maple_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:silver_maple_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:nightshade_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:palm_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:palo_verde_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:withering_oak_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:araucaria_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:blue_spruce_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:brown_birch_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:brown_oak_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:brown_zelkova_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:joshua_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:orange_birch_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:orange_oak_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:orange_spruce_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:orchard_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:red_birch_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:red_oak_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:red_spruce_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:yellow_birch_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "byg:yellow_spruce_sapling"
+    },
+    "category": "farmingforblockheads:saplings"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_blackberry_black_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_peach_black_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_white_peach"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_lime_matcha_mint_green_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_raspberry_vanilla"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_strawberry_kiwi"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_apple_green_tea"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_mango_passion_fruit"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:iced_tea_red_grapes_hibiscus"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_pink_grapefruit"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_apple_alligator"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_blueberry_bear"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_cactus_camel"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_cherry_cheetah"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_citrus_cobra"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_fruity_frog"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_gorrillas_grape"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_lemon_lizard"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_peach_panther"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_peacock_punch"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_pomegranate_piranha"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_raspberry_raptor"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_strawberry_shark"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_tropical_tiger"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_lions_lemonade"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
   }
+]
+}

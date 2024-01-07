@@ -69,7 +69,7 @@
 				""
 				"This fruit, when eaten, can give you the effect \"Third Eye\"."
 				""
-				"This effect allows you to see some things you cannot see normally, like Iesnium Or in the Nether, Otherstone n the Overworld."
+				"This effect allows you to see some things you cannot see normally, like Iesnium Or in the Nether, Otherstone in the Overworld."
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -140,7 +140,7 @@
 			x: -1.0d
 			y: 5.0d
 			shape: "square"
-			description: ["The Purified Ink is used for crafting Book of Bindings, and o get these you need to throw black dye in Spiritfire."]
+			description: ["The Purified Ink is used for crafting Book of Bindings, and to get these you need to throw black dye in Spiritfire."]
 			hide_dependency_lines: false
 			dependencies: [
 				"1033BEED30BCBE2E"
@@ -1268,7 +1268,7 @@
 				"_Parrot Familiar (summon just a Parrot but can fail and summon a chicken)"
 				"_Greedy Familiar (will pick up nearby items for you)"
 				"_Deer Familiar (When upgrade with a Blacksmith Familiar, it will attack nearby enemies with a HAMMER / Also give you Jump Boost.)"
-				"_Blacksmith Familiar (wan upgrade other Familiar)"
+				"_Blacksmith Familiar (can upgrade other Familiar)"
 				"_Beaver Familiar (will chop down nearby trees when they grow from a sapling / Can also increase wood break speed.)"
 			]
 			hide_dependency_lines: false
@@ -1945,7 +1945,7 @@
 			shape: "square"
 			description: [
 				"Iesnium Ore can be found in the Nether, only with the effect Third eyes!"
-				"But, if you cant to mine it, you're going to need an Infused Pickaxe."
+				"But, if you want to mine it, you're going to need an Infused Pickaxe."
 			]
 			hide_dependency_lines: false
 			dependencies: [

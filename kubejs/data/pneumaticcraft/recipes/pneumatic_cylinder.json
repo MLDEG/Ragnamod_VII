@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PIP",
+    "PIP",
+    "PBP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plastic"
+    },
+    "B": {
+      "item": "pneumaticcraft:cannon_barrel"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_cylinder",
+    "count": 2
+  }
+}

@@ -8121,6 +8121,7 @@
 		{
 			x: -1.5d
 			y: -0.5d
+			shape: "octagon"
 			description: [
 				"The Alchemistry Machine Frame is the core of any machine from Alchemistry."
 				"This frame was created for this modpack."
@@ -8254,6 +8255,7 @@
 			icon: "alchemistry:fusion_chamber_controller"
 			x: -4.5d
 			y: -0.75d
+			shape: "hexagon"
 			description: [
 				"The Fusion Reactor allows you to fuse two elements together to create new elements."
 				"{image:ftbquests:textures/quests/alchemistry_fusion.png width:150 height:100 align:1}"
@@ -8315,6 +8317,7 @@
 			icon: "alchemistry:fission_chamber_controller"
 			x: 1.5d
 			y: -0.75d
+			shape: "hexagon"
 			description: [
 				"The Fission Reactor allows you to split apart the very fabric that holds elements together."
 				"{image:ftbquests:textures/quests/alchemistry_fission.png width:150 height:100 align:1}"

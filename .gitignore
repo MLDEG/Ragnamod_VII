@@ -2,12 +2,15 @@
 /backups/
 /config/byg/backups/
 /config/jei/world/
+/config/justzoom/
+/config/konkrete/
 /config/tempad_client.json
 /config/worldstripper/
 /config/world_gen_export/
 /config/libraryferret_1.properties
 /config/bettervillage_1.properties
 /config/oculus.properties
+/config/spark
 /crash-reports/
 /downloads/
 /ESM/

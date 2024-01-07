@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["Rubberwood can be found in the world."]
 			dependencies: ["24CEA0C30026A5BD"]
 			size: 2.0d
@@ -194,7 +194,7 @@
 		{
 			x: 14.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["Machine Block is a material used to craft various components from FTB IC"]
 			dependencies: [
 				"207C7551F52E1BC8"
@@ -217,7 +217,7 @@
 		{
 			x: 14.0d
 			y: -5.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["Advanced Machine Block is a material used to craft various components from FTB IC"]
 			dependencies: [
 				"6403C7F6E4933243"
@@ -841,7 +841,7 @@
 		{
 			x: 10.0d
 			y: -5.0d
-			shape: "square"
+			shape: "hexagon"
 			description: [
 				"Here's an example of a configuration for your nuclear reactor."
 				"{image:ftbquests:textures/quests/ftbic_nuclear_reactor_gui.png width:150 height:125 align:1}"
