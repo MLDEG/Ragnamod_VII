@@ -716,6 +716,11 @@ onEvent('recipes', e => {
         'byg:purple_dye',
         'byg:pink_dye',
         'minecraft:nether_wart_block',
+        'psi:psidust_block_shapeless',
+        'psi:psimetal_block_shapeless',
+        'psi:psigem_block_shapeless',
+        'psi:ebony_block_shapeless',
+        'psi:ivory_block_shapeless',
     ]
     removeId.forEach(C => { r(C) })
 })
