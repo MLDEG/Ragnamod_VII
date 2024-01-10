@@ -251,6 +251,9 @@ onEvent('tags.items', e => {
     e.add('forge:ores', 'ragnamod_seven:unknown_ore')
     e.add('forge:ores/unknown', 'ragnamod_seven:unknown_ore')
 
+    //Storage Blocks tag
+    e.add('forge:storage_blocks/sugar_cane', 'quark:sugar_cane_block')
+
 })
 onEvent('tags.blocks', e => {
 
@@ -288,5 +291,7 @@ onEvent('tags.fluids', e => {
     //Add
     e.add('forge:experience', 'create_enchantment_industry:experience')
 
+    //Blood
+    e.add('forge:blood', ["bloodmagic:life_essence_fluid", "evilcraft:blood", "hexerei:blood_fluid", "tconstruct:blood"])
 
 })
