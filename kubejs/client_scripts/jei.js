@@ -454,7 +454,7 @@ onEvent('jei.information', e => {
 	e.add('chemlib:draconium_compound', ['This chemical\'s is only used to create draconium dust.'])
 	e.add('bhc:red_heart', ['Drop from passive mobs'])
 	e.add('bhc:yellow_heart', ['Drop from bosses'])
-	e.add('bhc:green_heart', ['Drop from Piglin Bathering'])
+	e.add('bhc:green_heart', ['Drop from Piglin Bartering'])
 	e.add('bhc:blue_heart', ['Drop from Pixies from Alfeim'])
 
 	e.add('create:refined_radiance', ['Throw a Chromatic Compound through a beacon beam.'])
