@@ -1,0 +1,1 @@
+{"type":"botanypots:crop","seed":{"item":"culturaldelights:wild_eggplants"},"categories":["dirt"],"growthTicks":1200,"display":{"block":"culturaldelights:wild_eggplants"},"drops":[{"chance":1.00,"output":{"item":"culturaldelights:eggplant"},"minRolls":1,"maxRolls":2}]}
