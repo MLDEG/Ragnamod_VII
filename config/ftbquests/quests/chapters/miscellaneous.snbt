@@ -765,7 +765,6 @@
 			dependencies: [
 				"5BF2042F87D0C6BD"
 				"4879AC817FF297B3"
-				"577D6202E19B2599"
 			]
 			dependency_requirement: "one_completed"
 			id: "09A85D028D01FE97"
@@ -2882,7 +2881,7 @@
 				"The Personal Shrinking Device allows you to enter and exit your compact machine."
 				"{image:ftbquests:textures/quests/compact_crafting.png width:150 height:100 align:1}"
 				"Field Projectors are used to miniaturize your compact machines and other craft."
-				"You don't have to make the biggest size, just a 5x5 is sufficient for all crafts."
+				"You don't have to make the biggest size, just a 9x9 is sufficient for all crafts."
 			]
 			dependencies: [
 				"03F04C5F7BAED6A3"
@@ -3081,7 +3080,7 @@
 				"The Sleeping Bag allows you to sleep anywhere without reset your spawn point (set with a bed)."
 				"The Hammock Cloth allows you to sleep in daytime until night."
 				"{image:ftbquests:textures/quests/hammock.png width:150 height:100 align:1}"
-				"But you need three blocks space to attach your Hammock with two Rope and Nail."
+				"But you need four blocks space to attach your Hammock with two Rope and Nail."
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "65B1E5BD3D88DBE5"

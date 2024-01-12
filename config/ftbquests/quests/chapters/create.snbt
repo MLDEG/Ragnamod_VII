@@ -12,7 +12,7 @@
 			title: "Andesite Alloy"
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["Andesite Alloy is the most basic component construction material in Create."]
 			dependencies: ["298A3F9171009D45"]
 			size: 2.0d
@@ -162,7 +162,7 @@
 			title: "Andesite Casing"
 			x: 3.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["Note: There is a built-in guide for Create. To access it, you need to hold a key on the wanted item in JEI. The animated guide will then appear."]
 			dependencies: [
 				"073310C4A43FCF55"
@@ -253,7 +253,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 8.5d
 			y: -1.5d
 			shape: "square"
 			description: [
@@ -480,7 +480,7 @@
 		{
 			x: 11.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["This casing is used to make most of the advanced stuff of Create."]
 			dependencies: [
 				"28A1FE67951514B7"
@@ -1112,7 +1112,7 @@
 		{
 			x: 7.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["One of the casing use to craft Create components"]
 			dependencies: ["298A3F9171009D45"]
 			size: 2.0d
@@ -1446,7 +1446,7 @@
 		{
 			x: 15.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: ["Train Casing is used to make all the machine in relation with train"]
 			dependencies: [
 				"7726E320E30DB57B"
@@ -1987,7 +1987,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 10.0d
 			y: -1.5d
 			shape: "square"
 			subtitle: "The age of Brass"

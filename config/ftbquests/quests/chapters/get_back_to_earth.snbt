@@ -125,7 +125,7 @@
 		{
 			x: 4.0d
 			y: -3.5d
-			description: ["The Mixing Cauldron is simply a cauldron from Hexerei, light a fire below and you can craft in it!"]
+			description: ["The Mixing Cauldron is simply a cauldron from Hexerei."]
 			dependencies: ["608B0D64957C2EC8"]
 			id: "3D70617228B5BE1A"
 			tasks: [{

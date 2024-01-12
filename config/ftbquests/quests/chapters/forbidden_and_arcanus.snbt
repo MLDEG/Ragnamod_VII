@@ -434,10 +434,7 @@
 			x: 1.5d
 			y: 1.0d
 			shape: "square"
-			description: [
-				"The Mundabitur Dust is used to make the Magical Farmland."
-				"Form the Hephaestus Forge and the Arcane Crystal Obelisk."
-			]
+			description: ["The Mundabitur Dust is used to form the Hephaestus Forge and the Arcane Crystal Obelisk."]
 			dependencies: [
 				"000000000000060C"
 				"49566F6C3DE4A0A0"

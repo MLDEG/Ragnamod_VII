@@ -30,7 +30,7 @@
 				"This modpack invites you to discover several mods with a follow-up on the Quest book."
 				"This is not mandatory to take advantage of the modpack but gives you several objectives to accomplish."
 				""
-				"Several craft have been modified to bring a little more difficulty and a good mix between the mods, it remains nevertheless a modpack accessible to all with an acceleration of the difficulty for the creative items."
+				"Several crafts have been modified to bring a little more difficulty and a good mix between the mods, it remains nevertheless a modpack accessible to everyone all with an acceleration of the difficulty for the creative items."
 			]
 			size: 2.0d
 			id: "2C8AB1F55FB366FF"
@@ -50,16 +50,16 @@
 				"To do this, type the command:"
 				"/ftbteams party create."
 				""
-				"Now go to your inventory menu and click on the button at the top left \"My Team\"."
-				"You can, from there, click on Settings to configure your team (name, color, description, etc ...)"
+				"Now go to your inventory menu and click on the button \"My Team\" at the top left."
+				"You can, from there, click on Settings to configure your team (name, color, description, etc.)"
 				""
 				"You just have to invite your friends with the command:"
-				"/ftbteams party invite NAME"
+				"/ftbteams party invite <NAME>"
 				""
 				"Your friends just have to accept, and you are now in a team."
 				""
 				"If you want to join an already existing team you just have to type the command:"
-				"/ftbteams party join TEAM NAME"
+				"/ftbteams party join <TEAM> <NAME>"
 			]
 			dependencies: ["2C8AB1F55FB366FF"]
 			id: "56716F5436571867"
@@ -74,7 +74,7 @@
 			x: -1.5d
 			y: 1.0d
 			description: [
-				"Like I said, this modpack doesn't force you to play around with the quests."
+				"As mentionned previously, this modpack doesn't force you to play around with the quests."
 				""
 				"It's your choice to follow them or not."
 				""
@@ -105,7 +105,7 @@
 			}
 			x: 1.0d
 			y: 0.0d
-			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
+			description: ["To unlock the creative items chapter you must complete the \"End of ... Quests\"."]
 			dependencies: ["2C8AB1F55FB366FF"]
 			id: "47900538A09CE4F2"
 			tasks: [{

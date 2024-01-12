@@ -1409,7 +1409,7 @@
 			x: -2.5d
 			y: -4.5d
 			shape: "square"
-			description: ["Charge a Certus Quartz using a Tesla coil of the Charger from AE2."]
+			description: ["Charge a Certus Quartz using a Tesla coil or the Charger from AE2."]
 			dependencies: [
 				"4B0024EB89A2DBC9"
 				"0B1D5E77E82B17AB"
