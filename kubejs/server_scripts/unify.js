@@ -626,6 +626,7 @@ onEvent('recipes', function (e) {
     ['reliquary:bat_wing'].forEach(I => { replaceIO(I, 'forbidden_arcanus:bat_wing') });
     ['architects_palette:withered_bone', 'tconstruct:necrotic_bone'].forEach(I => { replaceIO(I, 'bhc:wither_bone') });
     ['forge:silicon', 'ae2:silicon'].forEach(I => { replaceIO(I, 'ftbic:silicon') });
+    e.replaceInput({}, 'minecraft:crafting_table', '#forge:workbenches')
     /**********************Ethanol Unify*************************/
     fermenter('minecraft:potato', 'immersiveengineering:ethanol', 80)
     fermenter('minecraft:melon_slice', 'immersiveengineering:ethanol', 20)
