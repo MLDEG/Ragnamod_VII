@@ -37,6 +37,7 @@ onEvent('jei.hide.items', e => {
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"beyond_earth:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"pneumaticcraft:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:crude_oil"}}]}}'),
+		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:redstone"}}]}}'),
 		Item.of('twilightdelight:ironwood_knife', '{Damage:0}').enchant('minecraft:knockback', 1),
 		Item.of('twilightdelight:steeleaf_knife', '{Damage:0}').enchant('minecraft:looting', 2),
 		Item.of('patchouli:guide_book', '{"patchouli:book":"sebastrnlib:sebastrn_mods_guide_book"}'),
@@ -394,6 +395,7 @@ onEvent('jei.hide.items', e => {
 		'gemsnjewels:zircon_nether_ore_block',
 		'gemsnjewels:aquamarine_nether_ore_block',
 		'gemsnjewels:peridot_nether_ore_block',
+		'thermal:redstone_bucket',
 	])
 })
 
@@ -442,6 +444,7 @@ onEvent('jei.hide.fluids', event => {
 	event.hide('beyond_earth:oil')
 	event.hide('pneumaticcraft:oil')
 	event.hide('thermal:crude_oil')
+	event.hide('thermal:redstone')
 })
 
 onEvent('jei.remove.categories', e => {
