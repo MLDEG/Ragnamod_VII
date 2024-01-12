@@ -580,6 +580,9 @@ onEvent('recipes', e => {
     "fromColor": 3124192,
     "toColor": 16734176
   })
+  //Thermal Die
+  e.shaped('thermal:press_rod_die', [' A ', 'ABA', ' A '], { A: 'thermal:invar_plate', B: 'immersiveengineering:stick_steel' })
+  e.shaped('thermal:press_wire_die', [' A ', 'ABA', ' A '], { A: 'thermal:invar_plate', B: 'immersiveengineering:wire_steel' })
   //Creative Tinkers'
   function arsTC(input, output) { e.custom({ "type": "ars_nouveau:enchanting_apparatus", "reagent": [{ "item": input }], "pedestalItems": [{ "item": { "item": "ragnamod_seven:creative_tc_crystal" } }], "output": { "type": "forge:nbt", "item": "tconstruct:creative_slot", "count": 1, "nbt": "{slot:" + output + "}" }, "sourceCost": 500, "keepNbtOfReagent": false }) }
   arsTC('minecraft:anvil', 'upgrades')
