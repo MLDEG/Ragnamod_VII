@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:dusts/redstone"
+  },
+  "result": [
+    {
+      "fluid": "tinkers_reforged:molten_redstone",
+      "amount": 100
+    }
+  ],
+  "energy": 8000
+}
