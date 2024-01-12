@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "ragnamod_seven:aureal",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "forbidden_arcanus:aureal_bottle"
+    }
+  ]
+}
