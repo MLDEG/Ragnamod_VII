@@ -1,4 +1,8 @@
 onEvent('recipes', e => {
+  //Experience Create
+  e.shapeless('4x create:experience_nugget', 'create_sa:heap_of_experience')
+  e.shapeless('4x create_sa:heap_of_experience', 'create:experience_block')
+  e.shapeless('create:experience_block', '4x create_sa:heap_of_experience')
   //Nether Wart
   e.shapeless('4x minecraft:nether_wart', 'minecraft:nether_wart_block')
   //Crystal Matrix Block
