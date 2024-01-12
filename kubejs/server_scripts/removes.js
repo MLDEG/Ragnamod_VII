@@ -724,6 +724,13 @@ onEvent('recipes', e => {
         'pneumaticcraft:pneumaticcraft_fuels/cofh_biofuel',
         'create:crafting/materials/experience_block',
         'create:crafting/materials/experience_nugget_from_block',
+        'botanypotstiers:minecraft/trees/mangrove',
+        'create_confectionery:chocolate_recipe_6',
+        'create_confectionery:black_chocolate_recipe_6',
+        'create_confectionery:white_chocolate_recipe_6',
+        'create_confectionery:ruby_chocolate_recipe_6',
+        'ftbic:shapeless/sulfur_from_hammer',
+        'bloodmagic:meteor/myst_ag',
     ]
     removeId.forEach(C => { r(C) })
 })

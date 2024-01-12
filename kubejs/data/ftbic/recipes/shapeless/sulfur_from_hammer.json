@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "ftbic:sulfur",
+	"ingredients": [
+		{
+			"tag": "forge:gems/sulfur"
+		},
+		{
+			"item": "immersiveengineering:hammer"
+		}
+	],
+	"result": {
+		"item": "thermal:sulfur_dust",
+		"count": 1
+	}
+}

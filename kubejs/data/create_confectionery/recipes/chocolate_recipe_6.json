@@ -1,0 +1,16 @@
+{
+  "group": "create_confectionery",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_confectionery:chocolate_bricks"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create:chocolate",
+      "amount": 1000
+    }
+  ],
+  "heatRequirement": "heated"
+}

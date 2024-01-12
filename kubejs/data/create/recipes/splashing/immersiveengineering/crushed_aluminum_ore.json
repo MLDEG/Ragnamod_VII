@@ -2,7 +2,7 @@
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "create:crushed_aluminum_ore"
+      "item": "create:crushed_raw_aluminum"
     }
   ],
   "results": [

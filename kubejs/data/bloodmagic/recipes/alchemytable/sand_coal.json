@@ -12,7 +12,7 @@
     }
   ],
   "output": {
-    "item": "lazierae2:coal_dust",
+    "item": "mekanism:dust_coal",
     "count": 4
   },
   "syphon": 400,

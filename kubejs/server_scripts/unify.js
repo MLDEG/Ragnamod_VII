@@ -136,7 +136,6 @@ onEvent('recipes', function (e) {
     crusherMeka('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherMeka('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
     crusherMeka('minecraft:ender_pearl', 'ae2:ender_dust', 1);
-    crusherMeka('minecraft:coal', 'mekanism:dust_coal', 1);
     crusherMeka('thermal:sulfur', 'thermal:sulfur_dust', 1);
     crusherMeka('chemlib:platinum_ingot', 'chemlib:platinum_dust', 1);
     crusherMeka('ftbic:iridium_ingot', 'ftbic:iridium_dust', 1);
