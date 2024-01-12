@@ -721,6 +721,9 @@ onEvent('recipes', e => {
         'psi:psigem_block_shapeless',
         'psi:ebony_block_shapeless',
         'psi:ivory_block_shapeless',
+        'pneumaticcraft:pneumaticcraft_fuels/cofh_biofuel',
+        'create:crafting/materials/experience_block',
+        'create:crafting/materials/experience_nugget_from_block',
     ]
     removeId.forEach(C => { r(C) })
 })
