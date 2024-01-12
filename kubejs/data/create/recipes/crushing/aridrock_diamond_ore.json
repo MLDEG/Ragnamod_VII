@@ -1,0 +1,26 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "darkerdepths:aridrock_diamond_ore"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:diamond",
+        "chance": 0.75
+      },
+      {
+        "item": "create:experience_nugget",
+        "chance": 0.75
+      },
+      {
+        "item": "darkerdepths:aridrock",
+        "chance": 0.125
+      }
+    ],
+    "processingTime": 150
+  }

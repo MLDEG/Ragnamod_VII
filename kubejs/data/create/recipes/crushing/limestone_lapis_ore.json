@@ -1,0 +1,27 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "darkerdepths:limestone_lapis_ore"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:lapis_lazuli",
+        "count": 10
+      },
+      {
+        "item": "minecraft:lapis_lazuli",
+        "chance": 0.5
+      },
+      {
+        "item": "create:experience_nugget",
+        "chance": 0.75
+      },
+      {
+        "item": "darkerdepths:limestone",
+        "chance": 0.125
+      }
+    ],
+    "processingTime": 250
+  }
