@@ -1,0 +1,40 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      { "type": "forge:nbt", "item": "minecraft:potion", "count": 1, "nbt": "{Potion:\"minecraft:strong_regeneration\"}" }
+    ],
+    "results": [
+        {
+          "item": "minecraft:glass_bottle"
+        },
+      {
+        "fluid": "ragnamod_seven:aureal",
+        "amount": 250
+      }
+    ],
+    "heatRequirement": "heated"
+  }
