@@ -1,8 +1,8 @@
 {
   "name": "Advanced Hephaestus Forge",
   "appearance": {
-    "block": "ragnamod_seven:machine/will_factory_idle_model",
-    "item": "ragnamod_seven:machine/will_factory_idle_model",
+    "block": "ragnamod_seven:machine/advanced_hephaestus_forge",
+    "item": "ragnamod_seven:machine/advanced_hephaestus_forge",
     "ambient_sound": "",
     "interaction_sound": "minecraft:stone_block",
     "light": 0,
@@ -14,11 +14,8 @@
     "requires_tool": true,
     "shape": [[0, 0, 0, 1, 1, 1]],
     "running": {
-      "block": "ragnamod_seven:machine/will_factory_running_model",
+      "block": "ragnamod_seven:machine/advanced_hephaestus_forge",
       "light": 10
-    },
-    "errored": {
-      "block": "ragnamod_seven:machine/will_factory_errored_model"
     }
   },
   "components": [
@@ -44,6 +41,15 @@
       "maxInput": 10000,
       "maxOutput": 10000,
       "filter": ["#forge:experience"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 10000,
+      "id": "aureal_tank",
+      "maxInput": 10000,
+      "maxOutput": 10000,
+      "filter": ["ragnamod_seven:aureal"],
       "whitelist": true
     },
     {
@@ -89,159 +95,235 @@
   ],
   "gui": [
     {
-      "texture": "custommachinery:textures/gui/base_background.png",
+      "texture": "ragnamod_seven:textures/gui/advanced_hephaestus_forge_gui.png",
       "x": 0,
       "y": 0,
       "type": "custommachinery:texture"
     },
     {
-      "type": "custommachinery:config",
-      "x": 46,
-      "y": 54
-    },
-    {
-      "text": "Will Crystals Factory",
-      "x": 7,
-      "y": 5,
+      "text": "Advanced Hephaestus Forge",
+      "color": 4144959,
+      "x": 34,
+      "y": 4,
       "type": "custommachinery:text"
     },
     {
-      "x": 47,
-      "y": 80,
-      "type": "custommachinery:player_inventory"
+      "text": "Inventory",
+      "color": 4144959,
+      "x": 34,
+      "y": 109,
+      "type": "custommachinery:text"
     },
     {
-      "emptytexture": "ragnamod_seven:textures/gui/base_progress_empty.png",
-      "filledtexture": "ragnamod_seven:textures/gui/base_progress_filled.png",
-      "type": "custommachinery:progress",
-      "x": 116,
-      "y": 49
+      "x": 33,
+      "y": 118,
+      "type": "custommachinery:player_inventory",
+      "texture": "ragnamod_seven:textures/gui/advanced_hephaestus_forge_inventory.png"
     },
     {
-      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty.png",
-      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled.png",
-      "x": 15,
-      "y": 30,
-      "type": "custommachinery:energy"
+      "id": "input_center",
+      "x": 105,
+      "y": 50,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_center_slot.png"
     },
     {
-      "id": "input_will_factory",
-      "x": 119,
-      "y": 30,
-      "type": "custommachinery:slot"
+      "id": "output",
+      "x": 105,
+      "y": 19,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_output_slot.png"
     },
     {
-      "id": "output_will_factory1",
-      "x": 83,
-      "y": 56,
-      "type": "custommachinery:slot"
+      "id": "input_0",
+      "x": 70,
+      "y": 26,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
     },
     {
-      "id": "output_will_factory2",
-      "x": 101,
-      "y": 56,
-      "type": "custommachinery:slot"
+      "id": "input_1",
+      "x": 140,
+      "y": 26,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
     },
     {
-      "id": "output_will_factory3",
-      "x": 119,
-      "y": 56,
-      "type": "custommachinery:slot"
+      "id": "input_2",
+      "x": 60,
+      "y": 51,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
     },
     {
-      "id": "output_will_factory4",
-      "x": 137,
-      "y": 56,
-      "type": "custommachinery:slot"
+      "id": "input_3",
+      "x": 150,
+      "y": 51,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
     },
     {
-      "id": "output_will_factory5",
-      "x": 155,
-      "y": 56,
-      "type": "custommachinery:slot"
+      "id": "input_4",
+      "x": 70,
+      "y": 76,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
     },
     {
-      "texture": "ragnamod_seven:textures/gui/base_fluid_storage.png",
+      "id": "input_5",
+      "x": 140,
+      "y": 76,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_full.png",
+      "x": 11,
+      "y": 18,
+      "type": "custommachinery:energy",
+      "highlight": false
+    },
+    {
+      "id": "aureal_tank",
+      "x": 11,
+      "y": 65,
       "type": "custommachinery:fluid",
-      "x": 223,
-      "y": 30,
-      "id": "life_essence_tank"
+      "texture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "highlight": false
+    },
+    {
+      "id": "blood_tank",
+      "x": 209,
+      "y": 18,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "highlight": false
+    },
+    {
+      "id": "experience_tank",
+      "x": 209,
+      "y": 65,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "highlight": false
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_progress_full.png",
+      "x": 35,
+      "y": 97,
+      "direction": "right"
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "x": 11,
+      "y": 65
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "x": 209,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "x": 209,
+      "y": 65
     }
   ],
   "jei": [
     {
-      "texture": "custommachinery:textures/gui/base_background.png",
-      "x": 0,
-      "y": 0,
-      "type": "custommachinery:texture"
+      "id": "input_center",
+      "x": 78,
+      "y": 24,
+      "type": "custommachinery:slot"
     },
     {
-      "text": "Will Crystals Factory",
-      "x": 7,
-      "y": 5,
-      "type": "custommachinery:text"
+      "id": "output",
+      "x": 128,
+      "y": 24,
+      "type": "custommachinery:slot"
     },
     {
-      "x": 47,
-      "y": 80,
-      "type": "custommachinery:player_inventory"
+      "id": "input_0",
+      "x": 34,
+      "y": 2,
+      "type": "custommachinery:slot"
     },
     {
-      "emptytexture": "ragnamod_seven:textures/gui/base_progress_empty.png",
-      "filledtexture": "ragnamod_seven:textures/gui/base_progress_filled.png",
+      "id": "input_1",
+      "x": 56,
+      "y": 2,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_2",
+      "x": 34,
+      "y": 24,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_3",
+      "x": 56,
+      "y": 24,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_4",
+      "x": 34,
+      "y": 46,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_5",
+      "x": 56,
+      "y": 46,
+      "type": "custommachinery:slot"
+    },
+    {
       "type": "custommachinery:progress",
-      "x": 116,
-      "y": 48
+      "x": 100,
+      "y": 25,
+      "direction": "right"
     },
     {
-      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty.png",
-      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled.png",
-      "x": 47,
-      "y": 30,
-      "type": "custommachinery:energy"
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_slot_empty_energy_jei.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_slot_full_energy_jei.png",
+      "x": 10,
+      "y": 2,
+      "type": "custommachinery:energy",
+      "highlight": false
     },
     {
-      "id": "input_will_factory",
-      "x": 119,
-      "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output_will_factory1",
-      "x": 83,
-      "y": 56,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output_will_factory2",
-      "x": 101,
-      "y": 56,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output_will_factory3",
-      "x": 119,
-      "y": 56,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output_will_factory4",
-      "x": 137,
-      "y": 56,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output_will_factory5",
-      "x": 155,
-      "y": 56,
-      "type": "custommachinery:slot"
-    },
-    {
-      "texture": "ragnamod_seven:textures/gui/base_fluid_storage.png",
+      "id": "aureal_tank",
+      "x": 10,
+      "y": 39,
       "type": "custommachinery:fluid",
-      "x": 191,
-      "y": 30,
-      "id": "life_essence_tank"
+      "texture": "ragnamod_seven:textures/gui/ahf_slot_fluid_jei.png",
+      "highlight": false
+    },
+    {
+      "id": "blood_tank",
+      "x": 22,
+      "y": 2,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot_fluid_jei.png",
+      "highlight": false
+    },
+    {
+      "id": "experience_tank",
+      "x": 22,
+      "y": 39,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot_fluid_jei.png",
+      "highlight": false
     }
   ],
   "catalysts": []

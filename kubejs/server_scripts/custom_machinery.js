@@ -973,4 +973,132 @@ onEvent('recipes', e => {
   enchanterAll("beyond_earth:mercury_stone", 1, 1, 'beyond_earth_giselle_addon:space_fire_proof')
   enchanterAll("beyond_earth:venus_stone", 1, 1, 'beyond_earth_giselle_addon:venus_acid_proof')
 
+  //Advanced Hephaestus Forge
+  function advEphae(center, input1, input2, input3, input4, input5, input6, output, xp, aureal, blood) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:advanced_hephaestus_forge", "time": 200, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item", "mode": "input", "slot": "input_center", "item": center, "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": output, "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": input1, "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": input2, "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": input3, "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": input4, "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": input5, "amount": 1 }, { "type": "custommachinery:item", "mode": "input", "item": input6, "amount": 1 }, { "type": "custommachinery:fluid_per_tick", "mode": "input", "fluid": "#forge:experience", "amount": xp, "slot": "experience_tank" }, { "type": "custommachinery:fluid_per_tick", "mode": "input", "fluid": "ragnamod_seven:aureal", "amount": aureal, "slot": "aureal_tank" }, { "type": "custommachinery:fluid_per_tick", "mode": "input", "fluid": "#forge:blood", "amount": blood, "slot": "blood_tank" }, { "type": "custommachinery:structure", "pattern": [["    A   AA     ", "   A   A       ", "   A  AA       ", "   AA ABB  AAA ", "    ACBXCCAA  A", "A   CXCBCXC    ", "A  BCCCDCCBAA  ", " AABXBDEDBXBAA ", "  AABCCDCCCB  A", "    CXCBCXC   A", "A  AACCXBCA    ", " AAA  BBA AA   ", "       AA  A   ", "       A   A   ", "     AA   A    "], ["               ", "               ", "               ", "               ", "       G       ", "     F   F     ", "               ", "    G  m  G    ", "               ", "     F   F     ", "       G       ", "               ", "               ", "               ", "               "]], "keys": { "A": "forbidden_arcanus:dark_rune_block", "B": "forbidden_arcanus:rune_block", "C": "forbidden_arcanus:polished_darkstone", "D": "forbidden_arcanus:arcane_polished_darkstone", "E": "forbidden_arcanus:arcane_gold_block", "F": "forbidden_arcanus:arcane_crystal_obelisk", "G": "forbidden_arcanus:arcane_darkstone_pedestal", "X": "forbidden_arcanus:arcane_chiseled_polished_darkstone" } }] }) }
+  //Eternal Stella
+  e.custom({
+    "type": "custommachinery:custom_machine",
+    "machine": "ragnamod_7:advanced_hephaestus_forge",
+    "time": 200,
+    "requirements": [
+      {
+        "type": "custommachinery:energy",
+        "mode": "input",
+        "amount": 10000
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "slot": "input_center",
+        "item": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "output",
+        "item": "forbidden_arcanus:eternal_stella",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "forbidden_arcanus:stellarite_piece",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "forbidden_arcanus:xpetrified_orb",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "forbidden_arcanus:xpetrified_orb",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "forbidden_arcanus:xpetrified_orb",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:fluid_per_tick",
+        "mode": "input",
+        "fluid": "#forge:experience",
+        "amount": 0,
+        "slot": "experience_tank"
+      },
+      {
+        "type": "custommachinery:fluid_per_tick",
+        "mode": "input",
+        "fluid": "ragnamod_seven:aureal",
+        "amount": 5,
+        "slot": "aureal_tank"
+      },
+      {
+        "type": "custommachinery:fluid_per_tick",
+        "mode": "input",
+        "fluid": "#forge:blood",
+        "amount": 10,
+        "slot": "blood_tank"
+      },
+      {
+        "type": "custommachinery:structure",
+        "pattern": [
+          [
+            "    A   AA     ",
+            "   A   A       ",
+            "   A  AA       ",
+            "   AA ABB  AAA ",
+            "    ACBXCCAA  A",
+            "A   CXCBCXC    ",
+            "A  BCCCDCCBAA  ",
+            " AABXBDEDBXBAA ",
+            "  AABCCDCCCB  A",
+            "    CXCBCXC   A",
+            "A  AACCXBCA    ",
+            " AAA  BBA AA   ",
+            "       AA  A   ",
+            "       A   A   ",
+            "     AA   A    "
+          ],
+          [
+            "               ",
+            "               ",
+            "               ",
+            "               ",
+            "       G       ",
+            "     F   F     ",
+            "               ",
+            "    G  m  G    ",
+            "               ",
+            "     F   F     ",
+            "       G       ",
+            "               ",
+            "               ",
+            "               ",
+            "               "
+          ]
+        ],
+        "keys": {
+          "A": "forbidden_arcanus:dark_rune_block",
+          "B": "forbidden_arcanus:rune_block",
+          "C": "forbidden_arcanus:polished_darkstone",
+          "D": "forbidden_arcanus:arcane_polished_darkstone",
+          "E": "forbidden_arcanus:arcane_gold_block",
+          "F": "forbidden_arcanus:arcane_crystal_obelisk",
+          "G": "forbidden_arcanus:arcane_darkstone_pedestal",
+          "X": "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+        }
+      }
+    ]
+  })
+
+  advEphae("chickens:chicken_skin", "reliquary:phoenix_down", "twilightforest:borer_essence", "create_sa:heap_of_experience", "gemsnjewels:spinel", "ars_nouveau:manipulation_essence", "botania:spark", "chickens:chicken_shell", 10, 10, 0)
+  advEphae('hostilenetworks:machine_frame', 'hostilenetworks:overworld_prediction', 'hostilenetworks:nether_prediction', 'hostilenetworks:end_prediction', 'hostilenetworks:twilight_prediction', 'hostilenetworks:blueskies_prediction', 'hostilenetworks:undergarden_prediction', 'alchemistry:machine_frame', 10, 10, 10)
+  advEphae('miniutilities:stable_ingot', 'cataclysm:ignitium_ingot', 'ragnamod_seven:shub_niggurath_ingot', 'ragnamod_seven:sculk_ingot', 'ragnamod_seven:chemical_draconium_ingot', 'cataclysm:enderite_ingot', 'cataclysm:witherite_ingot', 'ragnamod_seven:condensed_ingot', 10, 10, 10)
+  advEphae('forbidden_arcanus:arcane_crystal_block', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:coal', 'minecraft:coal', 'forbidden_arcanus:smelter_prism', 0, 10, 5)
+
 })

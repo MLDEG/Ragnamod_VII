@@ -1,0 +1,40 @@
+{
+  "inputs": [
+    {
+      "item": "chemlib:vanadium_ingot",
+      "slot": 0
+    },
+    {
+      "item": "chemlib:actinium_ingot",
+      "slot": 1
+    },
+    {
+      "item": "miniutilities:stable_ingot",
+      "slot": 2
+    },
+    {
+      "item": "chemlib:vanadium_ingot",
+      "slot": 3
+    },
+    {
+      "item": "chemlib:actinium_ingot",
+      "slot": 4
+    },
+    {
+      "item": "miniutilities:stable_ingot",
+      "slot": 5
+    }
+  ],
+  "hephaestus_forge_item": "forbidden_arcanus:hephaestus_forge",
+  "essences": {
+    "aureal": 200,
+    "experience": 200,
+    "blood": 5000,
+    "souls": 1
+  },
+  "result": {
+    "item": "custommachinery:custom_machine_item",
+    "nbt":"{machine:\"ragnamod_7:advanced_hephaestus_forge\"}",
+    "count": 1
+  }
+}
