@@ -731,6 +731,7 @@ onEvent('recipes', e => {
         'create_confectionery:ruby_chocolate_recipe_6',
         'ftbic:shapeless/sulfur_from_hammer',
         'bloodmagic:meteor/myst_ag',
+        'createaddition:compat/tconstruct/tinkers_bronze',
     ]
     removeId.forEach(C => { r(C) })
 })
