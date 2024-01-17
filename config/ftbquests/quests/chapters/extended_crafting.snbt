@@ -561,7 +561,7 @@
 			x: 3.0d
 			y: -1.5d
 			shape: "circle"
-			description: ["The Sword of the Cosmos can one shot every mob, even a Creative player !"]
+			description: ["The Sword of the Cosmos can one shot every mobs!"]
 			dependencies: [
 				"4BB16AAE2B3D988C"
 				"124C6442CC789FCA"
@@ -749,7 +749,7 @@
 			x: 11.5d
 			y: 3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Space's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -979,7 +979,7 @@
 			x: 12.5d
 			y: -1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1209,7 +1209,7 @@
 			x: 11.5d
 			y: 2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Space's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1232,7 +1232,7 @@
 			x: 11.5d
 			y: 2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Space's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1255,7 +1255,7 @@
 			x: 9.5d
 			y: -2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			description: ["This singularity is used to craft the FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1278,7 +1278,7 @@
 			x: 8.5d
 			y: 3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1301,7 +1301,7 @@
 			x: 8.5d
 			y: 2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1324,7 +1324,7 @@
 			x: 8.5d
 			y: 4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1416,7 +1416,7 @@
 			x: 10.5d
 			y: 0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1439,7 +1439,7 @@
 			x: 10.5d
 			y: -3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1462,7 +1462,7 @@
 			x: 10.5d
 			y: -3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1485,7 +1485,7 @@
 			x: 10.5d
 			y: -2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1508,7 +1508,7 @@
 			x: 10.5d
 			y: 3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1531,7 +1531,7 @@
 			x: 10.5d
 			y: 1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1554,7 +1554,7 @@
 			x: 10.5d
 			y: 3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1577,7 +1577,7 @@
 			x: 10.5d
 			y: 2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1600,7 +1600,7 @@
 			x: 10.5d
 			y: -0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1623,7 +1623,7 @@
 			x: 10.5d
 			y: -1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1646,7 +1646,7 @@
 			x: 10.5d
 			y: -2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1669,7 +1669,7 @@
 			x: 12.5d
 			y: 1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1692,7 +1692,7 @@
 			x: 12.5d
 			y: 0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1715,7 +1715,7 @@
 			x: 12.5d
 			y: -0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1738,7 +1738,7 @@
 			x: 12.5d
 			y: 0.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tech's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tech's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1761,7 +1761,7 @@
 			x: 9.5d
 			y: -1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1784,7 +1784,7 @@
 			x: 9.5d
 			y: 0.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1807,7 +1807,7 @@
 			x: 9.5d
 			y: 0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1830,7 +1830,7 @@
 			x: 9.5d
 			y: 1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1853,7 +1853,7 @@
 			x: 9.5d
 			y: -3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			description: ["This singularity is used to craft the FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1876,7 +1876,7 @@
 			x: 10.5d
 			y: 4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1899,7 +1899,7 @@
 			x: 9.5d
 			y: -0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mekanism's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mekanism's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1922,7 +1922,7 @@
 			x: 9.5d
 			y: -4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			description: ["This singularity is used to craft the FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1945,7 +1945,7 @@
 			x: 9.5d
 			y: -3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			description: ["This singularity is used to craft the FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1968,7 +1968,7 @@
 			x: 11.5d
 			y: -2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -1991,7 +1991,7 @@
 			x: 11.5d
 			y: -3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2129,7 +2129,7 @@
 			x: 11.5d
 			y: 0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			description: ["This singularity is used to craft the PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2152,7 +2152,7 @@
 			x: 12.5d
 			y: 3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2175,7 +2175,7 @@
 			x: 12.5d
 			y: 2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2198,7 +2198,7 @@
 			x: 12.5d
 			y: 2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2221,7 +2221,7 @@
 			x: 12.5d
 			y: 4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2244,7 +2244,7 @@
 			x: 12.5d
 			y: 3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Thermal's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Thermal's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2267,7 +2267,7 @@
 			x: 12.5d
 			y: -4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2290,7 +2290,7 @@
 			x: 9.5d
 			y: 2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2313,7 +2313,7 @@
 			x: 9.5d
 			y: 4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2336,7 +2336,7 @@
 			x: 9.5d
 			y: 2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2359,7 +2359,7 @@
 			x: 9.5d
 			y: 3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2382,7 +2382,7 @@
 			x: 9.5d
 			y: 3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Mobs's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Mobs's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2405,7 +2405,7 @@
 			x: 10.5d
 			y: -4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #1."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2428,7 +2428,7 @@
 			x: 11.5d
 			y: -1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			description: ["This singularity is used to craft the PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2451,7 +2451,7 @@
 			x: 11.5d
 			y: 1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			description: ["This singularity is used to craft the PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2474,7 +2474,7 @@
 			x: 11.5d
 			y: -2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2497,7 +2497,7 @@
 			x: 13.5d
 			y: -1.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2520,7 +2520,7 @@
 			x: 13.5d
 			y: -2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2543,7 +2543,7 @@
 			x: 13.5d
 			y: -2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2566,7 +2566,7 @@
 			x: 13.5d
 			y: -0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2589,7 +2589,7 @@
 			x: 13.5d
 			y: -1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Twilight's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Twilight's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2612,7 +2612,7 @@
 			x: 13.5d
 			y: 2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2635,7 +2635,7 @@
 			x: 13.5d
 			y: 1.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2658,7 +2658,7 @@
 			x: 10.5d
 			y: 2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #3."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2704,7 +2704,7 @@
 			x: 11.5d
 			y: 3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Space's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2727,7 +2727,7 @@
 			x: 11.5d
 			y: 4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Space's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Space's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2750,7 +2750,7 @@
 			x: 10.5d
 			y: 0.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."]
+			description: ["This singularity is used to craft the Minecraft's Agglomerate Matter #2."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2796,7 +2796,7 @@
 			x: 11.5d
 			y: 0.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			description: ["This singularity is used to craft the PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -2819,7 +2819,7 @@
 			x: 11.5d
 			y: -0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil PSI's Agglomerate Matter."]
+			description: ["This singularity is used to craft the PSI's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3003,7 +3003,7 @@
 			x: 8.5d
 			y: 3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3026,7 +3026,7 @@
 			x: 8.5d
 			y: 2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Forbidden Arcanus's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3049,7 +3049,7 @@
 			x: 13.5d
 			y: 0.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3072,7 +3072,7 @@
 			x: 13.5d
 			y: 2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3095,7 +3095,7 @@
 			x: 13.5d
 			y: 1.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Undergarden's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Undergarden's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3118,7 +3118,7 @@
 			x: 9.5d
 			y: -2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil FTBIC's Agglomerate Matter."]
+			description: ["This singularity is used to craft the FTBIC's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3141,7 +3141,7 @@
 			x: 12.5d
 			y: -2.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3164,7 +3164,7 @@
 			x: 12.5d
 			y: -3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3187,7 +3187,7 @@
 			x: 12.5d
 			y: -3.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3210,7 +3210,7 @@
 			x: 12.5d
 			y: -2.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Tinkers Construct's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3348,7 +3348,7 @@
 			x: 11.5d
 			y: -3.5d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"
@@ -3371,7 +3371,7 @@
 			x: 11.5d
 			y: -4.0d
 			shape: "circle"
-			description: ["This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."]
+			description: ["This singularity is used to craft the Pneumaticcraft's Agglomerate Matter."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C4CE07814F3CD94"

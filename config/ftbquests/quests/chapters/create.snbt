@@ -375,8 +375,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: -3.5d
+			y: 0.0d
 			shape: "square"
 			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
 			dependencies: [
@@ -574,8 +574,8 @@
 		}
 		{
 			title: "Brass Funnel"
-			x: 7.0d
-			y: -4.5d
+			x: 7.5d
+			y: -7.0d
 			shape: "square"
 			description: [
 				"Upgraded version of Andesite Funnel."
@@ -602,8 +602,8 @@
 		}
 		{
 			title: "Brass Tunnel"
-			x: 9.0d
-			y: -4.5d
+			x: 8.5d
+			y: -7.0d
 			shape: "square"
 			description: [
 				"The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through."
@@ -630,8 +630,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -4.5d
+			x: 5.0d
+			y: -5.5d
 			shape: "square"
 			description: ["Smart Chutes behave similarly to Brass Funnels. They can be filtered to only allow certain items through, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."]
 			dependencies: [
@@ -652,7 +652,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 3.5d
 			y: -7.0d
 			shape: "square"
 			description: [
@@ -664,6 +664,7 @@
 				""
 				"Display Links can write information to Display Boards. "
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"16B1F60A0D8DAD6D"
 				"298A3F9171009D45"
@@ -682,8 +683,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -6.5d
+			x: 0.5d
+			y: -7.0d
 			shape: "square"
 			description: [
 				"A Display Link is used to get information from a block and send it to blocks that can display it. "
@@ -709,8 +710,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -6.5d
+			x: 2.5d
+			y: -7.0d
 			shape: "square"
 			description: [
 				"By default, each Item Vault block has a storage space of 20 stacks"
@@ -1131,8 +1132,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -5.5d
+			x: 1.5d
+			y: -7.0d
 			shape: "square"
 			description: ["The Cart Assembler can attach a Contraption to carts that pass through it when supplied with a Redstone signal. Cart contraptions will not travel through nether portals. "]
 			hide_dependency_lines: true
@@ -1154,8 +1155,8 @@
 		}
 		{
 			title: "Controller Rail"
-			x: 6.5d
-			y: -5.5d
+			x: 6.0d
+			y: -6.5d
 			shape: "square"
 			description: ["Controller Rails are used to control the speed of Minecarts or Minecart Contraptions. "]
 			dependencies: [
@@ -1963,7 +1964,7 @@
 		}
 		{
 			x: -2.0d
-			y: 2.5d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"The Starbuncle Wheel can generate 256 stress unit and turn at 16 rotation per minute."
@@ -2019,7 +2020,7 @@
 		}
 		{
 			x: 10.0d
-			y: -4.5d
+			y: -5.5d
 			shape: "square"
 			subtitle: "autoclicker"
 			description: ["The deployer will be useful for making assembly crafts."]
@@ -2255,6 +2256,68 @@
 				type: "item"
 				item: "sliceanddice:slicer"
 			}]
+		}
+		{
+			x: 22.5d
+			y: -2.0d
+			id: "664DE56E7C145E46"
+			tasks: [{
+				id: "3B1F13937E9FB2E9"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: -1.0d
+			id: "38E0112BECD74268"
+			tasks: [
+				{
+					id: "23F8CBF27081A9E8"
+					type: "item"
+					item: "create:shadow_steel"
+				}
+				{
+					id: "0A64BC8F83B40A71"
+					type: "item"
+					item: "create:refined_radiance"
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 0.0d
+			id: "479A49B3A97E49D3"
+			tasks: [{
+				id: "12DEA739EAA3C5DD"
+				type: "item"
+				item: "createqol:shadow_radiance"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 1.0d
+			id: "1ECE67F6DA1294FC"
+			tasks: [
+				{
+					id: "048DDEC79B03B990"
+					type: "item"
+					item: "createqol:inventory_linker"
+				}
+				{
+					id: "7A586698A6F174B9"
+					type: "item"
+					item: {
+						id: "createqol:player_paper"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]

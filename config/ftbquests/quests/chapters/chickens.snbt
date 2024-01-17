@@ -5503,7 +5503,7 @@
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_plastic.png width:150 height:100 align:1}"]
 			dependencies: [
 				"4C886CE89FF0AF52"
-				"00000000000007DA"
+				"00000000000009B3"
 			]
 			id: "0B3E39F6091CE32C"
 			tasks: [{
