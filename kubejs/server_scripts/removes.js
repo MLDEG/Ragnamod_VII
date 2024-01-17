@@ -733,6 +733,21 @@ onEvent('recipes', e => {
         'bloodmagic:meteor/myst_ag',
         'createaddition:compat/tconstruct/tinkers_bronze',
         'materialis:mixing/chromatic_compound',
+        'minecraft:red_wool',
+        'minecraft:orange_wool',
+        'minecraft:yellow_wool',
+        'minecraft:lime_wool',
+        'minecraft:green_wool',
+        'minecraft:blue_wool',
+        'minecraft:light_blue_wool',
+        'minecraft:cyan_wool',
+        'minecraft:pink_wool',
+        'minecraft:magenta_wool',
+        'minecraft:purple_wool',
+        'minecraft:brown_wool',
+        'minecraft:black_wool',
+        'minecraft:light_gray_wool',
+        'minecraft:gray_wool',
     ]
     removeId.forEach(C => { r(C) })
 })
