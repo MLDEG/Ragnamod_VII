@@ -732,6 +732,7 @@ onEvent('recipes', e => {
         'ftbic:shapeless/sulfur_from_hammer',
         'bloodmagic:meteor/myst_ag',
         'createaddition:compat/tconstruct/tinkers_bronze',
+        'materialis:mixing/chromatic_compound',
     ]
     removeId.forEach(C => { r(C) })
 })
