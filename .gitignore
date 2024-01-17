@@ -1,9 +1,15 @@
 /modernfix/
 /backups/
 /config/byg/backups/
+/config/embeddium-mixins.properties
+/config/embeddium-option.json
+/config/embeddium++.toml
+/config/embeddium++mixin.toml
+/config/embeddiumplus.toml
 /config/jei/world/
 /config/justzoom/
 /config/konkrete/
+/config/Mekanism/client.toml
 /config/tempad_client.json
 /config/worldstripper/
 /config/world_gen_export/
