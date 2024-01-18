@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "kubejs:ichor",
+    "amount": 1000
+  },
+  "result": "tconstruct:ichor_congealed_slime",
+  "cooling_time": 96
+}
