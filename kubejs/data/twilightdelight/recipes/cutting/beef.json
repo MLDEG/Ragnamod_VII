@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "tool": {
+    "item": "delightful:fiery_knife"
+  },
+  "result": [
+    {
+      "item": "farmersdelight:beef_patty",
+      "count": 2
+    }
+  ]
+}

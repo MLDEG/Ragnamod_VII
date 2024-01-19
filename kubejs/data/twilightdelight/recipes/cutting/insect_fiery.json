@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:insect"
+    }
+  ],
+  "tool": {
+    "item": "delightful:fiery_knife"
+  },
+  "result": [
+    {
+      "item": "twilightdelight:cooked_insect",
+      "count": 2
+    }
+  ]
+}

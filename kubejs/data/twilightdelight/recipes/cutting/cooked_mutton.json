@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:mutton"
+    }
+  ],
+  "tool": {
+    "item": "delightful:fiery_knife"
+  },
+  "result": [
+    {
+      "item": "farmersdelight:cooked_mutton_chops",
+      "count": 2
+    }
+  ]
+}
