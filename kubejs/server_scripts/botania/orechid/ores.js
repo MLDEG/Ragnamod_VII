@@ -35,7 +35,6 @@ onEvent('recipes', e => {
     orechid('minecraft:stone', 'mekanism:uranium_ore', 20000)
     orechid('minecraft:stone', 'evilcraft:dark_ore', 500)
     orechid('minecraft:stone', 'thermal:silver_ore', 29350)
-    orechid('minecraft:stone', 'deepresonance:resonating_ore_stone', 15000)
     orechid('minecraft:stone', 'miniutilities:ender_ore', 20000)
     orechid('minecraft:stone', 'thermal:niter_ore', 28000)
     orechid('minecraft:stone', 'thermal:lead_ore', 29350)

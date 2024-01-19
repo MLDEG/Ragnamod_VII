@@ -88,7 +88,6 @@ onEvent('recipes', e => {
     oreOverworld('tinkers_reforged:deepslate_epidote_ore', -40, 10, 4, 5)
     oreOverworld('evilcraft:dark_ore', 0, 10, 2, 10)
     oreOverworld('forbidden_arcanus:arcane_crystal_ore', 0, 25, 5, 0)
-    oreOverworld('deepresonance:resonating_ore_stone', -10, 40, 5, 14)
     oreOverworld('miniutilities:ender_ore', 0, 45, 20, 9)
     oreOverworld('powah:uraninite_ore', -40, 30, 5, 5)
     oreOverworld('rftoolsbase:dimensionalshard_overworld', -64, 30, 3, 0)
