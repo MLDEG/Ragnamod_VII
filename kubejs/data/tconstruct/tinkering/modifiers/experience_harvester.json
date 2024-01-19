@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:enchantment",
+  "level_display": {
+    "type": "tconstruct:default"
+  },
+  "enchantment": {
+    "name": "miniutilities:experience_harvester",
+    "level": 1
+  }
+}

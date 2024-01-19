@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": {
+    "tag": "forge:gunpowder"
+  },
+  "amount_per_item": 1,
+  "needed_per_level": 20,
+  "tools": {
+    "tag": "tconstruct:modifiable/harvest/stone"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:blasting",
+    "level": 1
+  },
+  "max_level": 10
+}

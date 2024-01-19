@@ -1,16 +1,10 @@
 {
-  "type": "tconstruct:modifier",
-  "inputs": [
-    {
-      "item": "bhc:wither_bone"
-    },
-    {
-      "item": "tconstruct:blood_congealed_slime"
-    },
-    {
-      "item": "minecraft:ghast_tear"
-    }
-  ],
+  "type": "tconstruct:incremental_modifier",
+  "input": {
+    "item": "minecraft:blaze_powder"
+  },
+  "amount_per_item": 1,
+  "needed_per_level": 25,
   "tools": [
     {
       "tag": "tconstruct:modifiable/melee_or_unarmed"
@@ -24,7 +18,7 @@
   },
   "allow_crystal": true,
   "result": {
-    "name": "tconstruct:necrotic",
+    "name": "tconstruct:fiery",
     "level": 1
   },
   "max_level": 10

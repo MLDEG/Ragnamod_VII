@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:enchantment",
+  "level_display": {
+    "type": "tconstruct:default"
+  },
+  "enchantment": {
+    "name": "naturesaura:aura_mending",
+    "level": 1
+  }
+}

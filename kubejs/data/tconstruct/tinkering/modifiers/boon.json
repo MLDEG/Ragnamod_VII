@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:loot",
+  "level_display": {
+    "type": "tconstruct:unique",
+    "unique_until": 3
+  },
+  "enchantment": {
+    "name": "apotheosis:earths_boon",
+    "level": 1
+  }
+}

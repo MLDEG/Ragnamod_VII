@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": 
+    [
+    {
+      "item": "naturesaura:gold_leaf"
+    },
+    { "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:nether\"}" },
+    { "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:other\"}" },
+    { "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:overworld\"}" },
+    { "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:end\"}" }
+],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee"
+    },
+    {
+      "tag": "tconstruct:modifiable/harvest"
+    },
+    {
+      "tag": "tconstruct:modifiable/ranged"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:natures_mend",
+    "level": 1
+  },
+  "max_level": 1
+}

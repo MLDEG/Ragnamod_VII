@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:enchantment",
+  "level_display": {
+    "type": "tconstruct:default"
+  },
+  "enchantment": {
+    "name": "draconicevolution:reaper_enchantment",
+    "level": 1
+  }
+}
