@@ -4567,7 +4567,7 @@
 		}
 		{
 			x: -11.5d
-			y: 6.0d
+			y: 5.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4591,7 +4591,7 @@
 		}
 		{
 			x: -10.5d
-			y: 6.0d
+			y: 5.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4615,7 +4615,7 @@
 		}
 		{
 			x: -9.5d
-			y: 6.0d
+			y: 5.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4639,7 +4639,7 @@
 		}
 		{
 			x: -8.5d
-			y: 6.0d
+			y: 5.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4663,7 +4663,7 @@
 		}
 		{
 			x: -8.5d
-			y: 7.0d
+			y: 6.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4759,7 +4759,7 @@
 		}
 		{
 			x: -12.5d
-			y: 7.0d
+			y: 7.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4783,7 +4783,7 @@
 		}
 		{
 			x: -12.5d
-			y: 8.0d
+			y: 8.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4807,7 +4807,7 @@
 		}
 		{
 			x: -11.5d
-			y: 8.0d
+			y: 8.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4831,7 +4831,7 @@
 		}
 		{
 			x: -10.5d
-			y: 8.0d
+			y: 8.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
@@ -4855,7 +4855,7 @@
 		}
 		{
 			x: -9.5d
-			y: 8.0d
+			y: 8.5d
 			shape: "square"
 			description: [
 				"Solar Panel I, can:"
