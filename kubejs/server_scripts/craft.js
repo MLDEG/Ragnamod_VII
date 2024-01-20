@@ -526,9 +526,10 @@ onEvent('recipes', e => {
         "results": [{ "item": "create:potato_cannon" }]
       },
       {
-        "type": "create:pressing",
+        "type": "create:deploying",
         "ingredients": [
-          { "item": "create:potato_cannon" }
+          { "item": "create:potato_cannon" },
+          { "item": "createcasing:creative_cogwheel" }
         ],
         "results": [{ "item": "create:potato_cannon" }]
       },
