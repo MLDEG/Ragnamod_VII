@@ -5,6 +5,7 @@
 	filename: "thermal"
 	title: " Thermal"
 	icon: "thermal:machine_frame"
+	subtitle: ["Cult of the Full Hub"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

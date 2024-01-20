@@ -5,6 +5,7 @@
 	filename: "welcome"
 	title: " Welcome"
 	icon: "architects_palette:unobtanium_block"
+	subtitle: ["Bonjour."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -22,7 +23,7 @@
 	quests: [
 		{
 			x: -0.5d
-			y: -0.5d
+			y: 0.0d
 			shape: "gear"
 			description: [
 				"Welcome to Ragnamod VII."
@@ -43,7 +44,8 @@
 		{
 			icon: "create_sa:steam_engine"
 			x: -2.0d
-			y: 0.0d
+			y: -1.0d
+			shape: "square"
 			description: [
 				"To share your quests with your friends, you need to create a team."
 				""
@@ -71,8 +73,8 @@
 		}
 		{
 			icon: "computercraft:printed_pages"
-			x: -1.5d
-			y: 1.0d
+			x: -2.0d
+			y: 0.5d
 			description: [
 				"As mentionned previously, this modpack doesn't force you to play around with the quests."
 				""
@@ -104,7 +106,8 @@
 				}
 			}
 			x: 1.0d
-			y: 0.0d
+			y: 0.5d
+			shape: "gear"
 			description: ["To unlock the creative items chapter you must complete the \"End of ... Quests\"."]
 			dependencies: ["2C8AB1F55FB366FF"]
 			id: "47900538A09CE4F2"
@@ -117,8 +120,9 @@
 		{
 			title: "Fake Player"
 			icon: "computercraft:turtle_advanced"
-			x: 0.5d
-			y: 1.0d
+			x: -1.0d
+			y: 1.5d
+			shape: "diamond"
 			description: [
 				"On this pack you have the FTB Chunks, which allows you to claim your chunks and protect them from any potential griefs."
 				""
@@ -141,8 +145,9 @@
 		{
 			title: "Be prepared"
 			icon: "ragnamod_seven:sculk_singularity"
-			x: -0.5d
+			x: 0.0d
 			y: 1.5d
+			shape: "octagon"
 			description: [
 				"In this modpack, you'll need to passively farm some resources for singularities."
 				""
@@ -154,6 +159,533 @@
 			tasks: [{
 				id: "4594366B54D5BC86"
 				type: "checkmark"
+			}]
+		}
+		{
+			title: "Thanks"
+			icon: "artifacts:crystal_heart"
+			x: 1.0d
+			y: -1.0d
+			shape: "heart"
+			description: [
+				"Thanks to my beta tester."
+				""
+				"Without them, this modpack would not be what it is today."
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "3C54AEF63E473C1B"
+			tasks: [{
+				id: "5DD06ED8710A08C3"
+				type: "checkmark"
+				title: "Beta Tester"
+			}]
+			rewards: [{
+				id: "286B8C256004AF7F"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:shulker_box"
+					Count: 1b
+					tag: {
+						mainColor: 15961002
+						accentColor: 15961002
+						BlockEntityTag: {
+							ForgeCaps: { }
+							id: "sophisticatedstorage:shulker_box"
+							storageWrapper: {
+								renderInfo: {
+									upgradeItems: [{
+										id: "minecraft:air"
+										Count: 1b
+										tag: { }
+									}]
+								}
+								contents: {
+									inventory: {
+										Size: 27
+										Items: [
+											{
+												Slot: 0
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2RhMjlhYmI0NjdmNTZjZDNjNWQ1MGFkMThhZjhiNGJlM2FhNjUzOTcwZDJkZWMxMTNlY2M4OWFmMjcwZGRkZSJ9fX0="
+															}]
+														}
+														Id: [I;
+															1065941187
+															912345052
+															-2040676420
+															-1137121961
+														]
+													}
+													display: {
+														Name: "{\"text\":\"BideoGemu\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 1
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk1M2RiYmQ2MDNjNDNjODc5YzkyMWYwYTc2OGRhNGQyMTJmOGM4MTE2ZTliZGMzOWM5NzQwZGUyNmM0ZjY0YyJ9fX0="
+															}]
+														}
+														Id: [I;
+															1480457043
+															-1717481745
+															-1233185356
+															-1897936537
+														]
+													}
+													display: {
+														Name: "{\"text\":\"MmeBideo\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 2
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDVhZDcyZTdjNDdmNzczMzRmNGNmNjc1OTlmNDVkNzIwMzJlNGZkYWRiOGI2ODYzNWYzY2MyZTY2ZjM5YmMyYSJ9fX0="
+															}]
+														}
+														Id: [I;
+															1857107785
+															-249018542
+															-2065969062
+															640287305
+														]
+													}
+													display: {
+														Name: "{\"text\":\"chimchim\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 3
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJhMmQwOGIyMTczM2FkOTdjZWNlZTBlMzVhZmI4OTkwNjVlZjRkMGJjMWZlZWEzN2M3NGYxMzk1NzA2Mjg5ZiJ9fX0="
+															}]
+														}
+														Id: [I;
+															-1975925389
+															-410958076
+															-1127180960
+															-1107303310
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Aspifion\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 4
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFlOTc1YTJmOWIyYjIyYWE2NmIzMzMzNDlhMWExMWJjMGZlNTQwOGJmZTBkOWNjMDJkODg5ODUxNjZjNjhiMSJ9fX0="
+															}]
+														}
+														Id: [I;
+															-662137860
+															-1412872456
+															-1723855960
+															844144980
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Junglebos\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 5
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzlkMzUzYmM1ZmRhZDAxNGU0NmRlM2FlZWU2YzhjY2NhNTQwMGU3NmE5Y2FkZmVkNDY3MTRhZjcyYjUwYWM1NCJ9fX0="
+															}]
+														}
+														Id: [I;
+															441436624
+															-1051900726
+															-1961795097
+															-1389029637
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Zelda325\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 6
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxNmJiYTg5MGRmNDMxYTRlMGI5NDk0ZmQ2NTZhMzJkMTQyYjZjOGQzMmY4M2QwMTAxODJkNDMxMmUyNWMwZSJ9fX0="
+															}]
+														}
+														Id: [I;
+															-270124114
+															483806071
+															-1537368314
+															-686936170
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Chocapix\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 7
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJiYTRkMjg2YTk4ZWY2ODFkY2VlMWVjYmM4OTE1ZWVlZDY4ODIxNWZmNDY2ZDZlYWFhMmIzMGNmY2M4MzRlIn19fQ=="
+															}]
+														}
+														Id: [I;
+															-610633061
+															292244463
+															-1232935070
+															-739228213
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Parazouille\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 8
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE0ZjY1ZWIyNzQ5ZTRiY2FkNTI5OGQwZDQ4ZGFmZGViMjQ5Y2M3ZTY3ZDhhNzkwYjM4MTE1ZjU2MDYxNjAxZiJ9fX0="
+															}]
+														}
+														Id: [I;
+															1920142591
+															-2052831947
+															-2001499674
+															482862693
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Zakryx\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 18
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyMGYwYTAxMDYzM2IwYTE5NGIzZDNhZjEyM2YxNTE1ODcxOTQ0NzZiMmM1NDUyZTlhY2Q3MzgxNmYyOWRjZCJ9fX0="
+															}]
+														}
+														Id: [I;
+															-161470009
+															1235108551
+															-1209450274
+															-170918087
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Jalan2\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 19
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFlOTdjMzkzMzNjY2U2YmU3YWQwMmZjNTdjYmY2ODkxMjA2NDFmOWFmNDZjODA3NTZmNGM1NGExMjY0MWRhNSJ9fX0="
+															}]
+														}
+														Id: [I;
+															756329956
+															-1875032909
+															-1446551812
+															1260142172
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Afkafe\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 20
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTIzZGI1ZmExYThlODIwNWQzZGMzNGY0YTI0YjdiMDlhYzZjYzk4Y2VmM2IyNDQ1YjBlZDZmOGI2NjQxZmM1ZiJ9fX0="
+															}]
+														}
+														Id: [I;
+															-1276860786
+															226640734
+															-1581339765
+															-2082121937
+														]
+													}
+													display: {
+														Name: "{\"text\":\"nicolas_desc18\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 21
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ZlMDllMzFlYTRjYTdhODJhZmM2ZGU5OGM2YzAwZTNhNWJlYjBhYzM3OTg0NzhmMmYxMGU2ZDBmZDU5YjFhMiJ9fX0="
+															}]
+														}
+														Id: [I;
+															-658776590
+															-1163571562
+															-1360590925
+															-1852421657
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Bagra\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 22
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmVhZTI2MGQ0MzgzYTA3ZDMzN2RjZGFmODJiN2Q5NWU3NGEzN2YzZTQyNWY2ZTc0M2U5YWY2NWNmZDUyYjEwMSJ9fX0="
+															}]
+														}
+														Id: [I;
+															-1640163146
+															4475352
+															-1824779599
+															561203640
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Hegary\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 23
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGYyZjNiZThiMWQ0M2ZjNDY1OTMzZWZiZDVlMDk5N2E3ZWMxMzQ5ZjJkZjllNGJiMzg3ZjE5YjBlYzU0Y2I1NCJ9fX0="
+															}]
+														}
+														Id: [I;
+															-276796979
+															194202274
+															-1892109682
+															1315018249
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Glaedr_Kaosu\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 24
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQyZjU2YWYyNjRiNWM3N2FmZmM0YTQ0YmRjYWI1OTE0NzFjOWNhZWYzMmU0NDIyNzAzMDExZTAxOGY0NjhiOCJ9fX0="
+															}]
+														}
+														Id: [I;
+															-1240110775
+															-1435219136
+															-1230184641
+															61028672
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Koynax\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 25
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFkODI5YmU0ZTZkYjBmMTgxN2VhZTQwZmQ5ZmRjODhmZDE5YmM0ODg0NWFkZTk3OWNiZjFjM2JjMjI1MjRlNSJ9fX0="
+															}]
+														}
+														Id: [I;
+															1430860311
+															1934771552
+															-1489509712
+															-1572892974
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Saihao\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 26
+												id: "minecraft:player_head"
+												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyNWI0ZDZiNmFjYjUzMGYyN2U1ZTgwNWZkODY0YzVjZjBhNjQ1Mzc0MWM3ZTdiMDlhNzE0MmJiY2RiNjM4OSJ9fX0="
+															}]
+														}
+														Id: [I;
+															-1042947859
+															829898929
+															-1323174556
+															-2120736866
+														]
+													}
+													display: {
+														Name: "{\"text\":\"AHL\"}"
+													}
+												}
+												realCount: 1
+											}
+											{
+												Slot: 17
+												id: "croptopia:banana_cream_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 15
+												id: "croptopia:rhubarb_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 13
+												id: "croptopia:pecan_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 11
+												id: "croptopia:cherry_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 9
+												id: "croptopia:apple_pie"
+												Count: 1b
+												realCount: 1
+											}
+										]
+									}
+									partitioner: {
+										baseIndexes: [I;0]
+										inventoryPartNames: ["default"]
+									}
+								}
+								mainColor: 15961002
+								accentColor: 15961002
+								sortBy: "name"
+								numberOfInventorySlots: 27
+								numberOfUpgradeSlots: 1
+							}
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+						numberOfInventorySlots: 27
+						numberOfUpgradeSlots: 1
+					}
+				}
 			}]
 		}
 	]

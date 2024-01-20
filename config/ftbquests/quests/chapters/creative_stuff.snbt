@@ -5,6 +5,7 @@
 	filename: "creative_stuff"
 	title: " Creative Stuff"
 	icon: "functionalstorage:creative_vending_upgrade"
+	subtitle: ["The Creative grind"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	hide_quest_details_until_startable: true

@@ -5,6 +5,7 @@
 	filename: "nature_aura"
 	title: " Nature's Aura"
 	icon: "naturesaura:gold_leaf"
+	subtitle: ["Natural magic"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

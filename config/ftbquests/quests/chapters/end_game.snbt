@@ -5,6 +5,7 @@
 	filename: "end_game"
 	title: " End Game"
 	icon: "ragnamod_seven:sphere"
+	subtitle: ["Look my BIG GIANT BLACK BALL OF DOOM"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

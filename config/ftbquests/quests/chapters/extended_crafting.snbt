@@ -5,6 +5,7 @@
 	filename: "extended_crafting"
 	title: " Avaritia"
 	icon: "avaritia:infinity_catalyst"
+	subtitle: ["Too many singularities, oh boy…"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

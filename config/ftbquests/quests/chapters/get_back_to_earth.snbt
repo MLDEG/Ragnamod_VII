@@ -5,6 +5,7 @@
 	filename: "get_back_to_earth"
 	title: " Get Back To Earth"
 	icon: "beyond_earth:earth_globe"
+	subtitle: ["Escape this Twilight world"]
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [

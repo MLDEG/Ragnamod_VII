@@ -5,6 +5,7 @@
 	filename: "blue_skies"
 	title: " Blue Skies"
 	icon: "blue_skies:soul_fragment"
+	subtitle: ["Bright and dark dimensions"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

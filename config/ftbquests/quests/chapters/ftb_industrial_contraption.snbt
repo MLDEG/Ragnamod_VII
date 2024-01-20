@@ -5,6 +5,7 @@
 	filename: "ftb_industrial_contraption"
 	title: " FTB Industrial Contraptions"
 	icon: "ftbic:nuclear_reactor"
+	subtitle: ["IC2"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

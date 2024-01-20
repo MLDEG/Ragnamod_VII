@@ -5,6 +5,7 @@
 	filename: "alchemistry"
 	title: " Alchemistry"
 	icon: "alchemistry:combiner"
+	subtitle: ["Apprentice Chemist kit"]
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	images: [{

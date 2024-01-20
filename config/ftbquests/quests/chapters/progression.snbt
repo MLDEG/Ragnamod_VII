@@ -29,6 +29,7 @@
 			]
 		}
 	}
+	subtitle: ["What I have to do!"]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	images: [

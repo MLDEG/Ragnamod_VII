@@ -5,6 +5,7 @@
 	filename: "rftools_and_co"
 	title: " RFTools and Xnet"
 	icon: "rftoolsbase:machine_frame"
+	subtitle: ["Old School but still relevant"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
