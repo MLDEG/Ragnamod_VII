@@ -1,7 +1,8 @@
 {
   "type": "tconstruct:enchantment",
   "level_display": {
-    "type": "tconstruct:default"
+    "type": "tconstruct:unique",
+    "unique_until": 1
   },
   "enchantment": {
     "name": "minecraft:mending",
