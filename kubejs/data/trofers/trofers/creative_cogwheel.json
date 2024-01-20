@@ -1,0 +1,20 @@
+{
+  "name": {
+    "color": "#c654bf",
+    "text": "Creative Cogwheel Trophy"
+  },
+  "animation":{
+    "type": "spinning",
+      "speed": 0.5
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "item": {
+    "item": "createcasing:creative_cogwheel"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#c654bf"
+  }
+}
