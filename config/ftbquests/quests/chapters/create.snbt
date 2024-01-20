@@ -32,7 +32,7 @@
 		{
 			title: "Water Wheel"
 			x: -1.0d
-			y: 1.5d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"The Water Wheel is a source of rotation power. It generates rotational force when water flow over it."
@@ -114,7 +114,7 @@
 		{
 			title: "Cogwheel"
 			x: 1.0d
-			y: 1.5d
+			y: 2.0d
 			shape: "square"
 			description: ["The Cogwheel is a basic mechanical component in Create that relays rotation."]
 			dependencies: [
@@ -185,7 +185,7 @@
 		}
 		{
 			title: "Gearbox"
-			x: 2.0d
+			x: 1.5d
 			y: 1.0d
 			shape: "square"
 			description: [
@@ -232,7 +232,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: -1.5d
 			shape: "square"
 			description: ["The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."]
@@ -253,7 +253,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.0d
 			y: -1.5d
 			shape: "square"
 			description: [
@@ -375,8 +375,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 			shape: "square"
 			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
 			dependencies: [
@@ -400,7 +400,7 @@
 		{
 			title: "Chute"
 			x: 5.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: ["Chutes transport items vertically, similarly to Mechanical Belts."]
 			dependencies: [
@@ -502,7 +502,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: -4.0d
 			shape: "square"
 			description: ["Polished Rose Quartz is a material used to craft Electron Tubes and Chromatic Compound"]
@@ -574,8 +574,8 @@
 		}
 		{
 			title: "Brass Funnel"
-			x: 7.5d
-			y: -7.0d
+			x: 6.5d
+			y: -6.0d
 			shape: "square"
 			description: [
 				"Upgraded version of Andesite Funnel."
@@ -602,8 +602,8 @@
 		}
 		{
 			title: "Brass Tunnel"
-			x: 8.5d
-			y: -7.0d
+			x: 6.5d
+			y: -5.0d
 			shape: "square"
 			description: [
 				"The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through."
@@ -631,7 +631,7 @@
 		}
 		{
 			x: 5.0d
-			y: -5.5d
+			y: -3.5d
 			shape: "square"
 			description: ["Smart Chutes behave similarly to Brass Funnels. They can be filtered to only allow certain items through, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."]
 			dependencies: [
@@ -652,8 +652,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -7.0d
+			x: 2.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"Display Boards are a scalable alternative to the Sign."
@@ -683,8 +683,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -7.0d
+			x: 3.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"A Display Link is used to get information from a block and send it to blocks that can display it. "
@@ -710,8 +710,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -7.0d
+			x: 4.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"By default, each Item Vault block has a storage space of 20 stacks"
@@ -763,8 +763,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.5d
+			x: 5.5d
+			y: -5.0d
 			shape: "square"
 			description: [
 				"The Smart Observer is a machine that emits a redstone signal dependent on the block or items inside a container in front of it. "
@@ -790,7 +790,7 @@
 		}
 		{
 			x: 9.5d
-			y: -3.5d
+			y: -5.0d
 			shape: "square"
 			description: [
 				"The Threshold Switch measures how full an inventory is and can emit a Redstone signal at adjustable thresholds. "
@@ -815,12 +815,11 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -6.0d
+			x: 10.5d
+			y: -5.0d
 			shape: "square"
 			description: ["The Rotation Speed Controller is a mechanical component that allows the player to precisely control rotational speed."]
 			dependencies: [
-				"67680115E55B9C8B"
 				"013250199EBFD737"
 				"298A3F9171009D45"
 			]
@@ -837,7 +836,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 13.0d
 			y: -1.5d
 			shape: "square"
 			description: ["Powered Obsidian is used to make Sturdy Sheet"]
@@ -861,7 +860,7 @@
 		}
 		{
 			x: 15.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: ["Those Sheet are used to make train stuff and flamethrower"]
 			dependencies: [
@@ -883,7 +882,7 @@
 		}
 		{
 			x: 3.0d
-			y: 2.5d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"The Encased Fan is a mechanical component that can create air streams and generate power."
@@ -909,7 +908,7 @@
 		{
 			title: "Fluid Pipe"
 			x: 5.0d
-			y: 0.5d
+			y: -0.5d
 			shape: "square"
 			description: ["Fluid Pipes are blocks used to transport and deal with fluids."]
 			dependencies: [
@@ -932,8 +931,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 4.5d
+			y: 0.5d
 			shape: "square"
 			description: ["Mechanical Pump is used to extract fluid from a fluid pipe or a fluid tank."]
 			dependencies: [
@@ -953,8 +952,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.5d
+			x: 5.5d
+			y: 0.5d
 			shape: "square"
 			description: ["Fluid Valves can be used to close or open the flow in the pipe. Fluid Valves can be switched between open and closed by providing Rotational Force to the side."]
 			dependencies: [
@@ -974,8 +973,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 4.0d
+			x: 5.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"The Fluid Tank is a fluid storage that can store up to 8 buckets of fluid per block."
@@ -1086,8 +1085,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 4.0d
+			x: 5.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"The Steam Engine is a block that provides Rotational Force. It has the highest Stress (SU) capacity of all the survival-mode power-generating blocks. It converts the pressure caused by heating Water in a Fluid Tank into Rotational Force, allowing for large scale item production and multiple contraptions."
@@ -1132,8 +1131,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -7.0d
+			x: 4.5d
+			y: -5.5d
 			shape: "square"
 			description: ["The Cart Assembler can attach a Contraption to carts that pass through it when supplied with a Redstone signal. Cart contraptions will not travel through nether portals. "]
 			hide_dependency_lines: true
@@ -1155,8 +1154,8 @@
 		}
 		{
 			title: "Controller Rail"
-			x: 6.0d
-			y: -6.5d
+			x: 5.5d
+			y: -6.0d
 			shape: "square"
 			description: ["Controller Rails are used to control the speed of Minecarts or Minecart Contraptions. "]
 			dependencies: [
@@ -1201,8 +1200,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 			shape: "square"
 			description: ["The Stressometer is used to measure the amount of Stress on a Shaft"]
 			dependencies: [
@@ -1302,7 +1301,7 @@
 		}
 		{
 			x: 4.0d
-			y: 3.0d
+			y: 2.0d
 			shape: "square"
 			description: ["The Mechanical Drill is a block used to break blocks."]
 			hide_dependency_lines: true
@@ -1324,8 +1323,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 3.0d
+			y: -3.5d
 			shape: "square"
 			description: ["The Portable Storage Interface is a block that allows Item Transporters to directly interact with Contraption inventories. "]
 			hide_dependency_lines: false
@@ -1347,8 +1346,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 4.0d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"The Mechanical Harvester will harvest all mature crops it comes in contact with while moving forward."
@@ -1399,8 +1398,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.5d
+			x: 2.5d
+			y: -1.5d
 			shape: "square"
 			description: ["The Rope Pulley creates Contraptions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles."]
 			dependencies: [
@@ -1469,8 +1468,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -1.5d
+			x: 15.0d
+			y: -2.5d
 			shape: "square"
 			description: ["Train Schedules are used to instruct non-player Train conductors. "]
 			dependencies: [
@@ -1491,7 +1490,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 11.5d
 			y: -4.5d
 			shape: "square"
 			description: ["Train Tracks are special blocks used to support Trains."]
@@ -1600,7 +1599,7 @@
 		}
 		{
 			x: 11.0d
-			y: 1.5d
+			y: 2.5d
 			shape: "square"
 			description: ["An Elevator Pulley is a Contraption useful for creating multi-floor elevators easily. "]
 			dependencies: [
@@ -1622,8 +1621,8 @@
 		}
 		{
 			title: "Redstone Contact"
-			x: 0.0d
-			y: 4.5d
+			x: 10.0d
+			y: 3.0d
 			shape: "square"
 			description: ["Redstone Contacts allow Contraptions to convey redstone signals or activate Redstone Circuits. "]
 			hide_dependency_lines: true
@@ -1647,8 +1646,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 2.5d
+			x: 12.0d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"Contraption Controls are used to control Contraption Actors. "
@@ -1675,7 +1674,7 @@
 		}
 		{
 			x: -1.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: ["Engineer's goggles are a wearable item that allow the user to see more details about placed machines"]
 			hide_dependency_lines: true
@@ -1697,7 +1696,7 @@
 		}
 		{
 			x: 1.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"Super Glue holds structures in contraptions together, lime Slimeballs."
@@ -1757,7 +1756,7 @@
 		}
 		{
 			x: 0.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: ["The Wrench is a tool used to rotate, dismantle and configure components"]
 			hide_dependency_lines: true
@@ -1781,7 +1780,7 @@
 		}
 		{
 			x: 0.0d
-			y: -4.0d
+			y: -3.5d
 			shape: "square"
 			description: ["The Toolbox can hold up to 256 items per slot and up to 8 different types of items"]
 			hide_dependency_lines: true
@@ -1802,7 +1801,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 12.0d
 			y: -2.5d
 			shape: "square"
 			description: ["The Electric Motor generates kinetic energy from Forge Energy"]
@@ -1825,8 +1824,8 @@
 		}
 		{
 			title: "Copper Wire"
-			x: 14.0d
-			y: -4.0d
+			x: 13.5d
+			y: -3.5d
 			shape: "square"
 			description: ["Just craft some wires"]
 			dependencies: [
@@ -1849,7 +1848,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 12.5d
 			y: -3.5d
 			shape: "square"
 			description: ["The Copper Spool is used to make Alternator, Electric Motor or Tesla Coil"]
@@ -1872,7 +1871,7 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: 13.0d
 			y: -2.5d
 			shape: "square"
 			description: ["The Alternator generates Forge Energy from kinetic energy"]
@@ -1895,7 +1894,7 @@
 		}
 		{
 			x: 13.5d
-			y: -5.0d
+			y: -4.5d
 			shape: "square"
 			description: ["The Rolling Mill is used to craft Wires and Rods"]
 			hide_dependency_lines: true
@@ -1916,7 +1915,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 11.0d
 			y: -3.5d
 			shape: "square"
 			description: ["Tesla Coil use Forge Energy to charge item"]
@@ -1940,7 +1939,7 @@
 		{
 			title: "Redstone Link"
 			x: 11.0d
-			y: 3.5d
+			y: 1.5d
 			shape: "square"
 			description: ["Redstone Link can transfer redstone wiressly"]
 			hide_dependency_lines: false
@@ -1964,7 +1963,7 @@
 		}
 		{
 			x: -2.0d
-			y: 2.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"The Starbuncle Wheel can generate 256 stress unit and turn at 16 rotation per minute."
@@ -1988,7 +1987,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 8.5d
 			y: -1.5d
 			shape: "square"
 			subtitle: "The age of Brass"
@@ -2019,8 +2018,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -5.5d
+			x: 9.5d
+			y: -6.0d
 			shape: "square"
 			subtitle: "autoclicker"
 			description: ["The deployer will be useful for making assembly crafts."]
@@ -2041,8 +2040,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.0d
+			x: 8.5d
+			y: -4.0d
 			shape: "square"
 			description: [
 				"In this pack to make Rose Quartz you will need Fluorite and Redstone."
@@ -2071,8 +2070,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -5.0d
+			x: 10.5d
+			y: -6.0d
 			shape: "square"
 			subtitle: "Precision"
 			description: [
@@ -2097,8 +2096,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -4.0d
+			x: 11.5d
+			y: -5.5d
 			shape: "square"
 			description: [
 				"Right now your mechanical arm you'll use it in the craft of the Nasa Workbench, but this one can be useful in automation of Create devices!"
@@ -2236,8 +2235,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.5d
+			x: 3.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"The Slicer is used to automate Farmer's Delight cutting board crafts. "
@@ -2258,8 +2257,14 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: -2.0d
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			description: ["Chromatic Compound is used to make Shadow Steel and Refined Radiant."]
+			dependencies: [
+				"0F21B16927A39E9A"
+				"3DB4CDB19FD3915F"
+			]
 			id: "664DE56E7C145E46"
 			tasks: [{
 				id: "3B1F13937E9FB2E9"
@@ -2270,10 +2275,27 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5C4904F223D78D55"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 22.5d
-			y: -1.0d
+			x: 8.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"Shadows Steel is obtained by throwing Chromatic Compound in the End Void."
+				""
+				"Refined Radiant is obtained by throwing Chromatic Compound in a beacon beam (you can also charge your Compound in Glowstone, Torche, shroomlight, etc. But it's very slow)"
+			]
+			dependencies: ["664DE56E7C145E46"]
 			id: "38E0112BECD74268"
 			tasks: [
 				{
@@ -2287,20 +2309,61 @@
 					item: "create:refined_radiance"
 				}
 			]
+			rewards: [
+				{
+					id: "3F28314D09B68A09"
+					type: "item"
+					item: "create:shadow_steel"
+					random_bonus: 3
+				}
+				{
+					id: "370A4EB419A82DDB"
+					type: "item"
+					item: "create:refined_radiance"
+					random_bonus: 3
+				}
+			]
 		}
 		{
-			x: 22.5d
-			y: 0.0d
+			x: 9.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"Shadow Radiance is an alloy made with Shadows Steel and Refined Radiance."
+				"It's used to make the Inventory Linker from Create Quality of Life !"
+			]
+			dependencies: ["38E0112BECD74268"]
 			id: "479A49B3A97E49D3"
 			tasks: [{
 				id: "12DEA739EAA3C5DD"
 				type: "item"
 				item: "createqol:shadow_radiance"
 			}]
+			rewards: [{
+				id: "68C4175EB9D9C047"
+				type: "item"
+				item: "createqol:shadow_radiance"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 22.5d
-			y: 1.0d
+			x: 10.0d
+			y: -1.5d
+			description: [
+				"The Inventory Linker is a powerful block who can be link with your inventory using a Player Paper."
+				""
+				"It needs rotational force underneath to work, you can output from it and input inside using Funnel (for example)."
+				""
+				"You have 3 different configuration on top."
+				"Inventory, Armor and Off Hand."
+				""
+				"Each configuration is link to you, so you can, for example, extract cobblestone from your inventory using a funnel with a filter."
+				"Or you can equip an armor automatically, injecting an armor into it."
+			]
+			dependencies: [
+				"479A49B3A97E49D3"
+				"67680115E55B9C8B"
+			]
 			id: "1ECE67F6DA1294FC"
 			tasks: [
 				{
@@ -2318,6 +2381,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "679A860F4D6B4D07"
+				type: "item"
+				item: "createqol:shadow_radiance"
+			}]
 		}
 	]
 	quest_links: [ ]
