@@ -14,13 +14,13 @@
 			x: 3.0d
 			y: 1.5d
 			shape: "octagon"
-			subtitle: "Your goal is to leave the Twilight with a rocket to return to earth and truly begin your adventure!"
+			subtitle: "Your goal is to leave the Twilight with a rocket to return to Earth and truly begin your adventure!"
 			description: [
 				"In this pack, the classic progression of the Twilight Forest is disabled, so you can go wherever you want."
 				""
-				"You have to craft a Portal Activator in order to go in the Undergarden, grabbing the last pieces to built your rocket."
+				"You have to craft a Portal Activator in order to go in the Undergarden to grab the last pieces to build your rocket."
 				""
-				"Tips: You can find Vanilla Ores in hills."
+				"Tips: You can find vanilla ores in hills."
 			]
 			dependencies: ["375F4C25F6B07F8C"]
 			size: 1.5d
@@ -35,8 +35,8 @@
 			x: 3.0d
 			y: -5.5d
 			description: [
-				"The Nasa Workbench combines all the technology you have created!"
-				"Use the Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
+				"The NASA Workbench combines all the technologies you have created!"
+				"Use Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
 			]
 			dependencies: [
 				"366106157FB5459C"
@@ -60,7 +60,8 @@
 			icon: "twilightforest:naga_trophy"
 			x: 1.5d
 			y: -0.5d
-			subtitle: "You need to beat the Naga to get some Naga Scales."
+			subtitle: "First fight!"
+			description: ["You need to beat the Naga to get some Naga Scales."]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "5CFDD2C9BF21A177"
 			tasks: [
@@ -145,11 +146,11 @@
 			icon: "immersiveengineering:blast_furnace"
 			x: 4.0d
 			y: -4.5d
-			subtitle: "The steel road"
+			subtitle: "The steel road."
 			description: [
 				"To get Steel, you're going to need to make a Blast Furnace."
 				""
-				"It's a 3x3x3 multiblock that alloys Ironwood (in this pack) with CharCoal, Coal Cokes or Pet Cokes to produce Steel."
+				"It's a 3x3x3 multiblock that alloys Ironwood (in this pack) with Charcoal, Coal Coke or Pet Coke to produce Steel."
 				""
 				"You can use a Hexerei Cauldron to get one in the Twilight Forest."
 			]
@@ -171,7 +172,7 @@
 		{
 			x: 2.0d
 			y: -5.5d
-			description: ["Right now your mechanical arm you'll use it in the craft of the Nasa Workbench, but this one can be useful in automation of Create devices!"]
+			description: ["For now you may need to use your Mechanical Arm only in the craft of the Nasa Workbench, but it can be useful in automation of Create devices!"]
 			dependencies: ["5836EBA421A25364"]
 			id: "6013E9708A7B59E9"
 			tasks: [{
@@ -189,8 +190,8 @@
 			x: 3.0d
 			y: -4.5d
 			description: [
-				"The Utherium Crystal is used to craft the Nasa Workbench."
-				"You can find it in the form of ore or get shard by killing rotten mobs"
+				"The Utherium Crystal is used to craft the NASA Workbench."
+				"You can find it in the form of ore or get shards by killing rotten mobs."
 			]
 			dependencies: ["769AFAB1B0F353E0"]
 			id: "366106157FB5459C"
@@ -209,7 +210,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
-			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small basin of water surrounded by flowers and throw it in.This will open up a new dimension portal for you, which will be the Undergarden on this pack."]
+			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small 2x2 basin of water surrounded by flowers or mushrooms and throw it in. This will will open up a new dimension portal for you, which will be The Undergarden on this pack."]
 			dependencies: [
 				"5CFDD2C9BF21A177"
 				"22556496826ED6BF"
@@ -246,7 +247,7 @@
 			title: "The Undergarden"
 			x: 3.0d
 			y: -3.5d
-			description: ["Simply visit the undergarden."]
+			description: ["Simply visit The Undergarden."]
 			dependencies: ["0A1BC75F350F8C54"]
 			id: "769AFAB1B0F353E0"
 			tasks: [{
@@ -294,8 +295,8 @@
 		{
 			x: -0.5d
 			y: -0.5d
-			subtitle: "Borer Essence can be find in the Ur-Ghast tower."
-			description: ["You can either collect some from the top of the tower or kill a Towerwood Borers who are themselves hidden in infested towerwoods, like silverfish."]
+			subtitle: "Borer Essence can be found in the Ur-Ghast's tower."
+			description: ["You can either collect some from the top of the tower or kill Towerwood Borers which are hidden in Infested Towerwood blocks, like Silverfishes."]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "22556496826ED6BF"
 			tasks: [{
@@ -337,8 +338,8 @@
 			title: "Raw Insect"
 			x: 0.5d
 			y: -0.5d
-			subtitle: "Chop Chop !"
-			description: ["You just have to cut some insects with a cutting board and a knife."]
+			subtitle: "Chop Chop!"
+			description: ["You just have to cut some insects with a knife on a cutting board."]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "7750BE582D815E25"
 			tasks: [{
@@ -356,8 +357,8 @@
 		{
 			x: 6.5d
 			y: -0.5d
-			subtitle: "Great for keeping you warm."
-			description: ["To get Arctic Furs, you need to go to the Snowy Forest and kill a Yeti or a Winter Wolf."]
+			subtitle: "Great at keeping you warm."
+			description: ["To get Arctic Furs, you need to go to the Snowy Forest and kill Yetis or Winter Wolfes."]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "15459E52419C1267"
 			tasks: [{
@@ -398,8 +399,8 @@
 		{
 			x: 5.5d
 			y: -0.5d
-			subtitle: "Great for an early armor and tools set."
-			description: ["You can amalgamate raw iron, gold nuggets and Liveroot to obtain a ball of Raw Ironwood."]
+			subtitle: "Great for an early armor and tool set."
+			description: ["You can amalgamate a Raw Iron, a Gold Nugget and a Liveroot to obtain a ball of Raw Ironwood."]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "29582A190DD0E266"
 			tasks: [{
@@ -426,7 +427,7 @@
 		{
 			x: 4.0d
 			y: -5.5d
-			description: ["In the Blast Furnace you need to put Ironwood to obtain Steel."]
+			description: ["You need to put Ironwood in the Blast Furnace to obtain Steel."]
 			dependencies: ["1EF95835215D60E0"]
 			id: "3C884020904C1B6C"
 			tasks: [{
@@ -443,12 +444,12 @@
 		{
 			x: 3.0d
 			y: -6.5d
-			subtitle: "Liftoff"
+			subtitle: "Liftoff!"
 			description: [
-				"With your Nasa Workbench, you can now make your first rocket."
-				"This will allow you to go to the overworld and therefore have access to the Nether and to the end!"
+				"With your NASA Workbench, you can now make your first rocket."
+				"This will allow you to go to the Overworld and therefore have access to the Nether and to The End!"
 				""
-				"Be careful, if you go to the moon straight away, remember to take launch pads with you as well as fuel to get back from the moon!"
+				"Be careful, if you go to the Moon straight away, remember to take Rocket Launch Pads with you as well as Fuel to come back from the Moon!"
 			]
 			dependencies: ["2FE44372B1A4621B"]
 			id: "6F5B1AE2E73664A7"
@@ -473,7 +474,7 @@
 			x: 3.0d
 			y: -9.0d
 			shape: "octagon"
-			subtitle: "The adventure begin !"
+			subtitle: "The adventure begins!"
 			description: ["Land safely on Earth."]
 			dependencies: ["6F5B1AE2E73664A7"]
 			size: 2.0d
@@ -487,11 +488,11 @@
 		{
 			x: 2.0d
 			y: -6.5d
-			subtitle: "Precision"
+			subtitle: "Precision."
 			description: [
-				"The Precision Mechanism is mainly used to make Mechanical Arms or Rotation Speed Controller."
+				"The Precision Mechanism is mainly used to make Mechanical Arms or Rotation Speed Controllers."
 				""
-				"Be careful though because the craft has a 20% chance of missing and giving you a junk item"
+				"Be careful though because the craft has a 20% miss chance and giving you a junk item."
 			]
 			dependencies: ["6234A8C99DAEDBF1"]
 			id: "5836EBA421A25364"
@@ -509,7 +510,7 @@
 		{
 			x: 1.0d
 			y: -5.5d
-			subtitle: "autoclicker"
+			subtitle: "Autoclicker."
 			description: ["The deployer will be useful for making assembly crafts."]
 			dependencies: [
 				"4C6AA93A91E04FBB"
@@ -531,7 +532,7 @@
 			x: 1.0d
 			y: -6.5d
 			description: [
-				"In this pack to make Rose Quartz you will need Fluorite and Redstone."
+				"To make Rose Quartz in this pack you will need Fluorite and Redstone."
 				"There will be a way to make Rose Quartz with Quartz later."
 			]
 			dependencies: ["608B0D64957C2EC8"]
@@ -556,8 +557,8 @@
 		{
 			x: 1.0d
 			y: -4.5d
-			subtitle: "The age of Brass"
-			description: ["With your alloy kiln, made Brass ingots to enter the age of brass with Create!"]
+			subtitle: "The age of Brass."
+			description: ["With your Alloy Kiln, make Brass ingots to enter the age of brass with Create!"]
 			dependencies: ["5B7594939BB7C888"]
 			id: "27709AD99F715F2C"
 			tasks: [{
@@ -582,8 +583,8 @@
 			icon: "immersiveengineering:alloy_smelter"
 			x: 2.0d
 			y: -4.5d
-			subtitle: "a primitive alloy smelter"
-			description: ["The alloy kiln is a simple way to make your first alloy!"]
+			subtitle: "A primitive alloy smelter"
+			description: ["The alloy kiln is a simple way to make your first alloys!"]
 			dependencies: ["608B0D64957C2EC8"]
 			id: "5B7594939BB7C888"
 			tasks: [{
@@ -599,14 +600,14 @@
 			}]
 		}
 		{
-			title: "How to return in the Undergarden and Twilight Forest."
+			title: "How to return in The Undergarden and Twilight Forest"
 			x: 3.0d
 			y: -11.0d
 			shape: "circle"
 			description: [
-				"With this catalyst you can return, from the overworld, to the Undergarden, by making a portal like the image below, and therefore by definition return to the Twilight Forest by making a twilight portal (the one with flower around a 2x2 pool of water) and using this same catalyst to open a new portal."
+				"With this Catalyst you can return, from the Overworld, to The Undergarden, by making a new portal like the image below, and therefore by definition to the Twilight Forest by making a twilight portal (the one with flower, or mushrooms, around a 2x2 pool of water) and using this same Catalyst to open it."
 				"{image:ftbquests:textures/quests/undergarden_portal.png width:150 height:100 align:1}"
-				"After that, I recommend you to craft a Tempad to easily in and out from any dimension."
+				"After that, I recommend you to craft a Tempad to easily travel through any dimension."
 			]
 			dependencies: ["4543AD330BD0A901"]
 			id: "13B3A667FA99741C"
@@ -626,7 +627,7 @@
 			y: -4.5d
 			shape: "square"
 			description: [
-				"In order to make a fuel for your rocket, you need to find some Crude Oil, like this oil well."
+				"In order to make fuel for your rocket, you need to find some Crude Oil, like this oil well."
 				"{image:ftbquests:textures/quests/ip_crudeoil.png width:150 height:100 align:1}"
 			]
 			hide_dependency_lines: true
@@ -647,7 +648,7 @@
 			x: 5.0d
 			y: -6.5d
 			shape: "square"
-			description: ["Process your crude oil in the Fuel Refinery to obtain fuel for your rocket."]
+			description: ["Process your Crude Oil in the Fuel Refinery to obtain Fuel for your rocket."]
 			dependencies: ["1E65C40447A8DAC9"]
 			id: "37E18CFB7E512A82"
 			tasks: [{
@@ -665,8 +666,8 @@
 			x: 5.0d
 			y: -5.5d
 			description: [
-				"Fuel Refinery can convert Oil into Fuel"
-				"With Shift + Right Click on your rocket you can fill it with your recently obtain fuel"
+				"A Fuel Refinery can convert Oil into Fuel."
+				"By sneak+right-clicking on your rocket you can fill it with your recently obtain fuel."
 			]
 			dependencies: [
 				"3C884020904C1B6C"
@@ -690,7 +691,7 @@
 			x: 4.0d
 			y: -6.5d
 			shape: "square"
-			description: ["Rocket Launch Pad is mandatory to go on space ! Make a 3x3 square on the floor with it, then put your rocket on it."]
+			description: ["A Rocket Launch Pad is mandatory to go on space! Put them on the floor as a 3x3 square, then put your rocket on it."]
 			dependencies: ["3C884020904C1B6C"]
 			id: "2196A221FBC8BDF3"
 			tasks: [{
@@ -709,7 +710,7 @@
 		{
 			x: 2.0d
 			y: -3.5d
-			description: ["You can find Lava in Fire Swamp, underneath Fire Jet and smoker or in the Minoshroom Maze."]
+			description: ["You can find Lava in Fire Swamp, underneath Fire Jets and Smokers or in the Minoshroom's maze."]
 			hide_dependency_lines: true
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "5A7AE75E4AF0003F"

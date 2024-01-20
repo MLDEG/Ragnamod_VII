@@ -83,7 +83,7 @@
 			tasks: [{
 				id: "46C1CBA682D028E3"
 				type: "checkmark"
-				title: "AE2 Quests"
+				title: "Applied Energistics 2 Quests"
 			}]
 		}
 		{
@@ -386,7 +386,7 @@
 			tasks: [{
 				id: "09E1A4D86EC8CD58"
 				type: "checkmark"
-				title: "RFTool and Xnet Quests"
+				title: "RFTools and Xnet Quests"
 			}]
 		}
 		{
@@ -406,13 +406,13 @@
 			icon: "pneumaticcraft:air_compressor"
 			x: 1.0d
 			y: 4.0d
-			description: ["Unlock the Pneumaticcraft page."]
+			description: ["Unlock the PneumaticCraft page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "4ECF8A0985D2EC5D"
 			tasks: [{
 				id: "7ED184EA4AF3D72D"
 				type: "checkmark"
-				title: "Pneumaticcraft Quests"
+				title: "PneumaticCraft Quests"
 			}]
 		}
 		{
@@ -529,7 +529,7 @@
 			}]
 		}
 		{
-			title: "End of AE2 Quests"
+			title: "End of Applied Energistics 2 Quests"
 			icon: "thermal:lock"
 			x: 5.0d
 			y: 3.0d
@@ -949,7 +949,7 @@
 			}]
 		}
 		{
-			title: "End of Hostile Neural Network Quests"
+			title: "End of Hostile Neural Networks Quests"
 			icon: "thermal:lock"
 			x: 5.0d
 			y: 5.0d
@@ -1159,7 +1159,7 @@
 			}]
 		}
 		{
-			title: "End of RFTool and Co Quests"
+			title: "End of RFTools and Xnet Quests"
 			icon: "thermal:lock"
 			x: 2.0d
 			y: 5.0d
@@ -1219,7 +1219,7 @@
 			}]
 		}
 		{
-			title: "End of Pneumaticcraft Quests"
+			title: "End of PneumaticCraft Quests"
 			icon: "thermal:lock"
 			x: 1.0d
 			y: 5.0d

@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 18
 	filename: "ae2"
-	title: " AE2"
+	title: " Applied Energistics 2"
 	icon: "ae2:controller"
 	subtitle: ["Digital Storage at his peak!"]
 	default_quest_shape: "circle"
