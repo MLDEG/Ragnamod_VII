@@ -12,5 +12,6 @@
   "modifier.tconstruct.teleporange": "Teleportation Range",
   "modifier.tconstruct.teleportation": "Teleportation",
   "modifier.tconstruct.teleportation.1": "Teleportation",
-  "modifier.tconstruct.boon": "Boon of the Earth"
+  "modifier.tconstruct.boon": "Boon of the Earth",
+  "modifier.tconstruct.stat_boost": "Overpowered"
 }

@@ -1,0 +1,20 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "ragnamod_seven:creative_tc_crystal"
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/durability"
+    },
+    "slots": {
+      "upgrades": 1
+    },
+    "allow_crystal": true,
+    "result": {
+      "name": "tconstruct:stat_boost",
+      "level": 1
+    },
+    "max_level": 5
+  }
