@@ -748,6 +748,9 @@ onEvent('recipes', e => {
         'minecraft:black_wool',
         'minecraft:light_gray_wool',
         'minecraft:gray_wool',
+        'redstone_arsenal:materials/flux_gem',
+        'redstone_arsenal:materials/flux_dust',
+        'redstone_arsenal:materials/flux_ingot_fire_charge_from_dust',
     ]
     removeId.forEach(C => { r(C) })
 })

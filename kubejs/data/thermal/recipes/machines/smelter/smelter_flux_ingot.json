@@ -1,0 +1,20 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+        "item": "minecraft:gold_ingot",
+        "count": 1
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 5
+    }
+  ],
+  "result": [
+    {
+      "item": "redstone_arsenal:flux_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 16000
+}
