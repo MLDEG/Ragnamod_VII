@@ -56,6 +56,30 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 8.5d
+			y: 6.5d
+			width: 7.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/tinkers_quests.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.5d
+			y: 6.5d
+			width: 7.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/solar_flux_quests.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -408,7 +432,7 @@
 		}
 		{
 			x: -3.0d
-			y: 6.5d
+			y: 7.5d
 			shape: "square"
 			description: [
 				"This basic backpack have 27 slots to store things and have 1 upgrade slot."
@@ -443,7 +467,7 @@
 		}
 		{
 			x: -2.0d
-			y: 6.5d
+			y: 7.0d
 			shape: "square"
 			description: ["The Iron Backpack have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: [
@@ -513,7 +537,7 @@
 		}
 		{
 			x: 0.0d
-			y: 6.5d
+			y: 7.0d
 			shape: "square"
 			description: ["The Diamond Backpack have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: [
@@ -548,7 +572,7 @@
 		}
 		{
 			x: 1.0d
-			y: 6.5d
+			y: 7.5d
 			shape: "square"
 			description: ["The Netherite Backpack have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: [
@@ -1550,8 +1574,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 7.5d
+			x: 8.5d
+			y: 5.5d
 			shape: "square"
 			description: [
 				"The Tinker Station is your first station who you can build your basic weapons and tools."
@@ -2076,8 +2100,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 7.5d
+			x: 8.5d
+			y: 6.5d
 			shape: "square"
 			description: [
 				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocs."
@@ -2106,8 +2130,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 7.5d
+			x: 8.5d
+			y: 8.5d
 			shape: "square"
 			description: ["To extract the melted stuff you have made in your tiny smeltery, you need a faucet and at least a Casting Basin."]
 			dependencies: ["577D6202E19B2599"]
@@ -2137,7 +2161,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 8.5d
 			y: 7.5d
 			shape: "square"
 			description: [
@@ -2355,6 +2379,7 @@
 			description: [
 				"Chipped Bench is a great mod for builders."
 				"They function like a stonecutter."
+				"You can also automate these Workbench using their Mechanical Saw variants (from Create QoL)"
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "67C83AA0299F6088"
@@ -2750,7 +2775,7 @@
 		{
 			title: "Red Heart Canister"
 			x: -3.0d
-			y: 5.5d
+			y: 6.0d
 			shape: "square"
 			description: ["The red heart is dropped by passive mobs."]
 			dependencies: ["577D6202E19B2599"]
@@ -2819,7 +2844,7 @@
 		{
 			title: "Blue Heart Canister"
 			x: 1.0d
-			y: 5.5d
+			y: 6.0d
 			shape: "square"
 			description: ["The blue heart is dropped by pixies from Alfheim."]
 			dependencies: [
@@ -4337,6 +4362,543 @@
 				type: "item"
 				item: "croptopia:beef_wellington"
 				random_bonus: 7
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: ["The Creative Tinker's Crystal is used to craft Creative slot for Tinkers' Construct, it can also be used to get an Overpowered upgrade to your tools."]
+			dependencies: [
+				"577D6202E19B2599"
+				"0000000000000418"
+				"7DD0B3FFB889F8F5"
+			]
+			size: 2.0d
+			id: "40EEB0455CD0AE8D"
+			tasks: [{
+				id: "5234D08BDDBDAF76"
+				type: "item"
+				item: "ragnamod_seven:creative_tc_crystal"
+			}]
+			rewards: [
+				{
+					id: "14E5810BCEA036B7"
+					type: "item"
+					item: "tconstruct:earth_slime_crystal"
+					random_bonus: 7
+				}
+				{
+					id: "373383F6A4EA3E45"
+					type: "item"
+					item: "tconstruct:sky_slime_crystal"
+					random_bonus: 7
+				}
+				{
+					id: "65C315E2D054891A"
+					type: "item"
+					item: "tconstruct:ichor_slime_crystal"
+					random_bonus: 7
+				}
+				{
+					id: "47F8D555BA92FA3B"
+					type: "item"
+					item: "tconstruct:ender_slime_crystal"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			icon: "architects_palette:hazard_sign"
+			x: 7.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"On this pack Tinkers' Construct is much more powerful and the possibility of upgrading your tools has been made easier to overcome the ease of having enchantments easily with aoptheosis."
+				""
+				"The Improvable modifier allows you to have Tool Leveling on your tools, it can go up to 15 levels and will give you random stats in addition to an upgrade or abilitie slot each level (50/50)."
+				""
+				"In addition to that, you can get more slots with Creative slot obtainable after Mythic Botany using Tinkers crystals."
+				""
+				"You'll also be able to find new modifiers in this pack, you have a quest with only a checkmark to give you additional information concerning the new modifiers."
+			]
+			dependencies: ["577D6202E19B2599"]
+			size: 2.0d
+			id: "5C656FCEC3107302"
+			tasks: [{
+				id: "163234263041ED98"
+				type: "checkmark"
+				title: "Information"
+			}]
+			rewards: [{
+				id: "45F9A3B7C3F60802"
+				type: "item"
+				item: {
+					id: "tconstruct:small_blade"
+					Count: 1b
+					tag: {
+						Material: "tinkers_reforged:qivium"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.0d
+			shape: "square"
+			description: ["Collect tinker crystals by blasting tinkers dirt of each type."]
+			dependencies: ["577D6202E19B2599"]
+			id: "7DD0B3FFB889F8F5"
+			tasks: [
+				{
+					id: "4A790C0BD23B0209"
+					type: "item"
+					item: "tconstruct:earth_slime_crystal"
+				}
+				{
+					id: "62D6DFA594FAD595"
+					type: "item"
+					item: "tconstruct:sky_slime_crystal"
+				}
+				{
+					id: "185F0B25A070023B"
+					type: "item"
+					item: "tconstruct:ichor_slime_crystal"
+				}
+				{
+					id: "6D8E8F33A073840B"
+					type: "item"
+					item: "tconstruct:ender_slime_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "21D8E0851C8DAC6D"
+					type: "item"
+					item: "tconstruct:earth_slime_dirt"
+					random_bonus: 7
+				}
+				{
+					id: "0180E7F358A1F2FB"
+					type: "item"
+					item: "tconstruct:sky_slime_dirt"
+					random_bonus: 7
+				}
+				{
+					id: "0867FAFCF21993D6"
+					type: "item"
+					item: "tconstruct:ender_slime_dirt"
+					random_bonus: 7
+				}
+				{
+					id: "0AA07505A5D307CF"
+					type: "item"
+					item: "tconstruct:ichor_slime_dirt"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			icon: {
+				id: "reliquary:magicbane"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.0d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"Here is a list of all the new modifier, you can also check \"modifier\" in JEI."
+				""
+				"§9Boon Of The Earth§r = Drops Ores mining stone"
+				"§bCapturing§r = Have a chance to drop a spawn egg killing a mob"
+				"§9Experience Harvester§r = Drop extra experience when killing a mob"
+				"§bMending§r = Work like vanilla"
+				"§9Nature's Mend§r = Repairs tools using Aura"
+				"§bOverpowered§r = Increase significantly your stats."
+				"§9Reaper§r = Have a chance to drop a Draconic soul killing a mob"
+				"§bReliquary Drop§r = Increases chance of Reliquary drops"
+				"§9Soul Reaper§r = Grants additional soul per kill"
+				"§bTeleportation§r = Teleport you in a short range and to Travel Anchor"
+				"§9Teleportation Range§r = Increase the range to teleport on a Travel Anchor"
+				"§bVengeance§r = Using a tool will spawn Vengeance Spirits"
+			]
+			dependencies: [
+				"577D6202E19B2599"
+				"5C656FCEC3107302"
+			]
+			id: "73553A74A46FCFCA"
+			tasks: [{
+				id: "48514B3F8129BF6C"
+				type: "checkmark"
+				title: "New Modifiers"
+			}]
+			rewards: [{
+				id: "62A6F29BC1528251"
+				type: "item"
+				item: "culturaldelights:rice_ball"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 1 FE/tick"
+				"Transfer 8 FE/tick"
+				"And has an internal buffer of 25k FE"
+			]
+			dependencies: ["577D6202E19B2599"]
+			id: "60C8FFCCA8BA03C3"
+			tasks: [{
+				id: "799F63F940F80B28"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [{
+				id: "734ABC444D7248DD"
+				type: "item"
+				item: "solarflux:mirror"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -11.5d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 8 FE/tick"
+				"Transfer 64 FE/tick"
+				"And has an internal buffer of 125k FE"
+			]
+			dependencies: ["60C8FFCCA8BA03C3"]
+			id: "3C5A514519304CC7"
+			tasks: [{
+				id: "4D20C4A16F78B0EA"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [{
+				id: "43041A94A9E2D81A"
+				type: "item"
+				item: "minecraft:piston"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -10.5d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 32 FE/tick"
+				"Transfer 256 FE/tick"
+				"And has an internal buffer of 425k FE"
+			]
+			dependencies: ["3C5A514519304CC7"]
+			id: "30384C036C44D55F"
+			tasks: [{
+				id: "245211F4BC15A422"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [{
+				id: "6E822E60B1CF4FC6"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_1"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -9.5d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 128 FE/tick"
+				"Transfer 1,024 FE/tick"
+				"And has an internal buffer of 2M FE"
+			]
+			dependencies: ["30384C036C44D55F"]
+			id: "1A385DD6C31004C0"
+			tasks: [{
+				id: "23459FA2EFECFDAD"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [{
+				id: "6DFBAEC54C6E44EF"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_2"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -8.5d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 512 FE/tick"
+				"Transfer 4,096 FE/tick"
+				"And has an internal buffer of 8M FE"
+			]
+			dependencies: ["1A385DD6C31004C0"]
+			id: "522F5BCBE2A319AF"
+			tasks: [{
+				id: "2317D892619AE886"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [{
+				id: "0EADDB87829D524A"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_3"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -8.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 2,048 FE/tick"
+				"Transfer 16,348 FE/tick"
+				"And has an internal buffer of 32M FE"
+			]
+			dependencies: ["522F5BCBE2A319AF"]
+			id: "07D72E2819C39613"
+			tasks: [{
+				id: "2E48DDB729C53F59"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [{
+				id: "1376C52B94BFC6EF"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_4"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -9.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 8,192 FE/tick"
+				"Transfer 65,536 FE/tick"
+				"And has an internal buffer of 64M FE"
+			]
+			dependencies: ["07D72E2819C39613"]
+			id: "647A8AA3198EA942"
+			tasks: [{
+				id: "3B6952409632E3CF"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [{
+				id: "795888C181A2647E"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_5"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -10.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 32,768 FE/tick"
+				"Transfer 262,144 FE/tick"
+				"And has an internal buffer of 128M FE"
+			]
+			dependencies: ["647A8AA3198EA942"]
+			id: "6A4C21887CFCF188"
+			tasks: [{
+				id: "3B84F840712EEF20"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [{
+				id: "526781E5C133B9CA"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_6"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -11.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 65,536 FE/tick"
+				"Transfer 524,288 FE/tick"
+				"And has an internal buffer of 256M FE"
+			]
+			dependencies: ["6A4C21887CFCF188"]
+			id: "3525547FDB219976"
+			tasks: [{
+				id: "3834156A0F72A014"
+				type: "item"
+				item: "solarflux:sp_custom_psi"
+			}]
+			rewards: [{
+				id: "072050B0D3892D00"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_7"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -12.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 131,072 FE/tick"
+				"Transfer 1,048,576 FE/tick"
+				"And has an internal buffer of 512M FE"
+			]
+			dependencies: ["3525547FDB219976"]
+			id: "50872B314C0E6090"
+			tasks: [{
+				id: "4A769181DB46E189"
+				type: "item"
+				item: "solarflux:sp_custom_alfsteel"
+			}]
+			rewards: [{
+				id: "140CD95666C37A59"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_8"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -12.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 262,144 FE/tick"
+				"Transfer 2,097,152 FE/tick"
+				"And has an internal buffer of 1024M FE"
+			]
+			dependencies: ["50872B314C0E6090"]
+			id: "4A8896AB82E3760A"
+			tasks: [{
+				id: "4F6DC98D60E23211"
+				type: "item"
+				item: "solarflux:sp_custom_wyvern"
+			}]
+			rewards: [{
+				id: "3E5D0BE2FA9B953D"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_9"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -11.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 524,288 FE/tick"
+				"Transfer 4,194,304 FE/tick"
+				"And has an internal buffer of 2048M FE"
+			]
+			dependencies: ["4A8896AB82E3760A"]
+			id: "3B49983E386894AD"
+			tasks: [{
+				id: "76C64C34202D0947"
+				type: "item"
+				item: "solarflux:sp_custom_draconic"
+			}]
+			rewards: [{
+				id: "181C54D120ABFD0E"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_10"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -10.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 1,048,576 FE/tick"
+				"Transfer 8,388,608 FE/tick"
+				"And has an internal buffer of 4096M FE"
+			]
+			dependencies: ["3B49983E386894AD"]
+			id: "32CF4F710966DDCB"
+			tasks: [{
+				id: "35422D6DDCED54E2"
+				type: "item"
+				item: "solarflux:sp_custom_chaotic"
+			}]
+			rewards: [{
+				id: "2B2DE4F88F110E65"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_11"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -9.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 2,097,152 FE/tick"
+				"Transfer 16,777,216 FE/tick"
+				"And has an internal buffer of 8192M FE"
+			]
+			dependencies: ["32CF4F710966DDCB"]
+			id: "667290AD8FF90156"
+			tasks: [{
+				id: "40F517224EC64AB3"
+				type: "item"
+				item: "solarflux:sp_custom_neutronium"
+			}]
+			rewards: [{
+				id: "5FAE6680DE9DA554"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_12"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -8.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"Solar Panel I, can:"
+				"Generate 41,974,304 FE/tick"
+				"Transfer 33,554,432 FE/tick"
+				"And has an internal buffer of 16384M FE"
+			]
+			dependencies: ["667290AD8FF90156"]
+			id: "230DC363D481410A"
+			tasks: [{
+				id: "10AB7986BFF4908A"
+				type: "item"
+				item: "solarflux:sp_custom_ultimate"
+			}]
+			rewards: [{
+				id: "2FAD71CDDCB01B88"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+				random_bonus: 3
 			}]
 		}
 	]
