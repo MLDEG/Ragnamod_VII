@@ -546,4 +546,9 @@ onEvent('item.tooltip', tooltip => {
 		text.add(1, Text.of('§5§oDrop when killing War'))
 	})
 
+	//Echo Shard
+	tooltip.addAdvanced('warden_and_sculk:echo_shard', (item, advanced, text) => {
+		text.add(1, Text.of('§5§oLoot in chests from Ancient City'))
+	})
+
 })
