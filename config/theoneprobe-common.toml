@@ -3,7 +3,7 @@
 loggingThrowableTimeout = 20000
 #Is the probe needed to show the tooltip? 0 = no, 1 = yes, 2 = yes and clients cannot override, 3 = probe needed for extended info only
 #Range: 0 ~ 3
-needsProbe = 3
+needsProbe = 0
 #If true the probe will automatically show extended information if it is in your main hand (so not required to sneak)
 extendedInMain = false
 #If true there will be a bauble version of the probe if baubles is present
@@ -45,10 +45,7 @@ showItemDetailThresshold = 4
 #Range: 0 ~ 1000
 showSmallChestContentsWithoutSneaking = 0
 #A list of blocks for which we automatically show chest contents even if not sneaking
-showContentsWithoutSneaking = [
-    "storagedrawers:basicdrawers",
-    "storagedrawersextra:extra_drawers",
-]
+showContentsWithoutSneaking = ["storagedrawers:basicdrawers", "storagedrawersextra:extra_drawers"]
 #A list of blocks for which we don't show chest contents automatically except if sneaking
 dontShowContentsUnlessSneaking = []
 #A list of blocks for which we don't send NBT over the network. This is mostly useful for blocks that have HUGE NBT in their pickblock (itemstack)
@@ -56,18 +53,7 @@ dontSendNBT = []
 #A list of either <modid>:<entityid> to disable the tooltip for specific entities. Can also be a single <modid> to disable an entire mod. Or it can also be '*' to disable everything
 blacklistEntities = []
 #A list of <tag>=<name> containing all tooltype tags with their associated name to display
-tooltypeTags = [
-    "minecraft:mineable/axe=Axe",
-    "minecraft:mineable/pickaxe=Pickaxe",
-    "minecraft:mineable/shovel=Shovel",
-    "minecraft:mineable/hoe=Hoe",
-]
+tooltypeTags = ["minecraft:mineable/axe=Axe", "minecraft:mineable/pickaxe=Pickaxe", "minecraft:mineable/shovel=Shovel", "minecraft:mineable/hoe=Hoe"]
 #A list of <tag>=<name> containing all harvestability tags with their associated name to display
-harvestabilityTags = [
-    "forge:needs_wood_tool=Wood",
-    "forge:needs_gold_tool=Gold",
-    "minecraft:needs_stone_tool=Stone",
-    "minecraft:needs_iron_tool=Iron",
-    "minecraft:needs_diamond_tool=Diamond",
-    "forge:needs_netherite_tool=Netherite",
-]
+harvestabilityTags = ["forge:needs_wood_tool=Wood", "forge:needs_gold_tool=Gold", "minecraft:needs_stone_tool=Stone", "minecraft:needs_iron_tool=Iron", "minecraft:needs_diamond_tool=Diamond", "forge:needs_netherite_tool=Netherite"]
+
