@@ -396,6 +396,11 @@ onEvent('jei.hide.items', e => {
 		'gemsnjewels:aquamarine_nether_ore_block',
 		'gemsnjewels:peridot_nether_ore_block',
 		'thermal:redstone_bucket',
+		'blue_skies_tcon:aquite_nugget',
+		'blue_skies_tcon:charoite_nugget',
+		'blue_skies_tcon:diopside_nugget',
+		'blue_skies_tcon:pyrope_nugget',
+		'blue_skies_tcon:moonstone_nugget'
 	])
 })
 

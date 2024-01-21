@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_charoite",
+    "amount": 900
+    },
+  "result": "blue_skies:charoite_block",
+  "cooling_time": 250
+}
