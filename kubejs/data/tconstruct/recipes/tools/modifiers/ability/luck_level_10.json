@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": 
+    {
+      "item": "miningmaster:lucky_citrine"
+    },
+  "amount_per_item": 1,
+  "needed_per_level": 5,
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee"
+    },
+    {
+      "tag": "tconstruct:modifiable/harvest"
+    },
+    {
+      "tag": "tconstruct:modifiable/ranged"
+    }
+  ],
+  "requirements": {
+    "name": "tconstruct:luck",
+    "level": 3,
+    "error": "Luck++ requires a different recipe for the first three levels"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:luck",
+    "level": 1
+  },
+  "max_level": 10
+}

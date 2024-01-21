@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_aquite",
+    "amount": 900
+    },
+  "result": "blue_skies:aquite_block",
+  "cooling_time": 250
+}

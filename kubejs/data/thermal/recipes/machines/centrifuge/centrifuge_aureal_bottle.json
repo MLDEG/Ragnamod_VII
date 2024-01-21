@@ -1,0 +1,16 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "forbidden_arcanus:aureal_bottle"
+  },
+  "result": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "ragnamod_seven:aureal",
+      "amount": 250
+    }
+  ],
+  "energy": 400
+}

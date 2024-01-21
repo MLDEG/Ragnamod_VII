@@ -1,0 +1,23 @@
+{
+    "type": "tconstruct:incremental_modifier",
+    "input": 
+      {
+        "item": "spirit:soul_steel_ingot"
+      },
+    "amount_per_item": 1,
+    "needed_per_level": 5,
+    "tools": [
+        {
+          "tag": "tconstruct:modifiable/melee"
+        }
+    ],
+    "slots": {
+      "abilities": 1
+    },
+    "allow_crystal": false,
+    "result": {
+      "name": "tconstruct:soulreaper",
+      "level": 1
+    },
+    "max_level": 10
+  }

@@ -1,0 +1,16 @@
+{
+  "modifier.tconstruct": {
+    "natures_mend":         "#42A6BC",
+    "boon":                 "#9FF8E5",
+    "capturing":            "#DCCC99",
+    "experience_harvester": "#A4C20C",
+    "reaper":               "#6C3993",
+    "reliquary_drops":      "#FFD888",
+    "soulreaper":           "#5888A7",
+    "teleporange":          "#024B4A",
+    "mending":              "#57CA72",
+    "teleportation":        "#024B4A",
+    "vengeance":            "#A17692",
+    "stat_boost":           "#D3A0FF"
+  }
+}

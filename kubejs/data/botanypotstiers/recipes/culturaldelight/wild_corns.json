@@ -1,0 +1,1 @@
+{"type":"botanypotstiers:crop","seed":{"item":"culturaldelights:wild_corn"},"categories":["dirt"],"growthTicks":1200,"display":{"block":"culturaldelights:wild_corn"},"drops":[{"chance":1.00,"output":{"item":"culturaldelights:corn_cob"},"minRolls":1,"maxRolls":2}]}

@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": 
+    {
+      "item": "draconicevolution:draconium_block"
+    },
+  "amount_per_item": 1,
+  "needed_per_level": 25,
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee"
+    },
+    {
+      "tag": "tconstruct:modifiable/ranged"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:reaper",
+    "level": 1
+  },
+  "max_level": 10
+}

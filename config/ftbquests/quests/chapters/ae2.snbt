@@ -3,8 +3,9 @@
 	group: ""
 	order_index: 18
 	filename: "ae2"
-	title: " AE2"
+	title: " Applied Energistics 2"
 	icon: "ae2:controller"
+	subtitle: ["Digital Storage at his peak!"]
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
 	quests: [
@@ -1409,7 +1410,7 @@
 			x: -2.5d
 			y: -4.5d
 			shape: "square"
-			description: ["Charge a Certus Quartz using a Tesla coil of the Charger from AE2."]
+			description: ["Charge a Certus Quartz using a Tesla coil or the Charger from AE2."]
 			dependencies: [
 				"4B0024EB89A2DBC9"
 				"0B1D5E77E82B17AB"

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "twilightforest:raw_meef"
+    }
+  ],
+  "tool": {
+    "item": "delightful:fiery_knife"
+  },
+  "result": [
+    {
+      "item": "twilightdelight:cooked_meef_slice",
+      "count": 2
+    }
+  ]
+}

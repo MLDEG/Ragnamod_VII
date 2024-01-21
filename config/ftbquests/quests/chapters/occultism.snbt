@@ -5,6 +5,7 @@
 	filename: "occultism"
 	title: " Occultism"
 	icon: "occultism:ritual_dummy/craft_miner_afrit_deeps"
+	subtitle: ["Draw some pentacle and have fun with demons"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
 	images: [{
@@ -424,7 +425,7 @@
 				"The Tier 1 Dimensional Storage Stabilizer adds 256 slots."
 				"You can add max 6 Stabilizer on each axis facing the Matrix."
 				"{image:ftbquests:textures/quests/occultism_storage.png width:150 height:100 align:1}"
-				"On the screen, you can see every block who you can place those storages Stabilizer, minus the center."
+				"On the screen, you can see every block where you can place those storages Stabilizer, minus the center."
 				""
 				"Beware that future items stored in your Actuator will not be stored in the Stabilizers, they will remain in your Actuator even if you remove the stabilizers afterward, but you will not be able to add more than the limit shown in the Actuator."
 			]
@@ -1694,7 +1695,7 @@
 			y: -5.0d
 			shape: "square"
 			description: [
-				"With the Aciar's Circle you can summon some Foliot with different type of work they can do."
+				"With the Aviar's Circle you can summon some Foliot with different type of work they can do."
 				""
 				"You can have a Crusher, Lumberjack, Transporter, Janitor, Otherstone Trader and Otherworld Sapling Trader."
 				""

@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:loot",
+  "level_display": {
+    "type": "tconstruct:default"
+  },
+  "enchantment": {
+    "name": "apotheosis:earths_boon",
+    "level": 1
+  }
+}

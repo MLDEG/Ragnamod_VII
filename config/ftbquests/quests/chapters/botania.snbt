@@ -5,6 +5,7 @@
 	filename: "botania"
 	title: " Botania"
 	icon: "botania:mana_pylon"
+	subtitle: ["Best Tech mod!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

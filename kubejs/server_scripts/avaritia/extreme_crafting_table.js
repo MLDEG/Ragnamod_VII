@@ -897,7 +897,7 @@ onEvent('recipes', e => {
             "item": "avaritia:infinity_sword"
         },
         "pattern": [
-            "       AB",
+            "       AA",
             "      ABA",
             "     ABA ",
             "    ABA  ",
@@ -1545,7 +1545,39 @@ onEvent('recipes', e => {
             "e": { "item": "pneumaticcraft:creative_compressed_iron_block" },
             "f": { "item": "pneumaticcraft:creative_compressor" },
             "g": { "item": "bloodmagic:activationcrystalcreative" },
-            "h": { "item": "create:creative_motor" },
+            "h": { "item": "create:ragnamod_seven:creative_tc_crystal" },
+        }
+    })
+    //Creative Cogwheel
+    e.custom({
+        "type": "avaritia:extreme_shaped",
+        "result": {
+            "item": "createcasing:creative_cogwheel"
+        },
+        "pattern": [
+            "ABCDDDCBA",
+            "BEFGFGFEB",
+            "CFEHIHEFC",
+            "DGHJKJHGD",
+            "DFIKLKIFD",
+            "DGHJKJHGD",
+            "CFEHIHEFC",
+            "BEFGFGFEB",
+            "ABCDDDCBA"
+        ],
+        "key": {
+            "A": { "item": "createcasing:copper_gearbox" },
+            "B": { "item": "createcasing:industrial_iron_gearbox" },
+            "C": { "item": "createcasing:brass_gearbox" },
+            "D": { "item": "create:cogwheel" },
+            "E": { "item": "createcasing:railway_gearbox" },
+            "F": { "item": "create:large_cogwheel" },
+            "G": { "item": "pneumaticcraft:smooth_plastic_brick_purple" },
+            "H": { "item": "pneumaticcraft:smooth_plastic_brick_magenta" },
+            "I": { "item": "pneumaticcraft:smooth_plastic_brick_pink" },
+            "J": { "item": "ragnamod_seven:infinity_gem" },
+            "K": { "item": "createqol:shadow_radiance" },
+            "L": { "item": "ragnamod_seven:agglomerate_matter_create" }
         }
     })
 })

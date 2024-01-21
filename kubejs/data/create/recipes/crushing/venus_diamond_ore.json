@@ -1,0 +1,26 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "beyond_earth:venus_diamond_ore"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:diamond",
+        "chance": 0.75
+      },
+      {
+        "item": "create:experience_nugget",
+        "chance": 0.75
+      },
+      {
+        "item": "beyond_earth:venus_stone",
+        "chance": 0.125
+      }
+    ],
+    "processingTime": 350
+  }

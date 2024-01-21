@@ -1,0 +1,358 @@
+{
+  "name": "Advanced Hephaestus Forge",
+  "appearance": {
+    "block": "ragnamod_seven:machine/advanced_hephaestus_forge",
+    "item": "ragnamod_seven:machine/advanced_hephaestus_forge",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/advanced_hephaestus_forge",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 10000000,
+      "maxInput": 100000,
+      "maxOutput": 100000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 10000,
+      "id": "blood_tank",
+      "maxInput": 10000,
+      "maxOutput": 10000,
+      "filter": ["#forge:blood"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 10000,
+      "id": "experience_tank",
+      "maxInput": 10000,
+      "maxOutput": 10000,
+      "filter": ["#forge:experience"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 10000,
+      "id": "aureal_tank",
+      "maxInput": 10000,
+      "maxOutput": 10000,
+      "filter": ["ragnamod_seven:aureal"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_soul",
+      "filter": ["forbidden_arcanus:dark_soul"],
+      "whitelist": true,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_0",
+      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_1",
+      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_2",
+      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_3",
+      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_4",
+      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_5",
+      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_center",
+      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot"],
+      "whitelist": true,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/advanced_hephaestus_forge_gui.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "text": "Advanced Hephaestus Forge",
+      "color": 4144959,
+      "x": 34,
+      "y": 4,
+      "type": "custommachinery:text"
+    },
+    {
+      "text": "Inventory",
+      "color": 4144959,
+      "x": 34,
+      "y": 109,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 33,
+      "y": 118,
+      "type": "custommachinery:player_inventory",
+      "texture": "ragnamod_seven:textures/gui/advanced_hephaestus_forge_inventory.png"
+    },
+    {
+      "id": "input_center",
+      "x": 105,
+      "y": 50,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_center_slot.png"
+    },
+    {
+      "id": "output",
+      "x": 105,
+      "y": 19,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_output_slot.png"
+    },
+    {
+      "id": "input_soul",
+      "x": 35,
+      "y": 76,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot_soul.png"
+    },
+    {
+      "id": "input_0",
+      "x": 70,
+      "y": 26,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
+    },
+    {
+      "id": "input_1",
+      "x": 140,
+      "y": 26,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
+    },
+    {
+      "id": "input_2",
+      "x": 60,
+      "y": 51,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
+    },
+    {
+      "id": "input_3",
+      "x": 150,
+      "y": 51,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
+    },
+    {
+      "id": "input_4",
+      "x": 70,
+      "y": 76,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
+    },
+    {
+      "id": "input_5",
+      "x": 140,
+      "y": 76,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot.png"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_full.png",
+      "x": 11,
+      "y": 18,
+      "type": "custommachinery:energy",
+      "highlight": false
+    },
+    {
+      "id": "aureal_tank",
+      "x": 11,
+      "y": 65,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "highlight": false
+    },
+    {
+      "id": "blood_tank",
+      "x": 209,
+      "y": 18,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "highlight": false
+    },
+    {
+      "id": "experience_tank",
+      "x": 209,
+      "y": 65,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_side_slot.png",
+      "highlight": false
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_progress_full.png",
+      "x": 35,
+      "y": 97,
+      "direction": "right"
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "x": 11,
+      "y": 65
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "x": 209,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_side_slot_empty.png",
+      "x": 209,
+      "y": 65
+    }
+  ],
+  "jei": [
+    {
+      "id": "input_center",
+      "x": 78,
+      "y": 24,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_soul",
+      "x": 78,
+      "y": 2,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output",
+      "x": 128,
+      "y": 24,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_0",
+      "x": 34,
+      "y": 2,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_1",
+      "x": 56,
+      "y": 2,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_2",
+      "x": 34,
+      "y": 24,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_3",
+      "x": 56,
+      "y": 24,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_4",
+      "x": 34,
+      "y": 46,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_5",
+      "x": 56,
+      "y": 46,
+      "type": "custommachinery:slot"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 100,
+      "y": 25,
+      "direction": "right"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/ahf_slot_empty_energy_jei.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ahf_slot_full_energy_jei.png",
+      "x": 10,
+      "y": 2,
+      "type": "custommachinery:energy",
+      "highlight": false
+    },
+    {
+      "id": "aureal_tank",
+      "x": 10,
+      "y": 39,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot_fluid_jei.png",
+      "highlight": false
+    },
+    {
+      "id": "blood_tank",
+      "x": 22,
+      "y": 2,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot_fluid_jei.png",
+      "highlight": false
+    },
+    {
+      "id": "experience_tank",
+      "x": 22,
+      "y": 39,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/ahf_slot_fluid_jei.png",
+      "highlight": false
+    }
+  ],
+  "catalysts": []
+}

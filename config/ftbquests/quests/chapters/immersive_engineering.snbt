@@ -5,6 +5,7 @@
 	filename: "immersive_engineering"
 	title: " Immersive Engineering"
 	icon: "immersiveengineering:toolbox"
+	subtitle: ["The way to become an engineer"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

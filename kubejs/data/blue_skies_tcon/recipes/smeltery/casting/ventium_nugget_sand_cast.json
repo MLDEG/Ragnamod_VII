@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/nugget"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_ventium",
+    "amount": 10
+  },
+  "result": "blue_skies:ventium_nugget",
+  "cooling_time": 20
+}

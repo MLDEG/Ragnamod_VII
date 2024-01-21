@@ -5,6 +5,7 @@
 	filename: "forbidden_and_arcanus"
 	title: " Forbidden and Arcanus"
 	icon: "forbidden_arcanus:hephaestus_forge"
+	subtitle: ["Forbidden magic"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -434,10 +435,7 @@
 			x: 1.5d
 			y: 1.0d
 			shape: "square"
-			description: [
-				"The Mundabitur Dust is used to make the Magical Farmland."
-				"Form the Hephaestus Forge and the Arcane Crystal Obelisk."
-			]
+			description: ["The Mundabitur Dust is used to form the Hephaestus Forge and the Arcane Crystal Obelisk."]
 			dependencies: [
 				"000000000000060C"
 				"49566F6C3DE4A0A0"
@@ -811,6 +809,93 @@
 				id: "6F56B562D8042897"
 				type: "item"
 				item: "forbidden_arcanus:yellow_orchid"
+			}]
+		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:advanced_hephaestus_forge"
+				}
+			}
+			x: 11.0d
+			y: 1.75d
+			shape: "gear"
+			description: [
+				"The Advanced Hephaestus Forge is a multiblock structure to make it easier for you to automate Hephaestus Forge crafts using RF and Dark Souls instead of regular Souls."
+				"{image:ftbquests:textures/quests/advanced_hephaestus_forge.png width:150 height:100 align:1}"
+				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
+			]
+			dependencies: ["08AFEB39635D7EA8"]
+			size: 1.5d
+			id: "4D1D953537EEFB51"
+			tasks: [
+				{
+					id: "0CA2694A158E9550"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:advanced_hephaestus_forge"
+						}
+					}
+				}
+				{
+					id: "236DBC3049A12386"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_block"
+				}
+				{
+					id: "0E374F13633966C7"
+					type: "item"
+					item: "forbidden_arcanus:arcane_polished_darkstone"
+					count: 4L
+				}
+				{
+					id: "5097C34B0D3A87C3"
+					type: "item"
+					item: "forbidden_arcanus:arcane_darkstone_pedestal"
+					count: 4L
+				}
+				{
+					id: "181444C40D4C88A7"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_obelisk"
+					count: 4L
+				}
+				{
+					id: "5C9DEFAFD385BE1E"
+					type: "item"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					count: 8L
+				}
+				{
+					id: "6D7851FC35758C8D"
+					type: "item"
+					item: "forbidden_arcanus:rune_block"
+					count: 16L
+				}
+				{
+					id: "661E4C7AAEDEF58F"
+					type: "item"
+					item: "forbidden_arcanus:polished_darkstone"
+					count: 24L
+				}
+				{
+					id: "73295EE219E7E250"
+					type: "item"
+					item: "forbidden_arcanus:dark_rune_block"
+					count: 48L
+				}
+			]
+			rewards: [{
+				id: "49AC53E0F1AEE480"
+				type: "item"
+				item: "croptopia:taco"
 			}]
 		}
 	]

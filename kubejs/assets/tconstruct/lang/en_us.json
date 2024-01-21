@@ -1,0 +1,53 @@
+{
+  "modifier.tconstruct.mending": "Mending",
+  "modifier.tconstruct.mending.1": "Mending",
+  "modifier.tconstruct.mending.flavor": "Like an old moss",
+  "modifier.tconstruct.mending.description": "Repairs the durability of tools with XP",
+
+  "modifier.tconstruct.capturing": "Capturing",
+  "modifier.tconstruct.capturing.flavor": "Spawn eggs Catcher",
+  "modifier.tconstruct.capturing.description": "Makes mobs have a chance to drop their spawn egg",
+
+  "modifier.tconstruct.reaper": "Reaper",
+  "modifier.tconstruct.reaper.flavor": "Reap their souls",
+  "modifier.tconstruct.reaper.description": "Makes mobs have a chance to drop their Draconic soul",
+
+  "modifier.tconstruct.vengeance": "Vengeance",
+  "modifier.tconstruct.vengeance.flavor": "Spooky spirits",
+  "modifier.tconstruct.vengeance.description": "Using a tool will spawn Vengeance Spirites",
+
+  "modifier.tconstruct.reliquary_drops": "Reliquary Drops",
+  "modifier.tconstruct.reliquary_drops.flavor": "Reliquary goodies",
+  "modifier.tconstruct.reliquary_drops.description": "Increases chance of Reliquary drops",
+
+  "modifier.tconstruct.experience_harvester": "Experience Harvester",
+  "modifier.tconstruct.experience_harvester.flavor": "Collector of XP",
+  "modifier.tconstruct.experience_harvester.description": "Drops extra experience when killing a mob",
+
+  "modifier.tconstruct.natures_mend": "Nature's Mend",
+  "modifier.tconstruct.natures_mend.1": "Nature's Mend",
+  "modifier.tconstruct.natures_mend.flavor": "Aura Repair",
+  "modifier.tconstruct.natures_mend.description": "Repairs tools using Aura",
+
+  "modifier.tconstruct.soulreaper": "Soul Reaper",
+  "modifier.tconstruct.soulreaper.flavor": "Collect their souls",
+  "modifier.tconstruct.soulreaper.description": "Grants additional soul per kill for Spirit",
+
+  "modifier.tconstruct.teleporange": "Teleportation Range",
+  "modifier.tconstruct.teleporange.flavor": "Teleport on Block",
+  "modifier.tconstruct.teleporange.description": "Increase the range to teleport on a Travel Anchor",
+
+  "modifier.tconstruct.teleportation": "Teleportation",
+  "modifier.tconstruct.teleportation.1": "Teleportation",
+  "modifier.tconstruct.teleportation.flavor": "Like an Enderman",
+  "modifier.tconstruct.teleportation.description": "Teleport you in a short range and to Travel Anchor",
+
+
+  "modifier.tconstruct.boon": "Boon of the Earth",
+  "modifier.tconstruct.boon.flavor": "Richer Stones",
+  "modifier.tconstruct.boon.description": "Ores may be found when mining stone.",
+
+  "modifier.tconstruct.stat_boost": "Overpowered",
+  "modifier.tconstruct.stat_boost.flavor": "Is this cheat ?",
+  "modifier.tconstruct.stat_boost.description": "Increase grandly your stats"
+}

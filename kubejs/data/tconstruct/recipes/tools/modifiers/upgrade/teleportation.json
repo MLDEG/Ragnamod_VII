@@ -1,0 +1,25 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "travel_anchors:travel_staff"
+      }
+    ],
+    "tools": [
+        {
+          "tag": "tconstruct:modifiable/melee"
+        },
+        {
+          "tag": "tconstruct:modifiable/harvest"
+        }
+    ],
+    "slots": {
+      "upgrades": 1
+    },
+    "allow_crystal": true,
+    "result": {
+      "name": "tconstruct:teleportation",
+      "level": 1
+    },
+    "max_level": 1
+  }

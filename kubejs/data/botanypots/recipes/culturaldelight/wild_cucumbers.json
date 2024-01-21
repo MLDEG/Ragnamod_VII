@@ -1,0 +1,1 @@
+{"type":"botanypots:crop","seed":{"item":"culturaldelights:wild_cucumbers"},"categories":["dirt"],"growthTicks":1200,"display":{"block":"culturaldelights:wild_cucumbers"},"drops":[{"chance":1.00,"output":{"item":"culturaldelights:cucumber"},"minRolls":1,"maxRolls":2}]}

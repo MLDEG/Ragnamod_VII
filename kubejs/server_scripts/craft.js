@@ -1,10 +1,16 @@
 onEvent('recipes', e => {
+  //Experience Create
+  e.shapeless('4x create:experience_nugget', 'create_sa:heap_of_experience')
+  e.shapeless('4x create_sa:heap_of_experience', 'create:experience_block')
+  e.shapeless('create:experience_block', '4x create_sa:heap_of_experience')
   //Nether Wart
   e.shapeless('4x minecraft:nether_wart', 'minecraft:nether_wart_block')
   //Crystal Matrix Block
   e.shapeless('9x avaritia:crystal_matrix_ingot', 'avaritia:crystal_matrix_block')
   //Red Beryl Block
   e.shapeless('9x tinkers_reforged:red_beryl_gem', 'tinkers_reforged:red_beryl_block')
+  //Epidote Block
+  e.shapeless('9x tinkers_reforged:epidote_gem', 'tinkers_reforged:epidote_block')
   //Hureaulite Block
   e.shapeless('9x tinkers_reforged:hureaulite_gem', 'tinkers_reforged:hureaulite_block')
   //Enderpearl Block
@@ -520,9 +526,10 @@ onEvent('recipes', e => {
         "results": [{ "item": "create:potato_cannon" }]
       },
       {
-        "type": "create:pressing",
+        "type": "create:deploying",
         "ingredients": [
-          { "item": "create:potato_cannon" }
+          { "item": "create:potato_cannon" },
+          { "item": "createcasing:creative_cogwheel" }
         ],
         "results": [{ "item": "create:potato_cannon" }]
       },
@@ -574,6 +581,9 @@ onEvent('recipes', e => {
     "fromColor": 3124192,
     "toColor": 16734176
   })
+  //Thermal Die
+  e.shaped('thermal:press_rod_die', [' A ', 'ABA', ' A '], { A: 'thermal:invar_plate', B: 'immersiveengineering:stick_steel' })
+  e.shaped('thermal:press_wire_die', [' A ', 'ABA', ' A '], { A: 'thermal:invar_plate', B: 'immersiveengineering:wire_steel' })
   //Creative Tinkers'
   function arsTC(input, output) { e.custom({ "type": "ars_nouveau:enchanting_apparatus", "reagent": [{ "item": input }], "pedestalItems": [{ "item": { "item": "ragnamod_seven:creative_tc_crystal" } }], "output": { "type": "forge:nbt", "item": "tconstruct:creative_slot", "count": 1, "nbt": "{slot:" + output + "}" }, "sourceCost": 500, "keepNbtOfReagent": false }) }
   arsTC('minecraft:anvil', 'upgrades')
@@ -618,5 +628,8 @@ onEvent('recipes', e => {
   e.shapeless('ragnamod_seven:energy_raspberry_raptor_bottle', ['ragnamod_seven:energy_raspberry_raptor', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
   e.shapeless('ragnamod_seven:energy_strawberry_shark_bottle', ['ragnamod_seven:energy_strawberry_shark', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
   e.shapeless('ragnamod_seven:energy_tropical_tiger_bottle', ['ragnamod_seven:energy_tropical_tiger', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+
+  //Solid Nuclear Waste
+  e.custom({ "type": "mekanism:reaction", "itemInput": { "ingredient": { "tag": "forge:dusts/fluorite" } }, "fluidInput": { "amount": 1000, "fluid": "chemlib:nitrogen_fluid" }, "gasInput": { "amount": 100, "gas": "mekanism:spent_nuclear_waste" }, "duration": 100, "itemOutput": { "item": "ragnamod_seven:solid_nuclear_waste" } })
 
 })

@@ -5,6 +5,7 @@
 	filename: "spirits"
 	title: " Spirit"
 	icon: "spirit:crude_soul_crystal"
+	subtitle: ["Spirits Hunter"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

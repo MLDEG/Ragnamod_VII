@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": {
+    "item": "minecraft:prismarine_crystals"
+  },
+  "amount_per_item": 1,
+  "needed_per_level": 25,
+  "tools": {
+    "tag": "tconstruct:modifiable/melee_or_unarmed"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:cooling",
+    "level": 1
+  },
+  "max_level": 10
+}

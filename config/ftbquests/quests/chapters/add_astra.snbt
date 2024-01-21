@@ -5,6 +5,7 @@
 	filename: "add_astra"
 	title: " Beyond Earth"
 	icon: "beyond_earth:nasa_workbench"
+	subtitle: ["Spatial Exploration"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -1,0 +1,59 @@
+{
+  "type": "tconstruct:stat_boost",
+  "level_display": {
+    "type": "tconstruct:default"
+  },
+  "rarity": "epic",
+  "stats": [
+    {
+      "stat": "tconstruct:durability",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:armor_toughness",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:knockback_resistance",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:attack_damage",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:attack_speed",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:mining_speed",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:draw_speed",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:projectile_damage",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:velocity",
+      "type": "multiply_base",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:accuracy",
+      "type": "multiply_base",
+      "value": 2.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:slimeball/ichor"
+  },
+  "result": {
+    "fluid": "kubejs:ichor",
+    "amount": 250
+  },
+  "temperature": 10,
+  "time": 29
+}

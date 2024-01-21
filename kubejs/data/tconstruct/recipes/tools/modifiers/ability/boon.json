@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": 
+    {
+      "item": "beyond_earth:moon_cheese_ore"
+    },
+  "amount_per_item": 1,
+  "needed_per_level": 30,
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/harvest"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:boon",
+    "level": 1
+  },
+  "max_level": 5
+}

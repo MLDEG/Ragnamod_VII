@@ -172,7 +172,7 @@
 		
 		# Amount of energy stored in the Antimatter Constructor
 		# Default: 1000000.0
-		# Range: 1.0 ~ 100000.0
+		# Range: 1.0 ~ 1000000.0
 		"Antimatter constructor capacity": 100000.0d
 		
 		# Amount of energy is stored in the Basic generator
@@ -315,6 +315,11 @@
 		# Range: 1.0 ~ 100000.0
 		"Nuclear reactor capacity": 50000.0d
 		
+		# Energy or Steam multiplier for Nuclear Reactor Output
+		# Default: 1.0
+		# Range: 0.1 ~ 100.0
+		"Nuclear Reactor output multiplier": 1.0d
+		
 		# Energy usage of the Overclocker
 		# Default: 1.6
 		# Range: 0.0 ~ 100000.0
@@ -360,6 +365,10 @@
 		# Range: 0 ~ 100000
 		"Pump move ticks": 10L
 		
+		# Whether fluid sources are replaced with exfluid on pump
+		# Default: true
+		"Pump replace fluid with exfluid": true
+		
 		# Amount of energy stored in the Pump Tank
 		# Default: 128000
 		# Range: 1 ~ 100000
@@ -384,6 +393,10 @@
 		# Default: 10
 		# Range: 0 ~ 100000
 		"Quarry move ticks": 10L
+		
+		# Whether blocks under fluid sources are replaced with exfluid on dig
+		# Default: true
+		"Quarry replace fluid with exfluid": true
 		
 		# Energy usage of the Quarry
 		# Default: 3.0

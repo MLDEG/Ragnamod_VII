@@ -37,6 +37,7 @@ onEvent('jei.hide.items', e => {
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"beyond_earth:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"pneumaticcraft:oil"}}]}}'),
 		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:crude_oil"}}]}}'),
+		Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:redstone"}}]}}'),
 		Item.of('twilightdelight:ironwood_knife', '{Damage:0}').enchant('minecraft:knockback', 1),
 		Item.of('twilightdelight:steeleaf_knife', '{Damage:0}').enchant('minecraft:looting', 2),
 		Item.of('patchouli:guide_book', '{"patchouli:book":"sebastrnlib:sebastrn_mods_guide_book"}'),
@@ -394,6 +395,12 @@ onEvent('jei.hide.items', e => {
 		'gemsnjewels:zircon_nether_ore_block',
 		'gemsnjewels:aquamarine_nether_ore_block',
 		'gemsnjewels:peridot_nether_ore_block',
+		'thermal:redstone_bucket',
+		'blue_skies_tcon:aquite_nugget',
+		'blue_skies_tcon:charoite_nugget',
+		'blue_skies_tcon:diopside_nugget',
+		'blue_skies_tcon:pyrope_nugget',
+		'blue_skies_tcon:moonstone_nugget'
 	])
 })
 
@@ -442,6 +449,7 @@ onEvent('jei.hide.fluids', event => {
 	event.hide('beyond_earth:oil')
 	event.hide('pneumaticcraft:oil')
 	event.hide('thermal:crude_oil')
+	event.hide('thermal:redstone')
 })
 
 onEvent('jei.remove.categories', e => {
@@ -454,7 +462,7 @@ onEvent('jei.information', e => {
 	e.add('chemlib:draconium_compound', ['This chemical\'s is only used to create draconium dust.'])
 	e.add('bhc:red_heart', ['Drop from passive mobs'])
 	e.add('bhc:yellow_heart', ['Drop from bosses'])
-	e.add('bhc:green_heart', ['Drop from Piglin Bathering'])
+	e.add('bhc:green_heart', ['Drop from Piglin Bartering'])
 	e.add('bhc:blue_heart', ['Drop from Pixies from Alfeim'])
 
 	e.add('create:refined_radiance', ['Throw a Chromatic Compound through a beacon beam.'])

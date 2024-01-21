@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:salmon"
+    }
+  ],
+  "tool": {
+    "item": "delightful:fiery_knife"
+  },
+  "result": [
+    {
+      "item": "farmersdelight:cooked_salmon_slice",
+      "count": 2
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ]
+}

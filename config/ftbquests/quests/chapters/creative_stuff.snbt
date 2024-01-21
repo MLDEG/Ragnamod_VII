@@ -5,6 +5,7 @@
 	filename: "creative_stuff"
 	title: " Creative Stuff"
 	icon: "functionalstorage:creative_vending_upgrade"
+	subtitle: ["The Creative grind"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	hide_quest_details_until_startable: true
@@ -69,7 +70,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.0d
 			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -180,7 +181,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.0d
 			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -348,7 +349,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -420,7 +421,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -1.0d
 			dependencies: [
 				"28AA8CD36B2B9558"
@@ -644,7 +645,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -716,7 +717,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -771,7 +772,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -826,7 +827,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -881,7 +882,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1097,7 +1098,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1208,7 +1209,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1263,7 +1264,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1318,7 +1319,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1437,7 +1438,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1492,8 +1493,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 1.5d
+			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
 				"3A5EF4E424C3FCD2"
@@ -1547,7 +1548,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1658,7 +1659,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: -1.0d
 			dependencies: [
 				"1FA6721FE1D91AC0"
@@ -1692,6 +1693,7 @@
 				"3EF525880EBABE1A"
 				"0FEA7D2300B7DE02"
 				"28AA8CD36B2B9558"
+				"4797AD8250B88FCA"
 			]
 			hide: true
 			id: "2E5FA514DCF114FE"
@@ -1709,6 +1711,61 @@
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:creative_handheld_worldshaper"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: [
+				"1FA6721FE1D91AC0"
+				"3A5EF4E424C3FCD2"
+				"3B3A799F1B75AE8D"
+				"5FD678D3209DCC4B"
+				"4426E6FD93B6633E"
+				"2E158F57698EB663"
+				"0F52D023446A5774"
+				"1D3E40D087710248"
+				"035F22543F085D4C"
+				"61533A3766658ACA"
+				"0BD32B73FB445994"
+				"553749A87395453B"
+				"7F8D203B2DBDE286"
+				"00C636511238EEB8"
+				"60812A72691AE76E"
+				"5AE38E6B372BFD65"
+				"273F753DD5046AC1"
+				"300626B04E2E1A0F"
+				"790FA14F1CFBE005"
+				"5DC6CDB2146D749A"
+				"1ACD5D1757C62A7F"
+				"66473AFD28BA9C16"
+				"485D5ECED2F6996A"
+				"12C5FFD5AAE65BBD"
+				"79B059567011CA3E"
+				"4570DDAED84143FE"
+				"714282AAC1313C4C"
+				"0EBF3455DC47F112"
+				"3EF525880EBABE1A"
+			]
+			hide: true
+			id: "4797AD8250B88FCA"
+			tasks: [{
+				id: "6FC0A11697B20220"
+				type: "item"
+				item: "createcasing:creative_cogwheel"
+			}]
+			rewards: [{
+				id: "083D766562287025"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:creative_cogwheel"
 						}
 					}
 				}

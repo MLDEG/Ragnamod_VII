@@ -96,7 +96,6 @@
       "type": "custommachinery:text",
       "alignment": "center"
     },
-
     {
       "type": "custommachinery:progress",
       "emptytexture": "ragnamod_seven:textures/gui/black_sphere_empty_top.png",

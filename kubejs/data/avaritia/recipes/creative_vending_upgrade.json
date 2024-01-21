@@ -59,7 +59,7 @@
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_48","item": "ae2:creative_energy_cell","amount": 1},
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_49","item": "avaritia:infinity_legs","amount": 1},
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_50","item": "ae2:creative_energy_cell","amount": 1},
-      {"type": "custommachinery:item","mode": "input","slot": "ect_input_51","item": "create:creative_motor","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_51","item": "ragnamod_seven:creative_tc_crystal","amount": 1},
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_52","item": "functionalstorage:netherite_upgrade","amount": 1},
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_53","item": "wormhole:creative_energy_cell","amount": 1},
 

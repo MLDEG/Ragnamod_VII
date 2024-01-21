@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "inputs": [
+    {
+      "item": "tinkers_reforged:ender_bone"
+    },
+    {
+      "item": "tinkers_reforged:ender_bone"
+    },
+    {
+      "item": "tinkers_reforged:ender_bone"
+    }
+  ],
+  "tools": [
+    {
+      "item": "tconstruct:plate_boots"
+    },
+    {
+      "item": "tconstruct:plate_leggings"
+    },
+    {
+      "item": "tconstruct:plate_chestplate"
+    },
+    {
+      "item": "tconstruct:plate_helmet"
+    }
+  ],
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "tinkers_reforged:ender_bone"
+  }
+}

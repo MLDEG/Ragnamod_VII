@@ -29,6 +29,7 @@
 			]
 		}
 	}
+	subtitle: ["What I have to do!"]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	images: [
@@ -63,7 +64,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
-			description: ["Unlock the page for Miscellaneous."]
+			description: ["Unlock the Miscellaneous page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "577D6202E19B2599"
 			tasks: [{
@@ -76,18 +77,20 @@
 			icon: "ae2:controller"
 			x: 5.0d
 			y: 2.0d
+			description: ["Unlock the AE2 page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "0B1D5E77E82B17AB"
 			tasks: [{
 				id: "46C1CBA682D028E3"
 				type: "checkmark"
-				title: "AE2 Quests"
+				title: "Applied Energistics 2 Quests"
 			}]
 		}
 		{
 			icon: "create:wrench"
 			x: 2.0d
 			y: 0.0d
+			description: ["Unlock the Create page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "298A3F9171009D45"
 			tasks: [{
@@ -100,6 +103,7 @@
 			icon: "botania:mana_pylon"
 			x: 6.0d
 			y: 0.0d
+			description: ["Unlock the Botania page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "113D3F44F9F6C45C"
 			tasks: [{
@@ -133,6 +137,7 @@
 			}
 			x: 3.0d
 			y: 0.0d
+			description: ["Unlock the Chickens page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "4C886CE89FF0AF52"
 			tasks: [{
@@ -145,6 +150,7 @@
 			icon: "evilcraft:condensed_blood"
 			x: 7.0d
 			y: 0.0d
+			description: ["Unlock the EvilCraft page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "48D9C1D7730F18CD"
 			tasks: [{
@@ -157,6 +163,7 @@
 			icon: "blue_skies:soul_fragment"
 			x: 9.0d
 			y: 0.0d
+			description: ["Unlock the Blue Skies page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "7AD83BC20D2742C4"
 			tasks: [{
@@ -169,6 +176,7 @@
 			icon: "bloodmagic:altar"
 			x: 1.0d
 			y: 2.0d
+			description: ["Unlock the Blood Magic page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "1BEEC705CE150D00"
 			tasks: [{
@@ -181,6 +189,7 @@
 			icon: "beyond_earth:nasa_workbench"
 			x: 4.0d
 			y: 0.0d
+			description: ["Unlock the Beyond Earth page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "480EEAEC65D24F9E"
 			tasks: [{
@@ -193,6 +202,7 @@
 			icon: "alchemistry:combiner"
 			x: 6.0d
 			y: 4.0d
+			description: ["Unlock the Alchemistry page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "30B80CCC4A8FD6C7"
 			tasks: [{
@@ -205,6 +215,7 @@
 			icon: "ars_nouveau:novice_spell_book"
 			x: 1.0d
 			y: 0.0d
+			description: ["Unlock the Ars Nouveau page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "10F31028FC893ADE"
 			tasks: [{
@@ -217,6 +228,7 @@
 			icon: "thermal:machine_frame"
 			x: 7.0d
 			y: 2.0d
+			description: ["Unlock the Thermal page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "3FC86B24AC2C57A9"
 			tasks: [{
@@ -229,6 +241,7 @@
 			icon: "spirit:crude_soul_crystal"
 			x: 2.0d
 			y: 2.0d
+			description: ["Unlock the Spirit page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "13C41B348C636ACA"
 			tasks: [{
@@ -241,6 +254,7 @@
 			icon: "forbidden_arcanus:hephaestus_forge"
 			x: 3.0d
 			y: 2.0d
+			description: ["Unlock the Forbidden and Arcanus page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "49566F6C3DE4A0A0"
 			tasks: [{
@@ -262,6 +276,7 @@
 			}
 			x: 8.0d
 			y: 0.0d
+			description: ["Unlock the Hexerei page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "17F1675D9744D1DE"
 			tasks: [{
@@ -274,27 +289,20 @@
 			icon: "hostilenetworks:sim_chamber"
 			x: 5.0d
 			y: 4.0d
+			description: ["Unlock the Hostile Neural Networks page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "5CF931657DFA41A5"
 			tasks: [{
 				id: "0D6F1E4B854E42AF"
 				type: "checkmark"
-				title: "Hostile Neural Network Quests"
+				title: "Hostile Neural Networks Quests"
 			}]
 		}
 		{
-			icon: {
-				id: "immersiveengineering:toolbox"
-				Count: 1b
-				ForgeCaps: {
-					Parent: {
-						Size: 23
-						Items: [ ]
-					}
-				}
-			}
+			icon: "immersiveengineering:toolbox"
 			x: 4.0d
 			y: 2.0d
+			description: ["Unlock the Immersive Engineering page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "2C4EB8D4AD7073DF"
 			tasks: [{
@@ -307,6 +315,7 @@
 			icon: "industrialforegoing:mob_imprisonment_tool"
 			x: 3.0d
 			y: 4.0d
+			description: ["Unlock the Industrial Foregoing page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "594B09B9BA7FD7C3"
 			tasks: [{
@@ -319,6 +328,7 @@
 			icon: "mekanism:steel_casing"
 			x: 4.0d
 			y: 4.0d
+			description: ["Unlock the Mekanism page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "24AA4048D4600331"
 			tasks: [{
@@ -331,6 +341,7 @@
 			icon: "naturesaura:gold_leaf"
 			x: 5.0d
 			y: 0.0d
+			description: ["Unlock the Nature's Aura page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "52D6BB5F13D719A4"
 			tasks: [{
@@ -343,6 +354,7 @@
 			icon: "avaritia:infinity_catalyst"
 			x: 8.0d
 			y: 4.0d
+			description: ["Unlock the Avaritia page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "124C6442CC789FCA"
 			tasks: [{
@@ -355,6 +367,7 @@
 			icon: "ftbic:nuclear_reactor"
 			x: 0.0d
 			y: 4.0d
+			description: ["Unlock the FTB Idustrial Contraptions page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "24CEA0C30026A5BD"
 			tasks: [{
@@ -367,18 +380,20 @@
 			icon: "rftoolsbase:machine_frame"
 			x: 2.0d
 			y: 4.0d
+			description: ["Unlock the RFTools and Xnet page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "6BAADB4B4E44097C"
 			tasks: [{
 				id: "09E1A4D86EC8CD58"
 				type: "checkmark"
-				title: "RFTool and Co Quests"
+				title: "RFTools and Xnet Quests"
 			}]
 		}
 		{
 			icon: "powah:energizing_rod_nitro"
 			x: 8.0d
 			y: 2.0d
+			description: ["Unlock the Powah page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "46019F50846AAFD0"
 			tasks: [{
@@ -391,18 +406,20 @@
 			icon: "pneumaticcraft:air_compressor"
 			x: 1.0d
 			y: 4.0d
+			description: ["Unlock the PneumaticCraft page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "4ECF8A0985D2EC5D"
 			tasks: [{
 				id: "7ED184EA4AF3D72D"
 				type: "checkmark"
-				title: "Pneumaticcraft Quests"
+				title: "PneumaticCraft Quests"
 			}]
 		}
 		{
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 0.0d
 			y: 2.0d
+			description: ["Unlock the Occultism page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "112B0AEF7EDDDE6A"
 			tasks: [{
@@ -415,6 +432,7 @@
 			icon: {
 				id: "draconicevolution:chaotic_staff"
 				Count: 1b
+				tag: { }
 				ForgeCaps: {
 					Parent: {
 						module_host: {
@@ -440,6 +458,7 @@
 			}
 			x: 7.0d
 			y: 4.0d
+			description: ["Unlock the Draconic Evolution page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "170B797FE3905864"
 			tasks: [{
@@ -510,7 +529,7 @@
 			}]
 		}
 		{
-			title: "End of AE2 Quests"
+			title: "End of Applied Energistics 2 Quests"
 			icon: "thermal:lock"
 			x: 5.0d
 			y: 3.0d
@@ -930,7 +949,7 @@
 			}]
 		}
 		{
-			title: "End of Hostile Neural Network Quests"
+			title: "End of Hostile Neural Networks Quests"
 			icon: "thermal:lock"
 			x: 5.0d
 			y: 5.0d
@@ -1050,7 +1069,7 @@
 			}]
 		}
 		{
-			title: "End of Narute's Aura Quests"
+			title: "End of Nature's Aura Quests"
 			icon: "thermal:lock"
 			x: 5.0d
 			y: 1.0d
@@ -1140,7 +1159,7 @@
 			}]
 		}
 		{
-			title: "End of RFTool and Co Quests"
+			title: "End of RFTools and Xnet Quests"
 			icon: "thermal:lock"
 			x: 2.0d
 			y: 5.0d
@@ -1200,7 +1219,7 @@
 			}]
 		}
 		{
-			title: "End of Pneumaticcraft Quests"
+			title: "End of PneumaticCraft Quests"
 			icon: "thermal:lock"
 			x: 1.0d
 			y: 5.0d
@@ -1284,6 +1303,7 @@
 			}
 			x: 6.0d
 			y: 2.0d
+			description: ["Unlock the PSI page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "6C08FEEEC41D0620"
 			tasks: [{
@@ -1326,6 +1346,7 @@
 			icon: "ragnamod_seven:sphere"
 			x: 9.0d
 			y: 4.0d
+			description: ["Unlock the End Game page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "5297052C3503826D"
 			tasks: [{

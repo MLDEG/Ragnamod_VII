@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_ventium",
+    "amount": 810
+  },
+  "result": "blue_skies:ventium_block",
+  "cooling_time": 150
+}

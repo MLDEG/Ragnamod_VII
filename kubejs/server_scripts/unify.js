@@ -17,6 +17,8 @@ onEvent('recipes', function (e) {
     function multiPress(input, count, press, output) { e.custom({ "type": "thermal:press", "ingredients": [{ "item": input, "count": count }, { "item": press }], "result": [{ "item": output }] }) }
     //Multiservo Press Plate
     function multiPressPlate(input, count, output) { e.custom({ "type": "thermal:press", "ingredients": { "item": input, "count": count }, "result": [{ "item": output }] }) }
+    //Multiservo Press Rod
+    function multiPressRodWire(input, press, output, outcount) { e.custom({ "type": "thermal:press", "ingredients": [{ "item": input }, { "item": press }], "result": [{ "item": output, "count": outcount }] }) }
     //Pressing Create
     function createPress(input, output) { e.custom({ "type": "create:pressing", "ingredients": [{ "item": input }], "results": [{ "item": output }] }) }
     //Rolling FTB
@@ -136,7 +138,6 @@ onEvent('recipes', function (e) {
     crusherMeka('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherMeka('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
     crusherMeka('minecraft:ender_pearl', 'ae2:ender_dust', 1);
-    crusherMeka('minecraft:coal', 'mekanism:dust_coal', 1);
     crusherMeka('thermal:sulfur', 'thermal:sulfur_dust', 1);
     crusherMeka('chemlib:platinum_ingot', 'chemlib:platinum_dust', 1);
     crusherMeka('ftbic:iridium_ingot', 'ftbic:iridium_dust', 1);
@@ -437,6 +438,22 @@ onEvent('recipes', function (e) {
     ['#forge:rods/lead', 'immersiveposts:stick_lead'].forEach(I => { replaceIO(I, 'ftbic:lead_rod') });
     ['#forge:rods/electrum', 'createaddition:electrum_rod'].forEach(I => { replaceIO(I, 'immersiveposts:stick_electrum') });
     //CRAFTS
+    multiPressRodWire('create:brass_ingot', 'thermal:press_rod_die', 'createaddition:brass_rod', 2);
+    multiPressRodWire('tinkers_reforged:aluminum_ingot', 'thermal:press_rod_die', 'ftbic:aluminum_rod', 2);
+    multiPressRodWire('thermal:bronze_ingot', 'thermal:press_rod_die', 'ftbic:bronze_rod', 2);
+    multiPressRodWire('minecraft:copper_ingot', 'thermal:press_rod_die', 'ftbic:copper_rod', 2);
+    multiPressRodWire('thermal:enderium_ingot', 'thermal:press_rod_die', 'ftbic:enderium_rod', 2);
+    multiPressRodWire('minecraft:gold_ingot', 'thermal:press_rod_die', 'ftbic:gold_rod', 2);
+    multiPressRodWire('ftbic:iridium_ingot', 'thermal:press_rod_die', 'ftbic:iridium_rod', 2);
+    multiPressRodWire('minecraft:iron_ingot', 'thermal:press_rod_die', 'ftbic:iron_rod', 2);
+    multiPressRodWire('thermal:lead_ingot', 'thermal:press_rod_die', 'ftbic:lead_rod', 2);
+    multiPressRodWire('thermal:tin_ingot', 'thermal:press_rod_die', 'ftbic:tin_rod', 2);
+    multiPressRodWire('mekanism:ingot_uranium', 'thermal:press_rod_die', 'ftbic:uranium_rod', 2);
+    multiPressRodWire('beyond_earth:steel_ingot', 'thermal:press_rod_die', 'immersiveengineering:stick_steel', 2);
+    multiPressRodWire('thermal:silver_ingot', 'thermal:press_rod_die', 'immersiveposts:stick_silver', 2);
+    multiPressRodWire('thermal:nickel_ingot', 'thermal:press_rod_die', 'immersiveposts:stick_nickel', 2);
+    multiPressRodWire('thermal:constantan_ingot', 'thermal:press_rod_die', 'immersiveposts:stick_constantan', 2);
+    multiPressRodWire('thermal:electrum_ingot', 'thermal:press_rod_die', 'immersiveposts:stick_electrum', 2);
     metalPress('immersiveengineering:mold_rod', 'thermal:enderium_ingot', 1, 'ftbic:enderium_rod', 2);
     metalPress('immersiveengineering:mold_rod', 'ftbic:iridium_ingot', 1, 'ftbic:iridium_rod', 2);
     extrudingFTB('create:brass_ingot', 1, 'createaddition:brass_rod', 2);
@@ -462,6 +479,14 @@ onEvent('recipes', function (e) {
     ['#forge:wires/copper', 'createaddition:copper_wire', 'immersiveengineering:wire_copper'].forEach(I => { replaceIO(I, 'ftbic:copper_wire') });
     ['#forge:wires/aluminum', 'immersiveengineering:wire_aluminum'].forEach(I => { replaceIO(I, 'ftbic:aluminum_wire') });
     ['#forge:wires/electrum', 'createaddition:electrum_wire'].forEach(I => { replaceIO(I, 'immersiveengineering:wire_electrum') });
+    multiPressRodWire('minecraft:iron_ingot', 'thermal:press_wire_die', 'createaddition:iron_wire', 2);
+    multiPressRodWire('tinkers_reforged:aluminum_ingot', 'thermal:press_wire_die', 'ftbic:aluminum_wire', 2);
+    multiPressRodWire('minecraft:copper_ingot', 'thermal:press_wire_die', 'ftbic:copper_wire', 2);
+    multiPressRodWire('thermal:enderium_ingot', 'thermal:press_wire_die', 'ftbic:enderium_wire', 2);
+    multiPressRodWire('minecraft:gold_ingot', 'thermal:press_wire_die', 'ftbic:gold_wire', 2);
+    multiPressRodWire('thermal:electrum_ingot', 'thermal:press_wire_die', 'immersiveengineering:wire_electrum', 2);
+    multiPressRodWire('beyond_earth:steel_ingot', 'thermal:press_wire_die', 'immersiveengineering:wire_steel', 2);
+    multiPressRodWire('thermal:lead_ingot', 'thermal:press_wire_die', 'immersiveengineering:wire_lead', 2);
     //CRAFTS
     extrudingFTB('ftbic:lead_rod', 1, 'immersiveengineering:wire_lead', 2);
     extrudingFTB('immersiveengineering:stick_steel', 1, 'immersiveengineering:wire_steel', 2);
@@ -626,6 +651,8 @@ onEvent('recipes', function (e) {
     ['reliquary:bat_wing'].forEach(I => { replaceIO(I, 'forbidden_arcanus:bat_wing') });
     ['architects_palette:withered_bone', 'tconstruct:necrotic_bone'].forEach(I => { replaceIO(I, 'bhc:wither_bone') });
     ['forge:silicon', 'ae2:silicon'].forEach(I => { replaceIO(I, 'ftbic:silicon') });
+    e.replaceInput({}, 'minecraft:crafting_table', '#forge:workbenches')
+    e.replaceInput({}, 'minecraft:stick', '#forge:rods/wooden')
     /**********************Ethanol Unify*************************/
     fermenter('minecraft:potato', 'immersiveengineering:ethanol', 80)
     fermenter('minecraft:melon_slice', 'immersiveengineering:ethanol', 20)

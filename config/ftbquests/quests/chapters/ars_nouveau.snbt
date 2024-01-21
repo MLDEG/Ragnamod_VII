@@ -5,6 +5,7 @@
 	filename: "ars_nouveau"
 	title: " Ars Nouveau"
 	icon: "ars_nouveau:novice_spell_book"
+	subtitle: ["C'est de l'art magique !"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

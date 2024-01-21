@@ -5,6 +5,7 @@
 	filename: "blood_magic"
 	title: " Blood Magic"
 	icon: "bloodmagic:altar"
+	subtitle: ["Bleedy experience"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

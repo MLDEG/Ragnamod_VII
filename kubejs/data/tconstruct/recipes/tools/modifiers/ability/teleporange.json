@@ -1,0 +1,31 @@
+{
+    "type": "tconstruct:incremental_modifier",
+    "input": 
+      {
+        "item": "travel_anchors:travel_anchor"
+      },
+    "amount_per_item": 1,
+    "needed_per_level": 2,
+    "tools": [
+        {
+          "tag": "tconstruct:modifiable/melee"
+        },
+        {
+          "tag": "tconstruct:modifiable/harvest"
+        }
+    ],
+    "slots": {
+      "abilities": 1
+    },
+    "requirements": {
+      "name": "tconstruct:teleportation",
+      "level": 1,
+      "error": "YOLO"
+    },
+    "allow_crystal": false,
+    "result": {
+      "name": "tconstruct:teleporange",
+      "level": 1
+    },
+    "max_level": 5
+  }

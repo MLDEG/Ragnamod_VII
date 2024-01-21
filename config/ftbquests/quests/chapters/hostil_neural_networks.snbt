@@ -5,6 +5,7 @@
 	filename: "hostil_neural_networks"
 	title: " Hostile Neural Networks"
 	icon: "hostilenetworks:sim_chamber"
+	subtitle: ["Store Mobs data and loot them!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

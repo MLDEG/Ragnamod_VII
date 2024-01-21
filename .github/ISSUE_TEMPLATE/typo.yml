@@ -1,0 +1,31 @@
+name: Typo report
+description: There is a typo / misspelling / grammatical error somewhere.
+title: "[Typo]: "
+labels:
+  - Typo
+body:
+  - type: markdown
+    attributes:
+      value: Before submitting an issue, check if your issue has been submitted before. If it has, please don't submit a duplicate.
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack version
+      description: If you are not using the latest version, make sure to update it before submitting your issue.
+      placeholder: "Example: 7.X.X"
+    validations:
+      required: true
+  - type: textarea
+    id: typo-location
+    attributes:
+      label: Where is the typo located?
+      description: >-
+        eg Quests / Description / Tooltips
+      placeholder: "Example: In the Create chapter, in the description of the Quest called ... "
+    validations:
+      required: true
+  - type: textarea
+    id: typo_fix
+    attributes:
+      label: Fix
+      placeholder: "Example: It should be 'Nature's Aura' not 'Narute's Aura', etc ... "

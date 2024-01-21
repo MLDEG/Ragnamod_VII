@@ -5,6 +5,7 @@
 	filename: "evilcraft"
 	title: " EvilCraft"
 	icon: "evilcraft:condensed_blood"
+	subtitle: ["Dark magic"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": 
+    {
+      "item": "minecraft:egg"
+    },
+  "amount_per_item": 1,
+  "needed_per_level": 16,
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:capturing",
+    "level": 1
+  },
+  "max_level": 10
+}

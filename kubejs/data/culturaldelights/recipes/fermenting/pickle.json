@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "culturaldelights:cucumber"
+    },
+    {
+      "item": "culturaldelights:cucumber"
+    },
+    {
+      "item": "culturaldelights:cucumber"
+    },
+    {
+      "item": "culturaldelights:cucumber"
+    },
+    {
+      "item": "farmersdelight:apple_cider"
+    }
+  ],
+  "results": [
+    {
+      "item": "culturaldelights:pickle",
+      "count": 4
+    }
+  ],
+  "heatRequirement": "heated"
+}
