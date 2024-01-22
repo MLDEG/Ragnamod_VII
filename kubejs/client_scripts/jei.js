@@ -490,7 +490,11 @@ onEvent('item.tooltip', tooltip => {
 	chemLib('gold', 'Au (79)', 'Transition Metals')
 	chemLib('copper', 'Cu (29)', 'Transition Metals')
 	chemLib('sulfur', 'S (16)', 'Reactive Non-Metals')
-	chemLib('cobalt', 'Co (27)', 'Transition Metals')
+	//Cobalt
+	tooltip.addAdvanced(['tconstruct:cobalt_block', 'tconstruct:cobalt_ingot', 'tconstruct:cobalt_nugget'], (item, advanced, text) => {
+		text.add(1, Text.of('§3Co (27)'))
+		text.add(2, Text.of('§7Transition Metals'))
+	})
 
 	tooltip.addAdvanced('chickens:chicken_item', (item, advanced, text) => {
 		if (!item.nbt?.ChickenType?.id.match(/chickens:(red|orange|yellow|lime|green|blue|light_blue|cyan|pink|magenta|purple|brown|black|white|light_gray|gray)_chicken/)) {
