@@ -4571,7 +4571,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel II, can:"
 				"Generate 8 FE/tick"
 				"Transfer 64 FE/tick"
 				"And has an internal buffer of 125k FE"
@@ -4595,7 +4595,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel III, can:"
 				"Generate 32 FE/tick"
 				"Transfer 256 FE/tick"
 				"And has an internal buffer of 425k FE"
@@ -4619,7 +4619,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel IV, can:"
 				"Generate 128 FE/tick"
 				"Transfer 1,024 FE/tick"
 				"And has an internal buffer of 2M FE"
@@ -4643,7 +4643,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel V, can:"
 				"Generate 512 FE/tick"
 				"Transfer 4,096 FE/tick"
 				"And has an internal buffer of 8M FE"
@@ -4667,7 +4667,7 @@
 			y: 6.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel VI, can:"
 				"Generate 2,048 FE/tick"
 				"Transfer 16,348 FE/tick"
 				"And has an internal buffer of 32M FE"
@@ -4691,7 +4691,7 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel VII, can:"
 				"Generate 8,192 FE/tick"
 				"Transfer 65,536 FE/tick"
 				"And has an internal buffer of 64M FE"
@@ -4715,7 +4715,7 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel VIII, can:"
 				"Generate 32,768 FE/tick"
 				"Transfer 262,144 FE/tick"
 				"And has an internal buffer of 128M FE"
@@ -4739,7 +4739,7 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"PSI Solar Panel, can:"
 				"Generate 65,536 FE/tick"
 				"Transfer 524,288 FE/tick"
 				"And has an internal buffer of 256M FE"
@@ -4763,7 +4763,7 @@
 			y: 7.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Alfsteel Solar Panel, can:"
 				"Generate 131,072 FE/tick"
 				"Transfer 1,048,576 FE/tick"
 				"And has an internal buffer of 512M FE"
@@ -4787,7 +4787,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Wyvern Solar Panel, can:"
 				"Generate 262,144 FE/tick"
 				"Transfer 2,097,152 FE/tick"
 				"And has an internal buffer of 1024M FE"
@@ -4811,7 +4811,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Draconic Solar Panel, can:"
 				"Generate 524,288 FE/tick"
 				"Transfer 4,194,304 FE/tick"
 				"And has an internal buffer of 2048M FE"
@@ -4835,7 +4835,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Chaotic Solar Panel, can:"
 				"Generate 1,048,576 FE/tick"
 				"Transfer 8,388,608 FE/tick"
 				"And has an internal buffer of 4096M FE"
@@ -4859,7 +4859,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Neutronium Solar Panel, can:"
 				"Generate 2,097,152 FE/tick"
 				"Transfer 16,777,216 FE/tick"
 				"And has an internal buffer of 8192M FE"
@@ -4883,7 +4883,7 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Ultimate Solar Panel, can:"
 				"Generate 41,974,304 FE/tick"
 				"Transfer 33,554,432 FE/tick"
 				"And has an internal buffer of 16384M FE"
