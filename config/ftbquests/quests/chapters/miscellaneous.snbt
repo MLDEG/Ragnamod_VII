@@ -1513,7 +1513,7 @@
 			x: 0.5d
 			y: -3.5d
 			shape: "square"
-			description: ["The Sign of the Talisman prevent the spawn of Wandering Trader within 6 chunks."]
+			description: ["The Sign of the Talisman prevent the spawn of Wandering Trader, Llama Trader and Goblins within 6 chunks."]
 			dependencies: ["577D6202E19B2599"]
 			id: "28973DC14A04294D"
 			tasks: [
