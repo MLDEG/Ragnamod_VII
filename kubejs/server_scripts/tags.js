@@ -263,6 +263,9 @@ onEvent('tags.items', e => {
     //Raw Materials
     e.add('forge:raw_materials', ['beyond_earth:raw_calorite', 'beyond_earth:raw_ostrum', 'beyond_earth:raw_desh', 'tinkers_reforged:raw_kepu'])
 
+    //Thermal Dies
+    e.add('thermal:crafting/dies', ['thermal:press_rod_die', 'thermal:press_wire_die'])
+
 })
 onEvent('tags.blocks', e => {
 
