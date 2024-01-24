@@ -1108,4 +1108,14 @@ onEvent('recipes', e => {
   advEphae('miniutilities:stable_ingot', 'cataclysm:ignitium_ingot', 'ragnamod_seven:shub_niggurath_ingot', 'ragnamod_seven:sculk_ingot', 'ragnamod_seven:chemical_draconium_ingot', 'cataclysm:enderite_ingot', 'cataclysm:witherite_ingot', 'ragnamod_seven:condensed_ingot', 10, 10, 10)
   advEphae('forbidden_arcanus:arcane_crystal_block', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:coal', 'minecraft:coal', 'forbidden_arcanus:smelter_prism', 0, 10, 5)
 
+  //Auto Salvaging Table
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:auto_salvaging_table"}'), ['AAA', 'BCD', 'EFE'], { A: 'more_immersive_wires:ftbic_energy_alloy', B: 'byg:pendorite_pickaxe', C: 'apotheosis:salvaging_table', D: 'byg:pendorite_axe', E: 'apotheosis:gem_dust', F: 'minecraft:lava_bucket' })
+
+  function autoSalvage(affix) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:auto_salvaging_table", "time": 1, "requirements": [{ "type": "custommachinery:item", "mode": "input", "item": "#apotheosis:nbt", "nbt": "{affix_data:{rarity:\"" + affix + "\"}}", "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1, "chance": 0.5 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1, "chance": 0.4 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1, "chance": 0.4 }], "hidden": true }) }
+  autoSalvage("common")
+  autoSalvage("uncommon")
+  autoSalvage("rare")
+  autoSalvage("epic")
+  autoSalvage("mythic")
+
 })

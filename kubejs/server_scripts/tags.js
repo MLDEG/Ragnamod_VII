@@ -266,6 +266,25 @@ onEvent('tags.items', e => {
     //Thermal Dies
     e.add('thermal:crafting/dies', ['thermal:press_rod_die', 'thermal:press_wire_die'])
 
+    //Apo tag
+    e.add('apotheosis:nbt', ['#forge:shields', '#forge:tools', '#forge:armor', 'minecraft:stick', 'reliquary:witch_hat', 'hexerei:witch_helmet', 'hexerei:witch_chestplate', 'hexerei:witch_boots'])
+
+    //tag Crushed Create
+    function crushedTag(metal) {
+        e.add('forge:crushed/' + metal, 'create:crushed_raw_' + metal)
+    }
+    crushedTag('iron')
+    crushedTag('gold')
+    crushedTag('copper')
+    crushedTag('zinc')
+    crushedTag('osmium')
+    crushedTag('silver')
+    crushedTag('tin')
+    crushedTag('lead')
+    crushedTag('aluminum')
+    crushedTag('nickel')
+    crushedTag('uranium')
+
 })
 onEvent('tags.blocks', e => {
 
