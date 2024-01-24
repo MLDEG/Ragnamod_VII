@@ -87,6 +87,6 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:creative_tc_crystal').displayName("Creative Tinkers' Crystal").glow(true).maxStackSize(1)
     e.create('ragnamod_seven:alloy_matrix').displayName("§cMatrix Alloy").glow(true).maxStackSize(1)
     e.create('ragnamod_seven:solid_nuclear_waste').displayName("Solid Nuclear Waste")
-    e.create('thermal:press_rod_die').displayName("Rodworking Die")
-    e.create('thermal:press_wire_die').displayName("Wireworking Die")
+    e.create('thermal:press_rod_die').displayName("Rodworking Die").maxStackSize(1)
+    e.create('thermal:press_wire_die').displayName("Wireworking Die").maxStackSize(1)
 })
