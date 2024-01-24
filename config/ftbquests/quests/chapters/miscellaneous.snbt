@@ -1402,7 +1402,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: -3.5d
 			shape: "square"
 			description: ["The Summoning Altar allows you to summon mobs/boss."]
@@ -1447,7 +1447,7 @@
 		}
 		{
 			icon: "travel_anchors:travel_staff"
-			x: -3.5d
+			x: 1.5d
 			y: 2.5d
 			shape: "square"
 			description: [
@@ -2451,8 +2451,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 1.5d
-			y: 2.5d
+			x: -0.5d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"With an entangled block you can bind almost any block."
@@ -2615,7 +2615,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
 			y: 2.5d
 			shape: "square"
 			description: [
@@ -2646,7 +2646,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.5d
 			y: 2.5d
 			shape: "square"
 			description: [
@@ -2654,7 +2654,10 @@
 				""
 				"With a maximum capacity of level XXXI."
 			]
-			dependencies: ["577D6202E19B2599"]
+			dependencies: [
+				"577D6202E19B2599"
+				"1064B7D347E37746"
+			]
 			dependency_requirement: "one_completed"
 			id: "543F99BE7476FD64"
 			tasks: [{
@@ -2678,7 +2681,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.5d
 			y: 2.5d
 			shape: "square"
 			description: ["The Salvaging Table break down Affix items into Rarity Materials."]
@@ -4900,6 +4903,32 @@
 				type: "item"
 				item: "avaritia:infinity_catalyst"
 				random_bonus: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			shape: "square"
+			description: ["The Auto Salvaging Table automate break down Affix items into Rarity Materials. (more efficient this way)"]
+			dependencies: ["57EE4803D9721AC1"]
+			id: "52B09775A024B426"
+			tasks: [{
+				id: "2B417ED32CBBF972"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:auto_salvaging_table"
+					}
+				}
+			}]
+			rewards: [{
+				id: "35AF3D37F740A711"
+				type: "item"
+				item: "apotheosis:gem_dust"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 	]
