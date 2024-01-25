@@ -24,6 +24,25 @@ onEvent('recipes', e => {
 
     }
 
+    //Chibee
+    e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:bee", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "minecraft:beehive" }, { "item": "minecraft:bee_nest" }, { "item": "minecraft:beehive" }, { "item": "minecraft:honeycomb_block" }, { "item": "minecraft:beehive" }, { "item": "minecraft:bee_nest" }, { "item": "minecraft:beehive" }], "entityOutput": "chickens:chibee_chicken", "duration": 100, "shouldSummonMob": true })
+    e.custom({
+        "type": "custommachinery:custom_machine",
+        "machine": "ragnamod_7:soul_pedestal",
+        "time": 0,
+        "requirements": [
+            { "type": "custommachinery:item", "mode": "input", "item": "chickens:chicken_shell", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:bee_nest', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:honeycomb_block', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:bee_nest', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "slot": "input9", "item": "chickens:soul_bee", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "output", "item": "chickens:chicken_item", "nbt": "{ChickenType:{id:\"chickens:chibee_chicken\"}}", "amount": 1 }
+        ]
+    })
     //Holy Chicken
     e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "croptopia:lemon" }, { "item": "croptopia:coconut" }, { "item": "croptopia:strawberry" }, { "item": "croptopia:grapefruit" }, { "item": "croptopia:kiwi" }, { "item": "croptopia:mango" }, { "item": "croptopia:blueberry" }], "entityOutput": "chickens:holy_chicken", "duration": 100, "shouldSummonMob": true })
     e.custom({
