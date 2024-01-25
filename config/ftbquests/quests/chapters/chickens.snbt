@@ -5620,6 +5620,7 @@
 			x: 10.0d
 			y: 0.0d
 			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_chibee.png width:150 height:100 align:1}"]
 			dependencies: [
 				"7D9ACDADBB4CBD8C"
 				"4C886CE89FF0AF52"
