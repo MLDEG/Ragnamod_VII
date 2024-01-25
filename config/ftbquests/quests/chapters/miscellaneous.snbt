@@ -184,7 +184,14 @@
 			tasks: [{
 				id: "5F975C422630CB58"
 				type: "item"
-				item: "botanypots:terracotta_hopper_botany_pot"
+				title: "Hopper Botany Pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:basic_hopper_botany_pot"
+					}
+				}
 			}]
 			rewards: [{
 				id: "0F6484E1BAC44B9B"
@@ -205,7 +212,14 @@
 			tasks: [{
 				id: "69AF1172472D89FC"
 				type: "item"
-				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+				title: "Elite Hopper Botany Pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypotstiers:elite_hopper_botany_pot"
+					}
+				}
 			}]
 			rewards: [{
 				id: "4E9C789AC6C0DF49"
@@ -226,7 +240,14 @@
 			tasks: [{
 				id: "7A8D1FDE850EDC44"
 				type: "item"
-				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+				title: "Ultra Hopper Botany Pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypotstiers:ultra_hopper_botany_pot"
+					}
+				}
 			}]
 			rewards: [{
 				id: "5CA92B8730B7BD56"
@@ -247,7 +268,14 @@
 			tasks: [{
 				id: "29C926FFBB865FC0"
 				type: "item"
-				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+				title: "Creative Hopper Botany Pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypotstiers:creative_hopper_botany_pot"
+					}
+				}
 			}]
 			rewards: [{
 				id: "3C26C147118DDB9E"

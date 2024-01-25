@@ -285,6 +285,19 @@ onEvent('tags.items', e => {
     crushedTag('nickel')
     crushedTag('uranium')
 
+    //Botany pots tag
+    var botanycolor = ["red", "orange", "yellow", "lime", "green", "blue", "light_blue", "cyan", "pink", "magenta", "purple", "brown", "black", "white", "light_gray", "gray"]
+    function botanyPotsBasic(botanycolor) {
+        e.add('botanypots:basic_hopper_botany_pot', ['botanypots:' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypots:' + botanycolor + '_concrete_hopper_botany_pot', 'botanypots:' + botanycolor + '_terracotta_hopper_botany_pot']);
+        e.add('botanypotstiers:elite_hopper_botany_pot', ['botanypotstiers:elite_' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypotstiers:elite_' + botanycolor + '_concrete_hopper_botany_pot', 'botanypotstiers:elite_' + botanycolor + '_terracotta_hopper_botany_pot']);
+        e.add('botanypotstiers:ultra_hopper_botany_pot', ['botanypotstiers:ultra_' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypotstiers:ultra_' + botanycolor + '_concrete_hopper_botany_pot', 'botanypotstiers:ultra_' + botanycolor + '_terracotta_hopper_botany_pot']);
+        e.add('botanypotstiers:creative_hopper_botany_pot', ['botanypotstiers:creative_' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypotstiers:creative_' + botanycolor + '_concrete_hopper_botany_pot', 'botanypotstiers:creative_' + botanycolor + '_terracotta_hopper_botany_pot'])
+    }
+    botanycolor.forEach(C => { botanyPotsBasic(C) })
+    e.add('botanypots:basic_hopper_botany_pot', 'botanypots:terracotta_hopper_botany_pot')
+    e.add('botanypotstiers:elite_hopper_botany_pot', 'botanypotstiers:elite_terracotta_hopper_botany_pot')
+    e.add('botanypotstiers:ultra_hopper_botany_pot', 'botanypotstiers:ultra_terracotta_hopper_botany_pot')
+    e.add('botanypotstiers:creative_hopper_botany_pot', 'botanypotstiers:creative_terracotta_hopper_botany_pot')
 })
 onEvent('tags.blocks', e => {
 
