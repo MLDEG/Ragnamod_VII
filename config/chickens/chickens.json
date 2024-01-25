@@ -2364,5 +2364,19 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:chibee_chicken": {
+    "name": "chibee_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "minecraft:honeycomb"
+    },
+    "drop_item": {
+      "itemID": "minecraft:honeycomb"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

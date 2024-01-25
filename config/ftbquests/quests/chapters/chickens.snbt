@@ -5616,6 +5616,36 @@
 				item: "ragnamod_seven:solid_nuclear_waste"
 			}]
 		}
+		{
+			x: 10.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: [
+				"7D9ACDADBB4CBD8C"
+				"4C886CE89FF0AF52"
+			]
+			id: "399F0F0675C01C75"
+			tasks: [{
+				id: "33DC6D8BB5EB194E"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:chibee_chicken"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "3F5BB24F713A82C5"
+				type: "item"
+				item: "minecraft:honeycomb_block"
+				random_bonus: 7
+			}]
+		}
 	]
 	quest_links: [ ]
 }
