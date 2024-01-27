@@ -498,15 +498,18 @@ onEvent('item.tooltip', tooltip => {
 		}
 	})
 
+	//Unbreakable
 	tooltip.addAdvanced(Ingredient.all, (item, advanced, text) => {
 		if (item.nbt?.Modifier == 'forbidden_arcanus:eternal')
 			text.add(Component.translate('item.unbreakable').blue())
 	})
 
+	//Draco Compound
 	tooltip.addAdvanced('chemlib:draconium_compound', (item, advanced, text) => {
 		text.add(1, Text.of('§3Rn₂₄Xe₈Og₁₆Lu₃₂'))
 	})
 
+	//Lithium
 	tooltip.addAdvanced('mekanism:dust_lithium', (item, advanced, text) => {
 		text.add(1, Text.of('§3Li (3)'))
 		text.add(2, Text.of('§7Alkali Metals'))
@@ -554,6 +557,11 @@ onEvent('item.tooltip', tooltip => {
 	//Echo Shard
 	tooltip.addAdvanced('warden_and_sculk:echo_shard', (item, advanced, text) => {
 		text.add(1, Text.of('§5§oLoot in chests from Ancient City'))
+	})
+
+	//Dawn Tool
+	tooltip.addAdvanced('bloodmagic:dawnscribetool', (item, advanced, text) => {
+		text.add(1, Text.of('§7The writing is on the wall...'))
 	})
 
 })

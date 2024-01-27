@@ -90,4 +90,5 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:solid_nuclear_waste').displayName("Solid Nuclear Waste")
     e.create('thermal:press_rod_die').displayName("Rodworking Die").maxStackSize(1)
     e.create('thermal:press_wire_die').displayName("Wireworking Die").maxStackSize(1)
+    e.create('bloodmagic:dawnscribetool').displayName("Inscription Tool: Dawn").maxStackSize(1).maxDamage(40)
 })

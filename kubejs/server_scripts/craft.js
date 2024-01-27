@@ -296,6 +296,7 @@ onEvent('recipes', e => {
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:waterritualstone', 'bloodmagic:waterscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:earthritualstone', 'bloodmagic:earthscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:duskritualstone', 'bloodmagic:duskscribetool')
+  ritualStone('bloodmagic:ritualstone', 'bloodmagic:lightritualstone', 'bloodmagic:dawnscribetool')
   //Chemical Core
   e.custom({
     "type": "draconicevolution:fusion_crafting",
