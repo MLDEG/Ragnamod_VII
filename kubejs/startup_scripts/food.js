@@ -97,6 +97,8 @@ onEvent('item.registry', e => {
   holy('Hydration®', 'ragnamod_seven:hydration_white_peach', 'White Peach', 'minecraft:strength', 'White Peach')
   holy('Hydration®', 'ragnamod_seven:hydration_strawberry_kiwi', 'Strawberry x Kiwi', 'minecraft:strength', 'Strawberry x Kiwi')
   holy('Hydration®', 'ragnamod_seven:hydration_pink_grapefruit', 'Pink Grapefruit', 'minecraft:strength', 'Pink Grapefruit')
+  holy('Hydration®', 'ragnamod_seven:hydration_cranberry', 'Cranberry', 'minecraft:strength', 'Cranberry')
+  holy('Hydration®', 'ragnamod_seven:hydration_pear', 'Pear', 'minecraft:strength', 'Pear')
   /*******************Iced Tea*******************/
   holy('Iced Tea®', 'ragnamod_seven:iced_tea_acai_hibiscus_tea', 'Acai x Hibiscus Tea', 'minecraft:regeneration', 'Acai x Hibiscus Tea')
   holy('Iced Tea®', 'ragnamod_seven:iced_tea_apple_green_tea', 'Apple x Green Tea', 'minecraft:regeneration', 'Apple x Green Tea')
