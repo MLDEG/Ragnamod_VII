@@ -1,0 +1,17 @@
+{
+    "item": "ragnamod_seven:speed_addon",
+    "machines": ["ragnamod_7:digital_mob_agonizer"],
+    "max": 8,
+    "modifiers": [
+        {
+	    "requirement": "custommachinery:speed",
+	    "mode": "input",
+	    "operation": "addition",
+	    "modifier": -10,
+        "tooltip": {
+            "text": "Speeds the process by 10 ticks",
+            "color": "#47c0ff"
+        }
+	}
+    ]
+}
