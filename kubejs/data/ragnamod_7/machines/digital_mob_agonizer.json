@@ -1,0 +1,217 @@
+{
+  "name": "Digital Mob Agonizer",
+  "appearance": {
+    "block": "ragnamod_seven:machine/digital_mob_agonizer_idle_model",
+    "item": "ragnamod_seven:machine/digital_mob_agonizer_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/digital_mob_agonizer_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/digital_mob_agonizer_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "maxInput": 100000,
+      "maxOutput": 100000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 100000,
+      "id": "evilcraft_fluid",
+      "filter": ["evilcraft:blood"],
+      "whitelist": true,
+      "mode": "output",
+      "maxInput": 100000,
+      "maxOutput": 100000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 100000,
+      "id": "bloodmagic_fluid",
+      "filter": ["bloodmagic:life_essence_fluid"],
+      "whitelist": true,
+      "mode": "output",
+      "maxInput": 100000,
+      "maxOutput": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "data",
+      "filter": ["ragnamod_seven:blood_data_model"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "catalyst",
+      "mode": "input",
+      "filter": ["hostilenetworks:overworld_prediction","hostilenetworks:nether_prediction","hostilenetworks:twilight_prediction","hostilenetworks:end_prediction","hostilenetworks:undergarden_prediction","hostilenetworks:blueskies_prediction"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "speed",
+      "mode": "input",
+      "filter": ["ragnamod_seven:speed_addon"],
+      "whitelist": true,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "bloody",
+      "filter": ["ragnamod_seven:bloody_addon"],
+      "whitelist": true,
+      "variant": "custommachinery:upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/gui_digital_mob_agonizer.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 7,
+      "y": 83,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/progress_empty_digital_mob_agonizer.png",
+      "filledtexture": "ragnamod_seven:textures/gui/progress_full_digital_mob_agonizer.png",
+      "type": "custommachinery:progress",
+      "x": 36,
+      "y": 53
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/energy_empty_digital_mob_agonizer.png",
+      "filledtexture": "ragnamod_seven:textures/gui/energy_full_digital_mob_agonizer.png",
+      "x": 10,
+      "y": 13,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "bloodmagic_fluid",
+      "x": 93,
+      "y": 13,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/fluid_empty_digital_mob_agonizer.png"
+    },
+    {
+      "id": "evilcraft_fluid",
+      "x": 126,
+      "y": 13,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/fluid_empty_digital_mob_agonizer.png"
+    },
+    {
+      "id": "catalyst",
+      "x": 59,
+      "y": 29,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/catalyst_slot_digital_mob_agonizer.png",
+      "ghost": {
+        "items": ["hostilenetworks:overworld_prediction","hostilenetworks:nether_prediction","hostilenetworks:twilight_prediction","hostilenetworks:end_prediction","hostilenetworks:undergarden_prediction","hostilenetworks:blueskies_prediction"],
+        "color": [0.5, 0.5, 0.5, 0.5],
+        "always_render": true
+    }
+    },
+    {
+      "id": "data",
+      "x": 36,
+      "y": 29,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/slot_digital_mob_agonizer.png",
+      "ghost": {
+        "items": "ragnamod_seven:blood_data_model",
+        "color": [0.5, 0.5, 0.5, 0.5],
+        "always_render": true
+    }
+    },
+    {
+      "id": "bloody",
+      "x": 153,
+      "y": 8,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/slot_digital_mob_agonizer.png",
+      "ghost": "ragnamod_seven:bloody_addon"
+    },
+    {
+      "id": "speed",
+      "x": 153,
+      "y": 29,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/slot_digital_mob_agonizer.png",
+      "ghost": "ragnamod_seven:speed_addon"
+    }
+  ],
+  "jei": [
+    {
+      "texture": "ragnamod_seven:textures/gui/gui_digital_mob_agonizer.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 7,
+      "y": 83,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/progress_empty_digital_mob_agonizer.png",
+      "filledtexture": "ragnamod_seven:textures/gui/progress_full_digital_mob_agonizer.png",
+      "type": "custommachinery:progress",
+      "x": 36,
+      "y": 53
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/energy_empty_digital_mob_agonizer.png",
+      "filledtexture": "ragnamod_seven:textures/gui/energy_full_digital_mob_agonizer.png",
+      "x": 10,
+      "y": 13,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "bloodmagic_fluid",
+      "x": 93,
+      "y": 13,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/fluid_empty_digital_mob_agonizer.png"
+    },
+    {
+      "id": "evilcraft_fluid",
+      "x": 126,
+      "y": 13,
+      "type": "custommachinery:fluid",
+      "texture": "ragnamod_seven:textures/gui/fluid_empty_digital_mob_agonizer.png"
+    },
+    {
+      "id": "catalyst",
+      "x": 59,
+      "y": 29,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/catalyst_slot_digital_mob_agonizer.png"
+    },
+    {
+      "id": "data",
+      "x": 36,
+      "y": 29,
+      "type": "custommachinery:slot",
+      "texture": "ragnamod_seven:textures/gui/slot_digital_mob_agonizer.png"
+    }
+  ],
+  "catalysts": ["ragnamod_7:digital_mob_agonizer_addon_evilcraft", "ragnamod_7:digital_mob_agonizer_addon_bloodmagic"]
+}
