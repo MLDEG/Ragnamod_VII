@@ -4,7 +4,7 @@
     "block": "ragnamod_seven:machine/auto_salvaging_table",
     "item": "ragnamod_seven:machine/auto_salvaging_table",
     "ambient_sound": "",
-    "interaction_sound": "minecraft:stone_block",
+    "interaction_sound": "minecraft:stone",
     "light": 0,
     "color": 16711680,
     "hardness": 3.5,
