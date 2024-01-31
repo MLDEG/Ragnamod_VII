@@ -1,0 +1,14 @@
+{
+  "type": "evilcraft:blood_infuser",
+  "item": "ragnamod_seven:blood_infused_data_model",
+  "fluid": {
+    "fluid": "evilcraft:blood",
+    "amount": 640000
+  },
+  "result": {
+    "item": "ragnamod_seven:deeply_blood_infused_data_model"
+  },
+  "duration": 4800,
+  "xp": 20,
+  "tier": 3
+}
