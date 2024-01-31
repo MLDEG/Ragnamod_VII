@@ -751,6 +751,8 @@ onEvent('recipes', e => {
         'redstone_arsenal:materials/flux_gem',
         'redstone_arsenal:materials/flux_dust',
         'redstone_arsenal:materials/flux_ingot_fire_charge_from_dust',
+        'tinkers_reforged:smeltery/melting/coal_block',
+        'tinkers_reforged:smeltery/melting/coal/ore_singular',
     ]
     removeId.forEach(C => { r(C) })
 })

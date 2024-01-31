@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gem"
+  },
+  "fluid": {
+    "tag": "tinkers_reforged:liquid_coal",
+    "amount": 250
+  },
+  "result": "minecraft:coal",
+  "cooling_time": 40
+}

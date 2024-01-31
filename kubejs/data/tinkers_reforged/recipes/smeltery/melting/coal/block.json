@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/coal"
+  },
+  "result": {
+    "fluid": "tinkers_reforged:liquid_coal",
+    "amount": 2250
+  },
+  "temperature": 200,
+  "time": 114
+}
