@@ -45,5 +45,33 @@ onEvent('recipes', e => {
         ]
     })
 
+    //Blood Magic Rune
+    function cleanRune(rune) {
+        e.custom(
+            {
+                "type": "lychee:item_inside",
+                "item_in": {
+                    "item": rune
+                },
+                "block_in": {
+                    "blocks": ["water"],
+                    "state": {
+                        "level": 0
+                    }
+                },
+                "post": [
+                    {
+                        "type": "drop_item",
+                        "item": "bloodmagic:blankrune"
+                    }
+                ]
+            }
+        )
+    }
+    var rune = ['bloodmagic:chargingrune', 'bloodmagic:accelerationrune', 'bloodmagic:orbcapacityrune', 'bloodmagic:bettercapacityrune', 'bloodmagic:altarcapacityrune', 'bloodmagic:dislocationrune', 'bloodmagic:selfsacrificerune', 'bloodmagic:sacrificerune', 'bloodmagic:speedrune']
+    rune.forEach(R => { cleanRune(R) })
+
+
+
 
 })
