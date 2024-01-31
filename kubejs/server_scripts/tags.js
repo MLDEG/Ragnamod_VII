@@ -171,6 +171,34 @@ onEvent('tags.items', e => {
     //Remove Ore from Boon Drops Enchant
     e.remove('forge:ores_in_ground/stone', ['mekanism:lead_ore', 'mekanism:tin_ore', 'immersiveengineering:ore_uranium', 'immersiveengineering:ore_nickel', 'immersiveengineering:ore_silver', 'immersiveengineering:ore_lead', 'immersiveengineering:ore_aluminum'])
 
+    //Remove Aluminum Casts
+    e.remove('tinkers_reforged:casts/aluminum', ["tinkers_reforged:cast_nugget", "tinkers_reforged:cast_large_plate", "tinkers_reforged:cast_ingot", "tinkers_reforged:cast_hammer_head", "tinkers_reforged:cast_gem", "tinkers_reforged:cast_gear", "tinkers_reforged:cast_coin", "tinkers_reforged:cast_broad_blade", "tinkers_reforged:cast_broad_axe_head", "tinkers_reforged:cast_large_round_plate", "tinkers_reforged:cast_great_blade", "tinkers_reforged:cast_wire", "tinkers_reforged:cast_tough_handle", "tinkers_reforged:cast_tool_handle", "tinkers_reforged:cast_tool_binding", "tinkers_reforged:cast_small_blade", "tinkers_reforged:cast_small_axe_head", "tinkers_reforged:cast_rod", "tinkers_reforged:cast_repair_kit", "tinkers_reforged:cast_plate", "tinkers_reforged:cast_pick_head", "tinkers_reforged:cast_bowstring", "tinkers_reforged:cast_bow_limb", "tinkers_reforged:cast_round_plate"])
+    e.remove('tconstruct:casts/multi_use/nugget', 'tinkers_reforged:cast_nugget')
+    e.remove('tconstruct:casts/multi_use/large_plate', 'tinkers_reforged:cast_large_plate')
+    e.remove('tconstruct:casts/multi_use/ingot', 'tinkers_reforged:cast_ingot')
+    e.remove('tconstruct:casts/multi_use/hammer_head', 'tinkers_reforged:cast_hammer_head')
+    e.remove('tconstruct:casts/multi_use/gem', 'tinkers_reforged:cast_gem')
+    e.remove('tconstruct:casts/multi_use/gear', 'tinkers_reforged:cast_gear')
+    e.remove('tconstruct:casts/multi_use/coin', 'tinkers_reforged:cast_coin')
+    e.remove('tconstruct:casts/multi_use/broad_blade', 'tinkers_reforged:cast_broad_blade')
+    e.remove('tconstruct:casts/multi_use/broad_axe_head', 'tinkers_reforged:cast_broad_axe_head')
+    e.remove('tconstruct:casts/multi_use/large_round_plate', 'tinkers_reforged:cast_large_round_plate')
+    e.remove('tconstruct:casts/multi_use/great_blade', 'tinkers_reforged:cast_great_blade')
+    e.remove('tconstruct:casts/multi_use/wire', 'tinkers_reforged:cast_wire')
+    e.remove('tconstruct:casts/multi_use/tough_handle', 'tinkers_reforged:cast_tough_handle')
+    e.remove('tconstruct:casts/multi_use/tool_handle', 'tinkers_reforged:cast_tool_handle')
+    e.remove('tconstruct:casts/multi_use/tool_binding', 'tinkers_reforged:cast_tool_binding')
+    e.remove('tconstruct:casts/multi_use/small_blade', 'tinkers_reforged:cast_small_blade')
+    e.remove('tconstruct:casts/multi_use/small_axe_head', 'tinkers_reforged:cast_small_axe_head')
+    e.remove('tconstruct:casts/multi_use/rod', 'tinkers_reforged:cast_rod')
+    e.remove('tconstruct:casts/multi_use/repair_kit', 'tinkers_reforged:cast_repair_kit')
+    e.remove('tconstruct:casts/multi_use/plate', 'tinkers_reforged:cast_plate')
+    e.remove('tconstruct:casts/multi_use/pick_head', 'tinkers_reforged:cast_pick_head')
+    e.remove('tconstruct:casts/multi_use/bowstring', 'tinkers_reforged:cast_bowstring')
+    e.remove('tconstruct:casts/multi_use/bow_limb', 'tinkers_reforged:cast_bow_limb')
+    e.remove('tconstruct:casts/multi_use/round_plate', 'tinkers_reforged:cast_round_plate')
+
+
     //Add Ore for Boon Drops Enchant
     e.add('apotheosis:boon_drops', ['ftbic:iridium_ore', 'forbidden_arcanus:arcane_crystal_ore', 'evilcraft:dark_ore', 'ae2:quartz_ore', 'miniutilities:ender_ore', 'thermal:lead_ore', 'thermal:silver_ore', 'thermal:tin_ore', 'tinkers_reforged:red_beryl_ore', 'tinkers_reforged:aluminum_ore', 'powah:uraninite_ore_poor', 'thermal:apatite_ore', 'thermal:cinnabar_ore', 'thermal:sulfur_ore', 'thermal:niter_ore', 'thermal:nickel_ore'])
 

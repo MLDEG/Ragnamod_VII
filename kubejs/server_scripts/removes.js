@@ -753,6 +753,30 @@ onEvent('recipes', e => {
         'redstone_arsenal:materials/flux_ingot_fire_charge_from_dust',
         'tinkers_reforged:smeltery/melting/coal_block',
         'tinkers_reforged:smeltery/melting/coal/ore_singular',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_nugget',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_large_plate',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_ingot',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_hammer_head',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_gem',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_gear',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_coin',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_broad_blade',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_broad_axe_head',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_large_round_plate',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_great_blade',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_wire',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_tough_handle',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_tool_handle',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_tool_binding',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_small_blade',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_small_axe_head',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_rod',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_repair_kit',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_plate',
+        'tinkers_reforged:smeltery/casts/aluminum_casts/cast_pick_head',
+        'tconstruct:tools/materials/casting/aluminum',
+
+
     ]
     removeId.forEach(C => { r(C) })
 })
