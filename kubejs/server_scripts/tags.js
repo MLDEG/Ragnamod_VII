@@ -266,6 +266,9 @@ onEvent('tags.items', e => {
     //Thermal Dies
     e.add('thermal:crafting/dies', ['thermal:press_rod_die', 'thermal:press_wire_die'])
 
+    //Salad Ingredients
+    e.add('forge:salad_ingredients', 'croptopia:cabbage')
+
     //Apo tag
     e.add('apotheosis:nbt', ['#forge:shields', '#forge:tools', '#forge:armor', 'minecraft:stick', 'reliquary:witch_hat', 'hexerei:witch_helmet', 'hexerei:witch_chestplate', 'hexerei:witch_boots', '#forge:bows', '#forge:crossbows', 'minecraft:trident'])
 
