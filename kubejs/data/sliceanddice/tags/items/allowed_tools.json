@@ -2,6 +2,11 @@
   "replace": true,
   "values": [
     "#forge:tools/knives",
+    "#forge:cobblestone",
+    "#forge:tools/shears",
+    "#forge:tools/axes",
+    "#forge:tools/pickaxes",
+    "#forbidden_arcanus:blacksmith_gavel",
     "occultism:butcher_knife"
   ]
 }
