@@ -1011,6 +1011,7 @@
 			}]
 		}
 		{
+			title: "Draconic Tools/Weapons"
 			x: 7.5d
 			y: 1.0d
 			shape: "square"
@@ -1293,6 +1294,7 @@
 			}]
 		}
 		{
+			title: "Chaotic Tools/Weapons"
 			x: 9.0d
 			y: 1.0d
 			shape: "square"
