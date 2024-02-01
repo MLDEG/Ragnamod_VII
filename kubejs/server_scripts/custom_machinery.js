@@ -1128,7 +1128,7 @@ onEvent('recipes', e => {
         {
           "type": "custommachinery:energy_per_tick",
           "mode": "input",
-          "amount": 250
+          "amount": 10000
         },
         {
           "type": "custommachinery:item",
@@ -1182,7 +1182,7 @@ onEvent('recipes', e => {
         {
           "type": "custommachinery:energy_per_tick",
           "mode": "input",
-          "amount": 250
+          "amount": 5000
         },
         {
           "type": "custommachinery:item",
@@ -1227,7 +1227,7 @@ onEvent('recipes', e => {
         {
           "type": "custommachinery:energy_per_tick",
           "mode": "input",
-          "amount": 250
+          "amount": 5000
         },
         {
           "type": "custommachinery:item",
@@ -1269,5 +1269,45 @@ onEvent('recipes', e => {
   digitalAgonizer('hostilenetworks:end_prediction', 15)
   digitalAgonizer('hostilenetworks:undergarden_prediction', 16)
   digitalAgonizer('hostilenetworks:blueskies_prediction', 17)
+
+  //Machine
+  e.custom({
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": { "item": "bloodmagic:etherealslate" },
+      "B": { "item": "bloodmagic:dawnscribetool" },
+      "C": { "item": "hostilenetworks:machine_frame" },
+      "D": { "item": "bloodmagic:sacrificerune2" },
+      "E": { "type": "forge:nbt", "item": "evilcraft:flesh_rejuvenated", "count": 1, "nbt": "{Fluid:{Amount:10000,FluidName:\"evilcraft:blood\"},capacity:10000}" }
+    },
+    "pattern": [' A ', 'BCB', 'DED'],
+    "result": { "type": "forge:nbt", "item": "custommachinery:custom_machine_item", "count": 1, "nbt": "{machine:\"ragnamod_7:digital_mob_agonizer\"}" }
+  })
+  //Evil Addon
+  e.custom({
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": { "item": "evilcraft:environmental_accumulation_core" },
+      "B": { "item": "bloodmagic:dawnscribetool" },
+      "C": { "item": "hostilenetworks:machine_frame" },
+      "D": { "item": "bloodmagic:sacrificerune2" },
+      "E": { "item": "evilcraft:sanguinary_pedestal_1" }
+    },
+    "pattern": [' A ', 'BCB', 'DED'],
+    "result": { "type": "forge:nbt", "item": "custommachinery:custom_machine_item", "count": 1, "nbt": "{machine:\"ragnamod_7:digital_mob_agonizer_addon_evilcraft\"}" }
+  })
+  //Blood Magic Addon
+  e.custom({
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": { "item": "bloodmagic:weakbloodorb" },
+      "B": { "item": "bloodmagic:dawnscribetool" },
+      "C": { "item": "hostilenetworks:machine_frame" },
+      "D": { "item": "bloodmagic:sacrificerune2" },
+      "E": { "item": "bloodmagic:altar" }
+    },
+    "pattern": [' A ', 'BCB', 'DED'],
+    "result": { "type": "forge:nbt", "item": "custommachinery:custom_machine_item", "count": 1, "nbt": "{machine:\"ragnamod_7:digital_mob_agonizer_addon_bloodmagic\"}" }
+  })
 
 })

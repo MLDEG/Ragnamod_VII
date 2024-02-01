@@ -1,0 +1,42 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "ragnamod_seven:deeply_blood_infused_data_model"
+    },
+    {
+      "item": "bloodmagic:lightritualstone"
+    },
+    {
+      "item": "twilightforest:fiery_tears"
+    },
+    {
+      "item": "evilcraft:condensed_blood"
+    },
+    {
+        "type": "forge:nbt",
+        "item": "evilcraft:flesh_rejuvenated",
+        "count": 1,
+        "nbt": "{Fluid:{Amount:10000,FluidName:\"evilcraft:blood\"},capacity:10000}"
+    },
+    {
+      "item": "evilcraft:condensed_blood"
+    },
+    {
+      "item": "twilightforest:fiery_tears"
+    },
+    {
+      "item": "bloodmagic:lightritualstone"
+    }
+  ],
+  "output": {
+    "item": "ragnamod_seven:blood_data_model"
+  },
+  "liquidOutput": {
+    "fluid": "hexerei:quicksilver_fluid"
+  },
+  "fluidLevelsConsumed": 2000
+}
