@@ -1221,7 +1221,7 @@ onEvent('recipes', e => {
             "ACCABACCA",
             "ACDBBBDCA",
             "BABAEABAB",
-            "AAAEFEAAA",
+            "BBBEFEBBB",
             "BABAEABAB",
             "ACDBBBDCA",
             "ACCABACCA",
