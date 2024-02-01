@@ -1366,6 +1366,7 @@
 						creative: 1b
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "5254A0FED1069D4B"
