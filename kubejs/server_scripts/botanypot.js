@@ -21,6 +21,9 @@ onEvent('recipes', e => {
     //Nipa Botany Pot
     e.custom({ "type": "botanypots:crop", "seed": { "item": "forbidden_arcanus:nipa" }, "categories": ["dirt"], "growthTicks": 600, "display": { "type": "botanypots:aging", "block": "forbidden_arcanus:nipa" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_crystal_dust_speck" }, "minRolls": 1, "maxRolls": 1 }] })
 
+    //Seeds of Doubt
+    e.custom({ "type": "botanypots:crop", "seed": { "item": "bloodmagic:growing_doubt" }, "categories": ["dirt"], "growthTicks": 800, "display": { "type": "botanypots:aging", "block": "bloodmagic:creeping_doubt" }, "drops": [{ "chance": 0.20, "output": { "item": "bloodmagic:growing_doubt" }, "minRolls": 1, "maxRolls": 1 }] })
+
     //Otherworld Sappling
     e.custom({ "type": "botanypots:crop", "seed": { "item": "occultism:otherworld_sapling" }, "categories": ["dirt"], "growthTicks": 2400, "display": { "block": "occultism:otherworld_sapling" }, "drops": [{ "chance": 1.00, "output": { "item": "occultism:otherworld_log" }, "minRolls": 2, "maxRolls": 4 }, { "chance": 0.15, "output": { "item": "occultism:otherworld_sapling" } }] })
 
@@ -48,6 +51,9 @@ onEvent('recipes', e => {
 
     //Nipa Botany Pot Tiers
     e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "forbidden_arcanus:nipa" }, "categories": ["dirt"], "growthTicks": 600, "display": { "type": "botanypotstiers:aging", "block": "forbidden_arcanus:nipa" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_crystal_dust_speck" }, "minRolls": 1, "maxRolls": 1 }] })
+
+    //Seeds of Doubt
+    e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "bloodmagic:growing_doubt" }, "categories": ["dirt"], "growthTicks": 800, "display": { "type": "botanypotstiers:aging", "block": "bloodmagic:creeping_doubt" }, "drops": [{ "chance": 1.0, "output": { "item": "bloodmagic:growing_doubt" }, "minRolls": 1, "maxRolls": 1 }] })
 
     //Otherworld Sappling Pot Tiers
     e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "occultism:otherworld_sapling" }, "categories": ["dirt"], "growthTicks": 2400, "display": { "block": "occultism:otherworld_sapling" }, "drops": [{ "chance": 1.00, "output": { "item": "occultism:otherworld_log" }, "minRolls": 2, "maxRolls": 4 }, { "chance": 0.15, "output": { "item": "occultism:otherworld_sapling" } }] })
