@@ -586,8 +586,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.5d
+			x: 4.0d
+			y: -3.0d
 			shape: "square"
 			description: ["The Divine Sigil is used to see, by right-clicking in the air, your amount of LP in your LP Network."]
 			dependencies: [
@@ -1082,8 +1082,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -2.5d
+			x: 6.0d
+			y: 1.0d
 			shape: "square"
 			description: ["The Charging Rune add an internal buffer that you can see with a Seer's Sigil."]
 			hide_dependency_lines: true
@@ -1105,7 +1105,7 @@
 		}
 		{
 			x: 7.0d
-			y: -0.5d
+			y: 4.5d
 			shape: "square"
 			description: ["The Rune of Displacement increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate."]
 			hide_dependency_lines: true
@@ -1240,8 +1240,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -1.5d
+			x: 6.0d
+			y: 4.0d
 			shape: "square"
 			description: ["The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by an additive 10%."]
 			hide_dependency_lines: true
@@ -1349,7 +1349,7 @@
 		}
 		{
 			title: "Large Bloodstone Brick"
-			x: 4.5d
+			x: 3.0d
 			y: 3.5d
 			shape: "square"
 			description: [
@@ -1423,8 +1423,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
+			x: 3.0d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"The Arcane Ashes is used to create the Alchemy Array, which is needed for the new way to create the sigils of Blood Magic."
@@ -1639,8 +1639,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.5d
+			x: 5.5d
+			y: -3.5d
 			shape: "square"
 			description: ["The Demonic Will Aura Gauge can show you the will, of all five types, in the chunk."]
 			dependencies: [
@@ -1661,8 +1661,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.5d
+			x: 5.0d
+			y: 4.0d
 			shape: "square"
 			description: [
 				"To obtain Raw Demonite you need to go to the Endless Realm using the ritual \"Pathway to the Endless Realm\"."
@@ -1746,8 +1746,8 @@
 					machine: "ragnamod_7:will_factory"
 				}
 			}
-			x: 5.0d
-			y: -3.75d
+			x: 7.0d
+			y: -2.5d
 			shape: "gear"
 			description: [
 				"The Will Factory allows you to quickly farm Will Crystals."
@@ -1961,6 +1961,73 @@
 				type: "item"
 				item: "bloodmagic:hellforgedparts"
 				random_bonus: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "square"
+			description: ["You can obtain Demonite Graveil using your Alchemical Reaction Chamber with a Resonator and a Demonite Fragment, previously obtain using the same machine but with an Explosive Cell instead."]
+			dependencies: [
+				"0000000000000345"
+				"7C51CC7CD794A537"
+			]
+			id: "1A9C96695F1FFB2F"
+			tasks: [{
+				id: "5C7ABD8501E4856B"
+				type: "item"
+				item: "bloodmagic:demonitegravel"
+			}]
+			rewards: [{
+				id: "71E9126C5D9BB4AF"
+				type: "item"
+				item: "bloodmagic:demonitegravel"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"Seeds of Doubt is obtained by right-clicking a Saturated Tau crop with a Demonite Gravel."
+				""
+				"You can grow this seed in a Botany Pot."
+			]
+			dependencies: [
+				"27C687E12598FC84"
+				"1A9C96695F1FFB2F"
+			]
+			id: "74931205C793F9C9"
+			tasks: [{
+				id: "4E1BFDCD5057E98A"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+			}]
+			rewards: [{
+				id: "58EC0A6FA2F79A28"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "square"
+			description: ["Use a Mechanical Press, from Create, to squeeze Doubt Seeds to obtain Bucket of Doubt."]
+			dependencies: ["74931205C793F9C9"]
+			id: "6CC1D3343CB4A3C9"
+			tasks: [{
+				id: "1C5DE39854468990"
+				type: "item"
+				item: "bloodmagic:doubt_bucket"
+			}]
+			rewards: [{
+				id: "14D2DE6309B3DE76"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+				random_bonus: 7
 			}]
 		}
 	]
