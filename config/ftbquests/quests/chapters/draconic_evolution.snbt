@@ -32,7 +32,7 @@
 		}
 	}
 	subtitle: ["DRAKONIK"]
-	default_quest_shape: "hexagon"
+	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
 	images: [{
 		x: 14.0d
@@ -687,8 +687,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.0d
+			x: 4.5d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"The Mob Grinder is used to kill mob with a powerful filter, you can choose what you want to kill, Hostile, Tames, Adults, etc..."
@@ -1917,9 +1917,8 @@
 			shape: "hexagon"
 			description: ["The Module Core is the base of every Module for your Draconic Evolution Stuff."]
 			dependencies: [
-				"57921DC357097515"
-				"7B2F1149E89E2AC0"
 				"170B797FE3905864"
+				"7B2F1149E89E2AC0"
 			]
 			size: 2.0d
 			id: "55866EF2FF2B1401"
@@ -1941,7 +1940,11 @@
 			x: 9.0d
 			y: -1.0d
 			shape: "square"
-			description: ["You need to defeat the Chaos Guardian, located in every 10k distance, to be able to grab the Chaotic Shards inside the Chaotic Island."]
+			description: [
+				"You need to defeat the Chaos Guardian, located in every 10k distance, to be able to grab the Chaotic Shards inside the Chaotic Island."
+				""
+				"Or, you can a bunch of craft Tiny Chaos Fragments with a lot of chemical and doubt."
+			]
 			dependencies: ["170B797FE3905864"]
 			id: "410C369B33532099"
 			tasks: [{
@@ -2165,6 +2168,181 @@
 				id: "2ACB405565B5271E"
 				type: "item"
 				item: "draconicevolution:awakened_core"
+			}]
+		}
+		{
+			title: "Finally, Tiny Chaos Fragment "
+			x: 9.0d
+			y: -2.0d
+			shape: "octagon"
+			description: [
+				"Finally, you can now craft Tiny Chaos Fragment using your Chaos Liquid in an Atomizer."
+				""
+				"Get a Tiny Chaos Fragment with a whole bucket of Chaos Liquid."
+				""
+				"Yes, it's tedious, yes, it's take some time, but it can be automated :)"
+			]
+			dependencies: [
+				"3A7AECF245A3B1F4"
+				"069D90EBEB0B162C"
+				"170B797FE3905864"
+			]
+			id: "70B1B1141017594E"
+			tasks: [{
+				id: "0D118650B09FAB90"
+				type: "item"
+				item: "draconicevolution:small_chaos_frag"
+			}]
+			rewards: [{
+				id: "4C42CF76459697CF"
+				type: "item"
+				item: "create_confectionery:chocolate_candy"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			shape: "square"
+			description: [
+				"Use a Liquifier to liquify your Chaos Dust into Liquid."
+				""
+				"You obtain 10mb per Dust."
+			]
+			dependencies: [
+				"42CCA5EE0F64A180"
+				"3EE092F1BD79D9DE"
+				"170B797FE3905864"
+			]
+			id: "3A7AECF245A3B1F4"
+			tasks: [{
+				id: "56B9FF1CAE20E21B"
+				type: "item"
+				item: "kubejs:chaos_liquid_bucket"
+			}]
+			rewards: [{
+				id: "3295C3416C2548B6"
+				type: "item"
+				item: "kubejs:chaos_liquid_bucket"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			shape: "square"
+			description: [
+				"Now the fun part..."
+				""
+				"Put your Unpredictable Dust in an Antiprotonic Nucleosynthesizer and create, with Antimatter, Chaos Dust !"
+			]
+			dependencies: [
+				"3679FD75005A6B10"
+				"00000000000008E2"
+				"170B797FE3905864"
+			]
+			id: "42CCA5EE0F64A180"
+			tasks: [{
+				id: "6AEA687389FC609F"
+				type: "item"
+				item: "ragnamod_seven:chaos_dust"
+			}]
+			rewards: [{
+				id: "5BD68E3F74D3E9FE"
+				type: "item"
+				item: "ragnamod_seven:chaos_dust"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			shape: "square"
+			description: ["If you add Awakened Draconium Dust and Krypton Gas with your 3 Mixtures, you can create an Unpredictable Dust."]
+			dependencies: [
+				"46DD7FE9A8543A90"
+				"09992FCA78E23BD7"
+				"5A11347F667E92BC"
+				"170B797FE3905864"
+			]
+			id: "3679FD75005A6B10"
+			tasks: [{
+				id: "5C4CBF95204B53D6"
+				type: "item"
+				item: "ragnamod_seven:unpredictable_dust"
+			}]
+			rewards: [{
+				id: "4B1201677B7D0610"
+				type: "item"
+				item: "chemlib:krypton"
+				count: 32
+				random_bonus: 32
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			shape: "diamond"
+			description: ["Mixing a Scrap, Rutherfordium, Seaborgium and some Doubt Fluid, you can obtain this Questionable Mixture."]
+			dependencies: [
+				"170B797FE3905864"
+				"4A91A399AB4FF14A"
+				"2679CD44BACAE873"
+				"6CC1D3343CB4A3C9"
+			]
+			id: "5A11347F667E92BC"
+			tasks: [{
+				id: "769036FBBF837569"
+				type: "item"
+				item: "ragnamod_seven:questionable_mixture"
+			}]
+			rewards: [{
+				id: "5F41E9EF3EA7E8EE"
+				type: "item"
+				item: "ragnamod_seven:questionable_mixture"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["Mixing a Scrap, Nihonium, Tennessine and some Doubt Fluid, you can obtain this Strange Mixture."]
+			dependencies: [
+				"170B797FE3905864"
+				"4A1F2E655567CC8A"
+				"3898D4B7003B8D08"
+				"6CC1D3343CB4A3C9"
+			]
+			id: "46DD7FE9A8543A90"
+			tasks: [{
+				id: "750E27D71085E190"
+				type: "item"
+				item: "ragnamod_seven:strange_mixture"
+			}]
+			rewards: [{
+				id: "02CA6487D46B3F19"
+				type: "item"
+				item: "ragnamod_seven:strange_mixture"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["Mixing a Scrap, Meitnerium, Flerovium and some Doubt Fluid, you can obtain this Sickening Mixture."]
+			dependencies: [
+				"170B797FE3905864"
+				"2DE6C89263C46D11"
+				"412E78B911A93D9D"
+				"6CC1D3343CB4A3C9"
+			]
+			id: "09992FCA78E23BD7"
+			tasks: [{
+				id: "21153655271D967C"
+				type: "item"
+				item: "ragnamod_seven:sickening_mixture"
+			}]
+			rewards: [{
+				id: "6E1DB68FEE81A2E9"
+				type: "item"
+				item: "ragnamod_seven:sickening_mixture"
 			}]
 		}
 	]
