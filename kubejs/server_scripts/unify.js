@@ -137,6 +137,7 @@ onEvent('recipes', function (e) {
     crusherMeka('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherMeka('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherMeka('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
+    crusherMeka('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust', 1);
     crusherMeka('minecraft:ender_pearl', 'ae2:ender_dust', 1);
     crusherMeka('thermal:sulfur', 'thermal:sulfur_dust', 1);
     crusherMeka('chemlib:platinum_ingot', 'chemlib:platinum_dust', 1);
@@ -179,6 +180,7 @@ onEvent('recipes', function (e) {
     crusherOccu('minecraft:basalt', 'infernalexp:basalt_cobbled', 1, true);
     crusherOccu('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1, true);
     crusherOccu('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1, true);
+    crusherOccu('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust', 1, true);
     crusherOccu('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust', 1, true);
     crusherOccu('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust', 1, true);
     crusherOccu('tinkers_reforged:wavy_ingot', 'tinkers_reforged:wavy_dust', 1, true);
@@ -229,6 +231,7 @@ onEvent('recipes', function (e) {
     crusherThermal('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherThermal('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherThermal('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
+    crusherThermal('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust', 1);
     crusherThermal('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust', 1);
     crusherThermal('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust', 1);
     crusherThermal('tinkers_reforged:wavy_ingot', 'tinkers_reforged:wavy_dust', 1);
@@ -270,6 +273,7 @@ onEvent('recipes', function (e) {
     crusherFTB('occultism:iesnium_ingot', 1, 'occultism:iesnium_dust', 1);
     crusherFTB('evilcraft:dark_gem', 1, 'evilcraft:dark_gem_crushed', 1);
     crusherFTB('draconicevolution:draconium_ingot', 1, 'draconicevolution:draconium_dust', 1);
+    crusherFTB('draconicevolution:awakened_draconium_ingot', 1, 'draconicevolution:awakened_draconium_dust', 1);
     crusherFTB('tinkers_reforged:crusteel_ingot', 1, 'tinkers_reforged:crusteel_dust', 1);
     crusherFTB('tinkers_reforged:yokel_ingot', 1, 'tinkers_reforged:yokel_dust', 1);
     crusherFTB('tinkers_reforged:wavy_ingot', 1, 'tinkers_reforged:wavy_dust', 1);
@@ -323,6 +327,7 @@ onEvent('recipes', function (e) {
     crusherCreate('occultism:iesnium_ingot', 'occultism:iesnium_dust');
     crusherCreate('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
     crusherCreate('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust');
+    crusherCreate('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust');
     crusherCreate('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust');
     crusherCreate('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust');
     crusherCreate('tinkers_reforged:wavy_ingot', 'tinkers_reforged:wavy_dust');
@@ -382,6 +387,7 @@ onEvent('recipes', function (e) {
     crusherIE('occultism:iesnium_ingot', 'occultism:iesnium_dust');
     crusherIE('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
     crusherIE('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust');
+    crusherIE('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust');
     crusherIE('tinkers_reforged:crusteel_ingot', 'tinkers_reforged:crusteel_dust');
     crusherIE('tinkers_reforged:yokel_ingot', 'tinkers_reforged:yokel_dust');
     crusherIE('tinkers_reforged:wavy_ingot', 'tinkers_reforged:wavy_dust');
@@ -427,7 +433,6 @@ onEvent('recipes', function (e) {
     crusherIETag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherIETag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust');
     crusherIETag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
-
     // crusherIdynamics(input, output)
     /**********************Rodes*************************/
     ['#forge:rods/gold', 'immersiveposts:stick_gold', 'createaddition:gold_rod'].forEach(I => { replaceIO(I, 'ftbic:gold_rod') });
@@ -677,6 +682,4 @@ onEvent('recipes', function (e) {
     squeezer('forge:crops', 'immersiveengineering:plantoil', 50)
     thermo_planttag('forge:seeds', 'pneumaticcraft:vegetable_oil', 120)
     thermo_planttag('forge:crops', 'pneumaticcraft:vegetable_oil', 70)
-
-
 })

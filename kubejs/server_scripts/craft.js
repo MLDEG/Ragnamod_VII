@@ -92,6 +92,8 @@ onEvent('recipes', e => {
   e.smelting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
   //Soul Stone
   e.blasting('infernalexp:soul_stone', 'minecraft:soul_sand')
+  //Awakening Draconium
+  e.smelting('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust')
   /***************************Horsmen Stuff***************************/
   /***************************Death***************************/
   e.shapeless('9x ragnamod_seven:death_nugget', 'ragnamod_seven:death_ingot')
