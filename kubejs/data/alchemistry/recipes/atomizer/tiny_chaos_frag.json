@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:atomizer",
+  "group": "alchemistry:atomizer",
+  "input": {
+    "fluid": "kubejs:chaos_liquid",
+    "amount": "1000"
+  },
+  "result": {
+    "item": "draconicevolution:small_chaos_frag",
+    "count": 1
+  }
+}
