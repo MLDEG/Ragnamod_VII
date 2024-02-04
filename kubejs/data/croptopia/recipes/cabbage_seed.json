@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cabbage"
+    }
+  ],
+  "result": {
+    "item": "croptopia:cabbage_seed"
+  }
+}

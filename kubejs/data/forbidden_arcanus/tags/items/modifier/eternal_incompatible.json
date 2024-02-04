@@ -18,6 +18,7 @@
     "ftbic:component_heat_exchanger",
     "ftbic:reactor_heat_exchanger",
     "ftbic:advanced_heat_exchanger",
-    "ftbic:heat_exchanger"
+    "ftbic:heat_exchanger",
+    "immersiveengineering:graphite_electrode"
   ]
 }

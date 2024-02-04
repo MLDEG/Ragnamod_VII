@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "mythicbotany:asgard_rune"
+  },
+  "output": {
+    "item": "bloodmagic:dawnscribetool"
+  },
+  "upgradeLevel": 4,
+  "altarSyphon": 50000,
+  "consumptionRate": 20,
+  "drainRate": 20
+}

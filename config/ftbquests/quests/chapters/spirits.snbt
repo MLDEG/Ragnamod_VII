@@ -72,7 +72,7 @@
 			description: [
 				"The Crude Soul Crystal work the same as the Soul Crystal Shard."
 				""
-				"It's basically an updrage and with it, you can gather 256 Souls."
+				"It's basically an upgrade and with it, you can gather 256 Souls."
 			]
 			dependencies: [
 				"2740BEE716A25BEE"

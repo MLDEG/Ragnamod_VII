@@ -257,7 +257,7 @@ onEvent('recipes', e => {
   //PSI STabilizer Block
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:psi_stabilizer"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'psi:lit_black_psimetal_plate', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //PSI Stabilizer
-  function psiStab(item) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:psi_stabilizer", "time": 10, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item_transform", "input": item, "output": item, "slot": "inout" }, { "type": "custommachinery:item", "mode": "output", "item": item, "amount": 1, "slot": "output" }, { "type": "custommachinery:structure", "pattern": [["m"], ["A"], ["B"], ["C"]], "keys": { "A": "psi:cad_assembler", "B": "ragnamod_seven:psi_stabilizer", "C": "psi:psigem_block", } }] }) }
+  function psiStab(item) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:psi_stabilizer", "time": 10, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item", "mode": "input", "slot": "inout", "item": item, "amount": 1, "chance": 0 }, { "type": "custommachinery:item", "mode": "output", "item": item, "amount": 1, "slot": "output" }, { "type": "custommachinery:structure", "pattern": [["m"], ["A"], ["B"], ["C"]], "keys": { "A": "psi:cad_assembler", "B": "ragnamod_seven:psi_stabilizer", "C": "psi:psigem_block", } }] }) }
   psiStab("psi:psidust")
   psiStab("psi:psimetal")
   psiStab("psi:psigem")
@@ -1102,10 +1102,212 @@ onEvent('recipes', e => {
       }
     ]
   })
-
   advEphae("chickens:chicken_skin", "reliquary:phoenix_down", "twilightforest:borer_essence", "create_sa:heap_of_experience", "gemsnjewels:spinel", "ars_nouveau:manipulation_essence", "botania:spark", "chickens:chicken_shell", 10, 10, 0)
   advEphae('hostilenetworks:machine_frame', 'hostilenetworks:overworld_prediction', 'hostilenetworks:nether_prediction', 'hostilenetworks:end_prediction', 'hostilenetworks:twilight_prediction', 'hostilenetworks:blueskies_prediction', 'hostilenetworks:undergarden_prediction', 'alchemistry:machine_frame', 10, 10, 10)
   advEphae('miniutilities:stable_ingot', 'cataclysm:ignitium_ingot', 'ragnamod_seven:shub_niggurath_ingot', 'ragnamod_seven:sculk_ingot', 'ragnamod_seven:chemical_draconium_ingot', 'cataclysm:enderite_ingot', 'cataclysm:witherite_ingot', 'ragnamod_seven:condensed_ingot', 10, 10, 10)
   advEphae('forbidden_arcanus:arcane_crystal_block', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:blaze_powder', 'minecraft:coal', 'minecraft:coal', 'forbidden_arcanus:smelter_prism', 0, 10, 5)
+
+  //Auto Salvaging Table
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:auto_salvaging_table"}'), ['AAA', 'BCD', 'EFE'], { A: 'more_immersive_wires:ftbic_energy_alloy', B: 'byg:pendorite_pickaxe', C: 'apotheosis:salvaging_table', D: 'byg:pendorite_axe', E: 'apotheosis:gem_dust', F: 'minecraft:lava_bucket' })
+  function autoSalvage(affix) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:auto_salvaging_table", "time": 1, "requirements": [{ "type": "custommachinery:item", "mode": "input", "item": "#apotheosis:nbt", "nbt": "{affix_data:{rarity:\"" + affix + "\"}}", "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1, "chance": 0.5 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1, "chance": 0.4 }, { "type": "custommachinery:item", "mode": "output", "item": "apotheosis:" + affix + "_material", "amount": 1, "chance": 0.4 }], "hidden": true }) }
+  autoSalvage("common")
+  autoSalvage("uncommon")
+  autoSalvage("rare")
+  autoSalvage("epic")
+  autoSalvage("mythic")
+
+  //Digital Mob Agonizer
+  function digitalAgonizer(catalyst, amount) {
+    //Both
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:digital_mob_agonizer",
+      "time": 85,
+      "priority": 3,
+      "requirements": [
+        {
+          "type": "custommachinery:energy_per_tick",
+          "mode": "input",
+          "amount": 10000
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "catalyst",
+          "item": catalyst,
+          "amount": 1
+        },
+        { "type": "custommachinery:item", "mode": "input", "slot": "data", "item": "ragnamod_seven:blood_data_model", "amount": 1, "chance": 0 },
+        {
+          "type": "custommachinery:fluid_per_tick",
+          "mode": "output",
+          "tank": "evilcraft_fluid",
+          "fluid": "evilcraft:blood",
+          "amount": amount
+        },
+        {
+          "type": "custommachinery:fluid_per_tick",
+          "mode": "output",
+          "tank": "bloodmagic_fluid",
+          "fluid": "bloodmagic:life_essence_fluid",
+          "amount": amount
+        },
+        {
+          "type": "custommachinery:block",
+          "mode": "input",
+          "action": "check",
+          "pos": [0, 0, 0, 1, 0, 0],
+          "whitelist": true,
+          "amount": 1,
+          "filter": ["custommachinery:custom_machine_block{machineID:\"ragnamod_7:digital_mob_agonizer_addon_evilcraft\"}"]
+        },
+        {
+          "type": "custommachinery:block",
+          "mode": "input",
+          "action": "check",
+          "pos": [-1, 0, 0, 0, 0, 0],
+          "whitelist": true,
+          "amount": 1,
+          "filter": ["custommachinery:custom_machine_block{machineID:\"ragnamod_7:digital_mob_agonizer_addon_bloodmagic\"}"]
+        }
+      ]
+    })
+    //Evilcraft
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:digital_mob_agonizer",
+      "time": 85,
+      "priority": 2,
+      "requirements": [
+        {
+          "type": "custommachinery:energy_per_tick",
+          "mode": "input",
+          "amount": 5000
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "catalyst",
+          "item": catalyst,
+          "amount": 1
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "data",
+          "item": "ragnamod_seven:blood_data_model",
+          "amount": 1,
+          "chance": 0
+        },
+        {
+          "type": "custommachinery:fluid_per_tick",
+          "mode": "output",
+          "tank": "evilcraft_fluid",
+          "fluid": "evilcraft:blood",
+          "amount": amount
+        },
+        {
+          "type": "custommachinery:block",
+          "mode": "input",
+          "action": "check",
+          "pos": [0, 0, 0, 1, 0, 0],
+          "whitelist": true,
+          "amount": 1,
+          "filter": ["custommachinery:custom_machine_block{machineID:\"ragnamod_7:digital_mob_agonizer_addon_evilcraft\"}"]
+        }
+      ]
+    })
+    //Bloodmagic
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:digital_mob_agonizer",
+      "time": 85,
+      "priority": 1,
+      "requirements": [
+        {
+          "type": "custommachinery:energy_per_tick",
+          "mode": "input",
+          "amount": 5000
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "catalyst",
+          "item": catalyst,
+          "amount": 1
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "slot": "data",
+          "item": "ragnamod_seven:blood_data_model",
+          "amount": 1,
+          "chance": 0
+        },
+        {
+          "type": "custommachinery:fluid_per_tick",
+          "mode": "output",
+          "tank": "bloodmagic_fluid",
+          "fluid": "bloodmagic:life_essence_fluid",
+          "amount": amount
+        },
+        {
+          "type": "custommachinery:block",
+          "mode": "input",
+          "action": "check",
+          "pos": [-1, 0, 0, 0, 0, 0],
+          "whitelist": true,
+          "amount": 1,
+          "filter": ["custommachinery:custom_machine_block{machineID:\"ragnamod_7:digital_mob_agonizer_addon_bloodmagic\"}"]
+        }
+      ]
+    })
+  }
+  digitalAgonizer('hostilenetworks:overworld_prediction', 12)
+  digitalAgonizer('hostilenetworks:nether_prediction', 13)
+  digitalAgonizer('hostilenetworks:twilight_prediction', 14)
+  digitalAgonizer('hostilenetworks:end_prediction', 15)
+  digitalAgonizer('hostilenetworks:undergarden_prediction', 16)
+  digitalAgonizer('hostilenetworks:blueskies_prediction', 17)
+
+  //Machine
+  e.custom({
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": { "item": "bloodmagic:etherealslate" },
+      "B": { "item": "bloodmagic:dawnscribetool" },
+      "C": { "item": "hostilenetworks:machine_frame" },
+      "D": { "item": "bloodmagic:sacrificerune2" },
+      "E": { "type": "forge:nbt", "item": "evilcraft:flesh_rejuvenated", "count": 1, "nbt": "{Fluid:{Amount:10000,FluidName:\"evilcraft:blood\"},capacity:10000}" }
+    },
+    "pattern": [' A ', 'BCB', 'DED'],
+    "result": { "type": "forge:nbt", "item": "custommachinery:custom_machine_item", "count": 1, "nbt": "{machine:\"ragnamod_7:digital_mob_agonizer\"}" }
+  })
+  //Evil Addon
+  e.custom({
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": { "item": "evilcraft:environmental_accumulation_core" },
+      "B": { "item": "bloodmagic:dawnscribetool" },
+      "C": { "item": "hostilenetworks:machine_frame" },
+      "D": { "item": "bloodmagic:sacrificerune2" },
+      "E": { "item": "evilcraft:sanguinary_pedestal_1" }
+    },
+    "pattern": [' A ', 'BCB', 'DED'],
+    "result": { "type": "forge:nbt", "item": "custommachinery:custom_machine_item", "count": 1, "nbt": "{machine:\"ragnamod_7:digital_mob_agonizer_addon_evilcraft\"}" }
+  })
+  //Blood Magic Addon
+  e.custom({
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": { "item": "bloodmagic:weakbloodorb" },
+      "B": { "item": "bloodmagic:dawnscribetool" },
+      "C": { "item": "hostilenetworks:machine_frame" },
+      "D": { "item": "bloodmagic:sacrificerune2" },
+      "E": { "item": "bloodmagic:altar" }
+    },
+    "pattern": [' A ', 'BCB', 'DED'],
+    "result": { "type": "forge:nbt", "item": "custommachinery:custom_machine_item", "count": 1, "nbt": "{machine:\"ragnamod_7:digital_mob_agonizer_addon_bloodmagic\"}" }
+  })
 
 })

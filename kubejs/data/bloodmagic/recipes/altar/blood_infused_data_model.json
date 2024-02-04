@@ -1,0 +1,18 @@
+{
+  "type": "bloodmagic:altar",
+  "input": [
+    {
+    "type": "forge:nbt", "item": "hostilenetworks:data_model", "count": 1, "nbt": "{data_model:{data:4,id:'hostilenetworks:witch'}}" 
+ },
+ {
+  "type": "forge:nbt", "item": "hostilenetworks:data_model", "count": 1, "nbt": "{data_model:{data:4,id:'hostilenetworks:witch',iterations:0}}" 
+}
+],
+  "output": {
+    "item": "ragnamod_seven:blood_infused_data_model"
+  },
+  "upgradeLevel": 4,
+  "altarSyphon": 100000,
+  "consumptionRate": 20,
+  "drainRate": 20
+}

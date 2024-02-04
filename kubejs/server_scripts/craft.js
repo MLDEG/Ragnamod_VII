@@ -92,6 +92,8 @@ onEvent('recipes', e => {
   e.smelting('gemsnjewels:pale_diamond', 'gemsnjewels:pale_diamond_ore_block')
   //Soul Stone
   e.blasting('infernalexp:soul_stone', 'minecraft:soul_sand')
+  //Awakening Draconium
+  e.smelting('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust')
   /***************************Horsmen Stuff***************************/
   /***************************Death***************************/
   e.shapeless('9x ragnamod_seven:death_nugget', 'ragnamod_seven:death_ingot')
@@ -296,6 +298,7 @@ onEvent('recipes', e => {
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:waterritualstone', 'bloodmagic:waterscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:earthritualstone', 'bloodmagic:earthscribetool')
   ritualStone('bloodmagic:ritualstone', 'bloodmagic:duskritualstone', 'bloodmagic:duskscribetool')
+  ritualStone('bloodmagic:ritualstone', 'bloodmagic:lightritualstone', 'bloodmagic:dawnscribetool')
   //Chemical Core
   e.custom({
     "type": "draconicevolution:fusion_crafting",
@@ -631,5 +634,8 @@ onEvent('recipes', e => {
 
   //Solid Nuclear Waste
   e.custom({ "type": "mekanism:reaction", "itemInput": { "ingredient": { "tag": "forge:dusts/fluorite" } }, "fluidInput": { "amount": 1000, "fluid": "chemlib:nitrogen_fluid" }, "gasInput": { "amount": 100, "gas": "mekanism:spent_nuclear_waste" }, "duration": 100, "itemOutput": { "item": "ragnamod_seven:solid_nuclear_waste" } })
+
+  //Remove Ender Tank crafts
+  e.remove({ input: 'enderstorage:ender_tank' })
 
 })

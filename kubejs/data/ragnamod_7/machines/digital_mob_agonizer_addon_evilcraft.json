@@ -1,0 +1,21 @@
+{
+  "name": "EvilCraft Agonizer",
+  "appearance": {
+    "block": "ragnamod_seven:machine/digital_mob_agonizer_addon_evilcraft",
+    "item": "ragnamod_seven:machine/digital_mob_agonizer_addon_evilcraft",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]]
+  },
+  "components": [],
+  "gui": [],
+  "jei": [],
+  "catalysts": []
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Auto Salvaging Table",
+  "appearance": {
+    "block": "ragnamod_seven:machine/auto_salvaging_table",
+    "item": "ragnamod_seven:machine/auto_salvaging_table",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]]
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_apo",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_apo",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/auto_salvaging_table_gui.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 7,
+      "y": 59
+    },
+    {
+      "text": "Auto Salvaging Table",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text",
+      "color": 4144959
+    },
+    {
+      "x": 7,
+      "y": 83,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input_apo",
+      "x": 43,
+      "y": 34,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_apo",
+      "x": 115,
+      "y": 34,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

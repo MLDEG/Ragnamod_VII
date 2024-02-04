@@ -11,4 +11,13 @@ onEvent('recipes', e => {
             { "item": "chickens:smashed_chicken", "count": 1 }
         ]
     })
+
+    //Doubt Fluid
+    e.custom({
+        "type": "create:compacting",
+        "ingredients": [{ "item": "bloodmagic:growing_doubt" }],
+        "results": [
+            { "fluid": "bloodmagic:doubt_fluid", "amount": 10 }
+        ]
+    })
 })

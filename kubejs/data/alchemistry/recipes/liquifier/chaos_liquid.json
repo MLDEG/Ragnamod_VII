@@ -1,0 +1,14 @@
+{
+  "type": "alchemistry:liquifier",
+  "group": "alchemistry:liquifier",
+  "input": {
+    "ingredient": {
+      "item": "ragnamod_seven:chaos_dust"
+    },
+    "count": 1
+  },
+  "result": {
+    "fluid": "kubejs:chaos_liquid",
+    "amount": "10"
+  }
+}

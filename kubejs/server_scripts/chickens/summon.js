@@ -24,6 +24,25 @@ onEvent('recipes', e => {
 
     }
 
+    //Chibee
+    e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:bee", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "minecraft:beehive" }, { "item": "minecraft:bee_nest" }, { "item": "minecraft:beehive" }, { "item": "minecraft:honeycomb_block" }, { "item": "minecraft:beehive" }, { "item": "minecraft:bee_nest" }, { "item": "minecraft:beehive" }], "entityOutput": "chickens:chibee_chicken", "duration": 100, "shouldSummonMob": true })
+    e.custom({
+        "type": "custommachinery:custom_machine",
+        "machine": "ragnamod_7:soul_pedestal",
+        "time": 0,
+        "requirements": [
+            { "type": "custommachinery:item", "mode": "input", "item": "chickens:chicken_shell", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:bee_nest', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:honeycomb_block', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:bee_nest', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "item": 'minecraft:beehive', "amount": 1 },
+            { "type": "custommachinery:item", "mode": "input", "slot": "input9", "item": "chickens:soul_bee", "amount": 1 },
+            { "type": "custommachinery:item", "mode": "output", "item": "chickens:chicken_item", "nbt": "{ChickenType:{id:\"chickens:chibee_chicken\"}}", "amount": 1 }
+        ]
+    })
     //Holy Chicken
     e.custom({ "type": "spirit:soul_transmutation", "entityInput": "minecraft:chicken", "consumesActivator": true, "itemInputs": [{ "item": "chickens:chicken_shell" }, { "item": "croptopia:lemon" }, { "item": "croptopia:coconut" }, { "item": "croptopia:strawberry" }, { "item": "croptopia:grapefruit" }, { "item": "croptopia:kiwi" }, { "item": "croptopia:mango" }, { "item": "croptopia:blueberry" }], "entityOutput": "chickens:holy_chicken", "duration": 100, "shouldSummonMob": true })
     e.custom({
@@ -65,7 +84,7 @@ onEvent('recipes', e => {
 
     summonChicken('tinkers_reforged:duralumin_ingot', 'tinkers_reforged:duralumin_block', 'duralumin')
     summonChicken('tinkers_reforged:qivium_ingot', 'tinkers_reforged:qivium_block', 'qivium')
-    summonChicken('minecraft:dirt', 'minecraft:dirt', 'dirt')
+    summonChicken('minecraft:dirt', 'compressium:dirt_1', 'dirt')
     summonChicken('powah:crystal_spirited', 'powah:spirited_crystal_block', 'spirited_crystal')
     summonChicken('byg:ametrine_gems', 'byg:ametrine_block', 'ametrine')
     summonChicken('thermal:lead_ingot', 'thermal:lead_block', 'lead')
@@ -95,7 +114,7 @@ onEvent('recipes', e => {
     summonChicken('powah:steel_energized', 'powah:energized_steel_block', 'steel_energized')
     summonChicken('minecraft:glowstone_dust', 'minecraft:glowstone', 'glowstone')
     summonChicken('minecraft:quartz', 'minecraft:quartz_block', 'quartz')
-    summonChicken('minecraft:gravel', 'minecraft:gravel', 'gravel')
+    summonChicken('minecraft:gravel', 'compressium:gravel_1', 'gravel')
     summonChicken('powah:crystal_blazing', 'powah:blazing_crystal_block', 'blazing_crystal')
     summonChicken('undergarden:cloggrum_ingot', 'undergarden:cloggrum_block', 'cloggrum')
     summonChicken('tconstruct:hepatizon_ingot', 'tconstruct:hepatizon_block', 'hepatizon')
@@ -112,7 +131,7 @@ onEvent('recipes', e => {
     summonChicken('undergarden:forgotten_ingot', 'undergarden:forgotten_block', 'forgotten')
     summonChicken('tconstruct:rose_gold_ingot', 'tconstruct:rose_gold_block', 'rose_gold')
     summonChicken('thermal:silver_ingot', 'thermal:silver_block', 'silver')
-    summonChicken('minecraft:sand', 'minecraft:sand', 'sand')
+    summonChicken('minecraft:sand', 'compressium:sand_1', 'sand')
     summonChicken('beyond_earth:steel_ingot', 'beyond_earth:steel_block', 'steel')
     summonChicken('pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:compressed_iron_block', 'iron_compressed')
     summonChicken('powah:uraninite', 'powah:uraninite_block', 'uraninite')
@@ -143,7 +162,7 @@ onEvent('recipes', e => {
     summonChicken('blue_skies:falsite_ingot', 'blue_skies:falsite_block', 'falsite')
     summonChicken('thermal:nickel_ingot', 'thermal:nickel_block', 'nickel')
     summonChicken('tinkers_reforged:durasteel_ingot', 'tinkers_reforged:durasteel_block', 'durasteel')
-    summonChicken('minecraft:soul_sand', 'minecraft:soul_sand', 'soulsand')
+    summonChicken('minecraft:soul_sand', 'compressium:soulsand_1', 'soulsand')
     summonChicken('tconstruct:pig_iron_ingot', 'tconstruct:pig_iron_block', 'pig_iron')
     summonChicken('beyond_earth:desh_ingot', 'beyond_earth:desh_block', 'desh')
     summonChicken('tinkers_reforged:aluminum_ingot', 'tinkers_reforged:aluminum_block', 'bauxite')
@@ -152,7 +171,7 @@ onEvent('recipes', e => {
     summonChicken('evilcraft:dark_gem', 'evilcraft:dark_block', 'dark_gem')
     summonChicken('blue_skies:horizonite_ingot', 'blue_skies:horizonite_block', 'horizonite')
     summonChicken('minecraft:copper_ingot', 'minecraft:copper_block', 'copper')
-    summonChicken('minecraft:cobblestone', 'minecraft:cobblestone', 'rocky')
+    summonChicken('minecraft:cobblestone', 'compressium:cobblestone_1', 'rocky')
     summonChicken('forbidden_arcanus:arcane_crystal', 'forbidden_arcanus:arcane_crystal_block', 'arcane_crystal')
     summonChicken('thermal:electrum_ingot', 'thermal:electrum_block', 'electrum')
     summonChicken('minecraft:prismarine_shard', 'minecraft:prismarine', 'pshard')
@@ -207,6 +226,8 @@ onEvent('recipes', e => {
     summonChicken('minecraft:cake', 'minecraft:cake', 'cake')
     summonChicken('minecraft:packed_ice', 'minecraft:blue_ice', 'icy')
     summonChicken('ragnamod_seven:solid_nuclear_waste', 'mekanism:reprocessed_fissile_fragment', 'decay')
+    summonChicken('minecraft:netherrack', 'compressium:netherrack_1', 'netherrack')
+    summonChicken('minecraft:end_stone', 'compressium:endstone_1', 'endstone')
     summonChicken('farmersdelight:egg_sandwich', 'farmersdelight:egg_sandwich', 'therealreivax')
     summonChicken('croptopia:pineapple_pepperoni_pizza', 'croptopia:pineapple_pepperoni_pizza', 'thorak83')
     summonChicken('farmersdelight:melon_juice', 'farmersdelight:melon_juice', 'mrchiro33')

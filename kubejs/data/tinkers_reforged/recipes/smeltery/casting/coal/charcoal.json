@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:casting_basin",
+  "switch_slots": true,
+  "fluid": {
+    "tag": "forge:liquid_coal",
+    "amount": 2250
+  },
+  "result": "minecraft:coal_block",
+  "cooling_time": 120
+}

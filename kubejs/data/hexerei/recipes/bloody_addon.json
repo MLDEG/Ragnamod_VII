@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "ragnamod_seven:deeply_blood_infused_data_model"
+    },
+    {
+      "item": "bloodmagic:weakbloodshard"
+    },
+    {
+      "item": "bloodmagic:weakbloodshard"
+    },
+    {
+      "item": "bloodmagic:weakbloodshard"
+    },
+    {
+      "item": "twilightforest:fiery_blood"
+    },
+    {
+      "item": "evilcraft:condensed_blood"
+    },
+    {
+      "item": "evilcraft:condensed_blood"
+    },
+    {
+      "item": "evilcraft:condensed_blood"
+    }
+  ],
+  "output": {
+    "item": "ragnamod_seven:bloody_addon"
+  },
+  "liquidOutput": {
+    "fluid": "hexerei:quicksilver_fluid"
+  },
+  "fluidLevelsConsumed": 2000
+}

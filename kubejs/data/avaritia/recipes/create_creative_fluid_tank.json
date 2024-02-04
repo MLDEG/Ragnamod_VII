@@ -74,7 +74,7 @@
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_62","item": "create:fluid_tank","amount": 1},
 
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_63","item": "create:fluid_tank","amount": 1},
-      {"type": "custommachinery:item","mode": "input","slot": "ect_input_64","item": "thermal:redstone_bucket","amount": 1},
+      {"type": "custommachinery:item","mode": "input","slot": "ect_input_64","item": "tinkers_reforged:molten_redstone_bucket","amount": 1},
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_65","item": "create_sa:large_filling_tank","amount": 1},
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_66","item": "immersiveengineering:herbicide_bucket","amount": 1},
       {"type": "custommachinery:item","mode": "input","slot": "ect_input_67","item": "integrateddynamics:bucket_liquid_chorus","amount": 1},

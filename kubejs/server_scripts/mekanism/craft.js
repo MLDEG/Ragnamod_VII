@@ -8,4 +8,7 @@ onEvent('recipes', e => {
     "output": { "item": "mekanism:steel_casing" }
   })
 
+  //Chaos Dust
+  e.custom({ "type": "mekanism:nucleosynthesizing", "itemInput": { "ingredient": { "item": "ragnamod_seven:unpredictable_dust" } }, "gasInput": { "amount": 5, "gas": "mekanism:antimatter" }, "output": { "item": "ragnamod_seven:chaos_dust" }, "duration": 1000 })
+
 })

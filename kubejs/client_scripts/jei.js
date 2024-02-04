@@ -400,7 +400,8 @@ onEvent('jei.hide.items', e => {
 		'blue_skies_tcon:charoite_nugget',
 		'blue_skies_tcon:diopside_nugget',
 		'blue_skies_tcon:pyrope_nugget',
-		'blue_skies_tcon:moonstone_nugget'
+		'blue_skies_tcon:moonstone_nugget',
+		'chickens:soul_bee'
 	])
 })
 
@@ -490,7 +491,6 @@ onEvent('item.tooltip', tooltip => {
 	chemLib('gold', 'Au (79)', 'Transition Metals')
 	chemLib('copper', 'Cu (29)', 'Transition Metals')
 	chemLib('sulfur', 'S (16)', 'Reactive Non-Metals')
-	chemLib('cobalt', 'Co (27)', 'Transition Metals')
 
 	tooltip.addAdvanced('chickens:chicken_item', (item, advanced, text) => {
 		if (!item.nbt?.ChickenType?.id.match(/chickens:(red|orange|yellow|lime|green|blue|light_blue|cyan|pink|magenta|purple|brown|black|white|light_gray|gray)_chicken/)) {
@@ -498,22 +498,30 @@ onEvent('item.tooltip', tooltip => {
 		}
 	})
 
+	//Unbreakable
 	tooltip.addAdvanced(Ingredient.all, (item, advanced, text) => {
 		if (item.nbt?.Modifier == 'forbidden_arcanus:eternal')
 			text.add(Component.translate('item.unbreakable').blue())
 	})
 
+	//Draco Compound
 	tooltip.addAdvanced('chemlib:draconium_compound', (item, advanced, text) => {
 		text.add(1, Text.of('§3Rn₂₄Xe₈Og₁₆Lu₃₂'))
 	})
 
+	//Lithium
 	tooltip.addAdvanced('mekanism:dust_lithium', (item, advanced, text) => {
 		text.add(1, Text.of('§3Li (3)'))
 		text.add(2, Text.of('§7Alkali Metals'))
 	})
-
+	//Zinc
 	tooltip.addAdvanced(['create:zinc_ingot', 'create:zinc_nugget', 'createaddition:zinc_sheet'], (item, advanced, text) => {
 		text.add(1, Text.of('§3Zn (30)'))
+		text.add(2, Text.of('§7Transition Metals'))
+	})
+	//Cobalt
+	tooltip.addAdvanced(['tconstruct:cobalt_block', 'tconstruct:cobalt_ingot', 'tconstruct:cobalt_nugget'], (item, advanced, text) => {
+		text.add(1, Text.of('§3Co (27)'))
 		text.add(2, Text.of('§7Transition Metals'))
 	})
 
@@ -529,7 +537,7 @@ onEvent('item.tooltip', tooltip => {
 	})
 	//Dimensional Shard Ore
 	tooltip.addAdvanced(['rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_end'], (item, advanced, text) => {
-		text.add(1, Text.of('§5§oDoesn\'t spawn spawn in world'))
+		text.add(1, Text.of('§5§oDoesn\'t spawn in world'))
 	})
 
 	//Horsmen Essence
@@ -544,6 +552,16 @@ onEvent('item.tooltip', tooltip => {
 	})
 	tooltip.addAdvanced('ragnamod_seven:war_essence', (item, advanced, text) => {
 		text.add(1, Text.of('§5§oDrop when killing War'))
+	})
+
+	//Echo Shard
+	tooltip.addAdvanced('warden_and_sculk:echo_shard', (item, advanced, text) => {
+		text.add(1, Text.of('§5§oLoot in chests from Ancient City'))
+	})
+
+	//Dawn Tool
+	tooltip.addAdvanced('bloodmagic:dawnscribetool', (item, advanced, text) => {
+		text.add(1, Text.of('§7The writing is on the wall...'))
 	})
 
 })

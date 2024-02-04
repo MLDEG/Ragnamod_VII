@@ -164,12 +164,37 @@ onEvent('tags.items', e => {
     e.remove('forge:coal_coke', 'immersiveengineering:coal_coke')
     e.remove('minecraft:coals', 'immersiveengineering:coal_coke')
     e.remove('curios:curio', ['ae2:wireless_crafting_terminal', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2wtlib:wireless_universal_terminal', 'beyond_earth_giselle_addon:oxygen_can'])
-    e.remove('farmersdelight:cabbage_roll_ingredients', 'abnormals_delight:venison_shanks')
-    e.remove('farmersdelight:wolf_prey', 'abnormals_delight:venison_shanks')
-    e.remove('forge:raw_venison', 'abnormals_delight:venison_shanks')
 
     //Remove Ore from Boon Drops Enchant
     e.remove('forge:ores_in_ground/stone', ['mekanism:lead_ore', 'mekanism:tin_ore', 'immersiveengineering:ore_uranium', 'immersiveengineering:ore_nickel', 'immersiveengineering:ore_silver', 'immersiveengineering:ore_lead', 'immersiveengineering:ore_aluminum'])
+
+    //Remove Aluminum Casts
+    e.remove('tinkers_reforged:casts/aluminum', ["tinkers_reforged:cast_nugget", "tinkers_reforged:cast_large_plate", "tinkers_reforged:cast_ingot", "tinkers_reforged:cast_hammer_head", "tinkers_reforged:cast_gem", "tinkers_reforged:cast_gear", "tinkers_reforged:cast_coin", "tinkers_reforged:cast_broad_blade", "tinkers_reforged:cast_broad_axe_head", "tinkers_reforged:cast_large_round_plate", "tinkers_reforged:cast_great_blade", "tinkers_reforged:cast_wire", "tinkers_reforged:cast_tough_handle", "tinkers_reforged:cast_tool_handle", "tinkers_reforged:cast_tool_binding", "tinkers_reforged:cast_small_blade", "tinkers_reforged:cast_small_axe_head", "tinkers_reforged:cast_rod", "tinkers_reforged:cast_repair_kit", "tinkers_reforged:cast_plate", "tinkers_reforged:cast_pick_head", "tinkers_reforged:cast_bowstring", "tinkers_reforged:cast_bow_limb", "tinkers_reforged:cast_round_plate"])
+    e.remove('tconstruct:casts/multi_use/nugget', 'tinkers_reforged:cast_nugget')
+    e.remove('tconstruct:casts/multi_use/large_plate', 'tinkers_reforged:cast_large_plate')
+    e.remove('tconstruct:casts/multi_use/ingot', 'tinkers_reforged:cast_ingot')
+    e.remove('tconstruct:casts/multi_use/hammer_head', 'tinkers_reforged:cast_hammer_head')
+    e.remove('tconstruct:casts/multi_use/gem', 'tinkers_reforged:cast_gem')
+    e.remove('tconstruct:casts/multi_use/gear', 'tinkers_reforged:cast_gear')
+    e.remove('tconstruct:casts/multi_use/coin', 'tinkers_reforged:cast_coin')
+    e.remove('tconstruct:casts/multi_use/broad_blade', 'tinkers_reforged:cast_broad_blade')
+    e.remove('tconstruct:casts/multi_use/broad_axe_head', 'tinkers_reforged:cast_broad_axe_head')
+    e.remove('tconstruct:casts/multi_use/large_round_plate', 'tinkers_reforged:cast_large_round_plate')
+    e.remove('tconstruct:casts/multi_use/great_blade', 'tinkers_reforged:cast_great_blade')
+    e.remove('tconstruct:casts/multi_use/wire', 'tinkers_reforged:cast_wire')
+    e.remove('tconstruct:casts/multi_use/tough_handle', 'tinkers_reforged:cast_tough_handle')
+    e.remove('tconstruct:casts/multi_use/tool_handle', 'tinkers_reforged:cast_tool_handle')
+    e.remove('tconstruct:casts/multi_use/tool_binding', 'tinkers_reforged:cast_tool_binding')
+    e.remove('tconstruct:casts/multi_use/small_blade', 'tinkers_reforged:cast_small_blade')
+    e.remove('tconstruct:casts/multi_use/small_axe_head', 'tinkers_reforged:cast_small_axe_head')
+    e.remove('tconstruct:casts/multi_use/rod', 'tinkers_reforged:cast_rod')
+    e.remove('tconstruct:casts/multi_use/repair_kit', 'tinkers_reforged:cast_repair_kit')
+    e.remove('tconstruct:casts/multi_use/plate', 'tinkers_reforged:cast_plate')
+    e.remove('tconstruct:casts/multi_use/pick_head', 'tinkers_reforged:cast_pick_head')
+    e.remove('tconstruct:casts/multi_use/bowstring', 'tinkers_reforged:cast_bowstring')
+    e.remove('tconstruct:casts/multi_use/bow_limb', 'tinkers_reforged:cast_bow_limb')
+    e.remove('tconstruct:casts/multi_use/round_plate', 'tinkers_reforged:cast_round_plate')
+
 
     //Add Ore for Boon Drops Enchant
     e.add('apotheosis:boon_drops', ['ftbic:iridium_ore', 'forbidden_arcanus:arcane_crystal_ore', 'evilcraft:dark_ore', 'ae2:quartz_ore', 'miniutilities:ender_ore', 'thermal:lead_ore', 'thermal:silver_ore', 'thermal:tin_ore', 'tinkers_reforged:red_beryl_ore', 'tinkers_reforged:aluminum_ore', 'powah:uraninite_ore_poor', 'thermal:apatite_ore', 'thermal:cinnabar_ore', 'thermal:sulfur_ore', 'thermal:niter_ore', 'thermal:nickel_ore'])
@@ -263,6 +288,44 @@ onEvent('tags.items', e => {
     //Raw Materials
     e.add('forge:raw_materials', ['beyond_earth:raw_calorite', 'beyond_earth:raw_ostrum', 'beyond_earth:raw_desh', 'tinkers_reforged:raw_kepu'])
 
+    //Thermal Dies
+    e.add('thermal:crafting/dies', ['thermal:press_rod_die', 'thermal:press_wire_die'])
+
+    //Salad Ingredients
+    e.add('forge:salad_ingredients', 'croptopia:cabbage')
+
+    //Apo tag
+    e.add('apotheosis:nbt', ['#forge:shields', '#forge:tools', '#forge:armor', 'minecraft:stick', 'reliquary:witch_hat', 'hexerei:witch_helmet', 'hexerei:witch_chestplate', 'hexerei:witch_boots', '#forge:bows', '#forge:crossbows', 'minecraft:trident'])
+
+    //tag Crushed Create
+    function crushedTag(metal) {
+        e.add('forge:crushed/' + metal, 'create:crushed_raw_' + metal)
+    }
+    crushedTag('iron')
+    crushedTag('gold')
+    crushedTag('copper')
+    crushedTag('zinc')
+    crushedTag('osmium')
+    crushedTag('silver')
+    crushedTag('tin')
+    crushedTag('lead')
+    crushedTag('aluminum')
+    crushedTag('nickel')
+    crushedTag('uranium')
+
+    //Botany pots tag
+    var botanycolor = ["red", "orange", "yellow", "lime", "green", "blue", "light_blue", "cyan", "pink", "magenta", "purple", "brown", "black", "white", "light_gray", "gray"]
+    function botanyPotsBasic(botanycolor) {
+        e.add('botanypots:basic_hopper_botany_pot', ['botanypots:' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypots:' + botanycolor + '_concrete_hopper_botany_pot', 'botanypots:' + botanycolor + '_terracotta_hopper_botany_pot']);
+        e.add('botanypotstiers:elite_hopper_botany_pot', ['botanypotstiers:elite_' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypotstiers:elite_' + botanycolor + '_concrete_hopper_botany_pot', 'botanypotstiers:elite_' + botanycolor + '_terracotta_hopper_botany_pot']);
+        e.add('botanypotstiers:ultra_hopper_botany_pot', ['botanypotstiers:ultra_' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypotstiers:ultra_' + botanycolor + '_concrete_hopper_botany_pot', 'botanypotstiers:ultra_' + botanycolor + '_terracotta_hopper_botany_pot']);
+        e.add('botanypotstiers:creative_hopper_botany_pot', ['botanypotstiers:creative_' + botanycolor + '_glazed_terracotta_hopper_botany_pot', 'botanypotstiers:creative_' + botanycolor + '_concrete_hopper_botany_pot', 'botanypotstiers:creative_' + botanycolor + '_terracotta_hopper_botany_pot'])
+    }
+    botanycolor.forEach(C => { botanyPotsBasic(C) })
+    e.add('botanypots:basic_hopper_botany_pot', 'botanypots:terracotta_hopper_botany_pot')
+    e.add('botanypotstiers:elite_hopper_botany_pot', 'botanypotstiers:elite_terracotta_hopper_botany_pot')
+    e.add('botanypotstiers:ultra_hopper_botany_pot', 'botanypotstiers:ultra_terracotta_hopper_botany_pot')
+    e.add('botanypotstiers:creative_hopper_botany_pot', 'botanypotstiers:creative_terracotta_hopper_botany_pot')
 })
 onEvent('tags.blocks', e => {
 
@@ -278,7 +341,7 @@ onEvent('tags.blocks', e => {
     e.add('blue_skies:logs', ['blue_skies:stripped_dusk_wood', 'blue_skies:maple_wood', 'blue_skies:stripped_maple_wood', 'blue_skies:cherry_wood', 'blue_skies:stripped_cherry_wood', 'blue_skies:bluebright_log', 'blue_skies:stripped_bluebright_log', 'blue_skies:starlit_log', 'blue_skies:stripped_starlit_log', 'blue_skies:frostbright_log', 'blue_skies:stripped_frostbright_log', 'blue_skies:lunar_log', 'blue_skies:stripped_lunar_log', 'blue_skies:dusk_log', 'blue_skies:stripped_dusk_log', 'blue_skies:maple_log', 'blue_skies:stripped_maple_log', 'blue_skies:cherry_log', 'blue_skies:stripped_cherry_log', 'blue_skies:bluebright_wood', 'blue_skies:stripped_bluebright_wood', 'blue_skies:starlit_wood', 'blue_skies:stripped_starlit_wood', 'blue_skies:frostbright_wood', 'blue_skies:stripped_frostbright_wood', 'blue_skies:lunar_wood', 'blue_skies:stripped_lunar_wood', 'blue_skies:dusk_wood'])
 
     //Fix Mineable
-    function mineablePickaxe(pickaxe) { e.add(pickaxe, ['chickenchunks:chunk_loader', 'chickenchunks:spot_loader', 'naturesaura:conversion_catalyst', 'naturesaura:animal_spawner', 'naturesaura:crushing_catalyst', 'naturesaura:tainted_gold_block', 'naturesaura:item_distributor', 'naturesaura:moss_generator', 'naturesaura:hopper_upgrade', 'naturesaura:gold_nether_brick', 'naturesaura:time_changer', 'compactcrafting:field_projector', 'compactcrafting:match_proxy', 'compactcrafting:rescan_proxy', 'evilcraft:environmental_accumulator', 'naturesaura:nature_altar', 'naturesaura:infused_stairs', 'naturesaura:spring', 'naturesaura:infused_iron_block', 'naturesaura:chunk_loader', 'naturesaura:aura_detector', 'naturesaura:pickup_stopper', 'naturesaura:potion_generator', 'naturesaura:firework_generator', 'naturesaura:chorus_generator', 'naturesaura:snow_creator', 'naturesaura:infused_stone', 'naturesaura:nether_grass', 'naturesaura:weather_changer', 'naturesaura:infused_brick', 'naturesaura:blast_furnace_booster', 'naturesaura:aura_timer', 'naturesaura:infused_slab', 'naturesaura:field_creator', 'naturesaura:grated_chute', 'naturesaura:gold_brick', 'naturesaura:powder_placer', 'naturesaura:furnace_heater', 'naturesaura:spawn_lamp', 'naturesaura:rf_converter', 'naturesaura:placer', 'naturesaura:generator_limit_remover', 'naturesaura:projectile_generator', 'naturesaura:animal_generator', 'naturesaura:ender_crate', 'psi:white_psimetal_plate', 'psi:lit_white_psimetal_plate', 'psi:ebony_psimetal_block', 'psi:psimetal_block', 'psi:psigem_block', 'psi:black_psimetal_plate', 'psi:lit_black_psimetal_plate', 'psi:ivory_psimetal_block', 'miniutilities:white_lapis_caelestis', 'miniutilities:light_gray_lapis_caelestis', 'miniutilities:gray_lapis_caelestis', 'miniutilities:black_lapis_caelestis', 'miniutilities:red_lapis_caelestis', 'miniutilities:orange_lapis_caelestis', 'miniutilities:yellow_lapis_caelestis', 'miniutilities:lime_lapis_caelestis', 'miniutilities:green_lapis_caelestis', 'miniutilities:light_blue_lapis_caelestis', 'miniutilities:cyan_lapis_caelestis', 'miniutilities:blue_lapis_caelestis', 'miniutilities:purple_lapis_caelestis', 'miniutilities:magenta_lapis_caelestis', 'miniutilities:pink_lapis_caelestis', 'miniutilities:brown_lapis_caelestis', 'clickmachine:auto_clicker', 'psi:programmer', 'psi:cad_assembler', 'integratednbt:nbt_extractor', 'tinkers_reforged:kepu_ore']) }
+    function mineablePickaxe(pickaxe) { e.add(pickaxe, ['chickenchunks:chunk_loader', 'chickenchunks:spot_loader', 'naturesaura:conversion_catalyst', 'naturesaura:animal_spawner', 'naturesaura:crushing_catalyst', 'naturesaura:tainted_gold_block', 'naturesaura:item_distributor', 'naturesaura:moss_generator', 'naturesaura:hopper_upgrade', 'naturesaura:gold_nether_brick', 'naturesaura:time_changer', 'compactcrafting:field_projector', 'compactcrafting:match_proxy', 'compactcrafting:rescan_proxy', 'evilcraft:environmental_accumulator', 'naturesaura:nature_altar', 'naturesaura:infused_stairs', 'naturesaura:spring', 'naturesaura:infused_iron_block', 'naturesaura:chunk_loader', 'naturesaura:aura_detector', 'naturesaura:pickup_stopper', 'naturesaura:potion_generator', 'naturesaura:firework_generator', 'naturesaura:chorus_generator', 'naturesaura:snow_creator', 'naturesaura:infused_stone', 'naturesaura:nether_grass', 'naturesaura:weather_changer', 'naturesaura:infused_brick', 'naturesaura:blast_furnace_booster', 'naturesaura:aura_timer', 'naturesaura:infused_slab', 'naturesaura:field_creator', 'naturesaura:grated_chute', 'naturesaura:gold_brick', 'naturesaura:powder_placer', 'naturesaura:furnace_heater', 'naturesaura:spawn_lamp', 'naturesaura:rf_converter', 'naturesaura:placer', 'naturesaura:generator_limit_remover', 'naturesaura:projectile_generator', 'naturesaura:animal_generator', 'naturesaura:ender_crate', 'psi:white_psimetal_plate', 'psi:lit_white_psimetal_plate', 'psi:ebony_psimetal_block', 'psi:psimetal_block', 'psi:psigem_block', 'psi:black_psimetal_plate', 'psi:lit_black_psimetal_plate', 'psi:ivory_psimetal_block', 'miniutilities:white_lapis_caelestis', 'miniutilities:light_gray_lapis_caelestis', 'miniutilities:gray_lapis_caelestis', 'miniutilities:black_lapis_caelestis', 'miniutilities:red_lapis_caelestis', 'miniutilities:orange_lapis_caelestis', 'miniutilities:yellow_lapis_caelestis', 'miniutilities:lime_lapis_caelestis', 'miniutilities:green_lapis_caelestis', 'miniutilities:light_blue_lapis_caelestis', 'miniutilities:cyan_lapis_caelestis', 'miniutilities:blue_lapis_caelestis', 'miniutilities:purple_lapis_caelestis', 'miniutilities:magenta_lapis_caelestis', 'miniutilities:pink_lapis_caelestis', 'miniutilities:brown_lapis_caelestis', 'clickmachine:auto_clicker', 'psi:programmer', 'psi:cad_assembler', 'integratednbt:nbt_extractor', 'tinkers_reforged:kepu_ore', 'wormhole:creative_energy_cell']) }
     var pickaxe = ['minecraft:mineable/pickaxe', 'avaritia:mineable/infinity_pickaxe', 'tconstruct:mineable/pickadze', 'immersiveengineering:mineable/drill']
     pickaxe.forEach(P => { mineablePickaxe(P) })
     function mineableAxe(axe) { e.add(axe, ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs', 'naturesaura:wood_stand', 'naturesaura:offering_table']) }

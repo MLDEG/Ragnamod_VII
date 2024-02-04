@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 2.0d
+			x: 0.0d
 			y: -2.5d
 			shape: "square"
 			description: ["The Petty Tartaric Gem is a storage for Demonic Will up to an amount of 64."]
@@ -41,7 +41,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -0.5d
 			y: -3.5d
 			shape: "square"
 			description: ["The Lesser Tartaric Gem is a storage for Demonic will up to an amount of 256."]
@@ -72,8 +72,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
+			x: 0.0d
+			y: -4.5d
 			shape: "square"
 			description: ["The Common Tartaric Gem is a storage for Demonic Will up to an amount of 1024."]
 			dependencies: [
@@ -103,8 +103,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -4.0d
+			x: 1.0d
+			y: -4.5d
 			shape: "square"
 			description: ["The Greater Tartaric Gemm is a storage for Demonic Will up to an amount of 4096."]
 			dependencies: [
@@ -135,7 +135,7 @@
 		}
 		{
 			x: -1.5d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			description: ["The Weak Blood Orb is made with a Blood Orb."]
 			dependencies: [
@@ -156,8 +156,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
+			x: -2.0d
+			y: 1.5d
 			shape: "square"
 			description: ["The Apprentice Blood Orb is made with an Elven Quartz."]
 			dependencies: [
@@ -177,8 +177,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: -2.5d
+			y: 2.5d
 			shape: "square"
 			description: ["The Magician Blood Orb is made with an Ingot of the Skies."]
 			dependencies: [
@@ -198,8 +198,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.5d
+			x: -2.0d
+			y: 3.5d
 			shape: "square"
 			description: ["The Master Blood Orb is made with a Garmonbozia."]
 			dependencies: [
@@ -220,8 +220,8 @@
 		}
 		{
 			title: "Living Armor"
-			x: 5.0d
-			y: -2.0d
+			x: 2.0d
+			y: -2.5d
 			shape: "square"
 			description: ["The Living Armor is created by placing Arcane Ashes on a solid block, placing a Binding Reagent on the ashes, and then placing an Iron Piece on top of it."]
 			dependencies: [
@@ -287,8 +287,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: -0.5d
 			shape: "square"
 			description: ["The Blank Slate is made with Metamorphic Stone, which you can get with the Marimorphosis flower from Botania."]
 			dependencies: [
@@ -310,8 +310,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: 2.5d
+			y: -0.5d
 			shape: "square"
 			description: ["You need a Tier 2 Altar and 2000 LP to transmute a Blank Slate into a Reinforced Slate."]
 			dependencies: [
@@ -332,8 +332,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: 3.5d
+			y: -0.5d
 			shape: "square"
 			description: ["You need a Tier 3 Altar and 5000 LP to transmute a Reinforced Slate into a Imbued Slate."]
 			dependencies: [
@@ -354,8 +354,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 4.5d
+			y: -0.5d
 			shape: "square"
 			description: ["You need a Tier 4 Altar and 15000 LP to transmute a Imbued Slate into a Demonic Slate."]
 			dependencies: [
@@ -376,8 +376,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
+			x: 0.5d
+			y: 3.5d
 			shape: "square"
 			description: ["Make an Inscription Tool : Air by using a Rune of Air."]
 			dependencies: [
@@ -403,8 +403,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.5d
+			x: 0.5d
+			y: 2.5d
 			shape: "square"
 			description: ["Make an Inscription Tool : Fire by using a Rune of Fire."]
 			dependencies: [
@@ -430,8 +430,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.5d
 			shape: "square"
 			description: ["Make an Inscription Tool : Water by using a Rune of Water."]
 			dependencies: [
@@ -457,8 +457,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -0.5d
+			y: 3.5d
 			shape: "square"
 			description: ["Make an Inscription Tool : Earth by using a Rune of Earth."]
 			dependencies: [
@@ -485,7 +485,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 4.5d
 			shape: "square"
 			description: ["Make an Inscription Tool : Dusk by using a Rune of Mana."]
 			dependencies: [
@@ -511,7 +511,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -0.5d
 			y: -1.5d
 			shape: "square"
 			description: [
@@ -538,8 +538,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 0.5d
+			y: 1.5d
 			shape: "square"
 			description: ["The Sacrificial Dagger is used as a self-sacrifice method, allowing the user to convert their health points into usable Life Essence."]
 			dependencies: [
@@ -565,8 +565,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: -0.5d
+			y: 1.5d
 			shape: "square"
 			description: ["The Dagger of Sacrifice is used to sacrifice creatures for Life Essence."]
 			dependencies: [
@@ -586,8 +586,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -1.0d
+			x: 4.0d
+			y: -3.0d
 			shape: "square"
 			description: ["The Divine Sigil is used to see, by right-clicking in the air, your amount of LP in your LP Network."]
 			dependencies: [
@@ -607,8 +607,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: 1.5d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"The Ritual Diviner build for you the Ritual you choose."
@@ -638,7 +638,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 3.0d
 			y: 4.5d
 			shape: "square"
 			description: [
@@ -665,8 +665,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
+			x: 5.5d
+			y: -1.5d
 			shape: "square"
 			description: ["The Demon Crystallizer is used for growing Will Crystals Clusters by draining the chunk's Aura, created in a Demon Crucible."]
 			dependencies: [
@@ -687,8 +687,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 3.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"Right clicking with a Tartaric Gem or Demonic Will Crystal will insert it into the Demon Crucible and transfer the will of the source into aura stored inside the chunk."
@@ -720,8 +720,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 0.5d
+			y: -1.5d
 			shape: "square"
 			description: ["The Hellfire Forge is needed to craft recipes requiring Will, which requires Demonic Will or a Tartaric Gem."]
 			dependencies: [
@@ -749,15 +749,15 @@
 		}
 		{
 			x: 1.0d
-			y: -2.5d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"The Sentient Sword is used to collect Raw Will."
 				"This Raw Will is automatically added to the top left most Raw Will Tartaric Gem in your inventory."
 			]
 			dependencies: [
-				"0000000000000337"
 				"1BEEC705CE150D00"
+				"00000000000002FE"
 			]
 			id: "0000000000000339"
 			tasks: [{
@@ -785,8 +785,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			x: 1.5d
+			y: -1.5d
 			shape: "square"
 			description: ["The Binding Reagent is used with Arcane Ashes to get a Living Armor and Bound stuff !"]
 			dependencies: [
@@ -807,8 +807,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 4.0d
+			y: 0.5d
 			shape: "square"
 			description: ["The Alchemical Reaction Chamber is used to craft some stuff using Sanguine augments."]
 			dependencies: [
@@ -829,8 +829,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 3.5d
+			y: 1.5d
 			shape: "square"
 			description: ["The Sanguine Reverter is used to reverse crafts."]
 			dependencies: [
@@ -857,26 +857,44 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.0d
+			title: "Primitive Cells"
+			x: 5.0d
+			y: 0.5d
 			shape: "square"
-			description: ["The Primitive Fuel Cell is used to act like a furnace."]
+			description: [
+				"The Primitive Fuel Cell is used to act like a furnace."
+				""
+				"The Primitive Hydration Cell is used to rehydrate stuff."
+			]
 			dependencies: [
 				"000000000000033D"
 				"1BEEC705CE150D00"
 			]
 			id: "0000000000000341"
-			tasks: [{
-				id: "0000000000000342"
-				type: "item"
-				item: {
-					id: "bloodmagic:furnacecell_primitive"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0000000000000342"
+					type: "item"
+					item: {
+						id: "bloodmagic:furnacecell_primitive"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "635CDBB36545C466"
+					type: "item"
+					item: {
+						id: "bloodmagic:primitive_hydration_cell"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "60DC093AAB50C267"
 				type: "item"
@@ -885,36 +903,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
-			shape: "square"
-			description: ["The Primitive Hydration Cell is used to rehydrate stuff."]
-			dependencies: [
-				"000000000000033D"
-				"1BEEC705CE150D00"
-			]
-			id: "0000000000000343"
-			tasks: [{
-				id: "0000000000000344"
-				type: "item"
-				item: {
-					id: "bloodmagic:primitive_hydration_cell"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "2A4E9BB041CA7537"
-				type: "item"
-				item: "bloodmagic:blankslate"
-				random_bonus: 3
-			}]
-		}
-		{
-			x: 5.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 			shape: "square"
 			description: ["The Primitive Resonator is used to get Tiny Corrupted Dust."]
 			dependencies: [
@@ -947,8 +937,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: -1.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"The Incense Altar is used to gain a bonus to the LP gained when self sacrificing."
@@ -976,8 +966,8 @@
 		}
 		{
 			title: "Wooden Path"
-			x: -1.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"This Wooden Path is required for increasing the Tranquility of the Incense Altar, it gives you 60% blood by stabbing you."
@@ -1035,8 +1025,8 @@
 		}
 		{
 			title: "Stone Path"
-			x: -1.0d
-			y: -3.0d
+			x: -2.5d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"This Stone Path is required for increasing the Tranquility of the Incense Altar, it gives you 120% blood by stabbing you."
@@ -1068,13 +1058,13 @@
 		}
 		{
 			title: "Blank Rune"
-			x: 7.0d
-			y: 0.0d
+			x: 2.0d
+			y: 0.5d
 			shape: "square"
 			description: ["The Blank Rune is used in upgrading the tier of the Blood Altar and crafting other runes."]
 			dependencies: [
-				"000000000000036B"
 				"1BEEC705CE150D00"
+				"0000000000000313"
 			]
 			id: "000000000000034F"
 			tasks: [{
@@ -1092,10 +1082,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
+			x: 6.0d
+			y: 1.0d
 			shape: "square"
 			description: ["The Charging Rune add an internal buffer that you can see with a Seer's Sigil."]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1113,10 +1104,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 1.0d
+			x: 7.0d
+			y: 4.5d
 			shape: "square"
 			description: ["The Rune of Displacement increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate."]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1134,8 +1126,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 6.0d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"The Rune of Acceleration decreases the number of processing ticks for displacement and charging rune."
@@ -1158,13 +1150,14 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.5d
+			x: 7.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"The Rune of Capacity adds an additional 2,000 LP storage potential to the Blood Altar."
 				"This also increases the tank's internal buffer as it is always 10% of the altar's capacity."
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1182,8 +1175,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 1.0d
+			x: 7.0d
+			y: 3.5d
 			shape: "square"
 			description: ["The Rune of Augmented Capacity adds 10% extra LP. Each 10% bonus is multiplied on top of the current capacity (not including the Rune of Capacity bonuses, which are added afterwards). "]
 			dependencies: [
@@ -1203,10 +1196,11 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.0d
 			y: 1.5d
 			shape: "square"
 			description: ["The Rune of the Orb adds an additional 2% capacity per rune to blood orb storage potentia."]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1224,10 +1218,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -0.5d
+			x: 6.0d
+			y: 2.0d
 			shape: "square"
 			description: ["The Speed Rune does what its name implies, and provides an additive 20% increase to the processing speed of the Blood Altar."]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1245,10 +1240,11 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 4.0d
 			shape: "square"
 			description: ["The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by an additive 10%."]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1266,10 +1262,11 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -1.5d
+			x: 7.0d
+			y: 0.5d
 			shape: "square"
 			description: ["The Rune of Sacrifice will increase the total amount of LP gained by sacrificing mobs with a Dagger of Sacrifice by an additive 10%."]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1289,7 +1286,7 @@
 		{
 			title: "Ritual Stone"
 			x: 3.0d
-			y: 1.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"The Ritual Stone is used to create various rituals."
@@ -1317,7 +1314,7 @@
 		}
 		{
 			x: 2.5d
-			y: 2.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"The Master Ritual Stone is used in the creation of rituals."
@@ -1353,7 +1350,7 @@
 		{
 			title: "Large Bloodstone Brick"
 			x: 3.0d
-			y: 4.0d
+			y: 3.5d
 			shape: "square"
 			description: [
 				"Craft some Large Bloodstone Brick."
@@ -1379,8 +1376,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: -2.5d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"The Alchemy Table is used to make some vials."
@@ -1405,7 +1402,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: ["The Blood Altar is used to transmute various items using Life Essence (LP)."]
 			dependencies: [
 				"00000000000003F7"
@@ -1426,8 +1423,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.0d
+			x: 3.0d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"The Arcane Ashes is used to create the Alchemy Array, which is needed for the new way to create the sigils of Blood Magic."
@@ -1465,8 +1462,8 @@
 		}
 		{
 			title: "Worn Stone Path"
-			x: -1.0d
-			y: -4.0d
+			x: -2.0d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"This Worn Stone Path is required for increasing the Tranquility of the Incense Altar, it gives you 200% blood by stabbing you."
@@ -1490,8 +1487,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 5.5d
+			y: -0.5d
 			shape: "square"
 			description: ["You need a Tier 5 Altar and 30000 LP to transmute a Demonic Slate into a Ethereal Slate."]
 			dependencies: [
@@ -1512,8 +1509,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 			shape: "square"
 			description: ["To obtain a Weak Blood Shard, you need to put your Saturated Tau in the Alchemical Reaction Chamber with the Sanguine Reverter."]
 			dependencies: [
@@ -1535,8 +1532,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"To obtain The Tau Fruit, you need to go in the Blood Magic Dungeons using your ritual \"Edge of the Hidden Realm\""
@@ -1570,8 +1567,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.5d
+			x: -1.5d
+			y: 4.5d
 			shape: "square"
 			description: ["The Archemage's Blood Orb is made with a Hellforged Block."]
 			dependencies: [
@@ -1591,8 +1588,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -3.0d
+			x: 5.5d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"To obtain all other types of crystals, you will have to perform several rituals."
@@ -1642,8 +1639,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: 5.5d
+			y: -3.5d
 			shape: "square"
 			description: ["The Demonic Will Aura Gauge can show you the will, of all five types, in the chunk."]
 			dependencies: [
@@ -1664,7 +1661,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 5.0d
 			y: 4.0d
 			shape: "square"
 			description: [
@@ -1690,10 +1687,14 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 4.0d
+			x: 3.0d
+			y: 5.5d
 			shape: "square"
-			description: ["The Intricate Hellforged Parts is found in the Endless Realm, and it's used to double the power of a Rune."]
+			description: [
+				"The Intricate Hellforged Parts is found in the Endless Realm, found in mines, and it's used to double the power of a Rune."
+				""
+				"You need to find a Foreman's Key to access the Mines."
+			]
 			dependencies: [
 				"0000000000000331"
 				"1BEEC705CE150D00"
@@ -1713,7 +1714,7 @@
 		}
 		{
 			title: "Obsidian Path"
-			x: 0.0d
+			x: -1.5d
 			y: -4.5d
 			shape: "square"
 			description: [
@@ -1745,9 +1746,9 @@
 					machine: "ragnamod_7:will_factory"
 				}
 			}
-			x: 4.5d
-			y: -3.0d
-			shape: "square"
+			x: 7.0d
+			y: -2.5d
+			shape: "gear"
 			description: [
 				"The Will Factory allows you to quickly farm Will Crystals."
 				"{image:ftbquests:textures/quests/custom_will_factory.png width:150 height:100 align:1}"
@@ -1761,6 +1762,7 @@
 				"0221387E12A17F19"
 				"1BEEC705CE150D00"
 			]
+			size: 1.5d
 			id: "76FA8F00F4C5CE80"
 			tasks: [
 				{
@@ -1865,6 +1867,168 @@
 					count: 64
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			shape: "square"
+			description: ["Make an Inscription Tool : Dawn by using a Rune of Asgard."]
+			dependencies: ["000000000000036B"]
+			id: "5A6CAD3207D7F9DD"
+			tasks: [{
+				id: "115B7CF55AD0ABB2"
+				type: "item"
+				item: {
+					id: "bloodmagic:dawnscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "514C789B2B218223"
+				type: "item"
+				item: "mythicbotany:asgard_rune"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			description: ["The Blood Magic Agonizer is a simple block that must be placed next to the Digital Mob Agonizer to allow you to farm Life Essence."]
+			dependencies: [
+				"748A0BE73FBB3E85"
+				"5A6CAD3207D7F9DD"
+			]
+			size: 1.5d
+			id: "12FF3F82C76165F0"
+			tasks: [{
+				id: "233E73D8BF3A079D"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:digital_mob_agonizer_addon_bloodmagic"
+					}
+				}
+			}]
+			rewards: [{
+				id: "77A36821688602D4"
+				type: "item"
+				item: {
+					id: "bloodmagic:dawnscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "gear"
+			description: [
+				"The Digital Mob Agonizer is used to farm blood from Blood Magic (Life Essence) and EvilCraft (Blood) without entities."
+				""
+				"You need to put a Blood Magic Agonizer or an EvilCraft Agonizer to tell your machine what kind of blood you want to farm (you can farm both at the same time)."
+				"{image:ftbquests:textures/quests/digital_mob_agonizer_quest.png width:150 height:100 align:1}"
+				"You need nonetheless a Blood Data Model and some Generalized Prediction to produce blood, and you can also updrage your machine with addons (Speed (x8) and Bloody(x4))."
+				""
+				"Inspired by \"Deep Mob Learning - Blood Magic Addon\""
+			]
+			dependencies: [
+				"748A0BE73FBB3E85"
+				"5A6CAD3207D7F9DD"
+			]
+			size: 1.5d
+			id: "24C5AE98D119B7FE"
+			tasks: [{
+				id: "5C2AB862E8DA394C"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:digital_mob_agonizer"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B6A09B746F74567"
+				type: "item"
+				item: "bloodmagic:hellforgedparts"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "square"
+			description: ["You can obtain Demonite Graveil using your Alchemical Reaction Chamber with a Resonator and a Demonite Fragment, previously obtain using the same machine but with an Explosive Cell instead."]
+			dependencies: [
+				"0000000000000345"
+				"7C51CC7CD794A537"
+			]
+			id: "1A9C96695F1FFB2F"
+			tasks: [{
+				id: "5C7ABD8501E4856B"
+				type: "item"
+				item: "bloodmagic:demonitegravel"
+			}]
+			rewards: [{
+				id: "71E9126C5D9BB4AF"
+				type: "item"
+				item: "bloodmagic:demonitegravel"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"Seeds of Doubt is obtained by right-clicking a Saturated Tau crop with a Demonite Gravel."
+				""
+				"You can grow this seed in a Botany Pot."
+			]
+			dependencies: [
+				"27C687E12598FC84"
+				"1A9C96695F1FFB2F"
+			]
+			id: "74931205C793F9C9"
+			tasks: [{
+				id: "4E1BFDCD5057E98A"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+			}]
+			rewards: [{
+				id: "58EC0A6FA2F79A28"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "square"
+			description: ["Use a Mechanical Press, from Create, to squeeze Doubt Seeds to obtain Bucket of Doubt."]
+			dependencies: ["74931205C793F9C9"]
+			id: "6CC1D3343CB4A3C9"
+			tasks: [{
+				id: "1C5DE39854468990"
+				type: "item"
+				item: "bloodmagic:doubt_bucket"
+			}]
+			rewards: [{
+				id: "14D2DE6309B3DE76"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+				random_bonus: 7
+			}]
 		}
 	]
 	quest_links: [ ]

@@ -1,0 +1,18 @@
+{
+    "item": "ragnamod_seven:bloody_addon",
+    "machines": ["ragnamod_7:digital_mob_agonizer"],
+    "max": 4,
+    "modifiers": [
+        {
+	    "requirement": "custommachinery:fluid_per_tick",
+	    "mode": "output",
+        "tank": "evilcraft_fluid",
+	    "operation": "addition",
+	    "modifier": 10,
+        "tooltip": {
+            "text": "Add 10mb/t in each tank",
+            "color": "#47c0ff"
+        }
+	}
+    ]
+}
