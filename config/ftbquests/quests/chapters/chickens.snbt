@@ -5671,6 +5671,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "2F44D055484F2027"
@@ -5697,6 +5698,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "1054448AE8EEE968"
