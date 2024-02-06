@@ -130,6 +130,13 @@ onEvent('recipes', e => {
   dissolver('forge:gears/iron', 100.0, 'chemlib:iron', 64)
   dissolver('forge:rods/iron', 100.0, 'chemlib:iron', 8)
 
+  //Zinc
+  dissolver('forge:plates/zinc', 100.0, 'chemlib:zinc', 16)
+  dissolver('forge:ingots/zinc', 100.0, 'chemlib:zinc', 16)
+  dissolver('forge:raw_materials/zinc', 100.0, 'chemlib:zinc', 16)
+  dissolver('forge:nuggets/zinc', 100.0, 'chemlib:zinc', 1)
+  dissolverBlock('create:raw_zinc_block', 100.0, 'chemlib:zinc', 64, 16)
+
   //Gold
   dissolver('forge:gears/gold', 100.0, 'chemlib:gold', 64)
   dissolver('forge:crushed/gold', 100.0, 'chemlib:gold', 16)
