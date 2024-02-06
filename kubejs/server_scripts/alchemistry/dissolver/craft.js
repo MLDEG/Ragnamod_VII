@@ -136,6 +136,7 @@ onEvent('recipes', e => {
   dissolver('forge:raw_materials/zinc', 100.0, 'chemlib:zinc', 16)
   dissolver('forge:nuggets/zinc', 100.0, 'chemlib:zinc', 1)
   dissolverBlock('create:raw_zinc_block', 100.0, 'chemlib:zinc', 64, 16)
+  dissolver('forge:crushed/zinc', 100.0, 'chemlib:zinc', 16)
 
   //Gold
   dissolver('forge:gears/gold', 100.0, 'chemlib:gold', 64)
@@ -165,8 +166,16 @@ onEvent('recipes', e => {
   dissolverBlock('chemlib:cobalt_metal_block', 100.0, 'chemlib:cobalt', 64, 16)
   dissolverBlock('tconstruct:raw_cobalt_block', 100.0, 'chemlib:cobalt', 64, 16)
 
-  //Zinc
-  dissolver('forge:crushed/zinc', 100.0, 'chemlib:zinc', 16)
+  //Other
+  dissolver('forge:pellets/plutonium', 100.0, 'chemlib:plutonium', 16)
+  dissolver('forge:pellets/polonium', 100.0, 'chemlib:polonium', 16)
+  //Salt
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "mekanism:reprocessed_fissile_fragment" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:sodium_chloride", "count": 64 }, { "item": "chemlib:sodium_chloride", "count": 16 }, { "item": "chemlib:plutonium", "count": 16 }] }] } })
+  //Salt
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "mekanism:salt" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:sodium_chloride", "count": 4 }] }] } })
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "croptopia:salt" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:sodium_chloride", "count": 4 }] }] } })
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "mekanism:block_salt" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:sodium_chloride", "count": 16 }] }] } })
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "croptopia:salt_ore" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:sodium_chloride", "count": 32 }] }] } })
 
   //Netherite
   //gear
