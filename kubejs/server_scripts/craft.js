@@ -635,7 +635,4 @@ onEvent('recipes', e => {
   //Solid Nuclear Waste
   e.custom({ "type": "mekanism:reaction", "itemInput": { "ingredient": { "tag": "forge:dusts/fluorite" } }, "fluidInput": { "amount": 1000, "fluid": "chemlib:nitrogen_fluid" }, "gasInput": { "amount": 100, "gas": "mekanism:spent_nuclear_waste" }, "duration": 100, "itemOutput": { "item": "ragnamod_seven:solid_nuclear_waste" } })
 
-  //Remove Ender Tank crafts
-  e.remove({ input: 'enderstorage:ender_tank' })
-
 })
