@@ -228,6 +228,26 @@ onEvent('recipes', e => {
   //gear
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:gears/enderium" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead", "count": 4 }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite", "count": 4 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 8 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 8 }] }] } })
 
+  //Electrum
+  //ingot
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:ingots/electrum" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver" }] }] } })
+  //rod
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:rods/electrum" }, "count": 1 }, "output": { "rolls": 8, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver" }] }] } })
+  //wire
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:wires/electrum" }, "count": 1 }, "output": { "rolls": 8, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver" }] }] } })
+  //nugget
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:nuggets/electrum" }, "count": 1 }, "output": { "rolls": 1, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver" }] }] } })
+  //coin
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/electrum" }, "count": 1 }, "output": { "rolls": 3, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver" }] }] } })
+  //plate
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:plates/electrum" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver" }] }] } })
+  //block
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/electrum" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold", "count": 9 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver", "count": 9 }] }] } })
+  //gear
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:gears/electrum" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold", "count": 4 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver", "count": 4 }] }] } })
+  //dust
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:dusts/electrum" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:gold" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:silver" }] }] } })
+
   //Other
   dissolver('forge:pellets/plutonium', 100.0, 'chemlib:plutonium', 16)
   dissolver('forge:pellets/polonium', 100.0, 'chemlib:polonium', 16)
