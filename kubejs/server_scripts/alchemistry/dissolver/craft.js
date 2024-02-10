@@ -158,6 +158,7 @@ onEvent('recipes', e => {
   dissolver('forge:dusts/copper', 100.0, 'chemlib:copper', 16)
   dissolver('forge:rods/copper', 100.0, 'chemlib:copper', 8)
   dissolver('forge:coins/copper', 100.0, 'chemlib:lead', 3)
+  dissolver('forge:nuggets/copper', 100.0, 'chemlib:copper', 1)
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "ftbic:dense_copper_plate" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:copper", "count": 64 }, { "item": "chemlib:copper", "count": 64 }] }] } })
 
   //Sulfur
@@ -207,6 +208,25 @@ onEvent('recipes', e => {
   //block
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/bronze" }, "count": 1 }, "output": { "rolls": 16, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper", "count": 9 }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin", "count": 9 }] }] } })
 
+  //Enderium
+  //ingot
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:ingots/enderium" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead" }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 2 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 2 }] }] } })
+  //rod
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:rods/enderium" }, "count": 1 }, "output": { "rolls": 8, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead" }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 2 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 2 }] }] } })
+  //wire
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:wires/enderium" }, "count": 1 }, "output": { "rolls": 8, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead" }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 2 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 2 }] }] } })
+  //dust
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:dusts/enderium" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead" }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 2 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 2 }] }] } })
+  //nugget
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:nuggets/enderium" }, "count": 1 }, "output": { "rolls": 1, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead" }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 2 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 2 }] }] } })
+  //coin
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/enderium" }, "count": 1 }, "output": { "rolls": 3, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead" }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 2 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 2 }] }] } })
+  //plate
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:plates/enderium" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead" }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 2 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 2 }] }] } })
+  //block
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/enderium" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead", "count": 9 }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite", "count": 9 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 18 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 18 }] }] } })
+  //gear
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:gears/enderium" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 6.0, "results": [{ "item": "chemlib:lead", "count": 4 }] }, { "probability": 2.0, "results": [{ "item": "chemlib:graphite", "count": 4 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:mercury", "count": 8 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:neodymium", "count": 8 }] }] } })
 
   //Other
   dissolver('forge:pellets/plutonium', 100.0, 'chemlib:plutonium', 16)

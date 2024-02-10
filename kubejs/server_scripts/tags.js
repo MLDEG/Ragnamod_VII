@@ -195,7 +195,6 @@ onEvent('tags.items', e => {
     e.remove('tconstruct:casts/multi_use/bow_limb', 'tinkers_reforged:cast_bow_limb')
     e.remove('tconstruct:casts/multi_use/round_plate', 'tinkers_reforged:cast_round_plate')
 
-
     //Add Ore for Boon Drops Enchant
     e.add('apotheosis:boon_drops', ['ftbic:iridium_ore', 'forbidden_arcanus:arcane_crystal_ore', 'evilcraft:dark_ore', 'ae2:quartz_ore', 'miniutilities:ender_ore', 'thermal:lead_ore', 'thermal:silver_ore', 'thermal:tin_ore', 'tinkers_reforged:red_beryl_ore', 'tinkers_reforged:aluminum_ore', 'powah:uraninite_ore_poor', 'thermal:apatite_ore', 'thermal:cinnabar_ore', 'thermal:sulfur_ore', 'thermal:niter_ore', 'thermal:nickel_ore'])
 
@@ -290,6 +289,9 @@ onEvent('tags.items', e => {
 
     //Thermal Dies
     e.add('thermal:crafting/dies', ['thermal:press_rod_die', 'thermal:press_wire_die'])
+
+    //Enderium Wire
+    e.add('forge:wires/enderium', 'ftbic:enderium_wire')
 
     //Salad Ingredients
     e.add('forge:salad_ingredients', 'croptopia:cabbage')
