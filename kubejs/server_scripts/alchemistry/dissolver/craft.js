@@ -13,6 +13,7 @@ onEvent('recipes', e => {
   dissolver('forge:rods/lead', 100.0, 'chemlib:lead', 8)
   dissolver('forge:wires/lead', 100.0, 'chemlib:lead', 8)
   dissolver('forge:nuggets/lead', 100.0, 'chemlib:lead', 1)
+  dissolver('forge:coins/lead', 100.0, 'chemlib:lead', 3)
   dissolverBlock('thermal:lead_block', 100.0, 'chemlib:lead', 64, 16)
   dissolverBlock('thermal:raw_lead_block', 100.0, 'chemlib:lead', 64, 16)
   dissolverBlock('mekanism:block_raw_lead', 100.0, 'chemlib:lead', 64, 16)
@@ -30,6 +31,7 @@ onEvent('recipes', e => {
   dissolver('forge:dusts/silver', 100.0, 'chemlib:silver', 16)
   dissolver('forge:rods/silver', 100.0, 'chemlib:silver', 8)
   dissolver('forge:nuggets/silver', 100.0, 'chemlib:silver', 1)
+  dissolver('forge:coins/silver', 100.0, 'chemlib:lead', 3)
   dissolverBlock('thermal:silver_block', 100.0, 'chemlib:silver', 64, 16)
   dissolverBlock('thermal:raw_silver_block', 100.0, 'chemlib:silver', 64, 16)
   dissolverBlock('occultism:silver_block', 100.0, 'chemlib:silver', 64, 16)
@@ -58,6 +60,7 @@ onEvent('recipes', e => {
   dissolver('forge:dusts/nickel', 100.0, 'chemlib:nickel', 16)
   dissolver('forge:rods/nickel', 100.0, 'chemlib:nickel', 8)
   dissolver('forge:nuggets/nickel', 100.0, 'chemlib:nickel', 1)
+  dissolver('forge:coins/nickel', 100.0, 'chemlib:lead', 3)
   dissolverBlock('chemlib:nickel_metal_block', 100.0, 'chemlib:nickel', 64, 16)
   dissolverBlock('immersiveengineering:raw_block_nickel', 100.0, 'chemlib:nickel', 64, 16)
   dissolverBlock('immersiveengineering:storage_nickel', 100.0, 'chemlib:nickel', 64, 16)
@@ -98,6 +101,7 @@ onEvent('recipes', e => {
   dissolver('forge:dusts/tin', 100.0, 'chemlib:tin', 16)
   dissolver('forge:rods/tin', 100.0, 'chemlib:tin', 8)
   dissolver('forge:nuggets/tin', 100.0, 'chemlib:tin', 1)
+  dissolver('forge:coins/tin', 100.0, 'chemlib:tin', 3)
   dissolverBlock('ftbic:tin_block', 100.0, 'chemlib:tin', 64, 16)
   dissolverBlock('mekanism:block_raw_tin', 100.0, 'chemlib:tin', 64, 16)
   dissolverBlock('mekanism:block_tin', 100.0, 'chemlib:tin', 64, 16)
@@ -144,6 +148,7 @@ onEvent('recipes', e => {
   dissolver('forge:plates/gold', 100.0, 'chemlib:gold', 16)
   dissolver('forge:dusts/gold', 100.0, 'chemlib:gold', 16)
   dissolver('forge:rods/gold', 100.0, 'chemlib:gold', 8)
+  dissolver('forge:coins/gold', 100.0, 'chemlib:lead', 3)
 
   //Copper
   dissolver('forge:gears/copper', 100.0, 'chemlib:copper', 64)
@@ -152,6 +157,7 @@ onEvent('recipes', e => {
   dissolver('forge:plates/copper', 100.0, 'chemlib:copper', 16)
   dissolver('forge:dusts/copper', 100.0, 'chemlib:copper', 16)
   dissolver('forge:rods/copper', 100.0, 'chemlib:copper', 8)
+  dissolver('forge:coins/copper', 100.0, 'chemlib:lead', 3)
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "ftbic:dense_copper_plate" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:copper", "count": 64 }, { "item": "chemlib:copper", "count": 64 }] }] } })
 
   //Sulfur
@@ -175,7 +181,7 @@ onEvent('recipes', e => {
   //nugget
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:nuggets/constantan" }, "count": 1 }, "output": { "rolls": 1, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
   //coin
-  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/constantan" }, "count": 1 }, "output": { "rolls": 1, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/constantan" }, "count": 1 }, "output": { "rolls": 3, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
   //plate
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:plates/constantan" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
   //dusts
@@ -207,6 +213,8 @@ onEvent('recipes', e => {
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:plates/netherite" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:tungsten", "count": 64 }, { "item": "chemlib:carbon", "count": 64 }, { "item": "chemlib:gold", "count": 64 }] }] } })
   //nugget
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:nuggets/netherite" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:tungsten", "count": 4 }, { "item": "chemlib:carbon", "count": 4 }, { "item": "chemlib:gold", "count": 4 }] }] } })
+  //coin
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/netherite" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:tungsten", "count": 12 }, { "item": "chemlib:carbon", "count": 12 }, { "item": "chemlib:gold", "count": 12 }] }] } })
 
 
 })
