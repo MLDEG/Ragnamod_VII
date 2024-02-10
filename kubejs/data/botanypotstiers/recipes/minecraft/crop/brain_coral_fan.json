@@ -1,1 +1,1 @@
-{"type":"botanypotstiers:crop","seed":{"item":"minecraft:brain_cora_fan"},"categories":["water"],"growthTicks":1200,"display":{"block":"minecraft:brain_coral_fan","renderFluid":false},"drops":[{"chance":1.00,"output":{"item":"minecraft:brain_cora_fan"}}]}
+{"type":"botanypotstiers:crop","seed":{"item":"minecraft:brain_coral_fan"},"categories":["water"],"growthTicks":1200,"display":{"block":"minecraft:brain_coral_fan","renderFluid":false},"drops":[{"chance":1.00,"output":{"item":"minecraft:brain_coral_fan"}}]}

@@ -1,0 +1,1 @@
+{"bookshelf:load_conditions":[{"type":"bookshelf:item_exists","values":"infernalexp:dullstone"}],"type":"botanypotstiers:soil","input":{"item":"infernalexp:dullstone"},"display":{"block":"infernalexp:dullstone"},"categories":["shimmer","stone"],"growthModifier":1}
