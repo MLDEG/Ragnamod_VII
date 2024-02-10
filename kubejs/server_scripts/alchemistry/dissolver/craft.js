@@ -89,7 +89,6 @@ onEvent('recipes', e => {
   dissolverBlock('ftbic:aluminum_block', 100.0, 'chemlib:aluminum', 64, 16)
   dissolverBlock('tinkers_reforged:aluminum_block', 100.0, 'chemlib:aluminum', 64, 16)
 
-
   //Tin
   dissolver('forge:gears/tin', 100.0, 'chemlib:tin', 64)
   dissolver('forge:crushed/tin', 100.0, 'chemlib:tin', 16)
@@ -169,6 +168,8 @@ onEvent('recipes', e => {
   //Other
   dissolver('forge:pellets/plutonium', 100.0, 'chemlib:plutonium', 16)
   dissolver('forge:pellets/polonium', 100.0, 'chemlib:polonium', 16)
+  //Nether Wart Block Quark
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "quark:nether_wart_sack" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:chitin", "count": 9 }, { "item": "chemlib:germanium", "count": 36 }, { "item": "chemlib:selenium", "count": 36 }] }] } })
   //Salt
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "mekanism:reprocessed_fissile_fragment" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:sodium_chloride", "count": 64 }, { "item": "chemlib:sodium_chloride", "count": 16 }, { "item": "chemlib:plutonium", "count": 16 }] }] } })
   //Salt

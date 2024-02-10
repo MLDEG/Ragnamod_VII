@@ -1,0 +1,33 @@
+{
+  "type": "alchemistry:dissolver",
+  "group": "alchemistry:dissolver",
+  "input": {
+    "ingredient": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "count": 1
+  },
+  "output": {
+    "rolls": 1,
+    "weighted": false,
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "item": "chemlib:chitin",
+            "count": 4
+          },
+          {
+            "item": "chemlib:germanium",
+            "count": 16
+          },
+          {
+            "item": "chemlib:selenium",
+            "count": 16
+          }
+        ]
+      }
+    ]
+  }
+}
