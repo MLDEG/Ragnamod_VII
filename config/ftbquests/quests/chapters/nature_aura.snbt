@@ -129,7 +129,7 @@
 				""
 				"Bottled Darkness is obtainable in the End and Twilight Forest."
 				"Bottled Ghosts is obtainable in the Nether and Undergarden."
-				"Bottled sunlight is obtainable in the Overworld."
+				"Bottled sunlight is obtainable in the Overworld, Everdawn, Everbright and Alfheim."
 				"Bottled Substance is obtainable in other dimensions."
 			]
 			dependencies: ["52D6BB5F13D719A4"]
