@@ -8,8 +8,6 @@ onEvent('recipes', e => {
     orechidIgnem('minecraft:netherrack', 'tconstruct:cobalt_ore', 750)
     orechidIgnem('minecraft:netherrack', 'rftoolsbase:dimensionalshard_nether', 750)
 
-    orechidIgnem('minecraft:obsidian', 'armorplus:ore_lava_crystal_obsidian', 10)
-    orechidIgnem('minecraft:obsidian', 'armorplus:ore_frost_crystal_obsidian', 5)
     orechidIgnem('minecraft:obsidian', 'minecraft:crying_obsidian', 85)
 
     orechidIgnem('beyond_earth:mars_stone', 'beyond_earth:mars_ice_shard_ore', 1)
