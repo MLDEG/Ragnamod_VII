@@ -272,6 +272,8 @@ onEvent('recipes', e => {
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coal_coke" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:graphite", "count": 2 }] }] } })
   //Coalcoke Block
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/coal_coke" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:graphite", "count": 18 }] }] } })
+  //Cellulose Dust
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "chemlib:cellulose_dust" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:cellulose", "count": 8 }] }] } })
   //Salt
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "mekanism:reprocessed_fissile_fragment" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:sodium_chloride", "count": 64 }, { "item": "chemlib:sodium_chloride", "count": 16 }, { "item": "chemlib:plutonium", "count": 16 }] }] } })
   //Salt
