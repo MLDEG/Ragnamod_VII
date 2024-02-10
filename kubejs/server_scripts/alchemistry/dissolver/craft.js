@@ -189,6 +189,24 @@ onEvent('recipes', e => {
   //block
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/constantan" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel", "count": 9 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper", "count": 9 }] }] } })
 
+  //Bronze
+  //ingot
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:ingots/bronze" }, "count": 1 }, "output": { "rolls": 16, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper" }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin" }] }] } })
+  //rod
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:rods/bronze" }, "count": 1 }, "output": { "rolls": 16, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper" }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin" }] }] } })
+  //dust
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:dusts/bronze" }, "count": 1 }, "output": { "rolls": 16, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper" }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin" }] }] } })
+  //coin
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/bronze" }, "count": 1 }, "output": { "rolls": 3, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper" }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin" }] }] } })
+  //nugget
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:nuggets/bronze" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper" }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin" }] }] } })
+  //plate
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:plates/bronze" }, "count": 1 }, "output": { "rolls": 16, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper" }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin" }] }] } })
+  //gear
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:gears/bronze" }, "count": 1 }, "output": { "rolls": 16, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper", "count": 4 }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin", "count": 4 }] }] } })
+  //block
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/bronze" }, "count": 1 }, "output": { "rolls": 16, "weighted": false, "groups": [{ "probability": 75.0, "results": [{ "item": "chemlib:copper", "count": 9 }] }, { "probability": 25.0, "results": [{ "item": "chemlib:tin", "count": 9 }] }] } })
+
 
   //Other
   dissolver('forge:pellets/plutonium', 100.0, 'chemlib:plutonium', 16)
