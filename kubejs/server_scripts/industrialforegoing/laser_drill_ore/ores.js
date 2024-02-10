@@ -54,8 +54,6 @@ onEvent('recipes', e => {
     oreNether('minecraft:nether_quartz_ore', 32, 100, 12, 0)
     oreNether('minecraft:glowstone', 80, 100, 8, 4)
     oreNether('minecraft:nether_gold_ore', 32, 100, 10, 4)
-    oreNether('armorplus:ore_lava_crystal_obsidian', 0, 32, 2, 14)
-    oreNether('armorplus:ore_frost_crystal_obsidian', 0, 32, 2, 3)
     oreNether('byg:pendorite_ore', 0, 64, 1, 10)
     oreNether('byg:emeraldite_ore', 0, 64, 1, 13)
     oreNether('tconstruct:cobalt_ore', 0, 64, 3, 11)

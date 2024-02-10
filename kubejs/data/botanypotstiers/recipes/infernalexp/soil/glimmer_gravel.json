@@ -1,0 +1,1 @@
+{"bookshelf:load_conditions":[{"type":"bookshelf:item_exists","values":"infernalexp:trapped_glowdust_sand"}],"type":"botanypotstiers:soil","input":{"item":"infernalexp:trapped_glowdust_sand"},"display":{"block":"infernalexp:trapped_glowdust_sand"},"categories":["shimmer","gravel"],"growthModifier":1}

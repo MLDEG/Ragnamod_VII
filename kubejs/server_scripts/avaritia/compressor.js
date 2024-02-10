@@ -62,7 +62,6 @@ onEvent('recipes', e => {
     Singularity('minecraft:quartz', 'ragnamod_seven:quartz_singularity', 4269)
     Singularity('minecraft:raw_copper', 'ragnamod_seven:copper_singularity', 4269)
     Singularity('minecraft:raw_iron', 'ragnamod_seven:iron_singularity', 4269)
-    Singularity('mob_grinding_utils:solid_xp_baby', 'ragnamod_seven:jellybaby_singularity', 4269)
     Singularity('pneumaticcraft:capacitor', 'ragnamod_seven:capacitor_singularity', 4269)
     Singularity('pneumaticcraft:glycerol', 'ragnamod_seven:glycerol_singularity', 4269)
     Singularity('pneumaticcraft:transistor', 'ragnamod_seven:transistor_singularity', 4269)

@@ -5671,6 +5671,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "2F44D055484F2027"
@@ -5697,6 +5698,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "1054448AE8EEE968"
@@ -5746,6 +5748,174 @@
 				id: "7F8C9398B3FF942F"
 				type: "item"
 				item: "chickens:chicken_shell"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_flux_infused.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "08C85E2ABC6AA55A"
+			tasks: [{
+				id: "43F3CBCD82E82C25"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:flux_infused_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "44D13628DD23668E"
+				type: "item"
+				item: "redstone_arsenal:flux_metal_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_gelot.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "0F2E5D0BD96EEBB6"
+			tasks: [{
+				id: "1AA3C6ECCF820357"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:gelot_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "6738F2FB7E67D9B9"
+				type: "item"
+				item: "tinkers_reforged:gelot_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_piroot.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "29D600A483CE40E7"
+			tasks: [{
+				id: "3983813812E50EC8"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:piroot_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "518AEC3F3C0EAA8D"
+				type: "item"
+				item: "tinkers_reforged:piroot_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_magma_steel.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "4EB4043BA8D9796C"
+			tasks: [{
+				id: "3966526B112F8013"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:magma_steel_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "450039288FB22D29"
+				type: "item"
+				item: "tinkers_reforged:magma_steel_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_cyber_steel.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "17318049F25B6F15"
+			tasks: [{
+				id: "0296AE1766B5630C"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:cyber_steel_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5267ADDCDA00BDA2"
+				type: "item"
+				item: "tinkers_reforged:cyber_steel_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blazing_copper.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "20C5A5528110E200"
+			tasks: [{
+				id: "662C955EB65A8ECE"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:blazing_copper_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "1A2C1096660DD9F0"
+				type: "item"
+				item: "tinkers_reforged:blazing_copper_block"
+				random_bonus: 7
 			}]
 		}
 	]

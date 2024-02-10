@@ -25,8 +25,8 @@
     {
       "type": "custommachinery:energy",
       "capacity": 1000000,
-      "maxInput": 100000,
-      "maxOutput": 100000
+      "maxInput": 1000000,
+      "maxOutput": 1000000
     },
     {
       "type": "custommachinery:fluid",

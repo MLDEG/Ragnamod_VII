@@ -257,7 +257,7 @@ onEvent('recipes', e => {
   //PSI STabilizer Block
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:psi_stabilizer"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'psi:lit_black_psimetal_plate', C: 'xnet:controller', D: 'rftoolsutility:screen' })
   //PSI Stabilizer
-  function psiStab(item) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:psi_stabilizer", "time": 10, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item", "mode": "input", "slot": "inout", "item": item, "amount": 1, "chance": 0 }, { "type": "custommachinery:item", "mode": "output", "item": item, "amount": 1, "slot": "output" }, { "type": "custommachinery:structure", "pattern": [["m"], ["A"], ["B"], ["C"]], "keys": { "A": "psi:cad_assembler", "B": "ragnamod_seven:psi_stabilizer", "C": "psi:psigem_block", } }] }) }
+  function psiStab(item) { e.custom({ "type": "custommachinery:custom_machine", "machine": "ragnamod_7:psi_stabilizer", "time": 10, "requirements": [{ "type": "custommachinery:energy", "mode": "input", "amount": 10000 }, { "type": "custommachinery:item", "mode": "input", "slot": "input", "item": item, "amount": 1, "chance": 0 }, { "type": "custommachinery:item", "mode": "output", "item": item, "amount": 1, "slot": "output" }, { "type": "custommachinery:structure", "pattern": [["m"], ["A"], ["B"], ["C"]], "keys": { "A": "psi:cad_assembler", "B": "ragnamod_seven:psi_stabilizer", "C": "psi:psigem_block", } }] }) }
   psiStab("psi:psidust")
   psiStab("psi:psimetal")
   psiStab("psi:psigem")

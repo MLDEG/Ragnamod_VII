@@ -2520,42 +2520,6 @@
 			}]
 		}
 		{
-			icon: "enderstorage:ender_chest"
-			x: -7.5d
-			y: -3.5d
-			shape: "square"
-			description: [
-				"These chests and tank link together based on matching color patterns. All chests and tank with the same color buttons share an inventory."
-				"Ender bags can be color coded to access ender chests."
-				""
-				"If you play on server, you can privatize your chests and tanks by using a diamond on it."
-			]
-			dependencies: ["577D6202E19B2599"]
-			id: "251E2D6E2DD967A8"
-			tasks: [
-				{
-					id: "7F75F9DA9C3093B5"
-					type: "item"
-					item: "enderstorage:ender_chest"
-				}
-				{
-					id: "026C98C768BA759D"
-					type: "item"
-					item: "enderstorage:ender_tank"
-				}
-				{
-					id: "7C59FCC1590BEDAF"
-					type: "item"
-					item: "enderstorage:ender_pouch"
-				}
-			]
-			rewards: [{
-				id: "299F333B9DD3C5F6"
-				type: "item"
-				item: "enderstorage:ender_chest"
-			}]
-		}
-		{
 			x: -2.5d
 			y: -3.5d
 			shape: "square"
@@ -4958,6 +4922,84 @@
 				count: 16
 				random_bonus: 16
 			}]
+		}
+		{
+			title: "Ender Chest and Tank"
+			icon: {
+				id: "enderchests:ender_chest"
+				Count: 1b
+				tag: {
+					owner: "all"
+					code: "000"
+				}
+			}
+			x: -7.5d
+			y: -3.5d
+			shape: "square"
+			description: [
+				"These chests and tank link together based on matching color patterns. All chests and tank with the same color bands share an inventory."
+				"Ender Bags and Ender Buckets can be color coded to access Ender Chest or Tank by shift right-click on an Ender Chest or Ender Tank."
+				""
+				"You can also increase their storages with Ender Pearl or Eye of Ender, shift right click on them to do so."
+				""
+				"If you play on server, you can privatize your chests and tanks by using a diamond on it."
+			]
+			dependencies: ["577D6202E19B2599"]
+			id: "2723544B3C27CE26"
+			tasks: [
+				{
+					id: "508A578188E2D921"
+					type: "item"
+					item: {
+						id: "enderchests:ender_chest"
+						Count: 1b
+						tag: {
+							owner: "all"
+							code: "000"
+						}
+					}
+				}
+				{
+					id: "6121C7148E50A4AB"
+					type: "item"
+					item: {
+						id: "endertanks:ender_tank"
+						Count: 1b
+						tag: {
+							owner: "all"
+							code: "000"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "72E4180016F3E961"
+					type: "item"
+					item: {
+						id: "enderchests:ender_bag"
+						Count: 1b
+						tag: {
+							owner: "all"
+							code: "000"
+							open: 0b
+						}
+					}
+				}
+				{
+					id: "1DC5FB2196501EA9"
+					type: "item"
+					item: {
+						id: "endertanks:ender_bucket"
+						Count: 1b
+						tag: {
+							owner: "all"
+							mode: "normal"
+							code: "000"
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]

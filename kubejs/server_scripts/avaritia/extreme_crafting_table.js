@@ -1545,7 +1545,7 @@ onEvent('recipes', e => {
             "e": { "item": "pneumaticcraft:creative_compressed_iron_block" },
             "f": { "item": "pneumaticcraft:creative_compressor" },
             "g": { "item": "bloodmagic:activationcrystalcreative" },
-            "h": { "item": "create:ragnamod_seven:creative_tc_crystal" },
+            "h": { "item": "ragnamod_seven:creative_tc_crystal" }
         }
     })
     //Creative Cogwheel

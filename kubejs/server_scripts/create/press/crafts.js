@@ -17,7 +17,7 @@ onEvent('recipes', e => {
         "type": "create:compacting",
         "ingredients": [{ "item": "bloodmagic:growing_doubt" }],
         "results": [
-            { "fluid": "bloodmagic:doubt_fluid", "amount": 10 }
+            { "fluid": "bloodmagic:doubt_fluid", "amount": 50 }
         ]
     })
 })

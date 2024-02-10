@@ -2406,5 +2406,89 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:gelot_chicken": {
+    "name": "gelot_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "tinkers_reforged:gelot_ingot"
+    },
+    "drop_item": {
+      "itemID": "tinkers_reforged:gelot_ingot"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:piroot_chicken": {
+    "name": "piroot_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "tinkers_reforged:piroot_ingot"
+    },
+    "drop_item": {
+      "itemID": "tinkers_reforged:piroot_ingot"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:magma_steel_chicken": {
+    "name": "magma_steel_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "tinkers_reforged:magma_steel_ingot"
+    },
+    "drop_item": {
+      "itemID": "tinkers_reforged:magma_steel_ingot"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:cyber_steel_chicken": {
+    "name": "cyber_steel_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "tinkers_reforged:cyber_steel_ingot"
+    },
+    "drop_item": {
+      "itemID": "tinkers_reforged:cyber_steel_ingot"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:blazing_copper_chicken": {
+    "name": "blazing_copper_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "tinkers_reforged:blazing_copper_ingot"
+    },
+    "drop_item": {
+      "itemID": "tinkers_reforged:blazing_copper_ingot"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:flux_infused_chicken": {
+    "name": "flux_infused_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "redstone_arsenal:flux_ingot"
+    },
+    "drop_item": {
+      "itemID": "redstone_arsenal:flux_ingot"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

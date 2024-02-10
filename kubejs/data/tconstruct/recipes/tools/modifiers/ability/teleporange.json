@@ -20,7 +20,7 @@
     "requirements": {
       "name": "tconstruct:teleportation",
       "level": 1,
-      "error": "YOLO"
+      "error": "Teleportation Range requires Teleportation modifier"
     },
     "allow_crystal": false,
     "result": {

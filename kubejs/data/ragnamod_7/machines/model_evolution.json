@@ -31,7 +31,9 @@
     {
       "type": "custommachinery:item",
       "id": "input",
-      "mode": "input"
+      "mode": "input",
+      "filter": ["hostilenetworks:data_model"],
+      "whitelist": true
     },
     {
       "type": "custommachinery:item",
@@ -41,24 +43,32 @@
     {
       "type": "custommachinery:item",
       "id": "in1",
-      "mode": "input"
+      "mode": "input",
+      "filter": ["hostilenetworks:polymer_clay", "hostilenetworks:prediction"],
+      "whitelist": true
     },
     {
       "type": "custommachinery:item",
       "id": "in2",
-      "mode": "input"
+      "mode": "input",
+      "filter": ["hostilenetworks:blank_data_model"],
+      "whitelist": true
     },
     {
       "type": "custommachinery:item",
       "id": "in3",
-      "mode": "input"
+      "mode": "input",
+      "filter": ["hostilenetworks:blank_data_model", "hostilenetworks:polymer_clay", "hostilenetworks:prediction", "hostilenetworks:data_model"],
+      "whitelist": false
     },
     {
       "type": "custommachinery:fluid",
       "capacity": 10000,
       "id": "tank",
       "maxInput": 10000,
-      "maxOutput": 10000
+      "maxOutput": 10000,
+      "filter": ["industrialforegoing:ether_gas", "industrialforegoing:biofuel"],
+      "whitelist": true
     }
   ],
   "gui": [
