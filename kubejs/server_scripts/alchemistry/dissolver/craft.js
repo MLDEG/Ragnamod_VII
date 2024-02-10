@@ -252,6 +252,10 @@ onEvent('recipes', e => {
   dissolver('forge:pellets/plutonium', 100.0, 'chemlib:plutonium', 16)
   dissolver('forge:pellets/polonium', 100.0, 'chemlib:polonium', 16)
   dissolver('forge:workbenches', 100.0, 'chemlib:cellulose', 1)
+  //Bitumen
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:bitumen" }, "count": 1 }, "output": { "rolls": 1, "weighted": true, "groups": [{ "probability": 5.0, "results": [{ "item": "chemlib:carbon", "count": 26 }] }, { "probability": 5.0, "results": [{ "item": "chemlib:oxygen" }] }, { "probability": 5.0, "results": [{ "item": "chemlib:hydrogen", "count": 32 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:sulfur_dioxide" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:vanadium" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }] } })
+  //Bitumen Block
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/bitumen" }, "count": 1 }, "output": { "rolls": 9, "weighted": true, "groups": [{ "probability": 5.0, "results": [{ "item": "chemlib:carbon", "count": 26 }] }, { "probability": 5.0, "results": [{ "item": "chemlib:oxygen" }] }, { "probability": 5.0, "results": [{ "item": "chemlib:hydrogen", "count": 32 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:sulfur_dioxide" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:vanadium" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }] } })
   //Nether Wart Block Quark
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "quark:nether_wart_sack" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:chitin", "count": 9 }, { "item": "chemlib:germanium", "count": 36 }, { "item": "chemlib:selenium", "count": 36 }] }] } })
   //Salt
