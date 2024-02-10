@@ -3131,7 +3131,7 @@
 				{
 					id: "713C8FD730D1DAE0"
 					type: "item"
-					item: "mekanismgenerators:reactor_glass"
+					item: "mekanism:structural_glass"
 					count: 12L
 				}
 			]
