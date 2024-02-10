@@ -165,9 +165,29 @@ onEvent('recipes', e => {
   dissolverBlock('chemlib:cobalt_metal_block', 100.0, 'chemlib:cobalt', 64, 16)
   dissolverBlock('tconstruct:raw_cobalt_block', 100.0, 'chemlib:cobalt', 64, 16)
 
+  //Constantan
+  //ingot
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:ingots/constantan" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
+  //rod
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:rods/constantan" }, "count": 1 }, "output": { "rolls": 8, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
+  //gear
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:gears/constantan" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel", "count": 4 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper", "count": 4 }] }] } })
+  //nugget
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:nuggets/constantan" }, "count": 1 }, "output": { "rolls": 1, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
+  //coin
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/constantan" }, "count": 1 }, "output": { "rolls": 1, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
+  //plate
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:plates/constantan" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
+  //dusts
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:dusts/constantan" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel" }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper" }] }] } })
+  //block
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:storage_blocks/constantan" }, "count": 1 }, "output": { "rolls": 16, "weighted": true, "groups": [{ "probability": 1.0, "results": [{ "item": "chemlib:nickel", "count": 9 }] }, { "probability": 1.0, "results": [{ "item": "chemlib:copper", "count": 9 }] }] } })
+
+
   //Other
   dissolver('forge:pellets/plutonium', 100.0, 'chemlib:plutonium', 16)
   dissolver('forge:pellets/polonium', 100.0, 'chemlib:polonium', 16)
+  dissolver('forge:workbenches', 100.0, 'chemlib:cellulose', 1)
   //Nether Wart Block Quark
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "quark:nether_wart_sack" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:chitin", "count": 9 }, { "item": "chemlib:germanium", "count": 36 }, { "item": "chemlib:selenium", "count": 36 }] }] } })
   //Salt
