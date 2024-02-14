@@ -2206,7 +2206,7 @@
 			description: [
 				"Use a Liquifier to liquify your Chaos Dust into Liquid."
 				""
-				"You obtain 10mb per Dust."
+				"You obtain 100mb per Dust."
 			]
 			dependencies: [
 				"42CCA5EE0F64A180"
