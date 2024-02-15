@@ -2130,7 +2130,7 @@
 			shape: "octagon"
 			description: [
 				"Here is the procedure to follow to obtain the Shub Niggurath Faliliar."
-				"{image:#FFFFFF width:150 height:100 align:1}"
+				"{image:ftbquests:textures/quests/shub_niggurath.png width:150 height:100 align:1}"
 				"You must first summon the Chimera Familiar."
 				""
 				"Then, you will need to detach the goat from your chimera using a golden apple."
