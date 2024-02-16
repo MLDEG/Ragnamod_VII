@@ -468,6 +468,8 @@ onEvent('jei.information', e => {
 
 	e.add('create:refined_radiance', ['Throw a Chromatic Compound through a beacon beam.'])
 	e.add('create:shadow_steel', ['Throw a Chromatic Compound into the End void.'])
+
+	e.add(['nethersdelight:plate_of_stuffed_hoglin_snout', 'nethersdelight:plate_of_stuffed_hoglin_roast', 'nethersdelight:plate_of_stuffed_hoglin_ham'], ['You need to use a knife on the Stuffed Hoglin, placed in the world, to then be able to use a bowl and collect Stuffed Hoglin Snout, Stuffed Hoglin Roast and Stuffed Hoglin Ham.'])
 })
 
 //Tooltips ChemLib
