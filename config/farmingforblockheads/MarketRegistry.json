@@ -7,7 +7,7 @@
       }
     }, 
     "holy": {
-      "name": "HOLY®",
+      "name": "HOLYï¿½",
       "icon": {
         "item": "ragnamod_seven:iced_tea_red_grapes_hibiscus"
       }
@@ -17,6 +17,42 @@
   {
     "output": {
       "item": "croptopia:soybean_seed"
+    },
+    "category": "farmingforblockheads:seeds"
+  },
+  {
+    "output": {
+      "item": "blue_skies:winter_leaf_seeds"
+    },
+    "category": "farmingforblockheads:seeds"
+  },
+  {
+    "output": {
+      "item": "blue_skies:fiery_bean_seeds"
+    },
+    "category": "farmingforblockheads:seeds"
+  },
+  {
+    "output": {
+      "item": "blue_skies:solnut"
+    },
+    "category": "farmingforblockheads:seeds"
+  },
+  {
+    "output": {
+      "item": "blue_skies:cryo_root"
+    },
+    "category": "farmingforblockheads:seeds"
+  },
+  {
+    "output": {
+      "item": "blue_skies:scalefruit_seeds"
+    },
+    "category": "farmingforblockheads:seeds"
+  },
+  {
+    "output": {
+      "item": "blue_skies:pine_fruit_seeds"
     },
     "category": "farmingforblockheads:seeds"
   },
