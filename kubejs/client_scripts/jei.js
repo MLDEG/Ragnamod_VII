@@ -471,6 +471,12 @@ onEvent('jei.information', e => {
 
 	e.add(['nethersdelight:plate_of_stuffed_hoglin_snout', 'nethersdelight:plate_of_stuffed_hoglin_roast', 'nethersdelight:plate_of_stuffed_hoglin_ham'], ['You need to use a knife on the Stuffed Hoglin, placed in the world, to then be able to use a bowl and collect Stuffed Hoglin Snout, Stuffed Hoglin Roast and Stuffed Hoglin Ham.'])
 	e.add('nethersdelight:hoglin_ear', ['You need to use a knife on the Stuffed Hoglin.'])
+
+	e.add('farmersdelight:roast_chicken', ['You need to place the Roast Chicken in the world and then right-click on it with a bowl.'])
+	e.add('farmersdelight:honey_glazed_ham', ['You need to place the Honey Glazed Ham in the world and then right-click on it with a bowl.'])
+	e.add('farmersdelight:shepherds_pie', ['You need to place the Shepherd\'s Pie in the world and then right-click on it with a bowl.'])
+	e.add('farmersdelight:stuffed_pumpkin', ['You need to place the Stuffed Pumpkin in the world and then right-click on it with a bowl.'])
+	e.add('endersdelight:stuffed_shulker_bowl', ['You need to place the Stuffed Shulker in the world and then right-click on it with a bowl.'])
 })
 
 //Tooltips ChemLib
