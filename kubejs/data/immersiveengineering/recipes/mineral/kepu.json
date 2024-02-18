@@ -10,7 +10,7 @@
     "dimensions": [
         "minecraft:the_end"
     ],
-    "weight": 1,
+    "weight": 10,
     "fail_chance": 0.15,
     "sample_background": "minecraft:end_stone"
 }

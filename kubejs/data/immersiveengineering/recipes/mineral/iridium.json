@@ -14,6 +14,6 @@
         "twilightforest:twilight_forest",
         "javd:void"
     ],
-    "weight": 1,
+    "weight": 10,
     "fail_chance": 0.15
 }

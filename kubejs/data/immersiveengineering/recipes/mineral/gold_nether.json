@@ -13,7 +13,7 @@
     "dimensions": [
         "minecraft:the_nether"
     ],
-    "weight": 1,
+    "weight": 30,
     "fail_chance": 0.15,
     "sample_background": "minecraft:netherrack"
 }
