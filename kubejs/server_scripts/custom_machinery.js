@@ -1316,7 +1316,7 @@ onEvent('recipes', e => {
       "machine": "ragnamod_7:excavator",
       "time": 0,
       "requirements": [
-        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§9" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§9§l" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
         { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
@@ -1336,7 +1336,7 @@ onEvent('recipes', e => {
       "machine": "ragnamod_7:excavator",
       "time": 0,
       "requirements": [
-        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§d" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§d§l" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
         { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
@@ -1354,7 +1354,7 @@ onEvent('recipes', e => {
       "machine": "ragnamod_7:excavator",
       "time": 0,
       "requirements": [
-        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§4" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§4§l" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
         { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
@@ -1372,7 +1372,7 @@ onEvent('recipes', e => {
       "machine": "ragnamod_7:excavator",
       "time": 0,
       "requirements": [
-        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§4" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
         { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
         { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
@@ -1386,6 +1386,7 @@ onEvent('recipes', e => {
   }
   //Overworld/Twilight/Void
   excavatorJEI("lapis", "Lapis", "minecraft:lapis_ore", 80, "thermal:sulfur_ore", 15, "mekanism:fluorite_ore", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("apatite", "Apatite", "thermal:apatite_ore", 70, "minecraft:coal_ore", 25, "minecraft:iron_ore", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
   excavatorJEI("arcane", "Arcane", "forbidden_arcanus:arcane_crystal_ore", 75, "forbidden_arcanus:xpetrified_ore", 15, "forbidden_arcanus:runic_stone", 8, "minecraft:emerald_ore", 2, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
   excavatorJEI("bauxite", "Bauxite", "tinkers_reforged:aluminum_ore", 70, "minecraft:copper_ore", 22, "minecraft:iron_ore", 5, "tinkers_reforged:raw_aluminum_block", 3, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
   excavatorJEI("coal", "Coal", "minecraft:coal_ore", 85, "minecraft:diamond_ore", 10, "minecraft:emerald_ore", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
@@ -1406,6 +1407,12 @@ onEvent('recipes', e => {
   excavatorJEI("uraninite", "Uraninite", "mekanism:uranium_ore", 20, "thermal:lead_ore", 20, "powah:uraninite_ore_dense", 10, "powah:uraninite_ore", 20, "powah:uraninite_ore_poor", 30, "minecraft:gravel", 1, "minecraft:cobblestone", 1)
   excavatorJEI("uranium", "Uranium", "mekanism:uranium_ore", 70, "miniutilities:ender_ore", 20, "powah:uraninite_ore_poor", 5, "mekanism:block_raw_uranium", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
   excavatorJEI("zinc", "Zinc", "create:zinc_ore", 75, "thermal:tin_ore", 10, "minecraft:copper_ore", 10, "create:raw_zinc_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("aridrock_silver", "Aridrock Silver", "darkerdepths:aridrock_silver_ore", 50, "darkerdepths:aridrock_gold_ore", 25, "darkerdepths:aridrock_iron_ore", 25, "darkerdepths:aridrock", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("aridrock_coal", "Aridrock Coal", "darkerdepths:aridrock_coal_ore", 50, "darkerdepths:aridrock_lapis_ore", 35, "darkerdepths:aridrock_diamond_ore", 10, "darkerdepths:aridrock", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("aridrock_redstone", "Aridrock Redstone", "darkerdepths:aridrock_redstone_ore", 60, "darkerdepths:aridrock_lapis_ore", 20, "darkerdepths:aridrock_gold_ore", 20, "darkerdepths:aridrock", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("limestone_silver", "Limestone Silver", "darkerdepths:limestone_silver_ore", 50, "darkerdepths:limestone_gold_ore", 25, "darkerdepths:limestone_iron_ore", 25, "darkerdepths:limestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("limestone_coal", "Limestone Coal", "darkerdepths:limestone_coal_ore", 50, "darkerdepths:limestone_lapis_ore", 35, "darkerdepths:limestone_diamond_ore", 10, "darkerdepths:limestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("limestone_redstone", "Limestone Redstone", "darkerdepths:limestone_redstone_ore", 60, "darkerdepths:limestone_lapis_ore", 20, "darkerdepths:limestone_gold_ore", 20, "darkerdepths:limestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
   //End
   excavatorEndJEI("ametrine", "Ametrine", "byg:ametrine_ore", 70, "byg:lignite_ore", 30, "byg:ether_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
   excavatorEndJEI("cryptic", "Cryptic", "byg:cryptic_redstone_ore", 70, "rftoolsbase:dimensionalshard_end", 30, "byg:cryptic_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
@@ -1416,5 +1423,31 @@ onEvent('recipes', e => {
   excavatorNetherJEI("cobalt", "Cobalt", "tconstruct:cobalt_ore", 70, "minecraft:nether_quartz_ore", 15, "minecraft:nether_gold_ore", 15, "minecraft:netherrack", 1, "minecraft:basalt", 1, "minecraft:air", 1, "minecraft:air", 1)
   excavatorNetherJEI("gold_nether", "Nether Gold", "minecraft:nether_gold_ore", 70, "byg:brimstone_nether_gold_ore", 15, "byg:blue_nether_gold_ore", 15, "minecraft:netherrack", 1, "byg:brimstone", 1, "byg:blue_netherrack", 1, "minecraft:air", 1)
   excavatorNetherJEI("quartz_nether", "Nether Quartz", "minecraft:nether_quartz_ore", 69, "byg:brimstone_nether_quartz_ore", 14, "byg:blue_nether_quartz_ore", 17, "minecraft:netherrack", 1, "byg:brimstone", 1, "byg:blue_netherrack", 1, "minecraft:air", 1)
-
+  //Beyond Earth
+  excavatorUniqueJEI("beyond_earth:mercury", "mercury_iron", "§7§lMercury Iron", "beyond_earth:mercury_iron_ore", 70, "beyond_earth:mercury_stone", 30, "minecraft:blackstone", 1, "minecraft:magma_block", 1, "minecraft:basalt", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:moon", "moon_cheese", "§7§lMoon Cheese", "beyond_earth:moon_cheese_ore", 75, "beyond_earth:moon_iron_ore", 15, "beyond_earth:moon_ice_shard_ore", 10, "beyond_earth:moon_stone", 1, "beyond_earth:moon_sand", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:moon", "moon_desh", "§7§lMoon Desh", "beyond_earth:moon_desh_ore", 75, "beyond_earth:moon_iron_ore", 15, "beyond_earth:moon_cheese_ore", 10, "beyond_earth:moon_stone", 1, "beyond_earth:moon_sand", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:mars", "mars_iron", "§7§lMars Iron", "beyond_earth:mars_iron_ore", 75, "beyond_earth:mars_ice_shard_ore", 15, "beyond_earth:mars_diamond_ore", 10, "beyond_earth:mars_stone", 1, "beyond_earth:mars_sand", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:mars", "mars_ostrum", "§7§lMars Ostrum", "beyond_earth:mars_ostrum_ore", 75, "beyond_earth:mars_iron_ore", 15, "beyond_earth:mars_ice_shard_ore", 10, "beyond_earth:mars_stone", 1, "beyond_earth:mars_sand", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:venus", "venus_coal", "§7§lVenus Coal", "beyond_earth:venus_coal_ore", 75, "beyond_earth:venus_gold_ore", 15, "beyond_earth:venus_diamond_ore", 10, "beyond_earth:venus_stone", 1, "beyond_earth:venus_sand", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:venus", "venus_calorite", "§7§lVenus Calorite", "beyond_earth:venus_calorite_ore", 55, "beyond_earth:venus_diamond_ore", 25, "beyond_earth:venus_gold_ore", 20, "beyond_earth:venus_stone", 1, "beyond_earth:venus_sand", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:glacio", "glacio_unknown", "§7§lGlacio Unknown", "ragnamod_seven:unknown_ore", 50, "beyond_earth:glacio_ice_shard_ore", 50, "beyond_earth:glacio_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:glacio", "glacio_coal", "§7§lGlacio Coal", "beyond_earth:glacio_coal_ore", 60, "beyond_earth:glacio_copper_ore", 40, "beyond_earth:glacio_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("beyond_earth:glacio", "glacio_lapis", "§7§lGlacio Lapis", "beyond_earth:glacio_lapis_ore", 60, "beyond_earth:glacio_iron_ore", 40, "beyond_earth:glacio_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  //Blue Skies
+  excavatorUniqueJEI("blue_skies:everbright", "everbright_ventium", "§b§lVentium", "blue_skies:ventium_ore", 60, "blue_skies:everbright_pyrope_ore", 30, "blue_skies:everbright_emerald_ore", 10, "blue_skies:turquoise_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("blue_skies:everbright", "everbright_falsite", "§b§lFalsite", "blue_skies:falsite_ore", 60, "blue_skies:everbright_moonstone_ore", 25, "blue_skies:everbright_aquite_ore", 15, "blue_skies:turquoise_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("blue_skies:everbright", "everbright_charoite", "§b§lCharoite", "blue_skies:everbright_charoite_ore", 60, "blue_skies:everbright_diopside_ore", 25, "blue_skies:everbright_emerald_ore", 15, "blue_skies:turquoise_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("blue_skies:everdawn", "everdawn_horizonite", "§c§lHorizonite", "blue_skies:horizonite_ore", 60, "blue_skies:everdawn_moonstone_ore", 25, "blue_skies:everdawn_aquite_ore", 15, "blue_skies:lunar_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("blue_skies:everdawn", "everdawn_charoite", "§c§lCharoite", "blue_skies:everdawn_charoite_ore", 60, "blue_skies:everdawn_diopside_ore", 25, "blue_skies:everdawn_emerald_ore", 15, "blue_skies:lunar_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("blue_skies:everdawn", "everdawn_pyrope", "§c§lPyrope", "blue_skies:everdawn_pyrope_ore", 60, "blue_skies:everdawn_aquite_ore", 25, "blue_skies:everdawn_emerald_ore", 15, "blue_skies:lunar_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  //Mythic Botany
+  excavatorUniqueJEI("mythicbotany:alfheim", "mythicbotany_gold", "§6§lMythicbotany Gold", "mythicbotany:gold_ore", 90, "mythicbotany:elementium_ore", 9, "mythicbotany:dragonstone_ore", 1, "botania:livingrock", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  //Undergarden
+  excavatorUniqueJEI("undergarden:undergarden", "depthrock_cloggrum", "§2§lDepthrock Cloggrum", "undergarden:depthrock_cloggrum_ore", 60, "undergarden:depthrock_coal_ore", 25, "undergarden:depthrock_iron_ore", 15, "undergarden:depthrock", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("undergarden:undergarden", "depthrock_regalium", "§2§lDepthrock Regalium", "undergarden:depthrock_regalium_ore", 45, "undergarden:depthrock_gold_ore", 45, "undergarden:depthrock_diamond_ore", 10, "undergarden:depthrock", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("undergarden:undergarden", "depthrock_utherium", "§2§lDepthrock Utherium", "undergarden:depthrock_utherium_ore", 45, "undergarden:depthrock_cloggrum_ore", 45, "undergarden:depthrock_gold_ore", 10, "undergarden:depthrock", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("undergarden:undergarden", "shiverstone_cloggrum", "§2§lShiverstone Cloggrum", "undergarden:shiverstone_cloggrum_ore", 60, "undergarden:shiverstone_coal_ore", 25, "undergarden:shiverstone_iron_ore", 15, "undergarden:shiverstone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("undergarden:undergarden", "shiverstone_froststeel", "§2§lShiverstone Froststeel", "undergarden:shiverstone_froststeel_ore", 45, "undergarden:shiverstone_iron_ore", 45, "undergarden:shiverstone_diamond_ore", 10, "undergarden:shiverstone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorUniqueJEI("undergarden:undergarden", "shiverstone_utherium", "§2§lShiverstone Utherium", "undergarden:shiverstone_utherium_ore", 45, "undergarden:shiverstone_cloggrum_ore", 45, "undergarden:shiverstone_regalium_ore", 10, "undergarden:shiverstone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
 })

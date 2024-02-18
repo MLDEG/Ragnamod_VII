@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {"chance": 0.70,"output": {"item": "thermal:apatite_ore"}},
+        {"chance": 0.25,"output": {"item": "minecraft:coal_ore"}},
+        {"chance": 0.05,"output": {"item": "minecraft:iron_ore"}}
+    ],
+    "spoils": [
+        {"chance": 0.2,"output": {"item": "minecraft:gravel"}},
+        {"chance": 0.5,"output": {"item": "minecraft:cobblestone"}}
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 30,
+    "fail_chance": 0.15
+}

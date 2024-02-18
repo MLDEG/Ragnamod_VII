@@ -1,0 +1,17 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {"chance": 0.60,"output": {"item": "undergarden:shiverstone_cloggrum_ore"}},
+        {"chance": 0.25,"output": {"item": "undergarden:shiverstone_coal_ore"}},
+        {"chance": 0.15,"output": {"item": "undergarden:shiverstone_iron_ore"}}
+    ],
+    "spoils": [
+        {"chance": 0.2,"output": {"item": "undergarden:shiverstone"}}
+    ],
+    "dimensions": [
+        "undergarden:undergarden"
+    ],
+    "weight": 25,
+    "fail_chance": 0.15,
+    "sample_background": "undergarden:shiverstone"
+}

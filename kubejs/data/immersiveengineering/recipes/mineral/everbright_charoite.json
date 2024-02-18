@@ -1,0 +1,17 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {"chance": 0.60,"output": {"item": "blue_skies:everbright_charoite_ore"}},
+        {"chance": 0.25,"output": {"item": "blue_skies:everbright_diopside_ore"}},
+        {"chance": 0.15,"output": {"item": "blue_skies:everbright_emerald_ore"}}
+    ],
+    "spoils": [
+        {"chance": 1,"output": {"item": "blue_skies:turquoise_stone"}}
+    ],
+    "dimensions": [
+        "blue_skies:everbright"
+    ],
+    "weight": 25,
+    "fail_chance": 0.15,
+    "sample_background": "blue_skies:turquoise_stone"
+}

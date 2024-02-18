@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {"chance": 0.60,"output": {"item": "darkerdepths:limestone_redstone_ore"}},
+        {"chance": 0.20,"output": {"item": "darkerdepths:limestone_lapis_ore"}},
+        {"chance": 0.20,"output": {"item": "darkerdepths:limestone_gold_ore"}}
+    ],
+    "spoils": [
+        {"chance": 1,"output": {"item": "darkerdepths:limestone"}}
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 5,
+    "fail_chance": 0.15,
+    "sample_background": "darkerdepths:limestone"
+}
