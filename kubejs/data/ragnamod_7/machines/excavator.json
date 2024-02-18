@@ -1,0 +1,130 @@
+{
+  "name": "Excavator",
+  "appearance": {
+    "block": "ragnamod_seven:machine/excavator_block",
+    "item": "ragnamod_seven:machine/excavator",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]]
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "core",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "6",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "7",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "progress",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "texture": "custommachinery:textures/gui/base_progress_empty.png",
+      "type": "custommachinery:slot",
+      "id": "progress",
+      "x": 23,
+      "y": 5,
+      "highlight": false
+    },
+    {
+      "id": "core",
+      "x": 4,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "1",
+      "x": 49,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "2",
+      "x": 68,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "3",
+      "x": 87,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "4",
+      "x": 106,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "5",
+      "x": 125,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "6",
+      "x": 144,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "7",
+      "x": 163,
+      "y": 4,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

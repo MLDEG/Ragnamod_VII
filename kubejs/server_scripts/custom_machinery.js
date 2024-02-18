@@ -1269,7 +1269,6 @@ onEvent('recipes', e => {
   digitalAgonizer('hostilenetworks:end_prediction', 15)
   digitalAgonizer('hostilenetworks:undergarden_prediction', 16)
   digitalAgonizer('hostilenetworks:blueskies_prediction', 17)
-
   //Machine
   e.custom({
     "type": "minecraft:crafting_shaped",
@@ -1309,5 +1308,113 @@ onEvent('recipes', e => {
     "pattern": [' A ', 'BCB', 'DED'],
     "result": { "type": "forge:nbt", "item": "custommachinery:custom_machine_item", "count": 1, "nbt": "{machine:\"ragnamod_7:digital_mob_agonizer_addon_bloodmagic\"}" }
   })
+
+  //Excavator Immersive GUI JEI
+  function excavatorJEI(deposit, name, in1, am1, in2, am2, in3, am3, in4, am4, in5, am5, in6, am6, in7, am7) {
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:excavator",
+      "time": 0,
+      "requirements": [
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§9" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "4", "item": in4, "amount": am4 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "5", "item": in5, "amount": am5 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "6", "item": in6, "amount": am6 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "7", "item": in7, "amount": am7 },
+        { "type": "custommachinery:dimension", "filter": "minecraft:overworld" },
+        { "type": "custommachinery:dimension", "filter": "twilightforest:twilight_forest" },
+        { "type": "custommachinery:dimension", "filter": "javd:void" }
+      ]
+    })
+  }
+  function excavatorEndJEI(deposit, name, in1, am1, in2, am2, in3, am3, in4, am4, in5, am5, in6, am6, in7, am7) {
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:excavator",
+      "time": 0,
+      "requirements": [
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§d" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "4", "item": in4, "amount": am4 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "5", "item": in5, "amount": am5 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "6", "item": in6, "amount": am6 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "7", "item": in7, "amount": am7 },
+        { "type": "custommachinery:dimension", "filter": "minecraft:the_end" }
+      ]
+    })
+  }
+  function excavatorNetherJEI(deposit, name, in1, am1, in2, am2, in3, am3, in4, am4, in5, am5, in6, am6, in7, am7) {
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:excavator",
+      "time": 0,
+      "requirements": [
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§4" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "4", "item": in4, "amount": am4 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "5", "item": in5, "amount": am5 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "6", "item": in6, "amount": am6 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "7", "item": in7, "amount": am7 },
+        { "type": "custommachinery:dimension", "filter": "minecraft:the_nether" }
+      ]
+    })
+  }
+  function excavatorUniqueJEI(dim, deposit, name, in1, am1, in2, am2, in3, am3, in4, am4, in5, am5, in6, am6, in7, am7) {
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:excavator",
+      "time": 0,
+      "requirements": [
+        { "type": "custommachinery:item", "mode": "input", "item": "immersiveengineering:coresample", "nbt": "{display:{Name:'{\"text\":\"§l§4" + name + "§r\"}'},mineralInfo:[{mineral:\"immersiveengineering:mineral/" + deposit + "\"}]}", "amount": 1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "1", "item": in1, "amount": am1 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "2", "item": in2, "amount": am2 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "3", "item": in3, "amount": am3 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "4", "item": in4, "amount": am4 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "5", "item": in5, "amount": am5 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "6", "item": in6, "amount": am6 },
+        { "type": "custommachinery:item", "mode": "output", "slot": "7", "item": in7, "amount": am7 },
+        { "type": "custommachinery:dimension", "filter": dim }
+      ]
+    })
+  }
+  //Overworld/Twilight/Void
+  excavatorJEI("lapis", "Lapis", "minecraft:lapis_ore", 80, "thermal:sulfur_ore", 15, "mekanism:fluorite_ore", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("arcane", "Arcane", "forbidden_arcanus:arcane_crystal_ore", 75, "forbidden_arcanus:xpetrified_ore", 15, "forbidden_arcanus:runic_stone", 8, "minecraft:emerald_ore", 2, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("bauxite", "Bauxite", "tinkers_reforged:aluminum_ore", 70, "minecraft:copper_ore", 22, "minecraft:iron_ore", 5, "tinkers_reforged:raw_aluminum_block", 3, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("coal", "Coal", "minecraft:coal_ore", 85, "minecraft:diamond_ore", 10, "minecraft:emerald_ore", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("copper", "Copper", "minecraft:copper_ore", 65, "minecraft:gold_ore", 15, "create:zinc_ore", 10, "tinkers_reforged:aluminum_ore", 7, "minecraft:raw_copper_block", 3, "minecraft:gravel", 1, "minecraft:cobblestone", 1)
+  excavatorJEI("dark", "Dark", "evilcraft:dark_ore", 55, "forbidden_arcanus:runic_stone", 45, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("fluorite", "Fluorite", "mekanism:fluorite_ore", 95, "forbidden_arcanus:arcane_crystal_ore", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("gold", "Gold", "minecraft:gold_ore", 60, "minecraft:copper_ore", 20, "thermal:silver_ore", 15, "minecraft:raw_gold_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("iridium", "Iridium", "ftbic:iridium_ore", 70, "mekanism:osmium_ore", 20, "mekanism:fluorite_ore", 10, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("iron", "Iron", "minecraft:iron_ore", 70, "thermal:nickel_ore", 25, "minecraft:raw_iron_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("lead", "Lead", "thermal:lead_ore", 70, "thermal:silver_ore", 24, "minecraft:diamond_ore", 1, "thermal:raw_lead_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("nickel", "Nickel", "thermal:nickel_ore", 70, "minecraft:iron_ore", 25, "thermal:raw_nickel_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("osmium", "Osmium", "mekanism:osmium_ore", 70, "ftbic:iridium_ore", 25, "mekanism:block_raw_osmium", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("quartz", "Certus Quartz", "ae2:quartz_ore", 70, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("redstone", "Redstone", "minecraft:redstone_ore", 75, "thermal:cinnabar_ore", 25, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("silver", "Silver", "thermal:silver_ore", 70, "thermal:lead_ore", 20, "minecraft:gold_ore", 5, "thermal:raw_silver_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("sulfur", "Sulfur", "thermal:sulfur_ore", 70, "thermal:niter_ore", 30, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorJEI("tin", "Tin", "thermal:tin_ore", 70, "minecraft:copper_ore", 15, "thermal:silver_ore", 10, "thermal:raw_tin_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("uraninite", "Uraninite", "mekanism:uranium_ore", 20, "thermal:lead_ore", 20, "powah:uraninite_ore_dense", 10, "powah:uraninite_ore", 20, "powah:uraninite_ore_poor", 30, "minecraft:gravel", 1, "minecraft:cobblestone", 1)
+  excavatorJEI("uranium", "Uranium", "mekanism:uranium_ore", 70, "miniutilities:ender_ore", 20, "powah:uraninite_ore_poor", 5, "mekanism:block_raw_uranium", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  excavatorJEI("zinc", "Zinc", "create:zinc_ore", 75, "thermal:tin_ore", 10, "minecraft:copper_ore", 10, "create:raw_zinc_block", 5, "minecraft:gravel", 1, "minecraft:cobblestone", 1, "minecraft:air", 1)
+  //End
+  excavatorEndJEI("ametrine", "Ametrine", "byg:ametrine_ore", 70, "byg:lignite_ore", 30, "byg:ether_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorEndJEI("cryptic", "Cryptic", "byg:cryptic_redstone_ore", 70, "rftoolsbase:dimensionalshard_end", 30, "byg:cryptic_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorEndJEI("kepu", "Kepu", "tinkers_reforged:kepu_ore", 70, "rftoolsbase:dimensionalshard_end", 30, "minecraft:end_stone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+  //Nether
+  excavatorNetherJEI("ancient_debris", "Archaic Digsite", "minecraft:polished_blackstone_bricks", 40, "minecraft:polished_blackstone", 30, "minecraft:ancient_debris", 20, "minecraft:gilded_blackstone", 10, "minecraft:netherrack", 1, "minecraft:basalt", 1, "minecraft:gravel", 1)
+  excavatorNetherJEI("byg", "BYG", "byg:emeraldite_ore", 35, "byg:pendorite_ore", 35, "minecraft:nether_quartz_ore", 30, "minecraft:netherrack", 1, "byg:scoria_stone", 1, "byg:blue_netherrack", 1, "minecraft:air", 1)
+  excavatorNetherJEI("cobalt", "Cobalt", "tconstruct:cobalt_ore", 70, "minecraft:nether_quartz_ore", 15, "minecraft:nether_gold_ore", 15, "minecraft:netherrack", 1, "minecraft:basalt", 1, "minecraft:air", 1, "minecraft:air", 1)
+  excavatorNetherJEI("gold_nether", "Nether Gold", "minecraft:nether_gold_ore", 70, "byg:brimstone_nether_gold_ore", 15, "byg:blue_nether_gold_ore", 15, "minecraft:netherrack", 1, "byg:brimstone", 1, "byg:blue_netherrack", 1, "minecraft:air", 1)
+  excavatorNetherJEI("quartz_nether", "Nether Quartz", "minecraft:nether_quartz_ore", 69, "byg:brimstone_nether_quartz_ore", 14, "byg:blue_nether_quartz_ore", 17, "minecraft:netherrack", 1, "byg:brimstone", 1, "byg:blue_netherrack", 1, "minecraft:air", 1)
 
 })
