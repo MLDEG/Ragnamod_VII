@@ -1,26 +1,11 @@
 {
     "type": "immersiveengineering:mineral_mix",
     "ores": [
-        {
-            "chance": 0.70,
-            "output": {
-                "item": "tinkers_reforged:kepu_ore"
-            }
-        },
-        {
-            "chance": 0.30,
-            "output": {
-                "item": "rftoolsbase:dimensionalshard_end"
-            }
-        }
+        {"chance": 0.70,"output": {"item": "tinkers_reforged:kepu_ore"}},
+        {"chance": 0.30,"output": {"item": "rftoolsbase:dimensionalshard_end"}}
     ],
     "spoils": [
-        {
-            "chance": 1.0,
-            "output": {
-                "item": "minecraft:end_stone"
-            }
-        }
+        {"chance": 1.0,"output": {"item": "minecraft:end_stone"}}
     ],
     "dimensions": [
         "minecraft:the_end"

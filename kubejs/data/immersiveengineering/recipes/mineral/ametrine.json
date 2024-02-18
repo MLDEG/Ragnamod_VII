@@ -1,26 +1,11 @@
 {
     "type": "immersiveengineering:mineral_mix",
     "ores": [
-        {
-            "chance": 0.70,
-            "output": {
-                "item": "byg:ametrine_ore"
-            }
-        },
-        {
-            "chance": 0.30,
-            "output": {
-                "item": "byg:lignite_ore"
-            }
-        }
+        {"chance": 0.70,"output": {"item": "byg:ametrine_ore"}},
+        {"chance": 0.30,"output": {"item": "byg:lignite_ore"}}
     ],
     "spoils": [
-        {
-            "chance": 1.0,
-            "output": {
-                "item": "byg:ether_stone"
-            }
-        }
+        {"chance": 1.0,"output": {"item": "byg:ether_stone"}}
     ],
     "dimensions": [
         "minecraft:the_end"

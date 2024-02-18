@@ -1,44 +1,14 @@
 {
     "type": "immersiveengineering:mineral_mix",
     "ores": [
-        {
-            "chance": 0.70,
-            "output": {
-                "item": "mekanism:uranium_ore"
-            }
-        },
-        {
-            "chance": 0.20,
-            "output": {
-                "item": "miniutilities:ender_ore"
-            }
-        },
-        {
-            "chance": 0.05,
-            "output": {
-                "item": "powah:uraninite_ore_poor"
-            }
-        },
-        {
-            "chance": 0.05,
-            "output": {
-                "item": "mekanism:block_raw_uranium"
-            }
-        }
+        {"chance": 0.70,"output": {"item": "mekanism:uranium_ore"}},
+        {"chance": 0.20,"output": {"item": "miniutilities:ender_ore"}},
+        {"chance": 0.05,"output": {"item": "powah:uraninite_ore_poor"}},
+        {"chance": 0.05,"output": {"item": "mekanism:block_raw_uranium"}}
     ],
     "spoils": [
-        {
-            "chance": 0.2,
-            "output": {
-                "item": "minecraft:gravel"
-            }
-        },
-        {
-            "chance": 0.5,
-            "output": {
-                "item": "minecraft:cobblestone"
-            }
-        }
+        {"chance": 0.2,"output": {"item": "minecraft:gravel"}},
+        {"chance": 0.5,"output": {"item": "minecraft:cobblestone"}}
     ],
     "dimensions": [
         "minecraft:overworld",
