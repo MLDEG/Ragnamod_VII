@@ -1,0 +1,20 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "minecraft:magma_block"
+        },
+        {
+            "item": "minecraft:basalt"
+        }
+    ],
+    "entity": "thermal:basalz",
+    "aura": 500,
+    "time": 60
+}
