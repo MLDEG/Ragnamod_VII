@@ -1,0 +1,14 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "ars_nouveau:air_essence"
+        }
+    ],
+    "entity": "ars_nouveau:whirlisprig",
+    "aura": 500,
+    "time": 60
+}
