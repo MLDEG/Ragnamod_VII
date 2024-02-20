@@ -90,4 +90,3 @@ onEvent('item.tooltip', tooltip => {
 		text.add(1, Text.of('§7The writing is on the wall...'))
 	})
 })
-
