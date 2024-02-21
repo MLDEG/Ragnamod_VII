@@ -950,6 +950,7 @@
 			}]
 		}
 		{
+			title: "Barrel"
 			x: -11.0d
 			y: -4.5d
 			shape: "square"
@@ -975,6 +976,7 @@
 			}]
 		}
 		{
+			title: "Iron Barrel"
 			x: -11.0d
 			y: -2.5d
 			shape: "square"
@@ -1003,6 +1005,7 @@
 			}]
 		}
 		{
+			title: "Gold Barrel"
 			x: -11.0d
 			y: -1.5d
 			shape: "square"
@@ -1031,6 +1034,7 @@
 			}]
 		}
 		{
+			title: "Diamond Barrel"
 			x: -11.0d
 			y: -0.5d
 			shape: "square"
@@ -1059,6 +1063,7 @@
 			}]
 		}
 		{
+			title: "Netherite Barrel"
 			x: -11.0d
 			y: 0.5d
 			shape: "square"
@@ -1153,6 +1158,7 @@
 			}]
 		}
 		{
+			title: "Chest"
 			x: -10.0d
 			y: -3.5d
 			shape: "square"
@@ -1178,6 +1184,7 @@
 			}]
 		}
 		{
+			title: "Iron Chest"
 			x: -10.0d
 			y: -1.5d
 			shape: "square"
@@ -1206,6 +1213,7 @@
 			}]
 		}
 		{
+			title: "Gold Chest"
 			x: -10.0d
 			y: -0.5d
 			shape: "square"
@@ -1234,6 +1242,7 @@
 			}]
 		}
 		{
+			title: "Diamond Chest"
 			x: -10.0d
 			y: 0.5d
 			shape: "square"
@@ -1262,6 +1271,7 @@
 			}]
 		}
 		{
+			title: "Netherite Chest"
 			x: -10.0d
 			y: 1.5d
 			shape: "square"
@@ -5050,6 +5060,7 @@
 			}]
 		}
 		{
+			title: "Copper Barrel"
 			x: -11.0d
 			y: -3.5d
 			shape: "square"
@@ -5078,6 +5089,7 @@
 			}]
 		}
 		{
+			title: "Copper Chest"
 			x: -10.0d
 			y: -2.5d
 			shape: "square"
