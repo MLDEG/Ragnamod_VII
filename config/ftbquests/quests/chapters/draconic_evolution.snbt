@@ -2345,6 +2345,35 @@
 				item: "ragnamod_seven:sickening_mixture"
 			}]
 		}
+		{
+			title: "Mark of the Falling Tower"
+			x: -1.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"As soon as you have your Draconium Dust, you can use the Blood Magic ritual (Mark of the Falling Tower) to call a meteorite from another dimension to appear full of Draconium Ore."
+				""
+				"Simply make the structure, activate it (it cost 250000 life essence from your network) and toss a Draconium Dust on top of the Master Ritual Stone. (this cost 1M Life Essence from your Network)"
+				"{image:ftbquests:textures/quests/mark_of_the_falling_tower.png width:150 height:100 align:1}"
+				"The trick is to place an Obsidian block 16 blocks above of the Master Ritual Stone to avoid breaking some ritual stones from your structure."
+			]
+			dependencies: [
+				"57F807CF8460DB9D"
+				"170B797FE3905864"
+			]
+			id: "31EF7B84DC91ACF6"
+			tasks: [{
+				id: "74B58C286E8F559E"
+				type: "item"
+				item: "draconicevolution:end_draconium_ore"
+			}]
+			rewards: [{
+				id: "265B1B7D6940668A"
+				type: "item"
+				item: "draconicevolution:end_draconium_ore"
+				random_bonus: 7
+			}]
+		}
 	]
 	quest_links: [ ]
 }
