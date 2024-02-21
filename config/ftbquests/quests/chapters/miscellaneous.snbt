@@ -3333,6 +3333,8 @@
 			description: [
 				"A Laser Node can connect to another Laser Node from 8 blocks."
 				"The Laser Connector can increase the range of your network."
+				""
+				"Don't overuse node overclockers, it can be TPS killer !"
 			]
 			dependencies: [
 				"06B022181A43AF7A"
