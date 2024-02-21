@@ -328,8 +328,14 @@ onEvent('tags.items', e => {
     e.add('botanypotstiers:elite_hopper_botany_pot', 'botanypotstiers:elite_terracotta_hopper_botany_pot')
     e.add('botanypotstiers:ultra_hopper_botany_pot', 'botanypotstiers:ultra_terracotta_hopper_botany_pot')
     e.add('botanypotstiers:creative_hopper_botany_pot', 'botanypotstiers:creative_terracotta_hopper_botany_pot')
+
+    //Workbenches
+    e.add('forge:workbenches', ['blue_skies:cherry_crafting_table', 'blue_skies:dusk_crafting_table', 'blue_skies:frostbright_crafting_table', 'blue_skies:bluebright_crafting_table', 'blue_skies:maple_crafting_table', 'blue_skies:lunar_crafting_table', 'blue_skies:starlit_crafting_table'])
 })
 onEvent('tags.blocks', e => {
+
+    //Workbenches
+    e.add('forge:workbenches', ['blue_skies:cherry_crafting_table', 'blue_skies:dusk_crafting_table', 'blue_skies:frostbright_crafting_table', 'blue_skies:bluebright_crafting_table', 'blue_skies:maple_crafting_table', 'blue_skies:lunar_crafting_table', 'blue_skies:starlit_crafting_table'])
 
     //Remove Raw Materials
     e.remove('forge:ores/nickel', ['immersiveengineering:ore_nickel', 'immersiveengineering:deepslate_ore_nickel'])
