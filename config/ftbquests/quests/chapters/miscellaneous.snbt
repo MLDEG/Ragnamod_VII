@@ -1482,6 +1482,8 @@
 				"The Travel Staff allows you to teleport you by using Shift Right-Click and aiming at the desired location."
 				""
 				"Aim the staff at the travel anchor to teleport onto it."
+				""
+				"You can camouflage the block by right-clicking while holding a block in your off-hand."
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "0ECA623E8B187988"
