@@ -371,8 +371,9 @@ onEvent('tags.fluids', e => {
 
     //Add
     e.add('forge:experience', 'create_enchantment_industry:experience')
-
     //Blood
     e.add('forge:blood', ["bloodmagic:life_essence_fluid", "evilcraft:blood", "hexerei:blood_fluid", "tconstruct:blood"])
+    //Ethylene
+    e.add('forge:ethene', 'immersivepetroleum:ethylene')
 
 })
