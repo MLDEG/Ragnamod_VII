@@ -257,7 +257,7 @@ onEvent('tags.items', e => {
     e.add('quark:colored_runes', ['quark:rainbow_rune', 'quark:red_rune', 'quark:brown_rune', 'quark:purple_rune', 'quark:light_gray_rune', 'quark:pink_rune', 'quark:yellow_rune', 'quark:magenta_rune', 'quark:white_rune', 'quark:black_rune', 'quark:green_rune', 'quark:blue_rune', 'quark:cyan_rune', 'quark:gray_rune', 'quark:lime_rune', 'quark:light_blue_rune', 'quark:orange_rune'])
 
     //Plastic
-    e.add('forge:plastic', 'pneumaticcraft:plastic')
+    e.add('forge:plastic', ['pneumaticcraft:plastic', 'mekanism:hdpe_sheet'])
 
     //Tags for Powah Items
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
