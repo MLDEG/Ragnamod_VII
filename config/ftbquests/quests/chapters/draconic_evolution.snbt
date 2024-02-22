@@ -605,8 +605,8 @@
 			description: ["The Chaotic Fusion Crafting Injector is the final tier of Fusion Crafting Injectors used in the Fusion crafting process, they can get energy more quickly, so your craft in the Fusion Crafting Core can do more quickly."]
 			dependencies: [
 				"16A5A3624601F22E"
-				"324526C4C41DC51B"
 				"170B797FE3905864"
+				"410C369B33532099"
 			]
 			id: "0C3DD446B101C1D1"
 			tasks: [{
