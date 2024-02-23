@@ -124,4 +124,7 @@ onEvent('item.registry', e => {
   holy('Energy®', 'ragnamod_seven:energy_raspberry_raptor', 'Raspberry Raptor', 'minecraft:speed', 'Raspberry x Yuzu')
   holy('Energy®', 'ragnamod_seven:energy_strawberry_shark', 'Strawberry Shark', 'minecraft:speed', 'Strawberry x Mandarin')
   holy('Energy®', 'ragnamod_seven:energy_tropical_tiger', 'Tropical Tiger', 'minecraft:speed', 'Maracuja x Pineapple')
+  holy('Energy®', 'ragnamod_seven:energy_thai_lime_toucan', 'Thai Lime Toucan', 'minecraft:speed', 'Thai Lime')
+  holy('Energy®', 'ragnamod_seven:energy_watermelon_whale', 'Watermelon Whale', 'minecraft:speed', 'Whatermelon')
+
 })

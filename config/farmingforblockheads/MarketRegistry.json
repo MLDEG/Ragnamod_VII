@@ -811,6 +811,42 @@
       "item": "ragnamod_seven:holy_powders"
     },
     "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_pear"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:hydration_cranberry"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_thai_lime_toucan"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
+  },
+  {
+    "output": {
+      "item": "ragnamod_seven:energy_watermelon_whale"
+    },
+    "payment": {
+      "item": "ragnamod_seven:holy_powders"
+    },
+    "category": "holy"
   }
 ]
 }
