@@ -631,8 +631,15 @@ onEvent('recipes', e => {
   e.shapeless('ragnamod_seven:energy_raspberry_raptor_bottle', ['ragnamod_seven:energy_raspberry_raptor', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
   e.shapeless('ragnamod_seven:energy_strawberry_shark_bottle', ['ragnamod_seven:energy_strawberry_shark', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
   e.shapeless('ragnamod_seven:energy_tropical_tiger_bottle', ['ragnamod_seven:energy_tropical_tiger', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:hydration_cranberry_bottle', ['ragnamod_seven:hydration_cranberry', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:hydration_pear_bottle', ['ragnamod_seven:hydration_pear', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_thai_lime_toucan_bottle', ['ragnamod_seven:energy_thai_lime_toucan', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
+  e.shapeless('ragnamod_seven:energy_watermelon_whale_bottle', ['ragnamod_seven:energy_watermelon_whale', Item.of('minecraft:potion', '{Potion:"minecraft:water"}')])
 
   //Solid Nuclear Waste
   e.custom({ "type": "mekanism:reaction", "itemInput": { "ingredient": { "tag": "forge:dusts/fluorite" } }, "fluidInput": { "amount": 1000, "fluid": "chemlib:nitrogen_fluid" }, "gasInput": { "amount": 100, "gas": "mekanism:spent_nuclear_waste" }, "duration": 100, "itemOutput": { "item": "ragnamod_seven:solid_nuclear_waste" } })
+
+  //Tuna Sandwich
+  e.shapeless('croptopia:tuna_sandwich', ['minecraft:bread', 'croptopia:butter', 'croptopia:tuna'])
 
 })

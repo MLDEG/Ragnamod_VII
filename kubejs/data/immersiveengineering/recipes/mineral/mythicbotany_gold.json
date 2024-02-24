@@ -1,0 +1,17 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {"chance": 0.90,"output": {"item": "mythicbotany:gold_ore"}},
+        {"chance": 0.09,"output": {"item": "mythicbotany:elementium_ore"}},
+        {"chance": 0.01,"output": {"item": "mythicbotany:dragonstone_ore"}}
+    ],
+    "spoils": [
+        {"chance": 0.2,"output": {"item": "botania:livingrock"}}
+    ],
+    "dimensions": [
+        "mythicbotany:alfheim"
+    ],
+    "weight": 5,
+    "fail_chance": 0.15,
+    "sample_background": "botania:livingrock"
+}

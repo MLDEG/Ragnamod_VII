@@ -1,0 +1,18 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {"chance": 0.75,"output": {"item": "beyond_earth:moon_desh_ore"}},
+        {"chance": 0.15,"output": {"item": "beyond_earth:moon_iron_ore"}},
+        {"chance": 0.10,"output": {"item": "beyond_earth:moon_cheese_ore"}}
+    ],
+    "spoils": [
+        {"chance": 0.7,"output": {"item": "beyond_earth:moon_stone"}},
+        {"chance": 0.3,"output": {"item": "beyond_earth:moon_sand"}}
+    ],
+    "dimensions": [
+        "beyond_earth:moon"
+    ],
+    "weight": 25,
+    "fail_chance": 0.15,
+    "sample_background": "beyond_earth:moon_stone"
+}

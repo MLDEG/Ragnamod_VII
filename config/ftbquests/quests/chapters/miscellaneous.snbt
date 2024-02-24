@@ -460,7 +460,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: 7.5d
 			shape: "square"
 			description: [
@@ -495,13 +495,13 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 7.0d
+			x: -1.5d
+			y: 6.5d
 			shape: "square"
 			description: ["The Iron Backpack have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: [
-				"269D21923CB857A7"
 				"577D6202E19B2599"
+				"1A1572C486A357CD"
 			]
 			id: "5378CA948429B7B3"
 			tasks: [{
@@ -530,7 +530,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -0.5d
 			y: 6.5d
 			shape: "square"
 			description: ["The Gold Backpack have 81 slots to put things and have 3 upgrade slots."]
@@ -565,7 +565,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 0.5d
 			y: 7.0d
 			shape: "square"
 			description: ["The Diamond Backpack have 108 slots to put things and have 5 upgrade slots."]
@@ -600,7 +600,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 7.5d
 			shape: "square"
 			description: ["The Netherite Backpack have 120 slots to put things and have 7 upgrade slots."]
@@ -950,6 +950,7 @@
 			}]
 		}
 		{
+			title: "Barrel"
 			x: -11.0d
 			y: -4.5d
 			shape: "square"
@@ -975,13 +976,14 @@
 			}]
 		}
 		{
+			title: "Iron Barrel"
 			x: -11.0d
-			y: -3.5d
+			y: -2.5d
 			shape: "square"
 			description: ["The Iron Barrel have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: [
-				"1C896A52A86D60C9"
 				"577D6202E19B2599"
+				"527E35B0776F009A"
 			]
 			id: "3CA7C6E4B90E7E2F"
 			tasks: [{
@@ -1003,8 +1005,9 @@
 			}]
 		}
 		{
+			title: "Gold Barrel"
 			x: -11.0d
-			y: -2.5d
+			y: -1.5d
 			shape: "square"
 			description: ["The Gold Barrel have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: [
@@ -1031,8 +1034,9 @@
 			}]
 		}
 		{
+			title: "Diamond Barrel"
 			x: -11.0d
-			y: -1.5d
+			y: -0.5d
 			shape: "square"
 			description: ["The Diamond Barrel have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: [
@@ -1059,8 +1063,9 @@
 			}]
 		}
 		{
+			title: "Netherite Barrel"
 			x: -11.0d
-			y: -0.5d
+			y: 0.5d
 			shape: "square"
 			description: ["The Netherite Barrel have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: [
@@ -1088,7 +1093,7 @@
 		{
 			title: "Limited Barrel"
 			x: -11.0d
-			y: 0.5d
+			y: 1.5d
 			shape: "square"
 			description: ["The Limited Barrels work exactly the same as a Drawer, you can store one type of item in a single Limited Barrel, two in a Limited Barrel II etc..."]
 			dependencies: ["577D6202E19B2599"]
@@ -1153,8 +1158,9 @@
 			}]
 		}
 		{
+			title: "Chest"
 			x: -10.0d
-			y: -3.0d
+			y: -3.5d
 			shape: "square"
 			description: ["The Wooden Chest works the same way as a chest, you have the place of a classic barrel with an upgrade slot."]
 			dependencies: ["577D6202E19B2599"]
@@ -1178,13 +1184,14 @@
 			}]
 		}
 		{
+			title: "Iron Chest"
 			x: -10.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: ["The Iron chest have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: [
-				"1BA882F4CA682BAB"
 				"577D6202E19B2599"
+				"7EAC5428839FC9CA"
 			]
 			id: "30C701AF99006157"
 			tasks: [{
@@ -1206,8 +1213,9 @@
 			}]
 		}
 		{
+			title: "Gold Chest"
 			x: -10.0d
-			y: -1.0d
+			y: -0.5d
 			shape: "square"
 			description: ["The Gold Chest have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: [
@@ -1234,8 +1242,9 @@
 			}]
 		}
 		{
+			title: "Diamond Chest"
 			x: -10.0d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			description: ["The Diamond Chest have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: [
@@ -1262,8 +1271,9 @@
 			}]
 		}
 		{
+			title: "Netherite Chest"
 			x: -10.0d
-			y: 1.0d
+			y: 1.5d
 			shape: "square"
 			description: ["The Netherite Chest have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: [
@@ -1314,12 +1324,12 @@
 		}
 		{
 			x: -9.0d
-			y: -2.5d
+			y: -1.5d
 			shape: "square"
 			description: ["The Iron Shulker have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: [
-				"118BC2A083BED6DE"
 				"577D6202E19B2599"
+				"1ED3C72C4A25EC5E"
 			]
 			id: "14233AF80B6A7FE4"
 			tasks: [{
@@ -1336,7 +1346,7 @@
 		}
 		{
 			x: -9.0d
-			y: -1.5d
+			y: -0.5d
 			shape: "square"
 			description: ["The Gold Shulker have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: [
@@ -1358,7 +1368,7 @@
 		}
 		{
 			x: -9.0d
-			y: -0.5d
+			y: 0.5d
 			shape: "square"
 			description: ["The Diamond Shulker have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: [
@@ -1380,7 +1390,7 @@
 		}
 		{
 			x: -9.0d
-			y: 0.5d
+			y: 1.5d
 			shape: "square"
 			description: ["The Netherite Shulker have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: [
@@ -1400,7 +1410,7 @@
 			}]
 		}
 		{
-			x: -11.0d
+			x: -7.5d
 			y: 1.5d
 			shape: "square"
 			description: ["The Packing tape allows you to tape your chests, barrels from Sophisticated Storage, to keep items inside your storage when you want to take it."]
@@ -1482,6 +1492,8 @@
 				"The Travel Staff allows you to teleport you by using Shift Right-Click and aiming at the desired location."
 				""
 				"Aim the staff at the travel anchor to teleport onto it."
+				""
+				"You can camouflage the block by right-clicking while holding a block in your off-hand."
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "0ECA623E8B187988"
@@ -1739,7 +1751,7 @@
 		}
 		{
 			x: 2.5d
-			y: 7.0d
+			y: 6.5d
 			shape: "square"
 			description: [
 				"This item allows you to accelerate the rate at which blocks tick."
@@ -3147,7 +3159,7 @@
 		{
 			title: "Functional Storage"
 			x: -7.5d
-			y: -2.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"Function Storage works like Storage Drawer, but it's more powerful, in my opinion."
@@ -3333,6 +3345,8 @@
 			description: [
 				"A Laser Node can connect to another Laser Node from 8 blocks."
 				"The Laser Connector can increase the range of your network."
+				""
+				"Don't overuse node overclockers, it can be TPS killer !"
 			]
 			dependencies: [
 				"06B022181A43AF7A"
@@ -3415,7 +3429,7 @@
 		}
 		{
 			x: -4.5d
-			y: 7.0d
+			y: 6.5d
 			shape: "square"
 			description: ["Classic angel ring, you can fly like creative !"]
 			dependencies: ["577D6202E19B2599"]
@@ -3922,7 +3936,7 @@
 		{
 			title: "Functional Control"
 			x: -7.5d
-			y: -1.0d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"The Linking Tool is THE tool you need to properly connect all your drawer on your Controller, you can also, with it, set up your Ender Drawer."
@@ -3966,7 +3980,7 @@
 		{
 			title: "Special upgrades"
 			x: -7.5d
-			y: 1.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"Functional Storage as some upgrade for upgrading your content and voiding them, but that not it !"
@@ -4030,7 +4044,7 @@
 		{
 			title: "Framed Drawer"
 			x: -7.5d
-			y: 0.0d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"The Frame Drawer is pretty fun to use, because you can custom your drawer like you want."
@@ -5000,6 +5014,130 @@
 					}
 				}
 			]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			shape: "square"
+			description: ["The Copper Backpack have 45 slots to put things and have 1 upgrade slot."]
+			dependencies: [
+				"577D6202E19B2599"
+				"269D21923CB857A7"
+			]
+			id: "1A1572C486A357CD"
+			tasks: [{
+				id: "2E46A8340BB07629"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:copper_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 45
+						upgradeSlots: 1
+						renderInfo: {
+							upgradeItems: [{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									data_model: { }
+								}
+							}]
+						}
+						contentsUuid: [I;
+							-329810805
+							-555398877
+							-2139060655
+							-181499887
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "549B212CE0935914"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "Copper Barrel"
+			x: -11.0d
+			y: -3.5d
+			shape: "square"
+			description: ["The Copper Barrel have 45 slots to put things and have 1 upgrade slot."]
+			dependencies: [
+				"577D6202E19B2599"
+				"1C896A52A86D60C9"
+			]
+			id: "527E35B0776F009A"
+			tasks: [{
+				id: "7CD42D5ED04F5E66"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:copper_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [{
+				id: "16A799376B607565"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 15
+			}]
+		}
+		{
+			title: "Copper Chest"
+			x: -10.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Copper Chest have 45 slots to put things and have 1 upgrade slot."]
+			dependencies: [
+				"577D6202E19B2599"
+				"1BA882F4CA682BAB"
+			]
+			id: "7EAC5428839FC9CA"
+			tasks: [{
+				id: "3781CB57A0170252"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:copper_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [{
+				id: "588E9FC459C37955"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 15
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			shape: "square"
+			description: ["The Copper Shulker have 45 slots to put things and have 1 upgrade slot."]
+			dependencies: [
+				"577D6202E19B2599"
+				"118BC2A083BED6DE"
+			]
+			id: "1ED3C72C4A25EC5E"
+			tasks: [{
+				id: "2E7D603EEBE60319"
+				type: "item"
+				item: "sophisticatedstorage:copper_shulker_box"
+			}]
+			rewards: [{
+				id: "412EE8622C36FEF9"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 15
+			}]
 		}
 	]
 	quest_links: [ ]

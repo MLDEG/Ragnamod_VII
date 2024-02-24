@@ -1,0 +1,17 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "minecraft:mutton"
+        },
+        {
+            "tag": "forge:wool"
+        }
+    ],
+    "entity": "minecraft:sheep",
+    "aura": 500,
+    "time": 60
+}

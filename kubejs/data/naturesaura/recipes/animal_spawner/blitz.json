@@ -1,0 +1,20 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "darkerdepths:aridrock"
+        },
+        {
+            "item": "twilightforest:wispy_cloud"
+        }
+    ],
+    "entity": "thermal:blitz",
+    "aura": 500,
+    "time": 60
+}

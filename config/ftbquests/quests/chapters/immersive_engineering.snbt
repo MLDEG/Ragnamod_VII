@@ -1145,7 +1145,7 @@
 			x: 18.5d
 			y: -3.5d
 			shape: "square"
-			description: ["The Diesel Generator is a 3×5×3 multiblock used to generates RF by burning Biodiesel."]
+			description: ["The Diesel Generator is a 5×3x3 multiblock used to generates RF by burning Biodiesel."]
 			dependencies: [
 				"000000000000077F"
 				"2C4EB8D4AD7073DF"
@@ -1201,7 +1201,7 @@
 			x: 10.5d
 			y: -3.5d
 			shape: "square"
-			description: ["The Metal Press is a 3×1×3 multiblock used to press ingots into plates, wires or gears."]
+			description: ["The Metal Press is a 1x3×3 multiblock used to press ingots into plates, wires or gears."]
 			dependencies: [
 				"0000000000000789"
 				"2C4EB8D4AD7073DF"
@@ -1299,7 +1299,7 @@
 			x: 16.5d
 			y: -3.5d
 			shape: "square"
-			description: ["The Sawmill is a 3×5×3 multiblock used to process woods."]
+			description: ["The Sawmill is a 5×2x3 multiblock used to process woods."]
 			dependencies: [
 				"0000000000000793"
 				"2C4EB8D4AD7073DF"
@@ -1540,7 +1540,7 @@
 			x: 18.5d
 			y: 2.5d
 			shape: "square"
-			description: ["The Refinery is a 3x5x3 multi-block used to make Biodiesel."]
+			description: ["The Refinery is a 5x3x3 multi-block used to make Biodiesel."]
 			dependencies: [
 				"000000000000078F"
 				"2C4EB8D4AD7073DF"
@@ -1651,7 +1651,7 @@
 			x: 14.5d
 			y: -3.5d
 			shape: "square"
-			description: ["The Bottling Machine is a 3x2x3 multiblock used to fill liquid containers."]
+			description: ["The Bottling Machine is a 2x3x3 multiblock used to fill liquid containers."]
 			dependencies: [
 				"000000000000077B"
 				"2C4EB8D4AD7073DF"

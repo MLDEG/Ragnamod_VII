@@ -1,38 +1,18 @@
 {
     "type": "immersiveengineering:mineral_mix",
     "ores": [
-        {
-            "chance": 0.75,
-            "output": {
-                "item": "minecraft:redstone_ore"
-            }
-        },
-        {
-            "chance": 0.25,
-            "output": {
-                "item": "thermal:cinnabar_ore"
-            }
-        }
+        {"chance": 0.75,"output": {"item": "minecraft:redstone_ore"}},
+        {"chance": 0.25,"output": {"item": "thermal:cinnabar_ore"}}
     ],
     "spoils": [
-        {
-            "chance": 0.2,
-            "output": {
-                "item": "minecraft:gravel"
-            }
-        },
-        {
-            "chance": 0.5,
-            "output": {
-                "item": "minecraft:cobblestone"
-            }
-        }
+        {"chance": 0.2,"output": {"item": "minecraft:gravel"}},
+        {"chance": 0.5,"output": {"item": "minecraft:cobblestone"}}
     ],
     "dimensions": [
         "minecraft:overworld",
         "twilightforest:twilight_forest",
         "javd:void"
     ],
-    "weight": 1,
+    "weight": 25,
     "fail_chance": 0.15
 }

@@ -257,7 +257,7 @@ onEvent('tags.items', e => {
     e.add('quark:colored_runes', ['quark:rainbow_rune', 'quark:red_rune', 'quark:brown_rune', 'quark:purple_rune', 'quark:light_gray_rune', 'quark:pink_rune', 'quark:yellow_rune', 'quark:magenta_rune', 'quark:white_rune', 'quark:black_rune', 'quark:green_rune', 'quark:blue_rune', 'quark:cyan_rune', 'quark:gray_rune', 'quark:lime_rune', 'quark:light_blue_rune', 'quark:orange_rune'])
 
     //Plastic
-    e.add('forge:plastic', 'pneumaticcraft:plastic')
+    e.add('forge:plastic', ['pneumaticcraft:plastic', 'mekanism:hdpe_sheet'])
 
     //Tags for Powah Items
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
@@ -328,8 +328,14 @@ onEvent('tags.items', e => {
     e.add('botanypotstiers:elite_hopper_botany_pot', 'botanypotstiers:elite_terracotta_hopper_botany_pot')
     e.add('botanypotstiers:ultra_hopper_botany_pot', 'botanypotstiers:ultra_terracotta_hopper_botany_pot')
     e.add('botanypotstiers:creative_hopper_botany_pot', 'botanypotstiers:creative_terracotta_hopper_botany_pot')
+
+    //Workbenches
+    e.add('forge:workbenches', ['blue_skies:cherry_crafting_table', 'blue_skies:dusk_crafting_table', 'blue_skies:frostbright_crafting_table', 'blue_skies:bluebright_crafting_table', 'blue_skies:maple_crafting_table', 'blue_skies:lunar_crafting_table', 'blue_skies:starlit_crafting_table'])
 })
 onEvent('tags.blocks', e => {
+
+    //Workbenches
+    e.add('forge:workbenches', ['blue_skies:cherry_crafting_table', 'blue_skies:dusk_crafting_table', 'blue_skies:frostbright_crafting_table', 'blue_skies:bluebright_crafting_table', 'blue_skies:maple_crafting_table', 'blue_skies:lunar_crafting_table', 'blue_skies:starlit_crafting_table'])
 
     //Remove Raw Materials
     e.remove('forge:ores/nickel', ['immersiveengineering:ore_nickel', 'immersiveengineering:deepslate_ore_nickel'])
@@ -343,7 +349,7 @@ onEvent('tags.blocks', e => {
     e.add('blue_skies:logs', ['blue_skies:stripped_dusk_wood', 'blue_skies:maple_wood', 'blue_skies:stripped_maple_wood', 'blue_skies:cherry_wood', 'blue_skies:stripped_cherry_wood', 'blue_skies:bluebright_log', 'blue_skies:stripped_bluebright_log', 'blue_skies:starlit_log', 'blue_skies:stripped_starlit_log', 'blue_skies:frostbright_log', 'blue_skies:stripped_frostbright_log', 'blue_skies:lunar_log', 'blue_skies:stripped_lunar_log', 'blue_skies:dusk_log', 'blue_skies:stripped_dusk_log', 'blue_skies:maple_log', 'blue_skies:stripped_maple_log', 'blue_skies:cherry_log', 'blue_skies:stripped_cherry_log', 'blue_skies:bluebright_wood', 'blue_skies:stripped_bluebright_wood', 'blue_skies:starlit_wood', 'blue_skies:stripped_starlit_wood', 'blue_skies:frostbright_wood', 'blue_skies:stripped_frostbright_wood', 'blue_skies:lunar_wood', 'blue_skies:stripped_lunar_wood', 'blue_skies:dusk_wood'])
 
     //Fix Mineable
-    function mineablePickaxe(pickaxe) { e.add(pickaxe, ['chickenchunks:chunk_loader', 'chickenchunks:spot_loader', 'naturesaura:conversion_catalyst', 'naturesaura:animal_spawner', 'naturesaura:crushing_catalyst', 'naturesaura:tainted_gold_block', 'naturesaura:item_distributor', 'naturesaura:moss_generator', 'naturesaura:hopper_upgrade', 'naturesaura:gold_nether_brick', 'naturesaura:time_changer', 'compactcrafting:field_projector', 'compactcrafting:match_proxy', 'compactcrafting:rescan_proxy', 'evilcraft:environmental_accumulator', 'naturesaura:nature_altar', 'naturesaura:infused_stairs', 'naturesaura:spring', 'naturesaura:infused_iron_block', 'naturesaura:chunk_loader', 'naturesaura:aura_detector', 'naturesaura:pickup_stopper', 'naturesaura:potion_generator', 'naturesaura:firework_generator', 'naturesaura:chorus_generator', 'naturesaura:snow_creator', 'naturesaura:infused_stone', 'naturesaura:nether_grass', 'naturesaura:weather_changer', 'naturesaura:infused_brick', 'naturesaura:blast_furnace_booster', 'naturesaura:aura_timer', 'naturesaura:infused_slab', 'naturesaura:field_creator', 'naturesaura:grated_chute', 'naturesaura:gold_brick', 'naturesaura:powder_placer', 'naturesaura:furnace_heater', 'naturesaura:spawn_lamp', 'naturesaura:rf_converter', 'naturesaura:placer', 'naturesaura:generator_limit_remover', 'naturesaura:projectile_generator', 'naturesaura:animal_generator', 'naturesaura:ender_crate', 'psi:white_psimetal_plate', 'psi:lit_white_psimetal_plate', 'psi:ebony_psimetal_block', 'psi:psimetal_block', 'psi:psigem_block', 'psi:black_psimetal_plate', 'psi:lit_black_psimetal_plate', 'psi:ivory_psimetal_block', 'miniutilities:white_lapis_caelestis', 'miniutilities:light_gray_lapis_caelestis', 'miniutilities:gray_lapis_caelestis', 'miniutilities:black_lapis_caelestis', 'miniutilities:red_lapis_caelestis', 'miniutilities:orange_lapis_caelestis', 'miniutilities:yellow_lapis_caelestis', 'miniutilities:lime_lapis_caelestis', 'miniutilities:green_lapis_caelestis', 'miniutilities:light_blue_lapis_caelestis', 'miniutilities:cyan_lapis_caelestis', 'miniutilities:blue_lapis_caelestis', 'miniutilities:purple_lapis_caelestis', 'miniutilities:magenta_lapis_caelestis', 'miniutilities:pink_lapis_caelestis', 'miniutilities:brown_lapis_caelestis', 'clickmachine:auto_clicker', 'psi:programmer', 'psi:cad_assembler', 'integratednbt:nbt_extractor', 'tinkers_reforged:kepu_ore', 'wormhole:creative_energy_cell']) }
+    function mineablePickaxe(pickaxe) { e.add(pickaxe, ['chickenchunks:chunk_loader', 'chickenchunks:spot_loader', 'naturesaura:conversion_catalyst', 'naturesaura:animal_spawner', 'naturesaura:crushing_catalyst', 'naturesaura:tainted_gold_block', 'naturesaura:item_distributor', 'naturesaura:moss_generator', 'naturesaura:hopper_upgrade', 'naturesaura:gold_nether_brick', 'naturesaura:time_changer', 'compactcrafting:field_projector', 'compactcrafting:match_proxy', 'compactcrafting:rescan_proxy', 'evilcraft:environmental_accumulator', 'naturesaura:nature_altar', 'naturesaura:infused_stairs', 'naturesaura:spring', 'naturesaura:infused_iron_block', 'naturesaura:chunk_loader', 'naturesaura:aura_detector', 'naturesaura:pickup_stopper', 'naturesaura:potion_generator', 'naturesaura:firework_generator', 'naturesaura:chorus_generator', 'naturesaura:snow_creator', 'naturesaura:infused_stone', 'naturesaura:nether_grass', 'naturesaura:weather_changer', 'naturesaura:infused_brick', 'naturesaura:blast_furnace_booster', 'naturesaura:aura_timer', 'naturesaura:infused_slab', 'naturesaura:field_creator', 'naturesaura:grated_chute', 'naturesaura:gold_brick', 'naturesaura:powder_placer', 'naturesaura:furnace_heater', 'naturesaura:spawn_lamp', 'naturesaura:rf_converter', 'naturesaura:placer', 'naturesaura:generator_limit_remover', 'naturesaura:projectile_generator', 'naturesaura:animal_generator', 'naturesaura:ender_crate', 'psi:white_psimetal_plate', 'psi:lit_white_psimetal_plate', 'psi:ebony_psimetal_block', 'psi:psimetal_block', 'psi:psigem_block', 'psi:black_psimetal_plate', 'psi:lit_black_psimetal_plate', 'psi:ivory_psimetal_block', 'miniutilities:white_lapis_caelestis', 'miniutilities:light_gray_lapis_caelestis', 'miniutilities:gray_lapis_caelestis', 'miniutilities:black_lapis_caelestis', 'miniutilities:red_lapis_caelestis', 'miniutilities:orange_lapis_caelestis', 'miniutilities:yellow_lapis_caelestis', 'miniutilities:lime_lapis_caelestis', 'miniutilities:green_lapis_caelestis', 'miniutilities:light_blue_lapis_caelestis', 'miniutilities:cyan_lapis_caelestis', 'miniutilities:blue_lapis_caelestis', 'miniutilities:purple_lapis_caelestis', 'miniutilities:magenta_lapis_caelestis', 'miniutilities:pink_lapis_caelestis', 'miniutilities:brown_lapis_caelestis', 'clickmachine:auto_clicker', 'psi:programmer', 'psi:cad_assembler', 'integratednbt:nbt_extractor', 'tinkers_reforged:kepu_ore', 'wormhole:creative_energy_cell', 'goldenhopper:golden_hopper', 'draconicevolution:placed_item']) }
     var pickaxe = ['minecraft:mineable/pickaxe', 'avaritia:mineable/infinity_pickaxe', 'tconstruct:mineable/pickadze', 'immersiveengineering:mineable/drill']
     pickaxe.forEach(P => { mineablePickaxe(P) })
     function mineableAxe(axe) { e.add(axe, ['naturesaura:ancient_slab', 'naturesaura:auto_crafter', 'naturesaura:flower_generator', 'naturesaura:oak_generator', 'naturesaura:ancient_stairs', 'naturesaura:wood_stand', 'naturesaura:offering_table']) }
@@ -365,8 +371,9 @@ onEvent('tags.fluids', e => {
 
     //Add
     e.add('forge:experience', 'create_enchantment_industry:experience')
-
     //Blood
     e.add('forge:blood', ["bloodmagic:life_essence_fluid", "evilcraft:blood", "hexerei:blood_fluid", "tconstruct:blood"])
+    //Ethylene
+    e.add('forge:ethene', 'immersivepetroleum:ethylene')
 
 })

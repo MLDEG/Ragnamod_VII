@@ -854,7 +854,22 @@ onEvent('recipes', e => {
         'alchemistry:dissolver/stick',
         'alchemistry:dissolver/storage_blocks/charcoal',
         'alchemistry:dissolver/coal_coke',
-        'alchemistry:dissolver/cellulose_dust'
+        'alchemistry:dissolver/cellulose_dust',
+        'naturesaura:animal_spawner/sheep_red',
+        'naturesaura:animal_spawner/sheep_orange',
+        'naturesaura:animal_spawner/sheep_yellow',
+        'naturesaura:animal_spawner/sheep_lime',
+        'naturesaura:animal_spawner/sheep_green',
+        'naturesaura:animal_spawner/sheep_blue',
+        'naturesaura:animal_spawner/sheep_light_blue',
+        'naturesaura:animal_spawner/sheep_cyan',
+        'naturesaura:animal_spawner/sheep_pink',
+        'naturesaura:animal_spawner/sheep_magenta',
+        'naturesaura:animal_spawner/sheep_purple',
+        'naturesaura:animal_spawner/sheep_brown',
+        'naturesaura:animal_spawner/sheep_black',
+        'naturesaura:animal_spawner/sheep_light_gray',
+        'naturesaura:animal_spawner/sheep_gray',
     ]
     removeId.forEach(C => { r(C) })
 })

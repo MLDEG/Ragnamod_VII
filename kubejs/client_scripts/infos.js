@@ -1,0 +1,17 @@
+//Informations
+onEvent('jei.information', e => {
+    e.add('chemlib:draconium_compound', ['This chemical\'s is only used to create draconium dust.'])
+    e.add('bhc:red_heart', ['Drop from passive mobs'])
+    e.add('bhc:yellow_heart', ['Drop from bosses'])
+    e.add('bhc:green_heart', ['Drop from Piglin Bartering'])
+    e.add('bhc:blue_heart', ['Drop from Pixies from Alfeim'])
+    e.add('create:refined_radiance', ['Throw a Chromatic Compound through a beacon beam.'])
+    e.add('create:shadow_steel', ['Throw a Chromatic Compound into the End void.'])
+    e.add(['nethersdelight:plate_of_stuffed_hoglin_snout', 'nethersdelight:plate_of_stuffed_hoglin_roast', 'nethersdelight:plate_of_stuffed_hoglin_ham'], ['You need to use a knife on the Stuffed Hoglin, placed in the world, to then be able to use a bowl and collect Stuffed Hoglin Snout, Stuffed Hoglin Roast and Stuffed Hoglin Ham.'])
+    e.add('nethersdelight:hoglin_ear', ['You need to use a knife on the Stuffed Hoglin.'])
+    e.add('farmersdelight:roast_chicken', ['You need to place the Roast Chicken in the world and then right-click on it with a bowl.'])
+    e.add('farmersdelight:honey_glazed_ham', ['You need to place the Honey Glazed Ham in the world and then right-click on it with a bowl.'])
+    e.add('farmersdelight:shepherds_pie', ['You need to place the Shepherd\'s Pie in the world and then right-click on it with a bowl.'])
+    e.add('farmersdelight:stuffed_pumpkin', ['You need to place the Stuffed Pumpkin in the world and then right-click on it with a bowl.'])
+    e.add('endersdelight:stuffed_shulker_bowl', ['You need to place the Stuffed Shulker in the world and then right-click on it with a bowl.'])
+})

@@ -1,0 +1,14 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "ars_nouveau:wilden_spike"
+        }
+    ],
+    "entity": "ars_nouveau:wilden_guardian",
+    "aura": 500,
+    "time": 60
+}

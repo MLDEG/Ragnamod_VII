@@ -196,7 +196,9 @@
 									upgradeItems: [{
 										id: "minecraft:air"
 										Count: 1b
-										tag: { }
+										tag: {
+											data_model: { }
+										}
 									}]
 								}
 								contents: {
@@ -300,30 +302,6 @@
 												realCount: 1
 											}
 											{
-												Slot: 4
-												id: "minecraft:player_head"
-												Count: 1b
-												tag: {
-													SkullOwner: {
-														Properties: {
-															textures: [{
-																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFlOTc1YTJmOWIyYjIyYWE2NmIzMzMzNDlhMWExMWJjMGZlNTQwOGJmZTBkOWNjMDJkODg5ODUxNjZjNjhiMSJ9fX0="
-															}]
-														}
-														Id: [I;
-															-662137860
-															-1412872456
-															-1723855960
-															844144980
-														]
-													}
-													display: {
-														Name: "{\"text\":\"Junglebos\"}"
-													}
-												}
-												realCount: 1
-											}
-											{
 												Slot: 5
 												id: "minecraft:player_head"
 												Count: 1b
@@ -420,6 +398,36 @@
 												realCount: 1
 											}
 											{
+												Slot: 9
+												id: "croptopia:apple_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 11
+												id: "croptopia:cherry_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 13
+												id: "croptopia:pecan_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 15
+												id: "croptopia:rhubarb_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
+												Slot: 17
+												id: "croptopia:banana_cream_pie"
+												Count: 1b
+												realCount: 1
+											}
+											{
 												Slot: 18
 												id: "minecraft:player_head"
 												Count: 1b
@@ -511,30 +519,6 @@
 													}
 													display: {
 														Name: "{\"text\":\"Bagra\"}"
-													}
-												}
-												realCount: 1
-											}
-											{
-												Slot: 22
-												id: "minecraft:player_head"
-												Count: 1b
-												tag: {
-													SkullOwner: {
-														Properties: {
-															textures: [{
-																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmVhZTI2MGQ0MzgzYTA3ZDMzN2RjZGFmODJiN2Q5NWU3NGEzN2YzZTQyNWY2ZTc0M2U5YWY2NWNmZDUyYjEwMSJ9fX0="
-															}]
-														}
-														Id: [I;
-															-1640163146
-															4475352
-															-1824779599
-															561203640
-														]
-													}
-													display: {
-														Name: "{\"text\":\"Hegary\"}"
 													}
 												}
 												realCount: 1
@@ -636,33 +620,27 @@
 												realCount: 1
 											}
 											{
-												Slot: 17
-												id: "croptopia:banana_cream_pie"
+												Slot: 4
+												id: "minecraft:player_head"
 												Count: 1b
-												realCount: 1
-											}
-											{
-												Slot: 15
-												id: "croptopia:rhubarb_pie"
-												Count: 1b
-												realCount: 1
-											}
-											{
-												Slot: 13
-												id: "croptopia:pecan_pie"
-												Count: 1b
-												realCount: 1
-											}
-											{
-												Slot: 11
-												id: "croptopia:cherry_pie"
-												Count: 1b
-												realCount: 1
-											}
-											{
-												Slot: 9
-												id: "croptopia:apple_pie"
-												Count: 1b
+												tag: {
+													SkullOwner: {
+														Properties: {
+															textures: [{
+																Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmVhZTI2MGQ0MzgzYTA3ZDMzN2RjZGFmODJiN2Q5NWU3NGEzN2YzZTQyNWY2ZTc0M2U5YWY2NWNmZDUyYjEwMSJ9fX0="
+															}]
+														}
+														Id: [I;
+															-1640163146
+															4475352
+															-1824779599
+															561203640
+														]
+													}
+													display: {
+														Name: "{\"text\":\"Hegary\"}"
+													}
+												}
 												realCount: 1
 											}
 										]
@@ -677,7 +655,14 @@
 								sortBy: "name"
 								numberOfInventorySlots: 27
 								numberOfUpgradeSlots: 1
+								uuid: [I;
+									-310170585
+									-1178778037
+									-1291125841
+									820851010
+								]
 							}
+							updateBlockRender: 1b
 						}
 						display: {
 							Lore: ["\"(+NBT)\""]

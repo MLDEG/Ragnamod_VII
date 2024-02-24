@@ -1,0 +1,40 @@
+{
+  "type": "bloodmagic:meteor",
+  "input": {
+    "item": "draconicevolution:draconium_dust"
+  },
+  "syphon": 1000000,
+  "explosion": 24.0,
+  "layers": [
+    {
+      "radius": 8,
+      "additionalWeight": 200,
+      "minWeight": 0,
+      "weightMap": [
+        {
+          "block": "draconicevolution:end_draconium_ore",
+          "weight": 20
+        },
+        {
+          "block": "rftoolsbase:dimensionalshard_end",
+          "weight": 10
+        },
+        {
+          "block": "chipped:end_stone_7",
+          "weight": 5
+        },
+        {
+          "block": "cataclysm:ender_stone",
+          "weight": 3
+        }
+      ],
+      "fill": {
+        "block": "chipped:end_stone_67"
+      },
+      "shell": {
+        "block": "minecraft:end_stone",
+        "index": -1
+      }
+    }
+  ]
+}

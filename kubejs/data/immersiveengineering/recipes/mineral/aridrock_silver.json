@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {"chance": 0.50,"output": {"item": "darkerdepths:aridrock_silver_ore"}},
+        {"chance": 0.25,"output": {"item": "darkerdepths:aridrock_gold_ore"}},
+        {"chance": 0.25,"output": {"item": "darkerdepths:aridrock_iron_ore"}}
+    ],
+    "spoils": [
+        {"chance": 1,"output": {"item": "darkerdepths:aridrock"}}
+    ],
+    "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest",
+        "javd:void"
+    ],
+    "weight": 5,
+    "fail_chance": 0.15,
+    "sample_background": "darkerdepths:aridrock"
+}

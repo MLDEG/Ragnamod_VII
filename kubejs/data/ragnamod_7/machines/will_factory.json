@@ -70,7 +70,7 @@
   ],
   "gui": [
     {
-      "texture": "custommachinery:textures/gui/base_background.png",
+      "texture": "ragnamod_seven:textures/gui/will_factory_gui.png",
       "x": 0,
       "y": 0,
       "type": "custommachinery:texture"
@@ -96,7 +96,7 @@
       "filledtexture": "ragnamod_seven:textures/gui/base_progress_filled.png",
       "type": "custommachinery:progress",
       "x": 116,
-      "y": 49
+      "y": 41
     },
     {
       "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty.png",
@@ -108,7 +108,7 @@
     {
       "id": "input_will_factory",
       "x": 119,
-      "y": 30,
+      "y": 21,
       "type": "custommachinery:slot"
     },
     {
