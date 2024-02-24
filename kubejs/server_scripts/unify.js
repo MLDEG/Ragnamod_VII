@@ -134,6 +134,7 @@ onEvent('recipes', function (e) {
     ['#forge:dusts/iron', 'bloodmagic:ironsand', 'occultism:iron_dust', 'ftbic:iron_dust', 'chemlib:iron_dust', 'immersiveengineering:dust_iron', 'mekanism:dust_iron'].forEach(I => { replaceIO(I, 'thermal:iron_dust') });
     ['#forge:dusts/lithium', 'chemlib:lithium_dust'].forEach(I => { replaceIO(I, 'mekanism:dust_lithium') });
     crusherMeka('minecraft:basalt', 'infernalexp:basalt_cobbled', 1);
+    crusherMeka('minecraft:soul_sand', 'thermal_extra:soul_sand_dust', 1);
     crusherMeka('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherMeka('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
     crusherMeka('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust', 1);
