@@ -594,8 +594,8 @@ onEvent('recipes', e => {
             "E": { "item": "avaritia:infinity_block" },
             "F": { "item": "ragnamod_seven:noisy_neutronium" },
             "G": { "item": "create:creative_blaze_cake" },
-            "H": { "item": "createaddition:portable_energy_interface" },
-            "I": { "item": "create:mechanical_arm" },
+            "H": { "item": "createcasing:creative_casing" },
+            "I": { "item": "createcasing:creative_casing" },
             "J": { "item": "immersiveengineering:capacitor_creative" }
         }
     })
@@ -771,8 +771,8 @@ onEvent('recipes', e => {
             "F": { "item": "pneumaticcraft:smooth_plastic_brick_pink" },
             "G": { "item": "create_sa:brass_cube" },
             "H": { "item": "create:display_board" },
-            "I": { "item": "create:large_water_wheel" },
-            "J": { "item": "ragnamod_seven:precisionmechanism_singularity" },
+            "I": { "item": "createcasing:creative_casing" },
+            "J": { "item": "createcasing:creative_casing" },
             "K": { "item": "ragnamod_seven:agglomerate_matter_create" }
         }
     })
@@ -1319,7 +1319,7 @@ onEvent('recipes', e => {
             "B": { "item": "create:fluid_tank" },
             "C": { "item": "thermal:fluid_tank_creative_augment" },
             "D": { "item": "reliquary:emperor_chalice" },
-            "E": { "item": "evilcraft:bucket_eternal_water" },
+            "E": { "item": "createcasing:creative_casing" },
             "F": { "item": "ragnamod_seven:sphere" },
             "G": { "item": "chemlib:argon_bucket" },
             "H": { "item": "chemlib:neon_bucket" },
@@ -1567,7 +1567,7 @@ onEvent('recipes', e => {
         ],
         "key": {
             "A": { "item": "createcasing:copper_gearbox" },
-            "B": { "item": "createcasing:industrial_iron_gearbox" },
+            "B": { "item": "createcasing:creative_gearbox" },
             "C": { "item": "createcasing:brass_gearbox" },
             "D": { "item": "create:cogwheel" },
             "E": { "item": "createcasing:railway_gearbox" },
