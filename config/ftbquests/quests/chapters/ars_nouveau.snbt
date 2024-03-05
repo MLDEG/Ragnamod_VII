@@ -1221,7 +1221,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 4.5d
 			y: 3.0d
 			shape: "square"
 			description: ["Craft a Focus of Summoning, which is used for the end game in this modpack."]
@@ -1311,6 +1311,30 @@
 				id: "72798A8C631274B7"
 				type: "item"
 				item: "ars_nouveau:source_gem_block"
+			}]
+		}
+		{
+			title: "Experience Gems"
+			x: 7.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"To obtain Experience Gems, you need to perform a ritual, on a brazier, using the Tablet of Disintegration."
+				""
+				"This ritual destroys nearby monsters and converts them into Experience Gems using source each time a monster is destroyed."
+			]
+			dependencies: ["457DE8C154641437"]
+			id: "278A6087C81F57A8"
+			tasks: [{
+				id: "61CE1DB319793528"
+				type: "item"
+				item: "ars_nouveau:experience_gem"
+				count: 4L
+			}]
+			rewards: [{
+				id: "05BA024F0EBFF720"
+				type: "item"
+				item: "ars_nouveau:greater_experience_gem"
 			}]
 		}
 	]
