@@ -315,15 +315,17 @@
 				item: "avaritia:infinity_ingot"
 			}]
 			rewards: [{
-				id: "1DA69AB11BFF1932"
-				type: "item"
-				item: {
-					id: "tconstruct:small_blade"
+				id: "2C4A670D666D4CE8"
+				type: "choice"
+				icon: {
+					id: "tconstruct:broad_blade"
 					Count: 1b
 					tag: {
 						Material: "materialis:infinity"
 					}
 				}
+				exclude_from_claim_all: true
+				table_id: 2202165130960141470L
 			}]
 		}
 		{
