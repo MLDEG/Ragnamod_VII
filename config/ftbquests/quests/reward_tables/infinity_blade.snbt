@@ -1,0 +1,33 @@
+{
+	id: "1E8FA984DFA17C9E"
+	order_index: 1
+	title: "Infinity blade"
+	icon: {
+		id: "tconstruct:broad_blade"
+		Count: 1b
+		tag: {
+			Material: "materialis:infinity"
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "tconstruct:broad_blade"
+				Count: 1b
+				tag: {
+					Material: "materialis:infinity"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_blade"
+				Count: 1b
+				tag: {
+					Material: "materialis:infinity"
+				}
+			}
+		}
+	]
+}

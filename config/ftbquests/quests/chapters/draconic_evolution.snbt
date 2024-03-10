@@ -1881,7 +1881,7 @@
 			x: 13.0d
 			y: -1.5d
 			shape: "square"
-			description: ["The Flight Module give you an Elytra on your Chest Piece, doesn't work in a curio slot for right now."]
+			description: ["The Flight Module give you an Elytra on your Chest Piece."]
 			hide_dependency_lines: true
 			dependencies: [
 				"55866EF2FF2B1401"

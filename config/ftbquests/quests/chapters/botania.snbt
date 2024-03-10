@@ -2756,7 +2756,7 @@
 			shape: "square"
 			description: [
 				"The Spectrolus generates mana by eating wool. But only in a specific order of colors, always the same:"
-				"&fwhite&r > &6orange&r > &dmagenta&r > &blight blue&r > &alime&r > &dpink&r > &8gray&r > &7light gray&r > &3cyan&r > &5purple&r > &1blue&r > &4brown&r > &2green&r > &cred&r > &0black&r."
+				"&fwhite&r > &6orange&r > &dmagenta&r > &blight blue&r > §eyellow&r > &alime&r > &dpink&r > &8gray&r > &7light gray&r > &3cyan&r > &5purple&r > &1blue&r > &4brown&r > &2green&r > &cred&r > &0black&r."
 				"If you give any other color than the one it's expecting, the wool will still be eaten but without producing any mana."
 				"You can also feed it with living Sheeps of the good color to produce more mana, but the poor thing will be killed without laying any loot nor XP."
 				""
