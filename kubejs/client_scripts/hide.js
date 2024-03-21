@@ -405,7 +405,8 @@ onEvent('jei.hide.items', e => {
         'chickens:soul_bee',
         'draconicevolution:deepslate_draconium_ore',
         'croptopia:fried_frog_legs',
-        'croptopia:frog_legs'
+        'croptopia:frog_legs',
+        'delightful:chopped_clover'
     ])
 })
 //Fluids
