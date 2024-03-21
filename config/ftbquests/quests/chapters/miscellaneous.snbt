@@ -487,6 +487,7 @@
 						]
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "7C5B30506A883B25"
@@ -521,6 +522,7 @@
 						]
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "2DC49CD41F0599F6"
@@ -556,6 +558,7 @@
 						]
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "72234907C968BB5C"
@@ -591,6 +594,7 @@
 						]
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "3729D906F9A23DF3"
@@ -626,6 +630,7 @@
 						]
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "1CCF7CB2AB95FFFD"
@@ -5051,6 +5056,7 @@
 						]
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "549B212CE0935914"
