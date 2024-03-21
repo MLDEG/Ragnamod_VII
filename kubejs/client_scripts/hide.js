@@ -403,7 +403,9 @@ onEvent('jei.hide.items', e => {
         'blue_skies_tcon:pyrope_nugget',
         'blue_skies_tcon:moonstone_nugget',
         'chickens:soul_bee',
-        'draconicevolution:deepslate_draconium_ore'
+        'draconicevolution:deepslate_draconium_ore',
+        'croptopia:fried_frog_legs',
+        'croptopia:frog_legs'
     ])
 })
 //Fluids
