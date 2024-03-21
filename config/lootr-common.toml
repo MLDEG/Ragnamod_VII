@@ -48,6 +48,8 @@ convert_quark = true
 decay_value = 6000
 #list of loot tables which will refresh (default blank, meaning no chests refresh, in the format of ["modid:loot_table", "othermodid:loot_table"])
 refresh_loot_tables = []
+#whether or not the Elytra item frame should be converted into a standard loot chest with a guaranteed elytra
+convert_elytras = true
 #list of dimensions by modid that loot chest should be replaced in (default: blank, allowing all modids, format e.g., ["minecraft
 #othermod"])
 modid_dimension_whitelist = []
