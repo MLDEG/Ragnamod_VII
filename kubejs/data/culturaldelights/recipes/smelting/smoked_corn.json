@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "culturaldelights:corn_cob"
+  },
+  "result": "culturaldelights:smoked_corn",
+  "experience": 0.35,
+  "cookingtime": 100
+}
