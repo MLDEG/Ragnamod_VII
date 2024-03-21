@@ -365,12 +365,9 @@ onEvent('tags.blocks', e => {
     //Candles tag
     e.add('minecraft:candles', ['hexerei:candle_cyan', 'hexerei:candle_red', 'hexerei:candle_purple', 'hexerei:candle_pink', 'hexerei:candle_orange', 'hexerei:candle_lime', 'hexerei:candle_black', 'hexerei:candle_blue', 'supplementaries:candle_holder', 'supplementaries:candle_holder_black', 'supplementaries:candle_holder_red', 'supplementaries:candle_holder_green', 'supplementaries:candle_holder_brown', 'supplementaries:candle_holder_blue', 'supplementaries:candle_holder_purple', 'supplementaries:candle_holder_cyan', 'supplementaries:candle_holder_light_gray', 'hexerei:candle', 'supplementaries:candle_holder_pink', 'supplementaries:candle_holder_lime', 'supplementaries:candle_holder_yellow', 'supplementaries:candle_holder_light_blue', 'supplementaries:candle_holder_magenta', 'supplementaries:candle_holder_orange', 'supplementaries:candle_holder_white', 'supplementaries:candle_holder_gray', 'hexerei:candle_yellow'])
 
-
 })
 onEvent('tags.fluids', e => {
 
-    //Add
-    e.add('forge:experience', 'create_enchantment_industry:experience')
     //Blood
     e.add('forge:blood', ["bloodmagic:life_essence_fluid", "evilcraft:blood", "hexerei:blood_fluid", "tconstruct:blood"])
     //Ethylene
