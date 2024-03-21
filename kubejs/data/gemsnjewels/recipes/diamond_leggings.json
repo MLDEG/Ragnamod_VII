@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"X X",
+		"X X"
+	],
+	"key": {
+		"X": {
+			"item": "gemsnjewels:pale_diamond"
+		}
+	},
+	"result": {
+		"item": "gemsnjewels:pale_diamond_leggings"
+	}
+}
