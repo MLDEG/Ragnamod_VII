@@ -211,7 +211,7 @@
 			shape: "square"
 			description: ["The Ivory Psimetal Ingot is made with Ivory substance, those are made with another spell, \"Trick: Ebony and Ivory\", performed in the End dimension."]
 			dependencies: [
-				"0000000000000A8A"
+				"0000000000000A82"
 				"6C08FEEEC41D0620"
 			]
 			id: "0000000000000A8E"
@@ -236,7 +236,7 @@
 			shape: "square"
 			description: ["The Ebony Psimetal Ingot is made with Ebony substance, those are made with another spell, \"Trick: Ebony and Ivory\", performed in the End dimension."]
 			dependencies: [
-				"0000000000000A8A"
+				"0000000000000A82"
 				"6C08FEEEC41D0620"
 			]
 			id: "0000000000000A90"
