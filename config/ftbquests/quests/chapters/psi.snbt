@@ -154,9 +154,9 @@
 			y: 1.5d
 			shape: "octagon"
 			description: [
-				"To get Psimetal Ingots you need to put the \"Trick:Infusion\" on a Node and insert them in your Focusing Rod."
+				"To get Psimetal Ingots you need to put the \"Trick: Infusion\" on a Node and insert them in your Focusing Rod."
 				"{image:ftbquests:textures/quests/psi_psimetal.png width:150 height:100 align:1}"
-				"For that, go to your Spell Inscriber, select any square and search \"Trick:Infusion\". Now simply right-click the Spell Inscriber with a Node and put this in your Rod Constructor."
+				"For that, go to your Spell Inscriber, select any square and search \"Trick: Infusion\". Now simply right-click the Spell Inscriber with a Node and put this in your Rod Constructor."
 			]
 			dependencies: [
 				"0000000000000A7E"
