@@ -870,6 +870,7 @@ onEvent('recipes', e => {
         'naturesaura:animal_spawner/sheep_black',
         'naturesaura:animal_spawner/sheep_light_gray',
         'naturesaura:animal_spawner/sheep_gray',
+        'botania:mana_infusion/pufferfish_to_cod',
     ]
     removeId.forEach(C => { r(C) })
 })
