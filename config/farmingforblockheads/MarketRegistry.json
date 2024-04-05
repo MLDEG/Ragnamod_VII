@@ -16,6 +16,24 @@
 "customEntries": [
   {
     "output": {
+      "item": "byg:blueberries"
+    },
+    "category": "farmingforblockheads:other"
+  },
+  {
+    "output": {
+      "item": "byg:crimson_berries"
+    },
+    "category": "farmingforblockheads:other"
+  },
+  {
+    "output": {
+      "item": "byg:nightshade_berries"
+    },
+    "category": "farmingforblockheads:other"
+  },
+  {
+    "output": {
       "item": "croptopia:soybean_seed"
     },
     "category": "farmingforblockheads:seeds"
