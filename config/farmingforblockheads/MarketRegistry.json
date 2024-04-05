@@ -22,6 +22,12 @@
   },
   {
     "output": {
+      "item": "forbidden_arcanus:strange_root"
+    },
+    "category": "farmingforblockheads:other"
+  },
+  {
+    "output": {
       "item": "byg:crimson_berries"
     },
     "category": "farmingforblockheads:other"
