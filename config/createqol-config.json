@@ -2,5 +2,6 @@
   "chippedSaw": true,
   "inventoryLinker": true,
   "shadowRadiance": true,
-  "proximitySchedule": true
+  "proximitySchedule": true,
+  "displayBoardModification": true
 }

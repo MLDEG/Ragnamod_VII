@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "thermal:corn"
+  },
+  "result": "thermal:cooked_corn",
+  "experience": 0.35,
+  "cookingtime": 600
+}

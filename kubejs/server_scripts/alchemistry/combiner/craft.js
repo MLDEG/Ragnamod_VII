@@ -44,19 +44,13 @@ onEvent('recipes', e => {
         "ingredient": {
           "item": "chemlib:plutonium"
         },
-        "count": 16
+        "count": 4
       },
       {
         "ingredient": {
           "item": "chemlib:sodium_chloride"
         },
-        "count": 64
-      },
-      {
-        "ingredient": {
-          "item": "chemlib:sodium_chloride"
-        },
-        "count": 16
+        "count": 20
       }
     ],
     "result": {

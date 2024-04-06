@@ -949,7 +949,7 @@
 			shape: "square"
 			description: [
 				"The Vortex Tube splits incoming air into hot and cold components."
-				"One side will be heated (Red), the other cooled (Bleu). It's air usage is dependent on the pressure."
+				"One side will be heated (Red), the other cooled (Blue). It's air usage is dependent on the pressure."
 				""
 				"Mind that heat will slowly leak between the hot and cold sides, so it's more efficient to vent the cold side, with compressed Iron or/and Heat Sink, when you want to utilize the heat, and vice versa if you want to use the cold."
 			]

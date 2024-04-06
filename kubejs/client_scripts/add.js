@@ -34,6 +34,7 @@ onEvent('jei.add.items', e => {
         'create:chromatic_compound',
         'create:shadow_steel',
         'create:refined_radiance',
-        'minecraft:dragon_egg'
+        'minecraft:dragon_egg',
+        'delightful:crab_rangoon'
     ])
 })
