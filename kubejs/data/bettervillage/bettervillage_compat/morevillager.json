@@ -1,0 +1,37 @@
+{
+    "readme_____comment_____readme": "no configuration is needed in this file",
+    "mod_id": "morevillagers",
+    "mod_name": "More Villagers",
+    "enabled": true,
+    "replace_structures": true,
+    "pool_plains": [
+        "morevillagers:village/plains/plains_engineer",
+        "morevillagers:village/plains/plains_florist",
+        "morevillagers:village/plains/plains_hunter",
+        "morevillagers:village/plains/plains_oceanographer",
+        "morevillagers:village/plains/plains_woodworker"
+    ],
+    "pool_desert": [
+        "morevillagers:village/desert/desert_engineer",
+        "morevillagers:village/desert/desert_florist",
+        "morevillagers:village/desert/desert_hunter",
+        "morevillagers:village/desert/desert_oceanographer",
+        "morevillagers:village/desert/desert_woodworker"
+    ],
+    "pool_snowy": [
+        "morevillagers:village/snowy/snowy_engineer",
+        "morevillagers:village/snowy/snowy_florist",
+        "morevillagers:village/snowy/snowy_hunter",
+        "morevillagers:village/snowy/snowy_oceanographer",
+        "morevillagers:village/snowy/snowy_woodworker"
+    ],
+    "pool_savanna": [
+        "morevillagers:village/savanna/savanna_engineer",
+        "morevillagers:village/savanna/savanna_florist",
+        "morevillagers:village/savanna/savanna_hunter",
+        "morevillagers:village/savanna/savanna_oceanographer",
+        "morevillagers:village/savanna/savanna_woodworker"
+    ],
+    "pool_taiga": [
+    ]
+  }

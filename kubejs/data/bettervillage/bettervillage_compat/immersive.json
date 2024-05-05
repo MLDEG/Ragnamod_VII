@@ -1,0 +1,36 @@
+{
+    "readme_____comment_____readme": "no configuration is needed in this file",
+    "mod_id": "immersiveengineering",
+    "mod_name": "Immersive Engineering",
+    "enabled": true,
+    "replace_structures": true, 
+    "pool_plains": [
+        "immersiveengineering:village/houses/plains_electrician",
+        "immersiveengineering:village/houses/plains_engineer",
+        "immersiveengineering:village/houses/plains_gunsmith",
+        "immersiveengineering:village/houses/plains_machinist",
+        "immersiveengineering:village/houses/plains_outfitter"
+    ],
+    "pool_desert": [
+        "immersiveengineering:village/houses/desert_electrician",
+        "immersiveengineering:village/houses/desert_engineer",
+        "immersiveengineering:village/houses/desert_gunsmith",
+        "immersiveengineering:village/houses/desert_machinist",
+        "immersiveengineering:village/houses/desert_outfitter"
+    ],
+    "pool_snowy": [
+        "immersiveengineering:village/houses/snowy_electrician",
+        "immersiveengineering:village/houses/snowy_engineer",
+        "immersiveengineering:village/houses/snowy_gunsmith",
+        "immersiveengineering:village/houses/snowy_machinist",
+        "immersiveengineering:village/houses/snowy_outfitter"
+    ],
+    "pool_savanna": [
+        "immersiveengineering:village/houses/savanna_electrician",
+        "immersiveengineering:village/houses/savanna_engineer",
+        "immersiveengineering:village/houses/savanna_gunsmith",
+        "immersiveengineering:village/houses/savanna_machinist",
+        "immersiveengineering:village/houses/savanna_outfitter"
+    ],
+    "pool_taiga": []
+}
