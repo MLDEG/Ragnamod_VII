@@ -426,7 +426,7 @@
 			rewards: [{
 				id: "7D3B3EC83B7D977D"
 				type: "item"
-				item: "pneumaticcraft:small_tank"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
 			}]
 		}
 		{
@@ -664,7 +664,7 @@
 			rewards: [{
 				id: "23F49C7A67AE5B16"
 				type: "item"
-				item: "pneumaticcraft:small_tank"
+				item: "mob_grinding_utils:tank"
 			}]
 		}
 		{

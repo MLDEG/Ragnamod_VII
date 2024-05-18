@@ -659,6 +659,7 @@ onEvent('recipes', function (e) {
     ['forge:silicon', 'ae2:silicon'].forEach(I => { replaceIO(I, 'ftbic:silicon') });
     e.replaceInput({}, 'minecraft:crafting_table', '#forge:workbenches')
     e.replaceInput({}, 'minecraft:stick', '#forge:rods/wooden')
+    e.replaceInput({}, 'pneumaticcraft:small_tank', 'mob_grinding_utils:tank')
     /**********************Ethanol Unify*************************/
     fermenter('minecraft:potato', 'immersiveengineering:ethanol', 80)
     fermenter('minecraft:melon_slice', 'immersiveengineering:ethanol', 20)
