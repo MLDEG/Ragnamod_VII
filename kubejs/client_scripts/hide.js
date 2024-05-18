@@ -406,7 +406,11 @@ onEvent('jei.hide.items', e => {
         'draconicevolution:deepslate_draconium_ore',
         'croptopia:fried_frog_legs',
         'croptopia:frog_legs',
-        'delightful:chopped_clover'
+        'delightful:chopped_clover',
+        'pneumaticcraft:small_tank',
+        'pneumaticcraft:medium_tank',
+        'pneumaticcraft:large_tank',
+        'pneumaticcraft:huge_tank',
     ])
 })
 //Fluids

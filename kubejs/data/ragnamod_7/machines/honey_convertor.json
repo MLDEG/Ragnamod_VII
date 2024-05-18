@@ -1,0 +1,107 @@
+{
+  "name": "Honey Convertor",
+  "appearance": {
+    "block": "ragnamod_seven:machine/honey_converter_idle_model",
+    "item": "ragnamod_seven:machine/honey_converter_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:scaffolding",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/axe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "ragnamod_seven:machine/honey_converter_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/honey_converter_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 100000,
+      "id": "honey_cofh",
+      "maxInput": 100000,
+      "maxOutput": 100000,
+      "filter": ["cofh_core:honey"],
+      "whitelist": true,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 100000,
+      "id": "honey_create",
+      "maxInput": 100000,
+      "maxOutput": 100000,
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "ragnamod_seven:textures/gui/honey_converter_gui.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 118,
+      "y": 55
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/hc_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/hc_progress_full.png",
+      "type": "custommachinery:progress",
+      "x": 68,
+      "y": 24
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/hc_fluid_storage.png",
+      "type": "custommachinery:fluid",
+      "x": 15,
+      "y": 11,
+      "id": "honey_cofh"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/hc_fluid_storage.png",
+      "type": "custommachinery:fluid",
+      "x": 223,
+      "y": 11,
+      "id": "honey_create"
+    }
+  ],
+  "jei": [
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/hc_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/hc_progress_full.png",
+      "type": "custommachinery:progress",
+      "x": 68,
+      "y": 11
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage_jei.png",
+      "type": "custommachinery:fluid",
+      "x": 38,
+      "y": 11,
+      "id": "honey_cofh"
+    },
+    {
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage_jei.png",
+      "type": "custommachinery:fluid",
+      "x": 200,
+      "y": 11,
+      "id": "honey_create"
+    }
+  ],
+  "catalysts": []
+}
