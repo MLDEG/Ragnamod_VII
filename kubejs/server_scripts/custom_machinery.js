@@ -1451,4 +1451,28 @@ onEvent('recipes', e => {
   excavatorUniqueJEI("undergarden:undergarden", "shiverstone_cloggrum", "§2§lShiverstone Cloggrum", "undergarden:shiverstone_cloggrum_ore", 60, "undergarden:shiverstone_coal_ore", 25, "undergarden:shiverstone_iron_ore", 15, "undergarden:shiverstone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
   excavatorUniqueJEI("undergarden:undergarden", "shiverstone_froststeel", "§2§lShiverstone Froststeel", "undergarden:shiverstone_froststeel_ore", 45, "undergarden:shiverstone_iron_ore", 45, "undergarden:shiverstone_diamond_ore", 10, "undergarden:shiverstone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
   excavatorUniqueJEI("undergarden:undergarden", "shiverstone_utherium", "§2§lShiverstone Utherium", "undergarden:shiverstone_utherium_ore", 45, "undergarden:shiverstone_cloggrum_ore", 45, "undergarden:shiverstone_regalium_ore", 10, "undergarden:shiverstone", 1, "minecraft:air", 1, "minecraft:air", 1, "minecraft:air", 1)
+
+  //Honey Converter
+  e.custom({
+    "type": "custommachinery:custom_machine",
+    "machine": "ragnamod_7:honey_convertor",
+    "time": 1,
+    "requirements": [
+      {
+        "type": "custommachinery:fluid",
+        "mode": "input",
+        "tank": "honey_cofh",
+        "fluid": "cofh_core:honey",
+        "amount": 1000
+      },
+      {
+        "type": "custommachinery:fluid",
+        "mode": "output",
+        "tank": "honey_create",
+        "fluid": "create:honey",
+        "amount": 1000,
+      }
+    ]
+  })
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:honey_convertor"}'), ['ABA'], { A: 'minecraft:bucket', B: 'thermal:device_hive_extractor' })
 })

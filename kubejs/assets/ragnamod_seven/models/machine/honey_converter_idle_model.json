@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/honey_converter_idle",
+    "side": "thermal:block/devices/device_hive_extractor_side",
+    "top": "thermal:block/devices/device_hive_extractor_top",
+    "bottom": "thermal:block/devices/device_hive_extractor_bottom"
+  }
+}
