@@ -261,7 +261,7 @@
 			shape: "rsquare"
 			description: [
 				"Craft a Psimetal Exosuit."
-				"It's used to the End Game armor."
+				"It's used in the End Game armor."
 			]
 			dependencies: [
 				"0000000000000A8A"
@@ -917,7 +917,7 @@
 			description: [
 				"A Spell cast from a Charge Spell Node, rather than executing immediately, is fired out the end of the Rod it's cast from in a Spell Charge, which obeys gravity just like a Spell Grenade."
 				""
-				"However, unlike a Spell Grenade, a Spell Charge can last up to five minutes, and only executes its Spell when specially told to do so by a Spell Detonator."
+				"However, unlike a Spell Grenade, a Spell Charge can last up to five minutes and only executes its Spell when specially told to do so by a Spell Detonator."
 			]
 			dependencies: [
 				"0000000000000AAD"
@@ -958,7 +958,7 @@
 				"The PSI Stabilizer is a multiblock that farm for you the stuff you put inside from PSI."
 				"{image:ftbquests:textures/quests/psi_stabilizer.png width:150 height:100 align:1}"
 				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
-				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"§5In the bottom left corner, you have this icon (see below) click on it, and it will display ghost blocks."
 				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: [

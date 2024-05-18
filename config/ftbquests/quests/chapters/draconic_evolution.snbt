@@ -2279,7 +2279,7 @@
 			x: 5.5d
 			y: -5.0d
 			shape: "diamond"
-			description: ["Mixing a Scrap, Rutherfordium, Seaborgium and some Doubt Fluid, you can obtain this Questionable Mixture."]
+			description: ["By mixing Scrap, Rutherfordium, Seaborgium and some Doubt Fluid, you can obtain this Questionable Mixture."]
 			dependencies: [
 				"170B797FE3905864"
 				"4A91A399AB4FF14A"
@@ -2302,7 +2302,7 @@
 			x: 5.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["Mixing a Scrap, Nihonium, Tennessine and some Doubt Fluid, you can obtain this Strange Mixture."]
+			description: ["By mixing Scrap, Nihonium, Tennessine and some Doubt Fluid, you can obtain this Strange Mixture."]
 			dependencies: [
 				"170B797FE3905864"
 				"4A1F2E655567CC8A"
@@ -2325,7 +2325,7 @@
 			x: 6.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["Mixing a Scrap, Meitnerium, Flerovium and some Doubt Fluid, you can obtain this Sickening Mixture."]
+			description: ["By mixing Scrap, Meitnerium, Flerovium and some Doubt Fluid, you can obtain this Sickening Mixture."]
 			dependencies: [
 				"170B797FE3905864"
 				"2DE6C89263C46D11"
