@@ -507,7 +507,7 @@
 			subtitle: "Liftoff"
 			description: [
 				"With your Nasa Workbench, you can now make your first rocket."
-				"This will allow you to go to the overworld and therefore have access to the Nether and to the end!"
+				"This will allow you to go to the Overworld and therefore have access to the Nether and to the End!"
 			]
 			dependencies: [
 				"2FE44372B1A4621B"
