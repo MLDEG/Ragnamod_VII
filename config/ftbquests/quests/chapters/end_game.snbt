@@ -16,7 +16,7 @@
 			description: [
 				"Craft a Sphere Of All Things using the BLACK SPHERE OF DOOM !"
 				""
-				"This sphere is used to craft Avaritia stuff and Creatif stuff."
+				"This sphere is used to craft Avaritia stuff and Creative stuff."
 			]
 			dependencies: [
 				"794FC8543CCB9C7B"
@@ -72,7 +72,7 @@
 			x: 3.0d
 			y: 2.5d
 			shape: "square"
-			description: ["Transform a Deluxe Cheeseburger into a Neutron Burger using the top tier Fusion Crafting of Draconic Evolution."]
+			description: ["Transform a Deluxe Cheeseburger into a Neutron Burger using the top-tier Fusion Crafting of Draconic Evolution."]
 			dependencies: [
 				"5297052C3503826D"
 				"60FD4D8FA17A53D7"
@@ -93,7 +93,7 @@
 			x: 1.0d
 			y: 2.5d
 			shape: "square"
-			description: ["Transform a Pecan Pie into a Neutron Pecan Pie using the top tier Fusion Crafting of Draconic Evolution."]
+			description: ["Transform a Pecan Pie into a Neutron Pecan Pie using the top-tier Fusion Crafting of Draconic Evolution."]
 			dependencies: [
 				"60FD4D8FA17A53D7"
 				"5297052C3503826D"
@@ -114,7 +114,7 @@
 			x: 2.0d
 			y: 2.5d
 			shape: "square"
-			description: ["Transform a Taco into a Neutron Taco using the top tier Fusion Crafting of Draconic Evolution."]
+			description: ["Transform a Taco into a Neutron Taco using the top-tier Fusion Crafting of Draconic Evolution."]
 			dependencies: [
 				"60FD4D8FA17A53D7"
 				"5297052C3503826D"
@@ -135,7 +135,7 @@
 			x: 0.0d
 			y: 2.5d
 			shape: "square"
-			description: ["Transform a Doughnut into a Neutron Doughnut using the top tier Fusion Crafting of Draconic Evolution."]
+			description: ["Transform a Doughnut into a Neutron Doughnut using the top-tier Fusion Crafting of Draconic Evolution."]
 			dependencies: [
 				"60FD4D8FA17A53D7"
 				"5297052C3503826D"
@@ -156,7 +156,7 @@
 			x: 4.0d
 			y: 2.5d
 			shape: "square"
-			description: ["Transform a Salmon Roll into a Neutron Sushi using the top tier Fusion Crafting of Draconic Evolution."]
+			description: ["Transform a Salmon Roll into a Neutron Sushi using the top-tier Fusion Crafting of Draconic Evolution."]
 			dependencies: [
 				"60FD4D8FA17A53D7"
 				"5297052C3503826D"
@@ -177,7 +177,7 @@
 			x: 1.0d
 			y: 0.0d
 			shape: "square"
-			description: ["Use the Hephaestus Forge to combined Sculk ingot, Chemical Draconium Ingot, Shub Niggurath Ingot, Ignitium Ingot, Witherite Ingot, Enderite Ingot and a Stable Ingot to get a Condensed Ingot, mainly used to craft the Sphere Of All Things."]
+			description: ["Use the Hephaestus Forge to combined Sculk Ingot, Chemical Draconium Ingot, Shub Niggurath Ingot, Ignitium Ingot, Witherite Ingot, Enderite Ingot and a Stable Ingot to get a Condensed Ingot, mainly used to craft the Sphere Of All Things."]
 			dependencies: [
 				"4E2B181F09508CB7"
 				"17F7C5A61072C5BA"
@@ -245,7 +245,7 @@
 			x: 3.0d
 			y: 0.0d
 			shape: "square"
-			description: ["Chemical Draconium Ingot is craft in the Fusion Crafting Core with 6 chemical Core, 4 Awakened Draconium Block and a Ghast Cow Star !"]
+			description: ["Chemical Draconium Ingot is crafted in the Fusion Crafting Core with 6 chemical Core, 4 Awakened Draconium Block and a Ghast Cow Star !"]
 			dependencies: [
 				"37B83B8E2BF368C1"
 				"0261622EB8EBE419"
@@ -298,8 +298,8 @@
 			description: [
 				"The Focus Entangled is a multiblock used to craft certain blocks using Unknown Blocks, a Focus of Summoning and a Box of Eternal Closure with a specifics spirit trap inside !"
 				"{image:ftbquests:textures/quests/focus_entangled.png width:150 height:100 align:1}"
-				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
-				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"§5To see how to build this multiblock, simply put your block where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner, you have this icon (see below) click on it, and it will display ghost blocks."
 				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: ["5297052C3503826D"]
@@ -402,7 +402,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "square"
-			description: ["Combined 4 ghast cow into a Star !"]
+			description: ["Combined 4 Ghast Cow Tear into a Star !"]
 			dependencies: [
 				"2B6132DD904B4A20"
 				"5297052C3503826D"
@@ -431,14 +431,14 @@
 			y: 0.0d
 			shape: "gear"
 			description: [
-				"The Singularity Catalyst is a multiblock that combine 5 Singularities into an Agglomerate Matter."
+				"The Singularity Catalyst is a multiblock that combines 5 Singularities into an Agglomerate Matter."
 				"{image:ftbquests:textures/quests/singularity_catalyst.png width:150 height:100 align:1}"
 				"You need to make a Black Hole from Forbidden Arcanus in the center of the structure (remember, throw a Dark Matter and a Corrupti Dust together)."
 				""
 				"Also, the 4 Eternal Obsidian Skull are not shown in the hologram of the multiblock, but you can place facing where you want."
 				""
-				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
-				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"§5To see how to build this multiblock, simply put your block where you want it and check in JEI what recipe it can do."
+				"§5In the bottom left corner, you have this icon (see below) click on it, and it will display ghost blocks."
 				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: ["5297052C3503826D"]
@@ -1290,7 +1290,7 @@
 			x: 7.0d
 			y: 1.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite Powder you can farm indefinitely this Materialized Essence !"]
 			dependencies: [
 				"7378AC5DC34DC7FA"
 				"5297052C3503826D"
@@ -1311,7 +1311,7 @@
 			x: 7.0d
 			y: 0.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite Powder you can farm indefinitely this Materialized Essence !"]
 			dependencies: [
 				"463778EA15DBED66"
 				"5297052C3503826D"
@@ -1332,7 +1332,7 @@
 			x: 7.0d
 			y: -0.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite Powder you can farm indefinitely this Materialized Essence !"]
 			dependencies: [
 				"78A87D7F58A02BA8"
 				"5297052C3503826D"
@@ -1353,7 +1353,7 @@
 			x: 7.0d
 			y: -1.5d
 			shape: "square"
-			description: ["With a Superheated mixer and some Netherite powder you can farm indefinitely this Materialized Essence !"]
+			description: ["With a Superheated mixer and some Netherite Powder you can farm indefinitely this Materialized Essence !"]
 			dependencies: [
 				"6B762DC0D8C1CDB5"
 				"5297052C3503826D"
@@ -1379,7 +1379,7 @@
 				"{image:ftbquests:textures/quests/twilight_conquest.png width:150 height:100 align:1}"
 				"Beat Conquest to get his Essence !"
 				""
-				"§cBe sure to enable Command blocks on server."
+				"§cBe sure to enable Command Blocks on the server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "7378AC5DC34DC7FA"
@@ -1403,7 +1403,7 @@
 				"{image:ftbquests:textures/quests/twilight_war.png width:150 height:100 align:1}"
 				"Beat War to get his Essence !"
 				""
-				"§cBe sure to enable Command blocks on server."
+				"§cBe sure to enable Command Blocks on the server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "463778EA15DBED66"
@@ -1427,7 +1427,7 @@
 				"{image:ftbquests:textures/quests/twilight_famine.png width:150 height:100 align:1}"
 				"Beat Famine to get his Essence !"
 				""
-				"§cBe sure to enable Command blocks on server."
+				"§cBe sure to enable Command Blocks on the server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "78A87D7F58A02BA8"
@@ -1451,7 +1451,7 @@
 				"{image:ftbquests:textures/quests/twilight_death.png width:150 height:100 align:1}"
 				"Beat Death to get his Essence !"
 				""
-				"§cBe sure to enable Command blocks on server."
+				"§cBe sure to enable Command Blocks on the server."
 			]
 			dependencies: ["5297052C3503826D"]
 			id: "6B762DC0D8C1CDB5"
@@ -1471,7 +1471,7 @@
 			x: 5.5d
 			y: -2.5d
 			shape: "square"
-			description: ["Craft the Death armor, it's used to the End Game armor."]
+			description: ["Craft the Death armor, it's used in the End Game armor."]
 			dependencies: [
 				"2774828C945DFCB0"
 				"5297052C3503826D"
@@ -1534,7 +1534,7 @@
 			x: 5.5d
 			y: 2.5d
 			shape: "square"
-			description: ["Craft the Conquest armor, it's used to the End Game armor."]
+			description: ["Craft the Conquest armor, it's used in the End Game armor."]
 			dependencies: [
 				"4031994E43228C99"
 				"5297052C3503826D"
@@ -1597,7 +1597,7 @@
 			x: 5.0d
 			y: -1.0d
 			shape: "square"
-			description: ["Craft the Famine armor, it's used to the End Game armor."]
+			description: ["Craft the Famine armor, it's used in the End Game armor."]
 			dependencies: [
 				"03B3688617179FB7"
 				"5297052C3503826D"
@@ -1660,7 +1660,7 @@
 			x: 5.0d
 			y: 1.0d
 			shape: "square"
-			description: ["Craft the War armor, it's used to the End Game armor."]
+			description: ["Craft the War armor, it's used in the End Game armor."]
 			dependencies: [
 				"1128CB67C1938B4C"
 				"5297052C3503826D"
