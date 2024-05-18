@@ -580,7 +580,6 @@
 			description: ["The Draconic Fusion Crafting Injector is the third tier of Fusion Crafting Injectors used in the Fusion crafting process, they can get energy more quickly, so your craft in the Fusion Crafting Core can do more quickly."]
 			dependencies: [
 				"6AFF133E53B9E11E"
-				"7E6F43ABF03FF686"
 				"170B797FE3905864"
 			]
 			id: "16A5A3624601F22E"
