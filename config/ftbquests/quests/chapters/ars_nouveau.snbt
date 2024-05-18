@@ -932,7 +932,7 @@
 			x: 8.5d
 			y: -3.5d
 			shape: "square"
-			description: ["This is the last mage tunic in Ars Nouveau, it's used in the end game armor."]
+			description: ["This is the last mage tunic in Ars Nouveau, It's used in the end game armor."]
 			dependencies: [
 				"250075C5711B314D"
 				"10F31028FC893ADE"

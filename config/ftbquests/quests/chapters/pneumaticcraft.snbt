@@ -543,7 +543,7 @@
 			description: [
 				"Pneumatic Armor is very powerful if you provide it with lot of upgrade !"
 				"You can hold Shift on Upgrade to see what kind of upgrade can be put on your armor."
-				"it's used in the End Game armor."
+				"It's used in the End Game armor."
 			]
 			dependencies: [
 				"000000000000096F"

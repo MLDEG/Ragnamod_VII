@@ -261,7 +261,7 @@
 			shape: "rsquare"
 			description: [
 				"Craft a Psimetal Exosuit."
-				"it's used in the End Game armor."
+				"It's used in the End Game armor."
 			]
 			dependencies: [
 				"0000000000000A8A"

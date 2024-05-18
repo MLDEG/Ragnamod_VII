@@ -16,7 +16,7 @@
 			shape: "square"
 			description: [
 				"Craft the Tyr Armor."
-				"it's used in the End Game armor."
+				"It's used in the End Game armor."
 			]
 			dependencies: [
 				"06741AEC28F07033"
@@ -82,7 +82,7 @@
 			shape: "square"
 			description: [
 				"Craft the Dragon Arcanus Armor."
-				"it's used in the End Game armor."
+				"It's used in the End Game armor."
 			]
 			dependencies: [
 				"06741AEC28F07033"

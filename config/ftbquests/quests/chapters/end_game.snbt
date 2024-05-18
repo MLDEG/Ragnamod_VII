@@ -1471,7 +1471,7 @@
 			x: 5.5d
 			y: -2.5d
 			shape: "square"
-			description: ["Craft the Death armor, it's used in the End Game armor."]
+			description: ["Craft the Death armor, It's used in the End Game armor."]
 			dependencies: [
 				"2774828C945DFCB0"
 				"5297052C3503826D"
@@ -1534,7 +1534,7 @@
 			x: 5.5d
 			y: 2.5d
 			shape: "square"
-			description: ["Craft the Conquest armor, it's used in the End Game armor."]
+			description: ["Craft the Conquest armor, It's used in the End Game armor."]
 			dependencies: [
 				"4031994E43228C99"
 				"5297052C3503826D"
@@ -1597,7 +1597,7 @@
 			x: 5.0d
 			y: -1.0d
 			shape: "square"
-			description: ["Craft the Famine armor, it's used in the End Game armor."]
+			description: ["Craft the Famine armor, It's used in the End Game armor."]
 			dependencies: [
 				"03B3688617179FB7"
 				"5297052C3503826D"
@@ -1660,7 +1660,7 @@
 			x: 5.0d
 			y: 1.0d
 			shape: "square"
-			description: ["Craft the War armor, it's used in the End Game armor."]
+			description: ["Craft the War armor, It's used in the End Game armor."]
 			dependencies: [
 				"1128CB67C1938B4C"
 				"5297052C3503826D"
