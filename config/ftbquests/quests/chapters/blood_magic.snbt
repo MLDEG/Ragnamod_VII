@@ -1935,7 +1935,7 @@
 				""
 				"You need to put a Blood Magic Agonizer or an EvilCraft Agonizer to tell your machine what kind of blood you want to farm (you can farm both at the same time)."
 				"{image:ftbquests:textures/quests/digital_mob_agonizer_quest.png width:150 height:100 align:1}"
-				"You need nonetheless a Blood Data Model and some Generalized Prediction to produce blood, and you can also updrage your machine with addons (Speed (x8) and Bloody(x4))."
+				"You need nonetheless a Blood Data Model and some Generalized Prediction to produce blood, and you can also upgrade your machine with addons (Speed (x8) and Bloody (x4))."
 				""
 				"Inspired by \"Deep Mob Learning - Blood Magic Addon\""
 			]
