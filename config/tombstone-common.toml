@@ -3,8 +3,6 @@
 [player_death]
 	#Whether to unlock access to a grave if the player has been killed by another player [false/true|default:true]
 	pvp_unlock_grave = true
-	#Whether to handle player death [false/true|default:true]
-	handle_player_death = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
 	restore_effects_on_death = false
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
@@ -34,17 +32,14 @@
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
-	#Knowledge of Death loss on death [0..500|default:0]
-	#Range: 0 ~ 500
-	knowledge_loss = 0
 	#The chance that some items are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_loss_on_death = 0
 	#The percentage of items that are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
-	#Graveless Areas
-	no_grave_location = ["0, -300, 0, minecraft:overworld, 20"]
+	#Graveless Dimensions
+	no_grave_dimension = []
 
 #Options related to player's alignment
 [alignment]
@@ -76,8 +71,6 @@
 	teleport_dim = true
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
-	#Allows players to be hurt by special damages related to some items [false/true|default:true]
-	allow_beyond_the_grave_damage = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
 	#Range: > 1200
 	time_for_phantom_spawn = 72000
@@ -90,10 +83,13 @@
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = -1
-	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
+	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
+	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
+	#Range: 1000 ~ 100000
+	easter_egg_spawn_rarity = 5000
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
@@ -138,6 +134,8 @@
 	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
 	#Range: 5 ~ 60000
 	duration_voodoo_poppet_effects = 60
+	#Tamable creatures that can't captured by Familiar Receptacle
+	unhandled_tamable_entities = ["smartbrainlib:sbl_skeleton", "ars_nouveau:animated_block", "ars_nouveau:animated_head", "ars_nouveau:summon_wolf", "ars_nouveau:summon_horse", "ars_nouveau:summon_skeleton", "ars_nouveau:lily"]
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
@@ -163,8 +161,6 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Shadow Step is disabled for 10 seconds by opening a chest [false/true|default:true]
-	nerf_shadow_step_open_chest = true
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
@@ -176,6 +172,32 @@
 	#Defines if players can steal effects to others players. If nerfed, the stolen effect duration is limited to 10% of the initial effect [ALLOW/NERFED/DISALLOW|default:ALLOW]
 	#Allowed Values: ALLOW, NERFED, DISALLOW
 	magic_siphon_on_player_rule = "ALLOW"
+	#Halves the reflected damages of Bone Shield [false/true|default:false]
+	nerf_curse_of_bones = false
+	#Cooldown in seconds to have a chance to obtain a new effect [0..60|default:10]
+	#Range: 0 ~ 60
+	cooldown_blessing = 10
+	#Minimum cooldown in seconds to have a chance to obtain Bone Shield [10..40|default:20]
+	#Range: 10 ~ 40
+	min_cooldown_curse_of_bones = 20
+	#Maximum cooldown in seconds to have a chance to obtain Bone Shield [60..120|default:60]
+	#Range: 60 ~ 120
+	max_cooldown_curse_of_bones = 60
+	#Minimum cooldown in seconds to have a chance to obtain Spectral Bite [3..20|default:3]
+	#Range: 3 ~ 20
+	min_cooldown_spectral_bite = 3
+	#Maximum cooldown in seconds to have a chance to obtain Spectral Bite [30..60|default:30]
+	#Range: 30 ~ 60
+	max_cooldown_spectral_bite = 30
+	#Minimum cooldown in seconds to have a chance to spawn a Spectral Wolf [3..20|default:3]
+	#Range: 20 ~ 90
+	min_cooldown_spectral_conjurer = 60
+	#Maximum cooldown in seconds to have a chance to spawn a Spectral Wolf [30..60|default:30]
+	#Range: 120 ~ 600
+	max_cooldown_spectral_conjurer = 240
+	#Maximum duration of conjured Spectral Wolf [10..300|default:120]
+	#Range: 10 ~ 300
+	max_duration_spectral_conjurer = 60
 
 #Options related to the command recovery and auto-save of players
 [recovery]
@@ -197,11 +219,9 @@
 	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
 	#Range: > 200
 	undead_boss_life_for_drop = 200
-	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [1..200000|default:2000]
-	#Range: 1 ~ 200000
+	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [100..200000|default:2000]
+	#Range: 100 ~ 200000
 	max_xp_lost_page = 2000
-	#Entities that can't found as loot in a Familiar Receptacle
-	unhandled_tameable_entities = []
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -215,4 +235,18 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+
+#Allows to enable special events
+[special_events]
+	#Allows Halloween [false/true|default:true]
+	allow_halloween = true
+	#Allows Christmas [false/true|default:true]
+	allow_christmas = true
+	#Allows Easter [false/true|default:true]
+	allow_easter = true
+	#Allows April Fools [false/true|default:true]
+	allow_april_fools = true
+	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/EASTER|default:NONE]
+	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, EASTER
+	force_special_event = "NONE"
 

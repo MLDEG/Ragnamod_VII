@@ -9,12 +9,8 @@
 	highlight = true
 	#Skips the Respawn Screen [false/true|default:false]
 	skip_respawn_screen = false
-	#Shows shadow step particles [false/true|default:true]
-	show_shadow_step = true
 	#Shows shield particles on villager [false/true|default:true]
 	show_shield_particle = true
-	#Allows the ghost to appear around you during Halloween [false/true|default:true]
-	allow_halloween_ghost = true
 	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
 	date_in_mc_time = false
 	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
@@ -27,8 +23,6 @@
 	priorize_tool_on_hotbar = false
 	#Allows to activate a grave by sneaking [false/true|default:true]
 	activate_grave_by_sneaking = true
-	#Denies to create a grave with your items when you die [false/true|default:false]
-	deny_grave_on_death = false
 	#Allows your grave to appear in water [false/true|default:true]
 	allow_grave_in_water = true
 	#Decimal value for the color of the particles when using magic items [0..16777215|default:125656]
@@ -49,9 +43,6 @@
 	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:LOW]
 	#Allowed Values: NONE, LOW, NORMAL, HIGH
 	fog_density = "LOW"
-	#Period where graves produce fog [DAY/NIGHT/BOTH|default:NIGHT]
-	#Allowed Values: DAY, NIGHT, BOTH, NEVER
-	fog_period = "NIGHT"
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
 	favorite_grave = "GRAVE_SIMPLE"
@@ -61,9 +52,6 @@
 	#Defines the rule to use for grave's skin [DEFAULT/FORCE_NORMAL/FORCE_HALLOWEEN|default:DEFAULT]
 	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN, FORCE_CHRISTMAS
 	grave_skin_rule = "DEFAULT"
-	#Defines your grave placement logic (nearest or ideal placement) [SAFEST/NORMAL/NEAREST|default:NORMAL]
-	#Allowed Values: SAFEST, NORMAL, NEAREST
-	grave_spawn_rule = "NORMAL"
 	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
 	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
 	auto_equip_rule = "ALWAYS"
@@ -81,4 +69,10 @@
 	no_blinking_nightvision = true
 	#Automatically equip magic books in Curios slot [false/true|default:false]
 	equip_curio_slot_magic_book = false
+	#Allows the ghost to appear around you during Halloween [false/true|default:true]
+	enable_halloween_ghost = true
+	#Equips shield in priority when recovering your lost items [false/true|default:false]
+	equip_shield_in_priority = false
+	#Sorts the inventory by filling the last slots first [false/true|default:false]
+	reverse_inventory_sorting = false
 

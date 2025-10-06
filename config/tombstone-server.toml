@@ -1,29 +1,18 @@
 
 #Options related to player's death
 [player_death]
-	#Experience loss on death (%) (-1 = disabled) [-1..100|default:80]
-	#Range: -1 ~ 100
-	xp_loss = 80
 	#The time in minutes before a grave is unlocked to anyone (-1 = disabled) [-1..MAX|default:-1]
 	#Range: > -1
 	decay_time = -1
-
-#Miscellaneous options
-[general]
+	#Experience lost on death [0..100|default:95]
+	#Range: 0 ~ 100
+	xp_loss_on_death = 95
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	#Range: > 0
 	ghostly_shape_duration = 120
-	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
-	#Range: -1 ~ 100
-	chance_enchanted_grave_key = 0
-	#Defines the progression scale to be able to upgrade perks to higher level (based on the level in Knowledge of Death) [1..5|default:2]
-	#Range: 1 ~ 5
-	perk_progression_scale = 2
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Enables the enchantment Shadow Step [false/true|default:true]
-	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
 	enable_enchantment_soulbound = true
 	#Enables the enchantment Magic Siphon [false/true|default:true]
@@ -38,8 +27,6 @@
 	enable_enchantment_frostbite = true
 	#Allows Soulbound at enchanting table [false/true|default:false]
 	soulbound_enchanting_table = true
-	#Allows Shadow Step at enchanting table [false/true|default:false]
-	shadow_step_enchanting_table = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
 	magic_siphon_enchanting_table = false
 	#Allows Plague Bringer at enchanting table [false/true|default:false]
@@ -54,6 +41,14 @@
 	plague_bringer_combining_magic_siphon = false
 	#Allows Frostbite to combine with Fire Aspect [false/true|default:false]
 	frostbite_combining_fire_aspect = true
+	#Enables the enchantment Spectral Bite [false/true|default:true]
+	enable_enchantment_spectral_bite = true
+	#Enables the enchantment Spectral Conjurer [false/true|default:true]
+	enable_enchantment_spectral_conjurer = true
+	#Allows Spectral Bite at enchanting table [false/true|default:false]
+	spectral_bite_enchanting_table = true
+	#Allows Spectral Conjurer at enchanting table [false/true|default:false]
+	spectral_conjurer_enchanting_table = true
 
 #For settings related to magic items
 [magic_item]
@@ -71,22 +66,19 @@
 	tablet_cooldown = 300
 	#Prevents to craft Enchanted Grave Key [false/true|default:false]
 	disable_enchanted_grave_key_recipe = false
+	#Always enchant Grave's Key [false/true|default:false]
+	always_enchant_grave_key = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
 	#The cooldown in hours to pray with the Ankh [1..10|default:3]
 	#Range: 1 ~ 10
 	cooldown_to_pray = 3
-	#The cooldown in minutes to reset the perks with the ankh of Pray [20..1440|default:120]
-	#Range: 20 ~ 1440
-	cooldown_reset_perk = 120
 
 #Allows to disable some magic items
 [allowedMagicItems]
 	#Voodoo Poppet [false/true|default:true]
 	allow_voodoo_poppet = true
-	#Familiar Receptacle [false/true|default:true]
-	allow_familiar_receptacle = true
 	#Book of Disenchantment [false/true|default:true]
 	allow_book_of_disenchantment = true
 	#Scroll of Preservation [false/true|default:true]
@@ -145,12 +137,18 @@
 	allow_bag_of_seeds = true
 	#Magic Scroll [false/true|default:true]
 	allow_magic_scroll = true
-	#Familiar Stone [false/true|default:true]
-	allow_familiar_stone = true
-	#Merchant Stone [false/true|default:true]
-	allow_merchant_stone = true
-	#Prayer Stone [false/true|default:true]
-	allow_prayer_stone = true
+	#Receptacle of Familiar [false/true|default:true]
+	allow_receptacle_of_familiar = true
+	#Tablet of Guard [false/true|default:true]
+	allow_tablet_of_guard = true
+	#Gemstone of Familiar [false/true|default:true]
+	allow_gemstone_of_familiar = true
+	#Gemstone of Merchant [false/true|default:true]
+	allow_gemstone_of_merchant = true
+	#Gemstone of Prayer [false/true|default:true]
+	allow_gemstone_of_prayer = true
+	#Gemstone of Guardian [false/true|default:true]
+	allow_gemstone_of_guardian = true
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -158,4 +156,73 @@
 	fix_anvil_custom_name = true
 	#fix the RepairCost:0 added by the anvil & grindstone in nbt preventing theses items to stack [false/true|default:true]
 	fix_repair_cost_zero = true
+
+#Allows to customize or disable the potions
+[potions]
+	#Allows Earthly Garden [false/true|default:true]
+	allow_earthly_garden = true
+	#Allows Bait [false/true|default:true]
+	allow_bait = true
+	#Allows Frostbite [false/true|default:true]
+	allow_frostbite = true
+	#Allows Discretion [false/true|default:true]
+	allow_discretion = true
+	#Allows Restoration [false/true|default:true]
+	allow_restoration = true
+
+#Allows to customize or disable the perks
+[allowed_perks]
+	#Allows the perk Alchemist [false/true|default:true]
+	allow_alchemist = true
+	#Defines the level max of the perk Alchemist [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_alchemist = 5
+	#Allows the perk Concentration [false/true|default:true]
+	allow_concentration = true
+	#Defines the level max of the perk Concentration [1..3|default:3]
+	#Range: 1 ~ 3
+	level_max_concentration = 3
+	#Allows the perk Jailer [false/true|default:true]
+	allow_jailer = true
+	#Defines the level max of the perk Jailer [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_jailer = 5
+	#Allows the perk Memento Mori [false/true|default:true]
+	allow_memento_mori = true
+	#Defines the level max of the perk Memento Lori [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_memento_mori = 5
+	#Allows the perk Necromancer [false/true|default:true]
+	allow_necromancer = true
+	#Defines the level max of the perk Necromancer [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_necromancer = 5
+	#Allows the perk Rune Inscriber [false/true|default:true]
+	allow_rune_inscriber = true
+	#Defines the level max of the perk Rune Inscriber [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_rune_inscriber = 5
+	#Allows the perk Scribe [false/true|default:true]
+	allow_scribe = true
+	#Defines the level max of the perk Scribe [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_scribe = 5
+	#Allows the perk ShadowWalker [false/true|default:true]
+	allow_shadow_walker = true
+	#Defines the level max of the perk ShadowWalker [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_shadow_walker = 5
+	#Allows the perk Treasure Seeker [false/true|default:true]
+	allow_treasure_seeker = true
+	#Defines the level max of the perk Treasure Seeker [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_treasure_seeker = 5
+	#Allows the perk Witch Doctor [false/true|default:true]
+	allow_witch_doctor = true
+	#Defines the level max of the perk Witch Doctor [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_witch_doctor = 5
+	#The cooldown in minutes to reset the perks with the ankh of Prayer [20..1440|default:120]
+	#Range: 20 ~ 1440
+	cooldown_reset_perk = 120
 

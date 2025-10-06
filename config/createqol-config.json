@@ -3,5 +3,6 @@
   "inventoryLinker": true,
   "shadowRadiance": true,
   "proximitySchedule": true,
-  "displayBoardModification": true
+  "displayBoardModification": true,
+  "customBelts": true
 }

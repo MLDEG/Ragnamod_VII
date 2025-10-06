@@ -22,9 +22,21 @@
   },
   {
     "mob": [
-      "minecraft:bat", "minecraft:creeper", "minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:witch"
+      "minecraft:bat",
+      "minecraft:creeper",
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:spider",
+      "minecraft:witch"
     ],
     "biome": "evilcraft:degraded",
     "result": "deny"
+  },
+  {
+    "mob": [
+      "twilightforest:winter_wolf"
+    ],
+    "biome": "twilightforest:snowy_forest",
+    "result": "allow"
   }
 ]

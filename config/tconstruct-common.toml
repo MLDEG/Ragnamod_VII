@@ -15,6 +15,9 @@
 	showAllAnvilVariants = true
 	#If true, smeltery and foundry controllers, drains, ducts, and chutes will show all variants
 	showAllSmelteryVariants = true
+	#If true, extends the applicable slots for the fire protection enchantment to work better with shields. Will not impact gameplay with the vanilla enchantment.
+	#If false, fire protection on a shield will not reduce fire tick time.
+	extendFireProtectionSlots = true
 
 	#Tweaks to vanilla damage sources to better work with armor
 	[gameplay.damageTweaks]
