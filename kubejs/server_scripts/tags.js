@@ -216,6 +216,8 @@ onEvent('tags.items', e => {
     e.add('forge:wires/aluminum', 'ftbic:aluminum_wire')
     e.add('forge:cheese', ['thermal:cheese_wedge', 'croptopia:cheese', 'beyond_earth:cheese'])
     e.add('minecraft:wool_carpets', ['minecraft:black_carpet', 'minecraft:green_carpet', 'minecraft:blue_carpet', 'minecraft:cyan_carpet', 'minecraft:gray_carpet', 'minecraft:lime_carpet', 'minecraft:light_blue_carpet', 'minecraft:orange_carpet', 'minecraft:red_carpet', 'minecraft:brown_carpet', 'minecraft:purple_carpet', 'minecraft:light_gray_carpet', 'minecraft:pink_carpet', 'minecraft:yellow_carpet', 'minecraft:magenta_carpet', 'minecraft:white_carpet'])
+    e.add('forge:nuggets', 'ragnamod_seven:infinity_nugget')
+    e.add('forge:nuggets/infinity', 'ragnamod_seven:infinity_nugget')
     e.add('forge:nuggets/knightmetal', 'twilightforest:armor_shard')
     e.add('forge:ingots/knightmetal', 'twilightforest:armor_shard_cluster')
     e.add('forge:raw_materials/kepu', 'tinkers_reforged:raw_kepu')

@@ -1755,7 +1755,7 @@
 				"You can either use an existing Resonance of the Faceted Crystal ritual and build the multiblock needed to operate the Factory, or build the multiblock yourself using the requested blocks from the quest book"
 				""
 				"§5To see how to build this multiblock, simply put your bloc where you want it and check in JEI what recipe it can do."
-				"§5In the bottom left corner you have this icon (see below) click on it, and it will display ghost blocs."
+				"§5In the bottom left corner, you have this icon (see below) click on it, and it will display ghost blocks."
 				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: [
@@ -1935,7 +1935,7 @@
 				""
 				"You need to put a Blood Magic Agonizer or an EvilCraft Agonizer to tell your machine what kind of blood you want to farm (you can farm both at the same time)."
 				"{image:ftbquests:textures/quests/digital_mob_agonizer_quest.png width:150 height:100 align:1}"
-				"You need nonetheless a Blood Data Model and some Generalized Prediction to produce blood, and you can also upgrade your machine with addons (Speed (x8) and Bloody (x4))."
+				"You nonetheless need a Blood Data Model and some Generalized Prediction to produce blood, and you can also upgrade your machine with addons (Speed (x8) and Bloody (x4))."
 				""
 				"Inspired by \"Deep Mob Learning - Blood Magic Addon\""
 			]

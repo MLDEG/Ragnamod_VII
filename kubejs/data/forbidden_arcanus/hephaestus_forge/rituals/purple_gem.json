@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "gemsnjewels:amethyst",
+            "slot": 0
+        },
+        {
+            "item": "create:rose_quartz",
+            "slot": 1
+        },
+        {
+            "item": "gemsnjewels:morganite",
+            "slot": 2
+        },
+        {
+            "item": "gemsnjewels:kunzite",
+            "slot": 3
+        },
+        {
+            "item": "miningmaster:heart_rhodonite",
+            "slot": 4
+        },
+        {
+            "item": "botania:dragonstone",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
+    "essences": {
+        "aureal": 200,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ragnamod_seven:purple_gem",
+        "count": 1
+    }
+}

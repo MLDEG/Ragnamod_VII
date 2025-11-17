@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "miningmaster:unbreaking_iolite",
+            "slot": 0
+        },
+        {
+            "item": "gemsnjewels:tanzanite",
+            "slot": 1
+        },
+        {
+            "item": "miningmaster:dive_aquamarine",
+            "slot": 2
+        },
+        {
+            "item": "gemsnjewels:alexandrite",
+            "slot": 3
+        },
+        {
+            "item": "gemsnjewels:zircon",
+            "slot": 4
+        },
+        {
+            "item": "miningmaster:ice_sapphire",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
+    "essences": {
+        "aureal": 200,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ragnamod_seven:blue_gem",
+        "count": 1
+    }
+}

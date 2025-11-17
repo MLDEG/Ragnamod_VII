@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "gemsnjewels:emerald",
+            "slot": 0
+        },
+        {
+            "item": "ars_nouveau:experience_gem",
+            "slot": 1
+        },
+        {
+            "item": "gemsnjewels:peridot",
+            "slot": 2
+        },
+        {
+            "item": "blue_skies:diopside_gem",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:emerald",
+            "slot": 4
+        },
+        {
+            "item": "miningmaster:divine_beryl",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
+    "essences": {
+        "aureal": 200,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ragnamod_seven:green_gem",
+        "count": 1
+    }
+}

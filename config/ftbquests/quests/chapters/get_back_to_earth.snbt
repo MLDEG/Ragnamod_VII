@@ -83,6 +83,7 @@
 					id: "tinker_rapier:rapier_tic"
 					Count: 1b
 					tag: {
+						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:attack_speed": 2.75f
 							"tconstruct:mining_speed": 9.75f
@@ -116,7 +117,7 @@
 							"tconstruct:wood"
 						]
 						Damage: 0
-						tic_persistent_data: {
+						tic_volatile_data: {
 							abilities: 1
 							upgrades: 2
 						}
@@ -210,7 +211,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
-			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small 2x2 basin of water surrounded by flowers or mushrooms and throw it in. This will will open up a new dimension portal for you, which will be The Undergarden on this pack."]
+			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small 2x2 basin of water surrounded by flowers or mushrooms and throw it in. This will open up a new dimension portal for you, which will be The Undergarden on this pack."]
 			dependencies: [
 				"5CFDD2C9BF21A177"
 				"22556496826ED6BF"

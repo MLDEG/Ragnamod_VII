@@ -3512,7 +3512,7 @@
 			x: -1.5d
 			y: -3.0d
 			shape: "square"
-			description: ["The Advanced Neutron Collector works in the same way as a Neutron collector but collects 1 pile of Neutron every second!"]
+			description: ["The Advanced Neutron Collector works in the same way as a Neutron Collector but collects 1 pile of Neutron every second!"]
 			dependencies: ["60FD4D8FA17A53D7"]
 			id: "2BF92CD171D1B01A"
 			tasks: [{

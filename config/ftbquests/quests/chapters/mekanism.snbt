@@ -695,7 +695,7 @@
 			description: [
 				"he MekaSuit is a highly configurable set of late-game modular armor."
 				"Each part of the MekaSuit can be upgraded with Modules that are installed with the Modification Station."
-				"It's used to the End Game armor."
+				"It's used in the End Game armor."
 			]
 			dependencies: [
 				"0000000000000949"

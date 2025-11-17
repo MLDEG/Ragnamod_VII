@@ -31,8 +31,8 @@
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
 			"minecraft:magma_block": 800,
-			"minecraft:lava": 1000,
 			"powah:blazing_crystal_block": 1500,
+			"minecraft:lava": 1000,
 			"botania:blaze_block": 1250,
 			"mekanism:superheating_element": 2000,
 			"avaritia:infinity_block": 10000

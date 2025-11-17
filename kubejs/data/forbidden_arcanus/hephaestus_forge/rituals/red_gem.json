@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "gemsnjewels:garnet",
+            "slot": 0
+        },
+        {
+            "item": "miningmaster:spirit_garnet",
+            "slot": 1
+        },
+        {
+            "item": "gemsnjewels:spinel",
+            "slot": 2
+        },
+        {
+            "item": "redstone_arsenal:flux_gem",
+            "slot": 3
+        },
+        {
+            "item": "blue_skies:pyrope_gem",
+            "slot": 4
+        },
+        {
+            "item": "gemsnjewels:tourmaline",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
+    "essences": {
+        "aureal": 200,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ragnamod_seven:red_gem",
+        "count": 1
+    }
+}

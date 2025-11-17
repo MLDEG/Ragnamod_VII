@@ -82,4 +82,45 @@ onEvent('recipes', e => {
     "fluidLevelsConsumed": 1500
   })
 
+  //Ultimate Stew
+  e.custom({
+    "type": "hexerei:mixingcauldron",
+    "liquid": {
+      "fluid": "create_confectionery:caramel"
+    },
+    "ingredients": [
+      {
+        "item": "ragnamod_seven:infinity_shard"
+      },
+      {
+        "item": "farmersdelight:roasted_mutton_chops"
+      },
+      {
+        "item": "farmersdelight:pasta_with_meatballs"
+      },
+      {
+        "item": "farmersdelight:stuffed_pumpkin_block"
+      },
+      {
+        "item": "farmersdelight:shepherds_pie_block"
+      },
+      {
+        "item": "farmersdelight:nether_salad"
+      },
+      {
+        "item": "farmersdelight:squid_ink_pasta"
+      },
+      {
+        "item": "farmersdelight:hamburger"
+      }
+    ],
+    "output": {
+      "item": "avaritia:ultimate_stew"
+    },
+    "liquidOutput": {
+      "fluid": "undergarden:virulent_mix_source"
+    },
+    "fluidLevelsConsumed": 1000
+  })
+
 })

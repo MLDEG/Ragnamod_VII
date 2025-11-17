@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "tinkers_reforged:hureaulite_gem",
+            "slot": 0
+        },
+        {
+            "item": "miningmaster:kinetic_opal",
+            "slot": 1
+        },
+        {
+            "item": "miningmaster:lucky_citrine",
+            "slot": 2
+        },
+        {
+            "item": "gemsnjewels:topaz",
+            "slot": 3
+        },
+        {
+            "item": "gemsnjewels:citrine",
+            "slot": 4
+        },
+        {
+            "item": "miningmaster:power_pyrite",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
+    "essences": {
+        "aureal": 200,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ragnamod_seven:yellow_gem",
+        "count": 1
+    }
+}

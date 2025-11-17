@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "miningmaster:spider_kunzite",
+            "slot": 0
+        },
+        {
+            "item": "psi:psigem",
+            "slot": 1
+        },
+        {
+            "item": "mekanism:fluorite_gem",
+            "slot": 2
+        },
+        {
+            "item": "forbidden_arcanus:arcane_crystal",
+            "slot": 3
+        },
+        {
+            "item": "gemsnjewels:opal",
+            "slot": 4
+        },
+        {
+            "item": "gemsnjewels:pale_diamond",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
+    "essences": {
+        "aureal": 200,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ragnamod_seven:white_gem",
+        "count": 1
+    }
+}

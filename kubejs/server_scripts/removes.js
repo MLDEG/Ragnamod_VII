@@ -875,6 +875,9 @@ onEvent('recipes', e => {
         'pneumaticcraft:medium_tank',
         'pneumaticcraft:large_tank',
         'pneumaticcraft:huge_tank',
+        'avaritia:ultimate_stew',
+        'chickens:cooked_chicken_chicken',
+        'naturesaura:animal_spawner/sheep_white'
     ]
     removeId.forEach(C => { r(C) })
 })

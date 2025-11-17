@@ -203,6 +203,9 @@ onEvent('recipes', e => {
   //HOP Graphite Block
   e.shapeless('immersiveengineering:storage_hop_graphite', '9x immersiveengineering:ingot_hop_graphite')
   e.shapeless('9x immersiveengineering:ingot_hop_graphite', 'immersiveengineering:storage_hop_graphite')
+  //Infinity Ingots / Nuggets
+  e.shapeless('avaritia:infinity_ingot', '9x ragnamod_seven:infinity_nugget')
+  e.shapeless('9x ragnamod_seven:infinity_nugget', 'avaritia:infinity_ingot')
   //Black Lotus
   e.shaped('botania:black_lotus', ['AAA', 'ASA', 'AAA'], {
     S: 'psi:cad_colorizer_purple',

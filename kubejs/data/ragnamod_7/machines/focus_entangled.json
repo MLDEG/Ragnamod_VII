@@ -12,7 +12,16 @@
     "tool_type": "minecraft:mineable/pickaxe",
     "mining_level": "minecraft:needs_iron_tool",
     "requires_tool": true,
-    "shape": [[0, 0, 0, 1, 1, 1]],
+    "shape": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
     "running": {
       "block": "ragnamod_seven:machine/focus_entangled_running_model",
       "light": 10
@@ -61,11 +70,6 @@
     {
       "type": "custommachinery:item",
       "id": "output_focus_entangled",
-      "mode": "output"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "output_focus_entangled_box",
       "mode": "output"
     }
   ],
@@ -151,12 +155,6 @@
       "x": 155,
       "y": 30,
       "type": "custommachinery:slot"
-    },
-    {
-      "id": "output_focus_entangled_box",
-      "x": 155,
-      "y": 55,
-      "type": "custommachinery:slot"
     }
   ],
   "jei": [
@@ -238,12 +236,6 @@
       "id": "output_focus_entangled",
       "x": 155,
       "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output_focus_entangled_box",
-      "x": 155,
-      "y": 55,
       "type": "custommachinery:slot"
     }
   ],

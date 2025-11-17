@@ -2150,7 +2150,7 @@
 			y: 6.5d
 			shape: "square"
 			description: [
-				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocs."
+				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocks."
 				"Just put your Melter on top of your Heater."
 			]
 			dependencies: ["577D6202E19B2599"]
@@ -3722,7 +3722,7 @@
 			y: 1.5d
 			shape: "square"
 			description: [
-				"The Ignited Revenant is find in the Burning Arena, It's in this place you can fight also the Ignis."
+				"The Ignited Revenant is found in the Burning Arena. It's in this place you can fight also the Ignis."
 				"{image:ftbquests:textures/quests/cataclysm_ignited.png width:150 height:100 align:1}"
 			]
 			dependencies: ["577D6202E19B2599"]
@@ -4383,7 +4383,7 @@
 			x: 10.0d
 			y: 6.0d
 			shape: "hexagon"
-			description: ["The Creative Tinker's Crystal is used to craft Creative slot for Tinkers' Construct, it can also be used to get an Overpowered upgrade to your tools."]
+			description: ["The Creative Tinker's Crystal is used to craft Creative Slot for Tinkers' Construct, it can also be used to get an Overpowered upgrade to your tools."]
 			dependencies: [
 				"577D6202E19B2599"
 				"0000000000000418"

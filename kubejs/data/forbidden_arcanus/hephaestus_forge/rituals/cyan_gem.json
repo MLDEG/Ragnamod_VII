@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "byg:subzero_crystal_shard",
+            "slot": 0
+        },
+        {
+            "item": "blue_skies:moonstone",
+            "slot": 1
+        },
+        {
+            "item": "ae2:certus_quartz_crystal",
+            "slot": 2
+        },
+        {
+            "item": "gemsnjewels:aquamarine",
+            "slot": 3
+        },
+        {
+            "item": "occultism:soul_gem",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:diamond",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
+    "essences": {
+        "aureal": 200,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ragnamod_seven:cyan_gem",
+        "count": 1
+    }
+}
