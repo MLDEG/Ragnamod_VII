@@ -1343,7 +1343,7 @@
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"As explained in the previous quest, Drigmy can farm loot from all mobs for you, including Boos."
+				"As explained in the previous quest, Drigmy can farm loot from all mobs for you, including Bosses."
 				""
 				"A simple trick is to freeze the mobs in place using a Stasis Chamber (from Industrial Foregoing) so your Drigmy can peacefully drain the loot indefinitely from the frozen mobs."
 				"{image:ftbquests:textures/quests/stasis_x_drygmy.png width:150 height:100 align:1}"

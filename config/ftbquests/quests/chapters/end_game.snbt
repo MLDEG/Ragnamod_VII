@@ -1729,7 +1729,7 @@
 			x: -0.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "0D3E9B1E44049147"
 			tasks: [{
@@ -1747,7 +1747,7 @@
 			x: 0.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "3351005693BBE8EA"
 			tasks: [{
@@ -1765,7 +1765,7 @@
 			x: -0.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "799E84A83056DFFD"
 			tasks: [{
@@ -1783,7 +1783,7 @@
 			x: -1.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "3FC3221BB17D7FD0"
 			tasks: [{
@@ -1801,7 +1801,7 @@
 			x: -1.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "4A5D8EBD2CA0A09B"
 			tasks: [{
@@ -1819,7 +1819,7 @@
 			x: -2.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "07A845EA0BAF969C"
 			tasks: [{
@@ -1837,7 +1837,7 @@
 			x: -1.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "119286C25530DA48"
 			tasks: [{
