@@ -28,9 +28,9 @@
     "hephaestus_forge_item": "ragnamod_seven:infinity_nugget",
     "essences": {
         "aureal": 200,
-        "experience": 0,
-        "blood": 0,
-        "souls": 0
+        "experience": 10,
+        "blood": 10,
+        "souls": 1
     },
     "result": {
         "item": "ragnamod_seven:blue_gem",
