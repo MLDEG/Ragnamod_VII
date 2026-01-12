@@ -12,7 +12,16 @@
     "tool_type": "minecraft:mineable/pickaxe",
     "mining_level": "minecraft:needs_iron_tool",
     "requires_tool": true,
-    "shape": [[0, 0, 0, 1, 1, 1]],
+    "shape": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
     "running": {
       "block": "ragnamod_seven:machine/advanced_hephaestus_forge",
       "light": 10
@@ -31,7 +40,9 @@
       "id": "blood_tank",
       "maxInput": 10000,
       "maxOutput": 10000,
-      "filter": ["#forge:blood"],
+      "filter": [
+        "#forge:blood"
+      ],
       "whitelist": true
     },
     {
@@ -40,7 +51,9 @@
       "id": "experience_tank",
       "maxInput": 10000,
       "maxOutput": 10000,
-      "filter": ["#forge:experience"],
+      "filter": [
+        "#forge:experience"
+      ],
       "whitelist": true
     },
     {
@@ -49,56 +62,115 @@
       "id": "aureal_tank",
       "maxInput": 10000,
       "maxOutput": 10000,
-      "filter": ["ragnamod_seven:aureal"],
+      "filter": [
+        "ragnamod_seven:aureal"
+      ],
       "whitelist": true
     },
     {
       "type": "custommachinery:item",
       "id": "input_soul",
-      "filter": ["forbidden_arcanus:dark_soul"],
+      "filter": [
+        "forbidden_arcanus:dark_soul"
+      ],
       "whitelist": true,
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "input_0",
-      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "filter": [
+        "chickens:chicken_skin",
+        "forbidden_arcanus:arcane_crystal_block",
+        "hostilenetworks:machine_frame",
+        "minecraft:diamond",
+        "miniutilities:stable_ingot",
+        "forbidden_arcanus:dark_soul",
+        "ragnamod_seven:infinity_nugget"
+      ],
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "input_1",
-      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "filter": [
+        "chickens:chicken_skin",
+        "forbidden_arcanus:arcane_crystal_block",
+        "hostilenetworks:machine_frame",
+        "minecraft:diamond",
+        "miniutilities:stable_ingot",
+        "forbidden_arcanus:dark_soul",
+        "ragnamod_seven:infinity_nugget"
+      ],
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "input_2",
-      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "filter": [
+        "chickens:chicken_skin",
+        "forbidden_arcanus:arcane_crystal_block",
+        "hostilenetworks:machine_frame",
+        "minecraft:diamond",
+        "miniutilities:stable_ingot",
+        "forbidden_arcanus:dark_soul",
+        "ragnamod_seven:infinity_nugget"
+      ],
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "input_3",
-      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "filter": [
+        "chickens:chicken_skin",
+        "forbidden_arcanus:arcane_crystal_block",
+        "hostilenetworks:machine_frame",
+        "minecraft:diamond",
+        "miniutilities:stable_ingot",
+        "forbidden_arcanus:dark_soul",
+        "ragnamod_seven:infinity_nugget"
+      ],
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "input_4",
-      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "filter": [
+        "chickens:chicken_skin",
+        "forbidden_arcanus:arcane_crystal_block",
+        "hostilenetworks:machine_frame",
+        "minecraft:diamond",
+        "miniutilities:stable_ingot",
+        "forbidden_arcanus:dark_soul",
+        "ragnamod_seven:infinity_nugget"
+      ],
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "input_5",
-      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot", "forbidden_arcanus:dark_soul"],
+      "filter": [
+        "chickens:chicken_skin",
+        "forbidden_arcanus:arcane_crystal_block",
+        "hostilenetworks:machine_frame",
+        "minecraft:diamond",
+        "miniutilities:stable_ingot",
+        "forbidden_arcanus:dark_soul",
+        "ragnamod_seven:infinity_nugget"
+      ],
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "input_center",
-      "filter": ["chickens:chicken_skin", "forbidden_arcanus:arcane_crystal_block", "hostilenetworks:machine_frame", "minecraft:diamond", "miniutilities:stable_ingot"],
+      "filter": [
+        "chickens:chicken_skin",
+        "forbidden_arcanus:arcane_crystal_block",
+        "hostilenetworks:machine_frame",
+        "minecraft:diamond",
+        "miniutilities:stable_ingot",
+        "ragnamod_seven:infinity_nugget"
+      ],
       "whitelist": true,
       "mode": "input"
     },
