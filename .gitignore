@@ -42,6 +42,7 @@
 /screenshots/
 /spark/
 /psd
+/user-prefs.json
 /usercache.json
 /usernamecache.json
 /TrashSlotSaveState.json
@@ -49,8 +50,6 @@
 /servers.dat_old
 /reauth.toml
 /rhino.local.properties
-/hs_err_pid16216.log
-/hs_err_pid20816.log
 /.curseclient
 /techresourcesTextures/
 /tconplanner/
